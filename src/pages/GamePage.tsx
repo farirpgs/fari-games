@@ -34,12 +34,12 @@ export function GamePage() {
         {chapter && (
           <div>
             <Helmet>
-              <title>{chapter.documentData?.title}</title>
+              <title>{chapter.data?.title}</title>
             </Helmet>
-            {chapter.documentData?.image && (
+            {chapter.data?.image && (
               <Box mb="1rem">
                 <img
-                  src={chapter.documentData?.image}
+                  src={chapter.data?.image}
                   className={css({
                     width: "100%",
                   })}
@@ -93,7 +93,7 @@ export function GamePage() {
                 },
               })}
               dangerouslySetInnerHTML={{
-                __html: chapter?.chapterHtml,
+                __html: chapter?.html,
               }}
             />
             <Box mt="1rem" />
@@ -114,12 +114,12 @@ export function GamePage() {
     return (
       <Grid container spacing={1} justifyContent="space-between">
         <Grid item>
-          {chapter.previous.id && (
+          {chapter.previousChapter.id && (
             <ReactRouterLink
-              to={`/game/${gameSlug}/${chapter.previous.id}`}
+              to={`/game/${gameSlug}/${chapter.previousChapter.id}`}
               className={css({ color: "inherit", textDecoration: "none" })}
             >
-              <Button color="inherit">« {chapter.previous.text}</Button>
+              <Button color="inherit">« {chapter.previousChapter.text}</Button>
             </ReactRouterLink>
           )}
         </Grid>
