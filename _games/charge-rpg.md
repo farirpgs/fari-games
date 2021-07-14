@@ -1,0 +1,482 @@
+---
+title: Charge RPG -- Power Your Story Telling
+author: René-Pier Deshaies-Gélinas
+image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
+---
+<!-- 
+# Charge RPG - Power Your Story Telling
+
+TODO:
+
+- [ ]  Aspects Text
+- [ ]  Rolls
+- [ ]  Talents
+- [ ]  Progression
+- Table of Content
+
+--- -->
+
+# Introduction
+
+First, thank you.
+
+If you are reading this, it means you are somewhat interested in this game, and this means a lot to us, so thanks. 
+
+You're amazing, that's as simple as that.
+
+Now, one of the first thing you probably want to know is: **who is this game for ?**
+
+This should be relatively easy to answer, as this was one of the first question we tried to answer:
+
+> This game is for people who want to play a generic and narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to try to get there.
+
+In a nutshell, you could say it's a cross-breed between the Fate System and Forged in the Dark System. Both those game systems are amazing, and you should definitely check them out. 
+
+This game would not exist without them. 
+
+Some rules from Fate and Forged in the Dark were borrowed, others were renamed or adapted. The reason some mechanics were renamed is mostly to make things easier to understand and to make the language barrier less of an issue for people where English might not be their primary language (like us)
+
+There are some dials and hacks inside this book to make the game more to your liking, either by making it fit either a more realistic setting or to crank things up where the characters are larger than life.
+
+### Goals
+
+Here's specifically what this game is trying to solve with its rules and mechanics
+
+You will probably like this game if: 
+
+- you like narrative focused systems
+- you like that you can play in any settings
+- you generally think that failure is more interesting than success
+- you liked playing Fate or any Forged in the Dark games
+
+We hope you have fun with this, because we sure had fun writing it and playing it.
+
+Now let's get to it!
+
+## What You Need To Play
+
+To play [GAME_NAME], you will need:
+
+- Copies of the [Charge RPG Character Sheet](https://www.notion.so/Charge-RPG-Character-Sheet-93a432d8db7c4642a1a344b34cc40f88)
+- A pile of index cards
+- A set of six sided dice. At least 6 would be ideal.
+- A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that would be quite an endeavour.
+
+# Getting Started
+
+[GAME_NAME] is a generic table-top role-playing game. That means that you and your friends will get together, and tell an interactive story about a group of fictional character you will create. Those characters will face obstacles and challenges, and you get to decide how they react. The world then changes based on what the characters do.
+
+## Game Master & Players
+
+One person in the group will need to act as the **Game Master**, or GM. The GM is responsible for the world and the characters that live in it that aren't played by other people at the table.
+
+The rest of the group will be **players**. The players will create a character that will experience compelling stories inside this world. We call those player characters, or PC
+
+While the GM is usually the main person in charge of the way the world evolves, everyone at the table is in charge of the story.
+
+This isn't a "GM versus Players" or "GM is god" kind of deal. If playing this game was like making a movie, the **GM would be the director** and all the **players would be writers**.  It's like if all the players and the GM were in a writing room and everyone was contributing to make the story successful and captivating.
+
+## Game Structure
+
+Everything inside [GAME_NAME] is collaborative. 
+
+You choose a setting together, you create your characters together, and you make that world evolve together.
+
+> **Safety Tools**
+—
+If at any point during a game something doesn't click with someone at the table, the game needs to be paused and things need to be aligned and discussed so that **everyone is on the same page** 
+
+One way the GM can help make the table safer for everyone is by using safety tools like the **X-Card** or **Script Change RPG Toolbox**. 
+
+This is super important and should not be taken lightly. Everyone at the table should feel safe and comfortable.
+
+Each time you and your friends meet to play [GAME_NAME] is a **Session** which can last between 1 to 4 hours or even more. The amount of time each Session is going to take depends on a lot of factors. 
+
+Each group can play very differently, as some might take their time while others might want to rush into things head on, but it also depends on people availability. 
+
+> **RPG Etiquette**
+—
+Remember to be empathetic of people's schedule and responsibilities. Show up on time and take the amount of gameplay time what you can get. 
+
+Then, patiently wait until the next session and praise the good things that hapenned in the last one.
+
+Each session is made of **Scenes**, like in a movie.Each scene then plays out as a bunch of back and forth between the GM and the players.
+
+The players will make their characters try to accomplish certain goals, and the GM will make the world react to those actions depending on the outcome which is partially controlled by chance and the character's proficiencies.
+
+# Creating a Character
+
+As a player, you will need to create a **character**.
+
+Your character will be defined by certain traits that we call **Aspects**, it can also do certain **Actions** in the world, but failing to do said action can affect their **Vitals**. Aspects are a good way to make your characters unique, but [GAME_NAME] uses **Talents** to make each character shine in their own way.
+
+Let's go over what all of this means.
+
+## Aspects
+
+**Aspects** are short phrases used to describe something important about what ever it's attached to. Aspects can be associated with the world, with a particular scene or in this case, a character.
+
+The first thing to know about them is that **Aspects are true**. If you character has an aspect that says `Fire Magician` , well they are a Fire Magician. As simple as that.
+
+You will use aspects in play to affect the world. They give you permission to improve the situation for your character or even your dice rolls.
+
+> **Aspects are Always True**
+That means that aspects can grant or withdraw permission for what can happen in the story. If XYA, the GM (and everyone else) has to respect that. The XYA has lost permission to XYA until something happens which removes that aspect or if it becomes irrelevant. Similarly, if you have Cybernetically Enhanced Legs, you’ve arguably gained permission to leap over walls in a single bound without even having to roll for it.
+
+That’s not to say you can create any aspect you want and use its truth like a club. Aspects grant a lot of power to shape the story, yes, but with that power comes the responsibility to play within the story’s constraints. Aspects have to line up with the table’s sense of what actually passes muster. If an aspect doesn’t pass the sniff test, it needs to be reworded.
+
+Characters have 5 aspects, where each aspect represents a certain trait about your character.
+
+### Core Concept
+
+Your core concept is a broad description of the character, covering the vital bits. It’s how you would open your pitch for the character when telling a friend about them.
+
+### Trouble
+
+Next is your character’s trouble—something that makes your character’s life more complicated. It could be a personal weakness, family entanglements, or other obligations. Pick something you’ll enjoy roleplaying!
+
+### Relationship
+
+Your **relationship** describes a connection with another PC. They may already know one another, or have just met.
+
+Good relationship aspects should introduce or hint at conflict, or at least an imbalance that gives the relationship a little momentum. This doesn’t mean they are openly antagonistic, but they shouldn’t be all roses either.
+
+If you wish, you can wait to write down relationship aspects until everyone has more or less completed their characters
+
+### Other Aspects
+
+You can make your character’s last two aspects anything you want—there are no restrictions beyond the obligation to fit the setting. Choose anything which you think will make your character more interesting, more fun to play, or better connected to the world they occupy.
+
+## Actions
+
+If a player character wants to do something that's challenging or could potentially fail, we make a **roll.** Failure is possible if there is some sort of obstacle to overcome, like something that's in your way or somebody looking to stop you. 
+
+Perhaps time is of the essence, someone is actively trying to harm you or someone simply doesn't want to give you the information you are looking for.
+
+That being said, not every interaction with the world requires a roll. If the action the character is doing  is something that we’d expect them to simply accomplish, then you don't roll anything. They simply accomplish what they are doing.
+
+In [GAME_NAME], there are 12 actions that characters can do. When creating your character, you need to **distribute 7 action dots** among those 12 actions. Those dots represent how good you are at doing some actions. As the game progress, you will gain additional dots that you will use to make your character get better at things over time.
+
+The 12 actions are regrouped in 3 categories or **Attributes**. We have **Prowess**, **Insight** and **Resolve**. Each **Attribute** important in its own way, since they let you resist different types of danger when things go sour.
+
+More on that later, for now let's look at the 12 different types of actions.
+
+### The 12 Actions
+
+## Vitals
+
+The Vitals section of your character sheet contains two different mechanism to represent how your character is doing and how far they can keep going: **Stress** & **Harm**.
+
+### Stress
+
+The Stress bar contains 9 slots and act as a pacing mechanism for the game. 
+
+It regroups things like the physical or mental stress your character is under, but also could be seen as their Luck pool. 
+
+When you are out of Stress slots, things can go bad pretty quickly for your character. The nice thing is that you are 100% in control of your Stress pool. You decide when you want to spend it.
+
+In [GAME_NAME] you consume stress to do things like:
+
+- Add `1d6` to your action dice pool
+- Assist an ally by adding `1d6` to their action
+- Increase the effect of an outcome
+- Resist something bad happening to you
+- Lead a group roll
+- and more.
+
+Stress can be consumed, but also can be recovered. More on that in the Mechanics/Vitals section below.
+
+It truly is a precious resource that needs to be managed carefully, but once you are out, you character may be put in **Harm**'s way.
+
+### Harm
+
+When your character faces dangerous challenges and fail, something bad happens. Maybe the situation is more complicated or even perilous. The alternative to this is that you get hurt. The Harm section of the character sheet is there to track the later.
+
+When you get hurt, you need to take 1 Harm. That means you need to fill up the lowest available Harm track with an **Aspect** describing what happened to you. There are three levels of harm: **Mild**, **Moderate**, **Severe**.
+
+> - **Mild Harm** doesn't require immediate medical attention. It might be that you are exhausted, humiliated, tired, sore, winded, sick, etc.
+- **Moderate Harm** represent fairly serious impairments that require dedicated effort toward recovery. It might be that you got shot or slashed, have a first degree burn or are completely drunk.
+- **Severe Harm** require you to go straight to the emergency room (or whatever the equivalent is in your game)—they’re extremely nasty and prevent you from doing a lot of things. It might be that you got a second degree burns, your leg is fractured or your guts are hanging out.
+
+Since Harm Slots are **Aspects** and aspects are true, your character just got withdrew their permission to do certain things. For example, it's very hard to climb a house when your ankle is twisted.  
+
+Not just that, but each level of harm has its own negative mechanical effect on your character and their actions.
+
+> - **Mild Harm**: 2 slots available. Reduces the effect of your rolls
+- **Moderate Harm**: 1 slot available. Removes 1d6 to your dice pool.
+- **Severe Harm**: You need help, and you can't go on. You need immediate medical assistance
+
+## Talents
+
+```jsx
+TBD...
+```
+
+# Mechanics
+
+[GAME_NAME] is a "story first" kind of game. You first tell the story, and look at the rules afterwards to see if something needs to happen on the mechanics side.
+
+The mechanics are there to help you resolve situation where you basically don't know the direct answers to a question. Will this character find what they are looking for, can this character convince this merchant to talk, how will this faction react to this big event, etc.
+
+## Rolling Dice
+
+[GAME_NAME] uses six-sided dice. You roll several at once and read the **single highest result**.
+
+- If the highest die is a **6**, it’s a **full success**—things go well. If you roll more than one **6**, it’s a **critical success**—you gain some additional advantage.
+- If the highest die is a **4 or 5**, that’s a **partial success**—you do what you were trying to do, but there are consequences.
+- If the highest die is **1-3**, it’s a **bad outcome**. Things go poorly. You probably don’t achieve your goal, and you suffer complications, too.
+
+The number of dice a player rolls depends on the **action** they are trying to accomplish. In [GAME_NAME], there are **12 possible actions** grouped in **3 distinct attributes**.
+
+Those actions are linked to a **dice pool**, represented by dots on the character sheet. 
+
+If an action has 1 darkened dots beside its name, it means that you get to roll `1d6` and pick the best one out of the two. This gives you about 50% chance of succeeding your action.
+
+### No Action Dots
+
+If an action doesn't have any action dots darkened beside its name, then you get to roll `2d6` and **pick the worst**. This gives you around 25% chance of success, so the odds aren't necessarily in your favour.
+
+If you don't want to do this, that is totally up to you. You can always ask for help or invoke an aspect. More on that later.
+
+For now, let's take a look at the different tools that you can use to drive the story you want to tell.
+
+## Overcome An Obstacle
+
+You want to try to accomplish a goal, but something or someone is in your way. 
+
+A person might be keeping information private that you need so desperately, a locked door might block you from moving forward to save your friend, or a group of thug intercept you in an alley and want revenge for something you've done to them in the past.
+
+That's a challenge that needs to be overcome. 
+
+The first step in knowing if you succeed at overcoming that challenge is to know what PC is doing
+
+### Action
+
+When you roll to overcome an obstacle, you need to know which of the **12 Actions** the PC is going for. Are they Bonding with a local merchant, or Convincing them that their prices are too high ?
+
+The action you pick doesn't necessarily need to be the "best one", but it will have a direct impact on the Effect your roll might have. For each Action Dot you have beside the chosen action, add `1d6` to your dice pool.
+
+But before you roll your dice pool, you need to understand the position you're in.
+
+### Position
+
+When you try to overcome an obstacle, you are in either in a **controlled, risky** or **desperate** position. In most common scenarios, if you are rolling to overcome something, you are probably in a **risky** position.
+
+Multiple things can affect your current position. You may be vastly outnumbered, or perhaps you are just out of time. The narrative context will help you decide what's your current position.
+
+> **What Position to Pick**
+—
+If you aren't sure what's your current situation, talk with the rest of the table. A quick discussion is usually enough to clear things up.
+
+Your position is there to help you determine what failure might look like, and once you know your current position, you need to look at the possible outcomes of the Action and which Effect they might end up creating.
+
+### Effect
+
+Your position isn't the only thing helping you dictate the end result of a roll. Even in a desperate position, succeeding on a roll might still have a great effect on the narrative. 
+
+In [GAME_NAME], there are 3 possible effects rating: **great**, **standard** or **limited**. In most common scenarios, if you are rolling to overcome something, you are probably looking at generating a **standard** effect.
+
+If a heavy door is blocking your way, you could use Finesse to pick the lock. 
+
+This might be generating a **standard effect**, since it will take some time to do, but it's a more **controlled position**. You could also try to use Tinker and wreck the door open with an explosive. This will be of **great effect**, but might be a **desperate move**, since it might create a lot of unwanted attention.
+
+The Effect Rating is there to help you determine what success might look like.
+
+> **Effect Impact
+—**
+The effect rating guides us about what happens on the narrative, but it also has a mechanical impact on the game. 
+
+If an Overcome roll is expected to have an effect on a Progress Clock, it would
+- A **Great** effect would tick **3 clock segments**.
+- A **Standard** effect would tick **2 clock segments**.
+- A **Limited** effect would tick **1 clock segment**.
+
+Now that you know what Action is being rolled, what is the Position and the Effect of the situation, it's time to look at evening the odds.
+
+### Even the Odds
+
+If you want, you can Even the Odds by using one of the following approaches:
+
+> - **Push yourself**. Add `1d6` to your pool or increase the Effect Rating by one. 
+This consumes 2 stress.
+- **Ask for Help**. Add `1d6` to your pool or increase the Effect Rating by one.
+That generous soul needs to consume 1 stress.
+
+When you Push yourself, try to look at the current Aspects on the scene or on your character sheet to see if there's an aspect that might help you explain what "pushing yourself" means in the story.
+
+You could also use an Asset to explain this, but more on that later.
+
+### Recap
+
+That was quite a bit of information, so let's do a quick recap of what happens when you roll.
+
+> **In a Nutshell**
+—
+- Pick an Action and find how many dice you need to roll
+- Determine the Position (**controlled, risky, or desperate**)
+- Determine the Effect Rating  (**great, standard or limited**)
+- Push yourself (-2 stress) and possibly ask for help (they take -1 stress) for up to `+2d6`
+- Roll and wish for the best!
+
+*Gabriel's character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it's a **Risky position** since the guard might not be alone, but the outcome would be of **great effect** because the guard isn't on high alert. Gabriel doesn't want to leave everything up to chance, and decides to even the odds. He sees an aspect on the scene, "Flooded Basement", and says that his character will **push themselves** to get an additional 1d6 by diving in the water to get into a better position before taking the guard out.*
+
+---
+
+## Create an Asset
+
+Not everything is an obstacle that needs to be overcome. Sometimes, you want to set yourself up for success by not leaving everything up to chance. 
+
+In [GAME_NAME] we call this Creating an Asset. This 
+
+```jsx
+create an aspect, adds an "aspect" on the scene. 
+asset can be use at any point before a roll to: add 1d6, increase the situation or outcome
+```
+
+## Fortune Roll
+
+```jsx
+The GM can make a fortune roll to disclaim decision making 
+and leave something up to chance. 
+How loyal is an NPC? How much does the plague spread? 
+How much evidence is burned before the constables kick in the door?
+```
+
+## Resistance Roll
+
+```jsx
+A player can make a resistance roll when their character 
+suffers a consequence they don’t like. 
+The roll tells us how much stress their character 
+suffers to reduce the severity of a consequence. 
+When you resist that “Broken Leg” harm, you take some stress and now 
+it’s only a “Sprained Ankle” instead.
+```
+
+## Recovery Rolls
+
+```jsx
+when there is down time, roll 2d6 to clear stress
+Critical: Recover all stress
+Otherwise, recover `n` amount of stress
+
+When you find a doctor or healer, 
+they roll the amount of dice that represent their effect level.
+
+If you have a healer if you group, roll tinker.
+If you want to heal yourself, take two stress and roll tinker.
+
+Critical: Clear all harm
+6: Clear two levels of harm
+4/5: Clear one level of harm
+1-3: Clear level 1 harm only
+```
+
+## Team Work
+
+### Assist
+
+When you assist another player who’s rolling, describe what your character does to help. Take 1 stress and give them **+1d** to their roll. You might also suffer any consequences that occur because of the roll, depending on the circumstances. Only one character may assist a given roll. If you really want to help and someone else is already assisting, consider performing a **setup** maneuver instead.
+
+A character may assist a group action, but only if they aren’t taking part in it directly. You decide which character in the group action gets the bonus die.
+
+### Lead a Group Action
+
+When you lead a group action, you coordinate multiple members of the team to tackle a problem together. Describe how your character leads the team in a coordinated effort. Do you bark orders, give subtle hand signals, or provide charismatic inspiration?
+
+Each player character who’s involved makes an **action roll** (using the same action) and **the team counts the single best result** as the overall effort for everyone who rolled. However, the character leading the group action takes **1 stress** for each PC that rolled **1-3** as their best result.
+
+> This is how you do the “we all sneak into the building” scene. Everyone who wants to sneak in rolls their Sneak action, and the best result counts for the whole team. The leader suffers stress for everyone who does poorly. It’s tough covering for the stragglers.
+
+**The group action result covers everyone who rolled.** If you don’t roll, your character doesn’t get the effects of the action.
+
+### Protect
+
+You step in to face a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Describe how you intervene.
+
+> This is how you do the “I’ll dive in front of the bullet” You cover for a teammate, suffering any harm or consequences that still linger after you’ve rolled to resist. It hurts, cost stress, and may leave you in a bad spot. But hey, you’re a hero.
+
+## Progress Clocks
+
+```jsx
+find better name, copy things from FitD
+```
+
+## Progression
+
+```jsx
+minor milestone => rename aspect ?
+major milestone => add an action dot, rename aspect ?
+```
+
+# Extras
+
+The content of the previous chapter contained every core rules to play [GAME_NAME]. With this, you are fully equipped to have a really fun time playing either just a short one shot or a full-fledged year spanning campaign.
+
+This next chapter is about **Extras**. 
+
+[GAME_NAME] Extras are additional mechanics that you can add in your games to mimic certain types of gameplay.
+
+## Loot
+
+> For games that are about survival or want to resemble the Looter and Shooter genre.
+
+The Loot Extra is an additional mechanic that mixes the Asset and Fortune rolls to give you the chance to find good loot that have a mechanical impact on the game when you scavenge a place.
+
+After a conflict between multiple parties is resolved or when the general tension in a scene is reduced, you can do a **Fortune Roll** with **Survey** to find good loot or to scavenge the place.
+
+Only with a true success will a Loot Roll create a new Asset. If you are lucky, take note of this **one time use Asset** on your character sheet and use it when the time is right like a normal asset to get an additional `1d6` or increase the effect of a roll.
+
+If more than one player is scavenging, you can do a group roll using the **Lead a Group** Action mechanic. 
+
+>>>>> ⚠️  Gotta test the balance on this  ⚠️
+
+> **Loot Roll**
+—
+- Roll **Survey**.
+  - On a 1-5: nothing happens.
+  - On a 6: You create an Asset that the group can use.
+  - On a Critical (66): You create two assets that the group can use.
+- If an Asset was created, take note of it on someone's character sheet.
+
+### Using Loot
+
+When you create an Asset using the Loot Extra, the Asset can be used by anyone in the group, as long as it makes sense in the narrative.
+
+## [[Extra]]
+
+## [[Extra]]
+
+# Game Creation
+
+# The Game Master
+
+```jsx
+Talk about picking a good setting
+```
+
+# Creating a Campaign
+
+```jsx
+Talk about Big Bad Agenda => Ambition => goals => tactics but rephrase
+Talk about
+```
+
+# Hack It!
+
+```jsx
+Talk about default hack rules
+Talk about how to hack rules
+```
+
+# Licence
+
+Creative Commons Attribution (CC-BY)
+
+# Credits
+
+This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](http://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
+
+This work is based on Fate Core System and Fate Accelerated Edition (found at http://www.faterpg.com/), products of Evil Hat Productions, LLC, developed, authored, and edited by Leonard Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks, and Rob Donoghue, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
+
+This work is based on Fate Condensed (found at http://www.faterpg.com/), a product of Evil Hat Productions, LLC, developed, authored, and edited by PK Sullivan, Lara Turner, Leonard Balsera, Fred Hicks, Richard Bellingham, Robert Hanz, Ryan Macklin, and Sophie Lagacé, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
