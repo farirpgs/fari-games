@@ -15,8 +15,8 @@ const darkPalette: PaletteOptions = {
 const lightPalette: PaletteOptions = {
   mode: "light",
   background: {
-    // default: "#141c26",
-    // paper: "#1f2834",
+    default: "#fafafa",
+    paper: "#fff",
   },
 };
 

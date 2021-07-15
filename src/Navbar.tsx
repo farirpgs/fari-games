@@ -7,10 +7,15 @@ import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
-import { useTheme } from "@material-ui/core/styles";
+import { Breakpoint, useTheme } from "@material-ui/core/styles";
+import { useLocation, useRouteMatch } from "react-router-dom";
 
 export function Navbar() {
   const theme = useTheme();
+  const location = useLocation();
+  const maxWidth: Breakpoint | undefined = location.pathname.startsWith("/game")
+    ? "xl"
+    : undefined;
   return (
     <Box
       className={css({
@@ -18,9 +23,10 @@ export function Navbar() {
         background: theme.palette.background.paper,
         height: "6rem",
         marginBottom: "2rem",
+        boxShadow: theme.shadows[4],
       })}
     >
-      <Container className={css({ height: "6rem" })}>
+      <Container maxWidth={maxWidth} className={css({ height: "6rem" })}>
         <Grid
           container
           spacing={2}
@@ -39,9 +45,13 @@ export function Navbar() {
                   className={css({ color: "inherit", textDecoration: "none" })}
                 >
                   <Button color="inherit">
-                    <Typography variant="h5" fontWeight="bold">
-                      Fari Games
-                    </Typography>
+                    <img
+                      src="/images/app.png"
+                      title="Fari Games"
+                      className={css({
+                        height: "3rem",
+                      })}
+                    ></img>
                   </Button>
                 </ReactRouterLink>
               </Grid>

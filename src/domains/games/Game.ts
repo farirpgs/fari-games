@@ -1,14 +1,14 @@
 import kebabCase from "lodash/kebabCase";
-import remark from "remark";
-import html from "remark-html";
-export type IDerp = {
+import { Markdown } from "./Markdown";
+export type IChapterListItem = {
   id: string;
   text: string | null;
 };
+
 export type IChapter = {
   html: string;
   data: Record<string, string>;
-  chapters: Array<IDerp>;
+  chapters: Array<IChapterListItem>;
   chapterToc: Array<{
     id: string;
     text: string;
@@ -23,16 +23,18 @@ export type IChapter = {
     text: string | null;
   };
 };
-// heading hierarchy from html
+
+const GameImporters: Record<string, () => Promise<typeof import("*?raw")>> = {
+  "charge-rpg": () => import("../../../_games/charge-rpg.md?raw"),
+} as const;
 
 export const Game = {
   async getGameContent(game: string) {
-    const { default: fileContent } = await import(
-      `../../../_games/${game}.md?raw`
-    );
+    const { default: fileContent } = await GameImporters[game]();
+    // const fileContent = await fetch(url).then((r) => r.text());
 
     const data = parseFrontMatter(fileContent);
-    const html = await markdownToHtml(fileContent);
+    const html = await Markdown.toHtml(fileContent);
 
     const dom = document.createElement("div");
     dom.innerHTML = html;
@@ -78,7 +80,7 @@ export const Game = {
 
     const elements = getAllNextSiblingUntilSelector(
       currentChapterHeading,
-      `#${nextChapter.id}`
+      nextChapter ? `#${nextChapter.id}` : undefined
     );
     let chapterHtml = "";
     elements.forEach((e) => {
@@ -109,7 +111,7 @@ export const Game = {
 
 function getAllNextSiblingUntilSelector(
   elem: Element | undefined | null,
-  selector: string
+  selector: string | undefined
 ) {
   if (!elem) {
     return [];
@@ -119,38 +121,18 @@ function getAllNextSiblingUntilSelector(
   let currentElement = elem?.nextElementSibling;
 
   while (currentElement) {
-    if (currentElement.matches(selector)) break;
-
-    siblings.push(currentElement);
-
-    currentElement = currentElement.nextElementSibling;
+    if (selector) {
+      if (currentElement.matches(selector)) {
+        break;
+      }
+      siblings.push(currentElement);
+      currentElement = currentElement.nextElementSibling;
+    } else {
+      siblings.push(currentElement);
+      currentElement = currentElement.nextElementSibling;
+    }
   }
-
   return siblings;
-}
-
-async function markdownToHtml(markdown: string) {
-  const result = await remark().use(html).process(markdown);
-  return result.toString();
-}
-
-// function that returns all heading with their depth from a markdown document
-// https://stackoverflow.com/questions/15785719/get-all-headings-in-a-markdown-file
-function parseMarkdown(markdown: string) {
-  const headingRegex = /^(#+)\s*(.*)$/gm;
-  const headings = [];
-  let match;
-
-  while ((match = headingRegex.exec(markdown)) !== null) {
-    const level = match[1].length;
-    const text = match[2];
-    headings.push({
-      level,
-      text,
-    });
-  }
-
-  return headings;
 }
 
 function parseFrontMatter(markdown: string): Record<string, string> {
@@ -178,9 +160,10 @@ function getTableOfContent(html: string) {
   dom.querySelectorAll("h2,h3,h4,h5,h6").forEach((h) => {
     const id = h.id;
     const level = h.tagName.split("H")[1];
-    const text = h.textContent ?? "";
+    const text = h.textContent?.split("#").join("") ?? "";
     tableOfContent.push({ id, text, level: parseInt(level, 10) });
   });
+
 
   return tableOfContent;
 }

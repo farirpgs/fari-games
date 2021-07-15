@@ -4,12 +4,7 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    reactRefresh(),
-    // legacy({
-    //   targets: ["defaults", "not IE 11"],
-    // }),
-  ],
+  plugins: [reactRefresh()],
 
   server: {
     open: true,
