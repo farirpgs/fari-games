@@ -18,7 +18,7 @@ export function HomePage() {
     <>
       <Container>
         <Box mb="2rem">
-          <Typography variant="h3">Home</Typography>
+          <Typography variant="h1">Our Games</Typography>
         </Box>
         <ReactRouterLink
           to="/game/charge-rpg"

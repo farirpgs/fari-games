@@ -1,7 +1,7 @@
 import { css } from "@emotion/css";
 
 import React, { useEffect, useState } from "react";
-import { useRouteMatch } from "react-router-dom";
+import { useLocation, useRouteMatch } from "react-router-dom";
 import { ReactRouterLink } from "../components/ReactRouterLink";
 import { Game, IChapter } from "../domains/games/Game";
 import { Helmet } from "react-helmet-async";
@@ -10,6 +10,7 @@ import Container from "@material-ui/core/Container";
 import Divider from "@material-ui/core/Divider";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
+import MenuIcon from "@material-ui/icons/Menu";
 import { useTheme } from "@material-ui/core/styles";
 import MenuList from "@material-ui/core/MenuList";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -17,13 +18,29 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Typography from "@material-ui/core/Typography";
 import Hidden from "@material-ui/core/Hidden";
 import Stack from "@material-ui/core/Stack";
+import Collapse from "@material-ui/core/Collapse";
+import Drawer from "@material-ui/core/Drawer";
+import IconButton from "@material-ui/core/IconButton";
 
 export function GamePage() {
   const match = useRouteMatch<{ game: string; chapter: string }>();
   const gameSlug = match.params.game;
   const chapterSlug = match.params.chapter;
   const [chapter, setChapter] = useState<IChapter>();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const theme = useTheme();
+
+  const location = useLocation();
+  useEffect(() => {
+    if (!location.hash) {
+      return;
+    }
+    const scrollElement = document.querySelector(location.hash);
+    // scroll to the element if it exists
+    if (scrollElement) {
+      scrollElement.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location.hash]);
 
   useEffect(() => {
     load();
@@ -57,11 +74,60 @@ export function GamePage() {
                 </Grid>
               </Hidden>
             </Grid>
+            {renderMobileMenuBar()}
+            <Drawer
+              anchor="bottom"
+              open={mobileMenuOpen}
+              classes={{
+                paper: css({
+                  top: "5rem !important",
+                }),
+              }}
+              onClose={() => {
+                setMobileMenuOpen(false);
+              }}
+            >
+              <Box p="2rem">{renderChapters()}</Box>
+            </Drawer>
           </div>
         )}
       </Container>
     </>
   );
+
+  function renderMobileMenuBar() {
+    return (
+      <Hidden mdUp>
+        <Box
+          p=".5rem"
+          className={css({
+            position: "fixed",
+            bottom: "0",
+            left: "0",
+            width: "100%",
+            boxShadow: theme.shadows[24],
+            background: theme.palette.background.paper,
+          })}
+        >
+          <Grid container spacing={1} alignItems="center" wrap="nowrap">
+            <Grid item>
+              <IconButton
+                color="inherit"
+                onClick={() => {
+                  setMobileMenuOpen(true);
+                }}
+              >
+                <MenuIcon color="inherit" />
+              </IconButton>
+            </Grid>
+            <Grid item zeroMinWidth>
+              <Box>Chapters</Box>
+            </Grid>
+          </Grid>
+        </Box>
+      </Hidden>
+    );
+  }
 
   function renderChapters() {
     return (
@@ -69,43 +135,90 @@ export function GamePage() {
         <div
           className={css({
             background: theme.palette.background.paper,
-            boxShadow:theme.shadows[1],
+            boxShadow: theme.shadows[1],
+            maxHeight: "calc(100vh)",
+            position: "sticky",
+            top: "0px",
+            overflowY: "auto",
           })}
         >
           {chapter?.data?.image && (
-              <div
-                className={css({
-                  width: "100%",
-                  height: "8rem",
-                  zIndex: -1,
-                  background: `url("${chapter?.data?.image}")`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat",
-                })}
-              ></div>
+            <div
+              className={css({
+                width: "100%",
+                height: "8rem",
+                zIndex: -1,
+                background: `url("${chapter?.data?.image}")`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              })}
+            ></div>
           )}
           <MenuList dense>
-            {chapter?.chapters.map((chapter, index) => (
-              <ReactRouterLink
-                key={index}
-                to={`/game/${gameSlug}/${chapter.id}`}
-                className={css({
-                  color: "inherit",
-                  textDecoration: "none",
-                })}
-              >
-                <MenuItem>
-                  <ListItemText>
-                    <Typography noWrap>
-                      {/* » */}
-                      {chapter.text}
+            {chapter?.navigation.map((navigationItem, index) => {
+              const open =
+                chapterSlug === navigationItem.path ||
+                (index === 0 && !chapterSlug);
+              return [
+                <MenuItem
+                  key={index}
+                  component={ReactRouterLink}
+                  to={`/game/${gameSlug}/${navigationItem.path}`}
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                  }}
+                  className={css({
+                    width: "100%",
+                    display: "flex",
+                    color: "inherit",
+                    textDecoration: "none",
+                  })}
+                  selected={open}
+                >
+                  <div
+                    className={css({
+                      width: "100%",
+                      display: "flex",
+                      flexDirection: "column",
+                    })}
+                  >
+                    <Typography noWrap component="span">
+                      <span>{navigationItem.text}</span>
                     </Typography>
-                  </ListItemText>
-                </MenuItem>
-                {/* <Divider className={css({ margin: "0" })}></Divider> */}
-              </ReactRouterLink>
-            ))}
+                  </div>
+                </MenuItem>,
+                <Collapse in={open}>
+                  {navigationItem.children.map((child, index) => {
+                    return (
+                      <MenuItem
+                        selected={open}
+                        key={index}
+                        component={ReactRouterLink}
+                        onClick={() => {
+                          setMobileMenuOpen(false);
+                        }}
+                        to={`/game/${gameSlug}/${child.path}`}
+                        className={css({
+                          color: "inherit",
+                          textDecoration: "none",
+                          backgroundColor: open ? "red" : "inherit",
+                        })}
+                      >
+                        <Typography
+                          noWrap
+                          className={css({
+                            paddingLeft: "1rem",
+                          })}
+                        >
+                          {child.text}
+                        </Typography>
+                      </MenuItem>
+                    );
+                  })}
+                </Collapse>,
+              ];
+            })}
           </MenuList>
         </div>
       </>
@@ -125,21 +238,24 @@ export function GamePage() {
           })}
         >
           <Stack spacing={1}>
-            {chapter?.chapterToc.map((tocItem, index) => (
-              <div key={index}>
-                <a
-                  href={`#${tocItem.id}`}
-                  className={css({
-                    color: theme.palette.text.secondary,
-                    textDecoration: "none",
-                    display: "flex",
-                    marginLeft: tocItem.level - 1 + "rem",
-                  })}
-                >
-                  <Typography noWrap>{tocItem.text}</Typography>
-                </a>
-              </div>
-            ))}
+            {chapter?.chapterToc.map((tocItem, index) => {
+              const indentationLevel = tocItem.level - 2;
+              return (
+                <div key={index}>
+                  <a
+                    href={`#${tocItem.id}`}
+                    className={css({
+                      color: theme.palette.text.secondary,
+                      textDecoration: "none",
+                      display: "flex",
+                      marginLeft: indentationLevel * 2 + "rem",
+                    })}
+                  >
+                    <Typography noWrap>{tocItem.text}</Typography>
+                  </a>
+                </div>
+              );
+            })}
           </Stack>
         </div>
       </>
@@ -157,7 +273,8 @@ export function GamePage() {
                 margin: "0",
                 padding: ".5rem 1rem",
                 background: theme.palette.background.paper,
-                borderLeft: `4px solid ${theme.palette.divider}`,
+                boxShadow: theme.shadows[1],
+                borderLeft: `4px solid ${theme.palette.secondary.main}`,
               },
               "& p": {
                 ...(theme.typography.body1 as any),

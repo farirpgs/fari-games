@@ -7,6 +7,12 @@ import {
 
 const darkPalette: PaletteOptions = {
   mode: "dark",
+  primary: {
+    main: "#90caf9",
+  },
+  secondary: {
+    main: "#ce93d8",
+  },
   background: {
     default: "#141c26",
     paper: "#1f2834",
@@ -14,6 +20,12 @@ const darkPalette: PaletteOptions = {
 };
 const lightPalette: PaletteOptions = {
   mode: "light",
+  primary: {
+    main: "#90caf9",
+  },
+  secondary: {
+    main: "#ce93d8",
+  },
   background: {
     default: "#fafafa",
     paper: "#fff",

@@ -8,7 +8,7 @@ import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import { Breakpoint, useTheme } from "@material-ui/core/styles";
-import { useLocation, useRouteMatch } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export function Navbar() {
   const theme = useTheme();
@@ -20,7 +20,8 @@ export function Navbar() {
     <Box
       className={css({
         width: "100%",
-        background: theme.palette.background.paper,
+        background: "#2d436e",
+        color: "#fff",
         height: "6rem",
         marginBottom: "2rem",
         boxShadow: theme.shadows[4],
@@ -39,7 +40,7 @@ export function Navbar() {
         >
           <Grid item>
             <Grid container spacing={1} alignItems="center">
-              <Grid item marginRight="2rem">
+              <Grid item>
                 <ReactRouterLink
                   to="/"
                   className={css({ color: "inherit", textDecoration: "none" })}

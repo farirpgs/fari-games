@@ -8,7 +8,7 @@ export type IChapterListItem = {
 export type IChapter = {
   html: string;
   data: Record<string, string>;
-  chapters: Array<IChapterListItem>;
+  navigation: Array<INavigationItem>;
   chapterToc: Array<{
     id: string;
     text: string;
@@ -24,6 +24,13 @@ export type IChapter = {
   };
 };
 
+type INavigationItem = {
+  path: string;
+  text: string;
+  level: number;
+  children: Array<INavigationItem>;
+};
+
 const GameImporters: Record<string, () => Promise<typeof import("*?raw")>> = {
   "charge-rpg": () => import("../../../_games/charge-rpg.md?raw"),
 } as const;
@@ -31,7 +38,6 @@ const GameImporters: Record<string, () => Promise<typeof import("*?raw")>> = {
 export const Game = {
   async getGameContent(game: string) {
     const { default: fileContent } = await GameImporters[game]();
-    // const fileContent = await fetch(url).then((r) => r.text());
 
     const data = parseFrontMatter(fileContent);
     const html = await Markdown.toHtml(fileContent);
@@ -39,28 +45,51 @@ export const Game = {
     const dom = document.createElement("div");
     dom.innerHTML = html;
 
-    const documentChapters = dom.querySelectorAll("h1");
+    const headings = dom.querySelectorAll("h1,h2,h3,h4,h5,h6");
     const headingIdCounts: Record<string, number> = {};
     const chapters: Array<{ id: string; text: string | null }> = [];
-    documentChapters.forEach((h) => {
-      const id = kebabCase(h.textContent ?? "");
-      const count = headingIdCounts[id] ?? 0;
-      const newCount = count + 1;
-      const chapterId = count === 0 ? id : `${id}-${count}`;
+    const navigation: Array<INavigationItem> = [];
 
-      h.id = chapterId;
-      chapters.push({ id, text: h.textContent });
-      headingIdCounts[id] = newCount;
+    let latestH1NavigationItem: INavigationItem;
+    let latestH1Id = "";
+
+    headings.forEach((h) => {
+      const id = kebabCase(h.textContent ?? "");
+      const text = h.textContent?.split("#").join("") ?? "";
+
+      if (h.tagName === "H1") {
+        const count = headingIdCounts[id] ?? 0;
+        const newCount = count + 1;
+        const chapterId = count === 0 ? id : `${id}-${count}`;
+
+        h.id = chapterId;
+        chapters.push({ id, text: text });
+        const navigationItem = {
+          path: chapterId,
+          text: text ?? "",
+          level: 1,
+          children: [],
+        };
+        latestH1NavigationItem = navigationItem;
+        navigation.push(navigationItem);
+        latestH1Id = chapterId;
+        headingIdCounts[id] = newCount;
+      } else if (h.tagName === "H2") {
+        latestH1NavigationItem.children.push({
+          path: `${latestH1Id}#${id}`,
+          text: text ?? "",
+          level: 2,
+          children: [],
+        });
+        h.id = id;
+        h.innerHTML = `<a href="#${id}" class="anchor">#</a> ${text}`;
+      } else {
+        h.id = id;
+        h.innerHTML = `<a href="#${id}" class="anchor">#</a> ${text}`;
+      }
     });
 
-    const documentHeadings = dom.querySelectorAll("h2,h3,h4,h5,h6");
-    documentHeadings.forEach((h) => {
-      const id = kebabCase(h.textContent ?? "");
-      h.innerHTML = `<a href="#${id}" class="anchor">#</a> ${h.textContent}`;
-      h.id = id;
-    });
-
-    return { dom: dom, chapters, data } as const;
+    return { dom: dom, chapters, data, navigation } as const;
   },
   async getChapter(game: string, chapterId: string): Promise<IChapter> {
     const markdown = await Game.getGameContent(game);
@@ -90,8 +119,8 @@ export const Game = {
 
     return {
       html: chapterHtml,
-      chapters: markdown.chapters,
       chapterToc: tableOfContent,
+      navigation: markdown.navigation,
       data: markdown.data,
       previousChapter: {
         id: previousChapter?.id || null,
@@ -163,7 +192,6 @@ function getTableOfContent(html: string) {
     const text = h.textContent?.split("#").join("") ?? "";
     tableOfContent.push({ id, text, level: parseInt(level, 10) });
   });
-
 
   return tableOfContent;
 }
