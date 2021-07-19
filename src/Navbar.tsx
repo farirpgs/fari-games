@@ -38,32 +38,30 @@ export function Navbar() {
             height: "100%",
           })}
         >
-          <Grid item>
-            <Grid container spacing={1} alignItems="center">
-              <Grid item>
-                <ReactRouterLink
-                  to="/"
-                  className={css({ color: "inherit", textDecoration: "none" })}
-                >
-                  <Button color="inherit">
-                    <img
-                      src="/images/app.png"
-                      title="Fari Games"
-                      className={css({
-                        height: "3rem",
-                      })}
-                    ></img>
-                  </Button>
-                </ReactRouterLink>
-              </Grid>
-              <Grid item>
-                <ReactRouterLink
-                  to="/game/charge-rpg"
-                  className={css({ color: "inherit", textDecoration: "none" })}
-                >
-                  <Button color="inherit">Charge RPG</Button>
-                </ReactRouterLink>
-              </Grid>
+          <Grid item container spacing={1} alignItems="center">
+            <Grid item>
+              <ReactRouterLink
+                to="/"
+                className={css({ color: "inherit", textDecoration: "none" })}
+              >
+                <Button color="inherit">
+                  <img
+                    src="/images/app.png"
+                    title="Fari Games"
+                    className={css({
+                      height: "3rem",
+                    })}
+                  ></img>
+                </Button>
+              </ReactRouterLink>
+            </Grid>
+            <Grid item>
+              <ReactRouterLink
+                to="/game/charge-rpg"
+                className={css({ color: "inherit", textDecoration: "none" })}
+              >
+                <Button color="inherit">Charge RPG</Button>
+              </ReactRouterLink>
             </Grid>
           </Grid>
           <Grid item />

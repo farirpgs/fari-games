@@ -266,7 +266,7 @@ export function GamePage() {
     return (
       <>
         <div>
-          {renderNavBar()}
+          {renderPreviousNextNavigation()}
           <div
             className={css({
               "& blockquote": {
@@ -275,6 +275,10 @@ export function GamePage() {
                 background: theme.palette.background.paper,
                 boxShadow: theme.shadows[1],
                 borderLeft: `4px solid ${theme.palette.secondary.main}`,
+              },
+              "& pre": {
+                whiteSpace: "pre-wrap",
+                wordBreak: "break-word",
               },
               "& p": {
                 ...(theme.typography.body1 as any),
@@ -320,13 +324,13 @@ export function GamePage() {
           <Box mt="1rem" />
           <Divider />
           <Box mb="1rem" />
-          {renderNavBar()}
+          {renderPreviousNextNavigation()}
         </div>
       </>
     );
   }
 
-  function renderNavBar() {
+  function renderPreviousNextNavigation() {
     if (!chapter) {
       return null;
     }
