@@ -219,7 +219,6 @@ export function GamePage() {
               setOpenedCategory((prev) => {
                 return prev === categoryName ? undefined : categoryName;
               });
-              setMobileMenuOpen(false);
             }}
             className={css({
               width: "100%",
