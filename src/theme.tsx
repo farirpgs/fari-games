@@ -21,7 +21,7 @@ const darkPalette: PaletteOptions = {
 const lightPalette: PaletteOptions = {
   mode: "light",
   primary: {
-    main: "#90caf9",
+    main: "#30a2ff",
   },
   secondary: {
     main: "#ce93d8",
@@ -49,7 +49,7 @@ const themeOptions: ThemeOptions = {
       fontWeight: 700,
     },
     h4: {
-      fontSize: "1.25rem",
+      fontSize: "1.5rem",
       fontWeight: 700,
     },
     h5: {

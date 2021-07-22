@@ -1,14 +1,29 @@
 import kebabCase from "lodash/kebabCase";
+import React from "react";
 import { Markdown } from "./Markdown";
 export type IChapterListItem = {
   id: string;
   text: string | null;
 };
 
+export type ISidebar = {
+  root: Array<ISidebarItem>;
+
+  categories: Record<
+    string, // category label
+    Array<ISidebarItem> // category items
+  >;
+};
+
+export type ISidebarItem = {
+  path: string;
+  title: string;
+};
+
 export type IChapter = {
   html: string;
   data: Record<string, string>;
-  navigation: Array<INavigationItem>;
+  sidebar: ISidebar;
   chapterToc: Array<{
     id: string;
     text: string;
@@ -24,20 +39,33 @@ export type IChapter = {
   };
 };
 
-type INavigationItem = {
-  path: string;
-  text: string;
-  level: number;
-  children: Array<INavigationItem>;
+export const GameSettings: Record<
+  string,
+  {
+    fontFamilies: Array<string>;
+    head: React.ReactNode;
+    load: () => Promise<typeof import("*?raw")>;
+  }
+> = {
+  "charge-rpg": {
+    head: (
+      <>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+          rel="stylesheet"
+        />
+      </>
+    ),
+    fontFamilies: ["Oswald"],
+    load: () => import("../../../_games/charge-rpg.md?raw"),
+  },
 };
-
-const GameImporters: Record<string, () => Promise<typeof import("*?raw")>> = {
-  "charge-rpg": () => import("../../../_games/charge-rpg.md?raw"),
-} as const;
 
 export const Game = {
   async getGameContent(game: string) {
-    const { default: fileContent } = await GameImporters[game]();
+    const { default: fileContent } = await GameSettings[game].load();
 
     const data = parseFrontMatter(fileContent);
     const html = await Markdown.toHtml(fileContent);
@@ -46,50 +74,52 @@ export const Game = {
     dom.innerHTML = html;
 
     const headings = dom.querySelectorAll("h1,h2,h3,h4,h5,h6");
-    const headingIdCounts: Record<string, number> = {};
-    const chapters: Array<{ id: string; text: string | null }> = [];
-    const navigation: Array<INavigationItem> = [];
+    const chapterIdCounts: Record<string, number> = {};
 
-    let latestH1NavigationItem: INavigationItem;
-    let latestH1Id = "";
+    const chapters: Array<{ id: string; text: string | null }> = [];
+    const sidebar: ISidebar = {
+      root: [],
+      categories: {},
+    };
 
     headings.forEach((h) => {
-      const id = kebabCase(h.textContent ?? "");
-      const text = h.textContent?.split("#").join("") ?? "";
+      const titles = h.textContent?.split("|");
+      const pageTitle = titles?.[0]?.trim() ?? "";
+      const categoryTitle = titles?.[1]?.trim() ?? "";
+
+      const headingSlug = kebabCase(pageTitle ?? "");
+
+      const count = chapterIdCounts[headingSlug] ?? 0;
+      const newCount = count + 1;
+      const id = count === 0 ? headingSlug : `${headingSlug}-${count}`;
+      chapterIdCounts[headingSlug] = newCount;
 
       if (h.tagName === "H1") {
-        const count = headingIdCounts[id] ?? 0;
-        const newCount = count + 1;
-        const chapterId = count === 0 ? id : `${id}-${count}`;
-
-        h.id = chapterId;
-        chapters.push({ id, text: text });
-        const navigationItem = {
-          path: chapterId,
-          text: text ?? "",
-          level: 1,
-          children: [],
+        const sidebarItem: ISidebarItem = {
+          path: id,
+          title: pageTitle,
         };
-        latestH1NavigationItem = navigationItem;
-        navigation.push(navigationItem);
-        latestH1Id = chapterId;
-        headingIdCounts[id] = newCount;
-      } else if (h.tagName === "H2") {
-        latestH1NavigationItem.children.push({
-          path: `${latestH1Id}#${id}`,
-          text: text ?? "",
-          level: 2,
-          children: [],
-        });
+        if (!categoryTitle) {
+          sidebar.root.push(sidebarItem);
+        } else {
+          const prev = sidebar.categories[categoryTitle] ?? [];
+
+          sidebar.categories[categoryTitle] = [...prev, sidebarItem];
+        }
+
         h.id = id;
-        h.innerHTML = `<a href="#${id}" class="anchor">#</a> ${text}`;
+        h.textContent = pageTitle;
+        chapters.push({ id: id, text: pageTitle });
+      } else if (h.tagName === "H2") {
+        h.id = id;
+        h.innerHTML = `<a href="#${headingSlug}" class="anchor">#</a> ${pageTitle}`;
       } else {
         h.id = id;
-        h.innerHTML = `<a href="#${id}" class="anchor">#</a> ${text}`;
+        h.innerHTML = `<a href="#${id}" class="anchor">#</a> ${pageTitle}`;
       }
     });
 
-    return { dom: dom, chapters, data, navigation } as const;
+    return { dom: dom, chapters, data, sidebar } as const;
   },
   async getChapter(game: string, chapterId: string): Promise<IChapter> {
     const markdown = await Game.getGameContent(game);
@@ -120,7 +150,7 @@ export const Game = {
     return {
       html: chapterHtml,
       chapterToc: tableOfContent,
-      navigation: markdown.navigation,
+      sidebar: markdown.sidebar,
       data: markdown.data,
       previousChapter: {
         id: previousChapter?.id || null,
@@ -178,6 +208,7 @@ function parseFrontMatter(markdown: string): Record<string, string> {
       frontMatterObject[key] = value;
     }
   }
+
   return frontMatterObject;
 }
 
@@ -190,7 +221,11 @@ function getTableOfContent(html: string) {
     const id = h.id;
     const level = h.tagName.split("H")[1];
     const text = h.textContent?.split("#").join("") ?? "";
-    tableOfContent.push({ id, text, level: parseInt(level, 10) });
+    const isHeadingInsideBlockquote = h.parentElement?.matches("blockquote");
+
+    if (!isHeadingInsideBlockquote) {
+      tableOfContent.push({ id, text, level: parseInt(level, 10) });
+    }
   });
 
   return tableOfContent;

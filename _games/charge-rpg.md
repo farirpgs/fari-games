@@ -4,7 +4,11 @@ author: René-Pier Deshaies-Gélinas
 image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
 ---
 
-# Introduction
+# Introductions | Power Your Story Telling
+
+> _Charge RPG » Power Your Story Telling_
+>
+> `v0.0.1`
 
 First, thank you.
 
@@ -26,19 +30,23 @@ Some rules from Fate and Forged in the Dark were borrowed, others were renamed o
 
 There are some dials and hacks inside this book to make the game more to your liking, either by making it fit either a more realistic setting or to crank things up where the characters are larger than life.
 
-## Goals
+# Goals | Power Your Story Telling
 
 Here's specifically what this game is trying to solve with its rules and mechanics
 
 **It should be easy to create a character for any setting.**
 
 > Character sheets should be straight forward and generic enough to let anyone create the characters they want to play in the setting they are most interested in.
+>
+> It does this by making character shine using Aspects to define who they are, and by using a custom progression systems to make them shine in specific situations with their Talents.
 
 **Style of play should not be enforced.**
 
-> The system should let the group decide what style of play they prefer. From a planning beforehand to jumping straight into the action kind of gameplay, everything should be possible.
+> The system should let the group decide what style of play they prefer. From planning beforehand to jumping straight into the action kind of gameplay, everything should be possible.
+>
+> It does this by letting players add new proactive and reactive narrative elements to scenes that have a mechanical impact on the game.
 
-**The system should offer dials to have grimmer up or bigger than life adventures.**
+**The system should offer dials to have grimmer up to bigger than life adventures.**
 
 > From a post apocalyptic survival adventure where each bullet counts to a grand space opera where the heroes always prevail, the mechanics should be able to be tuned easily to reflect the kind of story you want to tell.
 
@@ -47,13 +55,20 @@ You will probably like this game if:
 - you like narrative focused systems
 - you like that you can play in any settings
 - you generally think that failure is more interesting than success
+- you like when your character starts competent and gradually becomes more versatile
 - you liked playing Fate or any Forged in the Dark games
+
+This game also brings new interesting ideas to the table:
+
+- A new flexible progression framework in the form of Talents which make character evolution feel great
+- A new way to represent danger and harm using gauge meters that rise and fall as pressure goes up or calms down.
+- And more...!
 
 We hope you have fun with this, because we sure had fun writing it and playing it.
 
 Now let's get to it ⚡
 
-## What You Need To Play
+# What You Need To Play | Power Your Story Telling
 
 To play [GAME_NAME], you will need:
 
@@ -62,7 +77,7 @@ To play [GAME_NAME], you will need:
 - A set of six sided dice. At least 6 would be ideal.
 - A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that would be quite an endeavour.
 
-# Getting Started
+# Getting Started | Power Your Story Telling
 
 [GAME_NAME] is a generic table-top role-playing game. That means that you and your friends will get together, and tell an interactive story about a group of fictional character you will create. Those characters will face obstacles and challenges, and you get to decide how they react. The world then changes based on what the characters do.
 
@@ -82,11 +97,11 @@ Everything inside [GAME_NAME] is collaborative.
 
 You choose a setting together, you create your characters together, and you make that world evolve together.
 
-> **Safety Tools**
-> —
-> If at any point during a game something doesn't click with someone at the table, the game needs to be paused and things need to be aligned and discussed so that **everyone is on the same page**
-
-One way the GM can help make the table safer for everyone is by using safety tools like the **X-Card** or **Script Change RPG Toolbox**.
+> #### Safety Tools
+>
+> If at any point during a game something doesn't click with someone at the table, the game needs to be paused and things need to be aligned and discussed so that **everyone is on the same page**.
+>
+> One way the GM can help make the table safer for everyone is by using safety tools like the **X-Card** by John Stavropoulos**,** or Beau's **Script Change RPG Toolbox**.
 
 This is super important and should not be taken lightly. Everyone at the table should feel safe and comfortable.
 
@@ -94,17 +109,17 @@ Each time you and your friends meet to play [GAME_NAME] is a **Session** which c
 
 Each group can play very differently, as some might take their time while others might want to rush into things head on, but it also depends on people availability.
 
-> **RPG Etiquette**
-> —
+> #### RPG Etiquette
+>
 > Remember to be empathetic of people's schedule and responsibilities. Show up on time and take the amount of gameplay time what you can get.
-
-Then, patiently wait until the next session and praise the good things that hapenned in the last one.
+>
+> Then, patiently wait until the next session and praise the good things that happened in the last one.
 
 Each session is made of **Scenes**, like in a movie.Each scene then plays out as a bunch of back and forth between the GM and the players.
 
 The players will make their characters try to accomplish certain goals, and the GM will make the world react to those actions depending on the outcome which is partially controlled by chance and the character's proficiencies.
 
-# Creating a Character
+# Creating a Character | Characters
 
 As a player, you will need to create a **character**.
 
@@ -120,8 +135,8 @@ The first thing to know about them is that **Aspects are true**. If you characte
 
 You will use aspects in play to affect the world. They give you permission to improve the situation for your character or even your dice rolls.
 
-> **Aspects are Always True
-> —**
+> #### Aspects are Always True
+>
 > That means that aspects can grant or withdraw permission for what can happen in the story. If an NPC has the aspect **Stuck**, the GM (and everyone else) has to respect that. The NPC has lost permission to move until something happens which removes that **Stuck** aspect or if it becomes irrelevant. Similarly, if you have an aspect **Short Burst Jetpack**, you’ve arguably gained permission to jump over walls without even having to roll for it.
 
 That’s not to say you can create any aspect you want and use its truth like a club. Aspects grant a lot of power to shape the story, yes, but with that power comes the responsibility to play within the story’s constraints. Aspects have to line up with the table’s sense of what actually makes sense. If an aspect isn't OK with someone at the table, it needs to be reworked or reworded.
@@ -146,8 +161,8 @@ Good relationship aspects should introduce or hint at conflict, or at least an i
 
 You can make your character’s last two aspects anything you want—there are no restrictions beyond the obligation to fit the setting. Choose anything which you think will make your character more interesting, more fun to play, or better connected to the world they occupy.
 
-> **Choosing Aspects in Play**
-> —
+> #### Choosing Aspects in Play
+>
 > You don't need to entirely flesh out your character before you start playing. Simply choosing a Core Concept and a Trouble aspect is more than enough to get going. After the first session or two, you will get a broader idea of who your character is, don't worry about it.
 
 ## Actions
@@ -162,63 +177,65 @@ In [GAME_NAME], there are 12 actions that characters can do. When creating your 
 
 > A single Action cannot have more than 2 action dots at the start of a campaign.
 
-Those dots represent how good you are at doing some actions. As the game progresses, you will gain additional dots that you will use to make your character get better at things over time. See **Mechanics » Progression**.
+Those dots represent how good you are at doing some actions. As the game progresses, you will gain additional dots that you will use to make your character get better at things over time. See [**Basic » Progression**](basics#progression).
 
-The 12 actions are regrouped in 3 categories or **Attributes**. We have **Prowess**, **Insight** and **Resolve**. Each **Attribute** important in its own way, since they let you resist different types of danger when things go sour.
+The 12 actions are regrouped in 3 categories or **Attributes**. We have **Physique**, **Insight** and **Resolve**. Each **Attribute** important in its own way, since they let you resist different types of danger when things go sour.
 
 More on that later, for now let's look at the 12 different types of actions.
 
+![](https://gyazo.com/148ed25c4d86f72bea81d8e28cd12168.png)
+
 ### The 12 Actions
 
-### **Prowess**
-
-When you **Finesse**, you employ dexterous manipulation or subtle misdirection.
-
-> You might steal something from someone’s pocket. You might bypass a security system. You might disable an alarm or trap. You could try to employ those arts in a chaotic melee (but Skirmishing might be better).
-
-When you **Sneak**, you traverse skilfully and quietly.
-
-> You might sneak past a guard or hide in the shadows. You might attack someone from hiding. You could try to waylay a victim in the midst of battle (but Skirmishing might be better).
+#### Physique
 
 When you **Brawl**, you clash with something that is in your way.
 
 > You might hack and slash. You might wrestle with a wild animal. You might blast a door open. You could try to fight in a formal duel (but Finessing might be better).
 
+When you **Finesse**, you employ dexterous manipulation or subtle misdirection.
+
+> You might steal something from someone’s pocket. You might bypass a security system. You might disable an alarm or trap. You could try to employ those arts in a chaotic melee (but Skirmishing might be better).
+
 When you **Move**, you use complex manoeuvres to go to a certain location.
 
 > You might climb, swim, run or jump. You might outpace the guards. You might jump above a spiked pit. You could try to evade someone (but Sneak might be better).
 
-### **Insight**
+When you **Sneak**, you traverse skilfully and quietly.
+
+> You might sneak past a guard or hide in the shadows. You might attack someone from hiding. You could try to waylay a victim in the midst of battle (but Skirmishing might be better).
+
+#### Insight
 
 When you **Hunt**, you carefully track a target.
 
 > You might follow a target or discover their location. You might arrange an ambush. You might attack with precision shooting from a distance. You could try to bring your guns to bear in a melee (but Brawl might be better).
 
-When you **Study**, you scrutinize details and interpret evidence.
-
-> You might gather information from documents, newspapers, and books. You might closely analyze a person to detect lies or true feelings. You could try to examine events to understand a pressing situation (but Surveying might be better).
-
-When you **Survey**, you observe the situation and anticipate outcomes.
-
-> You might spot telltale signs of trouble before it happens. You might uncover opportunities or weaknesses. You might detect a person’s motivations or intentions. You could try to spot a good ambush point (but Hunting might be better).
-
 When you **Science**, you understand, create, repair or complex mechanisms or organisms.
 
 > You might create a new gadget or alter an existing item. You might mend a broken bone or treat someone's illness. You could try to use your technical expertise to control a vehicle (but Commanding might be better). You could try to pick a lock, but Finessing might be better).
 
-### **Resolve**
+When you **Study**, you scrutinize details and interpret evidence.
 
-When you **Convince**, you influence with guile, charm, or argument.
+> You might gather information from documents, newspapers, and books. You might closely analyze a person to detect lies or true feelings. You could try to examine events to understand a pressing situation (but Noticing might be better).
 
-> You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Consorting or Commanding might be better).
+When you **Notice**, you observe the situation and anticipate outcomes.
+
+> You might pick up important details in the moment. You might anticipate danger before it happens. You could try to spot a good spot to ambush enemies, but Hunting might be better.
+
+#### Resolve
+
+When you **Bond**, you reassure and socialize with friends and contacts.
+
+> You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm, style or empathy. You could try to manipulate your friends with social pressure (but Provoking might be better).
 
 When you **Command**, you compel swift obedience with skills and respect.
 
 > You might ask a small militia to get their things together. You might control the elements to obey you. You might order your undead minions to sacrifice themselves. You might pilot a ship to evade an enemy aircraft . You could also ask your familiar to look for something in a room (but Bonding might be better).
 
-When you **Bond**, you reassure and socialize with friends and contacts.
+When you **Convince**, you influence with guile, charm, or argument.
 
-> You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm, style or empathy. You could try to manipulate your friends with social pressure (but Provoking might be better).
+> You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Consorting or Commanding might be better).
 
 When you **Provoke**, you intimidate, scare or threaten.
 
@@ -228,49 +245,75 @@ When you **Provoke**, you intimidate, scare or threaten.
 
 Some actions may overlap with others. This is by design. As a player, you get to choose which action you roll, by saying what your character does. Choosing the approach you want to take might influence the position and effect of your action. After you've chosen your action, the GM tells you the position and effect level of your action in this circumstance and then, you roll!
 
-## Vitals
+## Stress & Conditions
 
-The Vitals section of your character sheet contains two different mechanism to represent how your character is doing and how far they can keep going: **Stress** & **Harm**.
+The Actions section of your character sheet contains two other section which represent how your character is doing and how far they can keep going using **Stress** and **Condition Gauges**.
 
 ### Stress
 
-The Stress bar contains 9 slots and act as a pacing mechanism for the game.
+The Stress track contains on the character sheet contains 9 slots and act as a pacing mechanism for the game.
 
-It regroups things like the physical or mental stress your character is under, but also could be seen as how much luck they have!
+It regroups things like the physical or mental stress your character is under, but also could be seen as how much luck they have left.
 
-When you are out of Stress slots, things can go bad pretty quickly for your character. The nice thing is that you decide when you want to spend it.
-
-In [GAME_NAME] you consume stress to do things like:
+In [GAME_NAME] you consume Stress to do things like:
 
 - Add `1d6` to your action dice pool
 - Assist an ally by adding `1d6` to their action
 - Increase the effect of an outcome
 - Resist something bad happening to you
-- Lead a group roll
-- and more.
+- and, Lead a group roll
 
-Stress can be consumed, but also can be recovered. More on that in the **Mechanics » Vitals** chapter below.
+When you are out of Stress slots, things can go bad pretty quickly for your character. The nice thing is that you decide when you want to spend it.
 
-Stress is a precious resource that needs to be managed carefully, but once you are out, you character may be put in **Harm**'s way.
+![](https://gyazo.com/81e408671bc77fc6f8dad9a15b8325d0.png)
 
-### Harm
+> Stress can be consumed, but will also recover.
+>
+> More on that in the [**Mechanics » Vitals**](basics#recovery) chapter below.
 
-When your character faces dangerous challenges and fail, something bad happens. Maybe the situation is more complicated or even perilous. The alternative to this is that you get hurt. The Harm section of the character sheet is there to track the latter.
+Stress is a precious resource that needs to be managed carefully, but once you are out, you character's condition might worsen.
 
-Harm can be resisted using stress, more on that in the **Mechanics » Resistance Roll** chapter.
+### Condition Gauges
 
-When you get hurt, you need to take 1 Harm. That means you need to fill up the lowest available Harm track with an **Aspect** describing what happened to you. There are three levels of harm: **Mild**, **Moderate**, **Severe**.
+When your character faces dangerous challenges and fails, something bad happens. Maybe the situation is more complicated or even perilous. The alternative to this is that you get hurt. The Condition Gauges of the character sheet are there to track the latter.
 
-> - **Mild Harm** doesn't require immediate medical attention. It might be that you are exhausted, humiliated, tired, sore, winded, sick, etc.
+Each character has 3 gauges, one for each Action Attribute.
 
-- **Moderate Harm** represent fairly serious impairments that require dedicated effort toward recovery. It might be that you got shot or slashed, have a first degree burn or are completely drunk.
-- **Severe Harm** require you to go straight to the emergency room (or whatever the equivalent is in your game)—they’re extremely nasty and prevent you from doing a lot of things. It might be that you got a second degree burns, your leg is fractured or your guts are hanging out.
+So there is a Physical, a Insight and a Resolve gauge.
 
-Since Harm Slots are **Aspects** and aspects are true, your character just got withdrew their permission to do certain things. For example, it's almost impossible to climb on the roof of a house when your ankle is twisted.
+Gauges are separated in 3 pressure levels, where each level inflicts a different type of penalty on a character's ability to perform certain actions.
 
-Not just that, but each level of harm has its own negative mechanical effect on your character and their actions.
+When you get hurt, you need to **rise the pressure** of **one of the three gauge** by drawing inside's the gauge's pressure up to the next pressure marker.
 
-Harm can be quite troublesome for your character, but it also adds a nice role-playing element to the story. The characters in [GAME_NAME] aren't always expected to succeed, and sometime they will get hurt. The good thing is, those characters are the protagonist of the story, which means they probably have more than one trick up their sleeves
+![](https://gyazo.com/323cd69489e399c5e6eb03c29960c9d5.png)
+
+> You could also resist the incoming pressure rise.
+>
+> More on that in the [**Mechanics » Resistance Roll**](basics#resistance-roll) chapter.
+
+1. When a gauge's pressure is up to the first marker, every action roll for that Attribute has **less effect**.
+2. When a gauge's pressure is up to the second marker, every action roll for that Attribute is **reduced by 1d6**.
+3. When a gauge's pressure is full, you **can't go on and need help**.
+
+Each gauge also has a space in the middle to write an **Aspect** that represent your character's current condition. When you increase the pressure of a gauge, update that Aspect to match the state of your character's condition.
+
+- For a first level condition, you might be exhausted, humiliated, tired, sore, winder, sick, etc.
+- For as second level condition, you might be shot, slashed, have a first degree burn, or are completely drunk.
+- For a third level condition, you might have a second degree burn, a fractured leg or your brain can't comprehend was is happening anymore.
+
+> #### Condition Aspects
+>
+> Don't forget that **all aspects are true**. That means that if a character has an **Aspect** associated to a certain condition level, that character just got withdrew their permission to do certain things.
+>
+> For example, it's almost impossible to climb on the roof of a house when your `ankle is twisted`. So even if the pressure of a gauge isn't full, it still imposes narrative restrictions on what a PC can do.
+
+Hopefully, pressure will eventually go down, and your character will feel better. More on this in [**Mechanics » Recovery**.](basics#recovery)
+
+Condition gauges can be quite troublesome for your character, but it also adds a nice role-playing element to the story.
+
+The characters in [GAME_NAME] default aren't always expected to succeed. Sometime they will get hurt.
+
+The good thing is, those characters are the protagonist of the story, which means they probably have more than one trick up their sleeves
 
 ## Talents
 
@@ -278,29 +321,38 @@ Harm can be quite troublesome for your character, but it also adds a nice role-p
 Rule breaking elements. 3 per character.
 List multiple examples at the bottom of the doc.
 
-e.g.
+e.g. +
 - Use an action instead of another in certain situation
+
+- Get a specific advantage in certain situations
+	- Increased effect when using poison
+	- Increased effect but reduced position when making a deal with a faction
+
+- Reactively create an asset (e.g. barricade, trap, letter of introduction, fire)
+
+- Gain a one-use protection against a threat (anti-venom, silent gear, lucky charm)
 - ...
 ```
 
 ## Recap
 
-> **The Character Sheet**
-> —
+> #### The Character Sheet
+>
+> - 5 Aspects to highlight who you are. (Core Concept, Trouble, Relationship and 2 other aspects)
+> - 7 Action dots distributed across the 12 actions to explain what you are good at.
+> - 9 Stress slots that can be used to boost your actions.
+> - 3 Condition gauges with 3 pressure levels to track a character's physical, insight or resolve condition.
+> - ⚠️ Talents ? ⚠️
 
-- 5 Aspects to highlight who you are. (Core Concept, Trouble, Relationship and 2 other aspects)
-- 7 Action dots distributed across the 12 actions to explain what you are good at.
-- 9 Stress slots that can be used to boost your actions
-- 4 Harm Aspects to track your long-lasting physical or mental consequences
-- ⚠️ Talents ? ⚠️
-
-# Basics
+# Basics | Mechanics
 
 [GAME_NAME] is a "story first" kind of game. You first tell the story, and look at the rules afterwards to see if something needs to happen on the mechanics side.
 
-The mechanics are there to help you resolve situation where you basically don't know the direct answers to a question. Will _this character_ find what they are looking for, can _that character_ convince this merchant to talk, how will _this faction_ react to _this big event_, etc.
+The mechanics are there to help you resolve situation where you basically don't know the direct answers to a question.
 
-## Rolling Dice
+_Will this character find what they are looking for, can that character convince this merchant to talk, how will this faction react to this big event, etc._
+
+## Rolling Dice 
 
 [GAME_NAME] uses six-sided dice. You roll several at once and read the **single highest result**.
 
@@ -326,9 +378,7 @@ If you don't want to do this, that is totally up to you. You can always ask for 
 
 For now, let's take a look at the different tools that you can use to drive the story you want to tell.
 
-# Mechanics
-
-## Overcome An Obstacle
+# Overcome An Obstacle | Mechanics
 
 > _I have a bad feeling about this..._
 
@@ -354,8 +404,8 @@ If an obstacle is in your way, you are in either in a **controlled, risky** or *
 
 Multiple things can affect your current position. You may be vastly outnumbered, or perhaps you are just out of time. The narrative context will help you decide what's your current position.
 
-> **What Position to Pick**
-> —
+> #### What Position to Pick
+>
 > If you aren't sure what's your current situation, talk with the rest of the table. A quick discussion is usually enough to clear things up.
 
 Your position is there to help you determine what failure might look like, and once you know your current position, you need to look at the possible outcomes of the Action and which Effect they might end up creating.
@@ -372,8 +422,8 @@ This might be generating a **standard effect**, since it will take some time to 
 
 The Effect Rating is there to help you determine what success might look like.
 
-> **Effect Impact
-> —**
+> #### Effect Impact
+>
 > The effect rating guides us about what happens in the narrative, but it also has a mechanical impact on the game.
 
 If an Overcome roll is expected to have an effect on a Progress Clock, it would
@@ -382,7 +432,7 @@ If an Overcome roll is expected to have an effect on a Progress Clock, it would
 - A **Standard** effect would tick **2 clock segments**.
 - A **Limited** effect would tick **1 clock segment**.
 
-More on that in **Mechanics » Clocks**
+More on that in [**Mechanics » Clocks**](basics#clocks)
 
 Now that you know what Action is being rolled, what is the Position and the Effect of the situation, it's time to look at evening the odds.
 
@@ -391,9 +441,8 @@ Now that you know what Action is being rolled, what is the Position and the Effe
 If you want, you can Even the Odds by using one of the following approaches:
 
 > - **Push yourself -or- Use an Asset**. Add `1d6` to your pool or increase the Effect Rating by one. Pushing yourself consumes 2 stress.
-
-- **Ask for Help**. Add `1d6` to your pool or increase the Effect Rating by one.
-  That generous soul needs to consume 1 stress.
+> - **Ask for Help**. Add `1d6` to your pool or increase the Effect Rating by one.
+>   That generous soul needs to consume 1 stress.
 
 When you Push yourself, try to look at the current Aspects on the scene or on your character sheet to see if there's an aspect that might help you explain what "pushing yourself" means in the story.
 
@@ -403,26 +452,27 @@ When you Use an Asset, you take advantage of an aspect that was pre-established 
 
 That was quite a bit of information, so let's do a quick recap of what happens when you roll to overcome an obstacle.
 
-> **Overcome an Action**
-> —
-
-- Pick an Action and find how many dice you need to roll
-- Determine the Position (**controlled, risky, or desperate**)
-- Determine the Effect Rating (**great, standard or limited**)
-- `+1d6` If you **Push yourself** (-2 stress) -or- If you **Use an Asset**
-- `+1d6` If you have **Assistance** (they take -1 stress)
-- Roll and wish for the best!
-
-> On a **critical success**, you greatly overcome the obstracle
-> On a **full success**, you overcome the obstacle.
-> On a **partial success**, you overcome the obstacle, but there's a consequence.
-> On a **bad outcome**, you fail at overcoming the obstracle, and there's a consequence.
+> #### Overcome an Action
+>
+> 1. Pick an Action and find how many dice you need to roll
+> 1. Determine the Position (**controlled, risky, or desperate**)
+> 1. Determine the Effect Rating (**great, standard or limited**)
+> 1. `+1d6` If you **Push yourself** (-2 stress) -or- If you **Use an Asset**
+> 1. `+1d6` If you have **Assistance** (they take -1 stress)
+> 1. Roll and wish for the best!
+>
+> ---
+>
+> - On a **critical success**, you greatly overcome the obstracle
+> - On a **full success**, you overcome the obstacle.
+> - On a **partial success**, you overcome the obstacle, but there's a consequence.
+> - On a **bad outcome**, you fail at overcoming the obstracle, and there's a consequence.
 
 Yann*'s character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it's a **Risky Position** since the guard might not be alone, but the outcome would be of **Great Effect** because the guard isn't on high alert.* Yann _doesn't want to leave everything up to chance, and decides to even the odds. He sees an aspect on the scene, **"Flooded Basement"**, and says that his character will **Push Themselves** to get an additional 1d6 by diving in the water to get into a better position before taking the guard out._
 
-## Create an Asset
+# Create an Asset| Mechanics
 
-> _Let's think things through this time._
+> _This time, let's think things through._
 
 Not everything is an obstacle that needs to be overcome. Sometimes, you want to set yourself up for success by not leaving everything up to chance.
 
@@ -444,7 +494,7 @@ When you roll to Overcome an Obstacle, you can use an Asset to help you in your 
 
 Once an asset is used, the Aspect stays in play, but it doesn't offer any more mechanical opportunities for the PCs.
 
-_Claudia and Ariane's characters are intercepted in the middle of the street by law officers. Knowing that Claudia's character can see in the dark, Ariane decides she wants her character to **Command** her magic to pull out all the electricity in the nearby street lamps to make the street go dark. While this doesn't help with the immediate problem of dealing with the law officers, it might give them a fighting chance. She rolls and gets a 4, a partial success. The GM decides that she was able to create an Asset "Dark as the Night" to help Claudia's character, but she got shot in the process, dealing her 1 Harm._
+_Claudia and Ariane's characters are intercepted in the middle of the street by law officers. Knowing that Claudia's character can see in the dark, Ariane decides she wants her character to **Command** her magic to pull out all the electricity in the nearby street lamps to make the street go dark. While this doesn't help with the immediate problem of dealing with the law officers, it might give them a fighting chance. She rolls and gets a 4, a partial success. The GM decides that she was able to create an Asset "Dark as the Night" to help Claudia's character, but she got shot in the process, increasing the pressure of her Physical Gauge by 1 pressure level._
 
 ### Flashback Asset
 
@@ -452,8 +502,8 @@ During a session, it's expected that you won't always have the right idea at the
 
 For this reason, [GAME_NAME] allows you to try to create assets reactively as the game plays out, instead of pro-actively.
 
-> **Flashback Asset**
-> —
+> #### Flashback Asset
+>
 > When you want to create a Flashback Asset, consume 2 Stress and describe how you tried to do it. Then roll to try to Create the Asset as you would normally.
 
 One thing to note, creating Flashback Assets isn't like time travel. You cannot override something that happened in the past or is happening right now. You can use this mechanic to add more details to something that was left unsaid so that it can possibly create an opportunity in the present time. When doing that, try to tie it to a character or scene Aspect to help connect the dots.
@@ -462,22 +512,23 @@ _Gabrielle's character is a competent businesswoman. The president of the compan
 
 ### Recap
 
-> **Create an Asset**
-> —
+> #### Create an Asset
+>
+> 1. Pick an Action and find how many dice you need to roll
+> 1. Determine the Position (**controlled, risky, or desperate**)
+> 1. Determine the Effect Rating (**great, standard or limited**)
+> 1. `+1d6` If you **Push yourself** (-2 stress) -or- If you **Use an Asset**
+> 1. `+1d6` If you have **Assistance** (they take -1 stress)
+> 1. Roll and wish for the best!
+>
+> ---
+>
+> - On a **critical success**, you create two assets.
+> - On a **full success**, you create an Asset.
+> - On a **partial success**, you create an Asset with a consequence.
+> - On a **bad outcome**, you don't create an asset and there's a consequence.
 
-- Pick an Action and find how many dice you need to roll
-- Determine the Position (**controlled, risky, or desperate**)
-- Determine the Effect Rating (**great, standard or limited**)
-- `+1d6` If you **Push yourself** (-2 stress) -or- If you **Use an Asset**
-- `+1d6` If you have **Assistance** (they take -1 stress)
-- Roll and wish for the best!
-
-> On a **critical success**, you create two assets.
-> On a **full success**, you create an Asset.
-> On a **partial success**, you create an Asset with a consequence.
-> On a **bad outcome**, you don't create an asset and there's a consequence.
-
-## Consequences
+# Consequences| Mechanics
 
 > _Sometimes things work out, other times..._
 
@@ -485,8 +536,8 @@ If you roll to Overcome an Obstacle or Create an Asset and you get a **partial s
 
 Consequences are a tool that the GM can use to spice up the story. The GM determines the consequences, following from the fiction and the style and tone established by the game group.
 
-> **I Have an Idea!
-> —**
+> #### I Have an Idea!
+>
 > If anyone at the table an idea for a good consequence, hear them out! It can be daunting as a GM to always know what happens in case of failure. Especially if luck isn't on the player's side, and you need to find lots of different consequences in the same session.
 
 As the GM, don't hesitate to ask your players for ideas as well. Someone might have something fascinating to suggest story wise, but they think it's not their place to speak up. Prove them otherwise.
@@ -509,11 +560,11 @@ This consequence represents trouble, mounting danger, or a new threat.
 
 This could happen all in the narrative without any real mechanic implication. You don't need to
 
-In most common scenarios, the GM will create a new **Clock** (**Mechanics » Clocks**) or tick a segment off an existing one to represent this new danger.
+In most common scenarios, the GM will create a new **Clock** ([**Mechanics » Clocks**](basics#clocks)) or tick a segment off an existing one to represent this new danger.
 
 ### Lost Opportunity
 
-> You were tailing on someone, but they saw you and disappeared. You were fighting those robots, but they adapted and are able to anticipate your every move.
+> You were tailing on someone, but they saw you and disappeared. You were fighting robots, but they adapted and are now able to anticipate your every move.
 
 This consequence represents shifting circumstance. What you tried didn't work, and now there's a new situation that prevents you from trying again. You need to find another approach.
 
@@ -523,53 +574,61 @@ You need to **Bond** with your contacts to know if they heard of the person that
 
 ### Worse Position
 
+> You missed your shot, now they know where you are. They initially trusted you, but know they have some doubts and will be watching you more closely.
+
 This consequence represents losing control of the situation. The action carries you into a more dangerous **position**.
 
 Perhaps you make the leap across to the next rooftop, only to end up dangling by your fingertips. You haven’t failed, but you haven’t succeeded yet, either. You can try again, re-rolling at the new, worse position.
 
 This is a good consequence to choose to show escalating action. A situation might go from **controlled**, to **risky**, to **desperate** as the action plays out and the PC gets deeper and deeper in trouble.
 
-### Harm
+### Worse Condition
 
-This consequence represent injuries or trauma inflected on a character. When you suffer 1 Harm, you find and fill up the lowest available **Harm** aspect track on your character sheet with an **Aspect** describing what happened to you.
+This consequence represent injuries or trauma inflected on a character.
 
-This new aspect will then have a negative mechanical impact on your next rolls.
+When your condition worsen, you rise the pressure of an Attribute's Condition Gauge up to the next marker. You can also write a new Aspect that represents your new condition.
+
+Depending on how much pressure the Condition Gauge has, all rolls related to the matching Attribute will be affected negatively
 
 > - **Mild Harm**: Reduces the **effect** of your rolls.
+> - **Moderate Harm**: Removes `1d6` from your dice pools.
+> - **Severe Harm**: You need help, and you can't go on. You need immediate medical assistance.
 
-- **Moderate Harm**: Removes `1d6` from your dice pools.
-- **Severe Harm**: You need help, and you can't go on. You need immediate medical assistance.
+#### Surcharge
 
-When you take 1 Harm, and your 4 Harm \*\*\*\*aspect tracks are already filled, the life of the PC changes drastically. This consequence will affect the life of the character for the long run. You will need to rename one of the PC's 5 aspects to represent this new reality.
+When you need to increase the pressure of a Condition Gauge that is already filled up, this consequence will affect the life of the character for the long run.
+
+Clear the gauge and rename one of the character's 5 aspects.
 
 On the bright side, you aren't forced to take a consequence. You can always try to resist it.
 
+⚠️ ⚠️ ⚠️
+
 ### Recap
 
-> **Consequences**
-> —
+> #### Consequences
+>
+> - **Reduced Effect** : -1 effect rating
+> - **Complication**: create or tick a clock
+> - **Worse** Position: -1 position rating
+> - **Lost** Opportunity: try something else
+> - **Harm**: ⚠️ ⚠️ ⚠️ Take 1 Harm. Rename one of the PC aspect if you are out of Harm Aspects.
 
-- **Reduced** Effect: -1 effect rating
-- **Complication**: create or tick a clock
-- **Worse** Position: -1 position rating
-- **Lost** Opportunity: try something else
-- **Harm**: Take 1 Harm. Rename one of the PC aspect if you are out of Harm Aspects.
-
-## Resistance Roll
+# Resistance Roll| Mechanics
 
 > _Not on my watch!_
 
 If a character suffers a consequence that you, as a player, don't like, you can choose to resist it. Simply tell the GM, “No, I don’t think so. I’m resisting that.” The GM then tells you if resisting that consequence is going to avoid it completely or simply reduce it.
 
-> **Avoiding vs Reducing Consequences**
-> —
+> #### Avoiding vs Reducing Consequences
+>
 > By adjusting which consequences are reduced vs. which are avoided, the GM establishes the overall tone of your game. For a more daring game, most consequences will be avoided. For a grittier game, most consequences will only be reduced with resistance.
 
 You’ll then make a **Resistance Roll** to see how much stress your character suffers as a result of their resistance.
 
-You make the roll using one of your character’s **attributes** (**Insight**, **Prowess**, or **Resolve**). The GM chooses the attribute, based on the nature of consequences:
+You make the roll using one of your character’s **attributes** (**Physique**, **Insight**, or **Resolve**). The GM chooses the attribute, based on the nature of consequences:
 
-- **Prowess**: Consequences from physical strain or injury.
+- **Physique**: Consequences from physical strain or injury.
 - **Insight**: Consequences from deception or understanding.
 - **Resolve**: Consequences from mental strain or willpower.
 
@@ -579,21 +638,30 @@ If you get a critical result, you clear 1 stress!
 
 If the result of your roll costs you more stress than what is available on your character, things are even worse than before: you take **two consequences** instead of one.
 
-If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see **Mechanics » Team Work » Protect**.
+If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Mechanics » Team Work » Protect**](basics#protect).
 
 ### Recap
 
-> **Resistance Rolls**
-> —
+> #### Resistance Rolls
+>
+> - Roll 1d6 for each attribute rating (Prowess, Insight, Resolve).
+> - Suffer 6 stress minus the highest result of your roll.
+> - Clear 1 stress on a critical success.
+> - Take 2 consequences if you are out of stress.
 
-- Roll 1d6 for each attribute rating (Prowess, Insight, Resolve).
-- Suffer 6 stress minus the highest result of your roll.
-- Clear 1 stress on a critical success.
-- Take 2 consequences if you are out of stress.
-
-## Recovery Rolls
+# Recovery| Mechanics
 
 > _Now, breathe..._
+
+```jsx
+Once per session, roll 1d6 and clear that amount of stress.
+If the narrative helps you, roll 2d6
+On crit, recover all stress
+
+At the beginning of a session, all harm tracks
+	that were treated in the narrative are reduced by one level
+
+```
 
 ```jsx
 when there is down time, roll 2d6 to clear stress
@@ -612,7 +680,7 @@ Critical: Clear all harm aspects
 1-3: Clear one mild harm only
 ```
 
-## Fortune Roll
+# Fortune Roll| Mechanics
 
 > _The future is in constant flux._
 
@@ -633,18 +701,19 @@ Don't overthink this. This rule is vague by design, as it should not get in the 
 
 ### Recap
 
-> **Fortune Roll**
-> —
+> #### Fortune Roll
+>
+> - Add `1d6` per likeliness level.
+> - Roll `2d6` and pick the worst if it's really unlikely.
+>
+> ---
+>
+> - On a **critical success**, great results, and something exceptionnal happen.
+> - On a **full success**, great results.
+> - On a **partial success**, mixed results.
+> - On a **bad outcome**, bad results.
 
-- Add `1d6` per likeliness level.
-- Roll `2d6` and pick the worst if it's really unlikely.
-
-> On a **critical success**, great results, and something exceptionnal happen.
-> On a **full success**, great results.
-> On a **partial success**, mixed results.
-> On a **bad outcome**, bad results.
-
-## Team Work
+# Team Work| Mechanics
 
 > _It's dangerous to go alone, take this!_
 
@@ -658,11 +727,10 @@ When you Assist, you help another player who's rolling succeed at their task. De
 
 Be warned that, by doing this, you are also exposing yourself to possible consequences that this roll might end up creating.
 
-> **Assist**
-> —
-
-- Take 1 stress and give `1d6` to someone.
-- This exposes you to potential consequences.
+> #### Assist
+>
+> - Take 1 stress and give `1d6` to someone.
+> - This exposes you to potential consequences.
 
 ### **Take the Lead**
 
@@ -674,12 +742,11 @@ Each player character who's involved makes a **action roll**, andthe team counts
 
 **The group action result covers everyone who rolled.** If you don’t roll, your character doesn’t get the effects of the action.
 
-> **Take the Lead**
-> —
-
-- Leader describes how they take the lead and take **1 stress**
-- Everyone makes an **action roll**, the best result counts as the group's result
-- Leader takes **1 stress** for every player that rolled **1-3** as their best result.
+> #### Take the Lead
+>
+> - Leader describes how they take the lead and take **1 stress**
+> - Everyone makes an **action roll**, the best result counts as the group's result
+> - Leader takes **1 stress** for every player that rolled **1-3** as their best result.
 
 ### Protect
 
@@ -687,7 +754,7 @@ Each player character who's involved makes a **action roll**, andthe team counts
 
 You step in to face a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Simply describe how you intervene.
 
-## Clocks
+# Clocks| Mechanics
 
 A **Clock** is a circle **divided into 4, 6 or 8 segments**. Draw a clock when you need to track an ongoing effort against an obstacle that cannot be resolved with a simple Overcome an Obstacle roll.
 
@@ -719,34 +786,84 @@ Here are a couple of examples of how clocks could be used to represent some situ
 
 ### Recap
 
-> **Clocks**
-> —
+> #### Clocks
+>
+> - GM creates a block to representing long-lasting obstacles.
+>   - Divide in 4 segments for a complex obstacle.
+>   - Divide in 6 segments for a complicated obstacle.
+>   - Divide in 8 segments for a daunting obstacle.
+>
+> ---
+>
+> - GM ticks off a clock's segment depending on the **effect rating** and the outcome of a roll.
+>   - Tick 1 segment for a **limited effect rating**.
+>   - Tick 2 segments for a **standard effect rating.**
+>   - Tick 3 segments for a **great effect rating**.
 
-- GM creates a block to representing long-lasting obstacles.
+# Progression| Mechanics
 
-  - Divide in 4 segments for a complex obstacle.
-  - Divide in 6 segments for a complicated obstacle.
-  - Divide in 8 segments for a daunting obstacle.
+> _That's something I'm never going to forget._
 
-- GM ticks off a clock's segment depending on the **effect rating** and the outcome of a roll.
-  - Tick 1 segment for a **limited effect rating**.
-  - Tick 2 segments for a **standard effect rating.**
-  - Tick 3 segments for a **great effect rating**.
+In [GAME_NAME], your character is already talented and proactive.
 
-## Progression
+After all, they are the protagonists of the story. If they fail at a task, it's _probably_ more because of unplanned circumstances, than because of their lack of skills. Though this can also depend on the setting.
 
-```jsx
-minor milestone => rename aspect ?
-major milestone => add an action dot, rename aspect ?
-```
+As time goes on, your characters will evolve, and become more versatile, but this will only happen at certain **Milestones**.
+
+### Minor Milestones
+
+A Major Milestone happens **at the end of each session**. When the Session is over, each player can look at their character sheet and **rename an Aspect that isn't their Core Concept.** You do this to make your character react to what happened in the last session or even in the world in general.
+
+Again, you aren't forced to do that, but it gives more liberty to players to make their character sheet change as the story unrolls itself.
+
+### Major Milestones
+
+A Major Milestone usually happens **at the end of a big event** in the story. This will _usually_ happen every 3-5 sessions.
+
+The GM will probably feel when it's time for a Major Milestone, but as a player you can always remind the GM "_Hey, this looked like an important event in the story, should we get a major milestone ?_". Just goes with what feels right and adapt if necessary.
+
+> #### Progression Curve
+>
+> Just as a reminder, the longer it takes for a major milestone to happen, the longer it will take for characters to become stronger.
+
+This is an important to keep in mind depending on what kind of progression curve you want to have. Do you want to have a short campaign where characters will grow stronger pretty quickly, or are you looking for a year spanning campaign where the characters will mostly evolve by changing their aspects and major milestones will be welcomed with cheers ?
+
+There isn't a right or wrong answer here. It depends a 100% on what kind of campaign you want to have. This is also something you can discuss with the group to make sure everyone has the same expectations.
+
+When the group reaches a Major Milestone, everyone gets a new **Talent Dot** on their character sheet.
+
+There are 4 types of talents a character can get when reaching this milestone:
+
+- **+1 Action Dot**: You can increase any action on your character sheet by 1 dot.
+- **+1 Effect when \_\_\_\_**: In a certain situation, the effect rating described by the GM is increased by 1.
+- **+1 Position when \_\_\_\_**: In a certain situation, the position rating described by the GM is increase by 1.
+- **+1d6 when \_\_\_\_** : In a certain situation, you can add `+1d6` to your dice pool.
+
+Gaining a new **Talent Dot** often feels like a breath of fresh air. It won't make your characters overpowered or god like, but it will make them either more flexible, or more specialized.
+
+### Situational Talents
+
+Certain talents are situational. That is, they are only activated when you are in a certain context and using a specific action.
+
+For example, when you get a **+1 Effect when \_\_\_\_**, you will need to finish the end of that sentence by choosing one of the **12 Action** and a certain **Situation** that will activate the talent.
+
+Just look at what as already been established in the world or your character Aspect for inspiration.
+
+To keep the flow of the game balanced, the GM will have a veto on what Situation is good enough for your talent. Don't hesitate to experiment with a Situation and fine tune later.
+
+That is also the reason why you don't get any talent when you start a new character. First, take the time to understand and discover who your character is. Then, at a major milestone, they will become stronger, so think of ways that will make them truly unique.
+
+_Yann's character is a monster hunter. By consequence, he's pretty good at **Hunting** and **Brawling** in general. Yann also just got a new **Talent Dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Hunting monsters**". The GM agrees and now, Yann's character should be feared by most creatures roaming the lands._
+
+_In another session, the GM realizes that Yann's talent is perhaps too generic, and could tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Hunting monsters in the forest**" or something along those lines. Yann agree saying "My character lived in the forest all their life, and would probably be intimated by big cities. I like this a lot. Let's go with this for now!"_
 
 # Extras
 
-The content of the previous chapter contained every core rules to play [GAME_NAME]. With this, you are fully equipped to have a really fun time playing either just a short one shot or a full-fledged year spanning campaign.
+The content of the previous chapter contained every core rules to play [GAME_NAME]. With this, you are fully equipped to have a really fun time playing either just a quick one shot or a full-fledged year spanning campaign.
 
-This next chapter is about **Extras**.
+Now, this next chapter is about **Extras**.
 
-[GAME_NAME] Extras are additional mechanics that you can add in your games to mimic certain types of gameplay.
+[GAME_NAME] Extras are additional mechanics that you can add in your games to mimic certain types of gameplay or to tailor the game more to your liking.
 
 ## Loot Extra
 
@@ -763,13 +880,12 @@ If more than one player is scavenging, you can do a group roll using the **Lead 
 ⚠️ To Be Tested⚠️
 
 > **Loot Roll**
-> —
-
-- Roll **Survey**.
-  - On a 1-5: nothing happens.
-  - On a 6: You create an Asset that the group can use.
-  - On a Critical (66): You create two assets that the group can use.
-- If an Asset was created, take note of it on someone's character sheet.
+>
+> - Roll **Survey**.
+>   - On a 1-5: nothing happens.
+>   - On a 6: You create an Asset that the group can use.
+>   - On a Critical (66): You create two assets that the group can use.
+> - If an Asset was created, take note of it on someone's character sheet.
 
 ### Using Loot
 
@@ -785,11 +901,27 @@ To make those moments shine even more, the GM can give that player a Boon. A Boo
 
 This is like the way for the GM to say: this was amazing, here's `+1d6` for you roll.
 
+## Projects Extra
+
+The [GAME_NAME] character sheet has a Projects section which contains 4 empty clocks.
+
+Those exist if you want to track long term projects for your character.
+
+Perhaps your character is piling up money to be able to afford something good for their family, or perhaps they are trying to figure out a way to reverse the damaged caused by a dangerous new disease.
+
+One per session, if the narrative allows it, a character can try to make an Overcome an Obstacle roll to tick segments of those Clocks. Use them to track the long term projects of your character.
+
+Upon completion, the PC get what they wanted and the resolution creates a new narrative thread that the group or the PC might pursue.
+
 ## [[Duel Extra]]
+
+```jsx
+
+```
 
 ## [[Investigation Extra]]
 
-## [[Extra]]
+## [[Separate Progression Extra?]]
 
 # Game Creation
 

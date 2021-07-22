@@ -6,6 +6,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
+    "validate": "npm run lint && npm run tsc",
     "serve": "vite build && vite preview",
     "lint": "eslint 'src/**' --cache",
     "preview": "npm run deploy:preview",

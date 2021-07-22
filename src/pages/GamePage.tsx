@@ -1,9 +1,15 @@
 import { css } from "@emotion/css";
 
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import React, { useEffect, useState } from "react";
 import { useLocation, useRouteMatch } from "react-router-dom";
 import { ReactRouterLink } from "../components/ReactRouterLink";
-import { Game, IChapter } from "../domains/games/Game";
+import {
+  Game,
+  GameSettings,
+  IChapter,
+  ISidebarItem,
+} from "../domains/games/Game";
 import { Helmet } from "react-helmet-async";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
@@ -14,7 +20,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 import { useTheme } from "@material-ui/core/styles";
 import MenuList from "@material-ui/core/MenuList";
 import MenuItem from "@material-ui/core/MenuItem";
-import ListItemText from "@material-ui/core/ListItemText";
 import Typography from "@material-ui/core/Typography";
 import Hidden from "@material-ui/core/Hidden";
 import Stack from "@material-ui/core/Stack";
@@ -28,19 +33,35 @@ export function GamePage() {
   const chapterSlug = match.params.chapter;
   const [chapter, setChapter] = useState<IChapter>();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [openedCategory, setOpenedCategory] = useState<string>();
   const theme = useTheme();
 
   const location = useLocation();
+
   useEffect(() => {
     if (!location.hash) {
       return;
     }
     const scrollElement = document.querySelector(location.hash);
-    // scroll to the element if it exists
+
     if (scrollElement) {
       scrollElement.scrollIntoView({ behavior: "smooth" });
     }
-  }, [location.hash]);
+  }, [location.hash, chapter]);
+
+  useEffect(() => {
+    if (chapter) {
+      const categories = Object.keys(chapter.sidebar.categories);
+
+      categories.forEach((categoryName) => {
+        const sidebarItems = chapter.sidebar.categories[categoryName];
+        const open = sidebarItems.some((i) => i.path === chapterSlug);
+        if (open) {
+          setOpenedCategory(categoryName);
+        }
+      });
+    }
+  }, [chapter]);
 
   useEffect(() => {
     load();
@@ -80,7 +101,7 @@ export function GamePage() {
               open={mobileMenuOpen}
               classes={{
                 paper: css({
-                  top: "5rem !important",
+                  top: "5rem",
                 }),
               }}
               onClose={() => {
@@ -130,6 +151,10 @@ export function GamePage() {
   }
 
   function renderChapters() {
+    if (!chapter) {
+      return null;
+    }
+
     return (
       <>
         <div
@@ -153,75 +178,134 @@ export function GamePage() {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
               })}
-            ></div>
+            />
           )}
           <MenuList dense>
-            {chapter?.navigation.map((navigationItem, index) => {
-              const open =
-                chapterSlug === navigationItem.path ||
-                (index === 0 && !chapterSlug);
-              return [
-                <MenuItem
-                  key={index}
-                  component={ReactRouterLink}
-                  to={`/game/${gameSlug}/${navigationItem.path}`}
-                  onClick={() => {
-                    setMobileMenuOpen(false);
-                  }}
-                  className={css({
-                    width: "100%",
-                    display: "flex",
-                    color: "inherit",
-                    textDecoration: "none",
-                  })}
-                  selected={open}
-                >
-                  <div
-                    className={css({
-                      width: "100%",
-                      display: "flex",
-                      flexDirection: "column",
-                    })}
-                  >
-                    <Typography noWrap component="span">
-                      <span>{navigationItem.text}</span>
-                    </Typography>
-                  </div>
-                </MenuItem>,
-                <Collapse in={open}>
-                  {navigationItem.children.map((child, index) => {
-                    return (
-                      <MenuItem
-                        selected={open}
-                        key={index}
-                        component={ReactRouterLink}
-                        onClick={() => {
-                          setMobileMenuOpen(false);
-                        }}
-                        to={`/game/${gameSlug}/${child.path}`}
-                        className={css({
-                          color: "inherit",
-                          textDecoration: "none",
-                          backgroundColor: open ? "red" : "inherit",
-                        })}
-                      >
-                        <Typography
-                          noWrap
-                          className={css({
-                            paddingLeft: "1rem",
-                          })}
-                        >
-                          {child.text}
-                        </Typography>
-                      </MenuItem>
-                    );
-                  })}
-                </Collapse>,
-              ];
-            })}
+            {renderCategoriesSideBarItems()}
+            {renderRootSideBarItems()}
           </MenuList>
         </div>
       </>
+    );
+  }
+
+  function renderRootSideBarItems() {
+    if (!chapter) {
+      return null;
+    }
+    return chapter.sidebar.root.map((sidebarItem, index) => {
+      return renderSidebarItem({
+        key: index,
+        item: sidebarItem,
+        paddingLeft: "0",
+      });
+    });
+  }
+
+  function renderCategoriesSideBarItems() {
+    if (!chapter) {
+      return null;
+    }
+
+    return Object.keys(chapter.sidebar.categories).map(
+      (categoryName, index) => {
+        const sidebarItems = chapter.sidebar.categories[categoryName];
+        const open = openedCategory === categoryName;
+
+        return [
+          <MenuItem
+            key={index}
+            onClick={() => {
+              setOpenedCategory((prev) => {
+                return prev === categoryName ? undefined : categoryName;
+              });
+              setMobileMenuOpen(false);
+            }}
+            className={css({
+              width: "100%",
+              display: "flex",
+              color: "inherit",
+              textDecoration: "none",
+            })}
+          >
+            <div
+              className={css({
+                width: "100%",
+                display: "flex",
+                flexDirection: "column",
+              })}
+            >
+              <Grid
+                container
+                spacing={1}
+                justifyContent="space-between"
+                wrap="nowrap"
+                alignItems="center"
+              >
+                <Grid item>
+                  <Typography noWrap component="span">
+                    <span>{categoryName}</span>
+                  </Typography>
+                </Grid>
+                <Grid item>
+                  <ArrowForwardIosIcon
+                    htmlColor={theme.palette.text.secondary}
+                    className={css({
+                      width: "1rem",
+                      height: "1rem",
+                      transform: false ? "rotate(90deg)" : "rotate(0deg)",
+                      transition: theme.transitions.create("transform"),
+                    })}
+                  />
+                </Grid>
+              </Grid>
+            </div>
+          </MenuItem>,
+          // eslint-disable-next-line react/jsx-key
+          <Collapse in={open}>
+            {sidebarItems.map((sidebarItem, index) => {
+              return renderSidebarItem({
+                key: index,
+                item: sidebarItem,
+                paddingLeft: "1rem",
+              });
+            })}
+          </Collapse>,
+        ];
+      }
+    );
+  }
+
+  function renderSidebarItem(renderProps: {
+    key: any;
+    item: ISidebarItem;
+    paddingLeft: string;
+    selected?: boolean;
+  }) {
+    return (
+      <MenuItem
+        key={renderProps.key}
+        component={ReactRouterLink}
+        onClick={() => {
+          setMobileMenuOpen(false);
+        }}
+        selected={chapterSlug === renderProps.item.path}
+        to={`/game/${gameSlug}/${renderProps.item.path}`}
+        className={css({
+          color: "inherit",
+          textDecoration: "none",
+          backgroundColor: false ? "red" : "inherit",
+        })}
+      >
+        <Typography
+          noWrap
+          className={css({
+            paddingLeft: renderProps.paddingLeft,
+          })}
+        >
+          {renderProps.item.title}
+        </Typography>
+      </MenuItem>
     );
   }
 
@@ -248,7 +332,7 @@ export function GamePage() {
                       color: theme.palette.text.secondary,
                       textDecoration: "none",
                       display: "flex",
-                      marginLeft: indentationLevel * 2 + "rem",
+                      marginLeft: `${indentationLevel * 2}rem`,
                     })}
                   >
                     <Typography noWrap>{tocItem.text}</Typography>
@@ -267,6 +351,7 @@ export function GamePage() {
       <>
         <div>
           {renderPreviousNextNavigation()}
+          <Helmet>{GameSettings[gameSlug].head}</Helmet>
           <div
             className={css({
               "& blockquote": {
@@ -276,10 +361,21 @@ export function GamePage() {
                 boxShadow: theme.shadows[1],
                 borderLeft: `4px solid ${theme.palette.secondary.main}`,
               },
+              "& code": {
+                background: "rgba(255, 229, 100, 0.4)",
+                fontFamily: "inherit",
+                fontWeight: theme.typography.fontWeightBold,
+              },
               "& pre": {
                 whiteSpace: "pre-wrap",
                 wordBreak: "break-word",
+                background: theme.palette.action.selected,
+                padding: "1rem",
+                "& code": {
+                  background: "none",
+                },
               },
+
               "& p": {
                 ...(theme.typography.body1 as any),
               },
@@ -298,23 +394,34 @@ export function GamePage() {
                   color: theme.palette.text.primary,
                 },
               },
+              "& img": {
+                maxWidth: "50%",
+                margin: "0 auto",
+                display: "block",
+              },
               "& h1": {
                 ...(theme.typography.h1 as any),
+                fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
               },
               "& h2": {
                 ...(theme.typography.h2 as any),
+                fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
               },
               "& h3": {
                 ...(theme.typography.h3 as any),
+                fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
               },
               "& h4": {
                 ...(theme.typography.h4 as any),
+                fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
               },
               "& h5": {
                 ...(theme.typography.h5 as any),
+                fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
               },
               "& h6": {
                 ...(theme.typography.h6 as any),
+                fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
               },
             })}
             dangerouslySetInnerHTML={{

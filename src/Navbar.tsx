@@ -1,4 +1,7 @@
 import React from "react";
+
+import Brightness4Icon from "@material-ui/icons/Brightness4";
+import Brightness7Icon from "@material-ui/icons/Brightness7";
 import { css } from "@emotion/css";
 
 import { ReactRouterLink } from "./components/ReactRouterLink";
@@ -9,10 +12,14 @@ import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import { Breakpoint, useTheme } from "@material-ui/core/styles";
 import { useLocation } from "react-router-dom";
+import IconButton from "@material-ui/core/IconButton";
+import { useContext } from "react";
+import { SettingsContext } from "./contexts/SettingsContext";
 
 export function Navbar() {
   const theme = useTheme();
   const location = useLocation();
+  const settingsManager = useContext(SettingsContext);
   const maxWidth: Breakpoint | undefined = location.pathname.startsWith("/game")
     ? "xl"
     : undefined;
@@ -45,26 +52,59 @@ export function Navbar() {
                 className={css({ color: "inherit", textDecoration: "none" })}
               >
                 <Button color="inherit">
-                  <img
-                    src="/images/app.png"
-                    title="Fari Games"
-                    className={css({
-                      height: "3rem",
-                    })}
-                  ></img>
+                  <Grid container spacing={1} wrap="nowrap" alignItems="center">
+                    <Grid item>
+                      <img
+                        src="/images/app.png"
+                        title="Fari Games"
+                        className={css({
+                          height: "3rem",
+                        })}
+                      />
+                    </Grid>
+                    <Grid item>
+                      <Typography
+                        className={css({
+                          fontWeight: theme.typography.fontWeightBold,
+                        })}
+                      >
+                        Fari | Games
+                      </Typography>
+                    </Grid>
+                  </Grid>
                 </Button>
               </ReactRouterLink>
             </Grid>
             <Grid item>
               <ReactRouterLink
                 to="/game/charge-rpg"
-                className={css({ color: "inherit", textDecoration: "none" })}
+                className={css({
+                  color: "inherit",
+                  textDecoration: "none",
+                })}
               >
                 <Button color="inherit">Charge RPG</Button>
               </ReactRouterLink>
             </Grid>
           </Grid>
-          <Grid item />
+          <Grid item>
+            <IconButton
+              className={css({ color: "inherit" })}
+              onClick={() => {
+                const newThemeMode =
+                  settingsManager.state.themeMode === "dark" ? "light" : "dark";
+                settingsManager.actions.setThemeMode(newThemeMode);
+              }}
+            >
+              <>
+                {settingsManager.state.themeMode === "dark" ? (
+                  <Brightness7Icon />
+                ) : (
+                  <Brightness4Icon />
+                )}
+              </>
+            </IconButton>
+          </Grid>
         </Grid>
       </Container>
     </Box>
