@@ -242,8 +242,14 @@ export function GamePage() {
                 alignItems="center"
               >
                 <Grid item>
-                  <Typography noWrap component="span">
-                    <span>{categoryName}</span>
+                  <Typography
+                    noWrap
+                    component="span"
+                    className={css({
+                      fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
+                    })}
+                  >
+                    {categoryName}
                   </Typography>
                 </Grid>
                 <Grid item>
@@ -266,7 +272,7 @@ export function GamePage() {
               return renderSidebarItem({
                 key: index,
                 item: sidebarItem,
-                paddingLeft: "1rem",
+                paddingLeft: ".5rem",
               });
             })}
           </Collapse>,
@@ -279,7 +285,6 @@ export function GamePage() {
     key: any;
     item: ISidebarItem;
     paddingLeft: string;
-    selected?: boolean;
   }) {
     return (
       <MenuItem
@@ -294,12 +299,17 @@ export function GamePage() {
           color: "inherit",
           textDecoration: "none",
           backgroundColor: false ? "red" : "inherit",
+          borderLeft:
+            chapterSlug === renderProps.item.path
+              ? `4px solid ${theme.palette.secondary.main}`
+              : `4px solid transparent`,
         })}
       >
         <Typography
           noWrap
           className={css({
             paddingLeft: renderProps.paddingLeft,
+            fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
           })}
         >
           {renderProps.item.title}
