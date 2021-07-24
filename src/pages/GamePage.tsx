@@ -86,10 +86,10 @@ export function GamePage() {
                   {renderChapters()}
                 </Grid>
               </Hidden>
-              <Grid item sm={12} md={6}>
+              <Grid item sm={12} md={9} lg={6}>
                 {renderContent()}
               </Grid>
-              <Hidden mdDown>
+              <Hidden lgDown>
                 <Grid item xs={3}>
                   {renderToc()}
                 </Grid>
@@ -384,7 +384,13 @@ export function GamePage() {
                   background: "none",
                 },
               },
-
+              "& > p > em:only-child": {
+                display: "block",
+                textAlign: "center",
+                padding: "1rem",
+                borderRadius: "4px",
+                border: `1px solid ${theme.palette.divider}`,
+              },
               "& p": {
                 ...(theme.typography.body1 as any),
               },

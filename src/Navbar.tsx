@@ -1,6 +1,11 @@
 import React from "react";
 
 import Brightness4Icon from "@material-ui/icons/Brightness4";
+
+import ComputerIcon from "@material-ui/icons/Computer";
+import DarkModeIcon from "@material-ui/icons/DarkMode";
+import LightModeIcon from "@material-ui/icons/LightMode";
+
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 import { css } from "@emotion/css";
 
@@ -15,6 +20,8 @@ import { useLocation } from "react-router-dom";
 import IconButton from "@material-ui/core/IconButton";
 import { useContext } from "react";
 import { SettingsContext } from "./contexts/SettingsContext";
+import Tooltip from "@material-ui/core/Tooltip";
+import Hidden from "@material-ui/core/Hidden";
 
 export function Navbar() {
   const theme = useTheme();
@@ -64,6 +71,7 @@ export function Navbar() {
                     </Grid>
                     <Grid item>
                       <Typography
+                        noWrap
                         className={css({
                           fontWeight: theme.typography.fontWeightBold,
                         })}
@@ -75,35 +83,63 @@ export function Navbar() {
                 </Button>
               </ReactRouterLink>
             </Grid>
-            <Grid item>
-              <ReactRouterLink
-                to="/game/charge-rpg"
-                className={css({
-                  color: "inherit",
-                  textDecoration: "none",
-                })}
-              >
-                <Button color="inherit">Charge RPG</Button>
-              </ReactRouterLink>
-            </Grid>
+            <Hidden smDown>
+              <Grid item>
+                <ReactRouterLink
+                  to="/game/charge-rpg"
+                  className={css({
+                    color: "inherit",
+                    textDecoration: "none",
+                  })}
+                >
+                  <Button color="inherit">Charge RPG</Button>
+                </ReactRouterLink>
+              </Grid>
+            </Hidden>
           </Grid>
+          <Hidden smDown>
+            <Grid item>
+              <Tooltip title="Use Theme from System Preferences">
+                <IconButton
+                  className={css({ color: "inherit" })}
+                  onClick={() => {
+                    settingsManager.actions.setThemeMode(undefined);
+                  }}
+                >
+                  <>
+                    <ComputerIcon />
+                  </>
+                </IconButton>
+              </Tooltip>
+            </Grid>
+          </Hidden>
           <Grid item>
-            <IconButton
-              className={css({ color: "inherit" })}
-              onClick={() => {
-                const newThemeMode =
-                  settingsManager.state.themeMode === "dark" ? "light" : "dark";
-                settingsManager.actions.setThemeMode(newThemeMode);
-              }}
+            <Tooltip
+              title={
+                settingsManager.state.themeMode === "dark"
+                  ? "Light Mode"
+                  : "Dark Mode"
+              }
             >
-              <>
-                {settingsManager.state.themeMode === "dark" ? (
-                  <Brightness7Icon />
-                ) : (
-                  <Brightness4Icon />
-                )}
-              </>
-            </IconButton>
+              <IconButton
+                className={css({ color: "inherit" })}
+                onClick={() => {
+                  const newThemeMode =
+                    settingsManager.state.themeMode === "dark"
+                      ? "light"
+                      : "dark";
+                  settingsManager.actions.setThemeMode(newThemeMode);
+                }}
+              >
+                <>
+                  {settingsManager.state.themeMode === "dark" ? (
+                    <LightModeIcon />
+                  ) : (
+                    <DarkModeIcon />
+                  )}
+                </>
+              </IconButton>
+            </Tooltip>
           </Grid>
         </Grid>
       </Container>

@@ -1,0 +1,115 @@
+# https://docs.github.com/en/free-pro-team@latest/actions/reference/context-and-expression-syntax-for-github-actions
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches:
+      - "**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Use Node
+      - name: Use Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      # Cache
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      # Install
+      - name: Install
+        run: npm install
+      # Build
+      - name: Build
+        run: npm run build
+        env:
+          VITE_GITHUB_RUN_NUMBER: ${{github.run_number}}
+          VITE_GITHUB_SHA: ${{github.sha}}
+      # Validate
+      - name: Validate
+        run: npm run validate
+      # Upload Artifacts
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: dist
+          path: dist
+  deploy-preview:
+    needs: [build]
+    runs-on: ubuntu-latest
+    if: github.repository == 'fariapp/fari-games' && github.ref != 'refs/heads/main'
+    environment:
+      name: Preview
+      url: https://${{github.run_id}}--fari.netlify.app
+    steps:
+      # Setup
+      - uses: actions/checkout@v2
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      # Cache
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      # Install
+      - name: Install
+        run: npm install
+      # Download Artifacts
+      - name: Download Artifacts
+        uses: actions/download-artifact@master
+        with:
+          name: dist
+          path: dist
+      # Deploy Preview
+      - name: Deploy Preview
+        run: npm run deploy:preview -- --auth ${{secrets.NETLIFY_AUTH_TOKEN}} --alias $GITHUB_RUN_ID
+  deploy-production:
+    needs: [build]
+    runs-on: ubuntu-latest
+    if: github.repository == 'fariapp/fari-games' && github.ref == 'refs/heads/main'
+    environment:
+      name: Production
+      url: https://fari.app
+    steps:
+      # Setup
+      - uses: actions/checkout@v2
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      # Cache
+      - name: Cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      # Install
+      - name: Install
+        run: npm install
+      # Download Artifacts
+      - name: Download Artifacts
+        uses: actions/download-artifact@master
+        with:
+          name: dist
+          path: dist
+      # Deploy Production
+      - name: Deploy Production
+        run: npm run deploy:prod -- --auth ${{secrets.NETLIFY_AUTH_TOKEN}}

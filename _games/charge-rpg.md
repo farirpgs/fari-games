@@ -83,7 +83,7 @@ That's about it really.
 
 Having access to this book in physical or virtual form can also be handy, but totally optional.
 
-# Getting Started | Power Your Story Telling
+# In a Nutshell | Power Your Story Telling
 
 [GAME_NAME] is a generic table-top role-playing game. That means that you and your friends will get together, and tell an interactive story about a group of fictional character you will create. Those characters will face obstacles and challenges, and you get to decide how they react. The world then changes based on what the characters do.
 
@@ -125,7 +125,7 @@ Each session is made of **Scenes**, like in a movie.Each scene then plays out as
 
 The players will make their characters try to accomplish certain goals, and the GM will make the world react to those actions depending on the outcome which is partially controlled by chance and the character's proficiencies.
 
-# Creating a Character | Characters
+# Creating your Character | Characters
 
 As a player, you will need to create a **character**.
 
@@ -188,7 +188,6 @@ The 12 actions are regrouped in 3 categories, or **Attributes**.
 We have **Physique**, **Insight** and **Resolve**. Each **Attribute** important in its own way, since they let you resist different types of danger when things go sour. More on that later in [**Mechanics » Resistance Roll**](mechanics#resistance-roll).
 
 For now let's look at the 12 different types of actions.
-
 
 ### The 12 Actions
 
@@ -363,13 +362,19 @@ e.g. +
 
 # Fiction First | Mechanics
 
-[GAME_NAME] is a "fiction first" kind of game. You first tell the story, and look at the rules afterwards to see if something needs to happen on the mechanics side.
+[GAME_NAME] is a "fiction first" kind of game. This means that the GM and the players will tell a story, and look at the rules afterwards to see if something needs to be resolved using the game's mechanics.
 
-The mechanics are there to help you resolve situation where you basically don't know the direct answers to a question. They are a toolbox
+View the mechanics as a toolbox that you can use. They are there you resolve situation where you basically don't know the direct answers to a question.
 
 _Will this character find what they are looking for, can that character convince this merchant to talk, how will this faction react to this big event, etc._
 
-## Rolling Dice
+Sometimes, those situation are resolved with a mechanic that relies on the PC's proficiencies, while other times they might be resolved with mechanics that relies on strait up luck!
+
+The reason we do this is to create a "wow feeling" in unknown situations. While the story is created by everyone at the table, the mechanics will act as a guide that will drive the narrative forward with unexpected outcomes.
+
+Those mechanics mostly rely on figuring out what is happening and what are the risks. Than a set of six sided dice are rolled, results are interpreted and the story continue.
+
+# Rolling Dice | Mechanics
 
 [GAME_NAME] uses six-sided dice. You roll several at once and read the **single highest result**.
 
@@ -521,7 +526,7 @@ For this reason, [GAME_NAME] allows you to try to create assets reactively as th
 
 > #### Flashback Asset
 >
-> When you want to create a Flashback Asset, consume 2 Stress and describe how you tried to do it. Then roll to try to Create the Asset as you would normally.
+> When you want to create a Flashback Asset, consume 1 Stress and describe how you tried to do it. Then roll to try to Create the Asset as you would normally.
 
 One thing to note, creating Flashback Assets isn't like time travel. You cannot override something that happened in the past or is happening right now. You can use this mechanic to add more details to something that was left unsaid so that it can possibly create an opportunity in the present time. When doing that, try to tie it to a character or scene Aspect to help connect the dots.
 
@@ -655,7 +660,7 @@ If you get a critical result, you clear 1 stress!
 
 If the result of your roll costs you more stress than what is available on your character, things are even worse than before: you take **two consequences** instead of one.
 
-If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Mechanics » Team Work » Protect**](mechanics#protect).
+If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Team Work » Protect**](team-work#protect).
 
 ### Recap
 
@@ -670,14 +675,36 @@ If you want, you can also resist a consequence that isn't targeting you directly
 
 > _Now, breathe..._
 
-```jsx
-Once per session, roll 1d6 and clear that amount of stress.
-If the narrative helps you, roll 2d6
-On crit, recover all stress
+As the game plays out, the PCs will get more stressed out and accumulate more pressure in their Condition Gauges.
 
-At the beginning of a session, reduce pressure of all conditions gauges by 1.
+When a PC has filled up their stress track, they won't be able to **Push Themselves**, **Assist** their teammates or create **Flashback Assets**.
 
-```
+When a PC has a lot of pressure in their Condition Gauges, making Action Rolls will be less effective and more difficult. They will also be narratively restricted in how they can interact with the story because of the Condition Aspect.
+
+Stress and Condition Gauges exists to pace the game. Not every action is going to go well, and failing an action has consequences which will affect the characters for some time. 
+
+Things will eventually go back to normal and the PCs will recover. But for the recovery to happen, it needs to happen in the fiction first.
+
+## Recovering in the Fiction
+
+When a player wants their character to recover stress or reduce pressure in their condition gauges, there needs to be **Downtime** in the fiction. 
+
+If the group spends 3 sessions battling monsters in an epic dungeon and tension is always up the roof, than the fiction doesn't allow for recovery to happen.
+
+That being said, **Downtime** doesn't mean that all the PCs have to sit down by a campfire and talk until they are at "full health". The game structure isn't enforced, so the PCs can do what ever they want, whenever they want.
+
+But, when things calm down, when the tension is released, then you can catch a breath.
+
+## Recovering Stress
+
+## Reducing Pressure in Condition Gauges
+
+Once per session, the players can reduce the pressure of all the Condition Gauges
+
+So if your Physical gauge was up to the second marker and your
+
+---
+
 # Fortune Roll| Mechanics
 
 > _The future is in constant flux._
@@ -921,26 +948,29 @@ Upon completion, the PC get what they wanted and the resolution creates a new na
 
 # [[Separate Progression Extra?]] | Extras
 
-# Game Creation
+# Being a GM | Running the Game
 
 > Work In Progress
+>
+> - Talk about GM dos and donts
 
-# Running the Game
+# Creating the World | Running the Game
 
 > Work In Progress
+>
+> - Talk about picking a setting
 
-```jsx
-Talk about picking a good setting
-Talk about Dos and Donts
-```
+# Organizing a Campaign | Running the Game
 
-# Creating a Campaign
+> Work In Progress
+>
+> - Talk about the Big Bad's Agenda
 
-```jsx
-Talk about Big Bad Agenda => Ambition => goals => tactics
-Talk about
-```
+# Being a Player | Playing the Game
 
+> Work In Progress
+>
+> - Talk about players dos and donts
 
 # Licence
 
