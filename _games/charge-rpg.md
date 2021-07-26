@@ -999,14 +999,17 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - `Relationship`: Connection with another player's character.
 > - `2 Other Aspects`: Anything else you want.
 >
-> ---
->
-> - Every `Minor Milestone`, you can rename an aspect.
+> _With every `Minor Milestone`, you can rename an aspect._
 >
 > ### Actions
 >
-> - Distribute `7 Action Dots` among the `12 Actions`.
-> - A single `Action` cannot have more than `2 Action Dot` at the start of a campaign
+> Distribute `7 Action Dots` among the `12 Actions` to define how good your character is at doing certain things.
+>
+> - Actions are grouped into 3 `Attributes`:
+>   - `Physique`
+>   - `Insight`
+>   - `Resolve`
+> - At character creation, a single `Action` cannot have more than `2 Action Dot`.
 >
 > #### Physique
 >
@@ -1031,88 +1034,111 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ### Momentum
 >
+> Momentum is gained when your character does something, and can be spent to boost your `Actions` or `Resist Consequences`. You start every session with `2 Momentum`.
+>
 > - Everytime you make an Action Roll, gain `+1 Momentum`.
 > - Gain `+2 Momentum` on a `critical success`.
-> - Consume `-2 Momentum` to add `+1d6` to an Action Roll.
-> - Consume `-2 Momentum` to lead a group action.
-> - Consume `-1 Momentum` to `Assist` an ally, add `+1d6` to their Action Roll.
+> #### Using Momentum
+> | Cost          | Result                                             |
+> | ------------- | -------------------------------------------------- |
+> | `-2 Momentum` | `Push yourself` and `+1d6` to your action roll.                      |
+> | `-2 Momentum` | `Take the lead` on a group action.                 |
+> | `-1 Momentum` | `Assist` an ally, add `+1d6` to their action roll. |
+>
+> #### Momentum Dial
+>
+> - For harsher campaigns: Only gain `+1 Momentum` on `1-3` action roll results
+> - For heroic campaigns: Gain `+2 Momentum` on `66` and `6` roll results.
 >
 > ### Talents
 >
+> Talents make your character stronger and more versatile over time.
+>
 > - Get `+1 Talent Dot` every `Major Milestone`.
+>
+> #### Talent Types
+>
+> A Talent either gives:
+>
+> - `+1 Action Dot` to spend on a Action
+> - A new `Situational Talents`. A Bonus that applies for an `Action` in a certain `Situation` (fill up the blank \_\_\_\_).
 >
 > ### Condition Gauges
 >
 > - On a failed roll, GM can increase a PC's condition gauge by `+1 Pressure`.
-> - First level condition gauge inflicts `Less Effect` on action rolls.
-> - Second level condition gauge reduce `-1d6` action rolls.
-> - Third level condition gauge: Need help.
+> - Gauges with `1 Pressure`: Reduces the `Effect` of an action roll.
+> - Gauges with `2 Pressures`: Reduces by `-1d6` the dice pool of an action roll.
+> - Gauges with `3 Pressures`: The PC is taken out and and require immediate help.
 
 ## Doing Things
 
-> ### Overcome an Action
+> ### Overcome an Obstacle
 >
-> Something is in your way.
+> Use this when someone, or something, is in your way.
 >
 > 1. Pick an `Action` and find how many dice you need to roll
 > 1. Determine the Position (`controlled`, `risky`, or `desperate`)
 > 1. Determine the Effect Rating (`great`, `standard` or `limited`)
 > 1. Choose one:
->    - Add `+1d6` if you `push yourself` (`-2 Momemtum`)
+>    - Add `+1d6` if you `push yourself` (`-2 Momentum`)
 >    - Add `+1d6` if you `use an Asset`
-> 1. Add `+1d6` if you have `assistance` (they take `-1 Momemtum`)
+> 1. Add `+1d6` if you have `assistance` (they consume `-1 Momentum`)
 > 1. Roll and wish for the best!
 >
-> ---
+> | Roll  | Name               | Explanation                                                       |
+> | ----- | ------------------ | ----------------------------------------------------------------- |
+> | `66`  | `Critical Success` | You greatly overcome the obstacle.                                |
+> | `6`   | `Full Success`     | You overcome the obstacle.                                        |
+> | `4-5` | `Partial Success`  | You overcome the obstacle, but there's a `consequence`.           |
+> | `1-3` | `Bad outcome`      | You fail at overcoming the obstacle, and there's a `consequence`. |
 >
-> - On a `critical success`, you greatly overcome the obstacle.
-> - On a `full success`, you overcome the obstacle.
-> - On a `partial success`, you overcome the obstacle, but there's a `consequence`.
-> - On a `bad outcome`, you fail at overcoming the obstacle, and there's a `consequence`.
->
-> Gain `+2 Momentum` for a `critical success`. Otherwise, gain `+1 Momentum`.
+> _Gain `+2 Momentum` for a `critical success`. Otherwise, gain `+1 Momentum`._
 >
 > ### Create an Asset
 >
-> Assets let you add `+1d6` to an Action Roll or improve either the `position` or the `effect` rating.
+> Use this to try to change a situation for the better and set yourself up for success.
+>
+> Assets let you improve an subsequent Action Roll by either: `+1d6`, `+Effect` or `+Position`
 >
 > 1. Pick an `Action` and find how many dice you need to roll
 > 1. Determine the Position (`controlled`, `risky`, or `desperate`)
 > 1. Determine the Effect Rating (`great`, `standard` or `limited`)
 > 1. Choose one:
->    - Add `+1d6` if you `push yourself` (`-2 momemtum`)
+>    - Add `+1d6` if you `push yourself` (`-2 Momentum`)
 >    - Add `+1d6` if you `use an Asset`
-> 1. Add `+1d6` if you have `assistance` (they take `-1 momemtum`)
+> 1. Add `+1d6` if you have `assistance` (they consume `-1 Momentum`)
 > 1. Roll and wish for the best!
 >
-> ---
+> | Roll  | Name               | Explanation                                              |
+> | ----- | ------------------ | -------------------------------------------------------- |
+> | `66`  | `Critical Success` | You create two `assets`                                  |
+> | `6`   | `Full Success`     | You create an `asset                                     |
+> | `4-5` | `Partial Success`  | You create an `asset`, but there's a `consequence`.      |
+> | `1-3` | `Bad outcome`      | You don't create an `asset` and there's a `consequence`. |
 >
-> - On a `critical success`, you create two `assets`.
-> - On a `full success`, you create an `asset`.
-> - On a `partial success`, you create an `asset` with a `consequence`.
-> - On a `bad outcome`, you don't create an `asset` and there's a `consequence`.
->
-> Gain `+2 Momentum` for a `critical success`. Otherwise, gain `+1 Momentum`.
+> _Gain `+2 Momentum` for a `critical success`. Otherwise, gain `+1 Momentum`._
 >
 > ### Resist
 >
-> Resist a consequence or incoming `Pressure`.
+> Use this to resist a consequence, or incoming `Pressure`.
 >
-> - Roll `1d6` for each `attribute` rating: 
+> - Roll `1d6` for each `attribute` rating:
 >   - `Physique`: Consequences from physical strain or injury.
 >   - `Insight`: Consequences from deception or understanding.
 >   - `Resolve`: Consequences from mental strain or willpower.
 >
-> ---
+> | Roll  | Name               | Explanation                |
+> | ----- | ------------------ | -------------------------- |
+> | `66`  | `Critical Success` | You gain `+1 Momentum`.    |
+> | `6`   | `Full Success`     | You consume `-1 Momentum`. |
+> | `4-5` | `Partial Success`  | You consume `-2 Momentum`. |
+> | `1-3` | `Bad outcome`      | You consume `-3 Momentum`. |
 >
-> - On a `critical success`, you gain `+1 Momentum`.
-> - On a `full success`, you consume `-1 Momentum`
-> - On a `partial success`, you consume `-2 Momentum`.
-> - On a `bad outcome`, you consume `-3 Momentum`.
->
-> If you can't consume all the `Momentum`, the GM declares  `2 Consequences` instead of one.
+> If you can't consume all the `Momentum`, the GM declares `2 Consequences` instead of one.
 >
 > ### Recover
+>
+> Use this to heal and recuperate.
 >
 > - Once per session, if the fiction allows it, reduce all `condition gauges` by one level.
 
@@ -1120,21 +1146,29 @@ This chapter will go over the most important bits of the book in a quick recap s
 
 > ### Take the Lead
 >
+> Use this to carry the group with your leadership and skills.
+>
 > - Leader describes how they take the lead and consume **-2 Momentum**
 > - Everyone makes an **Action Roll**, the best result counts as the group's result
 >
 > ### Assist
+>
+> Use this to help a fellow PC in accomplishing their action.
 >
 > - Consume `-1 Momentum` and give `+1d6` to someone.
 > - This also exposes you to potential consequences.
 >
 > ### Protect
 >
-> - Roll to resist someone else's consequence
+> Use this to to protect a fellow PC from danger.
+>
+> - Roll to resist someone else's consequence.
 
 ## Misc
 
 > ### Progression
+>
+> Use this to make characters evolve and get stronger over time.
 >
 > #### Minor Milestone
 >
@@ -1143,34 +1177,45 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > #### Minor Milestone
 >
-> - Happens every 3-5 sessions after a big event
+> - Happens every 3-5 sessions, usually after a big event.
 > - Gain `+1 Talent Dot`
 >
 > ### Consequences
 >
-> Happens on a failed roll
+> Use this to when there's a `bad outcome` on a PC's Action Roll.
 >
-> - Reduced Effect
-> - Complications
-> - Lost Opportunity
-> - Worse ConditionPosition
-> - Take `1 Pressure`
+> Either
+>
+> - The `effect` of the roll is reduced.
+> - A complication occurs.
+> - The opportunity is lost and you got to try a new tactic.
+> - The `position` worsen.
+> - Take `+1 Pressure` on a `Condition Gauge`.
 >
 > ### Fortune Roll
+>
+> Use this to find out what happens when the PCs aren't involved.
 >
 > - Add `1d6` per likeliness level.
 > - Roll `2d6` and pick the worst if it's really unlikely.
 >
 > ---
 >
-> - On a **critical success**, great results, and something exceptionnal happen.
-> - On a **full success**, great results.
-> - On a **partial success**, mixed results.
-> - On a **bad outcome**, bad results.
-
+> - On a **critical success**,
+> - On a **full success**,
+> - On a **partial success**,
+> - On a **bad outcome**,
+>
+> | Roll  | Name               | Explanation                                       |
+> | ----- | ------------------ | ------------------------------------------------- |
+> | `66`  | `Critical Success` | Great results, and something exceptionnal happen. |
+> | `6`   | `Full Success`     | Great results.                                    |
+> | `4-5` | `Partial Success`  | Mixed results.                                    |
+> | `1-3` | `Bad outcome`      | Bad results.                                      |
+>
 > ### Clocks
 >
-> Use Clocks to define complex obstacles.
+> Used to define complex obstacles.
 >
 > When a PC succeeds a roll, you can advance a `Progress Clock`:
 >

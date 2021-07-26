@@ -417,6 +417,44 @@ export function GamePage() {
                   color: theme.palette.text.primary,
                 },
               },
+              "& table": {
+                borderSpacing: "initial",
+                borderLeft: `1px solid ${theme.palette.divider}`,
+                borderRight: `1px solid ${theme.palette.divider}`,
+                "& thead": {
+                  "& th": {
+                    background: theme.palette.secondary.main,
+                    color: theme.palette.getContrastText(
+                      theme.palette.secondary.main
+                    ),
+                    textAlign: "left",
+                    padding: ".5rem",
+                    fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
+                    borderBottom: `1px solid ${theme.palette.divider}`,
+                    "&:not(:first-child)": {
+                      borderLeft: `1px solid ${theme.palette.divider}`,
+                    },
+                  },
+                },
+                "& tbody": {
+                  "& tr": {
+                    "&:nth-child(even)": {
+                      background: theme.palette.background.paper,
+                    },
+                    "&:nth-child(odd)": {
+                      background: theme.palette.background.default,
+                    },
+                    "& td": {
+                      // borderLeft: `1px solid ${theme.palette.divider}`,
+                      borderBottom: `1px solid ${theme.palette.divider}`,
+                      padding: ".5rem",
+                      "&:not(:first-child)": {
+                        borderLeft: `1px solid ${theme.palette.divider}`,
+                      },
+                    },
+                  },
+                },
+              },
               "& img": {
                 maxWidth: "50%",
                 margin: "0 auto",
