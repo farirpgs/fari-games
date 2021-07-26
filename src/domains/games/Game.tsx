@@ -1,6 +1,6 @@
 import kebabCase from "lodash/kebabCase";
 import React from "react";
-import { Markdown } from "./Markdown";
+import { MarkdownParser } from "./MarkdownParser";
 export type IChapterListItem = {
   id: string;
   text: string | null;
@@ -68,7 +68,7 @@ export const Game = {
     const { default: fileContent } = await GameSettings[game].load();
 
     const data = parseFrontMatter(fileContent);
-    const html = await Markdown.toHtml(fileContent);
+    const html = await MarkdownParser.toHtml(fileContent);
 
     const dom = document.createElement("div");
     dom.innerHTML = html;

@@ -246,7 +246,9 @@ export function GamePage() {
                     noWrap
                     component="span"
                     className={css({
-                      fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
+                      // fontWeight: theme.typography.fontWeightBold,
+                      // textTransform: "uppercase",
+                      // fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
                     })}
                   >
                     {categoryName}
@@ -303,13 +305,14 @@ export function GamePage() {
             chapterSlug === renderProps.item.path
               ? `4px solid ${theme.palette.secondary.main}`
               : `4px solid transparent`,
+          // : `4px solid ${theme.palette.divider}`,
         })}
       >
         <Typography
           noWrap
           className={css({
             paddingLeft: renderProps.paddingLeft,
-            fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
+            // fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
           })}
         >
           {renderProps.item.title}
@@ -371,9 +374,11 @@ export function GamePage() {
                 borderLeft: `4px solid ${theme.palette.secondary.main}`,
               },
               "& code": {
-                background: "rgba(255, 229, 100, 0.4)",
-                fontFamily: "inherit",
+                // background: "rgba(255, 229, 100, 0.4)",
+                // fontFamily: "inherit",
+                fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
                 fontWeight: theme.typography.fontWeightBold,
+                // fontSize: "1.05em",
               },
               "& pre": {
                 whiteSpace: "pre-wrap",
@@ -384,12 +389,15 @@ export function GamePage() {
                   background: "none",
                 },
               },
-              "& > p > em:only-child": {
-                display: "block",
+              "& strong": {
+                // fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
+              },
+              "& > p > em:first-child": {
+                // display: "block",
                 textAlign: "center",
-                padding: "1rem",
-                borderRadius: "4px",
-                border: `1px solid ${theme.palette.divider}`,
+                // padding: "1rem",
+                // borderRadius: "4px",
+                // border: `1px solid ${theme.palette.divider}`,
               },
               "& p": {
                 ...(theme.typography.body1 as any),

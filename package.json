@@ -12,6 +12,7 @@
     "preview": "npm run deploy:preview",
     "beta": "npm run build && npm run deploy:preview -- --alias beta",
     "alpha": "npm run build && npm run deploy:preview -- --alias alpha",
+    "prod": "npm run build && npm run deploy:preview -- --prod",
     "deploy:preview": "netlify deploy --site 624629c9-b542-4ff9-b841-b9613df20cac",
     "deploy:prod": "netlify deploy --site 624629c9-b542-4ff9-b841-b9613df20cac --prod",
     "tsc": "tsc --project tsconfig.json --incremental --noEmit"
