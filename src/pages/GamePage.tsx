@@ -288,6 +288,7 @@ export function GamePage() {
     item: ISidebarItem;
     paddingLeft: string;
   }) {
+    const selected = chapterSlug === renderProps.item.path;
     return (
       <MenuItem
         key={renderProps.key}
@@ -295,23 +296,25 @@ export function GamePage() {
         onClick={() => {
           setMobileMenuOpen(false);
         }}
-        selected={chapterSlug === renderProps.item.path}
+        selected={selected}
         to={`/game/${gameSlug}/${renderProps.item.path}`}
         className={css({
           color: "inherit",
           textDecoration: "none",
           backgroundColor: false ? "red" : "inherit",
-          borderLeft:
-            chapterSlug === renderProps.item.path
-              ? `4px solid ${theme.palette.secondary.main}`
-              : `4px solid transparent`,
-          // : `4px solid ${theme.palette.divider}`,
+          borderLeft: selected
+            ? `4px solid ${theme.palette.secondary.main}`
+            : `4px solid transparent`,
         })}
       >
         <Typography
           noWrap
           className={css({
             paddingLeft: renderProps.paddingLeft,
+            fontWeight: selected
+              ? theme.typography.fontWeightBold
+              : theme.typography.fontWeightRegular,
+
             // fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
           })}
         >

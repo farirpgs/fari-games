@@ -295,7 +295,7 @@ When your character faces dangerous challenges and fails, something bad happens.
 
 Each character has 3 gauges, one for each Action Attribute.
 
-So there is a `Physical`, an `Insight` and a `Resolve` gauge.
+So there is a `Physical`, `Insight` and a `Resolve` gauge.
 
 Gauges are separated in 3 pressure levels, where each level inflicts a different type of penalty on a character's ability to perform certain actions.
 
@@ -1037,18 +1037,20 @@ This chapter will go over the most important bits of the book in a quick recap s
 > Momentum is gained when your character does something, and can be spent to boost your `Actions` or `Resist Consequences`. You start every session with `2 Momentum`.
 >
 > - Everytime you make an Action Roll, gain `+1 Momentum`.
-> - Gain `+2 Momentum` on a `critical success`.
+>
 > #### Using Momentum
+>
 > | Cost          | Result                                             |
 > | ------------- | -------------------------------------------------- |
-> | `-2 Momentum` | `Push yourself` and `+1d6` to your action roll.                      |
+> | `-2 Momentum` | `Push yourself` and `+1d6` to your action roll.    |
 > | `-2 Momentum` | `Take the lead` on a group action.                 |
 > | `-1 Momentum` | `Assist` an ally, add `+1d6` to their action roll. |
 >
 > #### Momentum Dial
 >
-> - For harsher campaigns: Only gain `+1 Momentum` on `1-3` action roll results
-> - For heroic campaigns: Gain `+2 Momentum` on `66` and `6` roll results.
+> - For harsher campaigns: Only gain `+1 Momentum` on `1-3` results.
+> - For classic campaigns: Gain `+1 Momentum` for all rolls. Another `+1 Momentum` for `66` results
+> - For heroic campaigns: Gain `+1 Momentum` for all rolls. Another `+1 Momentum` for `6` or `66` results
 >
 > ### Talents
 >
@@ -1063,12 +1065,15 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - `+1 Action Dot` to spend on a Action
 > - A new `Situational Talents`. A Bonus that applies for an `Action` in a certain `Situation` (fill up the blank \_\_\_\_).
 >
-> ### Condition Gauges
+> ### Stress
 >
-> - On a failed roll, GM can increase a PC's condition gauge by `+1 Pressure`.
-> - Gauges with `1 Pressure`: Reduces the `Effect` of an action roll.
-> - Gauges with `2 Pressures`: Reduces by `-1d6` the dice pool of an action roll.
-> - Gauges with `3 Pressures`: The PC is taken out and and require immediate help.
+> - On a failed roll, GM can inflict `+1 Stress` on a PC's `Attribute` (`Physical`, `Insight` or `Resolve`).
+>
+> | Stress Quantity | Effect                                                                                                                           |
+> | --------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+> | `1 Stress`      | Reduced `Effect` on all action rolls related to the stress' `Attribute`.                                                         |
+> | `2 Stress`      | Reduced `-1d6` on all action rolls related to the stress' `Attribute`.                                                           |
+> | `3 Stress`      | The PC is taken out for the scene. The gauge can be cleared and an aspect needs to be renamed to reflect the PC's new condition. |
 
 ## Doing Things
 
@@ -1076,7 +1081,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this when someone, or something, is in your way.
 >
-> 1. Pick an `Action` and find how many dice you need to roll
+> 1. Pick an `Action` and find how many dice you need to roll.
 > 1. Determine the Position (`controlled`, `risky`, or `desperate`)
 > 1. Determine the Effect Rating (`great`, `standard` or `limited`)
 > 1. Choose one:
@@ -1084,6 +1089,12 @@ This chapter will go over the most important bits of the book in a quick recap s
 >    - Add `+1d6` if you `use an Asset`
 > 1. Add `+1d6` if you have `assistance` (they consume `-1 Momentum`)
 > 1. Roll and wish for the best!
+>
+> ---
+>
+> _If you don't have any action dots and can't `push yourself`, `use anasset` or `request assistance`, roll `2d6` and take the worst result._
+>
+> ---
 >
 > | Roll  | Name               | Explanation                                                       |
 > | ----- | ------------------ | ----------------------------------------------------------------- |
@@ -1120,7 +1131,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ### Resist
 >
-> Use this to resist a consequence, or incoming `Pressure`.
+> Use this to resist a consequence, or incoming `Stress`.
 >
 > - Roll `1d6` for each `attribute` rating:
 >   - `Physique`: Consequences from physical strain or injury.
@@ -1190,7 +1201,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - A complication occurs.
 > - The opportunity is lost and you got to try a new tactic.
 > - The `position` worsen.
-> - Take `+1 Pressure` on a `Condition Gauge`.
+> - Take `+1 Stress`.
 >
 > ### Fortune Roll
 >
@@ -1229,9 +1240,25 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - Tick 2 segment for a `risky position`.
 > - Tick 1 segment for a `controlled position`.
 
-# Licence
+# Licencing
 
-[GAME_NAME] is released under Creative Commons Attribution (CC-BY).
+[GAME_NAME] is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/3.0/).
+
+That means that if you want to make a game using or inspired by this game, you just need to give us attribution for our work.
+
+Because [GAME_NAME] is inspired by other great work, you would also need to include attribution to the creators of the Fate and Blades in the Dark RPGs.
+
+To do so, copy the text below in your own game and things should be good to go.
+
+## Attribution
+
+This work is based on Charge RPG, product of Fari Games, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
+
+This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](http://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
+
+This work is based on Fate Core System and Fate Accelerated Edition (found at http://www.faterpg.com/), products of Evil Hat Productions, LLC, developed, authored, and edited by Leonard Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks, and Rob Donoghue, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
+
+This work is based on Fate Condensed (found at http://www.faterpg.com/), a product of Evil Hat Productions, LLC, developed, authored, and edited by PK Sullivan, Lara Turner, Leonard Balsera, Fred Hicks, Richard Bellingham, Robert Hanz, Ryan Macklin, and Sophie Lagacé, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
 
 # Credits
 
