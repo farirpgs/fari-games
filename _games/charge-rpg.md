@@ -1005,27 +1005,23 @@ This chapter will go over the most important bits of the book in a quick recap s
 > Choose `5 Aspects` to define who your character is.
 >
 > - `Core Concept`: The elevator pitch of your character.
-> - `Trouble`: Life complication.
+> - `Trouble`: Something or someone that makes your character's life complicated.
 > - `Relationship`: Connection with another player's character.
 > - `2 Other Aspects`: Anything else you want.
 >
-> _With every `Minor Milestone`, you can rename an aspect._
 >
 > ### Actions
 >
-> Distribute `7 Action Dots` among the `12 Actions` to define how good your character is at doing certain things.
+> Distribute `7 Action Dots` among the `12 Actions` to define how good your character is at doing things.
 >
-> - Actions are grouped into 3 `Attributes`:
->   - `Physique`
->   - `Insight`
->   - `Resolve`
+> - Actions are grouped into 3 attributes: `Physique`, `Insight` and `Resolve`.
 > - At character creation, a single `Action` cannot have more than `2 Action Dot`.
 >
 > #### Physique
 >
 > - When you `Brawl`, you clash with something that is in your way.
 > - When you `Finesse`, you employ dexterous manipulation or subtle misdirection.
-> - When you `Move`, you use complex manoeuvres to go to a certain location.
+> - When you `Move`, you use quickly shift to a new position or get out of danger.
 > - When you `Sneak`, you traverse skilfully and quietly.
 >
 > #### Insight
@@ -1038,9 +1034,9 @@ This chapter will go over the most important bits of the book in a quick recap s
 > #### Resolve
 >
 > - When you `Bond`, you reassure and socialize with friends and contacts.
-> - When you `Command`, you compel swift obedience with skills and respect.
-> - When you `Convince`, you influence with guile, charm, or argument.
-> - When you `Provoke`, you intimidate, scare or threaten.
+> - When you `Command`, you compel swift obedience with skills, respect or intimidation.
+> - When you `Focus`, you concentrate to accomplish a task that requires strength of mind.
+> - When you `Sway`, you influence with guile, charm, or argument.
 >
 > ### Momentum
 >
@@ -1048,12 +1044,18 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > You start every session with `2 Momentum`.
 >
-> - Everytime you make an Action Roll, you have a chance to gain `Momentum`.
->
+> - Every time you make an Action Roll, you have a chance to gain `Momentum`.
+> 
+> ---
+> 
+> *Note: When you spend momentum to boost an action roll, you don't gain momentum for that action.*
+> 
+> ---
+> 
 > #### Momentum Dial
 >
 > - For grounded and grittier campaigns:
->   - Gain `+1 Momentum` for a `1-3`.
+>   - Gain `+1 Momentum` if you got a `4` or higher.
 > - For classic campaigns:
 >   - Gain `+1 Momentum` for a `4-5`.
 >   - Gain `+2 Momentum` for a `6`.
@@ -1083,19 +1085,23 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ### Stress
 >
-> On a failed action roll, GM can inflict a `Stress` consequence on a PC's `Attribute` (`Physical`, `Insight` or `Resolve`).
+> On a failed action roll, GM can inflict `Stress` on a PC's `Physical`, `Insight` or `Resolve` condition.
 >
 > The number of stress inflicted depends on the action's `Position`:
 >
 > - `Controlled`: `+1 Stress`
 > - `Risky`: `+2 Stress`
 > - `Desperate`: `+3 Stress`
+> 
+> When you mark `Stress`, you need to write an `Aspect` that represents the PC's current `Condition`.
+> 
+> When a PC's condition has stress, it has an effect on that PC's ability to interact with the world narratively and mechanically.
 >
 > | Stress Quantity | Effect                                                                                                                                      |
 > | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-> | `1-2 Stress`    | Reduced `Effect` on all action rolls related to the stress' `Attribute`.                                                                    |
-> | `3 Stress`      | Reduced `-1d6` on all action rolls related to the stress' `Attribute`.                                                                      |
-> | `4 Stress`      | The PC is taken out for the scene. At the end of the scene, clear all stress boxes, and rename an aspect to reflect the PC's new condition. |
+> | `1-2 Stress`    | Reduced `Effect` on all action rolls affected by the `Condition`                                                              |
+> | `3 Stress`      | Reduced `-1d6` on all action rolls affected by the `Condition`                                                                  |
+> | `4 Stress`      | The PC is taken out for the scene. At the end of the scene, clear all stress and rename one of the character's 5 Aspects to represent the effect it had on the PC. |
 >
 > ### Projects and Complications
 >
@@ -1122,62 +1128,37 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ---
 >
-> | Result  | Name               | Explanation                                                       |
-> | ----- | ------------------ | ----------------------------------------------------------------- |
-> | `66`  | `Critical Success` | You greatly overcome the obstacle.                                |
-> | `6`   | `Full Success`     | You overcome the obstacle.                                        |
-> | `4-5` | `Partial Success`  | You overcome the obstacle, but there's a `consequence`.           |
-> | `1-3` | `Bad outcome`      | You fail at overcoming the obstacle, and there's a `consequence`. |
+> | Result | Name               | Explanation                                                       |
+> | ------ | ------------------ | ----------------------------------------------------------------- |
+> | `66`   | `Critical Success` | You greatly overcome the obstacle.                                |
+> | `6`    | `Full Success`     | You overcome the obstacle.                                        |
+> | `4-5`  | `Partial Success`  | You overcome the obstacle, but there's a `consequence`.           |
+> | `1-3`  | `Bad outcome`      | You fail at overcoming the obstacle, and there's a `consequence`. |
 >
-> _Gain `+2 Momentum` for a `critical success`. Otherwise, gain `+1 Momentum`._
->
-<!-- > ### Create an Asset
->
-> Use this to try to change a situation for the better and set someone up for success.
->
-> Assets let you improve an subsequent Action Roll by either: `+1d6`, `+Effect` or `+Position`
->
-> 1. Pick an `Action` and find how many dice you need to roll
-> 1. Determine the Position (`controlled`, `risky`, or `desperate`)
-> 1. Determine the Effect Rating (`great`, `standard` or `limited`)
-> 1. Choose one:
->    - Add `+1d6` if you `push yourself` (`-2 Momentum`)
->    - Add `+1d6` if you `use an Asset`
-> 1. Add `+1d6` if you have `assistance` (they consume `-1 Momentum`)
-> 1. Roll and wish for the best!
->
-> | Roll  | Name               | Explanation                                              |
-> | ----- | ------------------ | -------------------------------------------------------- |
-> | `66`  | `Critical Success` | You create two `assets`                                  |
-> | `6`   | `Full Success`     | You create an `asset                                     |
-> | `4-5` | `Partial Success`  | You create an `asset`, but there's a `consequence`.      |
-> | `1-3` | `Bad outcome`      | You don't create an `asset` and there's a `consequence`. |
->
-> _Gain `+2 Momentum` for a `critical success`. Otherwise, gain `+1 Momentum`._ -->
 >
 > ### Resist
 >
 > Use this to resist a consequence, or incoming `Stress`.
 >
-> - Roll `1d6` for each `attribute` rating:
+> - Roll `1d6` for each dot in the first column of an attribute:
 >   - `Physique`: Consequences from physical strain or injury.
 >   - `Insight`: Consequences from deception or understanding.
 >   - `Resolve`: Consequences from mental strain or willpower.
 >
-> | Result  | Name               | Explanation                |
-> | ----- | ------------------ | -------------------------- |
-> | `66`  | `Critical Success` | You gain `+1 Momentum`.    |
-> | `6`   | `Full Success`     | You consume `-1 Momentum`. |
-> | `4-5` | `Partial Success`  | You consume `-2 Momentum`. |
-> | `1-3` | `Bad outcome`      | You consume `-3 Momentum`. |
+> | Result | Name               | Explanation                |
+> | ------ | ------------------ | -------------------------- |
+> | `66`   | `Critical Success` | You gain `+1 Momentum`.    |
+> | `6`    | `Full Success`     | You consume `-1 Momentum`. |
+> | `4-5`  | `Partial Success`  | You consume `-2 Momentum`. |
+> | `1-3`  | `Bad outcome`      | You consume `-3 Momentum`. |
 >
-> If you can't consume all the `Momentum`, the GM declares `2 Consequences` instead of one.
+> If you can't consume all the `Momentum`, the GM inflicts `2 Consequences` instead of one.
 >
 > ### Recover
 >
 > Use this to heal and recuperate.
 >
-> - Once per session, if the fiction allows it, reduce all `condition gauges` by one level.
+> - Once per session, if the fiction allows it, reduce stress by one level.
 
 ## Team Work
 
@@ -1185,8 +1166,10 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to carry the group with your leadership and skills.
 >
-> - Leader describes how they take the lead and consume **-2 Momentum**
-> - Everyone makes an **Action Roll**, the best result counts as the group's result
+> - Leader describes how they take the lead and consume `-1 Momentum`
+> - Everyone makes an `Action Roll`, the best result counts as the group's result
+> - The leader consumes `-1 Momentum` for each player that got a `1-3` as their best result.
+> - The leader doesn't get Momentum from the result of that action.
 >
 > ### Assist
 >
@@ -1221,13 +1204,13 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to when there's a `bad outcome` on a PC's Action Roll.
 >
-> Either
+> Either:
 >
 > - The `effect` of the roll is reduced.
-> - A complication occurs.
-> - The opportunity is lost and you got to try a new tactic.
+> - A narrative `complication` occurs (you can track this on the character sheet).
+> - The opportunity is lost and you got to try a new approach.
 > - The `position` worsen.
-> - Take `Stress`
+> - The PC takes `Stress`
 >   - `+1 Stress` for a `controlled` position
 >   - `+2 Stress` for a `risky` position
 >   - `+3 Stress` for a `desperate` position
@@ -1239,12 +1222,12 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - Add `1d6` per likeliness level.
 > - Roll `2d6` and pick the worst if it's really unlikely.
 >
-> | Result  | Name               | Explanation                                       |
-> | ----- | ------------------ | ------------------------------------------------- |
-> | `66`  | `Critical Success` | Great results, and something exceptional happen. |
-> | `6`   | `Full Success`     | Great results.                                    |
-> | `4-5` | `Partial Success`  | Mixed results.                                    |
-> | `1-3` | `Bad outcome`      | Bad results.                                      |
+> | Result | Name               | Explanation                                      |
+> | ------ | ------------------ | ------------------------------------------------ |
+> | `66`   | `Critical Success` | Great results, and something exceptional happen. |
+> | `6`    | `Full Success`     | Great results.                                   |
+> | `4-5`  | `Partial Success`  | Mixed results.                                   |
+> | `1-3`  | `Bad outcome`      | Bad results.                                     |
 >
 > ### Clocks
 >

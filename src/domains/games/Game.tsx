@@ -217,15 +217,15 @@ function getTableOfContent(html: string) {
   dom.innerHTML = html;
   const tableOfContent: Array<{ id: string; text: string; level: number }> = [];
 
-  dom.querySelectorAll("h2,h3,h4,h5,h6").forEach((h) => {
+  dom.querySelectorAll("h2,h3").forEach((h) => {
     const id = h.id;
     const level = h.tagName.split("H")[1];
     const text = h.textContent?.split("#").join("") ?? "";
-    const isHeadingInsideBlockquote = h.parentElement?.matches("blockquote");
 
-    if (!isHeadingInsideBlockquote) {
-      tableOfContent.push({ id, text, level: parseInt(level, 10) });
-    }
+    tableOfContent.push({ id, text, level: parseInt(level, 10) });
+    // const isHeadingInsideBlockquote = h.parentElement?.matches("blockquote");
+    // if (!isHeadingInsideBlockquote) {
+    // }
   });
 
   return tableOfContent;

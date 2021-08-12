@@ -347,10 +347,17 @@ export function GamePage() {
                       color: theme.palette.text.secondary,
                       textDecoration: "none",
                       display: "flex",
-                      marginLeft: `${indentationLevel * 2}rem`,
+                      marginLeft: `${indentationLevel}rem`,
                     })}
                   >
-                    <Typography noWrap>{tocItem.text}</Typography>
+                    <Typography
+                      noWrap
+                      className={css({
+                        fontSize: ".85rem",
+                      })}
+                    >
+                      {tocItem.text}
+                    </Typography>
                   </a>
                 </div>
               );
@@ -395,9 +402,12 @@ export function GamePage() {
               "& strong": {
                 // fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
               },
-              "& > p > em:first-child": {
+              "& p > em:first-child": {
                 // display: "block",
                 textAlign: "center",
+                width: "100%",
+                display: "inline-block",
+                padding: "0 1rem",
                 // padding: "1rem",
                 // borderRadius: "4px",
                 // border: `1px solid ${theme.palette.divider}`,
