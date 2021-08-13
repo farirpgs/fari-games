@@ -201,25 +201,25 @@ When you `Brawl`, you clash with something that is in your way.
 
 When you `Finesse`, you employ dexterous manipulation or subtle misdirection.
 
-> You might steal something from someone’s pocket. You might bypass a security system. You might disable an alarm or trap. You could try to employ those arts in a chaotic melee (but Skirmishing might be better).
+> You might steal something from someone’s pocket. You might hack a security system. You might helm the controls of a ship. You could try to pick a lock (but Tinkering might be better).
 
-When you `Move`, you use complex manoeuvres to go to a certain location.
+When you `Move`, you quickly shift to a new position or get out of danger.
 
 > You might climb, swim, run or jump. You might outpace the guards. You might jump above a spiked pit. You could try to evade someone (but Sneak might be better).
 
 When you `Sneak`, you traverse skilfully and quietly.
 
-> You might sneak past a guard or hide in the shadows. You might attack someone from hiding. You could try to waylay a victim in the midst of battle (but Skirmishing might be better).
+> You might sneak past a guard or hide in the shadows. You could try to back-stab a victim in the middle of a battle (but Skirmishing might be better).
 
 #### Insight
 
-When you `Hunt`, you carefully track a target.
+When you `Shoot`, you carefully track and shoot a target.
 
-> You might follow a target or discover their location. You might arrange an ambush. You might attack with precision shooting from a distance. You could try to bring your guns to bear in a melee (but Brawl might be better).
+> You might snipe an enemy from a long distance. You might throw a fireball to put the battlefield on fire. You might aim the ship's laser guns.. You could try to throw a ball in a hoop (but Finessing might be better).
 
 When you `Tinker`, you understand, create, repair complex mechanisms or organisms.
 
-> You might create a new gadget or alter an existing item. You might mend a broken bone or treat someone's illness. You could try to use your technical expertise to control a vehicle (but Commanding might be better). You could try to pick a lock, but Finessing might be better).
+> You might create a new gadget or alter an existing item. You might mend a broken bone. You could try to use your technical expertise to control a vehicle (but Finessing might be better).
 
 When you `Study`, you scrutinize details and interpret evidence.
 
@@ -227,25 +227,25 @@ When you `Study`, you scrutinize details and interpret evidence.
 
 When you `Notice`, you observe the situation and anticipate outcomes.
 
-> You might pick up important details in the moment. You might anticipate danger before it happens. You could try to spot a good spot to ambush enemies, but Hunting might be better.
+> You might pick up important details in the moment. You might anticipate danger before it happens. You could try to figure out what is making someone sick (but Studying might be better).
 
 #### Resolve
 
 When you `Bond`, you reassure and socialize with friends and contacts.
 
-> You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm, style or empathy. You could try to manipulate your friends with social pressure (but Provoking might be better).
+> You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm, style or empathy. You could try to manipulate your friends with social pressure (but Sway might be better).
 
 When you `Command`, you compel swift obedience with skills and respect.
 
-> You might ask a small militia to get their things together. You might control the elements to obey you. You might order your undead minions to sacrifice themselves. You might pilot a ship to evade an enemy aircraft . You could also ask your familiar to look for something in a room (but Bonding might be better).
+> You might intimidate or threaten to get what you want. You might ask a small militia to get their things together. You might order your undead minions to sacrifice themselves. You could also ask your familiar to look for something in a room (but Bonding might be better).
 
-When you `Convince`, you influence with guile, charm, or argument.
+When you `Focus`, you concentrate to accomplish a task that requires great strength of mind.
 
-> You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Consorting or Commanding might be better).
+> You might meditate to enter the spirit world. You might concentrate to win a game of chess. You might enter a trance to finish up an important ritual. You could try to pay a closer attention to your surrounding beyond what is visible (but Noticing might be better).
 
-When you `Provoke`, you intimidate, scare or threaten.
+When you `Sway`, you influence with guile, charm, or argument.
 
-> You might scare away citizens to protect them from danger. You might insult a rival gang. You could yell at solders to get them to obey you (but Commanding might be better)
+> You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Consorting or Commanding might be better).
 
 ### **Which Action to Pick for a Roll**
 
@@ -1021,7 +1021,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > - When you `Brawl`, you clash with something that is in your way.
 > - When you `Finesse`, you employ dexterous manipulation or subtle misdirection.
-> - When you `Move`, you use quickly shift to a new position or get out of danger.
+> - When you `Move`, you quickly shift to a new position or get out of danger.
 > - When you `Sneak`, you traverse skilfully and quietly.
 >
 > #### Insight
@@ -1035,7 +1035,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > - When you `Bond`, you reassure and socialize with friends and contacts.
 > - When you `Command`, you compel swift obedience with skills, respect or intimidation.
-> - When you `Focus`, you concentrate to accomplish a task that requires strength of mind.
+> - When you `Focus`, you concentrate to accomplish a task that requires great strength of mind.
 > - When you `Sway`, you influence with guile, charm, or argument.
 >
 > ### Momentum
