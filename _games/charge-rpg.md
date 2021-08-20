@@ -12,39 +12,39 @@ image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
 
 First, thank you.
 
-If you are reading this, it means you are somewhat interested in this game, and this means a lot to us, so thanks.
+If you are reading this, it means you are somewhat interested in this game, and this means a lot to us, so thanks a million.
 
 You're amazing, that's as simple as that.
 
 Now, one of the first thing you probably want to know is: **who is this game for ?**
 
-This should be relatively easy to answer, as this was one of the first question we tried to answer:
-
 > This game is for people who want to play a generic and narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to try to get there.
 
-In a nutshell, you could say it's a cross-breed between the Fate System and Forged in the Dark System. Both those game systems are amazing, and you should definitely check them out.
+Some mechanics were inspired, borrowed or adapted from the Forged in the Dark system as well as the Fate system. Both those game systems are amazing, and you should definitely check them out, since this game would not exist without them.
 
-This game would not exist without them.
-
-Some rules from Fate and Forged in the Dark were borrowed, others were renamed or adapted. The reason some mechanics were renamed is mostly to make things easier to understand and to make the language barrier less of an issue for people where English might not be their primary language (like us)
-
-There are some dials and hacks inside this book to make the game more to your liking, either by making it fit either a more realistic setting or to crank things up where the characters are larger than life.
+Other mechanics are brand new to [GAME_NAME] and we hope you are going to create amazing stories with them.
 
 Now let's get to it ⚡
 
 # Goals | Power Your Story Telling
 
-Here's specifically what this game is trying to solve with its rules and mechanics
+There are thousands of great table-top role-playing games out there. Some are generic, like [GAME_NAME], and others are made with a very specific settings in mind. In the later, mechanics are often created to re-enforce the setting.
 
-**It should be easy to create a character for any setting.**
+[GAME_NAME] is generic, which means that you get to pick the world and setting you want to play in. You could play in Sci-Fi setting where new planets are still being discovered and terraformed every day, or during the British Industrial Revolution. You get to choose.
 
-> Character sheets should be straight forward and generic enough to let anyone create the characters they want to play in the setting they are most interested in.
+Because each setting can be widely different, the game mechanics [in GAME_NAME] were made with very specific goals in mind to help you create the story ou want to tell. It does this while trying to accomplish the *right* middle ground between versatility and specificity.
+
+The three main pillars of this game center around Characters, Style of Play and Style of Story.
+
+**First, it should be easy to create a character for any setting.**
+
+> Character should be able to be defined easily, yet still be able to be unique in their own way. They should also be able to be generic enough so that playeres can create the character they want to play in the setting they are most interested in.
 >
-> It does this by making character shine using Aspects to define who they are, and by using a custom progression systems to make them shine in specific situations with their Talents.
+> [GAME_NAME] does this by making character shine using `Aspects` to define who they are, `Actions` to highlight what they are good at, and `Talents` to make them evolve in interested ways.
 
 **Style of play should not be enforced.**
 
-> The system should let the group decide what style of play they prefer. From planning beforehand to jumping straight into the action kind of gameplay, everything should be possible.
+> The system should let the group decide what style of play they prefer. From planning beforehand to jumping straight into the action.
 >
 > It does this by letting players add new proactive and reactive narrative elements to scenes that have a mechanical impact on the game.
 
@@ -959,23 +959,114 @@ Upon completion, the PC get what they wanted and the resolution creates a new na
 
 # [[Separate Progression Extra?]] | Extras
 
-# Being a GM | Running the Game
+# Making a Compelling Campaign | Preparing the Game
 
-> Work In Progress
->
-> - Talk about GM dos and donts
+You've got a GM and players. You relatively comfortable with the basic mechanics, and you are ready to play [GAME_NAME]. 
 
-# Creating the World | Running the Game
+Amazing!
 
-> Work In Progress
->
-> - Talk about picking a setting
+Now comes the important question that is going to affect everyone for the weeks/months to come: **what should the story be about, and how should it be played out ?**
 
-# Organizing a Campaign | Running the Game
+In the next chapter, we will go over how to find a good setting to play in, how to organize the campaign  and how to play it out. 
 
-> Work In Progress
->
-> - Talk about the Big Bad's Agenda
+Those are merely suggestions and can be taken with a grain of salt. 
+
+Whether this is your first rodeo or not, we think those are good starting points to enjoy a good campaign in general.
+
+This exercise should be done as a group, though some steps could be done solely by the GM depending on what kind of game you want to have.
+
+So first, you need to pick a setting.
+
+## Finding a Setting
+
+[GAME_NAME] is a generic game, so it doesn't come with a default world for you to play in. That means that we leave you the pleasure of talking with the rest of your group to find a setting that makes everyone at the table excited.
+
+A good way to start the conversation is by asking the group to talk about their favourite media. 
+Things like books, video games, movies, TV shows, etc. If they can't think of anything, ask them what they watched/read/played recently. 
+
+For every media that is brought up, try to discuss what it was that made it interesting. Was it the setting, the characters, the magic, the politics ?
+
+From there, take a piece of paper and list everything that is discussed. You might start to see a trend, like a specific genre that seems to interest most of the group.
+
+Once people at the table run out of ideas, you can go over the list of all the suggestions and see if everyone can align on a specific existing setting.
+
+## Establish the World
+
+When the group is aligned on which setting they want to play in, it is important to do a quick refresher on what are the facts of this setting. 
+
+This is how we `Establish the World`. 
+
+To do so, look at what make this world unique and fire questions around the table and make sure everyone is aligned on the answers.
+
+If there's magic in the world: who can do it, what do you need to do it, what are the limitations, etc.
+If you are in space, which galaxy are you in, are most planets terraformed, etc.
+
+Not everything needs to be factualized. Otherwise, you would end up talking about lots of finicky little details for hours. This isn't the goal.
+
+What isn't covered here will be covered later during a game session. The goal is mostly to get a general understanding of what is accessible and possible.
+
+This exercise could prove to be a little bit more work if the group decided to make a brand new setting that isn't something directly taken from an existing media, but can be very rewarding nonetheless.
+
+
+## Add Trouble to the World
+
+So, we now have all the main ingredients to make a great campaign, but we are missing one crucial thing: the spices. 
+
+We need to add some trouble in our world so that the campaign evolve interestingly overtime. Whether the player characters interact with those events is another subject, but what we want to do is make the world feel real.
+
+This can be done as a group, but could also be done by the GM alone. 
+
+It really depends on what type of game you want to play. Do you want everything about the story to be transparent to everyone, or do you prefer that the GM think of these things on their side and keep some surprises for the group.
+
+Your table, your call.
+
+So, do make the world feel real, we define 1-3 `World Forces`.
+
+> A `Force` is something or someone with goals looking to change the status quo in a significant and narratively interesting ways. 
+ 
+We are using the term `Force` here instead of enemy, foe or big bad because a force isn't necessarily a person. 
+
+That's why you shouldn't always think of a force as something that will go toe to toe against the PCs. 
+
+It is entirely up to the PCs how they want to interact with the World Forces. The group could be opposed to some, allied with others and neutral about the rest.
+
+> A `Force` could be a Person, but it could also be an Organization, a Country, a Planet,  Mother Nature or the Space-Time Continuum!
+
+Once you have found one or two interesting **World Forces** in the world, you need to think about their **Goal**. 
+
+Their goal defines the impact the force is going to have on the world. A goal isn't necessarily good or bad, it is merely what the force wants to accomplish. It can also be considered as "good" by the Force itself, but others might have different view on the subject. 
+
+> A `Goal` could be to take back the throne, protect the galaxy from thieves and thugs, or to open a portal that connects to another world.
+
+Now that we have a **Force,** and that force has a **Goal**, let's find out how they interact with the world to achieve said goal. We do this by defining their **Methods**. 
+
+A Force's Methods represents what they do to get closer to their goal. Each Force has around **2-3 Methods**. 
+
+> `Methods` could be things like trying to recruit people in an army, trying to corrupt government officials, or increasing the military surveillance over a certain artifact.
+
+You can repeat this exercise as many times as you want depending on how many starting forces you want to have in your world.
+
+Each `Force` will then live inside your world, and as the players interact with the world, the forces do too. 
+
+As time advance, they will act with their `Methods`, which will get them closer or farther away from their `Goals`. 
+
+> #### Force Example
+> **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
+> - *Finding dirt on the government to expose corruption.*
+> - *Convincing the real king to take back what is theirs.*
+> - *Finding money to hire mercenaries to fight an eventual war.*
+
+## Define the Group as a Force
+
+Now that we've added more life into our world, we can determine what the group is all about. 
+
+Doing this is going to be pretty straightforward. Simply do the exact same exercise we did above, but now the Force we are creating represents the group of player characters.
+
+To define the group as a **Force**, all the players need to align on what they are about. To do this, they should look back at the `World Forces` and decide how they feel about them. Are they aligned, neutral or against the Goals of those Forces. 
+
+That's why we defined the `World Forces` before the `Player Force`.
+
+Once the players have a general idea of what their group is about, write a `Force`, a `Goal` and 2-3 `Methods` that represents them.
 
 # Being a Player | Playing the Game
 
@@ -1152,7 +1243,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > | `4-5`  | `Partial Success`  | You consume `-2 Momentum`. |
 > | `1-3`  | `Bad outcome`      | You consume `-3 Momentum`. |
 >
-> If you can't consume all the `Momentum`, the GM inflicts `2 Consequences` instead of one.
+> If you can't consume all the required `Momentum`, the GM inflicts `2 Consequences` instead of one which cannot be resisted.
 >
 > ### Recover
 >

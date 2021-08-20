@@ -402,12 +402,12 @@ export function GamePage() {
               "& strong": {
                 // fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
               },
-              "& p > em:first-child": {
+              "& p em:first-child": {
                 // display: "block",
                 textAlign: "center",
-                width: "100%",
                 display: "inline-block",
-                padding: "0 1rem",
+                // width: "100%",
+                // padding: "0 1rem",
                 // padding: "1rem",
                 // borderRadius: "4px",
                 // border: `1px solid ${theme.palette.divider}`,
