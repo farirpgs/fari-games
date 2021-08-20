@@ -63,7 +63,7 @@ export const GameSettings: Record<
   },
 };
 
-export const Game = {
+export const GameDocumentParser = {
   async getGameContent(game: string) {
     const { default: fileContent } = await GameSettings[game].load();
 
@@ -122,7 +122,7 @@ export const Game = {
     return { dom: dom, chapters, data, sidebar } as const;
   },
   async getChapter(game: string, chapterId: string): Promise<IChapter> {
-    const markdown = await Game.getGameContent(game);
+    const markdown = await GameDocumentParser.getGameContent(game);
     const chapterIdToUse = chapterId ?? markdown.chapters[0].id;
     const currentChapterIndex = markdown.chapters.findIndex(
       (c) => c.id === chapterIdToUse

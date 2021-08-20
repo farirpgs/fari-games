@@ -5,11 +5,11 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useRouteMatch } from "react-router-dom";
 import { ReactRouterLink } from "../components/ReactRouterLink";
 import {
-  Game,
+  GameDocumentParser,
   GameSettings,
   IChapter,
   ISidebarItem,
-} from "../domains/games/Game";
+} from "../domains/games/GameDocumentParser";
 import { Helmet } from "react-helmet-async";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
@@ -66,7 +66,7 @@ export function GamePage() {
   useEffect(() => {
     load();
     async function load() {
-      const result = await Game.getChapter(gameSlug, chapterSlug);
+      const result = await GameDocumentParser.getChapter(gameSlug, chapterSlug);
 
       setChapter(result);
     }
@@ -469,7 +469,7 @@ export function GamePage() {
                 },
               },
               "& img": {
-                maxWidth: "50%",
+                maxWidth: "100%",
                 margin: "0 auto",
                 display: "block",
               },

@@ -20,9 +20,7 @@ Now, one of the first thing you probably want to know is: **who is this game for
 
 > This game is for people who want to play a generic and narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to try to get there.
 
-Some mechanics were inspired, borrowed or adapted from the Forged in the Dark system as well as the Fate system. Both those game systems are amazing, and you should definitely check them out, since this game would not exist without them.
-
-Other mechanics are brand new to [GAME_NAME] and we hope you are going to create amazing stories with them.
+Some mechanics were inspired or adapted from the Fate or Forged in the Dark systems, while others were created to make for more interactive sessions where the players are naturally urged to interact with the world.
 
 Now let's get to it ⚡
 
@@ -30,23 +28,17 @@ Now let's get to it ⚡
 
 There are thousands of great table-top role-playing games out there. Some are generic, like [GAME_NAME], and others are made with a very specific settings in mind. In the later, mechanics are often created to re-enforce the setting.
 
-[GAME_NAME] is generic, which means that you get to pick the world and setting you want to play in. You could play in Sci-Fi setting where new planets are still being discovered and terraformed every day, or during the British Industrial Revolution. You get to choose.
+[GAME_NAME] is generic, which means that you get to pick the world and setting you want to play in. You could play in Sci-Fi setting where new planets are still being discovered and terraformed every year, or during the British Industrial Revolution. You get to choose.
 
-Because each setting can be widely different, the game mechanics [in GAME_NAME] were made with very specific goals in mind to help you create the story ou want to tell. It does this while trying to accomplish the *right* middle ground between versatility and specificity.
+Because each setting can be widely different, the game mechanics [in GAME_NAME] were made with very specific goals in mind to help you create the story you want to tell. .
 
-The three main pillars of this game center around Characters, Style of Play and Style of Story.
+The two main pillars of this game center around Characters and Story Style.
 
 **First, it should be easy to create a character for any setting.**
 
-> Character should be able to be defined easily, yet still be able to be unique in their own way. They should also be able to be generic enough so that playeres can create the character they want to play in the setting they are most interested in.
+> Character should be able to be defined easily, yet still be able to be unique in their own way. They should also be able to be generic enough so that players can create the character they want to play in the setting they are most interested in.
 >
-> [GAME_NAME] does this by making character shine using `Aspects` to define who they are, `Actions` to highlight what they are good at, and `Talents` to make them evolve in interested ways.
-
-**Style of play should not be enforced.**
-
-> The system should let the group decide what style of play they prefer. From planning beforehand to jumping straight into the action.
->
-> It does this by letting players add new proactive and reactive narrative elements to scenes that have a mechanical impact on the game.
+> [GAME_NAME] does this by making character shine using `Aspects` to define who they are, `Actions` to highlight what they are good at, and `Talents` to make them evolve in interesting and way.
 
 **The system should offer dials to have grimmer up to bigger than life adventures.**
 
@@ -57,18 +49,14 @@ You will probably like this game if:
 - you like narrative focused systems
 - you like that you can play in any settings
 - you generally think that failure is more interesting than success
-- you like when your character starts competent and gradually becomes more versatile
-- you liked playing Fate or any Forged in the Dark games
+- you like when your character starts competent and gradually becomes more flexible
+- you liked playing Fate or Forged in the Dark games
 
-This game also brings new interesting ideas to the table:
-
-- A new flexible progression framework in the form of Talents which make character evolution feel great
-- A new way to represent danger and harm using gauge meters that rise and fall as pressure goes up or calms down.
-- And more...!
+[GAME_NAME] also brings new interesting ideas to the table. Things like a new flexible progression framework and new mechanics to make players want to interact with the world instead of saying still on the back-seat to see when is the best moment to act.
 
 We hope you have fun with this, because we sure had fun writing it and playing it.
 
-Let's see what you need to play [GAME_NAME]!
+Now, let us go over what you need to play [GAME_NAME]!
 
 # What You Need To Play | Power Your Story Telling
 
@@ -77,11 +65,9 @@ To play [GAME_NAME], you will need:
 - Copies of the [Charge RPG Character Sheet](https://www.notion.so/Charge-RPG-Character-Sheet-93a432d8db7c4642a1a344b34cc40f88)
 - A pile of index cards
 - A set of six sided dice. At least 6 would be ideal.
-- A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that would be quite an endeavour.
+- A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that prove to be quite an endeavour.
 
-That's about it really.
-
-Having access to this book in physical or virtual form can also be handy, but totally optional.
+And that's it.
 
 # The Game | Power Your Story Telling
 
@@ -89,13 +75,15 @@ Having access to this book in physical or virtual form can also be handy, but to
 
 ## Game Master & Players
 
-One person in the group will need to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that live in it that aren't played by other people at the table. We call those characters "non-playable characters", or _NPC_.
+One person in the group will need to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that live in it. At least those that aren't directly played by the rest of the table. We call those characters "non-playable characters", or *NPC*s.
 
-The rest of the group will be `Players`. The players will create a character that will experience compelling stories inside this world. We call those player characters, or PC
+The rest of the group will be `Players`. The players will create a character that will experience compelling stories inside this world. We call those player characters, or *PC*s.
 
-While the GM is usually the main person in charge of the way the world evolves, everyone at the table is in charge of the story.
+While the GM is usually the main person in charge of the way the world changes over time, everyone at the table is in charge of the story.
 
-This isn't a "GM versus Players" or "GM is god" kind of deal. If playing this game was like making a movie, the **GM would be the director** and all the **players would be writers**. It's like if all the players and the GM were in a writing room and everyone was contributing to make the story successful and captivating.
+This isn't a "GM versus Players" or "GM is god" kind of deal. If playing this game was like making a movie, the **GM would be the director** and all the **players would be writers**.
+
+Everyone at the table is contributing to make the story successful and captivating.
 
 ## Game Structure
 
@@ -103,27 +91,33 @@ Everything inside [GAME_NAME] is collaborative.
 
 You choose a setting together, you create your characters together, and you make that world evolve together.
 
-> #### Safety Tools
->
-> If at any point during a game something doesn't click with someone at the table, the game needs to be paused and things need to be aligned and discussed so that **everyone is on the same page**.
->
-> One way the GM can help make the table safer for everyone is by using safety tools like the **X-Card** by John Stavropoulos**,** or Beau's **Script Change RPG Toolbox**.
-
-This is super important and should not be taken lightly. Everyone at the table should feel safe and comfortable.
+Each session is made of `Scenes`, like in a movie. Each scene then plays out as a bunch of back and forth between the GM and the players. The GM will describe what the scene is like, the players will tell the GM what they do and the GM will make the world react to those actions depending on the outcome of certain dice rolls.
 
 Each time you and your friends meet to play [GAME_NAME] is a `Session` which can last between 1 to 4 hours or even more. The amount of time each session is going to take depends on a lot of factors.
 
 Each group can play very differently, as some might take their time while others might want to rush into things head on, but it also depends on people availability.
 
-> #### RPG Etiquette
->
-> Remember to be empathetic of people's schedule and responsibilities. Show up on time and take the amount of gameplay time what you can get.
->
-> Then, patiently wait until the next session and praise the good things that happened in the last one.
+During sessions, tension will rise up during scenes and there will be narrative unknowns. To decide of what happens during those moment, we roll dice because we want to be on the edge of our seat. We want to be be surprised by where the story will take us next.
 
-Each session is made of `Scenes`, like in a movie. Each scene then plays out as a bunch of back and forth between the GM and the players.
+Next up, we will want to look at how we create the characters that will played by the players. But before that, we need to talk about making a safe environment for everyone at the table.
 
-The players will make their characters try to accomplish certain goals, and the GM will make the world react to those actions depending on the outcome which is partially controlled by chance and the character's proficiencies.
+# Safety at the Table | Power Your Story Telling
+
+## Safety Tools
+
+If at any point during the game creation process or when playing a scene, something doesn't click with someone at the table, the game needs to be paused and things need to be aligned and discussed so that **everyone is on the same page**.
+
+One way the GM can help make the table safer for everyone is by using safety tools like the [**X-Card**](https://docs.google.com/document/d/1SB0jsx34bWHZWbnNIVVuMjhDkrdFGo1_hSC2BWPlI3A/edit) by John Stavropoulos, or Beau's [**Script Change RPG Toolbox**](https://briebeau.itch.io/script-change).
+
+This is super important and should not be taken lightly. Everyone at the table should feel safe and comfortable.
+
+If you don't feel safe at a table, it is totally OK to quit and find another group of people to play with. Don't feel bad, and more importantly, respect yourself.
+
+## RPG Etiquette
+
+Remember to be empathetic of people's schedule and responsibilities. Some people have kids, pets, jobs, and other things that make scheduling sessions very hard. Show up on time and take the amount of gameplay time what you can get.
+
+Then, patiently wait until the next session. And while you are waiting, remember and praise the awesome moments that happened in the last session.
 
 # Creating your Character | Character Creation
 
@@ -961,15 +955,17 @@ Upon completion, the PC get what they wanted and the resolution creates a new na
 
 # Making a Compelling Campaign | Preparing the Game
 
-You've got a GM and players. You relatively comfortable with the basic mechanics, and you are ready to play [GAME_NAME]. 
+![By KELLEPICS](https://cdn.pixabay.com/photo/2017/09/15/02/22/fantasy-2750995_960_720.jpg)
+
+You've got a GM and players. You relatively comfortable with the basic mechanics, and you are ready to play [GAME_NAME].
 
 Amazing!
 
 Now comes the important question that is going to affect everyone for the weeks/months to come: **what should the story be about, and how should it be played out ?**
 
-In the next chapter, we will go over how to find a good setting to play in, how to organize the campaign  and how to play it out. 
+In the next chapter, we will go over how to find a good setting to play in, how to organize the campaign and how to play it out.
 
-Those are merely suggestions and can be taken with a grain of salt. 
+Those are merely suggestions and can be taken with a grain of salt.
 
 Whether this is your first rodeo or not, we think those are good starting points to enjoy a good campaign in general.
 
@@ -981,8 +977,8 @@ So first, you need to pick a setting.
 
 [GAME_NAME] is a generic game, so it doesn't come with a default world for you to play in. That means that we leave you the pleasure of talking with the rest of your group to find a setting that makes everyone at the table excited.
 
-A good way to start the conversation is by asking the group to talk about their favourite media. 
-Things like books, video games, movies, TV shows, etc. If they can't think of anything, ask them what they watched/read/played recently. 
+A good way to start the conversation is by asking the group to talk about their favourite media.
+Things like books, video games, movies, TV shows, etc. If they can't think of anything, ask them what they watched/read/played recently.
 
 For every media that is brought up, try to discuss what it was that made it interesting. Was it the setting, the characters, the magic, the politics ?
 
@@ -992,9 +988,9 @@ Once people at the table run out of ideas, you can go over the list of all the s
 
 ## Establish the World
 
-When the group is aligned on which setting they want to play in, it is important to do a quick refresher on what are the facts of this setting. 
+When the group is aligned on which setting they want to play in, it is important to do a quick refresher on what are the facts of this setting.
 
-This is how we `Establish the World`. 
+This is how we `Establish the World`.
 
 To do so, look at what makes this world unique and fire questions around the table and make sure everyone is aligned on the answers.
 
@@ -1007,14 +1003,13 @@ What isn't covered here will be covered later during a game session. The goal is
 
 This exercise could prove to be a little bit more work if the group decided to make a brand new setting that isn't something directly taken from an existing media, but can be very rewarding nonetheless.
 
-
 ## Add Trouble to the World
 
-So, we now have all the main ingredients to make a great campaign, but we are missing one crucial thing: the spices. 
+So, we now have all the main ingredients to make a great campaign, but we are missing one crucial thing: the spices.
 
 We need to add some trouble in our world so that the campaign evolves interestingly overtime. Whether the player characters interact with those events is another subject, but what we want to do is make the world feel real.
 
-This can be done as a group, but could also be done by the GM alone. 
+This can be done as a group, but could also be done by the GM alone.
 
 It really depends on what type of game you want to play. Do you want everything about the story to be transparent to everyone, or do you prefer that the GM think of these things on their side and keep some surprises for the group.
 
@@ -1022,47 +1017,49 @@ Your table, your call.
 
 So, to make the world feel real, we define 1-3 `World Forces`.
 
-> A `Force` is something or someone with goals looking to change the status quo in a significant and narratively interesting ways. 
- 
-We are using the term `Force` here instead of enemy, foe or big bad because a force isn't necessarily a person. 
+> A `Force` is something or someone with goals looking to change the status quo in a significant and narratively interesting ways.
 
-That's why you shouldn't always think of a force as something that will go toe to toe against the PCs. 
+We are using the term `Force` here instead of enemy, foe or big bad because a force isn't necessarily a person.
+
+That's why you shouldn't always think of a force as something that will go toe to toe against the PCs.
 
 It is entirely up to the PCs how they want to interact with the World Forces. The group could be opposed to some, allied with others and neutral about the rest.
 
-> A `Force` could be a Person, but it could also be an Organization, a Country, a Planet,  Mother Nature or the Space-Time Continuum!
+> A `Force` could be a Person, but it could also be an Organization, a Country, a Planet, Mother Nature or the Space-Time Continuum!
 
-Once you have found one or two interesting **World Forces** in the world, you need to think about their **Goal**. 
+Once you have found one or two interesting **World Forces** in the world, you need to think about their **Goal**.
 
-Their goal defines the impact the force is going to have on the world. A goal isn't necessarily good or bad, it is merely what the force wants to accomplish. It can also be considered as "good" by the Force itself, but others might have different view on the subject. 
+Their goal defines the impact the force is going to have on the world. A goal isn't necessarily good or bad, it is merely what the force wants to accomplish. It can also be considered as "good" by the Force itself, but others might have different view on the subject.
 
 > A `Goal` could be to take back the throne, protect the galaxy from thieves and thugs, or to open a portal that connects to another world.
 
-Now that we have a **Force,** and that force has a **Goal**, let's find out how they interact with the world to achieve said goal. We do this by defining their **Methods**. 
+Now that we have a **Force,** and that force has a **Goal**, let's find out how they interact with the world to achieve said goal. We do this by defining their **Methods**.
 
-A Force's Methods represents what they do to get closer to their goal. Each Force has around **2-3 Methods**. 
+A Force's Methods represents what they do to get closer to their goal. Each Force has around **2-3 Methods**.
 
 > `Methods` could be things like trying to recruit people in an army, trying to corrupt government officials, or increasing the military surveillance over a certain artifact.
 
 You can repeat this exercise as many times as you want depending on how many starting forces you want to have in your world.
 
-Each `Force` will then live inside your world, and as the players interact with the world, the forces do too. 
+Each `Force` will then live inside your world, and as the players interact with the world, the forces do too.
 
-As time advances, they will act with their `Methods`, which will get them closer or farther away from their `Goals`. 
+As time advances, they will act with their `Methods`, which will get them closer or farther away from their `Goals`.
 
 > #### Force Example
+>
 > **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
-> - *Finding dirt on the government to expose corruption.*
-> - *Convincing the real king to take back what is theirs.*
-> - *Finding money to hire mercenaries to fight an eventual war.*
+>
+> - _Finding dirt on the government to expose corruption._
+> - _Convincing the real king to take back what is theirs._
+> - _Finding money to hire mercenaries to fight an eventual war._
 
 ## Define the Group as a Force
 
-Now that we've added more life into our world, we can determine what the group is all about. 
+Now that we've added more life into our world, we can determine what the group is all about.
 
 Doing this is going to be pretty straightforward. Simply do the exact same exercise we did above, but now the Force we are creating represents the group of player characters.
 
-To define the group as a **Force**, all the players need to align on what they are about. To do this, they should look back at the `World Forces` and decide how they feel about them. Are they aligned, neutral or against the Goals of those Forces. 
+To define the group as a **Force**, all the players need to align on what they are about. To do this, they should look back at the `World Forces` and decide how they feel about them. Are they aligned, neutral or against the Goals of those Forces.
 
 That's why we defined the `World Forces` before the `Player Force`.
 
@@ -1100,7 +1097,6 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - `Relationship`: Connection with another player's character.
 > - `2 Other Aspects`: Anything else you want.
 >
->
 > ### Actions
 >
 > Distribute `7 Action Dots` among the `12 Actions` to define how good your character is at doing things.
@@ -1136,13 +1132,13 @@ This chapter will go over the most important bits of the book in a quick recap s
 > You start every session with `2 Momentum`.
 >
 > - Every time you make an Action Roll, you have a chance to gain `Momentum`.
-> 
+>
 > ---
-> 
-> *Note: When you spend momentum to boost an action roll, you don't gain momentum for that action.*
-> 
+>
+> _Note: When you spend momentum to boost an action roll, you don't gain momentum for that action._
+>
 > ---
-> 
+>
 > #### Momentum Dial
 >
 > - For grounded and grittier campaigns:
@@ -1183,15 +1179,15 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - `Controlled`: `+1 Stress`
 > - `Risky`: `+2 Stress`
 > - `Desperate`: `+3 Stress`
-> 
+>
 > When you mark `Stress`, you need to write an `Aspect` that represents the PC's current `Condition`.
-> 
+>
 > When a PC's condition has stress, it has an effect on that PC's ability to interact with the world narratively and mechanically.
 >
-> | Stress Quantity | Effect                                                                                                                                      |
-> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-> | `1-2 Stress`    | Reduced `Effect` on all action rolls affected by the `Condition`                                                              |
-> | `3 Stress`      | Reduced `-1d6` on all action rolls affected by the `Condition`                                                                  |
+> | Stress Quantity | Effect                                                                                                                                                             |
+> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+> | `1-2 Stress`    | Reduced `Effect` on all action rolls affected by the `Condition`                                                                                                   |
+> | `3 Stress`      | Reduced `-1d6` on all action rolls affected by the `Condition`                                                                                                     |
 > | `4 Stress`      | The PC is taken out for the scene. At the end of the scene, clear all stress and rename one of the character's 5 Aspects to represent the effect it had on the PC. |
 >
 > ### Projects and Complications
@@ -1225,7 +1221,6 @@ This chapter will go over the most important bits of the book in a quick recap s
 > | `6`    | `Full Success`     | You overcome the obstacle.                                        |
 > | `4-5`  | `Partial Success`  | You overcome the obstacle, but there's a `consequence`.           |
 > | `1-3`  | `Bad outcome`      | You fail at overcoming the obstacle, and there's a `consequence`. |
->
 >
 > ### Resist
 >
