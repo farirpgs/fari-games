@@ -996,7 +996,7 @@ When the group is aligned on which setting they want to play in, it is important
 
 This is how we `Establish the World`. 
 
-To do so, look at what make this world unique and fire questions around the table and make sure everyone is aligned on the answers.
+To do so, look at what makes this world unique and fire questions around the table and make sure everyone is aligned on the answers.
 
 If there's magic in the world: who can do it, what do you need to do it, what are the limitations, etc.
 If you are in space, which galaxy are you in, are most planets terraformed, etc.
@@ -1012,7 +1012,7 @@ This exercise could prove to be a little bit more work if the group decided to m
 
 So, we now have all the main ingredients to make a great campaign, but we are missing one crucial thing: the spices. 
 
-We need to add some trouble in our world so that the campaign evolve interestingly overtime. Whether the player characters interact with those events is another subject, but what we want to do is make the world feel real.
+We need to add some trouble in our world so that the campaign evolves interestingly overtime. Whether the player characters interact with those events is another subject, but what we want to do is make the world feel real.
 
 This can be done as a group, but could also be done by the GM alone. 
 
@@ -1020,7 +1020,7 @@ It really depends on what type of game you want to play. Do you want everything 
 
 Your table, your call.
 
-So, do make the world feel real, we define 1-3 `World Forces`.
+So, to make the world feel real, we define 1-3 `World Forces`.
 
 > A `Force` is something or someone with goals looking to change the status quo in a significant and narratively interesting ways. 
  
@@ -1048,7 +1048,7 @@ You can repeat this exercise as many times as you want depending on how many sta
 
 Each `Force` will then live inside your world, and as the players interact with the world, the forces do too. 
 
-As time advance, they will act with their `Methods`, which will get them closer or farther away from their `Goals`. 
+As time advances, they will act with their `Methods`, which will get them closer or farther away from their `Goals`. 
 
 > #### Force Example
 > **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
