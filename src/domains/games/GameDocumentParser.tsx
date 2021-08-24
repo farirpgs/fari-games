@@ -82,6 +82,11 @@ export const GameDocumentParser = {
       categories: {},
     };
 
+    dom.querySelectorAll("img").forEach((img) => {
+      const html = img.outerHTML;
+      img.outerHTML = `<figure class="document-image">${html}<figcaption>${img.alt}</figcaption></figure>`;
+    });
+
     headings.forEach((h) => {
       const titles = h.textContent?.split("|");
       const pageTitle = titles?.[0]?.trim() ?? "";

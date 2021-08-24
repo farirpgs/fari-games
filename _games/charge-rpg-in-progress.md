@@ -1,5 +1,3 @@
-
-
 # Projects Extra | Extras
 
 The Charge character sheet has a Projects section which contains 4 empty clocks.
@@ -12,15 +10,11 @@ One per session, if the narrative allows it, a character can try to make an Over
 
 Upon completion, the PC get what they wanted and the resolution creates a new narrative thread that the group or the PC might pursue.
 
-
-
 # Being a Player | Playing the Game
 
 > Work In Progress
 >
 > - Talk about players dos and donts
-
-
 
 > ### Create an Asset
 >
@@ -44,4 +38,4 @@ Upon completion, the PC get what they wanted and the resolution creates a new na
 > | `4-5` | `Partial Success`  | You create an `asset`, but there's a `consequence`.      |
 > | `1-3` | `Bad outcome`      | You don't create an `asset` and there's a `consequence`. |
 >
-> _Gain `+2 Momentum` for a `critical success`. Otherwise, gain `+1 Momentum`._ 
+> _Gain `+2 Momentum` for a `critical success`. Otherwise, gain `+1 Momentum`._

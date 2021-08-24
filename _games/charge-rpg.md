@@ -1,14 +1,14 @@
 ---
-title: Charge RPG -- Power Your Story Telling
+title: Charge RPG - Power Your Story Telling
 author: René-Pier Deshaies-Gélinas
 image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
+imageLink: [![Image by XXXXXXXXX from pixabay.com](IMAGE)](LINK)
+version: 0.0.1
 ---
 
 # Introductions | Power Your Story Telling
 
-> _Charge RPG » Power Your Story Telling_
->
-> `v0.0.1`
+![Charge](https://gyazo.com/cc0a8de71ba1591cf29885e4917d755f.png)
 
 First, thank you.
 
@@ -25,6 +25,8 @@ Some mechanics were inspired or adapted from the Fate or Forged in the Dark syst
 Now let's get to it ⚡
 
 # Goals | Power Your Story Telling
+
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/4e66d10b4b1784cc27093097134aaa35.png)](https://pixabay.com/illustrations/fantasy-sun-sea-dragon-flying-4033001/)
 
 There are thousands of great table-top role-playing games out there. Some are generic, like Charge, and others are made with a very specific settings in mind. In the later, mechanics are often created to re-enforce the setting.
 
@@ -70,6 +72,8 @@ To play Charge, you will need:
 And that's it.
 
 # The Game | Power Your Story Telling
+
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/3cbb1bac26449de5d6762c699efe5585.png)](https://pixabay.com/photos/spaceship-ufo-rock-mountains-5848274/)
 
 Charge is a generic table-top role-playing game. That means that you and your friends will get together, and tell an interactive story about a group of fictional character you will create. Those characters will face obstacles and challenges, and you get to decide how they react. The world then changes based on what the characters do.
 
@@ -120,6 +124,8 @@ Remember to be empathetic of people's schedule and responsibilities. Some people
 Then, patiently wait until the next session. And while you are waiting, remember and praise the awesome moments that happened in the last session.
 
 # Creating your Character | Character Creation
+
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/6c402c4fb66bc6ac29d20b7bee048d9a.png)](https://pixabay.com/photos/landscape-fantastic-surreal-mood-6543972/)
 
 As a player, you will need to create a `Character`.
 
@@ -196,11 +202,11 @@ In Charge, there are **12 actions** that characters can do.
 
 When creating a character, you need to **distribute 7 action dots** among those 12 actions. At the start of a campaign, a single Action cannot have more than 2 action dot.
 
-Those dots represent how good your character is at doing things. As the game progresses, you will gain additional dots that you will use to make your character more flexible. See [**Mechanics » Progression**](mechanics#progression).
+Those dots represent how good your character is at doing things. As the game progresses, you will gain additional dots that you will use to make your character more flexible. See [**Mechanics&nbsp;»&nbsp;Progression**](mechanics#progression).
 
 The 12 actions are regrouped in 3 categories called `Attributes`.
 
-There is `Physique`, `Insight` and `Resolve`. Each attribute is important in its own way, since they let you resist different types of danger when things go sour. More on that in [**Mechanics » Resistance Roll**](mechanics#resistance-roll).
+There is `Physique`, `Insight` and `Resolve`. Each attribute is important in its own way, since they let you resist different types of danger when things go sour. More on that in [**Mechanics&nbsp;»&nbsp;Resistance Roll**](mechanics#resistance-roll).
 
 For now let's look at the 12 different types of actions.
 
@@ -316,7 +322,7 @@ Situational bonuses are either a boost in `effect`, `position` or `dice pool` th
 
 You don't need to worry about talents right now, especially if you just started your campaign.
 
-When your campaign reaches a significant turning point, you can go and read [**Mechanics » Progression**](progression#major-milestones) to know where to go from now to make the characters feel more powerful.
+When your campaign reaches a significant turning point, you can go and read [**Mechanics&nbsp;»&nbsp;Progression**](progression#major-milestones) to know where to go from now to make the characters feel more powerful.
 
 ## Character Recap
 
@@ -333,6 +339,8 @@ Now we will go over all the mechanics used in the game that exist to resolve unk
 > - Talent Line to make the characters feel more powerful.
 
 # Fiction First | Mechanics
+
+[![Image by Yuri_B from pixabay.com](https://gyazo.com/d6e7b317330d9dd554970cc75543ea7e.png)](https://pixabay.com/illustrations/painting-knight-night-oil-paints-3995999/)
 
 **Charge is a "fiction first" game.**
 
@@ -366,9 +374,9 @@ If an action has 2 darkened dots, then you roll `2d6` and so on.
 
 ### Active Opposition
 
-Since NPCs don’t roll for their actions, an action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**. 
+Since NPCs don’t roll for their actions, an action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**.
 
-The action roll tells us what is the result and the consequences of an action at the same time. 
+The action roll tells us what is the result and the consequences of an action at the same time.
 
 On a `6`, the PC wins and gets what they wanted to do. On a `4/5`, both the PC and the NPC have an effect on the result. On a `1-3`, the NPC wins and has their effect as a consequence on the PC.
 
@@ -380,9 +388,11 @@ That being said, you can always `Push Yourself`, `Add Tension` to the scene, get
 
 For now, let's take a look at the different tools that you can use to resolve the different situations that arise in your story.
 
-# Overcome An Obstacle | Mechanics
+# Action Roll | Mechanics
 
-> _I have a bad feeling about this..._
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/a2bbeb6748035e90162096c3e0a9680a.png)](https://pixabay.com/photos/fantasy-city-landscape-architecture-3898554/)
+
+**_I have a bad feeling about this..._**
 
 You want to try to accomplish a goal, but something or someone is in your way.
 
@@ -394,21 +404,21 @@ The first step in knowing if you succeed or not at overcoming that challenge is 
 
 ### Action
 
-When you roll to overcome an obstacle, you need to know which of the **12 Actions** your character is going for. Are they `Bonding` with a local merchant, or `Swaying` them into thinking that their prices are too high ?
+When you make an action roll, you need to know which of the **12 Actions** your character is going for. Are they `Bonding` with a local merchant, or `Swaying` them into thinking that their prices are too high ?
 
 Use the action rating (darkened dots beside the action) as your base dice pool.
 
 > #### Choosing an Action
-> 
-> The action you are going to choose will have an impact on the `Effect` and the `Situation` of the roll. 
-> 
+>
+> The action you are going to choose will have an impact on the `Effect` and the `Situation` of the roll.
+>
 > We are going to talk about those in a second, but just know that if you choose a certain action and aren't satisfied when the GM tells you what are the effect or situation is, you can go back and pick another action.
 
 ### Position
 
 If an obstacle is in your way, you are in either in a `controlled`, `risky` or `desperate` position. The GM is responsible for telling you this information.
 
-In most common scenarios, if you are rolling to overcome something, you are probably in a `risky` position. 
+In most common scenarios, if you are rolling to overcome something, you are probably in a `risky` position.
 
 Multiple things can affect your current position. You may be vastly outnumbered, or perhaps you are just out of time. The narrative context will help you and the GM decide what's your current position.
 
@@ -454,13 +464,13 @@ When a roll has consequences, you use the position rating to see how many segmen
 
 When a roll is a success, you use the effect rating to see how many segments you tick on progress clocks, how much information the character gets out of an investigation, etc.
 
-More on clocks in [**Mechanics » Clocks**](mechanics#clocks)
+More on clocks in [**Mechanics&nbsp;»&nbsp;Clocks**](mechanics#clocks)
 
 ### Even the Odds
 
-Your characters aren't proficient in everything, but they have more aces up their sleeves to even the odds stacked against them. 
+Your characters aren't proficient in everything, but they have more aces up their sleeves to even the odds stacked against them.
 
-First off, they aren't alone. 
+First off, they aren't alone.
 
 When you `Ask for Help`, a willing player can consume `-1 charge` of momentum, in exchange for you to get `+1d6` added to your dice pool. In doing so, the helper exposes themselves to the same danger as your character for helping you.
 
@@ -476,24 +486,24 @@ When you `Push Yourself`, you consume `-2 charge` of momentum **per push** to ga
 
 #### Add Tension
 
-When you `Add Tension` to a scene, you can ask the GM *"What would adding tension would look like here?"*. The GM can then offer a complication like ticking segments in danger clocks, inflicting stress on your character or adding more drama to the narrative.
+When you `Add Tension` to a scene, you can ask the GM _"What would adding tension would look like here?"_. The GM can then offer a complication like ticking segments in danger clocks, inflicting stress on your character or adding more drama to the narrative.
 
 If you accept the deal, you get `+1d6` added to your dice pool.
 
 #### Use an Asset
 
-Assets are an optional rule available in [Extras » Asset Extra](asset-extra), but they are still considered an option for you to event the odds if you are using that Extra.
+Assets are an optional rule available in [Extras&nbsp;»&nbsp;Asset Extra](asset-extra), but they are still considered an option for you to event the odds if you are using that Extra.
 
 ### Recap
 
-So now, let's go over all of this again to recap what happens when you roll to overcome an obstacle.
+So now, let's go over all of this again to recap what happens when you make an action roll.
 
-> #### Overcome an Obstacle
+> #### Action Roll
 >
 > 1. Pick an Action and find how many dice you need to roll (the `action rating`)
 > 1. Determine the Position (`controlled(1)`, `risky(2)`, or `desperate(3)`)
 > 1. Determine the Effect Rating (`great(3)`, `standard(2)` or `limited(1)`)
-> 1. Add `+1d6` if: you `push yourself` (-2 charges)  -or- if you `add tension` to the scene.
+> 1. Add `+1d6` if: you `push yourself` (-2 charges) -or- if you `add tension` to the scene.
 > 1. Add `+1d6` if you have `Assistance` (they consume -1 charge)
 > 1. Roll and wish for the best!
 >
@@ -504,27 +514,29 @@ So now, let's go over all of this again to recap what happens when you roll to o
 > - On a `4/5 partial success`, you overcome the obstacle, but there's a `consequence`.
 > - On a `1-3 bad outcome`, you fail at overcoming the obstacle, and there's a `consequence`.
 
-Yann*'s character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it's a **Risky Position** since the guard might not be alone, but the outcome would be of **Great Effect** because the guard isn't on high alert.* Yann _doesn't want to leave everything up to chance, and decides to even the odds. He declares that his character will **Push Themselves** to get an additional 1d6 by diving in the water to get into a better position before taking the guard out._
+_Yann's character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it's a **Risky Position** since the guard might not be alone, but the outcome would be of **Great Effect** because the guard isn't on high alert. Yann doesn't want to leave everything up to chance, and decides to even the odds. He declares that his character will **Push Themselves** to get an additional `+1d6` by diving in the water to get into a better position before taking the guard out. Yann rolls his dice pool and... gets a `5`, partial success! The GM than says that he takes our the guard, but ticks 2 segments off an "Alert Clock" because of the noise Yann's character made pulling the guard in the water., \*_
 
 # Consequences| Mechanics
 
-> _Sometimes things work out, other times..._
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/7b40cf4934bebc8628bd3696c4e3b92c.png)](https://pixabay.com/photos/fantasy-city-castle-light-heaven-4382262/)
 
-If you roll to Overcome an Obstacle or Create an Asset and you get a **partial success** or a **bad outcome**, you suffer a consequence.
+**_Sometimes things work out, other times..._**
 
-Consequences are a tool that the GM can use to spice up the story. The GM determines the consequences, following from the fiction and the style and tone established by the game group.
+If you make an action roll and you get a `partial success (4/5)` or a `bad outcome (1-3)`, you suffer a `Consequence`.
+
+Consequences are a tool that the GM can use to spice up the story. The GM determines the type of consequence, using the fiction, the style and tone established by the group.
 
 > #### I Have an Idea!
 >
-> If anyone at the table an idea for a good consequence, hear them out! It can be daunting as a GM to always know what happens in case of failure. Especially if luck isn't on the player's side, and you need to find lots of different consequences in the same session.
+> If anyone at the table has idea for a good consequence, hear them out! It can be daunting as a GM to always know what happens in case of failure. That is true especially if luck isn't on the player's side, and you need to find lots of different consequences in the same session.
+>
+> As the GM, don't hesitate to ask your players for ideas as well. Someone might have a fascinating suggestion, but they think it's not their place to speak up. Prove them otherwise.
 
-As the GM, don't hesitate to ask your players for ideas as well. Someone might have something fascinating to suggest story wise, but they think it's not their place to speak up. Prove them otherwise.
-
-Here are useful examples of consequences that can be inflicted in case of a bad roll:
+Here are a couple of types of consequences that can be inflicted in case of a bad roll:
 
 ### Reduced Effect
 
-> You hit them, but it's only a flesh wound. The security cameras are turned off, but the technicians are aware, and are looking to fix them as soon as possible.
+**_You hit them, but it's only a flesh wound. The security cameras are turned off, but the technicians are aware, and are looking to fix them as soon as possible._**
 
 This consequence represents impaired performance. The PC’s action isn’t as effective as they’d anticipated.
 
@@ -532,138 +544,145 @@ This consequence essentially reduces the **effect level** of the PC’s action *
 
 ### Complications
 
-> They heard you, and they are coming. You took too long, and you are almost out of air.
+**_They heard you, and they are coming. You took too long, and you are almost out of air._**
 
 This consequence represents trouble, mounting danger, or a new threat.
 
-This could happen all in the narrative without any real mechanic implication. You don't need to
+In most common scenarios, the GM will create a new **Danger Clock** ([**Mechanics&nbsp;»&nbsp;Clocks**](mechanics#clocks)) or tick a segment off an existing one to represent this new danger.
 
-In most common scenarios, the GM will create a new **Clock** ([**Mechanics » Clocks**](mechanics#clocks)) or tick a segment off an existing one to represent this new danger.
+The number of segments ticked on the clock depends on the position rating of the roll.
+
+**Don’t inflict a complication that negates a successful roll**. If a PC tries to corner an enemy and gets a `4/5`, don’t say that the enemy escapes. The player’s roll succeeded, so the enemy is cornered... maybe the PC has to wrestle them into position and during the scuffle the enemy grabs their gun.
 
 ### Lost Opportunity
 
-> You were tailing on someone, but they saw you and disappeared. You were fighting robots, but they adapted and are now able to anticipate your every move.
+**_You were tailing on someone, but they saw you and disappeared. You were fighting robots, but they learn and adapted, they are now able to anticipate your every move._**
 
 This consequence represents shifting circumstance. What you tried didn't work, and now there's a new situation that prevents you from trying again. You need to find another approach.
 
-Usually this means trying using another **Action**.
+Usually this means trying using another `Action`.
 
-You need to **Bond** with your contacts to know if they heard of the person that evaded you, or you need to **Survey** the robot to see if they have any weak spots you can use to your advantage.
+You need to `Bond` with your contacts to know if they heard of the person that evaded you, or you need to `Survey` the robot to see if they have any weak spots you can use to your advantage.
 
 ### Worse Position
 
-> You missed your shot, now they know where you are. They initially trusted you, but know they have some doubts and will be watching you more closely.
+**_You missed your shot, now they know where you are. They initially trusted you, but know they have some doubts and will be watching you more closely._**
 
 This consequence represents losing control of the situation. The action carries you into a more dangerous **position**.
 
 Perhaps you make the leap across to the next rooftop, only to end up dangling by your fingertips. You haven’t failed, but you haven’t succeeded yet, either. You can try again, re-rolling at the new, worse position.
 
-This is a good consequence to choose to show escalating action. A situation might go from **controlled**, to **risky**, to **desperate** as the action plays out and the PC gets deeper and deeper in trouble.
+This is a good consequence to choose to show escalating action. A situation might go from **controlled**, to **risky**, to **desperate** as the action plays out and the PC gets deeper and deeper into trouble.
 
 ### Worse Condition
 
 This consequence represent injuries or trauma inflected on a character.
 
-When your condition worsen, you rise the pressure of an Attribute's **Condition Gauge** up to the next marker. Then, write a new Aspect that represents your new condition inside the gauge.
+When your condition worsen, you take a certain amount of `Stress` on an `Attribute`. Mark a new `Condition Aspect` for that attribute to represent the new state of your character.
 
-Depending on how much pressure the Condition Gauge has, all rolls related to the matching Attribute will be affected negatively
+Accumulating stress will have a negative impact on your future actions rolls.
 
-> - **Mild Harm**: Reduces the **effect** of your rolls.
-> - **Moderate Harm**: Removes `1d6` from your dice pools.
-> - **Severe Harm**: You need help, and you can't go on. You need immediate medical assistance.
+- `1/2 Stress`: Reduces the `effect` of your rolls.
+- `3 Stress`: Removes `-1d6` from your dice pools.
+- `4 Stress`: You need help, and you can't go on. You need immediate medical assistance.
 
-#### Surcharge
-
-When you need to increase the pressure of a Condition Gauge that is already filled up, this consequence will affect the life of the character for the long run.
-
-Clear the gauge and rename one of the character's 5 aspects.
-
-On the bright side, you aren't forced to take a consequence. You can always try to resist it ([Mechanics » Resistance Roll.](resistance-roll)) .
-
-⚠️ ⚠️ ⚠️
+Those impacts come into play when the condition aspect applies in the narrative,
 
 ### Recap
 
 > #### Consequences
 >
-> - **Reduced Effect** : -1 effect rating
-> - **Complication**: create or tick a clock
-> - **Worse** Position: -1 position rating
-> - **Lost** Opportunity: try something else
-> - **Harm**: ⚠️ ⚠️ ⚠️ Take 1 Harm. Rename one of the PC aspect if you are out of Harm Aspects.
+> - **Reduced Effect** : `-1 effect` rating.
+> - **Complication**: create or tick a `clock`.
+> - **Worse Position** : `-1 position` rating.
+> - **Lost Opportunity** : try something else.
+> - **Harm**: Take `stress`.
 
 # Resistance Roll| Mechanics
 
-> _Not on my watch!_
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/3c9ae5d526da51b44be1e7953077be51.png)](https://pixabay.com/illustrations/fantasy-battle-warrior-fire-falcon-3721894/)
 
-If a character suffers a consequence that you, as a player, don't like, you can choose to resist it. Simply tell the GM, “No, I don’t think so. I’m resisting that.” The GM then tells you if resisting that consequence is going to avoid it completely or simply reduce it.
+**_Not on my watch!_**
+
+If a character suffers a consequence that you, as a player, don't like, you can choose to resist it. 
+
+Simply tell the GM, “No, I don’t think so. I’m resisting that.” The GM then tells you if resisting that consequence is going to negate it completely or simply reduce it.
 
 > #### Avoiding vs Reducing Consequences
 >
-> By adjusting which consequences are reduced vs. which are avoided, the GM establishes the overall tone of your game. For a more daring game, most consequences will be avoided. For a grittier game, most consequences will only be reduced with resistance.
+> By adjusting which consequences are reduced vs. which are avoided, the GM establishes the overall tone of the game. For a more daring game, most consequences will be avoided. For a grittier game, most consequences will only be reduced with resistance.
 
-You’ll then make a **Resistance Roll** to see how much stress your character suffers as a result of their resistance.
+You’ll then make a `Resistance Roll` to see how much stress your character suffers as a result of their resistance.
 
-You make the roll using one of your character’s **attributes** (**Physique**, **Insight**, or **Resolve**). The GM chooses the attribute, based on the nature of consequences:
+You make the roll using one of your character’s `Attributes Pool` (`Physique`, `Insight`, or `Resolve`). 
 
-- **Physique**: Consequences from physical strain or injury.
-- **Insight**: Consequences from deception or understanding.
-- **Resolve**: Consequences from mental strain or willpower.
+That dice pool consists of `+1d6` for each dot in the first column on that attribute.
 
-Your character suffers 6 stress when they resist, minus the highest die result from the resistance roll. So, if you rolled a 4, you’d suffer 2 stress. If you rolled a 6, you’d suffer zero stress.
+The GM chooses the attribute you use, based on the nature of the consequence:
 
-If you get a critical result, you clear 1 stress!
+- `Physique`: Consequences from physical strain or injury.
+- `Insight`: Consequences from deception or understanding.
+- `Resolve`: Consequences from mental strain or willpower.
 
-If the result of your roll costs you more stress than what is available on your character, things are even worse than before: you take **two consequences** instead of one.
+When you resist consequences, you do it using charges of Momentum. Getting a good roll consumes less charge, while bad rolls makes you consume more of it.
 
-If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Team Work » Protect**](team-work#protect).
+> | Result | Name               | Explanation                |
+> | ------ | ------------------ | -------------------------- |
+> | `66`   | `Critical Success` | You gain `+1 charge`.    |
+> | `6`    | `Full Success`     | You consume `-1 charge`. |
+> | `4-5`  | `Partial Success`  | You consume `-2 charge`. |
+> | `1-3`  | `Bad outcome`      | You consume `-3 charge`. |
+> 
+If you can't consume all the required charges of Momentum, the GM inflicts 2 Consequences instead of one which cannot be resisted.
+
+If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Team Work&nbsp;»&nbsp;Protect**](team-work#protect).
 
 ### Recap
 
 > #### Resistance Rolls
 >
-> - Roll 1d6 for each attribute rating (Prowess, Insight, Resolve).
-> - Suffer 6 stress minus the highest result of your roll.
-> - Clear 1 stress on a critical success.
-> - Take 2 consequences if you are out of stress.
+> - Roll your Attribute Pool (Prowess, Insight, Resolve).
+> 	- On a `66`, gain `+1 charge`
+> 	- On a `6`, consume `-1 charge`
+> 	- On a `4/5`, gain `-2 charge`
+> 	- On a `1-3`, gain `-3 charge`
+> - GM declares 2 consequences if you can't consume all the required charges. Those consequences cannot be resisted.
 
 # Recovery| Mechanics
 
-> _Now, breathe..._
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/152570ee1895591ed40e267ac4eb35c1.png)](https://pixabay.com/photos/city-planet-futuristic-earth-5312500/)
 
-As the game plays out, the PCs will get more stressed out and accumulate more pressure in their Condition Gauges.
+**_*Now, breathe...*_**
 
-When a PC has filled up their stress track, they won't be able to **Push Themselves**, **Assist** their teammates or create **Flashback Assets**.
+As the game plays out, the PCs will get more stressed out and their condition will worsen.
 
-When a PC has a lot of pressure in their Condition Gauges, making Action Rolls will be less effective and more difficult. They will also be narratively restricted in how they can interact with the story because of the Condition Aspect.
+When a PC accumulates `Stress`, making action rolls will be less effective and more difficult. They will also be narratively restricted in how they can interact with the story because of the `Condition Aspect`.
 
-Stress and Condition Gauges exists to pace the game. Not every action is going to go well, and failing an action has consequences which will affect the characters for some time.
+Stress and condition aspects exists to pace the game. Not every action is going to go well, and failing an action has consequences which will affect the characters for some time.
 
-Things will eventually go back to normal and the PCs will recover. But for the recovery to happen, it needs to happen in the fiction first.
+Things will eventually go back to normal, and the PCs will recover. But for the recovery to happen, it needs to happen in the **fiction first**.
 
 ## Recovering in the Fiction
 
-When a player wants their character to recover stress or reduce pressure in their condition gauges, there needs to be **Downtime** in the fiction.
+When a player wants their character to recover stress, there needs to be **Downtime** in the fiction.
 
-If the group spends 3 sessions battling monsters in an epic dungeon and tension is always up the roof, than the fiction doesn't allow for recovery to happen.
+If the group spends 3 sessions battling monsters in an epic dungeon, and tension is always up the roof, than the fiction doesn't allow for the process recovery to beging.
 
-That being said, **Downtime** doesn't mean that all the PCs have to sit down by a campfire and talk until they are at "full health". The game structure isn't enforced, so the PCs can do what ever they want, whenever they want.
+That being said, **Downtime** doesn't mean that all the PCs have to sit down by a campfire and talk until they are all at "full health". 
 
-But, when things calm down, when the tension is released, then you can catch a breath.
+The structure of a game of Charge isn't enforced, so the PCs can do what ever they want, whenever they want.
 
-## Recovering Stress
+So **once per session**, if the fiction allows it, reduce the stress track of your character by one level.
 
-> TBD
-
-## Reducing Pressure in Condition Gauges
-
-> TBD
+We aren't using dice to support this mechanic because we don't believe luck should *generally* factor in the healing process. Of course, there are moments where it should, and using [Fortune Rolls](fortune-roll) for this might be a good idea.
 
 ---
 
 # Fortune Roll| Mechanics
 
-> _The future is in constant flux._
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/66adea5dff68c16c02527472648c8110.png)](https://pixabay.com/photos/city-sunset-planet-mars-heaven-5312660/)
+
+**_*The future is in constant flux.*_**
 
 Not everything is about the proficiencies of the PCs. There are situations where something is simply up to chance. In those situations, the GM can call for a **Fortune Roll**.
 
@@ -696,7 +715,9 @@ Don't overthink this. This rule is vague by design, as it should not get in the 
 
 # Team Work| Mechanics
 
-> _It's dangerous to go alone, take this!_
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/3cdd5a6bc018b408a461740f0f4451a1.png)](https://pixabay.com/photos/fantasy-moon-people-night-dream-6203763/)
+
+**_*It's dangerous to go alone, take this!*_**
 
 There are multiple ways player characters can help each other in Charge. They could **Assist** each other, **Take the Lead** on an action or perhaps they want to **Protect** another PC from danger.
 
@@ -737,7 +758,9 @@ You step in to face a consequence that one of your teammates would otherwise fac
 
 # Clocks| Mechanics
 
-A **Clock** is a circle **divided into 4, 6 or 8 segments**. Draw a clock when you need to track an ongoing effort against an obstacle that cannot be resolved with a simple Overcome an Obstacle roll.
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/8aeb209f8442ddf2ed9dab425bd9b603.png)](https://pixabay.com/photos/cave-fantastic-light-nature-6481713/)
+
+A **Clock** is a circle **divided into 4, 6 or 8 segments**. Draw a clock when you need to track an ongoing effort against an obstacle that cannot be resolved with a simple action roll.
 
 > Sneaking into a restricted area? Make a Clock to track the alert level of the patrolling guards. When the PCs suffer consequences from partial successes or missed rolls, fill in segments on the clock until the alarm is raised.
 
@@ -783,7 +806,9 @@ Here are a couple of examples of how clocks could be used to represent some situ
 
 # Progression | Mechanics
 
-> _That's something I'm never going to forget._
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/635caaef063a8652b3ce86a0ad3eeb7a.png)](https://pixabay.com/photos/fantasy-clock-time-light-magic-3517206/)
+
+**_That's something I'm never going to forget._**
 
 In Charge, your character is already talented and proactive.
 
@@ -855,7 +880,8 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 > If so, post a new topic on [Charge's Itch.io ](https://itch.io/category/1498399/new-topic), and there's a high chance your extra will end up in the official SRD!
 
 # Asset Extra | Extras
-## Loot Assets 
+
+## Loot Assets
 
 > For games that are about survival or want to resemble the "Looter and Shooter" genre.
 
@@ -882,7 +908,7 @@ If more than one player is scavenging, you can do a group roll using the `Take t
 
 When you create an asset using the Loot Extra, the asset can be used by anyone in the group, as long as it makes sense in the narrative.
 
-# Boon Asset 
+### Boon Asset
 
 > For moments of great role-play
 
@@ -892,11 +918,9 @@ To make those moments shine even more, the GM can reward that player with an `As
 
 This is like the way for the GM to say: this was amazing, here's `+1d6` or `increased effect` for your roll.
 
-
 # Mission Extra | Extras
 
-
-```	
+```
 Work in Progress...
 
  - Assault
@@ -908,14 +932,13 @@ Work in Progress...
 
 # Duel Extra | Extras
 
-
 ```
 Work in Progress...
 ```
 
 # Making a Compelling Campaign | Preparing the Game
 
-![By KELLEPICS](https://cdn.pixabay.com/photo/2017/09/15/02/22/fantasy-2750995_960_720.jpg)
+[![Image by XXXXXXXXX from pixabay.com](IMAGE)](LINK)
 
 You've got a GM and players. You relatively comfortable with the basic mechanics, and you are ready to play Charge.
 
@@ -1176,7 +1199,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > | `4-5`  | `Partial Success`  | You overcome the obstacle, but there's a `consequence`.           |
 > | `1-3`  | `Bad outcome`      | You fail at overcoming the obstacle, and there's a `consequence`. |
 >
-> ### Resist
+> ### Resistance Roll
 >
 > Use this to resist a consequence, or incoming `Stress`.
 >

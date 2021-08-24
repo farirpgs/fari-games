@@ -184,6 +184,19 @@ export function GamePage() {
             {renderCategoriesSideBarItems()}
             {renderRootSideBarItems()}
           </MenuList>
+          {chapter.data.version && (
+            <>
+              <Divider />
+              <div
+                className={css({
+                  fontFamily: "monospace",
+                  padding: ".5rem 1.5rem",
+                })}
+              >
+                v{chapter.data.version}
+              </div>
+            </>
+          )}
         </div>
       </>
     );
@@ -373,7 +386,7 @@ export function GamePage() {
       <>
         <div>
           {renderPreviousNextNavigation()}
-          <Helmet>{GameSettings[gameSlug].head}</Helmet>
+          <Helmet>{GameSettings[gameSlug].head} | Fari Games</Helmet>
           <div
             className={css({
               "& blockquote": {
@@ -463,9 +476,21 @@ export function GamePage() {
                 margin: "0 auto",
                 display: "block",
               },
+              "& .document-image": {
+                fontSize: ".8rem",
+                margin: "0 auto",
+
+                "& figcaption": {
+                  marginTop: "0.5rem",
+                },
+                "& a": {
+                  color: theme.palette.text.primary,
+                },
+              },
               "& h1": {
                 ...(theme.typography.h1 as any),
                 fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
+                borderBottom: `4px solid ${theme.palette.text.primary}`,
               },
               "& h2": {
                 ...(theme.typography.h2 as any),
