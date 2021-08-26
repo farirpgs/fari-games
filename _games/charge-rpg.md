@@ -2,7 +2,6 @@
 title: Charge RPG - Power Your Story Telling
 author: René-Pier Deshaies-Gélinas
 image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
-imageLink: [![Image by XXXXXXXXX from pixabay.com](IMAGE)](LINK)
 version: 0.0.1
 ---
 
@@ -278,13 +277,13 @@ As a player, you get to choose which action you roll by simply saying what your 
 
 ## Momentum
 
-A character's `Momentum` is a track that represents the _momentum_ of your character. The more you interact with the world, and the people that live in it, the more your character gains `Charges` of momentum.
+A character's `Momentum` is a track that represents the _momentum_ of your character. The more you interact with the world, and the people that live in it, the more your character gains `charges of momentum`.
 
 You then consume those charges to boost your action rolls or assist your teammates.
 
 ![](https://gyazo.com/e0aac9468c6a2a2932e59da933c64e21.png)
 
-When you are out of charges, things can go bad pretty quickly since you also use them to resist incoming consequences or harm.
+When you are out of momentum, things can go bad pretty quickly since you also use them to resist incoming consequences or harm.
 
 ## Stress & Conditions
 
@@ -384,7 +383,7 @@ On a `6`, the PC wins and gets what they wanted to do. On a `4/5`, both the PC
 
 If an action doesn't have any action dots darkened beside it, then you roll `2d6` and **pick the worst**. This gives you around 25% chance of success, so the odds aren't great.
 
-That being said, you can always `Push Yourself`, `Add Tension` to the scene, get an `Assist` or use an `Asset` to add more dice to your pool. More on that later.
+That being said, you can always `Push Yourself`, `Add Tension` to the action, get an `Assist` or use an `Asset` to add more dice to your pool. More on that later.
 
 For now, let's take a look at the different tools that you can use to resolve the different situations that arise in your story.
 
@@ -410,7 +409,7 @@ Use the action rating (darkened dots beside the action) as your base dice pool.
 
 > #### Choosing an Action
 >
-> The action you are going to choose will have an impact on the `Effect` and the `Situation` of the roll.
+> The action you are going to choose will have an impact on the `Effect` and the `Position` of the roll.
 >
 > We are going to talk about those in a second, but just know that if you choose a certain action and aren't satisfied when the GM tells you what are the effect or situation is, you can go back and pick another action.
 
@@ -454,11 +453,11 @@ The effect and position help us understand what happen in narrative, but they al
 
 To know what impact it has, there's a numerical rating attached to each of them.
 
-| Position   | Effect   | Rating |
-| ---------- | -------- | ------ |
-| Desperate  | Great    | 3      |
-| Risky      | Standard | 2      |
-| Controlled | Limited  | 1      |
+| Position     | Effect     | Rating |
+| ------------ | ---------- | ------ |
+| `Desperate`  | `Great`    | 3      |
+| `Risky`      | `Standard` | 2      |
+| `Controlled` | `Limited`  | 1      |
 
 When a roll has consequences, you use the position rating to see how many segments you tick on danger clocks, or how much stress a character gets when getting harmed, etc.
 
@@ -472,13 +471,13 @@ Your characters aren't proficient in everything, but they have more aces up thei
 
 First off, they aren't alone.
 
-When you `Ask for Help`, a willing player can consume `-1 charge` of momentum, in exchange for you to get `+1d6` added to your dice pool. In doing so, the helper exposes themselves to the same danger as your character for helping you.
+When you `Ask for Help`, a willing player can consume `-1 momentum` of momentum, in exchange for you to get `+1d6` added to your dice pool. In doing so, the helper exposes themselves to the same danger as your character for helping you.
 
 You can also even the odds by using **only one** of the following methods.
 
 #### Push Yourself
 
-When you `Push Yourself`, you consume `-2 charge` of momentum **per push** to gain one of the following bonus.
+When you `Push Yourself`, you consume `-2 momentum` of momentum **per push** to gain one of the following bonus.
 
 - Gain `+1d6` added to your dice pool.
 - Gain `+ 1 effect rating` for your roll.
@@ -486,7 +485,7 @@ When you `Push Yourself`, you consume `-2 charge` of momentum **per push** to ga
 
 #### Add Tension
 
-When you `Add Tension` to a scene, you can ask the GM _"What would adding tension would look like here?"_. The GM can then offer a complication like ticking segments in danger clocks, inflicting stress on your character or adding more drama to the narrative.
+When you `Add Tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM can then offer a complication like ticking segments in danger clocks, inflicting stress on your character or adding more drama to the narrative.
 
 If you accept the deal, you get `+1d6` added to your dice pool.
 
@@ -503,8 +502,8 @@ So now, let's go over all of this again to recap what happens when you make an a
 > 1. Pick an Action and find how many dice you need to roll (the `action rating`)
 > 1. Determine the Position (`controlled(1)`, `risky(2)`, or `desperate(3)`)
 > 1. Determine the Effect Rating (`great(3)`, `standard(2)` or `limited(1)`)
-> 1. Add `+1d6` if: you `push yourself` (-2 charges) -or- if you `add tension` to the scene.
-> 1. Add `+1d6` if you have `Assistance` (they consume -1 charge)
+> 1. Add `+1d6` if: you `push yourself` (-2 momentums) -or- if you `add tension` to the action.
+> 1. Add `+1d6` if you have `Assistance` (they consume -1 momentum)
 > 1. Roll and wish for the best!
 >
 > ---
@@ -604,7 +603,7 @@ Those impacts come into play when the condition aspect applies in the narrative,
 
 **_Not on my watch!_**
 
-If a character suffers a consequence that you, as a player, don't like, you can choose to resist it. 
+If a character suffers a consequence that you, as a player, don't like, you can choose to resist it.
 
 Simply tell the GM, “No, I don’t think so. I’m resisting that.” The GM then tells you if resisting that consequence is going to negate it completely or simply reduce it.
 
@@ -614,7 +613,7 @@ Simply tell the GM, “No, I don’t think so. I’m resisting that.” The GM t
 
 You’ll then make a `Resistance Roll` to see how much stress your character suffers as a result of their resistance.
 
-You make the roll using one of your character’s `Attributes Pool` (`Physique`, `Insight`, or `Resolve`). 
+You make the roll using one of your character’s `Attributes Pool` (`Physique`, `Insight`, or `Resolve`).
 
 That dice pool consists of `+1d6` for each dot in the first column on that attribute.
 
@@ -626,33 +625,99 @@ The GM chooses the attribute you use, based on the nature of the consequence:
 
 When you resist consequences, you do it using charges of Momentum. Getting a good roll consumes less charge, while bad rolls makes you consume more of it.
 
-> | Result | Name               | Explanation                |
-> | ------ | ------------------ | -------------------------- |
-> | `66`   | `Critical Success` | You gain `+1 charge`.    |
-> | `6`    | `Full Success`     | You consume `-1 charge`. |
-> | `4-5`  | `Partial Success`  | You consume `-2 charge`. |
-> | `1-3`  | `Bad outcome`      | You consume `-3 charge`. |
-> 
-If you can't consume all the required charges of Momentum, the GM inflicts 2 Consequences instead of one which cannot be resisted.
+> | Result | Name               | Explanation                 |
+> | ------ | ------------------ | --------------------------- |
+> | `66`   | `Critical Success` | You gain `+1 momentum`.     |
+> | `6`    | `Full Success`     | You consume `-1 momentum`.  |
+> | `4-5`  | `Partial Success`  | You consume `-2 momentums`. |
+> | `1-3`  | `Bad outcome`      | You consume `-3 momentums`. |
+>
+> If you can't consume all the required charges of momentum, the GM inflicts 2 Consequences instead of one which cannot be resisted.
 
 If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Team Work&nbsp;»&nbsp;Protect**](team-work#protect).
+
+```
+TODO: INCLUDE EXAMPLE
+```
 
 ### Recap
 
 > #### Resistance Rolls
 >
 > - Roll your Attribute Pool (Prowess, Insight, Resolve).
-> 	- On a `66`, gain `+1 charge`
-> 	- On a `6`, consume `-1 charge`
-> 	- On a `4/5`, gain `-2 charge`
-> 	- On a `1-3`, gain `-3 charge`
+>   - On a `66`, gain `+1 momentum`
+>   - On a `6`, consume `-1 momentum`
+>   - On a `4/5`, gain `-2 momentums`
+>   - On a `1-3`, gain `-3 momentums`
 > - GM declares 2 consequences if you can't consume all the required charges. Those consequences cannot be resisted.
+
+# Flashbacks | Mechanics
+
+The rules don’t distinguish between actions performed in the present moment and those performed in the past. When an operation is underway, you can invoke a flashback to roll for an action in the past that impacts your current situation. Maybe you went to a bar last night and befriended a couple of guards to make them drunk so that they call sick the next dat, so you make a `Bond` roll to see how that went.
+
+The GM sets a cost in `charges of momentum` for you to activate the flashback.
+
+- `0 Momentum`: An ordinary action for which you had easy opportunity.
+- `1 Momentum`: A complex action or unlikely opportunity.
+- `2 (or more) Momentum`: An elaborate action that involved special opportunities or contingencies.
+
+After the momentum is consumed, a flashback action is handled just like any other action. Sometimes it will entail an action roll, because there’s some danger or trouble involved. Sometimes a flashback will entail a fortune roll, because we just need to find out how well (or how much, or how long, etc.). Sometimes a flashback won’t call for a roll at all because you can just consume the momentum and it’s accomplished.
+
+After the GM describes the trouble you’re in, you can call for a flashback to a special preparation you made, “just in case” something like this happened. This way, your “flashback planning” will be focused on the problems that \_do \_happen, not the problems that might happen.
+
+## Limits of flashbacks
+
+A flashback isn’t time travel. It can’t “undo” something that just occurred in the present moment. If the GM described something in the scene, it is now established in the fiction........TBD
+
+# Momentum | Mechanics
+
+We've talked about the fact that characters have a `Momentum` track, which starts with `2` charges at the beginning of every session.
+
+We've also seen that momentum can be consumed to **boost action rolls**, **assist allies**, **lead group actions** and do **flashback scenes**.
+
+Now we will go over the different methods to gain momentum during scenes.
+
+Basically, you can either gain momentum as a **result of an action roll**, or because of a **compel**.
+
+## Momentum from an Action
+
+Everytime you make an action roll, you have a chance of gaining new charges of momentum.
+
+The reason why you start with only `2` at the beginning of a session is because we want players who are running low to engage with the game mechanics instead of sitting back because they are out of resources.
+
+**The main way you are going to get momentum back is by participating in the game.**
+
+**By default**, you gain momentum when you make an action roll, and you rolled a `4` or above.
+
+- If you rolled a `4/5`, you gain `+1 Momentum`.
+- If you rolled a `6`, you gain `+2 Momentum`.
+- If you rolled a `66`, you gain `+3 Momentum`.
+
+While this is the default setting, we encourage you and your group to play and change this as you wish. We want you to consider hacking this rule because it is the basis of the whole meta-economy of the game. Making momentum harder or easier to gain will have a big impact on the way the game is going to play out.
+
+### Momentum Dial
+
+Changing **when and how much momentum is gained** is called a `Momentum Dial`. Your group can decide to use with the default dial provided by the game, since it is a good starting point. It is the default dial for a reason.
+
+But if for example you want to emphasis the fact that life is hard and resources are scarce, then consider making momentum harder to gain. If on the other hand, you want to tell the story of characters who are all over the top, but still find a way to finish every adventure with their hat still sitting on their head, then consider making momentum easier to gain.
+
+## Momentum from Adding Tension
+
+The second way you can gain momentum is by `Adding Tension` to the scene.
+
+As a player, you can suggest a complication to your GM, and if they agree with it you gain `+2 Momentum`.
+
+When you add tension to a scene, you usually self-inflict a `Consequence` on yourself or the group to add interesting drama to the scene.
+
+```
+TODO: INCLUDE EXAMPLE
+```
 
 # Recovery| Mechanics
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/152570ee1895591ed40e267ac4eb35c1.png)](https://pixabay.com/photos/city-planet-futuristic-earth-5312500/)
 
-**_*Now, breathe...*_**
+**_Now, breathe..._**
 
 As the game plays out, the PCs will get more stressed out and their condition will worsen.
 
@@ -668,36 +733,50 @@ When a player wants their character to recover stress, there needs to be **Downt
 
 If the group spends 3 sessions battling monsters in an epic dungeon, and tension is always up the roof, than the fiction doesn't allow for the process recovery to beging.
 
-That being said, **Downtime** doesn't mean that all the PCs have to sit down by a campfire and talk until they are all at "full health". 
+That being said, **Downtime** doesn't mean that all the PCs have to sit down by a campfire and talk until they are all at "full health".
 
 The structure of a game of Charge isn't enforced, so the PCs can do what ever they want, whenever they want.
 
 So **once per session**, if the fiction allows it, reduce the stress track of your character by one level.
 
-We aren't using dice to support this mechanic because we don't believe luck should *generally* factor in the healing process. Of course, there are moments where it should, and using [Fortune Rolls](fortune-roll) for this might be a good idea.
+We aren't using dice to support this mechanic because we don't believe luck should _generally_ factor in the healing process. Of course, there are moments where it could. If you want, you can use the [Fortune Rolls](fortune-roll) mechanic to resolve this type of situation.
 
----
+## Recap
+
+> #### Recovery
+>
+> Use this to heal and recuperate.
+>
+> - Once per session, if the fiction allows it, reduce stress by one level.
 
 # Fortune Roll| Mechanics
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/66adea5dff68c16c02527472648c8110.png)](https://pixabay.com/photos/city-sunset-planet-mars-heaven-5312660/)
 
-**_*The future is in constant flux.*_**
+**_The future is in constant flux._**
 
-Not everything is about the proficiencies of the PCs. There are situations where something is simply up to chance. In those situations, the GM can call for a **Fortune Roll**.
+Not everything is about the proficiencies of the PCs. There are situations where something is simply up to chance. In those situations, the GM can call for a `Fortune Roll`.
 
-You are looking in the wreckage of a ship, is there anybody left alive ? You find a pistol on the ground, is there still bullets in it ? Two factions are at war, who's going to win the final battle ?
+_You are looking in the wreckage of a ship, is there anybody left alive ? You find a pistol on the ground, is there still bullets in it ? Two factions are at war, who's going to win the final battle ?_
 
-To make a Fortune Roll, you need to assess the chances of the thing you are rolling for to actually happen. In case of two things opposing each other, roll for the side that has the most chances of succeeding.
+To make a fortune roll, you need to assess the chances of a thing of actually happening.
 
 Is that thing likely or unlikely to happen ? For each "likeliness" level, add `1d6` to the dice pool.
 
 - If there's 50% of success, roll `1d6`. If it's more than that, add more dice to the pool.
 - If it's really unlikely, roll `2d6` and pick the worst.
 
-Then interpret the results! There's someone left alive on the ship. There are bullets in the gun, but the gun itself is broken and can't be use.
+If two forces are opposing one another, roll two opposing pools and take the best result of each to interpret who "won" and by how much.
 
-Don't overthink this. This rule is vague by design, as it should not get in the way of the game. This mechanic is there to spice things up for things that even the GM isn't sure what is going to happen.
+Once the pool(s) are ready, throw the dice and interpret the results.
+
+_There's someone left alive on the ship and they are still breathing. There are bullets in the gun, but the gun itself is broken and can't be use._
+
+Don't overthink this. This rule is vague by design, as it should not get in the way of the game. This mechanic is there to **quickly spice things up** during a scene.
+
+```
+TODO: INCLUDE EXAMPLE
+```
 
 ### Recap
 
@@ -708,7 +787,7 @@ Don't overthink this. This rule is vague by design, as it should not get in the 
 >
 > ---
 >
-> - On a **critical success**, great results, and something exceptionnal happen.
+> - On a **critical success**, great results, and something exceptional happen.
 > - On a **full success**, great results.
 > - On a **partial success**, mixed results.
 > - On a **bad outcome**, bad results.
@@ -717,92 +796,96 @@ Don't overthink this. This rule is vague by design, as it should not get in the 
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/3cdd5a6bc018b408a461740f0f4451a1.png)](https://pixabay.com/photos/fantasy-moon-people-night-dream-6203763/)
 
-**_*It's dangerous to go alone, take this!*_**
+**_It's dangerous to go alone, take this!_**
 
 There are multiple ways player characters can help each other in Charge. They could **Assist** each other, **Take the Lead** on an action or perhaps they want to **Protect** another PC from danger.
 
 ### Assist
 
-> _I can't reach it, can you give me a boost ?_
+**_I can't reach it, can you give me a boost ?_**
 
-When you Assist, you help another player who's rolling succeed at their task. Describe what your character does to help. **Take 1 stress** and give them and additional `1d6d` for their roll.
+When you `Assist`, you help another player who's making an action roll. Describe what your character does to help. **Consume `1 charge`** and give them an additional `+1d6` for their roll.
 
 Be warned that, by doing this, you are also exposing yourself to possible consequences that this roll might end up creating.
 
-> #### Assist
->
-> - Take 1 stress and give `1d6` to someone.
-> - This exposes you to potential consequences.
-
 ### **Take the Lead**
 
-> _It's fine, I know the way. Just follow me, but don't make a sound, or you'll wake it._
+**_It's fine, I know the way. Just follow me, but don't make a sound, or you'll wake it up._**
 
-When you take the lead, you coordinate multiple members of the group to tackle a problem together. Describe how and why your character is leading the group.
+When you take the lead, you coordinate multiple members of the group to tackle a problem together. Describe how your character is leading the group.
 
-Each player character who's involved makes a **action roll**, andthe team counts the **single best result** as the final result. However, the character leading the group action takes 1 stress for each PC that rolled **1-3** as their best result. It’s tough covering for the everyone!
+Each player character who's involved makes a **action roll**. The team counts the **single best result** as the final result.
+
+However, the character leading the group action consume `-1 charge` for each PC that rolled **1-3** as their best result. It’s tough covering for the everyone!
 
 **The group action result covers everyone who rolled.** If you don’t roll, your character doesn’t get the effects of the action.
 
-> #### Take the Lead
->
-> - Leader describes how they take the lead and take **1 stress**
-> - Everyone makes an **action roll**, the best result counts as the group's result
-> - Leader takes **1 stress** for every player that rolled **1-3** as their best result.
-
 ### Protect
 
-> _Get behind my shield!_
+**_Get behind my shield!_**
 
-You step in to face a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Simply describe how you intervene.
+You step-in to confront a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Simply describe how you intervene.
 
 # Clocks| Mechanics
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/8aeb209f8442ddf2ed9dab425bd9b603.png)](https://pixabay.com/photos/cave-fantastic-light-nature-6481713/)
 
-A **Clock** is a circle **divided into 4, 6 or 8 segments**. Draw a clock when you need to track an ongoing effort against an obstacle that cannot be resolved with a simple action roll.
+A `Clock` is a circle **divided into 4, 6 or 8 segments**. Draw a clock when you need to track an ongoing effort against an obstacle that cannot be resolved with a simple action roll.
 
-> Sneaking into a restricted area? Make a Clock to track the alert level of the patrolling guards. When the PCs suffer consequences from partial successes or missed rolls, fill in segments on the clock until the alarm is raised.
+Sneaking into a restricted area? Make a Clock to track the alert level of the patrolling guards. When the PCs suffer consequences from partial successes or missed rolls, fill in segments on the clock until the alarm is raised.
 
-Generally, the more complex the problem, the more segments in the progress clock.
+Generally, the more complex the problem, the more segments the clock should have.
 
 A complex obstacle is a 4-segment clock. A more complicated obstacle is a 6-clock. A daunting obstacle is an 8-segment clock.
 
-Clock segments are then filled when a consequence arises from a bad outcome or mixed success roll. Depending on the **effect rating** of the roll, 1 or more segments could be ticked off.
+Segments of clocks are ticked after an action roll. The **effect and position rating** help use decide how many segments should ge ticked as a result of the roll.
 
-Clocks should always be about the obstacle that needs to be overcome, not the "how" it should be overcome. The action that the player characters are doing are going to explain the "how" bit.
+Clocks should always be about the obstacle that needs to be overcome, and not be about the "how". The action of the character already takes care of explaining the "how".
 
-Clocks can be used to represent multiple types of situation. Things like the current level of danger the PCs are in, the time that is left until a certain thing happens, and more.
+Here are a couple of examples of how clocks could be used to represent some situation that might arise during scenes.
 
-Here are a couple of examples of how clocks could be used to represent some situation that might arise during a session.
-
-- **Progress Clocks**: Represent the ongoing effort of someone to achieve their goal.
-
-> How much money to we need before we can fix the ship? How much damage can the city withstand before there's nothing left to save ?
-
-- **Danger Clocks**: Represent the imminent danger about to face the player.
-
-> How long until they realize we are here ? How much oxygen do we have left ?
-
-- **Opposing Clocks**: Represents the progress of two opposing parties to get to their goal.
-
-> Can we win the race against the fan favourite ? Can we convince the judge that we are wrongly accused before the end of the trial?
+> ### Progress Clocks
+>
+> Represent the ongoing effort of someone to achieve their goal. You tick this clock by using the `effect rating` of an action roll on successes.
+>
+> _How much money to we need before we can fix the ship? How much damage can the city withstand before there's nothing left to save ?_
+>
+> ### Danger Clocks
+>
+> Represent the imminent danger about to face the player. You tick this clock by using the `position rating` of an action roll on consequences.
+>
+> _How long until they realize we are here ? How much oxygen do we have left ?_
+>
+> ### Opposing Clocks
+>
+> Represents the progress of two opposing parties to get to their goal. The effect and position ratings can both be used to tick one or the other clock.
+>
+> _Can we win the race against the fan favourite ? Can we convince the judge that we are wrongly accused before the end of the trial?_
 
 ### Recap
 
 > #### Clocks
 >
-> - GM creates a block to representing long-lasting obstacles.
+> Used to define complex obstacles.
+>
+> - GM creates a clock to representing long-lasting obstacles.
 >   - Divide in 4 segments for a complex obstacle.
 >   - Divide in 6 segments for a complicated obstacle.
 >   - Divide in 8 segments for a daunting obstacle.
 >
 > ---
 >
-> - GM ticks off a clock's segment depending on the **effect rating** and the outcome of a roll.
->   - Tick 1 segment for a **limited effect rating**.
->   - Tick 2 segments for a **standard effect rating.**
->   - Tick 3 segments for a **great effect rating**.
+> When a PC succeeds an action roll, you can tick segments of a `Progress Clock`:
+>
+> - Tick 1 segment for a `limited effect`.
+> - Tick 2 segment for a `standard effect`.
+> - Tick 3 segment for a `great effect`.
+>
+> When a PC gets a consequence off an action roll, you can tick segments of a `Danger Clock`:
+>
+> - Tick 3 segment for a `desperate position`.
+> - Tick 2 segment for a `risky position`.
+> - Tick 1 segment for a `controlled position`.
 
 # Progression | Mechanics
 
@@ -810,58 +893,68 @@ Here are a couple of examples of how clocks could be used to represent some situ
 
 **_That's something I'm never going to forget._**
 
-In Charge, your character is already talented and proactive.
+In Charge, the characters are talented and proactive. After all, they are the protagonists of the story. If they fail at a task, it's _probably_ more because of unplanned circumstances than because of their lack of skills.
 
-After all, they are the protagonists of the story. If they fail at a task, it's _probably_ more because of unplanned circumstances, than because of their lack of skills. Though this can also depend on the setting.
-
-As time goes on, your characters will evolve, and become more versatile, but this will only happen at certain **Milestones**.
+As time advance, the characters will evolve, and become more versatile, but this will only happen at certain `Milestones`.
 
 ### Minor Milestones
 
-A Major Milestone happens **at the end of each session**. When the Session is over, each player can look at their character sheet and **rename an Aspect that isn't their Core Concept.** You do this to make your character react to what happened in the last session or even in the world in general.
+A `Major Milestone` happens **at the end of each session**. When a session is over, each player can look at their character sheet and **rename an aspect that isn't their `High Concept`.**
 
-Again, you aren't forced to do that, but it gives more liberty to players to make their character sheet change as the story unrolls itself.
+You can use this to make your character life's change depending on what happened in the last session.
+
+You aren't forced to do this, but the game gives you the time and opportunity do it.
+
+```
+TODO: INCLUDE EXAMPLE
+```
 
 ### Major Milestones
 
-A Major Milestone usually happens **at the end of a big event** in the story. This will _usually_ happen every 3-5 sessions.
+A `Major Milestone` usually happens **at the end of a big event** in the story. This will _usually_ happen every 3-5 sessions.
 
-The GM will probably feel when it's time for a Major Milestone, but as a player you can always remind the GM "_Hey, this looked like an important event in the story, should we get a major milestone ?_". Just goes with what feels right and adapt if necessary.
+The GM will probably feel when it's time for a Major Milestone, but as a player you can always remind the GM "_Hey, this looked like an important event in the story, would this be a major milestone ?_".
+
+Just go with what feels right and adapt if necessary.
+
+When the group reaches a major milestone, every character gets a new `Talent` on their character sheet.
+
+There are 4 types of talents a character can get when reaching this milestone:
+
+- `+1 Action Dot`: You can increase any action on your character sheet by 1 dot.
+- `+1 Effect when \_\_\_\_`: In a certain situation, the effect rating described by the GM is increased by 1.
+- `+1 Position when \_\_\_\_`: In a certain situation, the position rating described by the GM is increase by 1.
+- `+1d6 when \_\_\_\_` : In a certain situation, you can add `+1d6` to your dice pool.
+
+Gaining a new talent will feels like a breath of fresh air. It won't make your characters overpowered or god like, but it will make them more flexible, or more specialized.
 
 > #### Progression Curve
 >
 > Just as a reminder, the longer it takes for a major milestone to happen, the longer it will take for characters to become stronger.
 >
-> This is an important to keep in mind depending on what kind of progression curve you want to have. Do you want to have a short campaign where characters will grow stronger pretty quickly, or are you looking for a year spanning campaign where the characters will mostly evolve by changing their aspects and major milestones will be welcomed with cheers ?
+> This is important to keep in mind depending on what kind of progression curve you want to have. Do you want to have a short campaign where characters will grow stronger pretty quickly, or are you looking for a year spanning campaign where the characters will mostly evolve by changing their aspects and major milestones will be more scarce ?
+>
+> You could go as low as giving the player character only 2-3 Talents during an entire campaign, or reward them more often.
 >
 > There isn't a right or wrong answer here. It depends a 100% on what kind of campaign you want to have. This is also something you can discuss with the group to make sure everyone has the same expectations.
 
-When the group reaches a Major Milestone, every character gets a new **Talent Dot** on their character sheet.
-
-There are 4 types of talents a character can get when reaching this milestone:
-
-- **+1 Action Dot**: You can increase any action on your character sheet by 1 dot.
-- **+1 Effect when \_\_\_\_**: In a certain situation, the effect rating described by the GM is increased by 1.
-- **+1 Position when \_\_\_\_**: In a certain situation, the position rating described by the GM is increase by 1.
-- **+1d6 when \_\_\_\_** : In a certain situation, you can add `+1d6` to your dice pool.
-
-Gaining a new **Talent Dot** often feels like a breath of fresh air. It won't make your characters overpowered or god like, but it will make them either more flexible, or more specialized.
-
 ### Situational Talents
 
-Certain talents are situational. That is, they are only activated when you are in a certain context and using a specific action.
+Certain talents are situational. That is, they are only activated when you are in a **certain context** and using a **specific action**.
 
 For example, when you get a **+1 Effect when \_\_\_\_**, you will need to finish the end of that sentence by choosing one of the **12 Action** and a certain **Situation** that will activate the talent.
 
-Just look at what as already been established in the world or your character Aspect for inspiration.
+Just look at what as already been established in the world or your character aspects for inspiration.
 
-To keep the flow of the game balanced, the GM will have a veto on what Situation is good enough for your talent. Don't hesitate to experiment with a Situation and fine tune later.
+To keep the flow of the game balanced, the GM will have a veto on what situation is good enough for your talent. Don't hesitate to experiment with a this and fine tune later if necessary.
 
-That is also the reason why you don't get any talent when you start a new character. First, take the time to understand and discover who your character is. Then, at a major milestone, they will become stronger, so think of ways that will make them truly unique.
+The fact that writing up situational talents takes a bit of work is the reason why you don't get any talent when you create a fresh character.
 
-_Yann's character is a monster hunter. By consequence, he's pretty good at **Hunting** and **Brawling** in general. Yann also just got a new **Talent Dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Hunting monsters**". The GM agrees and now, Yann's character should be feared by most creatures roaming the lands._
+We want character creation to be streamlined, so take the time to understand and discover who they are first. Later in the campaign, when a major milestone occurs, you can then think of new ways to make them truly unique using talents.
 
-_In another session, the GM realizes that Yann's talent is perhaps too generic, and could tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Hunting monsters in the forest**" or something along those lines. Yann agree saying "My character lived in the forest all their life, and would probably be intimated by big cities. I like this a lot. Let's go with this for now!"_
+_Yann's character is a monster hunter. By consequence, he's pretty good at **Studying** and **Brawling** in general. Yann also just got a new **Talent Dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
+
+_In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agree saying "My character lived in the forest all their life, and would probably be intimated by big cities. I like it, let's go with this for now!"_
 
 # What are Extras | Extras
 
@@ -938,7 +1031,7 @@ Work in Progress...
 
 # Making a Compelling Campaign | Preparing the Game
 
-[![Image by XXXXXXXXX from pixabay.com](IMAGE)](LINK)
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/7b529142ada0e29c88323c82eec6c3ab.png)](https://pixabay.com/photos/fantasy-landscape-mountains-rock-6328992/)
 
 You've got a GM and players. You relatively comfortable with the basic mechanics, and you are ready to play Charge.
 
@@ -1104,7 +1197,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ### Momentum
 >
-> Momentum is gained when your character does something, and can be spent to boost your `Actions` or `Resist Consequences`.
+> Momentum is gained when your character makes an action roll or accepts a compel. It and can be spent to boost your actions or resist consequences.
 >
 > You start every session with `2 Momentum`.
 >
@@ -1182,7 +1275,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > 1. Determine the Effect Rating (`great`, `standard` or `limited`)
 > 1. Choose one:
 >    - Add `+1d6` if you `push yourself` (`-2 Momentum`)
->    - Add `+1d6` if you `add tension` to the scene.
+>    - Add `+1d6` if you `add tension` to the action.
 > 1. Add `+1d6` if you have `assistance` (they consume `-1 Momentum`)
 > 1. Roll and wish for the best!
 >
@@ -1217,7 +1310,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > If you can't consume all the required `Momentum`, the GM inflicts `2 Consequences` instead of one which cannot be resisted.
 >
-> ### Recover
+> ### Recovery
 >
 > Use this to heal and recuperate.
 >
@@ -1238,7 +1331,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to help a fellow PC in accomplishing their action.
 >
-> - Consume `-1 Momentum` and add `+1d6` to their roll.
+> - Consume `-1 momentum` and add `+1d6` to their roll.
 > - This also exposes the helper to any potential consequences as a result of the roll.
 >
 > ### Protect
@@ -1296,13 +1389,20 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Used to define complex obstacles.
 >
-> When a PC succeeds a roll, you can advance a `Progress Clock`:
+> - GM creates a clock to representing long-lasting obstacles.
+>   - Divide in 4 segments for a complex obstacle.
+>   - Divide in 6 segments for a complicated obstacle.
+>   - Divide in 8 segments for a daunting obstacle.
+>
+> ---
+>
+> When a PC succeeds an action roll, you can tick segments of a `Progress Clock`:
 >
 > - Tick 1 segment for a `limited effect`.
 > - Tick 2 segment for a `standard effect`.
 > - Tick 3 segment for a `great effect`.
 >
-> When a PC fails a roll, you can advance a `Danger Clock`:
+> When a PC gets a consequence off an action roll, you can tick segments of a `Danger Clock`:
 >
 > - Tick 3 segment for a `desperate position`.
 > - Tick 2 segment for a `risky position`.
@@ -1340,4 +1440,4 @@ This work is based on Fate Condensed (found at http://www.faterpg.com/), a produ
 
 ## v0.0.1
 
-- Initial proof of concept
+- Initial game

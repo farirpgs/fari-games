@@ -9,7 +9,7 @@ import LightModeIcon from "@material-ui/icons/LightMode";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 import { css } from "@emotion/css";
 
-import { ReactRouterLink } from "./components/ReactRouterLink";
+import { ReactRouterLink } from "./components/ReactRouterLink/ReactRouterLink";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
@@ -86,7 +86,7 @@ export function Navbar() {
             <Hidden smDown>
               <Grid item>
                 <ReactRouterLink
-                  to="/game/charge-rpg"
+                  to="/games/charge-rpg"
                   className={css({
                     color: "inherit",
                     textDecoration: "none",

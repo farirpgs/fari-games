@@ -11,7 +11,7 @@ import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 
 import React from "react";
-import { ReactRouterLink } from "../components/ReactRouterLink";
+import { ReactRouterLink } from "../components/ReactRouterLink/ReactRouterLink";
 
 export function HomePage() {
   return (
@@ -21,7 +21,7 @@ export function HomePage() {
           <Typography variant="h1">Our Games</Typography>
         </Box>
         <ReactRouterLink
-          to="/game/charge-rpg"
+          to="/games/charge-rpg"
           className={css({
             textDecoration: "none",
           })}

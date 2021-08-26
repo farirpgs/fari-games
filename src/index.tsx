@@ -13,6 +13,7 @@ import { StyledEngineProvider, ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Box from "@material-ui/core/Box";
 import { useSettings, SettingsContext } from "./contexts/SettingsContext";
+import PrintGamePage from "./pages/PrintGamePage";
 
 export default function ScrollToTop() {
   const { pathname } = useLocation();
@@ -51,10 +52,15 @@ function App() {
               <ScrollToTop />
               <Navbar />
               <Switch>
-                <Route exact path="/" component={HomePage} />
+                <Route exact path="/" component={HomePage} />{" "}
                 <Route
                   exact
-                  path="/game/:game/:chapter?"
+                  path="/games/print/:game/:chapter?"
+                  component={PrintGamePage}
+                />
+                <Route
+                  exact
+                  path="/games/:game/:chapter?"
                   component={GamePage}
                 />
               </Switch>

@@ -63,8 +63,14 @@ export const GameSettings: Record<
   },
 };
 
+export type IGame = {
+  dom: HTMLDivElement;
+  chapters: Array<{ id: string; text: string | null }>;
+  data: Record<string, string>;
+  sidebar: ISidebar;
+};
 export const GameDocumentParser = {
-  async getGameContent(game: string) {
+  async getGameContent(game: string): Promise<IGame> {
     const { default: fileContent } = await GameSettings[game].load();
 
     const data = parseFrontMatter(fileContent);
@@ -74,7 +80,8 @@ export const GameDocumentParser = {
     dom.innerHTML = html;
 
     const headings = dom.querySelectorAll("h1,h2,h3,h4,h5,h6");
-    const chapterIdCounts: Record<string, number> = {};
+    const pageSlugCounts: Record<string, number> = {};
+    const sectionSlugCounts: Record<string, number> = {};
 
     const chapters: Array<{ id: string; text: string | null }> = [];
     const sidebar: ISidebar = {
@@ -94,12 +101,12 @@ export const GameDocumentParser = {
 
       const headingSlug = kebabCase(pageTitle ?? "");
 
-      const count = chapterIdCounts[headingSlug] ?? 0;
-      const newCount = count + 1;
-      const id = count === 0 ? headingSlug : `${headingSlug}-${count}`;
-      chapterIdCounts[headingSlug] = newCount;
-
       if (h.tagName === "H1") {
+        const count = pageSlugCounts[headingSlug] ?? 0;
+        const newCount = count + 1;
+        const id = count === 0 ? headingSlug : `${headingSlug}-${count}`;
+        pageSlugCounts[headingSlug] = newCount;
+
         const sidebarItem: ISidebarItem = {
           path: id,
           title: pageTitle,
@@ -115,16 +122,18 @@ export const GameDocumentParser = {
         h.id = id;
         h.textContent = pageTitle;
         chapters.push({ id: id, text: pageTitle });
-      } else if (h.tagName === "H2") {
-        h.id = id;
-        h.innerHTML = `<a href="#${headingSlug}" class="anchor">#</a> ${pageTitle}`;
       } else {
+        const count = sectionSlugCounts[headingSlug] ?? 0;
+        const newCount = count + 1;
+        const id = count === 0 ? headingSlug : `${headingSlug}-${count}`;
+        sectionSlugCounts[headingSlug] = newCount;
+
         h.id = id;
         h.innerHTML = `<a href="#${id}" class="anchor">#</a> ${pageTitle}`;
       }
     });
 
-    return { dom: dom, chapters, data, sidebar } as const;
+    return { dom: dom, chapters, data, sidebar };
   },
   async getChapter(game: string, chapterId: string): Promise<IChapter> {
     const markdown = await GameDocumentParser.getGameContent(game);
@@ -139,7 +148,7 @@ export const GameDocumentParser = {
     const nextChapter = markdown.chapters[nextChapterIndex];
 
     const currentChapterHeading = markdown.dom.querySelector(
-      `#${chapterIdToUse}`
+      `h1#${chapterIdToUse}`
     );
 
     const elements = getAllNextSiblingUntilSelector(
