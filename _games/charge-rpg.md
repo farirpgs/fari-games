@@ -11,7 +11,7 @@ version: 0.0.1
 
 First, thank you.
 
-If you are reading this, it means you are somewhat interested in this game, and this means a lot to us, so thanks a million.
+The fact that you are reading this and are interested in playing this game means a lot to us, so thanks a million.
 
 You're amazing, that's as simple as that.
 
@@ -22,6 +22,30 @@ Now, one of the first thing you probably want to know is: **who is this game for
 Some mechanics were inspired or adapted from the Fate or Forged in the Dark systems, while others were created to make for more interactive sessions where the players are naturally urged to interact with the world.
 
 Now let's get to it ⚡
+
+## Still a Work in Progress
+
+This game is still a work in progress. Here are a couple of things that are missing:
+
+- Section: Character Creation: Projects and Complications
+- Section: Extras: Mission Extra
+- Section: Extras: Duel Extra
+- Section: Playing the Game
+- A couple of examples
+
+## Playtesters
+
+Here's a list of the great folks who helped play test Charge.
+
+<p style="text-align:center; margin: 0 1rem; font-weight:bold">
+  Jean-Loup Kahloun 
+• Alexandre Lescarbeau 
+• Matthieu Poirier 
+• Xavier Tétreault 
+• François Genois 
+• Gabriel Lemire 
+• Béatrice Landry-Belleau 
+</p>
 
 # Goals | Power Your Story Telling
 
@@ -63,7 +87,7 @@ Now, let us go over what you need to play Charge!
 
 To play Charge, you will need:
 
-- Copies of the [Charge RPG Character Sheet](https://www.notion.so/Charge-RPG-Character-Sheet-93a432d8db7c4642a1a344b34cc40f88)
+- Copies of the [Charge RPG Character Sheet](/charge-rpg/character-sheet.pdf)
 - A pile of index cards
 - A set of six sided dice. At least 6 would be ideal.
 - A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that prove to be quite an endeavour.
@@ -667,7 +691,11 @@ After the GM describes the trouble you’re in, you can call for a flashback to 
 
 ## Limits of flashbacks
 
-A flashback isn’t time travel. It can’t “undo” something that just occurred in the present moment. If the GM described something in the scene, it is now established in the fiction........TBD
+A flashback isn’t time travel. It can’t “undo” something that just occurred in the present moment. If the GM described something in the scene, it is now established in the fiction. 
+
+While you can't undo what has already happened, you can twist and adapt things that were left unsaid.
+
+For instance, if a Maître D' is making a scene to stop you from entering at a very high end restaurant, that's perhaps you `Swayed` them into doing this the night before in exchange for money to make a diversion for the rest of the group.
 
 # Momentum | Mechanics
 
@@ -1424,15 +1452,11 @@ This work is based on Charge RPG, product of Fari Games, developed and authored 
 
 This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](http://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
 
-This work is based on Fate Core System and Fate Accelerated Edition (found at http://www.faterpg.com/), products of Evil Hat Productions, LLC, developed, authored, and edited by Leonard Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks, and Rob Donoghue, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
-
 This work is based on Fate Condensed (found at http://www.faterpg.com/), a product of Evil Hat Productions, LLC, developed, authored, and edited by PK Sullivan, Lara Turner, Leonard Balsera, Fred Hicks, Richard Bellingham, Robert Hanz, Ryan Macklin, and Sophie Lagacé, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
 
 # Credits
 
 > This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](http://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
-
-> This work is based on Fate Core System and Fate Accelerated Edition (found at http://www.faterpg.com/), products of Evil Hat Productions, LLC, developed, authored, and edited by Leonard Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks, and Rob Donoghue, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
 
 > This work is based on Fate Condensed (found at http://www.faterpg.com/), a product of Evil Hat Productions, LLC, developed, authored, and edited by PK Sullivan, Lara Turner, Leonard Balsera, Fred Hicks, Richard Bellingham, Robert Hanz, Ryan Macklin, and Sophie Lagacé, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
 
@@ -1440,4 +1464,4 @@ This work is based on Fate Condensed (found at http://www.faterpg.com/), a produ
 
 ## v0.0.1
 
-- Initial game
+- Initial Pitch
