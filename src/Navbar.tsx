@@ -1,27 +1,20 @@
-import React from "react";
-
-import Brightness4Icon from "@material-ui/icons/Brightness4";
-
+import { css } from "@emotion/css";
+import Box from "@material-ui/core/Box";
+import Button from "@material-ui/core/Button";
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
+import Hidden from "@material-ui/core/Hidden";
+import IconButton from "@material-ui/core/IconButton";
+import { Breakpoint, useTheme } from "@material-ui/core/styles";
+import Tooltip from "@material-ui/core/Tooltip";
+import Typography from "@material-ui/core/Typography";
 import ComputerIcon from "@material-ui/icons/Computer";
 import DarkModeIcon from "@material-ui/icons/DarkMode";
 import LightModeIcon from "@material-ui/icons/LightMode";
-
-import Brightness7Icon from "@material-ui/icons/Brightness7";
-import { css } from "@emotion/css";
-
-import { ReactRouterLink } from "./components/ReactRouterLink/ReactRouterLink";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
-import Container from "@material-ui/core/Container";
-import Box from "@material-ui/core/Box";
-import { Breakpoint, useTheme } from "@material-ui/core/styles";
+import React, { useContext } from "react";
 import { useLocation } from "react-router-dom";
-import IconButton from "@material-ui/core/IconButton";
-import { useContext } from "react";
+import { ReactRouterLink } from "./components/ReactRouterLink/ReactRouterLink";
 import { SettingsContext } from "./contexts/SettingsContext";
-import Tooltip from "@material-ui/core/Tooltip";
-import Hidden from "@material-ui/core/Hidden";
 
 export function Navbar() {
   const theme = useTheme();
