@@ -23,6 +23,7 @@ export type ISidebarItem = {
 export type IChapter = {
   html: string;
   data: Record<string, string>;
+  searchIndexes: Array<ISearchIndex>;
   sidebar: ISidebar;
   chapterToc: Array<{
     id: string;
@@ -63,14 +64,23 @@ export const GameSettings: Record<
   },
 };
 
-export type IGame = {
+export type IGameContent = {
   dom: HTMLDivElement;
   chapters: Array<{ id: string; text: string | null }>;
   data: Record<string, string>;
   sidebar: ISidebar;
+  searchIndexes: Array<ISearchIndex>;
 };
+export type ISearchIndex = {
+  id: string;
+  label: string;
+  group: string;
+  preview: string;
+  path: string;
+};
+
 export const GameDocumentParser = {
-  async getGameContent(game: string): Promise<IGame> {
+  async getGameContent(game: string): Promise<IGameContent> {
     const { default: fileContent } = await GameSettings[game].load();
 
     const data = parseFrontMatter(fileContent);
@@ -89,17 +99,17 @@ export const GameDocumentParser = {
       categories: {},
     };
 
-    dom.querySelectorAll("img").forEach((img) => {
-      const html = img.outerHTML;
-      img.outerHTML = `<figure class="document-image">${html}<figcaption>${img.alt}</figcaption></figure>`;
-    });
+    const searchIndexes: Array<ISearchIndex> = [];
 
+    let lastH1: Element | null = null;
     headings.forEach((h) => {
       const titles = h.textContent?.split("|");
       const pageTitle = titles?.[0]?.trim() ?? "";
-      const categoryTitle = titles?.[1]?.trim() ?? "";
-
+      const headingTitle = titles?.[1]?.trim() ?? "";
       const headingSlug = kebabCase(pageTitle ?? "");
+
+      const headingPreview =
+        getFirstSiblingUntilSelector(h, "p,ul")?.textContent ?? "";
 
       if (h.tagName === "H1") {
         const count = pageSlugCounts[headingSlug] ?? 0;
@@ -111,17 +121,25 @@ export const GameDocumentParser = {
           path: id,
           title: pageTitle,
         };
-        if (!categoryTitle) {
+        if (!headingTitle) {
           sidebar.root.push(sidebarItem);
         } else {
-          const prev = sidebar.categories[categoryTitle] ?? [];
+          const prev = sidebar.categories[headingTitle] ?? [];
 
-          sidebar.categories[categoryTitle] = [...prev, sidebarItem];
+          sidebar.categories[headingTitle] = [...prev, sidebarItem];
         }
 
         h.id = id;
         h.textContent = pageTitle;
         chapters.push({ id: id, text: pageTitle });
+        searchIndexes.push({
+          id: id,
+          label: pageTitle,
+          group: pageTitle,
+          preview: headingPreview,
+          path: id,
+        });
+        lastH1 = h;
       } else {
         const count = sectionSlugCounts[headingSlug] ?? 0;
         const newCount = count + 1;
@@ -130,10 +148,22 @@ export const GameDocumentParser = {
 
         h.id = id;
         h.innerHTML = `<a href="#${id}" class="anchor">#</a> ${pageTitle}`;
+        searchIndexes.push({
+          id: id,
+          label: pageTitle,
+          group: lastH1?.textContent ?? "",
+          preview: headingPreview,
+          path: `${lastH1?.id}#${id}` ?? "",
+        });
       }
     });
 
-    return { dom: dom, chapters, data, sidebar };
+    dom.querySelectorAll("img").forEach((img) => {
+      const html = img.outerHTML;
+      img.outerHTML = `<figure class="document-image">${html}<figcaption>${img.alt}</figcaption></figure>`;
+    });
+
+    return { dom: dom, chapters, data, sidebar, searchIndexes };
   },
   async getChapter(game: string, chapterId: string): Promise<IChapter> {
     const markdown = await GameDocumentParser.getGameContent(game);
@@ -166,6 +196,7 @@ export const GameDocumentParser = {
       chapterToc: tableOfContent,
       sidebar: markdown.sidebar,
       data: markdown.data,
+      searchIndexes: markdown.searchIndexes,
       previousChapter: {
         id: previousChapter?.id || null,
         text:
@@ -206,6 +237,28 @@ function getAllNextSiblingUntilSelector(
     }
   }
   return siblings;
+}
+
+function getFirstSiblingUntilSelector(
+  elem: Element | undefined | null,
+  selector: string | undefined
+) {
+  if (!elem) {
+    return;
+  }
+
+  let currentElement = elem?.nextElementSibling;
+
+  while (currentElement) {
+    if (selector) {
+      if (currentElement.matches(selector)) {
+        return currentElement;
+      }
+      currentElement = currentElement.nextElementSibling;
+    } else {
+      currentElement = currentElement.nextElementSibling;
+    }
+  }
 }
 
 function parseFrontMatter(markdown: string): Record<string, string> {

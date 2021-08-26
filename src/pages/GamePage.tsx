@@ -2,11 +2,17 @@ import { css } from "@emotion/css";
 
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import React, { useEffect, useState } from "react";
-import { useLocation, useParams, useRouteMatch } from "react-router-dom";
+import {
+  useHistory,
+  useLocation,
+  useParams,
+  useRouteMatch,
+} from "react-router-dom";
 import { ReactRouterLink } from "../components/ReactRouterLink/ReactRouterLink";
 import {
   GameDocumentParser,
   IChapter,
+  ISearchIndex,
   ISidebarItem,
 } from "../domains/games/GameDocumentParser";
 import { Helmet } from "react-helmet-async";
@@ -26,17 +32,24 @@ import Collapse from "@material-ui/core/Collapse";
 import Drawer from "@material-ui/core/Drawer";
 import IconButton from "@material-ui/core/IconButton";
 import { MarkdownContent } from "../components/MarkdownContent/MarkdownContent";
+import Autocomplete, {
+  createFilterOptions,
+} from "@material-ui/core/Autocomplete";
+import TextField from "@material-ui/core/TextField";
 
 export function GamePage() {
   const match = useRouteMatch<{ game: string; chapter: string }>();
 
   const gameSlug = match.params.game;
   const chapterSlug = match.params.chapter;
+  const [autocompleteOpen, setAutocompleteOpen] = useState(false);
+  const [search, setSearch] = useState("");
   const [chapter, setChapter] = useState<IChapter>();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openedCategory, setOpenedCategory] = useState<string>();
-  const theme = useTheme();
 
+  const theme = useTheme();
+  const history = useHistory();
   const location = useLocation();
 
   useEffect(() => {
@@ -92,6 +105,7 @@ export function GamePage() {
               </Grid>
               <Hidden lgDown>
                 <Grid item xs={3}>
+                  {renderSearchBar()}
                   {renderToc()}
                 </Grid>
               </Hidden>
@@ -335,6 +349,100 @@ export function GamePage() {
           {renderProps.item.title}
         </Typography>
       </MenuItem>
+    );
+  }
+
+  function renderSearchBar() {
+    const sortedOptions = chapter?.searchIndexes ?? [];
+    // chapter?.searchIndexes.sort((a, b) => {
+    //   return -b.group.localeCompare(a.group);
+    // }) ?? [];
+
+    return (
+      <>
+        <Autocomplete
+          open={autocompleteOpen}
+          onOpen={() => {
+            setAutocompleteOpen(true);
+          }}
+          onClose={(event, reason) => {
+            setAutocompleteOpen(false);
+          }}
+          freeSolo
+          size="small"
+          autoHighlight
+          filterOptions={createFilterOptions({ limit: 20 })}
+          options={sortedOptions}
+          groupBy={(index) => index.group ?? ""}
+          getOptionLabel={(index) => index.label}
+          inputValue={search}
+          openOnFocus
+          onChange={(event, newValue) => {
+            const path = (newValue as ISearchIndex).path;
+            if (path) {
+              setAutocompleteOpen(false);
+              history.push(path);
+            }
+          }}
+          onInputChange={(e, value, reason) => {
+            if (reason === "input") {
+              setSearch(value);
+            } else {
+              setSearch("");
+            }
+          }}
+          renderOption={(props, index, state) => (
+            <React.Fragment key={index.id}>
+              <MenuItem
+                {...props}
+                onClick={() => {
+                  setAutocompleteOpen(false);
+                  history.push(index.path);
+                }}
+              >
+                <Box pl=".5rem" width="100%">
+                  <Grid container alignItems="center">
+                    <Grid item xs={12}>
+                      <Typography
+                        variant="body1"
+                        noWrap
+                        color="textPrimary"
+                        className={css({
+                          fontSize: "1rem",
+                        })}
+                      >
+                        {index.label}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12}>
+                      <Typography
+                        variant="body2"
+                        noWrap
+                        color="textSecondary"
+                        className={css({
+                          fontSize: ".8rem",
+                        })}
+                      >
+                        {index.preview}
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </Box>
+              </MenuItem>
+            </React.Fragment>
+          )}
+          renderInput={(params) => (
+            <TextField
+              {...params}
+              fullWidth
+              className={css({ width: "100%", margin: "0" })}
+              label="Search"
+              margin="normal"
+              variant="standard"
+            />
+          )}
+        />
+      </>
     );
   }
 
