@@ -36,6 +36,7 @@ import Autocomplete, {
   createFilterOptions,
 } from "@material-ui/core/Autocomplete";
 import TextField from "@material-ui/core/TextField";
+import Fade from "@material-ui/core/Fade";
 
 export function GamePage() {
   const match = useRouteMatch<{ game: string; chapter: string }>();
@@ -90,42 +91,44 @@ export function GamePage() {
     <>
       <Container maxWidth="xl">
         {chapter && (
-          <div>
-            <Helmet>
-              <title>{chapter.data?.title}</title>
-            </Helmet>
-            <Grid container spacing={4}>
-              <Hidden mdDown>
-                <Grid item xs={3}>
-                  {renderChapters()}
+          <Fade in>
+            <div>
+              <Helmet>
+                <title>{chapter.data?.title}</title>
+              </Helmet>
+              <Grid container spacing={4}>
+                <Hidden mdDown>
+                  <Grid item xs={3}>
+                    {renderChapters()}
+                  </Grid>
+                </Hidden>
+                <Grid item sm={12} md={9} lg={6}>
+                  {renderContent()}
                 </Grid>
-              </Hidden>
-              <Grid item sm={12} md={9} lg={6}>
-                {renderContent()}
+                <Hidden lgDown>
+                  <Grid item xs={3}>
+                    {renderSearchBar()}
+                    {renderToc()}
+                  </Grid>
+                </Hidden>
               </Grid>
-              <Hidden lgDown>
-                <Grid item xs={3}>
-                  {renderSearchBar()}
-                  {renderToc()}
-                </Grid>
-              </Hidden>
-            </Grid>
-            {renderMobileMenuBar()}
-            <Drawer
-              anchor="bottom"
-              open={mobileMenuOpen}
-              classes={{
-                paper: css({
-                  top: "5rem",
-                }),
-              }}
-              onClose={() => {
-                setMobileMenuOpen(false);
-              }}
-            >
-              <Box p="2rem">{renderChapters()}</Box>
-            </Drawer>
-          </div>
+              {renderMobileMenuBar()}
+              <Drawer
+                anchor="bottom"
+                open={mobileMenuOpen}
+                classes={{
+                  paper: css({
+                    top: "5rem",
+                  }),
+                }}
+                onClose={() => {
+                  setMobileMenuOpen(false);
+                }}
+              >
+                <Box p="2rem">{renderChapters()}</Box>
+              </Drawer>
+            </div>
+          </Fade>
         )}
       </Container>
     </>

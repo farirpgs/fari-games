@@ -9,6 +9,8 @@ version: 0.0.1
 
 ![Charge](https://gyazo.com/cc0a8de71ba1591cf29885e4917d755f.png)
 
+## Thank You
+
 First, thank you.
 
 The fact that you are reading this and are interested in playing this game means a lot to us, so thanks a million.
@@ -23,7 +25,7 @@ Some mechanics were inspired or adapted from the Fate or Forged in the Dark syst
 
 Now let's get to it ⚡
 
-## Still a Work in Progress
+## Work in Progress
 
 This game is still a work in progress. Here are a couple of things that are missing:
 
@@ -55,7 +57,9 @@ There are thousands of great table-top role-playing games out there. Some are ge
 
 Charge is generic, which means that you get to pick the world and setting you want to play in. You could play in Sci-Fi setting where new planets are still being discovered and terraformed every year, or during the British Industrial Revolution. You get to choose.
 
-Because each setting can be widely different, the game mechanics [in GAME_NAME] were made with very specific goals in mind to help you create the story you want to tell. .
+Because each setting can be widely different, the game mechanics [in GAME_NAME] were made with very specific goals in mind to help you create the story you want to tell.
+
+## Charge's
 
 The two main pillars of this game center around Characters and Story Style.
 
@@ -371,7 +375,7 @@ This means that the GM and the players will tell a story, and afterwards, will l
 
 You can see the mechanics as a toolbox that you can use when they are needed. They exist to resolve situation where you basically don't know the direct answers to a question.
 
-> _Will this character find what they are looking for, can that character convince this merchant to talk, how will this faction react to this big event, etc._
+**_Will this character find what they are looking for, can that character convince this merchant to talk, how will this faction react to this big event, etc._**
 
 Sometimes, those situation are resolved with a mechanic that relies on the PC's proficiencies, while other times they might be resolved with mechanics that strait up relies on luck!
 
