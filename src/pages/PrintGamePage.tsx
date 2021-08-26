@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useRouteMatch } from "react-router-dom";
-import { GameDocumentParser, IGame } from "../domains/games/GameDocumentParser";
+import {
+  GameDocumentParser,
+  IGameContent,
+} from "../domains/games/GameDocumentParser";
 import { Helmet } from "react-helmet-async";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
@@ -10,7 +13,7 @@ import { MarkdownContent } from "../components/MarkdownContent/MarkdownContent";
 export default function PrintGamePage() {
   const match = useRouteMatch<{ game: string }>();
   const gameSlug = match.params.game;
-  const [game, setGame] = useState<IGame>();
+  const [game, setGame] = useState<IGameContent>();
 
   useEffect(() => {
     load();
