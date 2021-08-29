@@ -351,6 +351,18 @@ You don't need to worry about talents right now, especially if you just started 
 
 When your campaign reaches a significant turning point, you can go and read [**Mechanics&nbsp;»&nbsp;Progression**](progression#major-milestones) to know where to go from now to make the characters feel more powerful.
 
+
+
+
+
+## Projects and Complications
+
+The `Projects and Complication` sections of the character sheet is something both the GM and players can use to track long term projects or ever evolving danger that spans across multiple sessions.
+
+![](https://gyazo.com/cc0d601c9fc82fbfe8a433ac3fdc303d.png)
+
+You don't need to know how to use this right away, so for more on this, checkout [**Mechanics&nbsp;»&nbsp;Projects and Complications**](mechanics#projects-and-complications).
+
 ## Character Recap
 
 That covers the basic of how to create a character for Charge.
@@ -364,6 +376,7 @@ Now we will go over all the mechanics used in the game that exist to resolve unk
 > - Momentum charges to boost your actions and help your teammates.
 > - 3 Condition aspects with 4 stress slot each to track a character's physical, insight or resolve condition.
 > - Talent Line to make the characters feel more powerful.
+> - Projects and Complications clocks to track session spanning efforts or dangers.
 
 # Fiction First | Mechanics
 
@@ -987,6 +1000,38 @@ We want character creation to be streamlined, so take the time to understand and
 _Yann's character is a monster hunter. By consequence, he's pretty good at **Studying** and **Brawling** in general. Yann also just got a new **Talent Dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
 
 _In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agree saying "My character lived in the forest all their life, and would probably be intimated by big cities. I like it, let's go with this for now!"_
+
+
+
+
+
+# Projects and Complications | Mechanics
+
+The Charge character sheet has a `Projects & Complications` section which contains a set of empty `Clocks`.
+
+Those clocks represent long term projects or ever evolving danger that the character will work on or experience across multiple sessions.
+
+## Long Term Projects
+
+***Perhaps your character is piling up money to be able to afford something good for their family, or perhaps they are trying to figure out a way to reverse the damaged caused by a dangerous new disease that's plaguing the city.***
+
+In any case, once per session, if the narrative allows it, a character can make an action roll to work on those long term projects. Those projects will be tracked using `progress clocks` on the character sheet. The `effect` rating of the roll determines how much the project progresses per session.
+
+Upon the completion of a project, the PC gets what they were working for. The resolution of said project creates a new narrative thread explained by the GM. This thread is something the group can decide to pursue or not.
+
+## Complication
+
+***Perhaps the police department is starting to realize there are missing pieces in the evidence locker, or perhaps you are starting to attract more and more heat on you and your crew after your last couple jobs.***
+
+When a `complication` occurs as a result of a `consequence` of an action roll, the GM can tell the player to start or tick a `Danger Clock` on their character sheet.
+
+Those complications aren't bound to the scene. Instead, they are tied to the character or the group as a whole.
+
+Upon the completion of a complication's danger clock, the GM reveals a new dangerous situation to the group to represent what comes as a result of their actions.
+
+Depending on the context, this new complication could be **imposed or exposed** to the group. **When imposed**, the characters need to resolve it as soon as possible. The story cannot continue without this being taken care of first. **When it is exposed**, the GM can foretell that the life of the group will be a bit more complicated because a certain situation that comes from a result of the complication.
+
+The goal with this should add emphasis to the fact that every action as a reaction on the world, even if it isn't in the immediate present.
 
 # What are Extras | Extras
 
