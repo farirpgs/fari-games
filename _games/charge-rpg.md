@@ -9,8 +9,6 @@ version: 0.0.1
 
 ![Charge](https://gyazo.com/cc0a8de71ba1591cf29885e4917d755f.png)
 
-## Introductions
-
 First, thank you.
 
 The fact that you are reading this and are interested in playing this game means a lot to us, so thanks a million.
@@ -617,7 +615,7 @@ This is a good consequence to choose to show escalating action. A situation migh
 
 This consequence represent injuries or trauma inflected on a character.
 
-When your condition worsen, you take a certain amount of `stress` on your `condition clock`. You also need to update your `condition aspect` to represent the new state of your character is in. 
+When your condition worsen, you take a certain amount of `stress` on your `condition clock`. You also need to update your `condition aspect` to represent the new state of your character is in.
 
 Since **aspects are true**, your new condition aspect is going to affect the permissions of how you can interact with the world narratively.
 
@@ -1317,9 +1315,9 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - `Controlled`: `+1 Stress`
 > - `Risky`: `+2 Stress`
 > - `Desperate`: `+3 Stress`
-> 
+>
 > Each stress ticks a segment on a PC's condition clock. When you mark stress, you also need to add/update your `condition aspect` to represnet your character's new condition.
-> 
+>
 > When the clock is filled, your character is taken out for the scene and your condition clock is cleared.
 
 <!--
