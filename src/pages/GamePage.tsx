@@ -368,7 +368,7 @@ export function GamePage() {
           onOpen={() => {
             setAutocompleteOpen(true);
           }}
-          onClose={(event, reason) => {
+          onClose={() => {
             setAutocompleteOpen(false);
           }}
           freeSolo
@@ -394,7 +394,7 @@ export function GamePage() {
               setSearch("");
             }
           }}
-          renderOption={(props, index, state) => (
+          renderOption={(props, index) => (
             <React.Fragment key={index.id}>
               <MenuItem
                 {...props}

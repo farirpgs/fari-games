@@ -1,14 +1,13 @@
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
 import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useRouteMatch } from "react-router-dom";
+import { MarkdownContent } from "../components/MarkdownContent/MarkdownContent";
 import {
   GameDocumentParser,
   IGameContent,
 } from "../domains/games/GameDocumentParser";
-import { Helmet } from "react-helmet-async";
-import Container from "@material-ui/core/Container";
-import Grid from "@material-ui/core/Grid";
-import { useTheme } from "@material-ui/core/styles";
-import { MarkdownContent } from "../components/MarkdownContent/MarkdownContent";
 
 export default function PrintGamePage() {
   const match = useRouteMatch<{ game: string }>();

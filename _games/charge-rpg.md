@@ -27,27 +27,29 @@ Now let's get to it ⚡
 
 ## Work in Progress
 
-This game is still a work in progress. Here are a couple of things that are missing:
+This game is still a work in progress. Here are a couple of things that are still missing:
 
-- Section: Character Creation: Projects and Complications
 - Section: Extras: Mission Extra
 - Section: Extras: Duel Extra
-- Section: Playing the Game
-- A couple of examples
+- Section: Extras: more extras from me and the community
+- Section: Playing the Game (GM and Players best practices)
+- Section: Changing/Hacking the Game
+- More examples
 
-## Playtesters
+## Thanks
 
-Here's a list of the great folks who helped play test Charge.
+**Playtesters**: TBD
 
-<p style="text-align:center; margin: 0 1rem; font-weight:bold">
-  Jean-Loup Kahloun 
-• Alexandre Lescarbeau 
-• Matthieu Poirier 
-• Xavier Tétreault 
-• François Genois 
-• Gabriel Lemire 
-• Béatrice Landry-Belleau 
+<!-- 
+<p style="text-align:center; margin: 0 1rem;">
+  •TBD•
 </p>
+-->
+
+**The White Lotus & The Delibuddies**: Béatrice Landry-Belleau, François Genois, Gabriel Lemire, Jean-Loup Kahloun, Wing Tak Won, Xavier Tétreault.
+
+**Ideas Bouncers:** Alexandre Lescarbeau, Matthieu Poirier
+
 
 # Goals | Power Your Story Telling
 
