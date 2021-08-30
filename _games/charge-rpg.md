@@ -9,7 +9,7 @@ version: 0.0.1
 
 ![Charge](https://gyazo.com/cc0a8de71ba1591cf29885e4917d755f.png)
 
-## Thank You
+## Introductions
 
 First, thank you.
 
