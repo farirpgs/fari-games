@@ -40,7 +40,7 @@ This game is still a work in progress. Here are a couple of things that are stil
 
 **Playtesters**: TBD
 
-<!-- 
+<!--
 <p style="text-align:center; margin: 0 1rem;">
   •TBD•
 </p>
@@ -49,7 +49,6 @@ This game is still a work in progress. Here are a couple of things that are stil
 **The White Lotus & The Delibuddies**: Béatrice Landry-Belleau, François Genois, Gabriel Lemire, Jean-Loup Kahloun, Wing Tak Won, Xavier Tétreault.
 
 **Ideas Bouncers:** Alexandre Lescarbeau, Matthieu Poirier
-
 
 # Goals | Power Your Story Telling
 
@@ -321,21 +320,23 @@ When your character faces dangerous challenges and fails their action roll, some
 
 Maybe the situation is more complicated or even perilous. The alternative to this is that you get hurt. The GM is the one who decides if the `Consequence` of the roll is harm or something else.
 
-Each character has 3 Conditions, one for each action attribute. So there is a `Physical`, `Insight` and a `Resolve` condition.
+Each character has 3 Conditions, one for each action attribute. So there is a `Physical`, `Insight` and a `Resolve` condition. Each of them has 4 stress boxes.
 
-![](https://gyazo.com/d2def5304a8202d2712ec795608dc783.png)
+![](https://gyazo.com/5f24d520f08dd0f9bff0748bb251c098.png)
 
 When you get hurt, you take a certain amount of `Stress` on an attribute and you get a new `Condition Aspect` that represents the state of your character.
 
 Your conditions are aspects, and since **all aspects are true**, it means that if a character get a new condition aspect, the character narrative liberties are restricted by said aspect.
 
-For example, it's almost impossible to climb on the roof of a house with a _Twisted Anlke_. So even if only have 2 stress on your physical condition, the name of the aspect still imposes narrative restrictions on what your character can do.
+For example, it's almost impossible to climb on the roof of a house with a _Twisted Anlke_. So even if only have `2 stress` on your physical condition, the name of the aspect still imposes narrative restrictions on what your character can do.
 
 Since condition aspects represent your character's current state, you need to update that aspect to match the state of your character's condition as they get more stress.
 
-- When an attribute's condition reaches **1-2 stress**, you might be: exhausted, humiliated, tired, sore, winder, sick, etc.
+- When an attribute's condition reaches **1/2 stress**, you might be: exhausted, humiliated, tired, sore, winder, sick, etc.
 - When an attribute's condition reaches **3 stress**, you might be: shot, slashed, have a first degree burn, or are completely drunk.
 - When an attribute's condition reaches **4 stress**, you might have: a second degree burn, a fractured leg or your brain can't comprehend was is happening anymore.
+
+Upon reaching 4 stress, you clear your stress track, and your character is taken out for the scene for they need immediate attention.
 
 ## Talents
 
@@ -352,10 +353,6 @@ Situational bonuses are either a boost in `effect`, `position` or `dice pool` th
 You don't need to worry about talents right now, especially if you just started your campaign.
 
 When your campaign reaches a significant turning point, you can go and read [**Mechanics&nbsp;»&nbsp;Progression**](progression#major-milestones) to know where to go from now to make the characters feel more powerful.
-
-
-
-
 
 ## Projects and Complications
 
@@ -620,15 +617,11 @@ This is a good consequence to choose to show escalating action. A situation migh
 
 This consequence represent injuries or trauma inflected on a character.
 
-When your condition worsen, you take a certain amount of `Stress` on an `Attribute`. Mark a new `Condition Aspect` for that attribute to represent the new state of your character.
+When your condition worsen, you take a certain amount of `stress` on an `attribute` and the `condition aspect` of that attribute to represent the new state of your character is in. 
 
-Accumulating stress will have a negative impact on your future actions rolls.
+Since **aspects are true**, your new condition aspect is going to affect the permissions of how you can interact with the world narratively.
 
-- `1/2 Stress`: Reduces the `effect` of your rolls.
-- `3 Stress`: Removes `-1d6` from your dice pools.
-- `4 Stress`: You need help, and you can't go on. You need immediate medical assistance.
-
-Those impacts come into play when the condition aspect applies in the narrative,
+Upon reaching 4 stress, you clear your stress track, and your character is taken out for the scene for they need immediate attention.
 
 ### Recap
 
@@ -654,7 +647,7 @@ Simply tell the GM, “No, I don’t think so. I’m resisting that.” The GM t
 >
 > By adjusting which consequences are reduced vs. which are avoided, the GM establishes the overall tone of the game. For a more daring game, most consequences will be avoided. For a grittier game, most consequences will only be reduced with resistance.
 
-You’ll then make a `Resistance Roll` to see how much stress your character suffers as a result of their resistance.
+You’ll then make a `Resistance Roll` to see how much momentum your character consume as a result of their resistance.
 
 You make the roll using one of your character’s `Attributes Pool` (`Physique`, `Insight`, or `Resolve`).
 
@@ -710,7 +703,7 @@ After the GM describes the trouble you’re in, you can call for a flashback to 
 
 ## Limits of flashbacks
 
-A flashback isn’t time travel. It can’t “undo” something that just occurred in the present moment. If the GM described something in the scene, it is now established in the fiction. 
+A flashback isn’t time travel. It can’t “undo” something that just occurred in the present moment. If the GM described something in the scene, it is now established in the fiction.
 
 While you can't undo what has already happened, you can twist and adapt things that were left unsaid.
 
@@ -760,7 +753,7 @@ When you add tension to a scene, you usually self-inflict a `Consequence` on you
 TODO: INCLUDE EXAMPLE
 ```
 
-# Recovery| Mechanics
+# Recovery | Mechanics
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/152570ee1895591ed40e267ac4eb35c1.png)](https://pixabay.com/photos/city-planet-futuristic-earth-5312500/)
 
@@ -768,7 +761,7 @@ TODO: INCLUDE EXAMPLE
 
 As the game plays out, the PCs will get more stressed out and their condition will worsen.
 
-When a PC accumulates `Stress`, making action rolls will be less effective and more difficult. They will also be narratively restricted in how they can interact with the story because of the `Condition Aspect`.
+When a PC accumulates `Stress`, making action rolls will be more limited because of the narrative restrictions `condition aspects` create.
 
 Stress and condition aspects exists to pace the game. Not every action is going to go well, and failing an action has consequences which will affect the characters for some time.
 
@@ -784,7 +777,7 @@ That being said, **Downtime** doesn't mean that all the PCs have to sit down by 
 
 The structure of a game of Charge isn't enforced, so the PCs can do what ever they want, whenever they want.
 
-So **once per session**, if the fiction allows it, reduce the stress track of your character by one level.
+So **once per session**, if the fiction allows it, reduce all the stress track of your character by one level.
 
 We aren't using dice to support this mechanic because we don't believe luck should _generally_ factor in the healing process. Of course, there are moments where it could. If you want, you can use the [Fortune Rolls](fortune-roll) mechanic to resolve this type of situation.
 
@@ -794,7 +787,7 @@ We aren't using dice to support this mechanic because we don't believe luck shou
 >
 > Use this to heal and recuperate.
 >
-> - Once per session, if the fiction allows it, reduce stress by one level.
+> - Once per session, if the fiction allows it, reduce stress by one level on all stress tracks.
 
 # Fortune Roll| Mechanics
 
@@ -1003,10 +996,6 @@ _Yann's character is a monster hunter. By consequence, he's pretty good at **Stu
 
 _In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agree saying "My character lived in the forest all their life, and would probably be intimated by big cities. I like it, let's go with this for now!"_
 
-
-
-
-
 # Projects and Complications | Mechanics
 
 The Charge character sheet has a `Projects & Complications` section which contains a set of empty `Clocks`.
@@ -1015,7 +1004,7 @@ Those clocks represent long term projects or ever evolving danger that the chara
 
 ## Long Term Projects
 
-***Perhaps your character is piling up money to be able to afford something good for their family, or perhaps they are trying to figure out a way to reverse the damaged caused by a dangerous new disease that's plaguing the city.***
+**_Perhaps your character is piling up money to be able to afford something good for their family, or perhaps they are trying to figure out a way to reverse the damaged caused by a dangerous new disease that's plaguing the city._**
 
 In any case, once per session, if the narrative allows it, a character can make an action roll to work on those long term projects. Those projects will be tracked using `progress clocks` on the character sheet. The `effect` rating of the roll determines how much the project progresses per session.
 
@@ -1023,7 +1012,7 @@ Upon the completion of a project, the PC gets what they were working for. The re
 
 ## Complication
 
-***Perhaps the police department is starting to realize there are missing pieces in the evidence locker, or perhaps you are starting to attract more and more heat on you and your crew after your last couple jobs.***
+**_Perhaps the police department is starting to realize there are missing pieces in the evidence locker, or perhaps you are starting to attract more and more heat on you and your crew after your last couple jobs._**
 
 When a `complication` occurs as a result of a `consequence` of an action roll, the GM can tell the player to start or tick a `Danger Clock` on their character sheet.
 
@@ -1331,14 +1320,18 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > When you mark `Stress`, you need to write an `Aspect` that represents the PC's current `Condition`.
 >
-> When a PC's condition has stress, it has an effect on that PC's ability to interact with the world narratively and mechanically.
->
-> | Stress Quantity | Effect                                                                                                                                                             |
-> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-> | `1-2 Stress`    | Reduced `Effect` on all action rolls affected by the `Condition`                                                                                                   |
-> | `3 Stress`      | Reduced `-1d6` on all action rolls affected by the `Condition`                                                                                                     |
-> | `4 Stress`      | The PC is taken out for the scene. At the end of the scene, clear all stress and rename one of the character's 5 Aspects to represent the effect it had on the PC. |
->
+> When a PC's condition has stress, it has an effect on that PC's ability to interact with the world narratively.
+> 
+> Upon reaching 4 stress, you clear your stress track, and your character is taken out for the scene for they need immediate attention.
+
+<!--
+ | Stress Quantity | Effect                                                                                                                                                             |
+ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+ | `1-2 Stress`    | Reduced `Effect` on all action rolls affected by the `Condition`                                                                                                   |
+ | `3 Stress`      | Reduced `-1d6` on all action rolls affected by the `Condition`                                                                                                     |
+ | `4 Stress`      | The PC is taken out for the scene. At the end of the scene, clear all stress and rename one of the character's 5 Aspects to represent the effect it had on the PC. |
+-->
+
 > ### Projects and Complications
 >
 > Use those Clocks when a player has a long term projects or when the GM inflicts a complications as a `Consequence`.
@@ -1393,7 +1386,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to heal and recuperate.
 >
-> - Once per session, if the fiction allows it, reduce stress by one level.
+> - Once per session, if the fiction allows it, reduce all stress tracks by one level.
 
 ## Team Work
 
@@ -1445,10 +1438,10 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - A narrative `complication` occurs (you can track this on the character sheet).
 > - The opportunity is lost and you got to try a new approach.
 > - The `position` worsen.
-> - The PC takes `Stress`
->   - `+1 Stress` for a `controlled` position
->   - `+2 Stress` for a `risky` position
->   - `+3 Stress` for a `desperate` position
+> - The PC takes `stress`
+>   - `+1 stress` for a `controlled` position
+>   - `+2 stress` for a `risky` position
+>   - `+3 stress` for a `desperate` position
 >
 > ### Fortune Roll
 >
