@@ -9,7 +9,7 @@ version: 0.0.1
 
 ![Charge](https://gyazo.com/cc0a8de71ba1591cf29885e4917d755f.png)
 
-## Thank You
+## Introductions
 
 First, thank you.
 
@@ -314,29 +314,29 @@ You then consume those charges to boost your action rolls or assist your teammat
 
 When you are out of momentum, things can go bad pretty quickly since you also use them to resist incoming consequences or harm.
 
-## Stress & Conditions
+## Stress & Condition
 
 When your character faces dangerous challenges and fails their action roll, something bad happens.
 
 Maybe the situation is more complicated or even perilous. The alternative to this is that you get hurt. The GM is the one who decides if the `Consequence` of the roll is harm or something else.
 
-Each character has 3 Conditions, one for each action attribute. So there is a `Physical`, `Insight` and a `Resolve` condition. Each of them has 4 stress boxes.
+Each character has a `Condition Clock` with 4 segments.
 
-![](https://gyazo.com/5f24d520f08dd0f9bff0748bb251c098.png)
+![Condition Clock](https://gyazo.com/468a4a981adfbc795ef328b3b95e798a.png)
 
-When you get hurt, you take a certain amount of `Stress` on an attribute and you get a new `Condition Aspect` that represents the state of your character.
+When you get hurt, you take a certain amount of `stress`, and each stress ticks a segment on your condition clock. As your condition worsen, you describe the state of your character with a `condition aspect` that is located right below the clock.
 
-Your conditions are aspects, and since **all aspects are true**, it means that if a character get a new condition aspect, the character narrative liberties are restricted by said aspect.
+Since **all aspects are true**, it means that if a character get a new condition aspect, the character narrative liberties are restricted by said aspect.
 
-For example, it's almost impossible to climb on the roof of a house with a _Twisted Anlke_. So even if only have `2 stress` on your physical condition, the name of the aspect still imposes narrative restrictions on what your character can do.
+For example, it's almost impossible to climb on the roof of a house with a _Twisted Anlke_. So even if only have `2 segments` ticked on your condition clock, the name of the aspect still imposes narrative restrictions on what your character can do.
 
-Since condition aspects represent your character's current state, you need to update that aspect to match the state of your character's condition as they get more stress.
+Since condition aspects represent your character's current state, you need to update that aspect to match the state of your character's condition as the clock progresses.
 
 - When an attribute's condition reaches **1/2 stress**, you might be: exhausted, humiliated, tired, sore, winder, sick, etc.
 - When an attribute's condition reaches **3 stress**, you might be: shot, slashed, have a first degree burn, or are completely drunk.
 - When an attribute's condition reaches **4 stress**, you might have: a second degree burn, a fractured leg or your brain can't comprehend was is happening anymore.
 
-Upon reaching 4 stress, you clear your stress track, and your character is taken out for the scene for they need immediate attention.
+When the clock is filled, your character is taken out for the scene and your condition clock is cleared.
 
 ## Talents
 
@@ -373,7 +373,7 @@ Now we will go over all the mechanics used in the game that exist to resolve unk
 > - 3-6 Aspects to highlight who you are. (High Concept, Trouble, Relationship and other aspects)
 > - 7 Action dots distributed across the 12 actions to explain what you are good at.
 > - Momentum charges to boost your actions and help your teammates.
-> - 3 Condition aspects with 4 stress slot each to track a character's physical, insight or resolve condition.
+> - A Condition Clock+Aspect to represent a character's physical or mental condition.
 > - Talent Line to make the characters feel more powerful.
 > - Projects and Complications clocks to track session spanning efforts or dangers.
 
@@ -499,7 +499,7 @@ To know what impact it has, there's a numerical rating attached to each of them.
 | `Risky`      | `Standard` | 2      |
 | `Controlled` | `Limited`  | 1      |
 
-When a roll has consequences, you use the position rating to see how many segments you tick on danger clocks, or how much stress a character gets when getting harmed, etc.
+When a roll has consequences, you use the position rating to see how many segments you tick on danger clocks, or how much stress a character gets when they are getting harmed, etc.
 
 When a roll is a success, you use the effect rating to see how many segments you tick on progress clocks, how much information the character gets out of an investigation, etc.
 
@@ -525,7 +525,7 @@ When you `Push Yourself`, you consume `-2 momentum` of momentum **per push** to 
 
 #### Add Tension
 
-When you `Add Tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM can then offer a complication like ticking segments in danger clocks, inflicting stress on your character or adding more drama to the narrative.
+When you `Add Tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM can then offer a complication like ticking segments off a danger clock, inflicting stress on your character or adding more drama to the narrative.
 
 If you accept the deal, you get `+1d6` added to your dice pool.
 
@@ -617,11 +617,11 @@ This is a good consequence to choose to show escalating action. A situation migh
 
 This consequence represent injuries or trauma inflected on a character.
 
-When your condition worsen, you take a certain amount of `stress` on an `attribute` and the `condition aspect` of that attribute to represent the new state of your character is in. 
+When your condition worsen, you take a certain amount of `stress` on your `condition clock`. You also need to update your `condition aspect` to represent the new state of your character is in. 
 
 Since **aspects are true**, your new condition aspect is going to affect the permissions of how you can interact with the world narratively.
 
-Upon reaching 4 stress, you clear your stress track, and your character is taken out for the scene for they need immediate attention.
+When your condition clocked is filled, you can clear all the segments, and your character is taken out for the scene.
 
 ### Recap
 
@@ -631,7 +631,7 @@ Upon reaching 4 stress, you clear your stress track, and your character is taken
 > - **Complication**: create or tick a `clock`.
 > - **Worse Position** : `-1 position` rating.
 > - **Lost Opportunity** : try something else.
-> - **Harm**: Take `stress`.
+> - **Worse Condition**: Take `stress`.
 
 # Resistance Roll| Mechanics
 
@@ -761,9 +761,9 @@ TODO: INCLUDE EXAMPLE
 
 As the game plays out, the PCs will get more stressed out and their condition will worsen.
 
-When a PC accumulates `Stress`, making action rolls will be more limited because of the narrative restrictions `condition aspects` create.
+When a PC accumulates `Stress`, making action rolls will be more limited because of the narrative restrictions the `condition aspect` creates.
 
-Stress and condition aspects exists to pace the game. Not every action is going to go well, and failing an action has consequences which will affect the characters for some time.
+The condition clock exists to pace the game, since not every action is going to go well, and failing an action has consequences which will affect the characters for some time.
 
 Things will eventually go back to normal, and the PCs will recover. But for the recovery to happen, it needs to happen in the **fiction first**.
 
@@ -777,7 +777,7 @@ That being said, **Downtime** doesn't mean that all the PCs have to sit down by 
 
 The structure of a game of Charge isn't enforced, so the PCs can do what ever they want, whenever they want.
 
-So **once per session**, if the fiction allows it, reduce all the stress track of your character by one level.
+So **once per session**, if the fiction allows it, clear 1 segment from your `condition clock`.
 
 We aren't using dice to support this mechanic because we don't believe luck should _generally_ factor in the healing process. Of course, there are moments where it could. If you want, you can use the [Fortune Rolls](fortune-roll) mechanic to resolve this type of situation.
 
@@ -787,7 +787,7 @@ We aren't using dice to support this mechanic because we don't believe luck shou
 >
 > Use this to heal and recuperate.
 >
-> - Once per session, if the fiction allows it, reduce stress by one level on all stress tracks.
+> - Once per session, if the fiction allows it, clear 1 segment from your `condition clock`.
 
 # Fortune Roll| Mechanics
 
@@ -1310,19 +1310,17 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ### Stress
 >
-> On a failed action roll, GM can inflict `Stress` on a PC's `Physical`, `Insight` or `Resolve` condition.
+> On a failed action roll, GM can inflict `stress` on a PC.
 >
-> The number of stress inflicted depends on the action's `Position`:
+> The number of stress inflicted depends on the action's `position`:
 >
 > - `Controlled`: `+1 Stress`
 > - `Risky`: `+2 Stress`
 > - `Desperate`: `+3 Stress`
->
-> When you mark `Stress`, you need to write an `Aspect` that represents the PC's current `Condition`.
->
-> When a PC's condition has stress, it has an effect on that PC's ability to interact with the world narratively.
 > 
-> Upon reaching 4 stress, you clear your stress track, and your character is taken out for the scene for they need immediate attention.
+> Each stress ticks a segment on a PC's condition clock. When you mark stress, you also need to add/update your `condition aspect` to represnet your character's new condition.
+> 
+> When the clock is filled, your character is taken out for the scene and your condition clock is cleared.
 
 <!--
  | Stress Quantity | Effect                                                                                                                                                             |
@@ -1366,7 +1364,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ### Resistance Roll
 >
-> Use this to resist a consequence, or incoming `Stress`.
+> Use this to resist a consequence, or incoming `stress`.
 >
 > - Roll `1d6` for each dot in the first column of an attribute:
 >   - `Physique`: Consequences from physical strain or injury.
@@ -1386,7 +1384,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to heal and recuperate.
 >
-> - Once per session, if the fiction allows it, reduce all stress tracks by one level.
+> - Once per session, if the fiction allows it, clear 1 segment from your condition clock.
 
 ## Team Work
 
