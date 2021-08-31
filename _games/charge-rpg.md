@@ -330,11 +330,9 @@ For example, it's almost impossible to climb on the roof of a house with a _Twis
 
 Since condition aspects represent your character's current state, you need to update that aspect to match the state of your character's condition as the clock progresses.
 
-- When an attribute's condition reaches **1/2 stress**, you might be: exhausted, humiliated, tired, sore, winder, sick, etc.
-- When an attribute's condition reaches **3 stress**, you might be: shot, slashed, have a first degree burn, or are completely drunk.
-- When an attribute's condition reaches **4 stress**, you might have: a second degree burn, a fractured leg or your brain can't comprehend was is happening anymore.
-
-When the clock is filled, your character is taken out for the scene and your condition clock is cleared.
+- When your condition clocks has **1/2 segments** filled, you might be: exhausted, humiliated, tired, sore, winder, sick, etc.
+- When your condition clocks has **3 segments** filled, you might be: shot, slashed, have a first degree burn, or are completely drunk.
+- When your condition clocks has **4 segments** filled, you clear the condition clock, and are taken out for the scene. You might have got: a second degree burn, a fractured leg or your brain can't comprehend was is happening anymore.
 
 ## Talents
 
