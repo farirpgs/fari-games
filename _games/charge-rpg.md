@@ -2,7 +2,7 @@
 title: Charge RPG - Power Your Story Telling
 author: René-Pier Deshaies-Gélinas
 image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
-version: 0.0.1
+version: 0.1.0
 ---
 
 # Introductions | Power Your Story Telling
