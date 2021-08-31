@@ -601,7 +601,7 @@ You need to `Bond` with your contacts to know if they heard of the person that e
 
 ### Worse Position
 
-**_You missed your shot, now they know where you are. They initially trusted you, but know they have some doubts and will be watching you more closely._**
+**_You missed your shot, now they know where you are. They initially trusted you, but now they have some doubts and will be watching you more closely._**
 
 This consequence represents losing control of the situation. The action carries you into a more dangerous **position**.
 
@@ -713,7 +713,7 @@ We've also seen that momentum can be consumed to **boost action rolls**, **assis
 
 Now we will go over the different methods to gain momentum during scenes.
 
-Basically, you can either gain momentum as a **result of an action roll**, or because of a **compel**.
+Basically, you can either gain momentum as a **result of an action roll**, or by **adding tension** to the scene.
 
 ## Momentum from an Action
 
