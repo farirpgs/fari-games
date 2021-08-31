@@ -66,7 +66,7 @@ The two main pillars of this game center around Characters and Story Style.
 
 > Character should be able to be defined easily, yet still be able to be unique in their own way. They should also be able to be generic enough so that players can create the character they want to play in the setting they are most interested in.
 >
-> Charge does this by making character shine using `Aspects` to define who they are, `Actions` to highlight what they are good at, and `Talents` to make them evolve in interesting and way.
+> Charge does this by making character shine using `Aspects` to define who they are, `Actions` to highlight what they are good at, and `Talents` to make them evolve in interesting ways.
 
 **The system should offer dials to have grimmer up to bigger than life adventures.**
 
