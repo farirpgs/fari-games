@@ -403,7 +403,7 @@ The number of dice a player rolls depends on the `Action` they are trying to acc
 
 Those actions are linked to a dice pool called the `Action Rating`, represented by empty dots on the character sheet.
 
-If an action has 1 darkened dots beside it, it means that you get to roll `1d6` and pick the best one out of the two. This gives you about 50% chance of succeeding in your action.
+If an action has 1 darkened dots beside it, it means that you get to roll `1d6`. This gives you about 50% chance of succeeding at your action.
 
 If an action has 2 darkened dots, then you roll `2d6` and so on.
 
