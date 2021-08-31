@@ -292,7 +292,7 @@ When you `Focus`, you concentrate to accomplish a task that requires great stren
 
 When you `Sway`, you influence with guile, charm, or argument.
 
-> You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Consorting or Commanding might be better).
+> You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Bonding or Commanding might be better).
 
 ### **Which Action to Pick for a Roll**
 
