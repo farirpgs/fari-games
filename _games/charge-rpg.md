@@ -332,7 +332,7 @@ Since condition aspects represent your character's current state, you need to up
 
 - When your condition clocks has **1/2 segments** filled, you might be: exhausted, humiliated, tired, sore, winder, sick, etc.
 - When your condition clocks has **3 segments** filled, you might be: shot, slashed, have a first degree burn, or are completely drunk.
-- When your condition clocks has **4 segments** filled, you clear the condition clock, and are taken out for the scene. You might have got: a second degree burn, a fractured leg or your brain can't comprehend was is happening anymore.
+- When your condition clocks reached **4 filled segments**, you clear the condition clock, and are taken out for the scene. You might have got: a second degree burn, a fractured leg or your brain can't comprehend was is happening anymore.
 
 ## Talents
 
