@@ -56,7 +56,7 @@ There are thousands of great table-top role-playing games out there. Some are ge
 
 Charge is generic, which means that you get to pick the world and setting you want to play in. You could play in Sci-Fi setting where new planets are still being discovered and terraformed every year, or during the British Industrial Revolution. You get to choose.
 
-Because each setting can be widely different, the game mechanics [in GAME_NAME] were made with very specific goals in mind to help you create the story you want to tell.
+Because each setting can be widely different, the game mechanics in Charge were made with very specific goals in mind to help you create the story you want to tell.
 
 ## Charge's
 
