@@ -597,7 +597,7 @@ This consequence represents shifting circumstance. What you tried didn't work, a
 
 Usually this means trying using another `Action`.
 
-You need to `Bond` with your contacts to know if they heard of the person that evaded you, or you need to `Survey` the robot to see if they have any weak spots you can use to your advantage.
+You need to `Bond` with your contacts to know if they heard of the person that evaded you, or you need to `Study` the robot to see if they have any weak spots you can use to your advantage.
 
 ### Worse Position
 
@@ -1044,7 +1044,7 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 
 The Loot Asset is an additional mechanic that gives you the chance to find good loot that will have a mechanical impact on the game when you scavenge a place.
 
-After a conflict between multiple parties is resolved or when the general tension in a scene is reduced, you can do a `Fortune Roll` with `Survey` to find good loot or to scavenge the place.
+After a conflict between multiple parties is resolved or when the general tension in a scene is reduced, you can do a `Fortune Roll` with `Notice` to find good loot or to scavenge the place.
 
 - On a `6`, you create `1 Asset`.
 - On a `66`, you create `2 Assets`.
@@ -1055,7 +1055,7 @@ If more than one player is scavenging, you can do a group roll using the `Take t
 
 > **Loot Roll**
 >
-> - Roll **Survey**.
+> - Roll **Notice**.
 >   - On a 1-5: nothing happens.
 >   - On a 6: You create one Asset
 >   - On a critical (66): You create two assets.
