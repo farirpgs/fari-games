@@ -1419,9 +1419,15 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ### Protect
 >
-> Use this to to protect a fellow PC from danger.
+> Use this to protect a fellow PC from danger.
 >
 > - Roll to resist someone else's consequence.
+> 
+> ### Set up
+>
+> Use this to improve your chances at overcoming an obstacle.
+> 
+> - Roll to improve the `effect` rating or the `position` of subsequent action rolls made by your team.
 
 ## Misc
 
