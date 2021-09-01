@@ -862,6 +862,24 @@ However, the character leading the group action consume `-1 charge` for each PC 
 
 You step-in to confront a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Simply describe how you intervene.
 
+### Set up 
+
+***First I'll distract them. Then you gotta make a run for it. OK ?***
+
+When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll. 
+
+You choose the benefit, based on the nature of your setup action.
+
+This is a good way to contribute to an operation when you don’t have a good rating in the action at hand. A clever setup action lets you help the team indirectly. Multiple follow-up actions may take advantage of your setup (including someone leading a group action) as long as it makes sense in the fiction.
+
+> #### From Zero to Limited
+> 
+> Since a setup action can increase the effect of follow-up actions, it’s also useful when the team is facing very tough opposition. 
+> 
+> Even if the PCs are reduced to `zero effect` due to disadvantages in a situation, the setup action provides a bonus that allows for `limited effect`.
+> 
+> This gives them a fighting chance.
+
 # Clocks| Mechanics
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/8aeb209f8442ddf2ed9dab425bd9b603.png)](https://pixabay.com/photos/cave-fantastic-light-nature-6481713/)
