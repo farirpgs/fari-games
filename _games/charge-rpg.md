@@ -1038,6 +1038,8 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 
 # Asset Extra | Extras
 
+Assets are an extra that you can  use as an alternative to `pushing yourself` or `adding tension` to a scene to get a bonus die when making an action roll.
+
 ## Loot Assets
 
 > For games that are about survival or want to resemble the "Looter and Shooter" genre.
@@ -1061,9 +1063,6 @@ If more than one player is scavenging, you can do a group roll using the `Take t
 >   - On a critical (66): You create two assets.
 > - If an asset was created, take note of it on someone's character sheet.
 
-### Using Loot
-
-When you create an asset using the Loot Extra, the asset can be used by anyone in the group, as long as it makes sense in the narrative.
 
 ### Boon Asset
 
@@ -1073,7 +1072,7 @@ It's always amazing when a player lose themselves in character or have an amazin
 
 To make those moments shine even more, the GM can reward that player with an `Asset`.
 
-This is like the way for the GM to say: this was amazing, here's `+1d6` or `increased effect` for your roll.
+This is like the way for the GM to say: this was amazing, here's `+1d6` or `increased effect` for a future roll.
 
 # Mission Extra | Extras
 
