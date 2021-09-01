@@ -378,7 +378,7 @@ export function GamePage() {
             const path = (newValue as ISearchIndex).path;
             if (path) {
               setAutocompleteOpen(false);
-              history.push(path);
+              history.push(`/games/${gameSlug}/${path}`);
             }
           }}
           onInputChange={(e, value, reason) => {
@@ -394,7 +394,7 @@ export function GamePage() {
                 {...props}
                 onClick={() => {
                   setAutocompleteOpen(false);
-                  history.push(index.path);
+                  history.push(`/games/${gameSlug}/${index.path}`);
                 }}
               >
                 <Box pl=".5rem" width="100%">
