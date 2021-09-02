@@ -145,7 +145,7 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 ## RPG Etiquette
 
-Remember to be empathetic of people's schedule and responsibilities. Some people have kids, pets, jobs, and other things that make scheduling sessions very hard. Show up on time and take the amount of gameplay time what you can get.
+Remember to be empathetic of people's schedule and responsibilities. Some people have kids, pets, jobs, and other things that make scheduling sessions very hard. Show up on time and take the amount of gameplay time that you can get.
 
 Then, patiently wait until the next session. And while you are waiting, remember and praise the awesome moments that happened in the last session.
 
