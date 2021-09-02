@@ -66,7 +66,7 @@ The two main pillars of this game center around Characters and Story Style.
 
 > Character should be able to be defined easily, yet still be able to be unique in their own way. They should also be able to be generic enough so that players can create the character they want to play in the setting they are most interested in.
 >
-> Charge does this by making character shine using `Aspects` to define who they are, `Actions` to highlight what they are good at, and `Talents` to make them evolve in interesting ways.
+> Charge does this by making character shine using `Character Details` to define who they are, `Actions` to highlight what they are good at, and `Talents` to make them evolve in interesting ways.
 
 **The system should offer dials to have grimmer up to bigger than life adventures.**
 
@@ -155,65 +155,73 @@ Then, patiently wait until the next session. And while you are waiting, remember
 
 As a player, you will need to create a `Character`.
 
-Your character will be defined by certain traits that we call `Aspects`. They will affect the world around them with their `Actions`. Through their actions might come `Consequences` which might inflict `Stress` or worsen their `Condition`.
+Your character will be defined by certain traits and will be tied to certain elements of the world the live in. They will affect the world around them with their `Actions`. Through their actions might come `Consequences` which might inflict `Stress` or worsen their `Condition`.
 
-Aspects are a good way to make your characters unique, but Charge uses `Talents` to make each character shine in their own special way.
+The `Details` of your characters are a good way to make your characters unique in the fiction, but Charge uses `Talents` to make each character shine in their own special way.
 
 You can find each of those terms in the character sheet, but let's go over what all of them mean and how we use them during a session.
 
-## Aspects
+## Details
 
-**Aspects** are short phrases used to describe something important about a character.
+When creating your character, you will need to figure out who they are, what they look like and how they are tied to the world. We call this information the character's details.
 
-The first thing to know about them is that **Aspects are true**. If your character has an aspect that says **_Fire Magician_**, they are a magician that can control fire. As simple as that.
+![](https://gyazo.com/e4ac2539a73b8650b7aee2ca20661371.png)
 
-Characters usually have between 3-6 aspects, and each one of them represents a different trait about that character.
+### Concept
 
-![](https://gyazo.com/3f0e20b165cb023e77b84c12c9c09e71.png)
+The `Concept` of your character is like the elevator-pitch version of who they are.
 
-### High Concept
+On your character sheet, write a small sentence that quickly sums them up.
 
-The `High Concept` is a board description of a character. It's how you would quickly describe them when talking about them with a friend.
+A good concept could include things like:
 
-Kind of like an elevator pitch version of who they are in a nutshell.
+- their profession or role within the group
+- where they come from
+- a personality trait
+- a unique talent they possess
+- etc.
 
-A high concept could highlight your character's profession, tie to an organization or a powerful talent.
+```
+Include Examples
+```
 
-### Trouble
+### Appearance
 
-Next is a character’s `Trouble`.
+Next is your character’s `Appearance`.
 
-The trouble aspect is something that makes a character’s life more complicated.
+Use this section to describe what your character look like. You can talk about their shape, size, what they wear, etc.
 
-It could be a personal weakness, family entanglements, or other obligations. Try to pick something that will be fun to role-play!
+This will help everyone at the table when they need to picture your character as they are interacting with them.
 
-The trouble is also very useful for the GM has they can use it as inspiration when thinking about `Adding Tension` to a scene.
+```
+Include Examples
+```
 
-### Relationship
+### Ties
 
-A `Relationship` aspect describes a connection with another PC in the group.
+Since your character is going to be one of the protagonist in the story, they need to be linked to the different forces in the world. They weren't born yesterday (or were they ?), so they have probably made friends or foes with different people or organizations.
 
-To come up with this, try to think of an event in the character's life and see how another character might have been involved.
+To establish those links, we define `Ties`.
 
-Did the two of them accomplished a great victory together, or perhaps one owes a debt to another.
+A tie links your character to another player's character, an organization, etc.
 
-It's easy to fall into classic tropes like "My character doesn't like/trust this other character", but we would encourage to try to find something a bit different. This is mostly because this kind of relationship aspect often adds unnecessary complications in the homogeneity of the group as a whole.
+When you write down a tie for your character, try to answer **who is my character linked to** and also **how they are linked to them**.
 
-### Other Aspects
+This will also help establish a bit of a general backstory for your character, without you having to write down 10 pages worth of notes that might end up not being used.
 
-You can make your character’s last aspects anything you want. There are no restrictions beyond the obligation to fit the setting.
+```
+Include Examples
+```
 
-Choose anything which you think will make your character more interesting, more fun to play, or better connected to the world they live in.
-
-> #### Choosing Aspects in Play
+> #### Choosing Details in Play
 >
 > You don't need to entirely flesh out your character before you start playing.
 >
-> Simply choosing a `High Concept` and a `Trouble` aspect is more than enough to get going.
+> Simply choosing your `Concept` is more than enough to get going.
 >
-> After the first session or two, you will get a better idea of who your character is, so finding aspects later is totally fine.
+> After the first session or two, you will get a better idea of who your character is, so finding those details later is totally fine.
 >
-> But if you want some help in finding interesting aspects for your characters, you can always use the free [Fari Story Builder](https://fari.app/story-builder) to get the inspiration flowing again!
+> But if you want some help in fleshing out your characters, you can always use the free [Fari Story Builder](https://fari.app/story-builder) to get the inspiration flowing again!
 > ![](https://gyazo.com/5b5e8bf5924e020ea2bc0926103a20f2.gif)
 
 ## Actions
@@ -318,17 +326,17 @@ When your character faces dangerous challenges and fails their action roll, some
 
 Maybe the situation is more complicated or even perilous. The alternative to this is that you get hurt. The GM is the one who decides if the `Consequence` of the roll is harm or something else.
 
-Each character has a `Condition Clock` with 4 segments.
+Each character has a `Condition` that is tied to a `Condition Clock` with includes 4 segments.
 
-![Condition Clock](https://gyazo.com/468a4a981adfbc795ef328b3b95e798a.png)
+![Condition](https://gyazo.com/468a4a981adfbc795ef328b3b95e798a.png)
 
-When you get hurt, you take a certain amount of `stress`, and each stress ticks a segment on your condition clock. As your condition worsen, you describe the state of your character with a `condition aspect` that is located right below the clock.
+When you get hurt, you take a certain amount of `stress`, and each stress ticks a segment on your `condition clock`. Depending on the amount of segments ticked, you represent how you character is going by updating your `condition` which is represented by a little text field below the clock.
 
-Since **all aspects are true**, it means that if a character get a new condition aspect, the character narrative liberties are restricted by said aspect.
+When a character has a condition, their narrative liberties are restricted by said condition.
 
-For example, it's almost impossible to climb on the roof of a house with a _Twisted Anlke_. So even if only have `2 segments` ticked on your condition clock, the name of the aspect still imposes narrative restrictions on what your character can do.
+For example, it's almost impossible to climb on the roof of a house with a _Twisted Anlke_. So even if only have `2 segments` ticked on your condition clock, your condition in it of itself still imposes narrative restrictions on what your character can do.
 
-Since condition aspects represent your character's current state, you need to update that aspect to match the state of your character's condition as the clock progresses.
+Here are a couple of examples of conditions:
 
 - When your condition clocks has **1/2 segments** filled, you might be: exhausted, humiliated, tired, sore, winder, sick, etc.
 - When your condition clocks has **3 segments** filled, you might be: shot, slashed, have a first degree burn, or are completely drunk.
@@ -366,10 +374,10 @@ Now we will go over all the mechanics used in the game that exist to resolve unk
 
 > #### The Character Sheet
 >
-> - 3-6 Aspects to highlight who you are. (High Concept, Trouble, Relationship and other aspects)
-> - 7 Action dots distributed across the 12 actions to explain what you are good at.
+> - Character's `Details` to highlight who they are. (Concept, Appearance, and Ties)
+> - 7 Action dots distributed across the 12 actions to explain what they are good at.
 > - Momentum charges to boost your actions and help your teammates.
-> - A Condition Clock+Aspect to represent a character's physical or mental condition.
+> - A `Clock` and descriptor to represent a character's physical or mental `Condition`.
 > - Talent Line to make the characters feel more powerful.
 > - Projects and Complications clocks to track session spanning efforts or dangers.
 
@@ -613,9 +621,9 @@ This is a good consequence to choose to show escalating action. A situation migh
 
 This consequence represent injuries or trauma inflected on a character.
 
-When your condition worsen, you take a certain amount of `stress` on your `condition clock`. You also need to update your `condition aspect` to represent the new state of your character is in.
+When your condition worsen, you take a certain amount of `stress` on your `condition clock`. You also need to update your `condition ` to represent the new state of your character is in.
 
-Since **aspects are true**, your new condition aspect is going to affect the permissions of how you can interact with the world narratively.
+Your new condition is going to affect the narrative permissions of your character and how they can interact with the world.
 
 When your condition clocked is filled, you can clear all the segments, and your character is taken out for the scene.
 
@@ -757,7 +765,7 @@ TODO: INCLUDE EXAMPLE
 
 As the game plays out, the PCs will get more stressed out and their condition will worsen.
 
-When a PC accumulates `Stress`, making action rolls will be more limited because of the narrative restrictions the `condition aspect` creates.
+When a PC accumulates `Stress`, making action rolls will be more limited because of the narrative restrictions their `condition` creates.
 
 The condition clock exists to pace the game, since not every action is going to go well, and failing an action has consequences which will affect the characters for some time.
 
@@ -862,22 +870,22 @@ However, the character leading the group action consume `-1 charge` for each PC 
 
 You step-in to confront a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Simply describe how you intervene.
 
-### Set up 
+### Set up
 
-***First I'll distract them. Then you gotta make a run for it. OK ?***
+**_First I'll distract them. Then you gotta make a run for it. OK ?_**
 
-When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll. 
+When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll.
 
 You choose the benefit, based on the nature of your setup action.
 
 This is a good way to contribute to an operation when you don’t have a good rating in the action at hand. A clever setup action lets you help the team indirectly. Multiple follow-up actions may take advantage of your setup (including someone leading a group action) as long as it makes sense in the fiction.
 
 > #### From Zero to Limited
-> 
-> Since a setup action can increase the effect of follow-up actions, it’s also useful when the team is facing very tough opposition. 
-> 
+>
+> Since a setup action can increase the effect of follow-up actions, it’s also useful when the team is facing very tough opposition.
+>
 > Even if the PCs are reduced to `zero effect` due to disadvantages in a situation, the setup action provides a bonus that allows for `limited effect`.
-> 
+>
 > This gives them a fighting chance.
 
 # Clocks| Mechanics
@@ -951,27 +959,27 @@ In Charge, the characters are talented and proactive. After all, they are the pr
 
 As time advance, the characters will evolve, and become more versatile, but this will only happen at certain `Milestones`.
 
-### Minor Milestones
+### Sessions
 
-A `Minor Milestone` happens **at the end of each session**. When a session is over, each player can look at their character sheet and **rename an aspect that isn't their `High Concept`.**
+**At the end of each session**, each player can look at their character sheet and **update their character's details**.
 
-You can use this to make your character life's change depending on what happened in the last session.
+You can use this opportunity to update their ties, appearance or even their concept if something important happened in the last session.
 
-You aren't forced to do this, but the game gives you the time and opportunity do it.
+You aren't forced to do this, but you can view this like a friendly reoccurring reminder that you can do it.
 
 ```
 TODO: INCLUDE EXAMPLE
 ```
 
-### Major Milestones
+### Milestone
 
-A `Major Milestone` usually happens **at the end of a big event** in the story. This will _usually_ happen every 3-5 sessions.
+A `Milestone` usually happens **at the end of a big event** in the story. This will _usually_ happen every 3-5 sessions.
 
-The GM will probably feel when it's time for a Major Milestone, but as a player you can always remind the GM "_Hey, this looked like an important event in the story, would this be a major milestone ?_".
+The GM will probably feel when it's time for a milestone, but as a player you can always remind the GM "_Hey, this looked like an important event in the story, would this be a milestone ?_".
 
 Just go with what feels right and adapt if necessary.
 
-When the group reaches a major milestone, every character gets a new `Talent` on their character sheet. They also can, if they want to, rename their `High Concept`.
+When the group reaches a milestone, every character gets a new `Talent` on their character sheet.
 
 There are 4 types of talents a character can get when reaching this milestone:
 
@@ -984,9 +992,9 @@ Gaining a new talent will feels like a breath of fresh air. It won't make your c
 
 > #### Progression Curve
 >
-> Just as a reminder, the longer it takes for a major milestone to happen, the longer it will take for characters to become stronger.
+> Just as a reminder, the longer it takes for a milestone to happen, the longer it will take for characters to become stronger.
 >
-> This is important to keep in mind depending on what kind of progression curve you want to have. Do you want to have a short campaign where characters will grow stronger pretty quickly, or are you looking for a year spanning campaign where the characters will mostly evolve by changing their aspects and major milestones will be more scarce ?
+> This is important to keep in mind depending on what kind of progression curve you want to have. Do you want to have a short campaign where characters will grow stronger pretty quickly, or are you looking for a year spanning campaign where the characters will mostly evolve by changing their character details and where milestones will be more scarce ?
 >
 > You could go as low as giving the player character only 2-3 Talents during an entire campaign, or reward them more often.
 >
@@ -998,13 +1006,13 @@ Certain talents are situational. That is, they are only activated when you are i
 
 For example, when you get a **+1 Effect when \_\_\_\_**, you will need to finish the end of that sentence by choosing one of the **12 Action** and a certain **Situation** that will activate the talent.
 
-Just look at what as already been established in the world or your character aspects for inspiration.
+Just look at what as already been established in the world or your character's details for inspiration.
 
 To keep the flow of the game balanced, the GM will have a veto on what situation is good enough for your talent. Don't hesitate to experiment with a this and fine tune later if necessary.
 
 The fact that writing up situational talents takes a bit of work is the reason why you don't get any talent when you create a fresh character.
 
-We want character creation to be streamlined, so take the time to understand and discover who they are first. Later in the campaign, when a major milestone occurs, you can then think of new ways to make them truly unique using talents.
+We want character creation to be streamlined, so take the time to understand and discover who they are first. Later in the campaign, when a milestone occurs, you can then think of new ways to make them truly unique using talents.
 
 _Yann's character is a monster hunter. By consequence, he's pretty good at **Studying** and **Brawling** in general. Yann also just got a new **Talent Dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
 
@@ -1056,7 +1064,7 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 
 # Asset Extra | Extras
 
-Assets are an extra that you can  use as an alternative to `pushing yourself` or `adding tension` to a scene to get a bonus die when making an action roll.
+Assets are an extra that you can use as an alternative to `pushing yourself` or `adding tension` to a scene to get a bonus die when making an action roll.
 
 ## Loot Assets
 
@@ -1080,7 +1088,6 @@ If more than one player is scavenging, you can do a group roll using the `Take t
 >   - On a 6: You create one Asset
 >   - On a critical (66): You create two assets.
 > - If an asset was created, take note of it on someone's character sheet.
-
 
 ### Boon Asset
 
@@ -1239,14 +1246,13 @@ This chapter will go over the most important bits of the book in a quick recap s
 
 ## Character Creation
 
-> ### Aspects
+> ### Details
 >
-> Choose `5 Aspects` to define who your character is.
+> Define who your character is.
 >
-> - `Core Concept`: The elevator pitch of your character.
-> - `Trouble`: Something or someone that makes your character's life complicated.
-> - `Relationship`: Connection with another player's character.
-> - `2 Other Aspects`: Anything else you want.
+> - `Concept`: The elevator pitch of your character.
+> - `Appearance`: What your character looks like.
+> - `Ties`: Connection with the other player's character or forces within the world.
 >
 > ### Actions
 >
@@ -1312,7 +1318,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Talents make your character stronger and more versatile over time.
 >
-> - Get `+1 Talent Dot` every `Major Milestone`.
+> - Get `+1 Talent Dot` every `Milestone`.
 >
 > #### Talent Types
 >
@@ -1331,17 +1337,9 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - `Risky`: `+2 Stress`
 > - `Desperate`: `+3 Stress`
 >
-> Each stress ticks a segment on a PC's condition clock. When you mark stress, you also need to add/update your `condition aspect` to represnet your character's new condition.
+> Each stress ticks a segment on a PC's condition clock. When you mark stress, you also need to add/update your `condition`..
 >
 > When the clock is filled, your character is taken out for the scene and your condition clock is cleared.
-
-<!--
- | Stress Quantity | Effect                                                                                                                                                             |
- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
- | `1-2 Stress`    | Reduced `Effect` on all action rolls affected by the `Condition`                                                                                                   |
- | `3 Stress`      | Reduced `-1d6` on all action rolls affected by the `Condition`                                                                                                     |
- | `4 Stress`      | The PC is taken out for the scene. At the end of the scene, clear all stress and rename one of the character's 5 Aspects to represent the effect it had on the PC. |
--->
 
 > ### Projects and Complications
 >
@@ -1422,11 +1420,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 > Use this to protect a fellow PC from danger.
 >
 > - Roll to resist someone else's consequence.
-> 
+>
 > ### Set up
 >
 > Use this to improve your chances at overcoming an obstacle.
-> 
+>
 > - Roll to improve the `effect` rating or the `position` of subsequent action rolls made by your team.
 
 ## Misc
@@ -1435,12 +1433,12 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to make characters evolve and get stronger over time.
 >
-> #### Minor Milestone
+> #### Session
 >
 > - Happens every session
-> - You can rename one `Aspect`
+> - Update the details of your character if necessary.
 >
-> #### Minor Milestone
+> #### Milestone
 >
 > - Happens every 3-5 sessions, usually after a big event.
 > - Gain `+1 Talent Dot`
@@ -1503,7 +1501,7 @@ Charge is released under Creative Commons Attribution [CC-BY](https://creativeco
 
 That means that if you want to make a game using or inspired by this game, you just need to give us attribution for our work.
 
-Because Charge is inspired by other great work, you would also need to include attribution to the creators of the Fate and Blades in the Dark RPGs.
+Because Charge is greatly inspired by Blades in the Dark, you would also need to include attribution to the creators of this game as well.
 
 To do so, copy the text below in your own game and things should be good to go.
 
@@ -1513,13 +1511,9 @@ This work is based on Charge RPG, product of Fari Games, developed and authored 
 
 This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](http://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
 
-This work is based on Fate Condensed (found at http://www.faterpg.com/), a product of Evil Hat Productions, LLC, developed, authored, and edited by PK Sullivan, Lara Turner, Leonard Balsera, Fred Hicks, Richard Bellingham, Robert Hanz, Ryan Macklin, and Sophie Lagacé, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
-
 # Credits
 
 > This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](http://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)).
-
-> This work is based on Fate Condensed (found at http://www.faterpg.com/), a product of Evil Hat Productions, LLC, developed, authored, and edited by PK Sullivan, Lara Turner, Leonard Balsera, Fred Hicks, Richard Bellingham, Robert Hanz, Ryan Macklin, and Sophie Lagacé, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
 
 # Changelog
 
