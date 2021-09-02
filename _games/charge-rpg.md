@@ -862,22 +862,22 @@ However, the character leading the group action consume `-1 charge` for each PC 
 
 You step-in to confront a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Simply describe how you intervene.
 
-### Set up 
+### Set up
 
-***First I'll distract them. Then you gotta make a run for it. OK ?***
+**_First I'll distract them. Then you gotta make a run for it. OK ?_**
 
-When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll. 
+When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll.
 
 You choose the benefit, based on the nature of your setup action.
 
 This is a good way to contribute to an operation when you don’t have a good rating in the action at hand. A clever setup action lets you help the team indirectly. Multiple follow-up actions may take advantage of your setup (including someone leading a group action) as long as it makes sense in the fiction.
 
 > #### From Zero to Limited
-> 
-> Since a setup action can increase the effect of follow-up actions, it’s also useful when the team is facing very tough opposition. 
-> 
+>
+> Since a setup action can increase the effect of follow-up actions, it’s also useful when the team is facing very tough opposition.
+>
 > Even if the PCs are reduced to `zero effect` due to disadvantages in a situation, the setup action provides a bonus that allows for `limited effect`.
-> 
+>
 > This gives them a fighting chance.
 
 # Clocks| Mechanics
@@ -953,7 +953,7 @@ As time advance, the characters will evolve, and become more versatile, but this
 
 ### Minor Milestones
 
-A `Major Milestone` happens **at the end of each session**. When a session is over, each player can look at their character sheet and **rename an aspect that isn't their `High Concept`.**
+A `Minor Milestone` happens **at the end of each session**. When a session is over, each player can look at their character sheet and **rename an aspect that isn't their `High Concept`.**
 
 You can use this to make your character life's change depending on what happened in the last session.
 
@@ -971,7 +971,7 @@ The GM will probably feel when it's time for a Major Milestone, but as a player 
 
 Just go with what feels right and adapt if necessary.
 
-When the group reaches a major milestone, every character gets a new `Talent` on their character sheet.
+When the group reaches a major milestone, every character gets a new `Talent` on their character sheet. They also can, if they want to, rename their `High Concept`.
 
 There are 4 types of talents a character can get when reaching this milestone:
 
@@ -1056,7 +1056,7 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 
 # Asset Extra | Extras
 
-Assets are an extra that you can  use as an alternative to `pushing yourself` or `adding tension` to a scene to get a bonus die when making an action roll.
+Assets are an extra that you can use as an alternative to `pushing yourself` or `adding tension` to a scene to get a bonus die when making an action roll.
 
 ## Loot Assets
 
@@ -1080,7 +1080,6 @@ If more than one player is scavenging, you can do a group roll using the `Take t
 >   - On a 6: You create one Asset
 >   - On a critical (66): You create two assets.
 > - If an asset was created, take note of it on someone's character sheet.
-
 
 ### Boon Asset
 
@@ -1422,11 +1421,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 > Use this to protect a fellow PC from danger.
 >
 > - Roll to resist someone else's consequence.
-> 
+>
 > ### Set up
 >
 > Use this to improve your chances at overcoming an obstacle.
-> 
+>
 > - Roll to improve the `effect` rating or the `position` of subsequent action rolls made by your team.
 
 ## Misc
