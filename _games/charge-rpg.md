@@ -953,7 +953,7 @@ As time advance, the characters will evolve, and become more versatile, but this
 
 ### Minor Milestones
 
-A `Major Milestone` happens **at the end of each session**. When a session is over, each player can look at their character sheet and **rename an aspect that isn't their `High Concept`.**
+A `Minor Milestone` happens **at the end of each session**. When a session is over, each player can look at their character sheet and **rename an aspect that isn't their `High Concept`.**
 
 You can use this to make your character life's change depending on what happened in the last session.
 
@@ -971,7 +971,7 @@ The GM will probably feel when it's time for a Major Milestone, but as a player 
 
 Just go with what feels right and adapt if necessary.
 
-When the group reaches a major milestone, every character gets a new `Talent` on their character sheet.
+When the group reaches a major milestone, every character gets a new `Talent` on their character sheet. They also can, if they want to, rename their `High Concept`.
 
 There are 4 types of talents a character can get when reaching this milestone:
 
