@@ -1,13 +1,29 @@
 import { css } from "@emotion/css";
-
+import Autocomplete, {
+  createFilterOptions,
+} from "@material-ui/core/Autocomplete";
+import Box from "@material-ui/core/Box";
+import Button from "@material-ui/core/Button";
+import Collapse from "@material-ui/core/Collapse";
+import Container from "@material-ui/core/Container";
+import Divider from "@material-ui/core/Divider";
+import Drawer from "@material-ui/core/Drawer";
+import Fade from "@material-ui/core/Fade";
+import Grid from "@material-ui/core/Grid";
+import Hidden from "@material-ui/core/Hidden";
+import IconButton from "@material-ui/core/IconButton";
+import MenuItem from "@material-ui/core/MenuItem";
+import MenuList from "@material-ui/core/MenuList";
+import Stack from "@material-ui/core/Stack";
+import { useTheme } from "@material-ui/core/styles";
+import TextField from "@material-ui/core/TextField";
+import Typography from "@material-ui/core/Typography";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import MenuIcon from "@material-ui/icons/Menu";
 import React, { useEffect, useState } from "react";
-import {
-  useHistory,
-  useLocation,
-  useParams,
-  useRouteMatch,
-} from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
+import { MarkdownContent } from "../components/MarkdownContent/MarkdownContent";
 import { ReactRouterLink } from "../components/ReactRouterLink/ReactRouterLink";
 import {
   GameDocumentParser,
@@ -15,28 +31,6 @@ import {
   ISearchIndex,
   ISidebarItem,
 } from "../domains/games/GameDocumentParser";
-import { Helmet } from "react-helmet-async";
-import Box from "@material-ui/core/Box";
-import Container from "@material-ui/core/Container";
-import Divider from "@material-ui/core/Divider";
-import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
-import MenuIcon from "@material-ui/icons/Menu";
-import { useTheme } from "@material-ui/core/styles";
-import MenuList from "@material-ui/core/MenuList";
-import MenuItem from "@material-ui/core/MenuItem";
-import Typography from "@material-ui/core/Typography";
-import Hidden from "@material-ui/core/Hidden";
-import Stack from "@material-ui/core/Stack";
-import Collapse from "@material-ui/core/Collapse";
-import Drawer from "@material-ui/core/Drawer";
-import IconButton from "@material-ui/core/IconButton";
-import { MarkdownContent } from "../components/MarkdownContent/MarkdownContent";
-import Autocomplete, {
-  createFilterOptions,
-} from "@material-ui/core/Autocomplete";
-import TextField from "@material-ui/core/TextField";
-import Fade from "@material-ui/core/Fade";
 
 export function GamePage() {
   const match = useRouteMatch<{ game: string; chapter: string }>();
@@ -384,7 +378,7 @@ export function GamePage() {
             const path = (newValue as ISearchIndex).path;
             if (path) {
               setAutocompleteOpen(false);
-              history.push(path);
+              history.push(`/games/${gameSlug}/${path}`);
             }
           }}
           onInputChange={(e, value, reason) => {
@@ -400,7 +394,7 @@ export function GamePage() {
                 {...props}
                 onClick={() => {
                   setAutocompleteOpen(false);
-                  history.push(index.path);
+                  history.push(`/games/${gameSlug}/${index.path}`);
                 }}
               >
                 <Box pl=".5rem" width="100%">

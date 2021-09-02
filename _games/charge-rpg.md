@@ -2,7 +2,7 @@
 title: Charge RPG - Power Your Story Telling
 author: René-Pier Deshaies-Gélinas
 image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
-version: 0.0.1
+version: 0.1.0
 ---
 
 # Introductions | Power Your Story Telling
@@ -56,7 +56,7 @@ There are thousands of great table-top role-playing games out there. Some are ge
 
 Charge is generic, which means that you get to pick the world and setting you want to play in. You could play in Sci-Fi setting where new planets are still being discovered and terraformed every year, or during the British Industrial Revolution. You get to choose.
 
-Because each setting can be widely different, the game mechanics [in GAME_NAME] were made with very specific goals in mind to help you create the story you want to tell.
+Because each setting can be widely different, the game mechanics in Charge were made with very specific goals in mind to help you create the story you want to tell.
 
 ## Charge's
 
@@ -66,7 +66,7 @@ The two main pillars of this game center around Characters and Story Style.
 
 > Character should be able to be defined easily, yet still be able to be unique in their own way. They should also be able to be generic enough so that players can create the character they want to play in the setting they are most interested in.
 >
-> Charge does this by making character shine using `Aspects` to define who they are, `Actions` to highlight what they are good at, and `Talents` to make them evolve in interesting and way.
+> Charge does this by making character shine using `Aspects` to define who they are, `Actions` to highlight what they are good at, and `Talents` to make them evolve in interesting ways.
 
 **The system should offer dials to have grimmer up to bigger than life adventures.**
 
@@ -145,7 +145,7 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 ## RPG Etiquette
 
-Remember to be empathetic of people's schedule and responsibilities. Some people have kids, pets, jobs, and other things that make scheduling sessions very hard. Show up on time and take the amount of gameplay time what you can get.
+Remember to be empathetic of people's schedule and responsibilities. Some people have kids, pets, jobs, and other things that make scheduling sessions very hard. Show up on time and take the amount of gameplay time that you can get.
 
 Then, patiently wait until the next session. And while you are waiting, remember and praise the awesome moments that happened in the last session.
 
@@ -292,7 +292,7 @@ When you `Focus`, you concentrate to accomplish a task that requires great stren
 
 When you `Sway`, you influence with guile, charm, or argument.
 
-> You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Consorting or Commanding might be better).
+> You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Bonding or Commanding might be better).
 
 ### **Which Action to Pick for a Roll**
 
@@ -330,11 +330,9 @@ For example, it's almost impossible to climb on the roof of a house with a _Twis
 
 Since condition aspects represent your character's current state, you need to update that aspect to match the state of your character's condition as the clock progresses.
 
-- When an attribute's condition reaches **1/2 stress**, you might be: exhausted, humiliated, tired, sore, winder, sick, etc.
-- When an attribute's condition reaches **3 stress**, you might be: shot, slashed, have a first degree burn, or are completely drunk.
-- When an attribute's condition reaches **4 stress**, you might have: a second degree burn, a fractured leg or your brain can't comprehend was is happening anymore.
-
-When the clock is filled, your character is taken out for the scene and your condition clock is cleared.
+- When your condition clocks has **1/2 segments** filled, you might be: exhausted, humiliated, tired, sore, winder, sick, etc.
+- When your condition clocks has **3 segments** filled, you might be: shot, slashed, have a first degree burn, or are completely drunk.
+- When your condition clocks reached **4 filled segments**, you clear the condition clock, and are taken out for the scene. You might have got: a second degree burn, a fractured leg or your brain can't comprehend was is happening anymore.
 
 ## Talents
 
@@ -405,7 +403,7 @@ The number of dice a player rolls depends on the `Action` they are trying to acc
 
 Those actions are linked to a dice pool called the `Action Rating`, represented by empty dots on the character sheet.
 
-If an action has 1 darkened dots beside it, it means that you get to roll `1d6` and pick the best one out of the two. This gives you about 50% chance of succeeding in your action.
+If an action has 1 darkened dots beside it, it means that you get to roll `1d6`. This gives you about 50% chance of succeeding at your action.
 
 If an action has 2 darkened dots, then you roll `2d6` and so on.
 
@@ -599,11 +597,11 @@ This consequence represents shifting circumstance. What you tried didn't work, a
 
 Usually this means trying using another `Action`.
 
-You need to `Bond` with your contacts to know if they heard of the person that evaded you, or you need to `Survey` the robot to see if they have any weak spots you can use to your advantage.
+You need to `Bond` with your contacts to know if they heard of the person that evaded you, or you need to `Study` the robot to see if they have any weak spots you can use to your advantage.
 
 ### Worse Position
 
-**_You missed your shot, now they know where you are. They initially trusted you, but know they have some doubts and will be watching you more closely._**
+**_You missed your shot, now they know where you are. They initially trusted you, but now they have some doubts and will be watching you more closely._**
 
 This consequence represents losing control of the situation. The action carries you into a more dangerous **position**.
 
@@ -715,7 +713,7 @@ We've also seen that momentum can be consumed to **boost action rolls**, **assis
 
 Now we will go over the different methods to gain momentum during scenes.
 
-Basically, you can either gain momentum as a **result of an action roll**, or because of a **compel**.
+Basically, you can either gain momentum as a **result of an action roll**, or by **adding tension** to the scene.
 
 ## Momentum from an Action
 
@@ -863,6 +861,24 @@ However, the character leading the group action consume `-1 charge` for each PC 
 **_Get behind my shield!_**
 
 You step-in to confront a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Simply describe how you intervene.
+
+### Set up 
+
+***First I'll distract them. Then you gotta make a run for it. OK ?***
+
+When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll. 
+
+You choose the benefit, based on the nature of your setup action.
+
+This is a good way to contribute to an operation when you don’t have a good rating in the action at hand. A clever setup action lets you help the team indirectly. Multiple follow-up actions may take advantage of your setup (including someone leading a group action) as long as it makes sense in the fiction.
+
+> #### From Zero to Limited
+> 
+> Since a setup action can increase the effect of follow-up actions, it’s also useful when the team is facing very tough opposition. 
+> 
+> Even if the PCs are reduced to `zero effect` due to disadvantages in a situation, the setup action provides a bonus that allows for `limited effect`.
+> 
+> This gives them a fighting chance.
 
 # Clocks| Mechanics
 
@@ -1040,13 +1056,15 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 
 # Asset Extra | Extras
 
+Assets are an extra that you can  use as an alternative to `pushing yourself` or `adding tension` to a scene to get a bonus die when making an action roll.
+
 ## Loot Assets
 
 > For games that are about survival or want to resemble the "Looter and Shooter" genre.
 
 The Loot Asset is an additional mechanic that gives you the chance to find good loot that will have a mechanical impact on the game when you scavenge a place.
 
-After a conflict between multiple parties is resolved or when the general tension in a scene is reduced, you can do a `Fortune Roll` with `Survey` to find good loot or to scavenge the place.
+After a conflict between multiple parties is resolved or when the general tension in a scene is reduced, you can do a `Fortune Roll` with `Notice` to find good loot or to scavenge the place.
 
 - On a `6`, you create `1 Asset`.
 - On a `66`, you create `2 Assets`.
@@ -1057,15 +1075,12 @@ If more than one player is scavenging, you can do a group roll using the `Take t
 
 > **Loot Roll**
 >
-> - Roll **Survey**.
+> - Roll **Notice**.
 >   - On a 1-5: nothing happens.
 >   - On a 6: You create one Asset
 >   - On a critical (66): You create two assets.
 > - If an asset was created, take note of it on someone's character sheet.
 
-### Using Loot
-
-When you create an asset using the Loot Extra, the asset can be used by anyone in the group, as long as it makes sense in the narrative.
 
 ### Boon Asset
 
@@ -1075,7 +1090,7 @@ It's always amazing when a player lose themselves in character or have an amazin
 
 To make those moments shine even more, the GM can reward that player with an `Asset`.
 
-This is like the way for the GM to say: this was amazing, here's `+1d6` or `increased effect` for your roll.
+This is like the way for the GM to say: this was amazing, here's `+1d6` or `increased effect` for a future roll.
 
 # Mission Extra | Extras
 
@@ -1404,9 +1419,15 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ### Protect
 >
-> Use this to to protect a fellow PC from danger.
+> Use this to protect a fellow PC from danger.
 >
 > - Roll to resist someone else's consequence.
+> 
+> ### Set up
+>
+> Use this to improve your chances at overcoming an obstacle.
+> 
+> - Roll to improve the `effect` rating or the `position` of subsequent action rolls made by your team.
 
 ## Misc
 
