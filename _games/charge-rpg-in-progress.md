@@ -1,14 +1,4 @@
-# Projects Extra | Extras
 
-The Charge character sheet has a Projects section which contains 4 empty clocks.
-
-Those exist if you want to track long term projects for your character.
-
-Perhaps your character is piling up money to be able to afford something good for their family, or perhaps they are trying to figure out a way to reverse the damaged caused by a dangerous new disease.
-
-One per session, if the narrative allows it, a character can try to make an Overcome an Obstacle roll to tick segments of those Clocks. Use them to track the long term projects of your character.
-
-Upon completion, the PC get what they wanted and the resolution creates a new narrative thread that the group or the PC might pursue.
 
 # Being a Player | Playing the Game
 
