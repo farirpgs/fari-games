@@ -2,7 +2,7 @@
 title: Charge RPG - Power Your Story Telling
 author: René-Pier Deshaies-Gélinas
 image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
-version: 0.1.0
+version: 0.1.1
 ---
 
 # Introductions | Power Your Story Telling
@@ -238,7 +238,7 @@ When creating a character, you need to **distribute 7 action dots** among those 
 
 Those dots represent how good your character is at doing things. As the game progresses, you will gain additional dots that make your character more flexible. See [**Mechanics&nbsp;»&nbsp;Progression**](mechanics#progression).
 
-The 12 actions are grouped into 3 categories called `Attributes`: `Physique`, `Insight` and `Resolve`. 
+The 12 actions are grouped into 3 categories called `Attributes`: `Physique`, `Insight` and `Resolve`.
 
 Each attribute is important in its own way, since they let you resist different types of danger when things go sour. More on that in [**Mechanics&nbsp;»&nbsp;Resistance Roll**](mechanics#resistance-roll).
 
@@ -521,7 +521,7 @@ You can also even the odds by using **only one** of the following methods.
 
 #### Push Yourself
 
-When you `Push Yourself`, you consume `-2 momentum`  **per push** to gain one of the following bonuses.
+When you `Push Yourself`, you consume `-2 momentum` **per push** to gain one of the following bonuses.
 
 - Add `+1d6` to your dice pool.
 - Gain `+1 effect rating` for your roll.
@@ -1517,6 +1517,10 @@ This work is based on Blades in the Dark (found at [http://www.bladesinthedark.c
 
 # Changelog
 
-## v0.0.1
+## v0.1.1
+
+- Proof reading
+
+## v0.1.0
 
 - Initial Pitch
