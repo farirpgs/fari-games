@@ -19,7 +19,7 @@ Now, one of the first things you probably want to know is: **who is this game fo
 
 > This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to get there.
 
-Some mechanics were inspired or adapted from the Fate or Forged in the Dark systems, while others were created to make for more interactive sessions that natural urge players to interact with the world.
+Some mechanics were inspired or adapted from the Fate or Forged in the Dark systems, while others were created to make for more interactive sessions that naturally urge players to interact with the world.
 
 Now let's get to it! ⚡
 
