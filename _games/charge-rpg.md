@@ -182,7 +182,7 @@ A good concept could include things like:
 - etc.
 
 ```
-Include Examples
+TODO: Include Examples
 ```
 
 ### Appearance
@@ -194,7 +194,7 @@ Use this section to describe what your character looks like. You can talk about 
 This will help everyone at the table when they need to picture your character as they are interacting with them.
 
 ```
-Include Examples
+TODO: Include Examples
 ```
 
 ### Ties
@@ -210,7 +210,7 @@ When you write down a tie for your character, try to answer **who is my characte
 This will also help establish a bit of a general backstory for your character, without you having to write down 10 pages of notes that might end up unused.
 
 ```
-Include Examples
+TODO: Include Examples
 ```
 
 > #### Choosing Details in Play
@@ -515,6 +515,8 @@ Your characters aren't proficient in everything, but they have aces up their sle
 
 First off, they aren't alone.
 
+#### Ask For Help
+
 When you `Ask for Help`, a willing player can consume `-1 momentum` of momentum, in exchange for you to get `+1d6` added to your dice pool. In doing so, the helper exposes themselves to the same danger as your character for helping you.
 
 You can also even the odds by using **only one** of the following methods.
@@ -526,6 +528,12 @@ When you `Push Yourself`, you consume `-2 momentum` **per push** to gain one of 
 - Add `+1d6` to your dice pool.
 - Gain `+1 effect rating` for your roll.
 - Take action when you are incapacitated.
+
+---
+
+> _Note: you `push yourself` in a action roll, that roll won't generate momentum_
+
+---
 
 #### Add Tension
 
@@ -677,7 +685,7 @@ When you resist consequences, you do it using charges of momentum. Getting a goo
 If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Team Work&nbsp;»&nbsp;Protect**](team-work#protect).
 
 ```
-TODO: INCLUDE EXAMPLE
+TODO: Include Examples
 ```
 
 ### Recap
@@ -731,11 +739,13 @@ The reason why you start with only `2` at the beginning of a session is because 
 
 **The main way you get momentum back is by participating in the game.**
 
-**By default**, you gain momentum when you make an action roll, and you rolled a `4` or above.
+**By default**, you gain momentum when you make an action roll, and you rolled a `4`.
 
 - If you rolled a ` 4-5`, you gain `+1 Momentum`.
 - If you rolled a `6`, you gain `+2 Momentum`.
 - If you rolled a `66`, you gain `+3 Momentum`.
+
+If you `push yourself` in a action roll, that roll won't generate momentum.
 
 While this is the default setting, we encourage you and your group to change this as you wish. We want you to consider hacking this rule because it is the basis of the whole meta-economy of the game. Making momentum harder or easier to gain will have a big impact on the way the game plays out.
 
@@ -746,7 +756,7 @@ Changing **when and how much momentum is gained** is called a `Momentum Dial`. Y
 But if for example you want to emphasize the fact that life is hard and resources are scarce, then consider making momentum harder to gain. If on the other hand, you want to tell the story of characters who are all over-the-top, but still find a way to finish every adventure with their hat still sitting on their head, then consider making momentum easier to gain.
 
 ```
-TODO: INCLUDE EXAMPLE
+TODO: Include Examples
 ```
 
 ## Momentum from Adding Tension
@@ -758,7 +768,7 @@ As a player, you can suggest a complication to your GM, and if they agree with i
 When you add tension to a scene, you usually inflict a `Consequence` on yourself or the group to add interesting drama to the scene.
 
 ```
-TODO: INCLUDE EXAMPLE
+TODO: Include Examples
 ```
 
 # Recovery | Mechanics
@@ -823,7 +833,7 @@ _There's someone left alive on the ship, and they are still breathing. There are
 Don't overthink this. This rule is vague by design, as it should not get in the way of the game. This mechanic is there to **quickly spice things up** during a scene.
 
 ```
-TODO: INCLUDE EXAMPLE
+TODO: Include Examples
 ```
 
 ### Recap
@@ -972,7 +982,7 @@ You can use this opportunity to update their ties, appearance or even their conc
 You aren't forced to do this, but you can view this like a friendly recurring reminder that you can do it.
 
 ```
-TODO: INCLUDE EXAMPLE
+TODO: Include Examples
 ```
 
 ### Milestone
@@ -1105,8 +1115,10 @@ This is how the GM says: this was amazing, here's `+1d6` or `increased effect` f
 
 # Mission Extra | Extras
 
+<p style="font-size:3rem; text-align:center; margin:0;">👷‍♀️ 🚧 🚧 🚧 👷</p>
+
 ```
-Work in Progress...
+TODO: 
 
  - Assault
  - Deceiving
@@ -1115,11 +1127,6 @@ Work in Progress...
  - Using Connections
 ```
 
-# Duel Extra | Extras
-
-```
-Work in Progress...
-```
 
 # Making a Compelling Campaign | Preparing the Game
 
@@ -1232,6 +1239,66 @@ That's why we defined the `World Forces` before the `Player Force`.
 
 Once the players have a general idea of what their group is about, write a `Force`, a `Goal`, and 2-3 `Methods` that represent them.
 
+# What to Hack | Hacking the Game 
+
+ <p style="font-size:3rem; text-align:center; margin:0;">👷‍♀️ 🚧 🚧 🚧 👷</p>
+
+You've read the rules and best practices, and your first thought is: 
+
+**_This is great! Now, how can I hack this ?_**
+
+Great! 
+
+Charge comes with a default set of rules, but most of them can be altered to help you make each game your own.
+
+This chapter provides some guidelines about what is hackable by design. It also provides some ideas on how to design new mechanics around what is already in place.
+
+## Hacking Character Details
+
+The character's details section is possibly the easiest section to change since it doesn't impact the mechanic, or the balance of the game.
+
+By default, a character is defined by short descriptors called `Details`.
+
+They have a `Concept` to explain who they are, an `Appearance` to know what they look like, and `Ties` to link them to the world.
+
+To make your own details, think of what is important in your setting. 
+
+If your setting heavily focuses on which god the PCs worship, than add a `God` detail. If characters have a specific role in the group, add a detail for this as well.
+
+While those descriptors aren't really used by the game mechanics, they are still relevant in highlighting **what is important in your game**.
+
+## Hacking the Actions
+
+```
+TODO
+```
+
+## Hacking Momentum
+
+```
+TODO
+```
+
+## Hacking Talents
+
+```
+TODO
+```
+
+## Hacking Conditions
+
+```
+TODO
+```
+
+# Playbooks | Hacking the Game 
+
+<p style="font-size:3rem; text-align:center; margin:0;">👷‍♀️ 🚧 🚧 🚧 👷</p>
+
+```
+TODO
+```
+
 # In a Nutshell
 
 This chapter will go over the most important bits of the book in a quick recap so that it's easy to use as a reference.
@@ -1295,7 +1362,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ---
 >
-> _Note: When you spend momentum to boost an action roll, you don't gain momentum for that action._
+> _Note: you `push yourself` in a action roll, that roll won't generate momentum_
 >
 > ---
 >
