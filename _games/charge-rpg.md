@@ -1262,7 +1262,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > Distribute `7 Action Dots` among the `12 Actions` to define how good your character is at doing things.
 >
 > - Actions are grouped into 3 attributes: `Physique`, `Insight` and `Resolve`.
-> - At character creation, a single `Action` cannot have more than `2 Action Dot`s.
+> - At character creation, a single `Action` cannot have more than `2 Action Dots`.
 >
 > #### Physique
 >
@@ -1299,14 +1299,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ---
 >
-> #### Momentum Dial
+> #### Default Momentum Dial
 >
-> - For grounded and grittier campaigns:
->   - Gain `+1 Momentum` if you got a `4` or higher.
-> - For classic campaigns:
->   - Gain `+1 Momentum` for a `4-5`.
->   - Gain `+2 Momentum` for a `6`.
->   - Gain `+3 Momentum` for a `66`.
+> - Gain `+1 Momentum` for a `4-5`.
+> - Gain `+2 Momentum` for a `6`.
+> - Gain `+3 Momentum` for a `66`.
 >
 > #### Using Momentum
 >
