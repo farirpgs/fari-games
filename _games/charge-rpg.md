@@ -1256,9 +1256,9 @@ You've read the rules and best practices, and your first thought is:
 
 Great! 
 
-Charge comes with a default set of rules, but most of them can be altered to help you make each game your own.
+Charge comes with a default set of rules, but most of them can be altered to **help you make each game your own**.
 
-This chapter provides some guidelines about what is hackable by design. It also provides some ideas on how to design new mechanics around what is already in place.
+This chapter provides some guidelines about what is hackable by design. It also provides some ideas on how to design new mechanics around what is already in place to keep the "Charge feeling".
 
 ## Hacking Character Details
 
@@ -1268,6 +1268,8 @@ By default, a character is defined by short descriptors called `Details`.
 
 They have a `Concept` to explain who they are, an `Appearance` to know what they look like, and `Ties` to link them to the world.
 
+### Changing the Details
+
 To make your own details, think of what is important in your setting. 
 
 If your setting heavily focuses on which god the PCs worship, than add a `God` detail. If characters have a specific role in the group, add a detail for this as well.
@@ -1276,59 +1278,160 @@ While those descriptors aren't *really* used by the game mechanics, they are sti
 
 ## Hacking the Actions
 
-Another great way of to make Charge feel more like *your game* is by adapting or changing the standard `12 actions`.
+Another great way of to adapting Charge is by changing the standard `12 actions`.
 
 ### Changing the Words
 
 Words are important. When carefully chosen, they help convey a meaning. 
 
-Charge comes with a default set of generic actions. Because they are generic, they might not necessarily fit with the setting you've chosen for your game.
+Charge comes with a default set of generic actions. Because they are generic, they might not necessarily fit with the setting you've chosen.
 
-If some of those words feel off in your game, simply change them up. 
+If some of those words feel off, rename them. 
 
-Maybe replace `Tinker` by `Craft` or `Hack`. Replace `Sway` by `Negotiate` or `Argue`. Even a small change in word affects the underlying tone of what the action does.
+Replace `Tinker` by `Craft` or `Hack`. Or replace `Sway` by `Negotiate` or `Argue`. 
 
-Use this to evoke the genre of your game, and highlight the risky actions that the PCs will be doing.
+Even a small change in word can affect the underlying tone of what the action does.
 
-> #### Number of Actions
-> 
-> If you feel like 12 actions to memorize is too much, you can reduce the list to 9 or even 6 actions.
-> 
-> Reducing the number of actions also means that each action will cover more use-cases. Take that in consideration when choosing the action words.
-> 
-> Also think about the **maximum action rating** (default is 4) and the **starting number of action dots**  (default is 7) character gets at the beginning of a game.
+Use this to evoke a genre, and highlight the risky actions that the PCs will be doing.
+
+### Changing the Number of Actions
+
+If you feel like 12 actions to memorize is too much, you can reduce the list to 9 or even 6 actions.
+
+Reducing the number of actions also means that each action will cover more use-cases. Take that in consideration when choosing your action words.
+
+Also think about the **maximum action rating** (default is 4) and the **starting number of action dots**  (default is 7) character gets at the beginning of a game.
 
 ## Hacking Momentum
 
-As mentioned in [**Mechanics&nbsp;»&nbsp;Momentum**](Momentum), the momentum mechanic is pretty much hackable by default because of the existence of the `Momentum Dial`.
+As mentioned in [**ealier**](momentum#momentum-dial), momentum is pretty much hackable by default because of the existence of the `Momentum Dial`.
 
-When you start a new game, check if the default momentum dial feels good for your setting. 
+When you start a new campaign, check if the default momentum dial feels good for you and your group.
 
-Do you have a feeling that PCs will gain momentum too often ? Or do you think that when it is gained, the amount gained should be more generous ? There is no perfect answer. Each story is different.
+Do you have a feeling that PCs gain momentum too often ? Or do you think that when it is gained, the amount gained should be more generous ? There is no golden hammer here, every story is different.
 
-To make your own `Momentum Dial`, simply look at **when** momentum is generated. Then look at **how much** momentum is gained when it's generated. Tweak those two variables until things feel just right.
+To make your own `momentum dial`, simply look at **when** momentum is generated. Then look at **how much** momentum is gained when it's generated. 
 
-This is the easiest way to "hack" Charge. It is the main dial that changes the difficulty setting for the group.
+Tweak those two variables until things feel right.
 
 ## Hacking Talents
 
-```
-TODO
-```
+Talents exists to make character progression interesting. The talent tree makes character a bit stronger, but mostly it makes them more versatile.
+
+### Changing the Tree
+
+A way you can hack talent is by changing the content of the talent tree. By default, a talent either gives you a **new action dot**, or a **situational bonus**. 
+
+You could change the content of that tree to make certain types of talent more common than others. You could also create brand new types of talent that would make players more invested in your game.
+
+### Changing When Talent Dots are Gained
+
+Talent dots are usually gained after narrative `milestones`. Depending on the genre, you could alter this and make talent dots gained in different scenarios. 
+
+A player could gain a talent dot when they fail `desperate` roll, or when they finish a `Project` clock on their character sheet.
+
+Talents are a great player incentive, so hacking this is an easy way to reinforce behaviors you want your players to do.  
+
+### Changing the Cost of Activating a Talent
+
+You can also change the cost of using a talent. By default, talents are free to invoke, but it doesn't have to be.
+
+An easy cost to set for activating a talent would be using momentum. 
+
+If you set a cost of `1 momentum`, talents could be seen as a way to get bonuses at a cheaper cost than `pushing oneself`.
+
+If you set a cost of `2 momentum` for a talent, then consider giving a bigger bonus than what a a usual `push` would give. 
+
+Just remember to keep things fair!
 
 ## Hacking Conditions
 
-```
-TODO
-```
+A PC's condition acts as a combat pacing mechanism, but also as a way to represent the character's current health condition.
 
-# Playbooks | Hacking the Game 
+### Changing Condition Clock
+
+If characters in your world are supposed to be weaker to tougher, change the number of segments in the condition clock. 
+
+This is an easy change that has a big impact on in-game challenges. 
+
+Be warned that having bigger condition clocks can make conflicts drag for longer. This can either be a good, or bad thing, depending on what you're going for.
+
+### Changing Recovery
+
+Another important detail about condition is that they are supposed to recover after a time. 
+
+By default, a condition clocks recovers **one segment per session**, if the fiction allows it. 
+
+You could offer other opportunities to PCs to get better. Perhaps by going to see a doctor, or by interacting with the "medic" of the group. 
+
+Doing this will affect what the PCs do immediately after big battles, because they usually don't like staying "hurt" for a long time.
+
+> #### Luck Based Recovery
+> 
+> Be weary of making recovery based on luck. 
+> 
+> If you use action or fortune rolls to recover, a couple of bad rolls in a row can make for quite a couple of uninteresting session for a player.
+> 
+> That's something that we *usually* want to try to avoid.
+
+### Introducing Penalties
+
+Apart from narrative limitations, conditions don't inflict penalties on characters. This is by design. 
+
+In Charge, we prefer to encourage good behaviors than to give punishment for simply having played the game. The game is about rewarding interactions, and pacing failures.
+
+That doesn't mean that we want to discourage you from doing something different in your game. 
+
+We mostly want to highlight why Charge is the way it is so that you take it in consideration when designing new modifications to the rules.
+
+### Introducing Deterioration
+
+For some types of games, you might also want to consider if conditions can get worse if the PCs ignore them.
+
+Things like poison or untreated wounds can make a character's life harder over time.
+
+For this, you could think of ways of making condition clocks "auto-advance" based on certain triggers. Figure out what those triggers are and how many segments are ticked when they happen.
+
+You should also think of opportunities for players to take care of those deteriorations so that they stop being inflicted upon their characters.
+
+# Making Playbooks | Hacking the Game 
 
 <p style="font-size:3rem; text-align:center; margin:0;">👷‍♀️ 🚧 🚧 🚧 👷</p>
 
-```
-TODO
-```
+In Charge, we don't offer a list of playbooks, archetypes or classes for the players to choose from when starting a new game. This is because we want players to be able to create the character they want to, without limiting their creativity.
+
+This doesn't mean that they shouldn't exists. Playbooks are an amazing solution to the blank page syndrome when creating a character.
+
+With a bit of preparation, the game master can create a set of playbooks for their players to choose from. Designers who want to use Charge as the framework of their game can also use this method for their game.
+
+
+## Playbook Recipe
+
+Here's a recipe on how to create a playbook for Charge using the default character sheet as a basis for it.
+
+### Details
+
+Find a name for your playbook. Once you have a good catchy name, write it down as the character's `Concept`.
+
+Leave the `Appearance` box empty for the player to fill. Also write down a list of possible `Ties` for the player to choose from when they make their character.
+
+### Actions
+
+Each playbook should have 3 action dots pre-assigned on the default sheet. This helps the player understand what this class of character is good at by default. 
+
+This leaves 4 action dots that they can assign wherever they want to make their implementation of that playbook their own.
+
+### Talents
+
+Each playbook should feel a bit different to play from one another. 
+
+In the `Talents` section, pre-fill the situational talents by things that make sense for that playbook.
+
+### Rinse and Repeat
+
+Once you've done one playbook, just repeat the process a couple of time to offer different archetypes to your players.
+
+This should help your players find interesting ideas for their characters since constraints are known to aid with creativity.
 
 # In a Nutshell
 
