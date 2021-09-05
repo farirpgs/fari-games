@@ -89,7 +89,7 @@ export function GamePage() {
             <div>
               <Helmet>
                 <title>
-                  {chapter.currentChapter.text} - {chapter.data?.title} - Fari
+                  {`${chapter.currentChapter.text} - ${chapter.data?.title} - Fari Games`}
                   Games
                 </title>
               </Helmet>

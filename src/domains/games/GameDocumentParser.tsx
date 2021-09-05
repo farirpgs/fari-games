@@ -204,21 +204,15 @@ export const GameDocumentParser = {
       searchIndexes: markdown.searchIndexes,
       currentChapter: {
         id: currentChapter?.id || null,
-        text:
-          markdown.dom.querySelector(`#${currentChapter?.id}`)?.textContent ||
-          null,
+        text: currentChapter?.text || null,
       },
       previousChapter: {
         id: previousChapter?.id || null,
-        text:
-          markdown.dom.querySelector(`#${previousChapter?.id}`)?.textContent ||
-          null,
+        text: previousChapter?.text || null,
       },
       next: {
         id: nextChapter?.id || null,
-        text:
-          markdown.dom.querySelector(`#${nextChapter?.id}`)?.textContent ||
-          null,
+        text: nextChapter?.text || null,
       },
     };
   },
