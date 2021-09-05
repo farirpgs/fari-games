@@ -27,10 +27,8 @@ Now let's get to it! ⚡
 
 This game is a work-in-progress. A couple of things are still missing:
 
-- Section: Extras: Mission Extra
-- Section: Extras: Duel Extra
-- Section: Extras: more extras from me and the community
-- Section: Playing the Game (GM and Players best practices)
+- Section: Extras: more extras from us and the community
+- Section: Playing the Game with GM and Players best practices
 - Section: Changing/Hacking the Game
 - More examples
 
@@ -58,21 +56,30 @@ Charge is generic, which means you get to pick the world and setting you want to
 
 Because settings can differ greatly, Charge's game mechanics were made with very specific goals in mind to help you create the story you want to tell.
 
-## Charge's
+## The Idea Behind Charge
 
-The two main pillars of this game are Characters and Story Style.
+Here a some things that makes Charge special compare to other games you might have played before.
 
-**First, it should be easy to create a character for any setting.**
+**It's easy to create characters for any settings.**
 
-> Characters should be easy to define, yet still unique. They should also be generic enough that players can create them in the setting they are most interested in.
+> Characters are easy to define, and still unique in their own way. Charge gives you a good framework to create characters for settings you want.
 >
-> Charge does this by making characters shine using `Character Details` to define who they are, `Actions` to highlight what they are good at, and `Talents` to make them evolve in interesting ways.
+> Charge does this by making characters shine using `Character Details` to define who they are and how they're linked to the world. They have `Actions` to highlight what they are good at, and `Talents` to make them evolve in interesting ways.
 
-**The system should offer dials to have grimmer up to bigger than life adventures.**
+**It offers easy to tune dials and extras to have "grimmer" up to "bigger than life" adventures.**
 
-> From a post-apocalyptic survival adventure where each bullet counts, to a grand space opera where the heroes always prevail, the mechanics should be easily tunable to reflect the kind of story you want to tell.
+> From a post-apocalyptic survival adventure where each bullet counts, to a grand space opera where the heroes always prevail, the mechanics are easily tunable to reflect the kind of story you want to tell.
+> 
+> Either adjust the main difficulty setting of the game, or use one of the many `Extras` provided to play the way you want to.
 
-You will probably like this game if:
+**It is both a utility belt, and a toolbox.**
+
+> Charge is a toolbox, because it has a set of mechanics to resolve narrative problems in multiple different ways. It is also a utility belt, since it gives you a default way to play that's easy to pick-up and use.
+> 
+> Play it as is, or hack it as your want. 
+
+
+You will like this game if:
 
 - you like narrative-focused systems
 - you like that you can play in any setting
@@ -356,7 +363,7 @@ A situational bonus represents a boost in `effect`, `position` or `dice pool`, a
 
 You don't need to worry about talents right now, especially if you just started your campaign.
 
-When your campaign reaches a significant turning point, you can read [**Mechanics&nbsp;»&nbsp;Progression**](progression#major-milestones) to know how to make the characters feel more powerful.
+When your campaign reaches a significant turning point, you can read [**Mechanics&nbsp;»&nbsp;Progression**](progression#milestones) to know how to make the characters feel more powerful.
 
 ## Projects and Complications
 
@@ -389,7 +396,7 @@ Now we will go over all the mechanics used in the game that exist to resolve unk
 
 This means that the GM and the players tell a story, and afterwards look at the rules to see if something needs to be resolved using the game's mechanics.
 
-You can see the mechanics as a box of tools to use as needed. They resolve situations where you don't know the direct answers to a question.
+You can see the mechanics in Charge as tools in a box to use as needed. They resolve situations where you don't know the direct answers to a question.
 
 **_Will this character find what they are looking for? Can that character convince this merchant to talk? How will this faction react to this big event? etc._**
 
@@ -1265,19 +1272,43 @@ To make your own details, think of what is important in your setting.
 
 If your setting heavily focuses on which god the PCs worship, than add a `God` detail. If characters have a specific role in the group, add a detail for this as well.
 
-While those descriptors aren't really used by the game mechanics, they are still relevant in highlighting **what is important in your game**.
+While those descriptors aren't *really* used by the game mechanics, they are still relevant in highlighting **what is important in your game**.
 
 ## Hacking the Actions
 
-```
-TODO
-```
+Another great way of to make Charge feel more like *your game* is by adapting or changing the standard `12 actions`.
+
+### Changing the Words
+
+Words are important. When carefully chosen, they help convey a meaning. 
+
+Charge comes with a default set of generic actions. Because they are generic, they might not necessarily fit with the setting you've chosen for your game.
+
+If some of those words feel off in your game, simply change them up. 
+
+Maybe replace `Tinker` by `Craft` or `Hack`. Replace `Sway` by `Negotiate` or `Argue`. Even a small change in word affects the underlying tone of what the action does.
+
+Use this to evoke the genre of your game, and highlight the risky actions that the PCs will be doing.
+
+> #### Number of Actions
+> 
+> If you feel like 12 actions to memorize is too much, you can reduce the list to 9 or even 6 actions.
+> 
+> Reducing the number of actions also means that each action will cover more use-cases. Take that in consideration when choosing the action words.
+> 
+> Also think about the **maximum action rating** (default is 4) and the **starting number of action dots**  (default is 7) character gets at the beginning of a game.
 
 ## Hacking Momentum
 
-```
-TODO
-```
+As mentioned in [**Mechanics&nbsp;»&nbsp;Momentum**](Momentum), the momentum mechanic is pretty much hackable by default because of the existence of the `Momentum Dial`.
+
+When you start a new game, check if the default momentum dial feels good for your setting. 
+
+Do you have a feeling that PCs will gain momentum too often ? Or do you think that when it is gained, the amount gained should be more generous ? There is no perfect answer. Each story is different.
+
+To make your own `Momentum Dial`, simply look at **when** momentum is generated. Then look at **how much** momentum is gained when it's generated. Tweak those two variables until things feel just right.
+
+This is the easiest way to "hack" Charge. It is the main dial that changes the difficulty setting for the group.
 
 ## Hacking Talents
 
