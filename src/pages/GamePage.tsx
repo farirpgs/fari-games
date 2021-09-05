@@ -88,7 +88,10 @@ export function GamePage() {
           <Fade in>
             <div>
               <Helmet>
-                <title>{chapter.data?.title}</title>
+                <title>
+                  {chapter.currentChapter.text} - {chapter.data?.title} - Fari
+                  Games
+                </title>
               </Helmet>
               <Grid container spacing={4}>
                 <Hidden mdDown>

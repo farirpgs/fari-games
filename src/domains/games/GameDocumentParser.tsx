@@ -30,6 +30,10 @@ export type IChapter = {
     text: string;
     level: number;
   }>;
+  currentChapter: {
+    id: string | null;
+    text: string | null;
+  };
   previousChapter: {
     id: string | null;
     text: string | null;
@@ -171,6 +175,7 @@ export const GameDocumentParser = {
     const currentChapterIndex = markdown.chapters.findIndex(
       (c) => c.id === chapterIdToUse
     );
+    const currentChapter = markdown.chapters[currentChapterIndex];
     const previousChapterIndex = currentChapterIndex + -1;
     const previousChapter = markdown.chapters[previousChapterIndex];
 
@@ -197,6 +202,12 @@ export const GameDocumentParser = {
       sidebar: markdown.sidebar,
       data: markdown.data,
       searchIndexes: markdown.searchIndexes,
+      currentChapter: {
+        id: currentChapter?.id || null,
+        text:
+          markdown.dom.querySelector(`#${currentChapter?.id}`)?.textContent ||
+          null,
+      },
       previousChapter: {
         id: previousChapter?.id || null,
         text:
