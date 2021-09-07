@@ -15,6 +15,7 @@ import React, { useContext } from "react";
 import { useLocation } from "react-router-dom";
 import { ReactRouterLink } from "./components/ReactRouterLink/ReactRouterLink";
 import { SettingsContext } from "./contexts/SettingsContext";
+import { track } from "./domains/analytics/track";
 
 export function Navbar() {
   const theme = useTheme();
@@ -97,6 +98,9 @@ export function Navbar() {
                   className={css({ color: "inherit" })}
                   onClick={() => {
                     settingsManager.actions.setThemeMode(undefined);
+                    track("update_theme", {
+                      mode: "system",
+                    });
                   }}
                 >
                   <>
@@ -122,6 +126,9 @@ export function Navbar() {
                       ? "light"
                       : "dark";
                   settingsManager.actions.setThemeMode(newThemeMode);
+                  track("update_theme", {
+                    mode: newThemeMode,
+                  });
                 }}
               >
                 <>

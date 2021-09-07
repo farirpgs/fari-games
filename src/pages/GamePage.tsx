@@ -25,6 +25,7 @@ import { Helmet } from "react-helmet-async";
 import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
 import { MarkdownContent } from "../components/MarkdownContent/MarkdownContent";
 import { ReactRouterLink } from "../components/ReactRouterLink/ReactRouterLink";
+import { track } from "../domains/analytics/track";
 import {
   GameDocumentParser,
   IChapter,
@@ -101,6 +102,7 @@ export function GamePage() {
                 </Hidden>
                 <Grid item sm={12} md={9} lg={6}>
                   {renderContent()}
+                  {renderWidget()}
                 </Grid>
                 <Hidden lgDown>
                   <Grid item xs={3}>
@@ -382,6 +384,11 @@ export function GamePage() {
             if (path) {
               setAutocompleteOpen(false);
               history.push(`/games/${gameSlug}/${path}`);
+              track("search", {
+                search_term: search,
+                game: gameSlug,
+                index: path,
+              });
             }
           }}
           onInputChange={(e, value, reason) => {
@@ -398,6 +405,11 @@ export function GamePage() {
                 onClick={() => {
                   setAutocompleteOpen(false);
                   history.push(`/games/${gameSlug}/${index.path}`);
+                  track("search", {
+                    search_term: search,
+                    game: gameSlug,
+                    index: index.path,
+                  });
                 }}
               >
                 <Box pl=".5rem" width="100%">
@@ -495,7 +507,6 @@ export function GamePage() {
       <>
         <div>
           {renderPreviousNextNavigation()}
-
           <MarkdownContent gameSlug={gameSlug} content={chapter?.html} />
           <Box mt="1rem" />
           <Divider />
@@ -504,6 +515,23 @@ export function GamePage() {
         </div>
       </>
     );
+  }
+
+  function renderWidget() {
+    return null;
+    // if (!chapter?.data.widget) {
+    //   return null;
+    // }
+
+    // return (
+    //   <Box display="flex" justifyContent="center" mt="2rem">
+    //     <div
+    //       dangerouslySetInnerHTML={{
+    //         __html: chapter?.data.widget,
+    //       }}
+    //     />
+    //   </Box>
+    // );
   }
 
   function renderPreviousNextNavigation() {
@@ -518,6 +546,12 @@ export function GamePage() {
             <ReactRouterLink
               to={`/games/${gameSlug}/${chapter.previousChapter.id}`}
               className={css({ color: "inherit", textDecoration: "none" })}
+              onClick={() => {
+                track("go_to_previous", {
+                  game: gameSlug,
+                  index: chapter.previousChapter.id,
+                });
+              }}
             >
               <Button color="inherit">« {chapter.previousChapter.text}</Button>
             </ReactRouterLink>
@@ -528,6 +562,12 @@ export function GamePage() {
             <ReactRouterLink
               to={`/games/${gameSlug}/${chapter.next.id}`}
               className={css({ color: "inherit", textDecoration: "none" })}
+              onClick={() => {
+                track("go_to_next", {
+                  game: gameSlug,
+                  index: chapter.next.id,
+                });
+              }}
             >
               <Button color="inherit"> {chapter.next.text} »</Button>
             </ReactRouterLink>
