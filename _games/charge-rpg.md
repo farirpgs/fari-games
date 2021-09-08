@@ -126,7 +126,7 @@ Now, let us go over what you need to play Charge!
 
 To play Charge, you need:
 
-- Copies of the [Charge RPG Character Sheet](/charge-rpg/character-sheet.pdf)
+- Copies of the [Charge RPG Character Sheet](/documents/charge-rpg/character-sheet.pdf)
 - A pile of index cards
 - A set of six-sided dice. At least 6 would be ideal.
 - A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove quite an endeavour.
@@ -1489,11 +1489,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 
 <details>
 	<summary>
-		[Characer Sheet](/charge-rpg/character-sheet.pdf)
+		[Characer Sheet](/documents/charge-rpg/character-sheet.pdf)
 	</summary>
-	<object data="/charge-rpg/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
-		<embed src="/charge-rpg/character-sheet.pdf">
-			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/charge-rpg/character-sheet.pdf">Download PDF</a>.</p>
+	<object data="/documents/charge-rpg/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
+		<embed src="/documents/charge-rpg/character-sheet.pdf">
+			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/charge-rpg/character-sheet.pdf">Download PDF</a>.</p>
 		</embed>
 	</object>
 </details>
