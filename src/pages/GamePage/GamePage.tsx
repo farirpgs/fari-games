@@ -32,6 +32,7 @@ import {
   ISearchIndex,
   ISidebarItem,
 } from "../../domains/games/GameDocumentParser";
+import { ItchIcon } from "../../icons/ItchIcon";
 
 export function GamePage() {
   const match = useRouteMatch<{
@@ -184,6 +185,9 @@ export function GamePage() {
       return null;
     }
 
+    const shouldRenderSidebarFooter =
+      chapter?.frontMatter?.version || chapter?.frontMatter?.itch;
+
     return (
       <>
         <div
@@ -213,17 +217,39 @@ export function GamePage() {
             {renderCategoriesSideBarItems()}
             {renderRootSideBarItems()}
           </MenuList>
-          {chapter.frontMatter?.version && (
+          {shouldRenderSidebarFooter && (
             <>
               <Divider />
-              <div
-                className={css({
-                  fontFamily: "monospace",
-                  padding: ".5rem 1.5rem",
-                })}
-              >
-                v{chapter.frontMatter?.version}
-              </div>
+              <Box p=".5rem 1.5rem">
+                {chapter.frontMatter?.version && (
+                  <Box
+                    pb=".5rem"
+                    className={css({
+                      fontFamily: "monospace",
+                    })}
+                  >
+                    v{chapter.frontMatter?.version}
+                  </Box>
+                )}
+                {chapter.frontMatter?.itch && (
+                  <Box>
+                    <Button
+                      variant="outlined"
+                      size="small"
+                      color="info"
+                      component={"a"}
+                      href={chapter.frontMatter?.itch}
+                      target="_blank"
+                      className={css({
+                        textTransform: "none",
+                      })}
+                      endIcon={<ItchIcon />}
+                    >
+                      Itch.io
+                    </Button>
+                  </Box>
+                )}
+              </Box>
             </>
           )}
         </div>
@@ -330,6 +356,7 @@ export function GamePage() {
     paddingLeft: string;
   }) {
     const selected = chapterSlug === renderProps.item.path;
+    const title = renderProps.item.title;
     return (
       <MenuItem
         key={renderProps.key}
@@ -357,7 +384,7 @@ export function GamePage() {
               : theme.typography.fontWeightRegular,
           })}
         >
-          {renderProps.item.title}
+          {title}
         </Typography>
       </MenuItem>
     );
@@ -525,17 +552,32 @@ export function GamePage() {
       </Box>
     );
   }
+  function renderAuthor() {
+    if (!chapter?.frontMatter?.author) {
+      return null;
+    }
+
+    return (
+      <Box position="absolute" left=".5rem">
+        <Typography variant="caption" color={theme.palette.text.secondary}>
+          By {chapter?.frontMatter?.author}
+        </Typography>
+      </Box>
+    );
+  }
 
   function renderContent() {
     return (
       <>
         <div className={css({ position: "relative" })}>
           {renderPreviousNextNavigation()}
+          {renderAuthor()}
           {renderTime()}
           <MarkdownContent
             headingFont={chapter?.frontMatter?.headingFont}
             textFont={chapter?.frontMatter?.textFont}
             highlightFont={chapter?.frontMatter?.highlightFont}
+            headingUppercase={chapter?.frontMatter?.headingUppercase}
             gameSlug={gameSlug}
             style={chapter?.style}
             html={chapter?.html}

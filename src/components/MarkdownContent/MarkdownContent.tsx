@@ -9,6 +9,7 @@ export function MarkdownContent(props: {
   headingFont: string | undefined;
   textFont: string | undefined;
   highlightFont: string | undefined;
+  headingUppercase: string | undefined;
 }) {
   const theme = useTheme();
 
@@ -122,26 +123,38 @@ export function MarkdownContent(props: {
             ...(theme.typography.h1 as any),
             fontFamily: props.headingFont,
             borderBottom: `4px solid ${theme.palette.text.primary}`,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
           "& h2": {
             ...(theme.typography.h2 as any),
             fontFamily: props.headingFont,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
           "& h3": {
             ...(theme.typography.h3 as any),
             fontFamily: props.headingFont,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
           "& h4": {
             ...(theme.typography.h4 as any),
             fontFamily: props.headingFont,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
           "& h5": {
             ...(theme.typography.h5 as any),
             fontFamily: props.headingFont,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
           "& h6": {
             ...(theme.typography.h6 as any),
             fontFamily: props.headingFont,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
         })}
         dangerouslySetInnerHTML={{

@@ -29,6 +29,7 @@ type IDocFrontMatter = {
   headingFont: string;
   textFont: string;
   highlightFont: string;
+  headingUppercase: string;
   image: string;
   itch: string;
   widget: string;
