@@ -3,6 +3,10 @@ title: Charge RPG
 description: Power Your Story Telling
 author: René-Pier Deshaies-Gélinas
 image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
+fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap
+headingFont: Oswald
+textFont: inherit
+highlightFont: Oswald
 itch: https://rpdeshaies.itch.io/charge-rpg
 widget: <iframe frameborder="0" src="https://itch.io/embed/1164980?bg_color=1f2834&amp;fg_color=feffff&amp;link_color=d49fdd&amp;border_color=414953" width="552" height="167"><a href="https://rpdeshaies.itch.io/charge-rpg">Charge RPG | Power Your Story Telling by René-Pier Deshaies-Gélinas</a></iframe>
 version: 0.1.1
@@ -28,13 +32,13 @@ Now let's get to it! ⚡
 
 ## Contributing
 
-One of the core part of what makes this game unique is that it **belongs to the community**. 
+One of the core part of what makes this game unique is that it **belongs to the community**.
 
 The game is free, released under an open game license, and welcomes contributions.
 
-Some systems encourage game designers to develop their own games using their rules. Charge, on the other hand, encourages game designers to help make it grow. 
+Some systems encourage game designers to develop their own games using their rules. Charge, on the other hand, encourages game designers to help make it grow.
 
-What we mean by that is that you can: 
+What we mean by that is that you can:
 
 - Suggest core rules updates
 - Provide new Extras
@@ -56,7 +60,6 @@ This game is a work-in-progress. A couple of things are still missing:
 - Section: Extras: more extras from us and the community
 - Section: Playing the Game with GM and Players best practices
 - More examples
-
 
 ## Thanks
 
@@ -671,6 +674,14 @@ Your new condition will affect the narrative permissions of your character and h
 
 When your condition clocked is filled, you can clear all the segments, and your character is taken out for the scene.
 
+## Safety Reminder
+
+Just a quick reminder that if you come up with a consequence during a session, and someone at the table isn't comfortable with it, think of something else.
+
+Pause the game, and make sure everyone is OK with what is happening in the fiction. Once everyone is on the same page, unpause and move forward with a different consequence.
+
+Even with safety mechanics in place, accidents happen. That is why you should always be flexible when you inflict a consequence to the group.
+
 ### Recap
 
 > #### Consequences
@@ -709,14 +720,14 @@ The GM chooses the attribute you use, based on the nature of the consequence:
 
 When you resist consequences, you do it using charges of momentum. Getting a good roll consumes less charge, while bad rolls make you consume more of it.
 
-> | Result | Name               | Explanation                 |
-> | ------ | ------------------ | --------------------------- |
-> | `66`   | `Critical Success` | You gain `+1 momentum`.     |
-> | `6`    | `Full Success`     | You consume `-1 momentum`.  |
-> | `4-5`  | `Partial Success`  | You consume `-2 momentums`. |
-> | `1-3`  | `Bad outcome`      | You consume `-3 momentums`. |
->
-> If you can't consume all the required charges of momentum, the GM inflicts 2 Consequences instead of one, and they cannot be resisted.
+| Result | Name               | Explanation                 |
+| ------ | ------------------ | --------------------------- |
+| `66`   | `Critical Success` | You gain `+1 momentum`.     |
+| `6`    | `Full Success`     | You consume `-1 momentum`.  |
+| `4-5`  | `Partial Success`  | You consume `-2 momentums`. |
+| `1-3`  | `Bad outcome`      | You consume `-3 momentums`. |
+
+If you can't consume all the required charges of momentum, the GM inflicts 2 Consequences instead of one, and they cannot be resisted.
 
 If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Team Work&nbsp;»&nbsp;Protect**](team-work#protect).
 

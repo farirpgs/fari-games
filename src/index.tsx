@@ -1,19 +1,36 @@
-import React, { useContext } from "react";
+import Box from "@material-ui/core/Box";
+import CircularProgress from "@material-ui/core/CircularProgress";
+import Container from "@material-ui/core/Container";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Fade from "@material-ui/core/Fade";
+import { StyledEngineProvider, ThemeProvider } from "@material-ui/core/styles";
+import React, { Suspense, useContext, useEffect } from "react";
 import ReactDom from "react-dom";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { GamePage } from "./pages/GamePage";
-import { HomePage } from "./pages/HomePage";
+import { HelmetProvider } from "react-helmet-async";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  useLocation,
+} from "react-router-dom";
+import { SettingsContext, useSettings } from "./contexts/SettingsContext";
 import { Navbar } from "./Navbar";
 import { darkTheme, lightTheme } from "./theme";
 
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-import { HelmetProvider } from "react-helmet-async";
-import { StyledEngineProvider, ThemeProvider } from "@material-ui/core/styles";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import Box from "@material-ui/core/Box";
-import { useSettings, SettingsContext } from "./contexts/SettingsContext";
-import PrintGamePage from "./pages/PrintGamePage";
+const GamePage = React.lazy(() => import("./pages/GamePage/GamePage"));
+const HomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
+const NotFoundPage = React.lazy(
+  () => import("./pages/NotFoundPage/NotFoundPage")
+);
+const PrintGamePage = React.lazy(
+  () => import("./pages/PrintGamePage/PrintGamePage")
+);
+const ShopAuthorPage = React.lazy(
+  () => import("./pages/ShopPage/ShopAuthorPage")
+);
+const ShopAuthorProductPage = React.lazy(
+  () => import("./pages/ShopPage/ShopAuthorProductPage")
+);
 
 export default function ScrollToTop() {
   const { pathname } = useLocation();
@@ -51,19 +68,58 @@ function App() {
             <Router>
               <ScrollToTop />
               <Navbar />
-              <Switch>
-                <Route exact path="/" component={HomePage} />{" "}
-                <Route
-                  exact
-                  path="/games/print/:game/:chapter?"
-                  component={PrintGamePage}
-                />
-                <Route
-                  exact
-                  path="/games/:game/:chapter?"
-                  component={GamePage}
-                />
-              </Switch>
+              <Suspense
+                fallback={
+                  <Fade in>
+                    <Container maxWidth="md">
+                      <Box
+                        display="flex"
+                        justifyContent="center"
+                        margin="3rem 0"
+                      >
+                        <CircularProgress />
+                      </Box>
+                    </Container>
+                  </Fade>
+                }
+              >
+                <Switch>
+                  <Route exact path="/" component={HomePage} />
+
+                  <Route
+                    exact
+                    path="/games/print/:game/:chapter?"
+                    component={PrintGamePage}
+                  />
+                  <Route
+                    exact
+                    path="/games/:author/:game/:chapter?"
+                    component={GamePage}
+                  />
+
+                  <Route
+                    exact
+                    path={"/shop/a/:authorSlug/"}
+                    render={() => {
+                      return <ShopAuthorPage />;
+                    }}
+                  />
+                  <Route
+                    exact
+                    path={"/shop/p/:authorSlug/:productSlug"}
+                    render={() => {
+                      return <ShopAuthorProductPage />;
+                    }}
+                  />
+                  <Route
+                    path="*"
+                    render={() => {
+                      return <NotFoundPage />;
+                    }}
+                  />
+                </Switch>
+              </Suspense>
+
               <Box mb="50vh" />
             </Router>
           </ThemeProvider>

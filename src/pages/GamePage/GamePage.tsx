@@ -5,7 +5,6 @@ import Autocomplete, {
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
 import Collapse from "@material-ui/core/Collapse";
-import Container from "@material-ui/core/Container";
 import Divider from "@material-ui/core/Divider";
 import Drawer from "@material-ui/core/Drawer";
 import Fade from "@material-ui/core/Fade";
@@ -23,19 +22,25 @@ import MenuIcon from "@material-ui/icons/Menu";
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
-import { MarkdownContent } from "../components/MarkdownContent/MarkdownContent";
-import { ReactRouterLink } from "../components/ReactRouterLink/ReactRouterLink";
-import { track } from "../domains/analytics/track";
+import { MarkdownContent } from "../../components/MarkdownContent/MarkdownContent";
+import { Page } from "../../components/Page/Page";
+import { ReactRouterLink } from "../../components/ReactRouterLink/ReactRouterLink";
+import { track } from "../../domains/analytics/track";
 import {
   GameDocumentParser,
   IChapter,
   ISearchIndex,
   ISidebarItem,
-} from "../domains/games/GameDocumentParser";
+} from "../../domains/games/GameDocumentParser";
 
 export function GamePage() {
-  const match = useRouteMatch<{ game: string; chapter: string }>();
+  const match = useRouteMatch<{
+    author: string;
+    game: string;
+    chapter: string;
+  }>();
 
+  const author = match.params.author;
   const gameSlug = match.params.game;
   const chapterSlug = match.params.chapter;
   const [autocompleteOpen, setAutocompleteOpen] = useState(false);
@@ -76,23 +81,30 @@ export function GamePage() {
   useEffect(() => {
     load();
     async function load() {
-      const result = await GameDocumentParser.getChapter(gameSlug, chapterSlug);
+      const result = await GameDocumentParser.getChapter(
+        author,
+        gameSlug,
+        chapterSlug
+      );
 
       setChapter(result);
     }
-  }, [gameSlug, chapterSlug]);
+  }, [author, gameSlug, chapterSlug]);
 
   return (
     <>
-      <Container maxWidth="xl">
+      <Page
+        title={`${chapter?.currentChapter.text} - ${chapter?.frontMatter?.title}`}
+        box={{ mt: "2rem" }}
+        container={{ maxWidth: "xl" }}
+      >
         {chapter && (
           <Fade in>
             <div>
               <Helmet>
-                <title>
-                  {`${chapter.currentChapter.text} - ${chapter.data?.title} - Fari Games`}
-                  Games
-                </title>
+                {chapter.frontMatter?.fonts?.split(",").map((font) => {
+                  return <link key={font} href={font} rel="stylesheet" />;
+                })}
               </Helmet>
               <Grid container spacing={4}>
                 <Hidden mdDown>
@@ -129,7 +141,7 @@ export function GamePage() {
             </div>
           </Fade>
         )}
-      </Container>
+      </Page>
     </>
   );
 
@@ -184,13 +196,13 @@ export function GamePage() {
             overflowY: "auto",
           })}
         >
-          {chapter?.data?.image && (
+          {chapter?.frontMatter?.image && (
             <div
               className={css({
                 width: "100%",
                 height: "8rem",
                 zIndex: -1,
-                background: `url("${chapter?.data?.image}")`,
+                background: `url("${chapter?.frontMatter?.image}")`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -201,7 +213,7 @@ export function GamePage() {
             {renderCategoriesSideBarItems()}
             {renderRootSideBarItems()}
           </MenuList>
-          {chapter.data.version && (
+          {chapter.frontMatter?.version && (
             <>
               <Divider />
               <div
@@ -210,7 +222,7 @@ export function GamePage() {
                   padding: ".5rem 1.5rem",
                 })}
               >
-                v{chapter.data.version}
+                v{chapter.frontMatter?.version}
               </div>
             </>
           )}
@@ -278,7 +290,6 @@ export function GamePage() {
                     className={css({
                       // fontWeight: theme.typography.fontWeightBold,
                       // textTransform: "uppercase",
-                      // fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
                     })}
                   >
                     {categoryName}
@@ -327,7 +338,7 @@ export function GamePage() {
           setMobileMenuOpen(false);
         }}
         selected={selected}
-        to={`/games/${gameSlug}/${renderProps.item.path}`}
+        to={`/games/${author}/${gameSlug}/${renderProps.item.path}`}
         className={css({
           color: "inherit",
           textDecoration: "none",
@@ -344,8 +355,6 @@ export function GamePage() {
             fontWeight: selected
               ? theme.typography.fontWeightBold
               : theme.typography.fontWeightRegular,
-
-            // fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
           })}
         >
           {renderProps.item.title}
@@ -383,7 +392,7 @@ export function GamePage() {
             const path = (newValue as ISearchIndex).path;
             if (path) {
               setAutocompleteOpen(false);
-              history.push(`/games/${gameSlug}/${path}`);
+              history.push(`/games/${author}/${gameSlug}/${path}`);
               track("search", {
                 search_term: search,
                 game: gameSlug,
@@ -404,7 +413,9 @@ export function GamePage() {
                 {...props}
                 onClick={() => {
                   setAutocompleteOpen(false);
-                  history.push(`/games/${gameSlug}/${index.path}`);
+                  history.push(
+                    `/games/${author}//games/${gameSlug}/${index.path}`
+                  );
                   track("search", {
                     search_term: search,
                     game: gameSlug,
@@ -502,12 +513,33 @@ export function GamePage() {
     );
   }
 
+  function renderTime() {
+    const wordsPerMinute = 130;
+    const numberOfWordsInChapter = chapter?.numberOfWordsInChapter ?? 0;
+    const time = Math.round(numberOfWordsInChapter / wordsPerMinute);
+    return (
+      <Box position="absolute" right=".5rem">
+        <Typography variant="caption" color={theme.palette.text.secondary}>
+          {time > 0 ? time : 1} min read
+        </Typography>
+      </Box>
+    );
+  }
+
   function renderContent() {
     return (
       <>
-        <div>
+        <div className={css({ position: "relative" })}>
           {renderPreviousNextNavigation()}
-          <MarkdownContent gameSlug={gameSlug} content={chapter?.html} />
+          {renderTime()}
+          <MarkdownContent
+            headingFont={chapter?.frontMatter?.headingFont}
+            textFont={chapter?.frontMatter?.textFont}
+            highlightFont={chapter?.frontMatter?.highlightFont}
+            gameSlug={gameSlug}
+            style={chapter?.style}
+            html={chapter?.html}
+          />
           <Box mt="1rem" />
           <Divider />
           <Box mb="1rem" />
@@ -519,15 +551,14 @@ export function GamePage() {
 
   function renderWidget() {
     return null;
-    // if (!chapter?.data.widget) {
+    // if (!chapter?.frontMatter.widget) {
     //   return null;
     // }
-
     // return (
     //   <Box display="flex" justifyContent="center" mt="2rem">
     //     <div
     //       dangerouslySetInnerHTML={{
-    //         __html: chapter?.data.widget,
+    //         __html: chapter?.frontMatter.widget,
     //       }}
     //     />
     //   </Box>
@@ -540,11 +571,16 @@ export function GamePage() {
     }
 
     return (
-      <Grid container spacing={1} justifyContent="space-between">
+      <Grid
+        container
+        spacing={1}
+        justifyContent="space-between"
+        alignItems="center"
+      >
         <Grid item>
           {chapter.previousChapter.id && (
             <ReactRouterLink
-              to={`/games/${gameSlug}/${chapter.previousChapter.id}`}
+              to={`/games/${author}/${gameSlug}/${chapter.previousChapter.id}`}
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_previous", {
@@ -560,7 +596,7 @@ export function GamePage() {
         <Grid item>
           {chapter.next.id && (
             <ReactRouterLink
-              to={`/games/${gameSlug}/${chapter.next.id}`}
+              to={`/games/${author}/${gameSlug}/${chapter.next.id}`}
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_next", {
@@ -577,3 +613,5 @@ export function GamePage() {
     );
   }
 }
+
+export default GamePage;

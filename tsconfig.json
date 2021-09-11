@@ -16,6 +16,6 @@
     ],
     "types": ["vite/client"]
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "data/**/*"],
   "exclude": ["node_modules", "cypress"]
 }
