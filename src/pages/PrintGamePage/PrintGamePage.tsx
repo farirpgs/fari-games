@@ -10,15 +10,25 @@ import {
 } from "../../domains/games/GameDocumentParser";
 
 export function PrintGamePage() {
-  const match = useRouteMatch<{ author: string; game: string }>();
+  const match =
+    useRouteMatch<{
+      author: string;
+      game: string;
+      language: string | undefined;
+    }>();
   const gameSlug = match.params.game;
   const author = match.params.author;
+  const language = match.params.language;
   const [game, setGame] = useState<IGameContent>();
 
   useEffect(() => {
     load();
     async function load() {
-      const result = await GameDocumentParser.getGameContent(author, gameSlug);
+      const result = await GameDocumentParser.getGameContent({
+        author: author,
+        game: gameSlug,
+        language: language,
+      });
 
       setGame(result);
     }
@@ -35,6 +45,7 @@ export function PrintGamePage() {
             <Grid container spacing={4}>
               <Grid item sm={12} md={9} lg={6}>
                 <MarkdownContent
+                  headingUppercase={game.frontMatter.headingUppercase}
                   headingFont={game?.frontMatter?.headingFont}
                   textFont={game?.frontMatter?.textFont}
                   highlightFont={game?.frontMatter?.highlightFont}
