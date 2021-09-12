@@ -128,7 +128,7 @@ Well, first of all they are combat games. So if your players are dishing out pai
 
 Second, losing all your Health doesn’t mean you’re dead. Instead, some sort of penalty for “death” occurs, and then the character gets right back into the fight. In LIGHT, Beacons become corrupted with Darkness with each death and resurrection, which messes with how their Attribute rolls work.
 
-<ins>Designing Health</ins>
+### Designing Health
 
 LUMEN games are intended to be quick in combat, which means both PCs and enemies are bags of hit points. Most enemies will deal 1-2 Harm when they get the chance, and so LUMEN classes should begin with 5-10 Health, depending on how risky you want to make fights in your game.
 
@@ -149,7 +149,7 @@ Energy, fuel, ammo, whatever you want to call it, the characters have a limited 
 
 Before we talk about Powers, we should discuss what else you can do with the Resource. At minimum, it is there to activate Powers. But, you may decide to allow the Resource to accomplish other things.
 
-    _For example, in LIGHT, the resource is called Light. Beyond using Powers, Light allowed the characters to resurrect when they died, reroll Attribute rolls, and shrug off huge amounts of damage._
+> For example, in LIGHT, the resource is called Light. Beyond using Powers, Light allowed the characters to resurrect when they died, reroll Attribute rolls, and shrug off huge amounts of damage.
 
 You do not need to include alternative uses for the Resource. But if you do, you will need to ensure you have tools in place for the characters to recover it, otherwise they will be scared to use it ever. Who among us hasn’t hoarded a healing potion throughout the playthrough of a game worried you’d use it at the wrong time? Let’s avoid that.
 
