@@ -4,6 +4,8 @@ export const gameDocuments: Record<
 > = {
   "fari-games/charge-rpg": () => import("./fari-games/charge-rpg.md?raw"),
   "evilhat/fate-condensed": () => import("./evilhat/fate-condensed.md?raw"),
+  "evilhat/fate-condensed_pt-br": () =>
+    import("./evilhat/fate-condensed_pt-br.md?raw"),
   "evilhat/fate-accelerated": () => import("./evilhat/fate-accelerated.md?raw"),
   "evilhat/fate-core": () => import("./evilhat/fate-core.md?raw"),
   "gilarpgs/lumen": () => import("./gilarpgs/lumen.md?raw"),

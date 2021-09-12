@@ -12,12 +12,12 @@ import produce from "immer";
 import React, { useMemo } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
+import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 import { ItchIcon } from "../../../icons/ItchIcon";
 import {
   driveThruRpgAffiliateCode,
   itchIoAffiliateCode,
 } from "../configs/games";
-import { ShopLink } from "../domains/ShopLink";
 
 export function useThemeFromColor(color: string, mode?: any) {
   const defaultTheme = useTheme();
@@ -87,7 +87,7 @@ export function ProductDetails(props: {
               })}
             >
               <ReactRouterLink
-                to={ShopLink.makeGameLink(props.game)}
+                to={AppLinksFactory.makeProductLink(props.game)}
                 className={css({
                   color: productTheme.palette.text.primary,
                   cursor: props.clickable ? "pointer" : "text",
@@ -196,7 +196,7 @@ export function ProductDetails(props: {
         <Hidden smDown>
           <Grid item xs={12} sm={4} md={6}>
             <ReactRouterLink
-              to={ShopLink.makeGameLink(props.game)}
+              to={AppLinksFactory.makeProductLink(props.game)}
               className={css({
                 cursor: "pointer",
               })}

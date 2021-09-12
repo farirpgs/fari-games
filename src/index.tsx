@@ -22,9 +22,7 @@ const HomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
 const NotFoundPage = React.lazy(
   () => import("./pages/NotFoundPage/NotFoundPage")
 );
-const PrintGamePage = React.lazy(
-  () => import("./pages/PrintGamePage/PrintGamePage")
-);
+
 const ShopAuthorPage = React.lazy(
   () => import("./pages/ShopPage/ShopAuthorPage")
 );
@@ -88,8 +86,8 @@ function App() {
 
                   <Route
                     exact
-                    path="/games/print/:game/:chapter?"
-                    component={PrintGamePage}
+                    path="/games/:author/:game/:chapter?"
+                    component={GamePage}
                   />
                   <Route
                     exact
@@ -99,14 +97,25 @@ function App() {
 
                   <Route
                     exact
-                    path={"/shop/a/:authorSlug/"}
+                    path="/games/t/:language/:author/:game/:chapter?"
+                    component={GamePage}
+                  />
+                  <Route
+                    exact
+                    path="/games/t/:language/:author/:game/:chapter?"
+                    component={GamePage}
+                  />
+
+                  <Route
+                    exact
+                    path={"/browse/a/:authorSlug/"}
                     render={() => {
                       return <ShopAuthorPage />;
                     }}
                   />
                   <Route
                     exact
-                    path={"/shop/p/:authorSlug/:productSlug"}
+                    path={"/browse/p/:authorSlug/:productSlug"}
                     render={() => {
                       return <ShopAuthorProductPage />;
                     }}

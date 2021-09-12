@@ -22,18 +22,19 @@ export type ISidebarItem = {
 };
 
 type IDocFrontMatter = {
-  title: string;
-  description: string;
-  author: string;
-  fonts: string;
-  headingFont: string;
-  textFont: string;
-  highlightFont: string;
-  headingUppercase: string;
-  image: string;
-  itch: string;
-  widget: string;
-  version: string;
+  title?: string;
+  description?: string;
+  author?: string;
+  fonts?: string;
+  headingFont?: string;
+  textFont?: string;
+  highlightFont?: string;
+  headingUppercase?: string;
+  image?: string;
+  itch?: string;
+  widget?: string;
+  version?: string;
+  languages?: string;
 };
 
 export type IChapter = {
@@ -79,11 +80,18 @@ export type ISearchIndex = {
 };
 
 export const GameDocumentParser = {
-  async getGameContent(author: string, game: string): Promise<IGameContent> {
+  async getGameContent(props: {
+    author: string;
+    game: string;
+    language: string | undefined;
+  }): Promise<IGameContent> {
     // const { default: fileContent } = await import(
     //   `../../../data/game-documents/${author}/${game}.md`
     // );
-    const { default: fileContent } = await gameDocuments[`${author}/${game}`]();
+    const link = props.language
+      ? `${props.author}/${props.game}_${props.language}`
+      : `${props.author}/${props.game}`;
+    const { default: fileContent } = await gameDocuments[link]();
 
     const frontMatter = parseFrontMatter(fileContent) as IDocFrontMatter;
 
@@ -179,13 +187,18 @@ export const GameDocumentParser = {
       searchIndexes,
     };
   },
-  async getChapter(
-    author: string,
-    game: string,
-    chapterId: string
-  ): Promise<IChapter> {
-    const markdown = await GameDocumentParser.getGameContent(author, game);
-    const chapterIdToUse = chapterId ?? markdown.chapters[0]?.id;
+  async getChapter(props: {
+    author: string;
+    game: string;
+    chapterId: string;
+    language: string | undefined;
+  }): Promise<IChapter> {
+    const markdown = await GameDocumentParser.getGameContent({
+      author: props.author,
+      game: props.game,
+      language: props.language,
+    });
+    const chapterIdToUse = props.chapterId ?? markdown.chapters[0]?.id;
     const currentChapterIndex = markdown.chapters.findIndex(
       (c) => c.id === chapterIdToUse
     );

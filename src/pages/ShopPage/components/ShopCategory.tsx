@@ -5,11 +5,11 @@ import shuffle from "lodash/shuffle";
 import React, { useMemo } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { Settings } from "react-slick";
-import { arraySort } from "../../../domains/array/arraySort";
-import { ShopLink } from "../domains/ShopLink";
-import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
-import { BetterSlider } from "./BetterSlider";
 import { shopProducts } from "../../../../data/shop/shopProducts";
+import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
+import { arraySort } from "../../../domains/array/arraySort";
+import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
+import { BetterSlider } from "./BetterSlider";
 
 export function useGames(
   tags: string | undefined,
@@ -100,7 +100,7 @@ export function ShopCategory(props: {
     const gap = ".5rem";
     return (
       <ReactRouterLink
-        to={ShopLink.makeGameLink(game)}
+        to={AppLinksFactory.makeProductLink(game)}
         className={css({
           position: "relative",
           cursor: "pointer",

@@ -11,10 +11,10 @@ import { useRouteMatch } from "react-router";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { shopProducts } from "../../../data/shop/shopProducts";
 import { Page } from "../../components/Page/Page";
+import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
 import { MoreByAuthor } from "./components/MoreByAuthor";
 import { ProductDetails } from "./components/ProductDetails";
 import { ShopCategory } from "./components/ShopCategory";
-import { ShopLink } from "./domains/ShopLink";
 
 export function ShopCreatorProductPage() {
   const match = useRouteMatch<{ authorSlug: string; productSlug: string }>();
@@ -40,12 +40,16 @@ export function ShopCreatorProductPage() {
           <Container>
             <Box mb="2rem">
               <Breadcrumbs aria-label="breadcrumb">
-                <Link color="inherit" to="/" component={ReactRouterLink}>
-                  Shop
+                <Link
+                  color="inherit"
+                  to={AppLinksFactory.makeHomeLink()}
+                  component={ReactRouterLink}
+                >
+                  Browse
                 </Link>
                 <Link
                   color="inherit"
-                  to={ShopLink.makeAuthorLink(selectedGame)}
+                  to={AppLinksFactory.makeAuthorLink(selectedGame)}
                   component={ReactRouterLink}
                 >
                   {selectedGame?.author}

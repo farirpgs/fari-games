@@ -9,6 +9,7 @@ import { useRouteMatch } from "react-router";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { shopProducts } from "../../../data/shop/shopProducts";
 import { Page } from "../../components/Page/Page";
+import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
 import { MoreByAuthor } from "./components/MoreByAuthor";
 
 export function ShopAuthorPage() {
@@ -28,8 +29,12 @@ export function ShopAuthorPage() {
           <Container>
             <Box mb="2rem">
               <Breadcrumbs aria-label="breadcrumb">
-                <Link color="inherit" to="/" component={ReactRouterLink}>
-                  Shop
+                <Link
+                  color="inherit"
+                  to={AppLinksFactory.makeHomeLink()}
+                  component={ReactRouterLink}
+                >
+                  Browse
                 </Link>
 
                 <Typography color="textPrimary">{firstGame.author}</Typography>

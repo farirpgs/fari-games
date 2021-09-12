@@ -13,6 +13,7 @@ import Hidden from "@material-ui/core/Hidden";
 import IconButton from "@material-ui/core/IconButton";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
+import NativeSelect from "@material-ui/core/NativeSelect";
 import Stack from "@material-ui/core/Stack";
 import { useTheme } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
@@ -32,6 +33,7 @@ import {
   ISearchIndex,
   ISidebarItem,
 } from "../../domains/games/GameDocumentParser";
+import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
 import { ItchIcon } from "../../icons/ItchIcon";
 
 export function GamePage() {
@@ -39,11 +41,14 @@ export function GamePage() {
     author: string;
     game: string;
     chapter: string;
+    language: string | undefined;
   }>();
 
   const author = match.params.author;
   const gameSlug = match.params.game;
   const chapterSlug = match.params.chapter;
+  const language = match.params.language;
+
   const [autocompleteOpen, setAutocompleteOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [chapter, setChapter] = useState<IChapter>();
@@ -82,15 +87,16 @@ export function GamePage() {
   useEffect(() => {
     load();
     async function load() {
-      const result = await GameDocumentParser.getChapter(
-        author,
-        gameSlug,
-        chapterSlug
-      );
+      const result = await GameDocumentParser.getChapter({
+        author: author,
+        game: gameSlug,
+        chapterId: chapterSlug,
+        language: language,
+      });
 
       setChapter(result);
     }
-  }, [author, gameSlug, chapterSlug]);
+  }, [author, gameSlug, chapterSlug, language]);
 
   return (
     <>
@@ -120,6 +126,7 @@ export function GamePage() {
                 <Hidden lgDown>
                   <Grid item xs={3}>
                     {renderSearchBar()}
+                    {renderLanguageBar()}
                     {renderToc()}
                   </Grid>
                 </Hidden>
@@ -365,7 +372,11 @@ export function GamePage() {
           setMobileMenuOpen(false);
         }}
         selected={selected}
-        to={`/games/${author}/${gameSlug}/${renderProps.item.path}`}
+        to={AppLinksFactory.makeGameChapterLink(
+          author,
+          gameSlug,
+          renderProps.item.path
+        )}
         className={css({
           color: "inherit",
           textDecoration: "none",
@@ -419,7 +430,9 @@ export function GamePage() {
             const path = (newValue as ISearchIndex).path;
             if (path) {
               setAutocompleteOpen(false);
-              history.push(`/games/${author}/${gameSlug}/${path}`);
+              history.push(
+                AppLinksFactory.makeGameChapterLink(author, gameSlug, path)
+              );
               track("search", {
                 search_term: search,
                 game: gameSlug,
@@ -441,7 +454,11 @@ export function GamePage() {
                 onClick={() => {
                   setAutocompleteOpen(false);
                   history.push(
-                    `/games/${author}//games/${gameSlug}/${index.path}`
+                    AppLinksFactory.makeGameChapterLink(
+                      author,
+                      gameSlug,
+                      index.path
+                    )
                   );
                   track("search", {
                     search_term: search,
@@ -492,6 +509,42 @@ export function GamePage() {
             />
           )}
         />
+      </>
+    );
+  }
+
+  function renderLanguageBar() {
+    if (!chapter?.frontMatter?.languages) {
+      return null;
+    }
+    const languages = chapter?.frontMatter?.languages.split(",");
+
+    const languageLabels: Record<string, string> = {
+      en: "English",
+      "pt-br": "Português",
+    };
+
+    return (
+      <>
+        <Box mt=".5rem" display="flex" justifyContent="flex-end">
+          <NativeSelect
+            defaultValue={language}
+            onChange={(event) => {
+              const language = event.target.value;
+              history.push(
+                AppLinksFactory.makeGameLink(author, gameSlug, language)
+              );
+            }}
+          >
+            {languages.map((language, index) => {
+              return (
+                <option key={index} value={language}>
+                  {languageLabels[language] ?? language}
+                </option>
+              );
+            })}
+          </NativeSelect>
+        </Box>
       </>
     );
   }
@@ -622,7 +675,11 @@ export function GamePage() {
         <Grid item>
           {chapter.previousChapter.id && (
             <ReactRouterLink
-              to={`/games/${author}/${gameSlug}/${chapter.previousChapter.id}`}
+              to={AppLinksFactory.makeGameChapterLink(
+                author,
+                gameSlug,
+                chapter.previousChapter.id
+              )}
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_previous", {
@@ -638,7 +695,11 @@ export function GamePage() {
         <Grid item>
           {chapter.next.id && (
             <ReactRouterLink
-              to={`/games/${author}/${gameSlug}/${chapter.next.id}`}
+              to={AppLinksFactory.makeGameChapterLink(
+                author,
+                gameSlug,
+                chapter.next.id
+              )}
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_next", {

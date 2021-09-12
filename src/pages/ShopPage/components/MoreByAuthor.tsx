@@ -6,7 +6,7 @@ import React from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { shopProducts } from "../../../../data/shop/shopProducts";
 import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
-import { ShopLink } from "../domains/ShopLink";
+import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 
 export function MoreByAuthor(props: {
   authorSlug: string | undefined;
@@ -38,7 +38,7 @@ export function MoreByAuthor(props: {
           return (
             <Grid item key={i}>
               <ReactRouterLink
-                to={ShopLink.makeGameLink(game)}
+                to={AppLinksFactory.makeProductLink(game)}
                 className={css({
                   position: "relative",
                   cursor: "pointer",
