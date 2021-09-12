@@ -1160,6 +1160,35 @@ To make those moments shine even more, the GM can reward that player with an `As
 
 This is how the GM says: this was amazing, here's `+1d6` or `increased effect` for a future roll.
 
+
+# Solo Extra | Extras
+
+**By Valdy**
+
+Sometimes you want to play a game with only one Player Character, and other moments you are alone or your team was taken out.
+
+This extra is for these moments.
+
+## The Last Standing Rule
+
+> When you are alone, you are `The Last Standing`.
+> If this happens, `Pushing Yourself` will only cost `1 Momentum per Push`.
+
+### Why to use this?
+
+This is intended to those moments when, you are by yourself, you are the last hope, and then you find a new flame that allows you to overcome the impossible odds stacked against you.
+
+### Design considerations
+
+I have a tendency to make one to one games (one GM and one player), and Charge revolves around Momentum being gained and spent.
+
+Almost all mechanics about spending Momentum relies on having someone else available to assist you. So, by reducing the cost of Pushing Yourself, you allow for a higher flow of Momentum, which is more fair since no one can Assist, Take the Lead, and so on.
+
+So, in short:
+- If you are alone, you have fewer options to be awesome.
+- So we reduce the cost of the remaining options.
+- This allow Solo situations to be equally awesome.
+
 # Mission Extra | Extras
 
 <p style="font-size:3rem; text-align:center; margin:0;">👷‍♀️ 🚧 🚧 🚧 👷</p>
