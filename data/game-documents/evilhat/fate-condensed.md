@@ -2,6 +2,7 @@
 title: Fate Condensed
 author: Evil Hat Productions
 image: https://gyazo.com/4ea53966f3171861e0773fe111a7a3e7.png
+languages: en,pt-br
 ---
 
 <style>
