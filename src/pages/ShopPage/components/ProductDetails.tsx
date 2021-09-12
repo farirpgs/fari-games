@@ -123,6 +123,7 @@ export function ProductDetails(props: {
                   {props.game.document && (
                     <Grid item>
                       <Button
+                        size="large"
                         variant="contained"
                         component={ReactRouterLink}
                         to={`/games/${props.game.authorSlug}/${props.game.slug}`}

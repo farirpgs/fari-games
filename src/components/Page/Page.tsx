@@ -5,7 +5,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 
 export function Page(props: {
-  title: string;
+  title?: string;
   children: React.ReactNode;
   box?: BoxProps;
   container?: ContainerProps;
@@ -13,7 +13,11 @@ export function Page(props: {
   return (
     <>
       <Helmet>
-        <title>{props.title ?? ""} - Fari Games</title>
+        <title>
+          {props.title
+            ? `${props.title} - Fari Games`
+            : "Fari Games - Build Great Games"}
+        </title>
       </Helmet>
       <Box {...props.box}>
         {props.container ? (

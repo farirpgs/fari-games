@@ -5,7 +5,7 @@ import ShopPage from "../ShopPage/ShopPage";
 export function HomePage() {
   return (
     <>
-      <Page title="Build Great Games">
+      <Page>
         <ShopPage />
       </Page>
     </>
