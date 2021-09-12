@@ -1,5 +1,5 @@
 import kebabCase from "lodash/kebabCase";
-import { gameDocuments } from "../../../data/game-documents/gameDocuments.bak";
+import { gameDocuments } from "../../../data/game-documents/gameDocuments";
 import { MarkdownParser } from "./MarkdownParser";
 
 export type IChapterListItem = {

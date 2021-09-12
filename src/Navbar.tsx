@@ -85,7 +85,7 @@ export function Navbar() {
                     textDecoration: "none",
                   })}
                 >
-                  <Button color="inherit">Charge RPG</Button>
+                  <Button color="inherit">Charge RPG ⚡ </Button>
                 </ReactRouterLink>
               </Grid>
             </Hidden>
