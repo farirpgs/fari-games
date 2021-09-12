@@ -1,18 +1,25 @@
 import { css } from "@emotion/css";
 import { useTheme } from "@material-ui/core/styles";
 import React from "react";
-import { Helmet } from "react-helmet-async";
-import { GameSettings } from "../../domains/games/GameDocumentParser";
 
 export function MarkdownContent(props: {
   gameSlug: string;
-  content: string | undefined;
+  style: string | undefined;
+  html: string | undefined;
+  headingFont: string | undefined;
+  textFont: string | undefined;
+  highlightFont: string | undefined;
+  headingUppercase: string | undefined;
 }) {
   const theme = useTheme();
 
   return (
     <>
-      <Helmet>{GameSettings[props.gameSlug].head}</Helmet>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: props.style ?? "",
+        }}
+      />
       <div
         className={css({
           "& blockquote": {
@@ -25,7 +32,7 @@ export function MarkdownContent(props: {
           "& code": {
             // background: "rgba(255, 229, 100, 0.4)",
             // fontFamily: "inherit",
-            fontFamily: GameSettings[props.gameSlug].fontFamilies.join(","),
+            fontFamily: props.highlightFont,
             fontWeight: theme.typography.fontWeightBold,
             // fontSize: "1.05em",
           },
@@ -38,11 +45,10 @@ export function MarkdownContent(props: {
               background: "none",
             },
           },
-          "& strong": {
-            // fontFamily: GameSettings[props.game].fontFamilies.join(","),
-          },
+          "& strong": {},
           "& p": {
             ...(theme.typography.body1 as any),
+            fontFamily: props.textFont,
           },
           "& a": {
             color: theme.palette.secondary.main,
@@ -71,7 +77,7 @@ export function MarkdownContent(props: {
                 ),
                 textAlign: "left",
                 padding: ".5rem",
-                fontFamily: GameSettings[props.gameSlug].fontFamilies.join(","),
+                fontFamily: props.highlightFont,
                 borderBottom: `1px solid ${theme.palette.divider}`,
                 "&:not(:first-child)": {
                   borderLeft: `1px solid ${theme.palette.divider}`,
@@ -115,32 +121,44 @@ export function MarkdownContent(props: {
           },
           "& h1": {
             ...(theme.typography.h1 as any),
-            fontFamily: GameSettings[props.gameSlug].fontFamilies.join(","),
+            fontFamily: props.headingFont,
             borderBottom: `4px solid ${theme.palette.text.primary}`,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
           "& h2": {
             ...(theme.typography.h2 as any),
-            fontFamily: GameSettings[props.gameSlug].fontFamilies.join(","),
+            fontFamily: props.headingFont,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
           "& h3": {
             ...(theme.typography.h3 as any),
-            fontFamily: GameSettings[props.gameSlug].fontFamilies.join(","),
+            fontFamily: props.headingFont,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
           "& h4": {
             ...(theme.typography.h4 as any),
-            fontFamily: GameSettings[props.gameSlug].fontFamilies.join(","),
+            fontFamily: props.headingFont,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
           "& h5": {
             ...(theme.typography.h5 as any),
-            fontFamily: GameSettings[props.gameSlug].fontFamilies.join(","),
+            fontFamily: props.headingFont,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
           "& h6": {
             ...(theme.typography.h6 as any),
-            fontFamily: GameSettings[props.gameSlug].fontFamilies.join(","),
+            fontFamily: props.headingFont,
+            textTransform:
+              props.headingUppercase === "true" ? "uppercase" : "none",
           },
         })}
         dangerouslySetInnerHTML={{
-          __html: props.content ?? "",
+          __html: props.html ?? "",
         }}
       />
     </>

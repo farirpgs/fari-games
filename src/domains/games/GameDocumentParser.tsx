@@ -1,6 +1,7 @@
 import kebabCase from "lodash/kebabCase";
-import React from "react";
+import { gameDocuments } from "../../../data/game-documents/gameDocuments";
 import { MarkdownParser } from "./MarkdownParser";
+
 export type IChapterListItem = {
   id: string;
   text: string | null;
@@ -20,9 +21,27 @@ export type ISidebarItem = {
   title: string;
 };
 
+type IDocFrontMatter = {
+  title?: string;
+  description?: string;
+  author?: string;
+  fonts?: string;
+  headingFont?: string;
+  textFont?: string;
+  highlightFont?: string;
+  headingUppercase?: string;
+  image?: string;
+  itch?: string;
+  widget?: string;
+  version?: string;
+  languages?: string;
+};
+
 export type IChapter = {
   html: string;
-  data: Record<string, string>;
+  style: string;
+  frontMatter?: IDocFrontMatter;
+  numberOfWordsInChapter: number;
   searchIndexes: Array<ISearchIndex>;
   sidebar: ISidebar;
   chapterToc: Array<{
@@ -44,34 +63,11 @@ export type IChapter = {
   };
 };
 
-export const GameSettings: Record<
-  string,
-  {
-    fontFamilies: Array<string>;
-    head: React.ReactNode;
-    load: () => Promise<typeof import("*?raw")>;
-  }
-> = {
-  "charge-rpg": {
-    head: (
-      <>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
-          rel="stylesheet"
-        />
-      </>
-    ),
-    fontFamilies: ["Oswald"],
-    load: () => import("../../../_games/charge-rpg.md?raw"),
-  },
-};
-
 export type IGameContent = {
   dom: HTMLDivElement;
+  style: string;
   chapters: Array<{ id: string; text: string | null }>;
-  data: Record<string, string>;
+  frontMatter: IDocFrontMatter;
   sidebar: ISidebar;
   searchIndexes: Array<ISearchIndex>;
 };
@@ -84,10 +80,23 @@ export type ISearchIndex = {
 };
 
 export const GameDocumentParser = {
-  async getGameContent(game: string): Promise<IGameContent> {
-    const { default: fileContent } = await GameSettings[game].load();
+  async getGameContent(props: {
+    author: string;
+    game: string;
+    language: string | undefined;
+  }): Promise<IGameContent> {
+    // const { default: fileContent } = await import(
+    //   `../../../data/game-documents/${author}/${game}.md`
+    // );
+    const link = props.language
+      ? `${props.author}/${props.game}_${props.language}`
+      : `${props.author}/${props.game}`;
+    const { default: fileContent } = await gameDocuments[link]();
 
-    const data = parseFrontMatter(fileContent);
+    const frontMatter = parseFrontMatter(fileContent) as IDocFrontMatter;
+
+    validateFrontMatter(frontMatter);
+
     const html = await MarkdownParser.toHtml(fileContent);
 
     const dom = document.createElement("div");
@@ -167,11 +176,29 @@ export const GameDocumentParser = {
       img.outerHTML = `<figure class="document-image">${html}<figcaption>${img.alt}</figcaption></figure>`;
     });
 
-    return { dom: dom, chapters, data, sidebar, searchIndexes };
+    const style = dom.querySelector("style")?.innerHTML ?? "";
+
+    return {
+      dom: dom,
+      style: style,
+      chapters,
+      frontMatter: frontMatter,
+      sidebar,
+      searchIndexes,
+    };
   },
-  async getChapter(game: string, chapterId: string): Promise<IChapter> {
-    const markdown = await GameDocumentParser.getGameContent(game);
-    const chapterIdToUse = chapterId ?? markdown.chapters[0].id;
+  async getChapter(props: {
+    author: string;
+    game: string;
+    chapterId: string;
+    language: string | undefined;
+  }): Promise<IChapter> {
+    const markdown = await GameDocumentParser.getGameContent({
+      author: props.author,
+      game: props.game,
+      language: props.language,
+    });
+    const chapterIdToUse = props.chapterId ?? markdown.chapters[0]?.id;
     const currentChapterIndex = markdown.chapters.findIndex(
       (c) => c.id === chapterIdToUse
     );
@@ -191,16 +218,23 @@ export const GameDocumentParser = {
       nextChapter ? `#${nextChapter.id}` : undefined
     );
     let chapterHtml = "";
+    let words = "";
     elements.forEach((e) => {
       chapterHtml += e.outerHTML;
+      words += e.textContent;
     });
+    // get number of words from string
+    const numberOfWords = words.split(" ").length;
+
     const tableOfContent = getTableOfContent(chapterHtml);
 
     return {
+      style: markdown.style,
       html: chapterHtml,
       chapterToc: tableOfContent,
       sidebar: markdown.sidebar,
-      data: markdown.data,
+      frontMatter: markdown.frontMatter,
+      numberOfWordsInChapter: numberOfWords,
       searchIndexes: markdown.searchIndexes,
       currentChapter: {
         id: currentChapter?.id || null,
@@ -301,4 +335,16 @@ function getTableOfContent(html: string) {
   });
 
   return tableOfContent;
+}
+
+function validateFrontMatter(frontMatter: IDocFrontMatter) {
+  if (!frontMatter.title) {
+    console.warn("Missing Document `title`");
+  }
+  if (!frontMatter.author) {
+    console.warn("Missing Document `author`");
+  }
+  if (!frontMatter.image) {
+    console.warn("Missing Document `image`");
+  }
 }

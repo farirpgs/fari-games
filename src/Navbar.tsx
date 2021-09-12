@@ -31,7 +31,6 @@ export function Navbar() {
         background: "#2d436e",
         color: "#fff",
         height: "6rem",
-        marginBottom: "2rem",
         boxShadow: theme.shadows[4],
       })}
     >
@@ -80,13 +79,13 @@ export function Navbar() {
             <Hidden smDown>
               <Grid item>
                 <ReactRouterLink
-                  to="/games/charge-rpg"
+                  to="/games/fari-games/charge-rpg"
                   className={css({
                     color: "inherit",
                     textDecoration: "none",
                   })}
                 >
-                  <Button color="inherit">Charge RPG</Button>
+                  <Button color="inherit">Charge RPG ⚡ </Button>
                 </ReactRouterLink>
               </Grid>
             </Hidden>

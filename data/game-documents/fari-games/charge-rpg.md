@@ -3,6 +3,10 @@ title: Charge RPG
 description: Power Your Story Telling
 author: René-Pier Deshaies-Gélinas
 image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
+fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap
+headingFont: Oswald
+textFont: inherit
+highlightFont: Oswald
 itch: https://rpdeshaies.itch.io/charge-rpg
 widget: <iframe frameborder="0" src="https://itch.io/embed/1164980?bg_color=1f2834&amp;fg_color=feffff&amp;link_color=d49fdd&amp;border_color=414953" width="552" height="167"><a href="https://rpdeshaies.itch.io/charge-rpg">Charge RPG | Power Your Story Telling by René-Pier Deshaies-Gélinas</a></iframe>
 version: 0.1.1
@@ -28,13 +32,13 @@ Now let's get to it! ⚡
 
 ## Contributing
 
-One of the core part of what makes this game unique is that it **belongs to the community**. 
+One of the core part of what makes this game unique is that it **belongs to the community**.
 
 The game is free, released under an open game license, and welcomes contributions.
 
-Some systems encourage game designers to develop their own games using their rules. Charge, on the other hand, encourages game designers to help make it grow. 
+Some systems encourage game designers to develop their own games using their rules. Charge, on the other hand, encourages game designers to help make it grow.
 
-What we mean by that is that you can: 
+What we mean by that is that you can:
 
 - Suggest core rules updates
 - Provide new Extras
@@ -56,7 +60,6 @@ This game is a work-in-progress. A couple of things are still missing:
 - Section: Extras: more extras from us and the community
 - Section: Playing the Game with GM and Players best practices
 - More examples
-
 
 ## Thanks
 
@@ -539,9 +542,9 @@ To know what impact they have, numerical ratings are attached to them.
 | `Risky`      | `Standard` | 2      |
 | `Controlled` | `Limited`  | 1      |
 
-When a roll has consequences, you use the position rating to see how many segments you tick on danger clocks, or how much stress a character gets when they are harmed, etc.
+When a roll creates a consequence, you use the `position rating` to see how many segments you tick on danger clocks, or how much stress a character gets when they are harmed, etc.
 
-When a roll is a success, you use the effect rating to see how many segments you tick on progress clocks, how much information the character gets out of an investigation, etc.
+When a roll is a success, you use the `effect rating` to see how many segments you tick on progress clocks, how much information the character gets out of an investigation, etc.
 
 More on clocks in [**Mechanics&nbsp;»&nbsp;Clocks**](mechanics#clocks)
 
@@ -609,57 +612,73 @@ _Xavier's character wants to take out a guard without him noticing anything. He 
 
 **_Sometimes things work out. Other times..._**
 
-If you make an action roll and you get a `partial success ( 4-5)` or a `bad outcome (1-3)`, you suffer a `Consequence`.
+If you make an action roll and you get a `partial success ( 4-5)` or a `bad outcome (1-3)`, you suffer a single `Consequence`.
 
 Consequences are a tool the GM can use to spice up the story. The GM uses the fiction, style, and tone established by the group to determine the type of consequence.
 
-> #### I Have an Idea!
->
-> If anyone at the table has an idea for a good consequence, hear them out! It can be daunting as a GM to always know what happens in case of failure. That is true especially if luck isn't on the player's side, and you need to find lots of different consequences in the same session.
->
-> As the GM, don't hesitate to ask your players for ideas as well. Someone might have a fascinating suggestion, but they think it's not their place to speak up. Prove to them otherwise.
+## Consequence Rating 
 
-Here are a couple of types of consequences that can be inflicted in case of a bad roll:
+When a consequence is inflicted on a player, the `position` of the action roll tells us how bad that consequence is. 
+
+So a consequence that comes from a `desperate` action roll is *usually* worse than a consequence from a `controlled` one. 
+
+We call this the `Consequence Rating`. Some types of consequences use this rating directly to tie the consequence with the game mechanics.
+
+| Position     | Consequence Rating |
+| ------------ | ------------------ |
+| `Desperate`  | 3                  |
+| `Risky`      | 2                  |
+| `Controlled` | 1                  |
+
+## Types of Consequences
+
+Here are a couple of types of consequences that can be used in case of a bad roll:
 
 ### Reduced Effect
 
-**_You hit them, but it's only a flesh wound. The security cameras are turned off, but the technicians are aware, and are looking to fix them as soon as possible._**
-
 This consequence represents impaired performance. The PC's action isn't as effective as they'd anticipated.
 
-This consequence essentially reduces the **effect level** of the PC's action **by one** after all other factors are accounted for.
+> _You hit them, but it's only a flesh wound. The security cameras are turned off, but the technicians are aware, and are looking to fix them as soon as possible._
+> 
+> **Reduce the effect rating of the PC's action by one level.**
+
 
 ### Complications
 
-**_They heard you, and they are coming. You took too long, and you are almost out of air._**
-
 This consequence represents trouble, mounting danger, or a new threat.
 
-In most common scenarios, the GM will create a new **Danger Clock** ([**Mechanics&nbsp;»&nbsp;Clocks**](mechanics#clocks)) or tick a segment off an existing one to represent this new danger.
+> _They heard you, and they are coming. You took too long, and you are almost out of air._
+> 
+> **Tick one segment per `Consequence Rating` on a new or existing `Danger Clock`.**
 
-The number of segments ticked on the clock depends on the position rating of the roll.
 
-**Don't inflict a complication that negates a successful roll**. If a PC tries to corner an enemy and gets a `4-5`, don't say that the enemy escapes. The player's roll succeeded, so the enemy is cornered... maybe the PC has to wrestle them into position, and during the scuffle the enemy grabs their gun.
+#### Negating Success 
+
+ **Don't inflict a complication that negates a successful roll**. 
+ 
+ If a PC tries to corner an enemy and gets a `4-5`, don't say that the enemy escapes. The player's roll succeeded, so the enemy is cornered... maybe the PC has to wrestle them into position, and during the scuffle the enemy grabs their gun.
 
 ### Lost Opportunity
 
-**_You were tailing on someone, but they saw you and disappeared. You were fighting a robot, but they adapted, and are now able to anticipate your every move._**
 
-This consequence represents shifting circumstance. What you tried didn't work, and now there's a new situation that prevents you from trying again. You need to find another approach.
+This represents shifting circumstance. What you tried didn't work, and now there's a new situation that prevents you from trying again. You need to find another approach.
 
-Usually this means trying using another `Action`.
-
-You need to `Bond` with your contacts to know if they heard of the person that evaded you, or you need to `Study` the robot to see if they have any weak spots you can use to your advantage.
+> _You were tailing on someone, but they saw you and disappeared. You were fighting a robot, but they adapted, and are now able to anticipate your every move._
+> 
+> **Your latest attempt didn't work. If you want to try again, you need to use a different `Action`.**
 
 ### Worse Position
 
-**_You missed your shot, now they know where you are. They initially trusted you, but now they have some doubts and will be watching you more closely._**
-
-This consequence represents losing control of the situation. The action carries you into a more dangerous **position**.
+This consequence represents losing control of the situation. The action carries you into a more dangerous **position*. 
 
 Perhaps you make the leap across to the next rooftop, only to end up dangling by your fingertips. You haven't failed, but you haven't succeeded yet, either. You can try again, re-rolling at the new, worse position.
 
 This is a good consequence to choose to show escalating action. A situation might go from **controlled**, to **risky**, to **desperate** as the action plays out and the PC gets deeper and deeper into trouble.
+
+> _You missed your shot, now they know where you are. They initially trusted you, but now they have some doubts and will be watching you more closely._
+> 
+> **Reduce the `position rating` by one level for future rolls related to that action.**
+
 
 ### Worse Condition
 
@@ -667,19 +686,39 @@ This consequence represent injuries or trauma inflicted on a character.
 
 When your condition worsens, you take a certain amount of `stress` on your `condition clock`. You also need to update your `condition ` to represent the new state your character is in.
 
-Your new condition will affect the narrative permissions of your character and how they can interact with the world.
+Your new condition will affect the narrative permissions of your character, and how they can interact with the world.
 
 When your condition clocked is filled, you can clear all the segments, and your character is taken out for the scene.
+
+> _You laid down suppression fire, but got shot in the process. You've been running for hours to get to the place but now, you're sore and tired. _
+> 
+> **Take `1 Stress` per `Consequence Rating` on your character's `Condition`**
+
+> #### I Have an Idea!
+>
+> If anyone at the table has an idea for a good consequence, hear them out! It can be daunting as a GM to always know what happens in case of failure. That is true especially if luck isn't on the player's side, and you need to find lots of different consequences in the same session.
+>
+> As the GM, don't hesitate to ask your players for ideas as well. Someone might have a fascinating suggestion, but they think it's not their place to speak up. Prove to them otherwise.
+
+## Safety Reminder
+
+Just a quick reminder that if you come up with a consequence during a session, and someone at the table isn't comfortable with it, think of something else.
+
+Pause the game, and make sure everyone is OK with what is happening in the fiction. Once everyone is on the same page, unpause and move forward with a different consequence.
+
+Even with safety mechanics in place, accidents happen. That is why you should always be flexible when you inflict a consequence to the group.
 
 ### Recap
 
 > #### Consequences
 >
-> - **Reduced Effect** : `-1 effect` rating.
-> - **Complication**: create or tick a `clock`.
-> - **Worse Position** : `-1 position` rating.
-> - **Lost Opportunity** : try something else.
-> - **Worse Condition**: Take `stress`.
+> If the result of an action roll is between `1-5`, the GM inflicts a single consequence:
+>
+> - **Reduced Effect** : reduce the `effect` of the action by one level.
+> - **Complication**: create or tick a `danger clock` using the `consequence rating`.
+> - **Worse Position** : reduce the `position` of the PC by one level for their next action rolls.
+> - **Lost Opportunity** : what you tried didn't work, you need to use another `action`.
+> - **Worse Condition**: take `1 stress` per consequence rating.
 
 # Resistance Roll| Mechanics
 
@@ -689,11 +728,17 @@ When your condition clocked is filled, you can clear all the segments, and your 
 
 If a character suffers a consequence that you, as a player, don't like, you can choose to resist it.
 
-Simply tell the GM, "No, I don't think so. I'm resisting that." The GM then tells you if resisting that consequence negates it completely or simply reduces it.
+Simply tell the GM, "No, I don't think so. I'm resisting that."
+
+The GM then tells you if resisting that consequence negates it completely, or simply reduces it.
+
+- When negated, the PC is able to avoid the consequence entirely. e.g. they take no `stress`, no `danger clock` is ticked, etc.
+- When reduced, the PC still suffers the consequence, but the effect of that consequence is reduced. e.g. they take 2 stress instead of 3, the danger clock only gets ticked once instead of twice.
+
 
 > #### Avoiding vs Reducing Consequences
 >
-> By adjusting which consequences are reduced vs. which are avoided, the GM establishes the overall tone of the game. For a more daring game, most consequences will be avoided. For a grittier game, most consequences will only be reduced with resistance.
+> By adjusting which consequences are reduced vs. which are avoided, the GM establishes the overall tone of the game. For a more daring game, most consequences will be avoided. For a grittier game, most consequences will only be reduced if resisted.
 
 You'll then make a `Resistance Roll` to see how much momentum your character consumes as a result of their resistance.
 
@@ -709,14 +754,14 @@ The GM chooses the attribute you use, based on the nature of the consequence:
 
 When you resist consequences, you do it using charges of momentum. Getting a good roll consumes less charge, while bad rolls make you consume more of it.
 
-> | Result | Name               | Explanation                 |
-> | ------ | ------------------ | --------------------------- |
-> | `66`   | `Critical Success` | You gain `+1 momentum`.     |
-> | `6`    | `Full Success`     | You consume `-1 momentum`.  |
-> | `4-5`  | `Partial Success`  | You consume `-2 momentums`. |
-> | `1-3`  | `Bad outcome`      | You consume `-3 momentums`. |
->
-> If you can't consume all the required charges of momentum, the GM inflicts 2 Consequences instead of one, and they cannot be resisted.
+| Result | Name               | Explanation                 |
+| ------ | ------------------ | --------------------------- |
+| `66`   | `Critical Success` | You gain `+1 momentum`.     |
+| `6`    | `Full Success`     | You consume `-1 momentum`.  |
+| `4-5`  | `Partial Success`  | You consume `-2 momentums`. |
+| `1-3`  | `Bad outcome`      | You consume `-3 momentums`. |
+
+If you can't consume all the required charges of momentum, the GM inflicts 2 Consequences instead of one, and they cannot be resisted.
 
 If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Team Work&nbsp;»&nbsp;Protect**](team-work#protect).
 
@@ -1148,6 +1193,35 @@ It's always amazing when a player loses themselves in their character, or has an
 To make those moments shine even more, the GM can reward that player with an `Asset`.
 
 This is how the GM says: this was amazing, here's `+1d6` or `increased effect` for a future roll.
+
+# Solo Extra | Extras
+
+**By Valdy**
+
+Sometimes you want to play a game with only one Player Character, and other moments you are alone or your team was taken out.
+
+This extra is for these moments.
+
+## The Last Standing Rule
+
+> When you are alone, you are `The Last Standing`.
+> If this happens, `Pushing Yourself` will only cost `1 Momentum per Push`.
+
+### Why to use this?
+
+This is intended to those moments when, you are by yourself, you are the last hope, and then you find a new flame that allows you to overcome the impossible odds stacked against you.
+
+### Design considerations
+
+I have a tendency to make one to one games (one GM and one player), and Charge revolves around Momentum being gained and spent.
+
+Almost all mechanics about spending Momentum relies on having someone else available to assist you. So, by reducing the cost of Pushing Yourself, you allow for a higher flow of Momentum, which is more fair since no one can Assist, Take the Lead, and so on.
+
+So, in short:
+
+- If you are alone, you have fewer options to be awesome.
+- So we reduce the cost of the remaining options.
+- This allow Solo situations to be equally awesome.
 
 # Mission Extra | Extras
 

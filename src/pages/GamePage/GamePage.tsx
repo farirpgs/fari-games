@@ -5,7 +5,6 @@ import Autocomplete, {
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
 import Collapse from "@material-ui/core/Collapse";
-import Container from "@material-ui/core/Container";
 import Divider from "@material-ui/core/Divider";
 import Drawer from "@material-ui/core/Drawer";
 import Fade from "@material-ui/core/Fade";
@@ -14,6 +13,7 @@ import Hidden from "@material-ui/core/Hidden";
 import IconButton from "@material-ui/core/IconButton";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
+import NativeSelect from "@material-ui/core/NativeSelect";
 import Stack from "@material-ui/core/Stack";
 import { useTheme } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
@@ -23,21 +23,32 @@ import MenuIcon from "@material-ui/icons/Menu";
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
-import { MarkdownContent } from "../components/MarkdownContent/MarkdownContent";
-import { ReactRouterLink } from "../components/ReactRouterLink/ReactRouterLink";
-import { track } from "../domains/analytics/track";
+import { MarkdownContent } from "../../components/MarkdownContent/MarkdownContent";
+import { Page } from "../../components/Page/Page";
+import { ReactRouterLink } from "../../components/ReactRouterLink/ReactRouterLink";
+import { track } from "../../domains/analytics/track";
 import {
   GameDocumentParser,
   IChapter,
   ISearchIndex,
   ISidebarItem,
-} from "../domains/games/GameDocumentParser";
+} from "../../domains/games/GameDocumentParser";
+import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
+import { ItchIcon } from "../../icons/ItchIcon";
 
 export function GamePage() {
-  const match = useRouteMatch<{ game: string; chapter: string }>();
+  const match = useRouteMatch<{
+    author: string;
+    game: string;
+    chapter: string;
+    language: string | undefined;
+  }>();
 
+  const author = match.params.author;
   const gameSlug = match.params.game;
   const chapterSlug = match.params.chapter;
+  const language = match.params.language;
+
   const [autocompleteOpen, setAutocompleteOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [chapter, setChapter] = useState<IChapter>();
@@ -76,23 +87,31 @@ export function GamePage() {
   useEffect(() => {
     load();
     async function load() {
-      const result = await GameDocumentParser.getChapter(gameSlug, chapterSlug);
+      const result = await GameDocumentParser.getChapter({
+        author: author,
+        game: gameSlug,
+        chapterId: chapterSlug,
+        language: language,
+      });
 
       setChapter(result);
     }
-  }, [gameSlug, chapterSlug]);
+  }, [author, gameSlug, chapterSlug, language]);
 
   return (
     <>
-      <Container maxWidth="xl">
+      <Page
+        title={`${chapter?.currentChapter.text} - ${chapter?.frontMatter?.title}`}
+        box={{ mt: "2rem" }}
+        container={{ maxWidth: "xl" }}
+      >
         {chapter && (
           <Fade in>
             <div>
               <Helmet>
-                <title>
-                  {`${chapter.currentChapter.text} - ${chapter.data?.title} - Fari Games`}
-                  Games
-                </title>
+                {chapter.frontMatter?.fonts?.split(",").map((font) => {
+                  return <link key={font} href={font} rel="stylesheet" />;
+                })}
               </Helmet>
               <Grid container spacing={4}>
                 <Hidden mdDown>
@@ -107,6 +126,7 @@ export function GamePage() {
                 <Hidden lgDown>
                   <Grid item xs={3}>
                     {renderSearchBar()}
+                    {renderLanguageBar()}
                     {renderToc()}
                   </Grid>
                 </Hidden>
@@ -129,7 +149,7 @@ export function GamePage() {
             </div>
           </Fade>
         )}
-      </Container>
+      </Page>
     </>
   );
 
@@ -172,6 +192,9 @@ export function GamePage() {
       return null;
     }
 
+    const shouldRenderSidebarFooter =
+      chapter?.frontMatter?.version || chapter?.frontMatter?.itch;
+
     return (
       <>
         <div
@@ -184,13 +207,13 @@ export function GamePage() {
             overflowY: "auto",
           })}
         >
-          {chapter?.data?.image && (
+          {chapter?.frontMatter?.image && (
             <div
               className={css({
                 width: "100%",
                 height: "8rem",
                 zIndex: -1,
-                background: `url("${chapter?.data?.image}")`,
+                background: `url("${chapter?.frontMatter?.image}")`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -201,17 +224,39 @@ export function GamePage() {
             {renderCategoriesSideBarItems()}
             {renderRootSideBarItems()}
           </MenuList>
-          {chapter.data.version && (
+          {shouldRenderSidebarFooter && (
             <>
               <Divider />
-              <div
-                className={css({
-                  fontFamily: "monospace",
-                  padding: ".5rem 1.5rem",
-                })}
-              >
-                v{chapter.data.version}
-              </div>
+              <Box p=".5rem 1.5rem">
+                {chapter.frontMatter?.version && (
+                  <Box
+                    pb=".5rem"
+                    className={css({
+                      fontFamily: "monospace",
+                    })}
+                  >
+                    v{chapter.frontMatter?.version}
+                  </Box>
+                )}
+                {chapter.frontMatter?.itch && (
+                  <Box>
+                    <Button
+                      variant="outlined"
+                      size="small"
+                      color="info"
+                      component={"a"}
+                      href={chapter.frontMatter?.itch}
+                      target="_blank"
+                      className={css({
+                        textTransform: "none",
+                      })}
+                      endIcon={<ItchIcon />}
+                    >
+                      Itch.io
+                    </Button>
+                  </Box>
+                )}
+              </Box>
             </>
           )}
         </div>
@@ -278,7 +323,6 @@ export function GamePage() {
                     className={css({
                       // fontWeight: theme.typography.fontWeightBold,
                       // textTransform: "uppercase",
-                      // fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
                     })}
                   >
                     {categoryName}
@@ -319,6 +363,7 @@ export function GamePage() {
     paddingLeft: string;
   }) {
     const selected = chapterSlug === renderProps.item.path;
+    const title = renderProps.item.title;
     return (
       <MenuItem
         key={renderProps.key}
@@ -327,7 +372,11 @@ export function GamePage() {
           setMobileMenuOpen(false);
         }}
         selected={selected}
-        to={`/games/${gameSlug}/${renderProps.item.path}`}
+        to={AppLinksFactory.makeGameChapterLink(
+          author,
+          gameSlug,
+          renderProps.item.path
+        )}
         className={css({
           color: "inherit",
           textDecoration: "none",
@@ -344,11 +393,9 @@ export function GamePage() {
             fontWeight: selected
               ? theme.typography.fontWeightBold
               : theme.typography.fontWeightRegular,
-
-            // fontFamily: GameSettings[gameSlug].fontFamilies.join(","),
           })}
         >
-          {renderProps.item.title}
+          {title}
         </Typography>
       </MenuItem>
     );
@@ -383,7 +430,9 @@ export function GamePage() {
             const path = (newValue as ISearchIndex).path;
             if (path) {
               setAutocompleteOpen(false);
-              history.push(`/games/${gameSlug}/${path}`);
+              history.push(
+                AppLinksFactory.makeGameChapterLink(author, gameSlug, path)
+              );
               track("search", {
                 search_term: search,
                 game: gameSlug,
@@ -404,7 +453,13 @@ export function GamePage() {
                 {...props}
                 onClick={() => {
                   setAutocompleteOpen(false);
-                  history.push(`/games/${gameSlug}/${index.path}`);
+                  history.push(
+                    AppLinksFactory.makeGameChapterLink(
+                      author,
+                      gameSlug,
+                      index.path
+                    )
+                  );
                   track("search", {
                     search_term: search,
                     game: gameSlug,
@@ -458,6 +513,42 @@ export function GamePage() {
     );
   }
 
+  function renderLanguageBar() {
+    if (!chapter?.frontMatter?.languages) {
+      return null;
+    }
+    const languages = chapter?.frontMatter?.languages.split(",");
+
+    const languageLabels: Record<string, string> = {
+      en: "English",
+      "pt-br": "Português",
+    };
+
+    return (
+      <>
+        <Box mt=".5rem" display="flex" justifyContent="flex-end">
+          <NativeSelect
+            defaultValue={language}
+            onChange={(event) => {
+              const language = event.target.value;
+              history.push(
+                AppLinksFactory.makeGameLink(author, gameSlug, language)
+              );
+            }}
+          >
+            {languages.map((language, index) => {
+              return (
+                <option key={index} value={language}>
+                  {languageLabels[language] ?? language}
+                </option>
+              );
+            })}
+          </NativeSelect>
+        </Box>
+      </>
+    );
+  }
+
   function renderToc() {
     return (
       <>
@@ -502,12 +593,48 @@ export function GamePage() {
     );
   }
 
+  function renderTime() {
+    const wordsPerMinute = 130;
+    const numberOfWordsInChapter = chapter?.numberOfWordsInChapter ?? 0;
+    const time = Math.round(numberOfWordsInChapter / wordsPerMinute);
+    return (
+      <Box position="absolute" right=".5rem">
+        <Typography variant="caption" color={theme.palette.text.secondary}>
+          {time > 0 ? time : 1} min read
+        </Typography>
+      </Box>
+    );
+  }
+  function renderAuthor() {
+    if (!chapter?.frontMatter?.author) {
+      return null;
+    }
+
+    return (
+      <Box position="absolute" left=".5rem">
+        <Typography variant="caption" color={theme.palette.text.secondary}>
+          By {chapter?.frontMatter?.author}
+        </Typography>
+      </Box>
+    );
+  }
+
   function renderContent() {
     return (
       <>
-        <div>
+        <div className={css({ position: "relative" })}>
           {renderPreviousNextNavigation()}
-          <MarkdownContent gameSlug={gameSlug} content={chapter?.html} />
+          {renderAuthor()}
+          {renderTime()}
+          <MarkdownContent
+            headingFont={chapter?.frontMatter?.headingFont}
+            textFont={chapter?.frontMatter?.textFont}
+            highlightFont={chapter?.frontMatter?.highlightFont}
+            headingUppercase={chapter?.frontMatter?.headingUppercase}
+            gameSlug={gameSlug}
+            style={chapter?.style}
+            html={chapter?.html}
+          />
           <Box mt="1rem" />
           <Divider />
           <Box mb="1rem" />
@@ -519,15 +646,14 @@ export function GamePage() {
 
   function renderWidget() {
     return null;
-    // if (!chapter?.data.widget) {
+    // if (!chapter?.frontMatter.widget) {
     //   return null;
     // }
-
     // return (
     //   <Box display="flex" justifyContent="center" mt="2rem">
     //     <div
     //       dangerouslySetInnerHTML={{
-    //         __html: chapter?.data.widget,
+    //         __html: chapter?.frontMatter.widget,
     //       }}
     //     />
     //   </Box>
@@ -540,11 +666,20 @@ export function GamePage() {
     }
 
     return (
-      <Grid container spacing={1} justifyContent="space-between">
+      <Grid
+        container
+        spacing={1}
+        justifyContent="space-between"
+        alignItems="center"
+      >
         <Grid item>
           {chapter.previousChapter.id && (
             <ReactRouterLink
-              to={`/games/${gameSlug}/${chapter.previousChapter.id}`}
+              to={AppLinksFactory.makeGameChapterLink(
+                author,
+                gameSlug,
+                chapter.previousChapter.id
+              )}
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_previous", {
@@ -560,7 +695,11 @@ export function GamePage() {
         <Grid item>
           {chapter.next.id && (
             <ReactRouterLink
-              to={`/games/${gameSlug}/${chapter.next.id}`}
+              to={AppLinksFactory.makeGameChapterLink(
+                author,
+                gameSlug,
+                chapter.next.id
+              )}
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_next", {
@@ -577,3 +716,5 @@ export function GamePage() {
     );
   }
 }
+
+export default GamePage;
