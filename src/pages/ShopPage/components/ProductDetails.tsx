@@ -1,6 +1,8 @@
 import { css } from "@emotion/css";
 import { useTheme } from "@emotion/react";
+import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
+import Divider from "@material-ui/core/Divider";
 import Grid from "@material-ui/core/Grid";
 import Hidden from "@material-ui/core/Hidden";
 import { responsiveFontSizes, ThemeProvider } from "@material-ui/core/styles";
@@ -112,14 +114,13 @@ export function ProductDetails(props: {
             >
               <Typography variant="body2">{props.game.description}</Typography>
             </div>
-
-            <div
-              className={css({
-                color: productTheme.palette.text.primary,
-                marginBottom: "1rem",
-              })}
-            >
-              <ThemeProvider theme={productTheme}>
+            <ThemeProvider theme={productTheme}>
+              <div
+                className={css({
+                  color: productTheme.palette.text.primary,
+                  marginBottom: "1rem",
+                })}
+              >
                 <Grid container spacing={1} alignItems="center">
                   {props.game.document && (
                     <Grid item>
@@ -137,15 +138,16 @@ export function ProductDetails(props: {
                     </Grid>
                   )}
                 </Grid>
-              </ThemeProvider>
-            </div>
-            <div
-              className={css({
-                color: productTheme.palette.text.primary,
-                marginBottom: "1rem",
-              })}
-            >
-              <ThemeProvider theme={productTheme}>
+              </div>
+              <Box mb="1rem">
+                <Divider />
+              </Box>
+              <div
+                className={css({
+                  color: productTheme.palette.text.primary,
+                  marginBottom: "1rem",
+                })}
+              >
                 <Grid container spacing={1} alignItems="center">
                   {props.game.links.itchIo && (
                     <Grid item>
@@ -201,8 +203,8 @@ export function ProductDetails(props: {
                     </Grid>
                   )}
                 </Grid>
-              </ThemeProvider>
-            </div>
+              </div>
+            </ThemeProvider>
           </div>
         </Grid>
         <Hidden smDown>

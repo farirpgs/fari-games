@@ -1,13 +1,13 @@
 ---
 title: Charge RPG
 description: Power Your Story Telling
-author: René-Pier Deshaies-Gélinas
+author: Fari Games
 image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
 fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap
 headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
-itch: https://rpdeshaies.itch.io/charge-rpg
+itch: https://farigames.itch.io/charge-rpg
 widget: <iframe frameborder="0" src="https://itch.io/embed/1164980?bg_color=1f2834&amp;fg_color=feffff&amp;link_color=d49fdd&amp;border_color=414953" width="552" height="167"><a href="https://rpdeshaies.itch.io/charge-rpg">Charge RPG | Power Your Story Telling by René-Pier Deshaies-Gélinas</a></iframe>
 version: 0.1.1
 ---

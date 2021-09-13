@@ -28,7 +28,7 @@ export const shopProducts: Array<IShopProduct> = [
     rating: 0,
     image: "https://gyazo.com/402b81ebf877834948003b092e6ac384.png",
     links: {
-      itchIo: "https://rpdeshaies.itch.io/charge-rpg",
+      itchIo: "https://farigames.itch.io/charge-rpg",
     },
   },
   {

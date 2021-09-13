@@ -603,7 +603,7 @@ export function GamePage() {
     const numberOfWordsInChapter = chapter?.numberOfWordsInChapter ?? 0;
     const time = Math.round(numberOfWordsInChapter / wordsPerMinute);
     return (
-      <Box position="absolute" right=".5rem">
+      <Box position="absolute" right="0">
         <Typography variant="caption" color={theme.palette.text.secondary}>
           {time > 0 ? time : 1} min read
         </Typography>
@@ -616,7 +616,7 @@ export function GamePage() {
     }
 
     return (
-      <Box position="absolute" left=".5rem">
+      <Box position="absolute" left="0">
         <Typography variant="caption" color={theme.palette.text.secondary}>
           By {chapter?.frontMatter?.author}
         </Typography>
