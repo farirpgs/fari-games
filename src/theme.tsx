@@ -11,7 +11,8 @@ const darkPalette: PaletteOptions = {
     main: "#90caf9",
   },
   secondary: {
-    main: "#ce93d8",
+    main: "#2d436e",
+    // main: "#ce93d8",
   },
   background: {
     default: "#141c26",
@@ -24,7 +25,8 @@ const lightPalette: PaletteOptions = {
     main: "#30a2ff",
   },
   secondary: {
-    main: "#ce93d8",
+    main: "#2d436e",
+    // main: "#ce93d8",
   },
   background: {
     default: "#fafafa",
