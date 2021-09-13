@@ -1,4 +1,11 @@
 
+<!--## Momentum from Adding Tension
+
+The second way you can gain momentum is by `adding tension` to the scene.
+
+As a player, you can suggest a complication to your GM, and if they agree with it you gain `+2 momentum`.
+
+When you add tension to a scene, you usually inflict a `consequence` on yourself or the group to add interesting drama to the scene.-->
 
 # Being a Player | Playing the Game
 
