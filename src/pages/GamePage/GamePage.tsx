@@ -246,6 +246,11 @@ export function GamePage() {
                       color="info"
                       component={"a"}
                       href={chapter.frontMatter?.itch}
+                      onClick={() => {
+                        track("buy_itch", {
+                          game: gameSlug,
+                        });
+                      }}
                       target="_blank"
                       className={css({
                         textTransform: "none",

@@ -12,6 +12,7 @@ import produce from "immer";
 import React, { useMemo } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
+import { track } from "../../../domains/analytics/track";
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 import { ItchIcon } from "../../../icons/ItchIcon";
 import {
@@ -158,6 +159,11 @@ export function ProductDetails(props: {
                             : props.game.links.itchIo
                         }
                         target="_blank"
+                        onClick={() => {
+                          track("buy_itch", {
+                            game: props.game?.slug,
+                          });
+                        }}
                         className={css({
                           textTransform: "none",
                         })}
@@ -180,6 +186,11 @@ export function ProductDetails(props: {
                             : props.game.links.driveThru
                         }
                         target="_blank"
+                        onClick={() => {
+                          track("buy_drivethrurpg", {
+                            game: props.game?.slug,
+                          });
+                        }}
                         className={css({
                           textTransform: "none",
                         })}
