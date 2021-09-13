@@ -346,7 +346,7 @@ Here is an example enemy from LIGHT:
 >
 > They obey commands, but look for opportunities to ascend.
 >
-> **♢Health**: 2
+> **Health**: 2
 >
 > **Harm**: 1 Harm, Close/Mid
 >
