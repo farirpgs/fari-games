@@ -23,10 +23,11 @@ export const shopProducts: Array<IShopProduct> = [
     author: "Fari Games",
     authorSlug: "fari-games",
     document: true,
-    description: "Power Your Story Telling",
+    description:
+      "Power your storytelling with this ready to use generic RPG system.",
     tags: ["charge-rpg", "ttrpg", "main"],
     rating: 0,
-    image: "https://gyazo.com/402b81ebf877834948003b092e6ac384.png",
+    image: "https://gyazo.com/a8db97f79b14526c0458286383d40d91.png",
     links: {
       itchIo: "https://farigames.itch.io/charge-rpg",
     },
@@ -38,7 +39,7 @@ export const shopProducts: Array<IShopProduct> = [
     author: "Gila RPGs",
     authorSlug: "gilarpgs",
     document: true,
-    description: "RPG system for action packed, power fantasy games",
+    description: "RPG system for action packed, power fantasy games.",
     tags: ["lumen", "ttrpg", "main"],
     rating: 0,
     image: "https://gyazo.com/047b237d11168d35c52912e0f64ae096.png",
@@ -136,7 +137,7 @@ export const shopProducts: Array<IShopProduct> = [
     name: "The Resistance Toolbox",
     slug: "resistance-toolbox",
     document: true,
-    author: "Rowan,   Rook and Decard",
+    author: "Rowan, Rook and Decard",
     authorSlug: "rowan-rook-and-decard",
     description:
       "Make your own games of desperate struggle using the Resistance System, the core rules that power the Spire RPG.",

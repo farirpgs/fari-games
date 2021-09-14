@@ -2,7 +2,7 @@
 title: Charge RPG
 description: Power Your Story Telling
 author: Fari Games
-image: https://gyazo.com/ff00ddc1fac5142e897dd4b66192a2ff.png
+image: https://gyazo.com/5b8633befdb6fe3f894bdabaedac4001.png
 fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap
 headingFont: Oswald
 textFont: inherit
@@ -14,7 +14,7 @@ version: 0.1.1
 
 # Introductions | Power Your Story Telling
 
-![Charge](https://gyazo.com/cc0a8de71ba1591cf29885e4917d755f.png)
+![Charge](https://gyazo.com/5b8633befdb6fe3f894bdabaedac4001.png)
 
 First, thank you.
 
