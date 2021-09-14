@@ -16,7 +16,7 @@ export function Page(props: {
         <title>
           {props.title
             ? `${props.title} - Fari Games`
-            : "Fari Games - Build Great Games"}
+            : "Fari Games - Building RPGs Together"}
         </title>
       </Helmet>
       <Box {...props.box}>
