@@ -7,7 +7,6 @@ import { Link as ReactRouterLink } from "react-router-dom";
 import { Settings } from "react-slick";
 import { shopProducts } from "../../../../data/shop/shopProducts";
 import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
-import { arraySort } from "../../../domains/array/arraySort";
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 import { BetterSlider } from "./BetterSlider";
 
@@ -26,26 +25,29 @@ export function useGames(
         g.author !== excludeProduct?.author && g.name !== excludeProduct?.name
     );
 
-    const gamesGroupedByRating = gamesWithoutExcluded.reduce<
-      Record<string, Array<IShopProduct>>
-    >((acc, curr) => {
-      const rating = curr.rating.toString();
-      const list = acc[rating] ?? [];
-      return {
-        ...acc,
-        [rating]: [...list, curr],
-      };
-    }, {});
-
-    const sortedRatings = arraySort(Object.keys(gamesGroupedByRating), [
-      // (rating) => true,
-      // (rating) => ({ direction: "desc", value: rating }),
-    ]);
-    const shuffledGamesGroupedByRating = sortedRatings.flatMap((rating) => {
-      return shuffle(gamesGroupedByRating[rating]);
-    });
     const numberOfItemsToReturn = 10;
-    return shuffledGamesGroupedByRating.slice(0, numberOfItemsToReturn);
+    const gamesToReturn = gamesWithoutExcluded.slice(0, numberOfItemsToReturn);
+    return shuffle(gamesToReturn);
+
+    // const gamesGroupedByRating = gamesWithoutExcluded.reduce<
+    //   Record<string, Array<IShopProduct>>
+    // >((acc, curr) => {
+    //   const rating = curr.rating.toString();
+    //   const list = acc[rating] ?? [];
+    //   return {
+    //     ...acc,
+    //     [rating]: [...list, curr],
+    //   };
+    // }, {});
+
+    // const sortedRatings = arraySort(Object.keys(gamesGroupedByRating), [
+    //   // (rating) => true,
+    //   // (rating) => ({ direction: "desc", value: rating }),
+    // ]);
+    // const shuffledGamesGroupedByRating = sortedRatings.flatMap((rating) => {
+    //   return shuffle(gamesGroupedByRating[rating]);
+    // });
+    // return shuffledGamesGroupedByRating.slice(0, numberOfItemsToReturn);
   }, [tags]);
 }
 

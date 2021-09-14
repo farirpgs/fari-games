@@ -400,11 +400,12 @@ export function GamePage() {
           setMobileMenuOpen(false);
         }}
         selected={selected}
-        to={AppLinksFactory.makeGameChapterLink(
-          author,
-          gameSlug,
-          renderProps.item.path
-        )}
+        to={AppLinksFactory.makeGameChapterLink({
+          author: author,
+          game: gameSlug,
+          chapter: renderProps.item.path,
+          language: language,
+        })}
         className={css({
           color: "inherit",
           textDecoration: "none",
@@ -459,7 +460,12 @@ export function GamePage() {
             if (path) {
               setAutocompleteOpen(false);
               history.push(
-                AppLinksFactory.makeGameChapterLink(author, gameSlug, path)
+                AppLinksFactory.makeGameChapterLink({
+                  author: author,
+                  game: gameSlug,
+                  chapter: path,
+                  language: language,
+                })
               );
               track("search", {
                 search_term: search,
@@ -482,11 +488,12 @@ export function GamePage() {
                 onClick={() => {
                   setAutocompleteOpen(false);
                   history.push(
-                    AppLinksFactory.makeGameChapterLink(
-                      author,
-                      gameSlug,
-                      index.path
-                    )
+                    AppLinksFactory.makeGameChapterLink({
+                      author: author,
+                      game: gameSlug,
+                      chapter: index.path,
+                      language: language,
+                    })
                   );
                   track("search", {
                     search_term: search,
@@ -560,7 +567,11 @@ export function GamePage() {
             onChange={(event) => {
               const language = event.target.value;
               history.push(
-                AppLinksFactory.makeGameLink(author, gameSlug, language)
+                AppLinksFactory.makeGameLink({
+                  author: author,
+                  game: gameSlug,
+                  language: language,
+                })
               );
             }}
           >
@@ -703,11 +714,12 @@ export function GamePage() {
         <Grid item>
           {chapter.previousChapter.id && (
             <ReactRouterLink
-              to={AppLinksFactory.makeGameChapterLink(
-                author,
-                gameSlug,
-                chapter.previousChapter.id
-              )}
+              to={AppLinksFactory.makeGameChapterLink({
+                author: author,
+                game: gameSlug,
+                chapter: chapter.previousChapter.id,
+                language: language,
+              })}
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_previous", {
@@ -723,11 +735,12 @@ export function GamePage() {
         <Grid item>
           {chapter.next.id && (
             <ReactRouterLink
-              to={AppLinksFactory.makeGameChapterLink(
-                author,
-                gameSlug,
-                chapter.next.id
-              )}
+              to={AppLinksFactory.makeGameChapterLink({
+                author: author,
+                game: gameSlug,
+                chapter: chapter.next.id,
+                language: language,
+              })}
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_next", {

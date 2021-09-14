@@ -5,7 +5,6 @@ import Fade from "@material-ui/core/Fade";
 import Link from "@material-ui/core/Link";
 import { useTheme } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
-import shuffle from "lodash/shuffle";
 import React from "react";
 import { useRouteMatch } from "react-router";
 import { Link as ReactRouterLink } from "react-router-dom";
@@ -26,7 +25,6 @@ export function ShopCreatorProductPage() {
     );
   });
   const selectedGameTags = selectedGame?.tags ?? [];
-  const [firstTag] = shuffle(selectedGameTags);
 
   const theme = useTheme();
 
@@ -69,7 +67,7 @@ export function ShopCreatorProductPage() {
             <ShopCategory
               excludeProduct={selectedGame}
               name={`You might also like... `}
-              tags={firstTag}
+              tags={selectedGameTags.join(", ")}
               count={5}
             />
             <MoreByAuthor
