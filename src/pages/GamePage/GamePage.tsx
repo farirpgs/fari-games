@@ -87,14 +87,23 @@ export function GamePage() {
   useEffect(() => {
     load();
     async function load() {
-      const result = await GameDocumentParser.getChapter({
-        author: author,
-        game: gameSlug,
-        chapterId: chapterSlug,
-        language: language,
-      });
+      try {
+        const result = await GameDocumentParser.getChapter({
+          author: author,
+          game: gameSlug,
+          chapterId: chapterSlug,
+          language: language,
+        });
 
-      setChapter(result);
+        if (!result.html) {
+          throw new Error("No html found");
+        }
+
+        setChapter(result);
+      } catch (error) {
+        console.error(error);
+        history.replace(`/not-found?path=${location.pathname}`);
+      }
     }
   }, [author, gameSlug, chapterSlug, language]);
 

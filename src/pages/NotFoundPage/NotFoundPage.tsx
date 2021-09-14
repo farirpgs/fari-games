@@ -1,8 +1,18 @@
 import Container from "@material-ui/core/Container";
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { useLocation } from "react-router-dom";
+import { track } from "../../domains/analytics/track";
 
 export function NotFoundPage() {
+  const location = useLocation();
+
+  useEffect(() => {
+    track("not_found", {
+      path: location.pathname,
+    });
+  }, []);
+
   return (
     <Container>
       <Helmet>
