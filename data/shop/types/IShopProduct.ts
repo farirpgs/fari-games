@@ -15,5 +15,6 @@ export type IShopProduct = {
     driveThru?: string;
     itchIo?: string;
     gumroad?: string;
+    website?: string;
   };
 };

@@ -24,7 +24,8 @@ export function MarkdownContent(props: {
         className={css({
           fontFamily: props.textFont,
           "& blockquote": {
-            margin: "0",
+            marginLeft: "0",
+            marginRight: "0",
             padding: ".5rem 1rem",
             background: theme.palette.background.paper,
             boxShadow: theme.shadows[1],

@@ -32,6 +32,7 @@ type IDocFrontMatter = {
   headingUppercase?: string;
   image?: string;
   itch?: string;
+  website?: string;
   widget?: string;
   version?: string;
   languages?: string;

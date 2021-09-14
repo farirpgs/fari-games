@@ -203,6 +203,27 @@ export function ProductDetails(props: {
                       </Button>
                     </Grid>
                   )}
+                  {props.game.links.website && (
+                    <Grid item>
+                      <Button
+                        variant="outlined"
+                        size="small"
+                        component={"a"}
+                        href={props.game.links.website}
+                        target="_blank"
+                        onClick={() => {
+                          track("buy_website", {
+                            game: props.game?.slug,
+                          });
+                        }}
+                        className={css({
+                          textTransform: "none",
+                        })}
+                      >
+                        Website
+                      </Button>
+                    </Grid>
+                  )}
                 </Grid>
               </div>
             </ThemeProvider>
@@ -219,6 +240,7 @@ export function ProductDetails(props: {
               <div
                 className={css({
                   height: "100%",
+                  display: "flex",
                 })}
               >
                 <img

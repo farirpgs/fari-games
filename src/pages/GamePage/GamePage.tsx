@@ -192,8 +192,8 @@ export function GamePage() {
       return null;
     }
 
-    const shouldRenderSidebarFooter =
-      chapter?.frontMatter?.version || chapter?.frontMatter?.itch;
+    const hasLink = chapter?.frontMatter?.itch || chapter?.frontMatter?.website;
+    const shouldRenderSidebarFooter = chapter?.frontMatter?.version || hasLink;
 
     return (
       <>
@@ -227,28 +227,54 @@ export function GamePage() {
                     v{chapter.frontMatter?.version}
                   </Box>
                 )}
-                {chapter.frontMatter?.itch && (
-                  <Box>
-                    <Button
-                      variant="outlined"
-                      size="small"
-                      color="info"
-                      component={"a"}
-                      href={chapter.frontMatter?.itch}
-                      onClick={() => {
-                        track("buy_itch", {
-                          game: gameSlug,
-                        });
-                      }}
-                      target="_blank"
-                      className={css({
-                        textTransform: "none",
-                      })}
-                      endIcon={<ItchIcon />}
-                    >
-                      Itch.io
-                    </Button>
-                  </Box>
+                {hasLink && (
+                  <Grid container spacing={1}>
+                    {chapter.frontMatter?.itch && (
+                      <Grid item>
+                        <Button
+                          variant="outlined"
+                          size="small"
+                          color="inherit"
+                          component={"a"}
+                          href={chapter.frontMatter?.itch}
+                          onClick={() => {
+                            track("buy_itch", {
+                              game: gameSlug,
+                            });
+                          }}
+                          target="_blank"
+                          className={css({
+                            textTransform: "none",
+                          })}
+                          endIcon={<ItchIcon />}
+                        >
+                          Itch.io
+                        </Button>
+                      </Grid>
+                    )}
+                    {chapter.frontMatter?.website && (
+                      <Grid item>
+                        <Button
+                          variant="outlined"
+                          size="small"
+                          color="inherit"
+                          component={"a"}
+                          href={chapter.frontMatter?.website}
+                          onClick={() => {
+                            track("buy_website", {
+                              game: gameSlug,
+                            });
+                          }}
+                          target="_blank"
+                          className={css({
+                            textTransform: "none",
+                          })}
+                        >
+                          Website
+                        </Button>
+                      </Grid>
+                    )}
+                  </Grid>
                 )}
               </Box>
             </>
