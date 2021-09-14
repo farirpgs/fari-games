@@ -49,7 +49,7 @@ export function ShopAuthorPage() {
                 excludeProduct={firstGame}
                 name={`You might also like... `}
                 tags={"main"}
-                count={10}
+                count={6}
               />
             </Box>
           </Container>

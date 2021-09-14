@@ -136,7 +136,7 @@ export const shopProducts: Array<IShopProduct> = [
     name: "The Resistance Toolbox",
     slug: "resistance-toolbox",
     document: true,
-    author: "Rowan Rook and Decard",
+    author: "Rowan,   Rook and Decard",
     authorSlug: "rowan-rook-and-decard",
     description:
       "Make your own games of desperate struggle using the Resistance System, the core rules that power the Spire RPG.",

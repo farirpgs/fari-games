@@ -43,7 +43,12 @@ export function ShopPage() {
           </Box>
           {shopCategories.map((category, i) => {
             return (
-              <ShopCategory key={i} name={category.name} tags={category.tags} />
+              <ShopCategory
+                key={i}
+                name={category.name}
+                tags={category.tags}
+                count={6}
+              />
             );
           })}
         </Container>

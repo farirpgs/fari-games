@@ -68,12 +68,12 @@ export function ShopCreatorProductPage() {
               excludeProduct={selectedGame}
               name={`You might also like... `}
               tags={selectedGameTags.join(", ")}
-              count={5}
+              count={6}
             />
             <MoreByAuthor
               variant="h6"
               authorSlug={selectedGame?.authorSlug}
-              count={5}
+              count={6}
               excludeProduct={selectedGame}
             />
           </Container>

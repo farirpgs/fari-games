@@ -76,7 +76,10 @@ export function MarkdownContent(props: {
                 textAlign: "left",
                 padding: ".5rem",
                 fontFamily: props.highlightFont,
-                borderBottom: `1px solid ${theme.palette.divider}`,
+
+                "&:empty": {
+                  display: "none",
+                },
                 "&:not(:first-child)": {
                   borderLeft: `1px solid ${theme.palette.divider}`,
                 },
@@ -84,6 +87,9 @@ export function MarkdownContent(props: {
             },
             "& tbody": {
               "& tr": {
+                "&:first-child td": {
+                  borderTop: `1px solid ${theme.palette.divider}`,
+                },
                 "&:nth-child(even)": {
                   background: theme.palette.background.paper,
                 },

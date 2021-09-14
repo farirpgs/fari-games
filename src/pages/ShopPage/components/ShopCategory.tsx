@@ -55,18 +55,21 @@ export function ShopCategory(props: {
   name: string;
   tags: string;
   excludeProduct?: IShopProduct | undefined;
-  count?: number;
+  count: number;
 }) {
   const gamesForTags = useGames(props.tags, props.excludeProduct);
   const gamesToDisplay = gamesForTags.slice(0, props.count);
 
+  const isEven = gamesToDisplay.length % 2;
+  const slidesToScroll = isEven === 0 ? 2 : 1;
+
   const productSliderSettings: Settings = {
     autoplay: false,
     dots: false,
-    infinite: false,
+    infinite: true,
     centerMode: false,
     speed: 500,
-    slidesToScroll: 2,
+    slidesToScroll: slidesToScroll,
     variableWidth: true,
   };
 
