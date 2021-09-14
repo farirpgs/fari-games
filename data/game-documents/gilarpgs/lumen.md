@@ -47,11 +47,11 @@ LUMEN uses **d6 dice pools**, with ranges of success as the core mechanic. Every
 When a character is acting and there is risk to that action, they roll dice. They roll a pool of d6 equal to the Attribute that best describes how they are acting, and keep the highest result.
 
 > On a:
-> 
+>
 > ♢ `1-2`: The action fails and there is a consequence
-> 
+>
 > ♢ `3-4`: The action succeeds, but there is a complication
-> 
+>
 > ♢ `5-6`: The action succeeds with no problems
 
 That’s it, that’s how 90% of the game works. Let me show you an example.
@@ -152,11 +152,10 @@ LUMEN games are intended to be quick in combat, which means both PCs and enemies
 That number also connects with your death penalty. You will need to design something to happen when a character runs out of Health. Some ideas:
 
 > **Change** how their Attribute rolls work (more or less dice, new dice rolled with them, etc)
-> 
+>
 > **Remove access** to Powers
-> 
+>
 > **Narrative penalties** or reflections of their failure (body horror games are perfect for this)
-
 
 The lower the starting Health of the classes, the more likely they are to face that penalty.
 
@@ -183,7 +182,7 @@ Analysis paralysis is a real thing. Folks get overwhelmed when they have to sift
 Ok, so what is a Power? A Power is something that the character activates during a fight to give them an edge. Powers usually come in two flavors:
 
 > **One use powers** get activated, their effect is resolved immediately, and play continues.
-> 
+>
 > **Ongoing powers** last for some amount of time, providing bonuses, interfering with enemies, boosting allies, or any other effect you would want to stick around a bit.
 
 Check out the example character sheets from some other LUMEN games to see what Powers might look like.
@@ -193,7 +192,7 @@ Check out the example character sheets from some other LUMEN games to see what P
 Activating Powers comes from spending the Resource. There are different approaches you can take with your design.
 
 > **All Powers cost the same thing**, usually 1 Resource. This is how LIGHT works, and keeps things simple. No Power feels more costly, and so all are equally exciting and enticing to use.
-> 
+>
 > **Powers have variable costs**, so that more potent Powers cost more Resource than others. NOVA works this way, so that some Powers can be scaled up to be truly incredible compared to some others.
 
 ## Using Powers
@@ -213,9 +212,9 @@ Before you go adding this, remember: speed. If you start giving each class a bun
 What else would you add? Here are some examples of things you might add:
 
 > **Passive Powers/Perks:** Since Powers require the Resource to be used, you might want the class to have a small bonus that is ever present in particular situations. For example, a class that deals more damage when using a particular weapon type.
-> 
+>
 > **Health Alternatives:** Shields that absorb damage, armor that reduces it. If you really want to make sure the characters don’t die easily, but don’t want to give them a big pile of Health, including something that boosts up Health is a nice touch.
-> 
+>
 > **Genre Specific:** In LIGHT, the combat is mostly resolved with guns. But sometimes you get up close and personal and need to swing a fist. So I added class specific melee abilities that were representative of the class, and allowed them to do something special when fighting up close.
 
 # Character Creation Options
@@ -263,19 +262,18 @@ The GM isn’t sitting idly while the PCs take turns demolishing their enemies. 
 After every player has had their turn, the GM does two very big things.
 
 > ♢ **Change the Battle** in a big way
-> 
+>
 > ♢ **Generate Drops**
 
 Both of these steps are so very important to LUMEN games. The enemies are going to get their asses kicked, again and again. But they won’t go down quietly. The GM Turn brings a big change to the battlefield. You should encourage the GM to do something big when they have this opportunity. What’s a big change? Lots of options, depending on your setting:
 
 > **Alarms** go blaring and reinforcements are on their way
-> 
+>
 > Enemy **switches their tactics**
-> 
+>
 > A **new enemy type** shows up, resistant to the PCs approaches so far
-> 
+>
 > The environment **changes** suddenly (blow the airlock)
-> 
 
 The important thing is that the change is big, so that the PCs **have** to change their tactics. They want to feel powerful, but it gets boring if they can wipe the floor with no real opposition. Write your GM’s Turn to reflect the sorts of things the GM should do to turn the PC’s approach on its head.
 
@@ -307,7 +305,6 @@ Because movement isn’t measured specifically and we don’t need maps, we dist
 >
 > **Far:** Anything beyond that
 
-
 You may want to tweak those distances and descriptions based on what makes sense for your setting.
 
 Since movement isn’t measured specifically, these ranges can be a helpful way to determine how far a character can move. Typically, rules in LUMEN games allow a character to move from one range band to the next. For example, your enemy is at Near distance right now, but you want to close the gap and stab them. Moving from Near to Close is totally reasonable for most characters. Linking movement to range like this is especially important in games where positioning is important. But if your characters are flying through the air, or incredibly nimble, you might not want to couple the two.
@@ -338,7 +335,6 @@ The PCs need something to kill, and those are the enemies. Enemies in LUMEN are 
 > **♢ Harm:** Damage the enemy can do to the PCs
 >
 > **♢ Moves:** 3 actions, reactions, tactics, and more than reflect the enemy
-
 
 Here is an example enemy from LIGHT:
 
@@ -408,7 +404,6 @@ When creating a weapon type, you will need three things:
 >
 > ♢ (Optional) Any **Tags** the weapon requires
 
-
 Here are some examples of weapon types from LIGHT:
 
 > **Auto rifle:** 1 Harm, Mid
@@ -444,11 +439,10 @@ LUMEN weapons live and die by their tag lists. You’re going to want to make a 
 When creating tags, there are two approaches. First, you can make tags that are purely **narrative** in their function. They don’t mechanically change the way the weapon works, but still make it unique. Some examples:
 
 > Unique appearance or sound when used
-> 
+>
 > A reputation attached to it
-> 
+>
 > Glows when in a specific situation
-> 
 
 Most commonly, tags are mechanical. They function as ways to differentiate two weapons on the battlefield. Two pistols may have the same core features since they are the same weapon type, but would behave very differently if one of them had an “autofire” tag, and the other had a “corrosive” tag. When creating mechanically focused tags, consider some of these things:
 
@@ -463,7 +457,6 @@ Most commonly, tags are mechanical. They function as ways to differentiate two w
 > **Unexpected ways** for the weapon to function
 >
 > **Interacts** with Powers or the Resource
-
 
 The world is your oyster when it comes to tags and what you want to include. The more tags you create, the more variety of weapons the players will have access to. Plus, you can give some of your enemies these tags as well, which will really keep the PCs on their toes!
 
@@ -501,7 +494,6 @@ Sessions of LUMEN RPGs are primarily made up of the mission. The general structu
 >
 > ♢ **Advancing** the characters after the mission is complete
 
-
 That’s the basic structure. The PCs are wandering around looking at bounty boards, exploring an open world for opportunities. They are given missions, and they do them.
 
 ## Mission Generation
@@ -529,7 +521,7 @@ Finally, we come to the end of the loop, and the last piece of the LUMEN puzzle.
 Character advancement is when the characters themselves become more powerful. There are a few ways that you can do this.
 
 > Increase an **Attribute** score
-> 
+>
 > Increase **Health** or the **Resource**
 
 Beyond that, the Powers themselves are a source of advancement opportunity. In NOVA, each Power has 2 advances that can be taken, improving the Power. These can be straight forward, such as providing +1 Harm, or allow the Power to be used in ways it couldn’t be before.
@@ -545,7 +537,6 @@ In addition, you could allow for the PCs to gain access to new Powers through ad
 > **Swap out tags** of weapons after successful missions
 >
 > Get access to **legendary weapons**!
->
 
 Not all LUMEN games need a robust loot system, or one at all. In LIGHT, loot generation at the end of Strikes is super important, and so I made sure to include plenty of rules about creating random loot, loot tables, and working for the gunsmith. In NOVA, the classes are more important, and loot takes a backseat, so I don’t have as many rules for acquiring new weapons.
 
@@ -565,13 +556,13 @@ Finally, if you want to cut through all the fluff above, here is a **checklist**
    2. Health
    3. Resource
    4. 3-5 Powers
-3. **Create enemies**. Each enemy needs: 
-   1. Health 
-   2. Harm 
+3. **Create enemies**. Each enemy needs:
+   1. Health
+   2. Harm
    3. 3 Moves
-4. **Create weapon types and tags**. Each weapon type needs: 
-   1. Harm 
-   2. Range 
+4. **Create weapon types and tags**. Each weapon type needs:
+   1. Harm
+   2. Range
    3. Optional required tags
 
 You make those things, you’re most of the way there with a LUMEN RPG.

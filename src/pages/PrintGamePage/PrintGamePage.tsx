@@ -5,28 +5,27 @@ import { Helmet } from "react-helmet-async";
 import { useRouteMatch } from "react-router-dom";
 import { MarkdownContent } from "../../components/MarkdownContent/MarkdownContent";
 import {
-  GameDocumentParser,
-  IGameContent,
-} from "../../domains/games/GameDocumentParser";
+  DocumentParser,
+  IDocument,
+} from "../../domains/documents/DocumentParser";
 
 export function PrintGamePage() {
-  const match =
-    useRouteMatch<{
-      author: string;
-      game: string;
-      language: string | undefined;
-    }>();
+  const match = useRouteMatch<{
+    author: string;
+    game: string;
+    language: string | undefined;
+  }>();
   const gameSlug = match.params.game;
   const author = match.params.author;
   const language = match.params.language;
-  const [game, setGame] = useState<IGameContent>();
+  const [game, setGame] = useState<IDocument>();
 
   useEffect(() => {
     load();
     async function load() {
-      const result = await GameDocumentParser.getGameContent({
+      const result = await DocumentParser.getDocument({
         author: author,
-        game: gameSlug,
+        slug: gameSlug,
         language: language,
       });
 

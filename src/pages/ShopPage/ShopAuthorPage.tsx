@@ -21,11 +21,16 @@ export function ShopAuthorPage() {
 
     return match.params.authorSlug === authorSlug;
   });
+  const gamesAsString = creatorsGames.map((g) => g.name).join(", ");
   const [firstGame] = creatorsGames;
 
   return (
     <>
-      <Page box={{ mt: "2rem" }} title={`Games by ${firstGame?.author}`}>
+      <Page
+        box={{ mt: "2rem" }}
+        title={`Games by ${firstGame?.author}`}
+        description={`${gamesAsString}, and more...`}
+      >
         <Fade in>
           <Container>
             <Box mb="2rem">

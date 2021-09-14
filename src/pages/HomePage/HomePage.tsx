@@ -18,7 +18,7 @@ const Sponsors: Array<{ image: string; name: string; link: string }> = [
 export function HomePage() {
   return (
     <>
-      <Page>
+      <Page title={null} description={null}>
         <ShopPage />
         {renderSponsors()}
       </Page>

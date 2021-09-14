@@ -28,11 +28,11 @@ import { Page } from "../../components/Page/Page";
 import { ReactRouterLink } from "../../components/ReactRouterLink/ReactRouterLink";
 import { track } from "../../domains/analytics/track";
 import {
-  GameDocumentParser,
+  DocumentParser,
   IChapter,
   ISearchIndex,
   ISidebarItem,
-} from "../../domains/games/GameDocumentParser";
+} from "../../domains/documents/DocumentParser";
 import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
 import { ItchIcon } from "../../icons/ItchIcon";
 
@@ -88,9 +88,9 @@ export function GamePage() {
     load();
     async function load() {
       try {
-        const result = await GameDocumentParser.getChapter({
+        const result = await DocumentParser.getChapter({
           author: author,
-          game: gameSlug,
+          slug: gameSlug,
           chapterId: chapterSlug,
           language: language,
         });
@@ -111,6 +111,7 @@ export function GamePage() {
     <>
       <Page
         title={`${chapter?.currentChapter.text} - ${chapter?.frontMatter?.title}`}
+        description={`${chapter?.currentChapter.description}`}
         box={{ mt: "2rem" }}
         container={{ maxWidth: "xl" }}
       >
@@ -747,44 +748,44 @@ export function GamePage() {
         alignItems="center"
       >
         <Grid item>
-          {chapter.previousChapter.id && (
+          {chapter.previousChapter?.id && (
             <ReactRouterLink
               to={AppLinksFactory.makeGameChapterLink({
                 author: author,
                 game: gameSlug,
-                chapter: chapter.previousChapter.id,
+                chapter: chapter.previousChapter?.id,
                 language: language,
               })}
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_previous", {
                   game: gameSlug,
-                  index: chapter.previousChapter.id,
+                  index: chapter.previousChapter?.id,
                 });
               }}
             >
-              <Button color="inherit">« {chapter.previousChapter.text}</Button>
+              <Button color="inherit">« {chapter.previousChapter?.text}</Button>
             </ReactRouterLink>
           )}
         </Grid>
         <Grid item>
-          {chapter.next.id && (
+          {chapter.nextChapter?.id && (
             <ReactRouterLink
               to={AppLinksFactory.makeGameChapterLink({
                 author: author,
                 game: gameSlug,
-                chapter: chapter.next.id,
+                chapter: chapter.nextChapter?.id,
                 language: language,
               })}
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_next", {
                   game: gameSlug,
-                  index: chapter.next.id,
+                  index: chapter.nextChapter?.id,
                 });
               }}
             >
-              <Button color="inherit"> {chapter.next.text} »</Button>
+              <Button color="inherit"> {chapter.nextChapter?.text} »</Button>
             </ReactRouterLink>
           )}
         </Grid>

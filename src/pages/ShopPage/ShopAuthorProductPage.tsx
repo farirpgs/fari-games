@@ -15,7 +15,7 @@ import { MoreByAuthor } from "./components/MoreByAuthor";
 import { ProductDetails } from "./components/ProductDetails";
 import { ShopCategory } from "./components/ShopCategory";
 
-export function ShopCreatorProductPage() {
+export function ShopAuthorProductPage() {
   const match = useRouteMatch<{ authorSlug: string; productSlug: string }>();
 
   const selectedGame = shopProducts.find((g) => {
@@ -24,6 +24,7 @@ export function ShopCreatorProductPage() {
       match.params.productSlug === g.slug
     );
   });
+
   const selectedGameTags = selectedGame?.tags ?? [];
 
   const theme = useTheme();
@@ -33,6 +34,7 @@ export function ShopCreatorProductPage() {
       <Page
         box={{ mt: "2rem" }}
         title={`${selectedGame?.name} by ${selectedGame?.author}`}
+        description={`${selectedGame?.description}`}
       >
         <Fade in>
           <Container>
@@ -83,4 +85,4 @@ export function ShopCreatorProductPage() {
   );
 }
 
-export default ShopCreatorProductPage;
+export default ShopAuthorProductPage;
