@@ -1,7 +1,7 @@
 import { css } from "@emotion/css";
 import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
+import Typography, { TypographyProps } from "@material-ui/core/Typography";
 import React from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { shopProducts } from "../../../../data/shop/shopProducts";
@@ -11,6 +11,7 @@ import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 export function MoreByAuthor(props: {
   authorSlug: string | undefined;
   count?: number;
+  variant?: TypographyProps["variant"];
   excludeProduct?: IShopProduct | undefined;
 }) {
   const authorsGame = shopProducts.filter((g) => {
@@ -30,7 +31,9 @@ export function MoreByAuthor(props: {
   return (
     <>
       <Box>
-        <Typography variant="h6">More by {firstGame.author}</Typography>
+        <Typography variant={props.variant} gutterBottom>
+          By {firstGame.author}
+        </Typography>
       </Box>
 
       <Grid container spacing={2}>

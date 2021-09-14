@@ -71,6 +71,7 @@ export function ShopCreatorProductPage() {
               count={5}
             />
             <MoreByAuthor
+              variant="h6"
               authorSlug={selectedGame?.authorSlug}
               count={5}
               excludeProduct={selectedGame}

@@ -108,14 +108,14 @@ function App() {
 
                   <Route
                     exact
-                    path={"/browse/a/:authorSlug/"}
+                    path={"/browse/:authorSlug/"}
                     render={() => {
                       return <ShopAuthorPage />;
                     }}
                   />
                   <Route
                     exact
-                    path={"/browse/p/:authorSlug/:productSlug"}
+                    path={"/browse/:authorSlug/:productSlug"}
                     render={() => {
                       return <ShopAuthorProductPage />;
                     }}

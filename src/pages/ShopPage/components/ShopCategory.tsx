@@ -66,7 +66,7 @@ export function ShopCategory(props: {
     infinite: false,
     centerMode: false,
     speed: 500,
-    slidesToScroll: 5,
+    slidesToScroll: 2,
     variableWidth: true,
   };
 
@@ -77,7 +77,9 @@ export function ShopCategory(props: {
   return (
     <Box mb="2rem">
       <Box>
-        <Typography variant="h6">{props.name}</Typography>
+        <Typography variant="h4" gutterBottom>
+          {props.name}
+        </Typography>
       </Box>
 
       <BetterSlider

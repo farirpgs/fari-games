@@ -11,6 +11,7 @@ import { shopProducts } from "../../../data/shop/shopProducts";
 import { Page } from "../../components/Page/Page";
 import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
 import { MoreByAuthor } from "./components/MoreByAuthor";
+import { ShopCategory } from "./components/ShopCategory";
 
 export function ShopAuthorPage() {
   const match = useRouteMatch<{ authorSlug: string }>();
@@ -40,7 +41,17 @@ export function ShopAuthorPage() {
                 <Typography color="textPrimary">{firstGame.author}</Typography>
               </Breadcrumbs>
             </Box>
-            <MoreByAuthor authorSlug={firstGame.authorSlug} />
+            <Box mb="1rem">
+              <MoreByAuthor variant="h2" authorSlug={firstGame.authorSlug} />
+            </Box>
+            <Box>
+              <ShopCategory
+                excludeProduct={firstGame}
+                name={`You might also like... `}
+                tags={"main"}
+                count={10}
+              />
+            </Box>
           </Container>
         </Fade>
       </Page>

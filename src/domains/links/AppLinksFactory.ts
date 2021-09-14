@@ -11,13 +11,13 @@ export const AppLinksFactory = {
     if (!game) {
       return "";
     }
-    return `/browse/a/${game.authorSlug}`;
+    return `/browse/${game.authorSlug}`;
   },
   makeProductLink(game: IShopProduct | undefined) {
     if (!game) {
       return "";
     }
-    return `/browse/p/${game.authorSlug}/${game.slug}`;
+    return `/browse/${game.authorSlug}/${game.slug}`;
   },
   makeGameLink(props: { author: string; game: string; language?: string }) {
     if (!props.language || props.language === "en") {
