@@ -131,4 +131,21 @@ export const shopProducts: Array<IShopProduct> = [
       itchIo: "https://aryl-ether.itch.io/guided-by-the-sun",
     },
   },
+  {
+    featured: true,
+    name: "The Resistance Toolbox",
+    slug: "resistance-toolbox",
+    document: true,
+    author: "Rowan Rook and Decard",
+    authorSlug: "rowan-rook-and-decard",
+    description:
+      "Make your own games of desperate struggle using the Resistance System, the core rules that power the Spire RPG.",
+    tags: ["resistance", "ttrpg", "main"],
+    rating: 0,
+    image: "https://gyazo.com/a8c7868751ecb508bfefe3f6e010b2a9.jpg",
+    links: {
+      website: "rrdgames.com",
+      // itchIo: "rrdgames.com",
+    },
+  },
 ];

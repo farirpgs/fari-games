@@ -12,4 +12,6 @@ export const gameDocuments: Record<
   "jasontocci/24xx": () => import("./jasontocci/24xx.md?raw"),
   "aryl-ether/guided-by-the-sun": () =>
     import("./aryl-ether/guided-by-the-sun.md?raw"),
+  "rowan-rook-and-decard/resistance-toolbox": () =>
+    import("./rowan-rook-and-decard/resistance-toolbox.md?raw"),
 };
