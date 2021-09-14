@@ -70,12 +70,21 @@ export function ProductDetails(props: {
           <div>
             <div
               className={css({
-                color: productTheme.palette.text.primary,
                 textAlign: "left",
                 display: "flex",
               })}
             >
-              <Typography variant="caption">By {props.game.author}</Typography>
+              <ReactRouterLink
+                className={css({
+                  color: productTheme.palette.text.secondary,
+                  // textDecoration: "none",
+                })}
+                to={AppLinksFactory.makeAuthorLink(props.game)}
+              >
+                <Typography variant="caption">
+                  By {props.game.author}
+                </Typography>
+              </ReactRouterLink>
             </div>
             <div
               className={css({

@@ -27,8 +27,8 @@ export function HomePage() {
 
   function renderSponsors() {
     return (
-      <Box px="2rem" py="2rem" mb={"2rem"}>
-        <Container maxWidth="lg">
+      <Box py="2rem" mb={"2rem"}>
+        <Container>
           <Typography variant="h4" gutterBottom>
             Sponsors
           </Typography>

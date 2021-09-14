@@ -112,6 +112,7 @@ export function GamePage() {
       <Page
         title={`${chapter?.currentChapter.text} - ${chapter?.frontMatter?.title}`}
         description={`${chapter?.currentChapter.description}`}
+        image={chapter?.frontMatter?.image}
         box={{ mt: "2rem" }}
         container={{ maxWidth: "xl" }}
       >

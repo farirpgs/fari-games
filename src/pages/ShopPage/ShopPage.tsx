@@ -24,35 +24,31 @@ export function ShopPage() {
 
   return (
     <Fade in>
-      <div>
-        <Container>
-          <Box mb="2rem">
-            <BetterSlider
-              height="400px"
-              settings={heroSliderSettings}
-              className={css({})}
-            >
-              {featuredGames.map((game, i) => {
-                return (
-                  <React.Fragment key={i}>
-                    {renderHeroSlide(game)}
-                  </React.Fragment>
-                );
-              })}
-            </BetterSlider>
-          </Box>
-          {shopCategories.map((category, i) => {
-            return (
-              <ShopCategory
-                key={i}
-                name={category.name}
-                tags={category.tags}
-                count={6}
-              />
-            );
-          })}
-        </Container>
-      </div>
+      <Container>
+        <Box mb="2rem">
+          <BetterSlider
+            height="400px"
+            settings={heroSliderSettings}
+            className={css({})}
+          >
+            {featuredGames.map((game, i) => {
+              return (
+                <React.Fragment key={i}>{renderHeroSlide(game)}</React.Fragment>
+              );
+            })}
+          </BetterSlider>
+        </Box>
+        {shopCategories.map((category, i) => {
+          return (
+            <ShopCategory
+              key={i}
+              name={category.name}
+              tags={category.tags}
+              count={6}
+            />
+          );
+        })}
+      </Container>
     </Fade>
   );
 
