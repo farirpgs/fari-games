@@ -10,4 +10,6 @@ export const gameDocuments: Record<
   "evilhat/fate-core": () => import("./evilhat/fate-core.md?raw"),
   "gilarpgs/lumen": () => import("./gilarpgs/lumen.md?raw"),
   "jasontocci/24xx": () => import("./jasontocci/24xx.md?raw"),
+  "aryl-ether/guided-by-the-sun": () =>
+    import("./aryl-ether/guided-by-the-sun.md?raw"),
 };

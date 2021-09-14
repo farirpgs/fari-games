@@ -116,7 +116,7 @@ export function GamePage() {
               <Grid container spacing={4}>
                 <Hidden mdDown>
                   <Grid item xs={3}>
-                    {renderChapters()}
+                    {renderSideBar()}
                   </Grid>
                 </Hidden>
                 <Grid item sm={12} md={9} lg={6}>
@@ -144,7 +144,7 @@ export function GamePage() {
                   setMobileMenuOpen(false);
                 }}
               >
-                <Box p="2rem">{renderChapters()}</Box>
+                <Box p="2rem">{renderSideBar()}</Box>
               </Drawer>
             </div>
           </Fade>
@@ -187,7 +187,7 @@ export function GamePage() {
     );
   }
 
-  function renderChapters() {
+  function renderSideBar() {
     if (!chapter) {
       return null;
     }
@@ -197,6 +197,8 @@ export function GamePage() {
 
     return (
       <>
+        {renderImage()}
+
         <div
           className={css({
             background: theme.palette.background.paper,
@@ -207,19 +209,6 @@ export function GamePage() {
             overflowY: "auto",
           })}
         >
-          {chapter?.frontMatter?.image && (
-            <div
-              className={css({
-                width: "100%",
-                height: "8rem",
-                zIndex: -1,
-                background: `url("${chapter?.frontMatter?.image}")`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-              })}
-            />
-          )}
           <MenuList dense>
             {renderCategoriesSideBarItems()}
             {renderRootSideBarItems()}
@@ -280,6 +269,40 @@ export function GamePage() {
         paddingLeft: "0",
       });
     });
+  }
+
+  function renderImage() {
+    if (!chapter?.frontMatter?.image) {
+      return null;
+    }
+
+    return (
+      <Box mt="1rem">
+        <div
+          className={css({
+            width: "100%",
+            height: "10rem",
+            zIndex: -1,
+            background: `url("${chapter?.frontMatter?.image}")`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          })}
+        />
+        {/* <img
+          src={chapter?.frontMatter?.image}
+          className={css({
+            width: "100%",
+            height: "auto",
+            // zIndex: -1,
+            // background: `url("${chapter?.frontMatter?.image}")`,
+            // backgroundSize: "cover",
+            // backgroundPosition: "center",
+            // backgroundRepeat: "no-repeat",
+          })}
+        /> */}
+      </Box>
+    );
   }
 
   function renderCategoriesSideBarItems() {

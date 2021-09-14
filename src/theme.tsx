@@ -5,20 +5,6 @@ import {
   ThemeOptions,
 } from "@material-ui/core/styles";
 
-const darkPalette: PaletteOptions = {
-  mode: "dark",
-  primary: {
-    main: "#90caf9",
-  },
-  secondary: {
-    main: "#2d436e",
-    // main: "#ce93d8",
-  },
-  background: {
-    default: "#141c26",
-    paper: "#1f2834",
-  },
-};
 const lightPalette: PaletteOptions = {
   mode: "light",
   primary: {
@@ -31,6 +17,21 @@ const lightPalette: PaletteOptions = {
   background: {
     default: "#fafafa",
     paper: "#fff",
+  },
+};
+
+const darkPalette: PaletteOptions = {
+  mode: "dark",
+  primary: {
+    main: "#90caf9",
+  },
+  secondary: {
+    main: "#90caf9",
+    // main: "#ce93d8",
+  },
+  background: {
+    default: "#141c26",
+    paper: "#1f2834",
   },
 };
 

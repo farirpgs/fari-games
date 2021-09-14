@@ -22,6 +22,7 @@ export function MarkdownContent(props: {
       />
       <div
         className={css({
+          fontFamily: props.textFont,
           "& blockquote": {
             margin: "0",
             padding: ".5rem 1rem",
@@ -30,11 +31,8 @@ export function MarkdownContent(props: {
             borderLeft: `4px solid ${theme.palette.secondary.main}`,
           },
           "& code": {
-            // background: "rgba(255, 229, 100, 0.4)",
-            // fontFamily: "inherit",
             fontFamily: props.highlightFont,
             fontWeight: theme.typography.fontWeightBold,
-            // fontSize: "1.05em",
           },
           "& pre": {
             whiteSpace: "pre-wrap",
@@ -45,7 +43,6 @@ export function MarkdownContent(props: {
               background: "none",
             },
           },
-          "& strong": {},
           "& p": {
             ...(theme.typography.body1 as any),
             fontFamily: props.textFont,
@@ -93,7 +90,6 @@ export function MarkdownContent(props: {
                   background: theme.palette.background.default,
                 },
                 "& td": {
-                  // borderLeft: `1px solid ${theme.palette.divider}`,
                   borderBottom: `1px solid ${theme.palette.divider}`,
                   padding: ".5rem",
                   "&:not(:first-child)": {

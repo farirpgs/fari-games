@@ -115,4 +115,20 @@ export const shopProducts: Array<IShopProduct> = [
         "https://www.drivethrurpg.com/product/335307/24XX-SRD?manufacturers_id=17901",
     },
   },
+  {
+    featured: true,
+    name: "Guided by the Sun",
+    slug: "guided-by-the-sun",
+    document: true,
+    author: "Aryl Ether",
+    authorSlug: "aryl-ether",
+    description:
+      "A GM-less, card-based system, where players tell the story of a protagonist undertaking a journey and making friends along the way.",
+    tags: ["24xx", "ttrpg", "main"],
+    rating: 0,
+    image: "https://gyazo.com/122ae6210bcd519928bc297267593423.png",
+    links: {
+      itchIo: "https://aryl-ether.itch.io/guided-by-the-sun",
+    },
+  },
 ];

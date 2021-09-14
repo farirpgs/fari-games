@@ -56,6 +56,7 @@ export function ProductDetails(props: {
     <>
       <Grid
         container
+        spacing={2}
         alignItems={props.alignItems}
         justifyContent={props.justifyContent}
         className={css({
