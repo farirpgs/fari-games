@@ -27,11 +27,9 @@ For the Fate-familiar, take advantage of the new and improved approaches to char
 
 <iframe src="https://itch.io/embed/491599" height="167" width="100%" frameborder="0"><a href="https://evilhat.itch.io/fate-core">Fate Core System by evilhat</a></iframe>
 
-> This is an adaption of the amazing work done by Randy Oest over the Fate SRD website.
+> This is an adaption of the amazing work done by Randy Oest over the [Fate SRD website](https://fate-srd.com/).
 >
-> Go check it out here: https://fate-srd.com/
->
-> \- René-Pier Deshaies-Gélinas | Fari
+> Product images are copyrighted and used here with the express permission of Evil Hat Productions, LLC.
 
 # The Basics
 
