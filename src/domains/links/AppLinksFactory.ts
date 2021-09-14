@@ -20,7 +20,7 @@ export const AppLinksFactory = {
     return `/browse/p/${game.authorSlug}/${game.slug}`;
   },
   makeGameLink(props: { author: string; game: string; language?: string }) {
-    if (props.language === "en") {
+    if (!props.language || props.language === "en") {
       return `/games/${props.author}/${props.game}`;
     }
     return `/games/t/${props.language}/${props.author}/${props.game}`;
@@ -31,7 +31,7 @@ export const AppLinksFactory = {
     chapter: string;
     language?: string;
   }) {
-    if (props.language === "en") {
+    if (!props.language || props.language === "en") {
       return `/games/${props.author}/${props.game}/${props.chapter}`;
     }
     return `/games/t/${props.language}/${props.author}/${props.game}/${props.chapter}`;
