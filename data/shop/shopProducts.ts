@@ -146,7 +146,39 @@ export const shopProducts: Array<IShopProduct> = [
     image: "https://gyazo.com/a8c7868751ecb508bfefe3f6e010b2a9.jpg",
     links: {
       website: "rrdgames.com",
-      // itchIo: "rrdgames.com",
+    },
+  },
+  {
+    featured: true,
+    name: "Harmony Drive",
+    slug: "harmony-drive",
+    document: true,
+    author: "Peach Garden Games",
+    authorSlug: "peachgardengames",
+    description:
+      "Build a campaign-style adventure TTRPG, one that lets players express themselves, work together, and make difficult choices, this is the system for you!",
+    tags: ["ttrpg", "main"],
+    rating: 0,
+    image: "https://gyazo.com/d162a60038bed03bcb97ea19ba931a98.png",
+    links: {
+      website: "http://www.peachgardengames.com",
+      itchIo: "https://peachgardengames.itch.io/harmony-drive",
+    },
+  },
+  {
+    featured: true,
+    name: "Carta",
+    slug: "carta",
+    document: true,
+    author: "Peach Garden Games",
+    authorSlug: "peachgardengames",
+    description: "A Toolkit For Making Exploration Games.",
+    tags: ["ttrpg", "main"],
+    rating: 0,
+    image: "https://gyazo.com/106826ea4cbde0930e918551a63d7b4d.png",
+    links: {
+      website: "http://www.peachgardengames.com",
+      itchIo: "https://peachgardengames.itch.io/carta-srd",
     },
   },
 ];

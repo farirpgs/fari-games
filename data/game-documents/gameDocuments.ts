@@ -14,4 +14,7 @@ export const gameDocuments: Record<
     import("./aryl-ether/guided-by-the-sun.md?raw"),
   "rowan-rook-and-decard/resistance-toolbox": () =>
     import("./rowan-rook-and-decard/resistance-toolbox.md?raw"),
+  "peachgardengames/harmony-drive": () =>
+    import("./peachgardengames/harmony-drive.md?raw"),
+  "peachgardengames/carta": () => import("./peachgardengames/carta.md?raw"),
 };
