@@ -8,7 +8,7 @@ headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
 itch: https://farigames.itch.io/charge-rpg
-widget: <iframe frameborder="0" src="https://itch.io/embed/1164980?bg_color=1f2834&amp;fg_color=feffff&amp;link_color=d49fdd&amp;border_color=414953" width="552" height="167"><a href="https://rpdeshaies.itch.io/charge-rpg">Charge RPG | Power Your Story Telling by René-Pier Deshaies-Gélinas</a></iframe>
+twitter: https://twitter.com/RPDeshaies
 version: 0.1.1
 ---
 

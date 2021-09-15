@@ -20,6 +20,7 @@ import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import MenuIcon from "@material-ui/icons/Menu";
+import TwitterIcon from "@material-ui/icons/Twitter";
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
@@ -233,7 +234,7 @@ export function GamePage() {
           </Box>
           <Box px="1rem" py="1rem">
             <Box mb=".5rem">{renderSidebarInfo()}</Box>
-            <Box>{renderImage()}</Box>
+            <Box mb=".5rem">{renderImage()}</Box>
             <Box>{renderVersion()}</Box>
           </Box>
         </div>
@@ -256,7 +257,10 @@ export function GamePage() {
     );
   }
   function renderSidebarInfo() {
-    const hasLink = chapter?.frontMatter?.itch || chapter?.frontMatter?.website;
+    const hasLink =
+      chapter?.frontMatter?.itch ||
+      chapter?.frontMatter?.website ||
+      chapter?.frontMatter?.twitter;
     const shouldRenderSidebarFooter = chapter?.frontMatter?.version || hasLink;
 
     if (!shouldRenderSidebarFooter) {
@@ -266,7 +270,25 @@ export function GamePage() {
       <>
         <Box>
           {hasLink && (
-            <Grid container spacing={1}>
+            <Grid container spacing={1} alignItems="center">
+              {chapter.frontMatter?.twitter && (
+                <Grid item>
+                  <IconButton
+                    size="small"
+                    color="info"
+                    component={"a"}
+                    href={chapter.frontMatter?.twitter}
+                    onClick={() => {
+                      track("go_to_twitter", {
+                        game: gameSlug,
+                      });
+                    }}
+                    target="_blank"
+                  >
+                    <TwitterIcon />
+                  </IconButton>
+                </Grid>
+              )}
               {chapter.frontMatter?.website && (
                 <Grid item>
                   <Button
