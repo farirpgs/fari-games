@@ -203,13 +203,8 @@ export function GamePage() {
       return null;
     }
 
-    const hasLink = chapter?.frontMatter?.itch || chapter?.frontMatter?.website;
-    const shouldRenderSidebarFooter = chapter?.frontMatter?.version || hasLink;
-
     return (
       <>
-        {renderImage()}
-
         <div
           className={css({
             background: theme.palette.background.paper,
@@ -220,77 +215,106 @@ export function GamePage() {
             overflowY: "auto",
           })}
         >
-          <MenuList dense>
-            {renderCategoriesSideBarItems()}
-            {renderRootSideBarItems()}
-          </MenuList>
-          {shouldRenderSidebarFooter && (
-            <>
-              <Divider />
-              <Box p=".5rem 1.5rem">
-                {chapter.frontMatter?.version && (
-                  <Box
-                    pb=".5rem"
+          <Box px="1rem" mt="1rem">
+            <Box>{renderTitle()}</Box>
+            <Box pb=".5rem">{renderAuthor()}</Box>
+          </Box>
+          <Box px="1rem">
+            <Divider />
+          </Box>
+          <Box>
+            <MenuList dense>
+              {renderCategoriesSideBarItems()}
+              {renderRootSideBarItems()}
+            </MenuList>
+          </Box>
+          <Box px="1rem">
+            <Divider />
+          </Box>
+          <Box px="1rem" py="1rem">
+            <Box mb=".5rem">{renderSidebarInfo()}</Box>
+            <Box>{renderImage()}</Box>
+            <Box>{renderVersion()}</Box>
+          </Box>
+        </div>
+      </>
+    );
+  }
+
+  function renderVersion() {
+    if (!chapter?.frontMatter?.version) {
+      return null;
+    }
+    return (
+      <Box
+        className={css({
+          fontFamily: "monospace",
+        })}
+      >
+        v{chapter?.frontMatter?.version}
+      </Box>
+    );
+  }
+  function renderSidebarInfo() {
+    const hasLink = chapter?.frontMatter?.itch || chapter?.frontMatter?.website;
+    const shouldRenderSidebarFooter = chapter?.frontMatter?.version || hasLink;
+
+    if (!shouldRenderSidebarFooter) {
+      return null;
+    }
+    return (
+      <>
+        <Box>
+          {hasLink && (
+            <Grid container spacing={1}>
+              {chapter.frontMatter?.website && (
+                <Grid item>
+                  <Button
+                    variant="outlined"
+                    size="small"
+                    color="inherit"
+                    component={"a"}
+                    href={chapter.frontMatter?.website}
+                    onClick={() => {
+                      track("buy_website", {
+                        game: gameSlug,
+                      });
+                    }}
+                    target="_blank"
                     className={css({
-                      fontFamily: "monospace",
+                      textTransform: "none",
                     })}
                   >
-                    v{chapter.frontMatter?.version}
-                  </Box>
-                )}
-                {hasLink && (
-                  <Grid container spacing={1}>
-                    {chapter.frontMatter?.itch && (
-                      <Grid item>
-                        <Button
-                          variant="outlined"
-                          size="small"
-                          color="inherit"
-                          component={"a"}
-                          href={chapter.frontMatter?.itch}
-                          onClick={() => {
-                            track("buy_itch", {
-                              game: gameSlug,
-                            });
-                          }}
-                          target="_blank"
-                          className={css({
-                            textTransform: "none",
-                          })}
-                          endIcon={<ItchIcon />}
-                        >
-                          Itch.io
-                        </Button>
-                      </Grid>
-                    )}
-                    {chapter.frontMatter?.website && (
-                      <Grid item>
-                        <Button
-                          variant="outlined"
-                          size="small"
-                          color="inherit"
-                          component={"a"}
-                          href={chapter.frontMatter?.website}
-                          onClick={() => {
-                            track("buy_website", {
-                              game: gameSlug,
-                            });
-                          }}
-                          target="_blank"
-                          className={css({
-                            textTransform: "none",
-                          })}
-                        >
-                          Website
-                        </Button>
-                      </Grid>
-                    )}
-                  </Grid>
-                )}
-              </Box>
-            </>
+                    Website
+                  </Button>
+                </Grid>
+              )}
+              {chapter.frontMatter?.itch && (
+                <Grid item>
+                  <Button
+                    variant="outlined"
+                    size="small"
+                    color="inherit"
+                    component={"a"}
+                    href={chapter.frontMatter?.itch}
+                    onClick={() => {
+                      track("buy_itch", {
+                        game: gameSlug,
+                      });
+                    }}
+                    target="_blank"
+                    className={css({
+                      textTransform: "none",
+                    })}
+                    endIcon={<ItchIcon />}
+                  >
+                    Itch.io
+                  </Button>
+                </Grid>
+              )}
+            </Grid>
           )}
-        </div>
+        </Box>
       </>
     );
   }
@@ -314,8 +338,8 @@ export function GamePage() {
     }
 
     return (
-      <Box mt="1rem">
-        <div
+      <Box>
+        {/* <div
           className={css({
             width: "100%",
             height: "10rem",
@@ -325,19 +349,21 @@ export function GamePage() {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
           })}
-        />
-        {/* <img
+        /> */}
+        <img
           src={chapter?.frontMatter?.image}
           className={css({
             width: "100%",
             height: "auto",
+            // margin: "0 auto",
+            // display: "block",
             // zIndex: -1,
             // background: `url("${chapter?.frontMatter?.image}")`,
             // backgroundSize: "cover",
             // backgroundPosition: "center",
             // backgroundRepeat: "no-repeat",
           })}
-        /> */}
+        />
       </Box>
     );
   }
@@ -681,17 +707,23 @@ export function GamePage() {
       </Box>
     );
   }
+
+  function renderTitle() {
+    if (!chapter?.frontMatter?.title) {
+      return null;
+    }
+    return <Typography variant="h4">{chapter?.frontMatter?.title}</Typography>;
+  }
+
   function renderAuthor() {
     if (!chapter?.frontMatter?.author) {
       return null;
     }
 
     return (
-      <Box position="absolute" left="0">
-        <Typography variant="caption" color={theme.palette.text.secondary}>
-          By {chapter?.frontMatter?.author}
-        </Typography>
-      </Box>
+      <Typography variant="caption" color={theme.palette.text.secondary}>
+        By {chapter?.frontMatter?.author}
+      </Typography>
     );
   }
 
@@ -700,7 +732,6 @@ export function GamePage() {
       <>
         <div className={css({ position: "relative" })}>
           {renderPreviousNextNavigation()}
-          {renderAuthor()}
           {renderTime()}
           <MarkdownContent
             headingFont={chapter?.frontMatter?.headingFont}
