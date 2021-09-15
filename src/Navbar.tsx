@@ -16,6 +16,7 @@ import { useLocation } from "react-router-dom";
 import { ReactRouterLink } from "./components/ReactRouterLink/ReactRouterLink";
 import { SettingsContext } from "./contexts/SettingsContext";
 import { track } from "./domains/analytics/track";
+import { AppLinksFactory } from "./domains/links/AppLinksFactory";
 
 export function Navbar() {
   const theme = useTheme();
@@ -79,7 +80,10 @@ export function Navbar() {
             <Hidden smDown>
               <Grid item>
                 <ReactRouterLink
-                  to="/games/fari-games/charge-rpg"
+                  to={AppLinksFactory.makeGameLink({
+                    author: "fari-games",
+                    game: "charge-rpg",
+                  })}
                   className={css({
                     color: "inherit",
                     textDecoration: "none",

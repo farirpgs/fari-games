@@ -138,7 +138,10 @@ export function ProductDetails(props: {
                         size="large"
                         variant="contained"
                         component={ReactRouterLink}
-                        to={`/games/${props.game.authorSlug}/${props.game.slug}`}
+                        to={AppLinksFactory.makeGameLink({
+                          author: props.game.authorSlug,
+                          game: props.game.slug,
+                        })}
                         className={css({
                           textTransform: "none",
                         })}

@@ -86,23 +86,12 @@ function App() {
 
                   <Route
                     exact
-                    path="/games/:author/:game/:chapter?"
+                    path="/games/:language/:author/:game/:chapter?"
                     component={GamePage}
                   />
                   <Route
                     exact
-                    path="/games/:author/:game/:chapter?"
-                    component={GamePage}
-                  />
-
-                  <Route
-                    exact
-                    path="/games/t/:language/:author/:game/:chapter?"
-                    component={GamePage}
-                  />
-                  <Route
-                    exact
-                    path="/games/t/:language/:author/:game/:chapter?"
+                    path="/games/:language/:author/:game/:chapter?"
                     component={GamePage}
                   />
 

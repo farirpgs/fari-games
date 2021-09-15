@@ -90,9 +90,10 @@ export class DocumentParser {
     slug: string;
     language: string | undefined;
   }): Promise<IDocument> {
-    const link = props.language
-      ? `${props.author}/${props.slug}_${props.language}`
-      : `${props.author}/${props.slug}`;
+    const link =
+      props.language === "en"
+        ? `${props.author}/${props.slug}`
+        : `${props.author}/${props.slug}_${props.language}`;
     const { default: fileContent } = await gameDocuments[link]();
 
     const frontMatter =
