@@ -44,7 +44,7 @@ export function ShopPage() {
               key={i}
               name={category.name}
               tags={category.tags}
-              count={6}
+              count={20}
             />
           );
         })}
@@ -59,6 +59,7 @@ export function ShopPage() {
           width: "100%",
           height: "400px",
           position: "relative",
+          display: "flex",
         })}
       >
         <div
@@ -70,7 +71,6 @@ export function ShopPage() {
             left: "0",
 
             background: `linear-gradient(90deg, rgba(0, 0, 0, .8) 0%, rgba(0, 0, 0, .5) 100%), url(${game.image})`,
-            // background: `linear-gradient(90deg,,100%, rgba(0, 0, 0, .8)),url(${game.image})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -86,7 +86,7 @@ export function ShopPage() {
         />
         <ProductDetails
           alignItems="center"
-          game={game}
+          product={game}
           padding="2rem 6rem"
           color="#fff"
           justifyContent="space-evenly"

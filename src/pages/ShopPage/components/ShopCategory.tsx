@@ -1,14 +1,10 @@
-import { css } from "@emotion/css";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import shuffle from "lodash/shuffle";
 import React, { useMemo } from "react";
-import { Link as ReactRouterLink } from "react-router-dom";
-import { Settings } from "react-slick";
 import { shopProducts } from "../../../../data/shop/shopProducts";
 import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
-import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
-import { BetterSlider } from "./BetterSlider";
+import { ProductList } from "./ProductList";
 
 export function useGames(
   tags: string | undefined,
@@ -60,19 +56,6 @@ export function ShopCategory(props: {
   const gamesForTags = useGames(props.tags, props.excludeProduct);
   const gamesToDisplay = gamesForTags.slice(0, props.count);
 
-  const isEven = gamesToDisplay.length % 2;
-  const slidesToScroll = isEven === 0 ? 2 : 1;
-
-  const productSliderSettings: Settings = {
-    autoplay: false,
-    dots: false,
-    infinite: true,
-    centerMode: false,
-    speed: 500,
-    slidesToScroll: slidesToScroll,
-    variableWidth: true,
-  };
-
   if (gamesToDisplay.length === 0) {
     return null;
   }
@@ -80,82 +63,12 @@ export function ShopCategory(props: {
   return (
     <Box mb="2rem">
       <Box>
-        <Typography variant="h4" gutterBottom>
+        <Typography variant="h3" gutterBottom>
           {props.name}
         </Typography>
       </Box>
 
-      <BetterSlider
-        height="12rem"
-        settings={productSliderSettings}
-        className={css({
-          "& .slick-track": {
-            margin: "0 -.5rem", // for product gap
-          },
-        })}
-      >
-        {gamesToDisplay.map((game, i) => {
-          return (
-            <React.Fragment key={i}>{renderProductCard(game)}</React.Fragment>
-          );
-        })}
-      </BetterSlider>
+      <ProductList products={gamesToDisplay} />
     </Box>
   );
-
-  function renderProductCard(game: IShopProduct) {
-    const gap = ".5rem";
-    return (
-      <ReactRouterLink
-        to={AppLinksFactory.makeProductLink(game)}
-        className={css({
-          position: "relative",
-          cursor: "pointer",
-        })}
-      >
-        <div
-          className={css({
-            width: "100%",
-            height: "100%",
-            position: "absolute",
-            top: "0",
-            left: "0",
-            // "background": `linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url(${game.image})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-
-            "&:after": {
-              backdropFilter: "blur(16px)",
-              content: '""',
-              position: "absolute",
-              width: "100%",
-              height: "100%",
-              pointerEvents: "none" /* make the overlay click-through */,
-            },
-          })}
-        />
-        <div
-          className={css({
-            height: "12rem",
-            margin: `0 ${gap}`,
-            display: "flex",
-            justifyContent: "center",
-            position: "relative",
-          })}
-        >
-          <img
-            src={game.image}
-            className={css({
-              height: "12rem",
-              width: "auto",
-              margin: "0 auto",
-              position: "relative",
-              zIndex: 1,
-            })}
-          />
-        </div>
-      </ReactRouterLink>
-    );
-  }
 }

@@ -1,8 +1,12 @@
 ---
 title: Fate Condensed
 author: Evil Hat Productions
+description: The latest version of the Fate System. Compact, stand-alone and streamlined for clarity and ease of reference.
 image: https://gyazo.com/4ea53966f3171861e0773fe111a7a3e7.png
 languages: en,pt-br
+itch: https://evilhat.itch.io/fate-condensed
+twitter: https://twitter.com/EvilHatOfficial
+website: https://www.evilhat.com/home/fate-condensed/
 ---
 
 <style>

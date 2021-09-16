@@ -1,6 +1,6 @@
 ---
 title: Charge RPG
-description: Power Your Story Telling
+description: Ready to use generic RPG system
 author: Fari Games
 image: https://gyazo.com/5b8633befdb6fe3f894bdabaedac4001.png
 fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap
@@ -1598,7 +1598,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 
 <details>
 	<summary>
-		[Characer Sheet](/documents/charge-rpg/character-sheet.pdf)
+		[Character Sheet](/documents/charge-rpg/character-sheet.pdf)
 	</summary>
 	<object data="/documents/charge-rpg/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
 		<embed src="/documents/charge-rpg/character-sheet.pdf">

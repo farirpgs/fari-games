@@ -7,6 +7,7 @@ headingFont: Architects Daughter
 image: https://gyazo.com/106826ea4cbde0930e918551a63d7b4d.png
 website: http://www.peachgardengames.com
 itch: https://peachgardengames.itch.io/carta-srd
+twitter: https://twitter.com/peachgardenrpgs
 ---
 
 # Welcome to Carta!

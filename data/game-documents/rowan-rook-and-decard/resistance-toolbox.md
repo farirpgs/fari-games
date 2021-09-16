@@ -8,6 +8,8 @@ textFont: Urbanist
 image: https://gyazo.com/a8c7868751ecb508bfefe3f6e010b2a9.jpg
 headingUppercase: true
 website: rrdgames.com
+itch: https://gshowitt.itch.io/the-resistance-toolbox
+twitter: https://twitter.com/gshowitt
 ---
 
 # The Resistance Toolbox

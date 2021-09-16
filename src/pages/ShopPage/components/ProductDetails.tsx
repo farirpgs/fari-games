@@ -39,7 +39,7 @@ export function useThemeFromColor(color: string, mode?: any) {
 }
 
 export function ProductDetails(props: {
-  game: IShopProduct | undefined;
+  product: IShopProduct | undefined;
   alignItems?: string;
   justifyContent?: string;
   padding?: string;
@@ -48,7 +48,7 @@ export function ProductDetails(props: {
 }) {
   const productTheme = useThemeFromColor(props.color);
 
-  if (!props.game) {
+  if (!props.product) {
     return null;
   }
 
@@ -79,10 +79,15 @@ export function ProductDetails(props: {
                   color: productTheme.palette.text.secondary,
                   // textDecoration: "none",
                 })}
-                to={AppLinksFactory.makeAuthorLink(props.game)}
+                to={AppLinksFactory.makeAuthorLink(props.product)}
               >
-                <Typography variant="caption">
-                  By {props.game.author}
+                <Typography
+                  variant="caption"
+                  className={css({
+                    fontSize: "1rem",
+                  })}
+                >
+                  By {props.product.author}
                 </Typography>
               </ReactRouterLink>
             </div>
@@ -100,7 +105,7 @@ export function ProductDetails(props: {
               })}
             >
               <ReactRouterLink
-                to={AppLinksFactory.makeProductLink(props.game)}
+                to={AppLinksFactory.makeProductLink(props.product)}
                 className={css({
                   color: productTheme.palette.text.primary,
                   cursor: props.clickable ? "pointer" : "text",
@@ -108,7 +113,7 @@ export function ProductDetails(props: {
                   pointerEvents: props.clickable ? undefined : "none",
                 })}
               >
-                {props.game.name}
+                {props.product.name}
               </ReactRouterLink>
             </div>
             <div
@@ -122,7 +127,9 @@ export function ProductDetails(props: {
                 display: "flex",
               })}
             >
-              <Typography variant="body2">{props.game.description}</Typography>
+              <Typography variant="body2">
+                {props.product.description}
+              </Typography>
             </div>
             <ThemeProvider theme={productTheme}>
               <div
@@ -132,15 +139,15 @@ export function ProductDetails(props: {
                 })}
               >
                 <Grid container spacing={1} alignItems="center">
-                  {props.game.document && (
+                  {props.product.document && (
                     <Grid item>
                       <Button
                         size="large"
                         variant="contained"
                         component={ReactRouterLink}
                         to={AppLinksFactory.makeGameLink({
-                          author: props.game.authorSlug,
-                          game: props.game.slug,
+                          author: props.product.authorSlug,
+                          game: props.product.slug,
                         })}
                         className={css({
                           textTransform: "none",
@@ -162,21 +169,21 @@ export function ProductDetails(props: {
                 })}
               >
                 <Grid container spacing={1} alignItems="center">
-                  {props.game.links.itchIo && (
+                  {props.product.links.itchIo && (
                     <Grid item>
                       <Button
                         variant="outlined"
                         size="small"
                         component={"a"}
                         href={
-                          props.game.affiliate
-                            ? props.game.links.itchIo + itchIoAffiliateCode
-                            : props.game.links.itchIo
+                          props.product.affiliate
+                            ? props.product.links.itchIo + itchIoAffiliateCode
+                            : props.product.links.itchIo
                         }
                         target="_blank"
                         onClick={() => {
                           track("buy_itch", {
-                            game: props.game?.slug,
+                            game: props.product?.slug,
                           });
                         }}
                         className={css({
@@ -188,22 +195,22 @@ export function ProductDetails(props: {
                       </Button>
                     </Grid>
                   )}
-                  {props.game.links.driveThru && (
+                  {props.product.links.driveThru && (
                     <Grid item>
                       <Button
                         variant="outlined"
                         size="small"
                         component={"a"}
                         href={
-                          props.game.affiliate
-                            ? props.game.links.driveThru +
+                          props.product.affiliate
+                            ? props.product.links.driveThru +
                               driveThruRpgAffiliateCode
-                            : props.game.links.driveThru
+                            : props.product.links.driveThru
                         }
                         target="_blank"
                         onClick={() => {
                           track("buy_drivethrurpg", {
-                            game: props.game?.slug,
+                            game: props.product?.slug,
                           });
                         }}
                         className={css({
@@ -215,17 +222,17 @@ export function ProductDetails(props: {
                       </Button>
                     </Grid>
                   )}
-                  {props.game.links.website && (
+                  {props.product.links.website && (
                     <Grid item>
                       <Button
                         variant="outlined"
                         size="small"
                         component={"a"}
-                        href={props.game.links.website}
+                        href={props.product.links.website}
                         target="_blank"
                         onClick={() => {
                           track("buy_website", {
-                            game: props.game?.slug,
+                            game: props.product?.slug,
                           });
                         }}
                         className={css({
@@ -244,29 +251,24 @@ export function ProductDetails(props: {
         <Hidden smDown>
           <Grid item xs={12} sm={4} md={6}>
             <ReactRouterLink
-              to={AppLinksFactory.makeProductLink(props.game)}
+              to={AppLinksFactory.makeProductLink(props.product)}
               className={css({
                 cursor: "pointer",
+                display: "flex",
+                margin: "0 auto",
               })}
             >
-              <div
+              <img
+                src={props.product.image}
                 className={css({
+                  width: "auto",
+                  maxWidth: "100%",
                   height: "100%",
-                  display: "flex",
+                  maxHeight: "300px",
+                  margin: "0 auto",
+                  border: "4px solid #fff",
                 })}
-              >
-                <img
-                  src={props.game.image}
-                  className={css({
-                    width: "auto",
-                    maxWidth: "100%",
-                    height: "100%",
-                    maxHeight: "300px",
-                    margin: "0 auto",
-                    border: "4px solid #fff",
-                  })}
-                />
-              </div>
+              />
             </ReactRouterLink>
           </Grid>
         </Hidden>

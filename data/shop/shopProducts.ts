@@ -1,20 +1,5 @@
 import { IShopProduct } from "./types/IShopProduct";
 
-/**
- * Rooted in Trophy (Drake)
- * Descended From the Queen (Drake)
- * Ironsworn (Drake)
- * Lost & Found (Drake)
- *
- * Carta SRD
- * Harmony Drive SRD
- * Lady Blackbird
- * Eclipse Phase
- * Gumshoe
- *
- * Paragon System
- */
-
 export const shopProducts: Array<IShopProduct> = [
   {
     featured: true,
@@ -23,8 +8,7 @@ export const shopProducts: Array<IShopProduct> = [
     author: "Fari Games",
     authorSlug: "fari-games",
     document: true,
-    description:
-      "Power your storytelling with this ready to use generic RPG system.",
+    description: "Ready to use generic RPG system.",
     tags: ["charge-rpg", "ttrpg", "main"],
     rating: 0,
     image: "https://gyazo.com/a8db97f79b14526c0458286383d40d91.png",
@@ -105,8 +89,8 @@ export const shopProducts: Array<IShopProduct> = [
     slug: "24xx",
     document: true,
     author: "Jason Tocci",
+    description: "A lo-fi sci-fi RPG SRD.",
     authorSlug: "jasontocci",
-    description: "",
     tags: ["24xx", "ttrpg", "main"],
     rating: 0,
     image: "https://gyazo.com/0c6a155c170ada7f5fe316908b663967.png",

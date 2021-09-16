@@ -2,7 +2,11 @@
 ---
 title: Fate Accelerated
 author: Evil Hat Productions
+description: If you want to get started quickly, this dialed-down version of Fate Core will get you going in no time.
 image: https://gyazo.com/09fb7c1d535adf4332c311cca88f68ca.png
+itch: https://evilhat.itch.io/fate-accelerated
+twitter: https://twitter.com/EvilHatOfficial
+website: https://www.evilhat.com/home/fate-accelerated/
 ---
 
 <style>

@@ -29,7 +29,7 @@ export function HomePage() {
     return (
       <Box py="2rem" mb={"2rem"}>
         <Container>
-          <Typography variant="h4" gutterBottom>
+          <Typography variant="h3" gutterBottom>
             Sponsors
           </Typography>
           <Grid container spacing={4} justifyContent="flex-start">

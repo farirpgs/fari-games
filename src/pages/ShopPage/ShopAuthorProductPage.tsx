@@ -63,19 +63,19 @@ export function ShopAuthorProductPage() {
               alignItems="flex-start"
               justifyContent="space-between"
               padding="2rem 0"
-              game={selectedGame}
+              product={selectedGame}
               color={theme.palette.text.primary}
             />
             <ShopCategory
               excludeProduct={selectedGame}
-              name={`You might also like... `}
+              name={`You Might Also Like... `}
               tags={selectedGameTags.join(", ")}
-              count={6}
+              count={4}
             />
             <MoreByAuthor
-              variant="h6"
+              variant="h3"
               authorSlug={selectedGame?.authorSlug}
-              count={6}
+              count={4}
               excludeProduct={selectedGame}
             />
           </Container>

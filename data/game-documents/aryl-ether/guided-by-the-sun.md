@@ -1,11 +1,13 @@
 ---
 title: Guided by the Sun
 author: W.H. Arthur
+description: A GM-less, card-based system, where players tell the story of a protagonist undertaking a journey and making friends along the way.
 image: https://gyazo.com/122ae6210bcd519928bc297267593423.png
 fonts: https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;400;500;700&display=swap,https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;400;500;700&family=Libre+Baskerville:wght@400;700&display=swap
 headingFont: Grenze Gotisch
 textFont: Libre Baskerville
 itch: https://aryl-ether.itch.io/guided-by-the-sun
+twitter: https://twitter.com/Aryl_Ether
 ---
 
 # Introduction

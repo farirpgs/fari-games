@@ -21,6 +21,7 @@ import Typography from "@material-ui/core/Typography";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import MenuIcon from "@material-ui/icons/Menu";
 import TwitterIcon from "@material-ui/icons/Twitter";
+import WebIcon from "@material-ui/icons/Web";
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
@@ -279,7 +280,7 @@ export function GamePage() {
                     component={"a"}
                     href={chapter.frontMatter?.twitter}
                     onClick={() => {
-                      track("go_to_twitter", {
+                      track("follow_on_twitter", {
                         game: gameSlug,
                       });
                     }}
@@ -306,6 +307,7 @@ export function GamePage() {
                     className={css({
                       textTransform: "none",
                     })}
+                    endIcon={<WebIcon />}
                   >
                     Website
                   </Button>
