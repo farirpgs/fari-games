@@ -73,10 +73,11 @@ export function GamePage() {
   useEffect(() => {
     if (chapter) {
       const categories = Object.keys(chapter.sidebar.categories);
-
       categories.forEach((categoryName) => {
         const sidebarItems = chapter.sidebar.categories[categoryName];
-        const open = sidebarItems.some((i) => i.path === chapterSlug);
+        const open = sidebarItems.some(
+          (i) => i.path === chapter.currentChapter.id
+        );
         if (open) {
           setOpenedCategory(categoryName);
         }
@@ -203,6 +204,8 @@ export function GamePage() {
       return null;
     }
 
+    const shouldRenderChapters = chapter.numberOfChapters > 1;
+
     return (
       <>
         <div
@@ -222,15 +225,19 @@ export function GamePage() {
           <Box px="1rem">
             <Divider />
           </Box>
-          <Box>
-            <MenuList dense>
-              {renderCategoriesSideBarItems()}
-              {renderRootSideBarItems()}
-            </MenuList>
-          </Box>
-          <Box px="1rem">
-            <Divider />
-          </Box>
+          {shouldRenderChapters && (
+            <>
+              <Box>
+                <MenuList dense>
+                  {renderCategoriesSideBarItems()}
+                  {renderRootSideBarItems()}
+                </MenuList>
+              </Box>
+              <Box px="1rem">
+                <Divider />
+              </Box>
+            </>
+          )}
           <Box px="1rem" py="1rem">
             <Box mb=".5rem">{renderSidebarInfo()}</Box>
             <Box mb=".5rem">{renderImage()}</Box>
@@ -475,7 +482,7 @@ export function GamePage() {
     item: ISidebarItem;
     paddingLeft: string;
   }) {
-    const selected = chapterSlug === renderProps.item.path;
+    const selected = chapter?.currentChapter.id === renderProps.item.path;
     const title = renderProps.item.title;
     return (
       <MenuItem
@@ -839,7 +846,7 @@ export function GamePage() {
                 });
               }}
             >
-              <Button color="inherit"> {chapter.nextChapter?.text} »</Button>
+              <Button color="inherit">{chapter.nextChapter?.text} »</Button>
             </ReactRouterLink>
           )}
         </Grid>

@@ -10,7 +10,9 @@ itch: https://aryl-ether.itch.io/guided-by-the-sun
 twitter: https://twitter.com/Aryl_Ether
 ---
 
-# Introduction
+# Guided by the Sun
+
+## Introduction
 
 **Guided by the Sun** is a System Reference Document for designing tabletop role-playing games based on W.H. Arthur’s _The Sol Survivor_. It is a card-based, GM-less system about undertaking a journey and making friends along the way.
 
@@ -22,7 +24,7 @@ Written by **W.H. Arthur** (@Aryl_Ether)
 
 [https://aryl-ether.itch.io/](https://aryl-ether.itch.io/)
 
-# Licensing
+## Licensing
 
 This work is licensed under CC BY 4.0. To view a copy of this license, visit:
 
@@ -30,13 +32,13 @@ https://creativecommons.org/licenses/by/4.0
 
 You are free to create _Guided by the Sun_ games and use the logo (colour, resize, or do whatever you want to it). It would be appreciated if you credit _The Sol Survivor_ by W.H. Arthur (<span style="text-decoration:underline;">https://aryl-ether.itch.io/the-sol-survivor</span>).
 
-# Overview
+## Overview
 
 In Guided by the Sun games, 3-6 players tell the journey of a protagonist on a mission. It is played over a series of “turns", where the protagonist faces a challenge/adversary with a new ally they meet along the way. Depending on what cards are being played, the ally may join the protagonist on their journey. At the end of the journey, cards are played to determine the outcome of the protagonist’s mission. The more friends they have made along the way, the more likely they are to succeed.
 
 Generally speaking, a deck of playing cards and a counter (usually a 6-sided dice) is required to play a Guided by the Sun game. Writing materials at the table would be helpful in facilitating the game.
 
-# Theme
+## Theme
 
 A _Guided by the Sun_ game should have a theme that revolves around the journey. _The Sol Survivor_ is a Chinese mythology game about the fallen sun making their way back to the heavens.
 
@@ -48,21 +50,21 @@ Here are some example concepts:
 
 • A swashbuckling story about a pirate journeying across the seven seas to hunt for the greatest treasure known to mankind.
 
-# Core Mechanics
+## Core Mechanics
 
-## The Deck
+### The Deck
 
 A deck of 52 playing cards is used in the game. It is shuffled before play. Each player has three cards in their hand, and they always draw back up to three after a card is played.
 
-## The Counter
+### The Counter
 
 A counter that starts with 6, and is decreased by one every time the protagonist fails a challenge. When it reaches 0, the journey ends prematurely. In _The Sol Survivor_, the counter represents the Sun’s faith in the world.
 
-## Companion Track
+### Companion Track
 
 Recruited companions are placed in a row next to the deck. It is empty at the start of the game.
 
-## The Questionnaire
+### The Questionnaire
 
 At the beginning of the game, the players answer a questionnaire about the protagonist and the setting. In broad strokes, it should include:
 
@@ -71,7 +73,7 @@ At the beginning of the game, the players answer a questionnaire about the prota
 - Evocative world building questions that reinforces the premise of the game, while allowing the players to customise the specifics, making the world their own.
 - How does the protagonist plan to achieve their goal, and why does it involve a journey?
 
-# The Journey
+## The Journey
 
 The game is played over a series of turns, each turn constitutes a part of the protagonist’s journey, in which the players take the roles of protagonist, ally, and narrator (the roles get rotated every turn). At the beginning of a turn, the ally and the narrator each plays a card, and it determines the character they play for the turn. (In _The Sol Survivor_, the narrator plays their card in secret to add an element of mystery.)
 
@@ -80,7 +82,7 @@ The game is played over a series of turns, each turn constitutes a part of the p
 - The Narrator - They describe everything in the setting, other than the thoughts and actions of the protagonist and their ally. They also have the character on their card at their disposal, which serves as an adversary to the protagonist.
 - Other Players - In a game with 4+ players, the other players can suggest details to the scenes, and take on roles of NPCs and recruited companions.
 
-## Resolution
+### Resolution
 
 At the climax of a turn, or when it is narratively appropriate, the protagonist plays a card to resolve the scene.
 
@@ -92,7 +94,7 @@ The protagonist may choose to play a face-up companion instead of a card from th
 
 After the resolution, the roles are passed around clockwise, and a new turn starts.
 
-# Ending the Journey
+## Ending the Journey
 
 When the journey comes to its natural conclusion, or when the counter drops to zero, count the number of cards on the companion track (including face-down ones). This is the score.
 
@@ -104,7 +106,7 @@ Draw a number of cards equal to the conditions the protagonist has met, plus one
 
 If the score beats the difficulty rating, the mission is a success. If the score is equal to the difficulty rating, the protagonist has a bittersweet ending. If the score is lower than the difficulty rating, the mission ends in failure. Afterwards, the players take turns to narrate the epilogue.
 
-# Character Cards
+## Character Cards
 
 By default, a _Guided by the Sun_ game has 26 types of characters that the protagonist can encounter. Each of them has their own number and colour in the playing card deck. Below are a few things to keep in mind when designing the characters:
 
@@ -113,7 +115,7 @@ By default, a _Guided by the Sun_ game has 26 types of characters that the prota
 - When played as an adversary, higher number cards present a greater challenge for the protagonist. In _The Sol Survivor_, they are the legendary creatures such as dragons and phoenixes.
 - J, Q, K are treated as 11, 12 and 13 respectively. An ace is normally treated as 1, but it can beat any court cards (J/Q/K) played against it.
 
-# Remixes
+## Remixes
 
 Feel free to alter the rules as you see fit. Here are some ideas:
 
@@ -122,7 +124,7 @@ Feel free to alter the rules as you see fit. Here are some ideas:
 - Instead of playing cards, use tarot cards. Or your old Magic/Pokemon cards!
 - Alter the number cards in the players’ hands. Having only 2 cards in a player’s hand would restrict their options, while having 4 cards would give them more control on how the story goes.
 
-# Safety/Support Tools
+## Safety/Support Tools
 
 It is important that TTRPG safety/support tools are used when playing the game.
 

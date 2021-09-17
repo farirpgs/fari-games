@@ -46,6 +46,7 @@ export type IChapter = {
   numberOfWordsInChapter: number;
   searchIndexes: Array<ISearchIndex>;
   sidebar: ISidebar;
+  numberOfChapters: number;
   chapterToc: Array<{
     id: string;
     text: string;
@@ -263,6 +264,7 @@ export class DocumentParser {
       style: document.style,
       html: chapter.html,
       chapterToc: tableOfContent,
+      numberOfChapters: document.chapters.length,
       sidebar: document.sidebar,
       frontMatter: document.frontMatter,
       numberOfWordsInChapter: chapter.numberOfWords,
