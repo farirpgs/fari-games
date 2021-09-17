@@ -1,4 +1,5 @@
 import { css } from "@emotion/css";
+import { useTheme } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import React from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
@@ -6,6 +7,7 @@ import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 
 export function ProductCard(props: { product: IShopProduct }) {
+  const theme = useTheme();
   return (
     <div
       className={css({
@@ -65,6 +67,7 @@ export function ProductCard(props: { product: IShopProduct }) {
             textDecoration: "none",
             "&:hover": {
               textDecoration: "underline",
+              textDecorationColor: theme.palette.text.primary,
             },
           })}
         >
