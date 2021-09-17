@@ -1,5 +1,5 @@
 import { css } from "@emotion/css";
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import React from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { IShopProduct } from "../../../../data/shop/types/IShopProduct";

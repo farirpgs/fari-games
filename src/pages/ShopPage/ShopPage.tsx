@@ -1,7 +1,9 @@
 import { css } from "@emotion/css";
-import Box from "@material-ui/core/Box";
-import Container from "@material-ui/core/Container";
-import Fade from "@material-ui/core/Fade";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import Fade from "@mui/material/Fade";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import React from "react";
 import { Settings } from "react-slick";
 import { shopCategories } from "../../../data/shop/shopCategories";
@@ -21,16 +23,14 @@ export function ShopPage() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+  const theme = useTheme();
+  const isSmall = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <Fade in>
       <Container>
         <Box mb="2rem">
-          <BetterSlider
-            height="400px"
-            settings={heroSliderSettings}
-            className={css({})}
-          >
+          <BetterSlider height="400px" settings={heroSliderSettings}>
             {featuredGames.map((game, i) => {
               return (
                 <React.Fragment key={i}>{renderHeroSlide(game)}</React.Fragment>
@@ -87,7 +87,7 @@ export function ShopPage() {
         <ProductDetails
           alignItems="center"
           product={game}
-          padding="2rem 6rem"
+          padding={isSmall ? "2rem" : "2rem 6rem"}
           color="#fff"
           justifyContent="space-evenly"
           clickable

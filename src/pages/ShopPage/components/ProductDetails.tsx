@@ -1,15 +1,19 @@
 import { css } from "@emotion/css";
-import { useTheme } from "@emotion/react";
-import Box from "@material-ui/core/Box";
-import Button from "@material-ui/core/Button";
-import Divider from "@material-ui/core/Divider";
-import Grid from "@material-ui/core/Grid";
-import Hidden from "@material-ui/core/Hidden";
-import { responsiveFontSizes, ThemeProvider } from "@material-ui/core/styles";
-import createTheme from "@material-ui/core/styles/createTheme";
-import Typography from "@material-ui/core/Typography";
 import NextPlanIcon from "@material-ui/icons/NextPlan";
 import { Theme } from "@material-ui/system/createTheme";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Divider from "@mui/material/Divider";
+import Grid from "@mui/material/Grid";
+import Hidden from "@mui/material/Hidden";
+import {
+  responsiveFontSizes,
+  ThemeProvider,
+  useTheme,
+} from "@mui/material/styles";
+import createTheme from "@mui/material/styles/createTheme";
+import Typography from "@mui/material/Typography";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import produce from "immer";
 import React, { useMemo } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
@@ -47,6 +51,8 @@ export function ProductDetails(props: {
   clickable?: boolean;
 }) {
   const productTheme = useThemeFromColor(props.color);
+  const theme = useTheme();
+  const isSmall = useMediaQuery(theme.breakpoints.down("md"));
 
   if (!props.product) {
     return null;
@@ -66,7 +72,7 @@ export function ProductDetails(props: {
           padding: props.padding,
         })}
       >
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} lg={6}>
           <div>
             <div
               className={css({
@@ -96,7 +102,7 @@ export function ProductDetails(props: {
                 color: productTheme.palette.text.primary,
                 bottom: "4rem",
                 left: "4rem",
-                fontSize: "3.5rem",
+                fontSize: isSmall ? "2.5rem" : "3.5rem",
                 lineHeight: "1em",
                 textAlign: "left",
                 marginBottom: ".5rem",
@@ -248,8 +254,8 @@ export function ProductDetails(props: {
             </ThemeProvider>
           </div>
         </Grid>
-        <Hidden smDown>
-          <Grid item xs={12} sm={4} md={6}>
+        <Hidden lgDown>
+          <Grid item xs={12} lg={6}>
             <ReactRouterLink
               to={AppLinksFactory.makeProductLink(props.product)}
               className={css({

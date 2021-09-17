@@ -1,6 +1,6 @@
-import Box from "@material-ui/core/Box";
-import Container, { ContainerProps } from "@material-ui/core/Container";
 import { BoxProps } from "@material-ui/system";
+import Box from "@mui/material/Box";
+import Container, { ContainerProps } from "@mui/material/Container";
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useLocation } from "react-router";

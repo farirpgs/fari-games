@@ -1,5 +1,5 @@
+import useMediaQuery from "@mui/material/useMediaQuery";
 import React, { useEffect, useState } from "react";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 type IThemeMode = "dark" | "light" | undefined;
 

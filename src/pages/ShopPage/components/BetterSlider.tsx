@@ -1,7 +1,8 @@
 import { css, cx } from "@emotion/css";
-import { useTheme } from "@material-ui/core/styles";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import React, { useRef, useState } from "react";
 import Slider, { CustomArrowProps, Settings } from "react-slick";
 
@@ -46,11 +47,12 @@ export function BetterSlider(props: {
 
 function SamplePrevArrow(props: CustomArrowProps) {
   const theme = useTheme();
+  const isSmall = useMediaQuery(theme.breakpoints.down("md"));
   const { className, onClick } = props;
   const [hoverPrevious, setHoverPrevious] = useState(false);
   const disabled = className?.includes("slick-disabled");
 
-  if (disabled) {
+  if (disabled || isSmall) {
     return null;
   }
   return (
@@ -89,11 +91,12 @@ function SamplePrevArrow(props: CustomArrowProps) {
 
 function SampleNextArrow(props: CustomArrowProps) {
   const theme = useTheme();
+  const isSmall = useMediaQuery(theme.breakpoints.down("md"));
   const { className, onClick } = props;
   const [hoverNext, setHoverNext] = useState(false);
   const disabled = className?.includes("slick-disabled");
 
-  if (disabled) {
+  if (disabled || isSmall) {
     return null;
   }
   return (

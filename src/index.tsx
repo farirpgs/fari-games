@@ -1,9 +1,9 @@
-import Box from "@material-ui/core/Box";
-import CircularProgress from "@material-ui/core/CircularProgress";
-import Container from "@material-ui/core/Container";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import Fade from "@material-ui/core/Fade";
-import { StyledEngineProvider, ThemeProvider } from "@material-ui/core/styles";
+import Box from "@mui/material/Box";
+import CircularProgress from "@mui/material/CircularProgress";
+import Container from "@mui/material/Container";
+import CssBaseline from "@mui/material/CssBaseline";
+import Fade from "@mui/material/Fade";
+import { StyledEngineProvider, ThemeProvider } from "@mui/material/styles";
 import React, { Suspense, useContext, useEffect } from "react";
 import ReactDom from "react-dom";
 import { HelmetProvider } from "react-helmet-async";

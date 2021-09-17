@@ -1,5 +1,5 @@
-import Box from "@material-ui/core/Box";
-import Typography from "@material-ui/core/Typography";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 import shuffle from "lodash/shuffle";
 import React, { useMemo } from "react";
 import { shopProducts } from "../../../../data/shop/shopProducts";

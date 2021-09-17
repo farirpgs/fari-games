@@ -1,3 +1,3 @@
-import Link from "@material-ui/core/Link";
+import Link from "@mui/material/Link";
 
 export const MaterialUiLink = Link;

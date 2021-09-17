@@ -1,9 +1,9 @@
-import Box from "@material-ui/core/Box";
-import Breadcrumbs from "@material-ui/core/Breadcrumbs";
-import Container from "@material-ui/core/Container";
-import Fade from "@material-ui/core/Fade";
-import Link from "@material-ui/core/Link";
-import Typography from "@material-ui/core/Typography";
+import Box from "@mui/material/Box";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
+import Container from "@mui/material/Container";
+import Fade from "@mui/material/Fade";
+import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
 import React from "react";
 import { useRouteMatch } from "react-router";
 import { Link as ReactRouterLink } from "react-router-dom";

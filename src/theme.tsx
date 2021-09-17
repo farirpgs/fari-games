@@ -3,7 +3,7 @@ import {
   PaletteOptions,
   responsiveFontSizes,
   ThemeOptions,
-} from "@material-ui/core/styles";
+} from "@mui/material/styles";
 
 const lightPalette: PaletteOptions = {
   mode: "light",
