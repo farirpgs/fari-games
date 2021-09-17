@@ -1,6 +1,6 @@
 import { css } from "@emotion/css";
-import NextPlanIcon from "@material-ui/icons/NextPlan";
 import { Theme } from "@material-ui/system/createTheme";
+import NextPlanIcon from "@mui/icons-material/NextPlan";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";

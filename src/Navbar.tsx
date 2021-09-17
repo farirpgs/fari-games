@@ -1,7 +1,7 @@
 import { css } from "@emotion/css";
-import ComputerIcon from "@material-ui/icons/Computer";
-import DarkModeIcon from "@material-ui/icons/DarkMode";
-import LightModeIcon from "@material-ui/icons/LightMode";
+import ComputerIcon from "@mui/icons-material/Computer";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+import LightModeIcon from "@mui/icons-material/LightMode";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
