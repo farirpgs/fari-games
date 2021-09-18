@@ -1,13 +1,19 @@
 import { css } from "@emotion/css";
+import SearchIcon from "@mui/icons-material/Search";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Fade from "@mui/material/Fade";
+import IconButton from "@mui/material/IconButton";
+import InputAdornment from "@mui/material/InputAdornment";
 import { useTheme } from "@mui/material/styles";
+import TextField from "@mui/material/TextField";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import React from "react";
+import { default as React, useState } from "react";
+import { useHistory } from "react-router";
 import { Settings } from "react-slick";
 import { shopCategories } from "../../../data/shop/shopCategories";
 import { IShopProduct } from "../../../data/shop/types/IShopProduct";
+import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
 import { BetterSlider } from "./components/BetterSlider";
 import { ProductDetails } from "./components/ProductDetails";
 import { ShopCategory } from "./components/ShopCategory";
@@ -37,6 +43,9 @@ export function ShopPage() {
               );
             })}
           </BetterSlider>
+        </Box>
+        <Box mb="2rem">
+          <ShopPageSearch />
         </Box>
         {shopCategories.map((category, i) => {
           return (
@@ -95,6 +104,47 @@ export function ShopPage() {
       </div>
     );
   }
+}
+
+function ShopPageSearch() {
+  const [search, setSearch] = useState("");
+
+  const history = useHistory();
+  return (
+    <form
+      onSubmit={(e) => {
+        e.preventDefault();
+        history.push(AppLinksFactory.makeSearchPage(search));
+      }}
+    >
+      <TextField
+        fullWidth
+        InputProps={{
+          className: css({
+            fontSize: "1.5rem",
+            borderRadius: "8px",
+          }),
+          startAdornment: (
+            <InputAdornment position="start">
+              <IconButton type="submit">
+                <SearchIcon
+                  className={css({
+                    width: "2.5rem",
+                    height: "2.5rem",
+                  })}
+                />
+              </IconButton>
+            </InputAdornment>
+          ),
+        }}
+        placeholder="Search..."
+        value={search}
+        onChange={(event) => {
+          setSearch(event.target.value);
+        }}
+      />
+    </form>
+  );
 }
 
 export default ShopPage;

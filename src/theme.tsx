@@ -33,7 +33,7 @@ const darkPalette: PaletteOptions = {
   },
 };
 
-const themeOptions: ThemeOptions = {
+export const themeOptions: ThemeOptions = {
   typography: {
     fontSize: 16,
     fontFamily: "Inter, sans-serif",

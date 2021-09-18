@@ -25,6 +25,9 @@ export const AppLinksFactory = {
     }
     return `/games/${props.language}/${props.author}/${props.game}`;
   },
+  makeSearchPage(query: string) {
+    return `/search?query=${query}`;
+  },
   makeGameChapterLink(props: {
     author: string;
     game: string;

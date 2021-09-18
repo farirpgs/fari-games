@@ -48,7 +48,6 @@ export function PrintGamePage() {
                   headingFont={game?.frontMatter?.headingFont}
                   textFont={game?.frontMatter?.textFont}
                   highlightFont={game?.frontMatter?.highlightFont}
-                  gameSlug={gameSlug}
                   style={game.style}
                   html={game?.dom.innerHTML}
                 />
