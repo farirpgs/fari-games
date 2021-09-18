@@ -8,6 +8,10 @@ export const gameDocuments: Record<
     import("./evilhat/fate-condensed_pt-br.md?raw"),
   "evilhat/fate-accelerated": () => import("./evilhat/fate-accelerated.md?raw"),
   "evilhat/fate-core": () => import("./evilhat/fate-core.md?raw"),
+  "evilhat/fate-system-toolkit": () =>
+    import("./evilhat/fate-system-toolkit.md?raw"),
+  "evilhat/fate-adversary-toolkit": () =>
+    import("./evilhat/fate-adversary-toolkit.md?raw"),
   "gilarpgs/lumen": () => import("./gilarpgs/lumen.md?raw"),
   "jasontocci/24xx": () => import("./jasontocci/24xx.md?raw"),
   "aryl-ether/guided-by-the-sun": () =>

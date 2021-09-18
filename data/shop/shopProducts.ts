@@ -14,6 +14,7 @@ export const shopProducts: Array<IShopProduct> = [
     image: "https://gyazo.com/a8db97f79b14526c0458286383d40d91.png",
     links: {
       itchIo: "https://farigames.itch.io/charge-rpg",
+      twitter: "https://twitter.com/RPDeshaies",
     },
   },
   {
@@ -29,6 +30,7 @@ export const shopProducts: Array<IShopProduct> = [
     image: "https://gyazo.com/047b237d11168d35c52912e0f64ae096.png",
     links: {
       itchIo: "https://gilarpgs.itch.io/lumen",
+      twitter: "https://twitter.com/gilarpgs",
     },
   },
   {
@@ -46,6 +48,7 @@ export const shopProducts: Array<IShopProduct> = [
     links: {
       itchIo: "https://evilhat.itch.io/fate-condensed",
       driveThru: "https://www.drivethrurpg.com/product/302571/Fate-Condensed",
+      twitter: "https://twitter.com/EvilHatOfficial",
     },
   },
   {
@@ -64,6 +67,7 @@ export const shopProducts: Array<IShopProduct> = [
       itchIo: "https://evilhat.itch.io/fate-accelerated",
       driveThru:
         "https://www.drivethrurpg.com/product/114902/Fate-Accelerated-Edition-o-A-Fate-Core-Build",
+      twitter: "https://twitter.com/EvilHatOfficial",
     },
   },
   {
@@ -81,6 +85,45 @@ export const shopProducts: Array<IShopProduct> = [
     links: {
       itchIo: "https://evilhat.itch.io/fate-core",
       driveThru: "https://www.drivethrurpg.com/product/114903/Fate-Core-System",
+      twitter: "https://twitter.com/EvilHatOfficial",
+    },
+  },
+  {
+    featured: false,
+    name: "Fate System Toolkit",
+    slug: "fate-system-toolkit",
+    document: true,
+    author: "Evil Hat Productions",
+    authorSlug: "evilhat",
+    description:
+      "This expansion for the Fate Core System contains tons of flexible, hackable and adaptable rules that fits any world you are trying to play in.",
+    tags: ["fate", "ttrpg"],
+    rating: 0,
+    image: "https://gyazo.com/856d366d726b4c5edc8d8fd505a7af9a.png",
+    links: {
+      itchIo: "https://evilhat.itch.io/fate-system-toolkit",
+      driveThru:
+        "https://www.drivethrurpg.com/product/119385/Fate-System-Toolkit",
+      twitter: "https://twitter.com/EvilHatOfficial",
+    },
+  },
+  {
+    featured: false,
+    name: "Fate Adversary Toolkit",
+    slug: "fate-adversary-toolkit",
+    document: true,
+    author: "Evil Hat Productions",
+    authorSlug: "evilhat",
+    description:
+      "What ever the genre, this book gives you the tools you need to create great obstacles for you stories.",
+    tags: ["fate", "ttrpg"],
+    rating: 0,
+    image: "https://gyazo.com/02c73c31e5bd4c874c31ee476198cec1.png",
+    links: {
+      itchIo: "https://evilhat.itch.io/fate-adversary-toolkit",
+      driveThru:
+        "https://www.drivethrurpg.com/product/219203/Fate-Adversary-Toolkit",
+      twitter: "https://twitter.com/EvilHatOfficial",
     },
   },
   {
@@ -98,6 +141,7 @@ export const shopProducts: Array<IShopProduct> = [
       itchIo: "https://jasontocci.itch.io/24xx",
       driveThru:
         "https://www.drivethrurpg.com/product/335307/24XX-SRD?manufacturers_id=17901",
+      twitter: "https://twitter.com/pretendogames",
     },
   },
   {
@@ -114,6 +158,7 @@ export const shopProducts: Array<IShopProduct> = [
     image: "https://gyazo.com/122ae6210bcd519928bc297267593423.png",
     links: {
       itchIo: "https://aryl-ether.itch.io/guided-by-the-sun",
+      twitter: "https://twitter.com/Aryl_Ether",
     },
   },
   {
@@ -130,6 +175,7 @@ export const shopProducts: Array<IShopProduct> = [
     image: "https://gyazo.com/a8c7868751ecb508bfefe3f6e010b2a9.jpg",
     links: {
       website: "rrdgames.com",
+      twitter: "https://twitter.com/gshowitt",
     },
   },
   {
@@ -147,6 +193,7 @@ export const shopProducts: Array<IShopProduct> = [
     links: {
       website: "http://www.peachgardengames.com",
       itchIo: "https://peachgardengames.itch.io/harmony-drive",
+      twitter: "https://twitter.com/peachgardenrpgs",
     },
   },
   {
@@ -163,6 +210,7 @@ export const shopProducts: Array<IShopProduct> = [
     links: {
       website: "http://www.peachgardengames.com",
       itchIo: "https://peachgardengames.itch.io/carta-srd",
+      twitter: "https://twitter.com/peachgardenrpgs",
     },
   },
 ];

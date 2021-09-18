@@ -87,12 +87,12 @@ function App() {
 
                   <Route
                     exact
-                    path="/games/:language/:author/:game/:chapter?"
+                    path="/:language/srds/:author/:game/:chapter?"
                     component={GamePage}
                   />
                   <Route
                     exact
-                    path="/games/:language/:author/:game/:chapter?"
+                    path="/:language/srds/:author/:game/:chapter?"
                     component={GamePage}
                   />
                   <Route exact path="/search" component={SearchPage} />

@@ -76,7 +76,6 @@ export function ProductDetails(props: {
               <ReactRouterLink
                 className={css({
                   color: productTheme.palette.text.secondary,
-                  // textDecoration: "none",
                 })}
                 to={AppLinksFactory.makeAuthorLink(props.product)}
               >

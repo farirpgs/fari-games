@@ -36,6 +36,7 @@ export function Document(props: {
   gameSlug: string;
   chapter: IChapter | undefined;
   language: string | undefined;
+  authorLink: string;
   onLanguageChange(language: string): void;
   makeChapterLink(chapterId: string): string;
   renderLinks?(): void;
@@ -97,7 +98,6 @@ export function Document(props: {
           </Hidden>
           <Grid item sm={12} md={9} lg={6}>
             {renderContent()}
-            {renderWidget()}
           </Grid>
           <Hidden lgDown>
             <Grid item xs={3}>
@@ -571,9 +571,21 @@ export function Document(props: {
     }
 
     return (
-      <Typography variant="caption" color={theme.palette.text.secondary}>
-        By {chapter?.frontMatter?.author}
-      </Typography>
+      <ReactRouterLink
+        className={css({
+          color: theme.palette.text.secondary,
+        })}
+        to={props.authorLink}
+      >
+        <Typography
+          variant="caption"
+          className={css({
+            fontSize: "1rem",
+          })}
+        >
+          By {chapter?.frontMatter?.author}
+        </Typography>
+      </ReactRouterLink>
     );
   }
 
@@ -598,22 +610,6 @@ export function Document(props: {
         </div>
       </>
     );
-  }
-
-  function renderWidget() {
-    return null;
-    // if (!chapter?.frontMatter.widget) {
-    //   return null;
-    // }
-    // return (
-    //   <Box display="flex" justifyContent="center" mt="2rem">
-    //     <div
-    //       dangerouslySetInnerHTML={{
-    //         __html: chapter?.frontMatter.widget,
-    //       }}
-    //     />
-    //   </Box>
-    // );
   }
 
   function renderSmallPreviousNextNavigation() {

@@ -21,9 +21,9 @@ export const AppLinksFactory = {
   },
   makeGameLink(props: { author: string; game: string; language?: string }) {
     if (!props.language || props.language === "en") {
-      return `/games/en/${props.author}/${props.game}`;
+      return `/en/srds/${props.author}/${props.game}`;
     }
-    return `/games/${props.language}/${props.author}/${props.game}`;
+    return `/${props.language}/srds/${props.author}/${props.game}`;
   },
   makeSearchPage(query: string) {
     return `/search?query=${query}`;
@@ -35,8 +35,8 @@ export const AppLinksFactory = {
     language?: string;
   }) {
     if (!props.language || props.language === "en") {
-      return `/games/en/${props.author}/${props.game}/${props.chapter}`;
+      return `/en/srds/${props.author}/${props.game}/${props.chapter}`;
     }
-    return `/games/${props.language}/${props.author}/${props.game}/${props.chapter}`;
+    return `/${props.language}/srds/${props.author}/${props.game}/${props.chapter}`;
   },
 };
