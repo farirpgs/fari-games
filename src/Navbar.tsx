@@ -110,7 +110,10 @@ export function Navbar() {
                           target: "_blank",
                         },
                         {
-                          to: "https://www.patreon.com/bePatron?u=43408921",
+                          to: {
+                            pathname:
+                              "https://www.patreon.com/bePatron?u=43408921",
+                          },
                           label: "Become a Patron",
                           icon: <ThumbUpIcon />,
                           target: "_blank",
