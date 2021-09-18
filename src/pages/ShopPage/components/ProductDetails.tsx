@@ -1,9 +1,5 @@
 import { css } from "@emotion/css";
-import { Theme } from "@material-ui/system/createTheme";
-import NextPlanIcon from "@mui/icons-material/NextPlan";
-import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid";
 import Hidden from "@mui/material/Hidden";
 import {
@@ -14,29 +10,26 @@ import {
 import createTheme from "@mui/material/styles/createTheme";
 import Typography from "@mui/material/Typography";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import produce from "immer";
 import React, { useMemo } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
-import { track } from "../../../domains/analytics/track";
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
-import { ItchIcon } from "../../../icons/ItchIcon";
-import {
-  driveThruRpgAffiliateCode,
-  itchIoAffiliateCode,
-} from "../configs/games";
+import { themeOptions } from "../../../theme";
 
 export function useThemeFromColor(color: string, mode?: any) {
-  const defaultTheme = useTheme();
   const whiteVariants = ["#fff", "#ffffff", "#FFF", "#FFFFFF", "white"];
 
   const buttonTheme = useMemo(() => {
-    const newTheme = produce(defaultTheme, (draft: Theme) => {
-      const defaultType = whiteVariants.includes(color) ? "dark" : "light";
-      draft.palette = { primary: { main: color }, mode: mode ?? defaultType };
-    });
-
-    return responsiveFontSizes(createTheme(newTheme));
+    const defaultType = whiteVariants.includes(color) ? "dark" : "light";
+    return responsiveFontSizes(
+      createTheme({
+        palette: {
+          mode: mode ?? defaultType,
+          primary: { main: color },
+        },
+        ...themeOptions,
+      })
+    );
   }, [color]);
 
   return buttonTheme;
@@ -165,7 +158,7 @@ export function ProductDetails(props: {
                   )}
                 </Grid>
               </div>
-              <Box mb="1rem">
+              {/* <Box mb="1rem">
                 <Divider />
               </Box>
               <div
@@ -174,83 +167,8 @@ export function ProductDetails(props: {
                   marginBottom: "1rem",
                 })}
               >
-                <Grid container spacing={1} alignItems="center">
-                  {props.product.links.itchIo && (
-                    <Grid item>
-                      <Button
-                        variant="outlined"
-                        size="small"
-                        component={"a"}
-                        href={
-                          props.product.affiliate
-                            ? props.product.links.itchIo + itchIoAffiliateCode
-                            : props.product.links.itchIo
-                        }
-                        target="_blank"
-                        onClick={() => {
-                          track("buy_itch", {
-                            game: props.product?.slug,
-                          });
-                        }}
-                        className={css({
-                          textTransform: "none",
-                        })}
-                        endIcon={<ItchIcon />}
-                      >
-                        Itch.io
-                      </Button>
-                    </Grid>
-                  )}
-                  {props.product.links.driveThru && (
-                    <Grid item>
-                      <Button
-                        variant="outlined"
-                        size="small"
-                        component={"a"}
-                        href={
-                          props.product.affiliate
-                            ? props.product.links.driveThru +
-                              driveThruRpgAffiliateCode
-                            : props.product.links.driveThru
-                        }
-                        target="_blank"
-                        onClick={() => {
-                          track("buy_drivethrurpg", {
-                            game: props.product?.slug,
-                          });
-                        }}
-                        className={css({
-                          textTransform: "none",
-                        })}
-                        endIcon={<NextPlanIcon />}
-                      >
-                        DriveThruRPG
-                      </Button>
-                    </Grid>
-                  )}
-                  {props.product.links.website && (
-                    <Grid item>
-                      <Button
-                        variant="outlined"
-                        size="small"
-                        component={"a"}
-                        href={props.product.links.website}
-                        target="_blank"
-                        onClick={() => {
-                          track("buy_website", {
-                            game: props.product?.slug,
-                          });
-                        }}
-                        className={css({
-                          textTransform: "none",
-                        })}
-                      >
-                        Website
-                      </Button>
-                    </Grid>
-                  )}
-                </Grid>
-              </div>
+                <ProductLinks product={props.product} />
+              </div> */}
             </ThemeProvider>
           </div>
         </Grid>

@@ -3,7 +3,6 @@ import { useTheme } from "@mui/material/styles";
 import React from "react";
 
 export function MarkdownContent(props: {
-  gameSlug: string;
   style: string | undefined;
   html: string | undefined;
   headingFont: string | undefined;
