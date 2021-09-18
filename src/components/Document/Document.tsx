@@ -27,7 +27,7 @@ import { track } from "../../domains/analytics/track";
 import {
   IChapter,
   ISearchIndex,
-  ISidebarItem,
+  ISidebarItem
 } from "../../domains/documents/DocumentParser";
 import { MarkdownContent } from "../MarkdownContent/MarkdownContent";
 import { ReactRouterLink } from "../ReactRouterLink/ReactRouterLink";
@@ -343,7 +343,7 @@ export function Document(props: {
         className={css({
           color: "inherit",
           textDecoration: "none",
-          backgroundColor: false ? "red" : "inherit",
+          backgroundColor:  "inherit",
           borderLeft: selected
             ? `4px solid ${theme.palette.secondary.main}`
             : `4px solid transparent`,

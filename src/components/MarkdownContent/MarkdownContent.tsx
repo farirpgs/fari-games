@@ -68,9 +68,9 @@ export function MarkdownContent(props: {
             borderRight: `1px solid ${theme.palette.divider}`,
             "& thead": {
               "& th": {
-                background: theme.palette.secondary.main,
+                background: theme.palette.primary.main,
                 color: theme.palette.getContrastText(
-                  theme.palette.secondary.main
+                  theme.palette.primary.main
                 ),
                 textAlign: "left",
                 padding: ".5rem",

@@ -21,6 +21,7 @@ export function ProductLinks(props: { product: IShopProduct | undefined }) {
       {props.product.links.itchIo && (
         <Grid item xs={12}>
           <Button
+            color="secondary"
             fullWidth
             variant="outlined"
             size="small"
@@ -48,6 +49,7 @@ export function ProductLinks(props: { product: IShopProduct | undefined }) {
       {props.product.links.driveThru && (
         <Grid item xs={12}>
           <Button
+            color="secondary"
             fullWidth
             variant="outlined"
             size="small"
@@ -75,6 +77,7 @@ export function ProductLinks(props: { product: IShopProduct | undefined }) {
       {props.product.links.website && (
         <Grid item xs={12}>
           <Button
+            color="secondary"
             fullWidth
             variant="outlined"
             size="small"
@@ -97,6 +100,7 @@ export function ProductLinks(props: { product: IShopProduct | undefined }) {
       {props.product.links.twitter && (
         <Grid item xs={12}>
           <Button
+            color="secondary"
             fullWidth
             variant="outlined"
             size="small"
