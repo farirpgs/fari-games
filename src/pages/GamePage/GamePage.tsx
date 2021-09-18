@@ -76,6 +76,7 @@ export function GamePage() {
         container={{ maxWidth: "xl" }}
       >
         <Document
+          authorLink={AppLinksFactory.makeAuthorLink(product)}
           gameSlug={gameSlug}
           renderLinks={() => {
             return (

@@ -7,9 +7,6 @@ fonts: https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=sw
 headingFont: Lato
 textFont: Lato
 highlightFont: Lato
-itch: https://gilarpgs.itch.io/lumen
-website: https://www.gilarpgs.com/
-twitter: https://twitter.com/gilarpgs
 ---
 
 # What is LUMEN?

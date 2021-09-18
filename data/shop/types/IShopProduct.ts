@@ -14,6 +14,7 @@ export type IShopProduct = {
   links: {
     driveThru?: string;
     itchIo?: string;
+    twitter?: string;
     gumroad?: string;
     website?: string;
   };

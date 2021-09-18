@@ -1,5 +1,6 @@
 import { css } from "@emotion/css";
 import NextPlanIcon from "@mui/icons-material/NextPlan";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import React from "react";
@@ -90,6 +91,29 @@ export function ProductLinks(props: { product: IShopProduct | undefined }) {
             })}
           >
             Website
+          </Button>
+        </Grid>
+      )}
+      {props.product.links.twitter && (
+        <Grid item xs={12}>
+          <Button
+            fullWidth
+            variant="outlined"
+            size="small"
+            component={"a"}
+            href={props.product.links.twitter}
+            target="_blank"
+            onClick={() => {
+              track("follow_twitter", {
+                game: props.product?.slug,
+              });
+            }}
+            className={css({
+              textTransform: "none",
+            })}
+            endIcon={<TwitterIcon />}
+          >
+            Twitter
           </Button>
         </Grid>
       )}

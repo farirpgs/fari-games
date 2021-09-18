@@ -281,11 +281,13 @@ export class DocumentParser {
     chapterId: string,
     nextChapter: { id: string; text: string | null }
   ) {
-    const currentChapterHeading = document.dom.querySelector(`h1#${chapterId}`);
+    const currentChapterHeading = document.dom.querySelector(
+      `h1[id="${chapterId}"]`
+    );
 
     const elements = getAllNextSiblingUntilSelector(
       currentChapterHeading,
-      nextChapter ? `#${nextChapter.id}` : undefined
+      nextChapter ? `[id="${nextChapter.id}"]` : undefined
     );
 
     const currentChapterPreview =

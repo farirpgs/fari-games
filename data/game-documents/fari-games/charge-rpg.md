@@ -7,8 +7,6 @@ fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&disp
 headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
-itch: https://farigames.itch.io/charge-rpg
-twitter: https://twitter.com/RPDeshaies
 version: 0.1.1
 ---
 
