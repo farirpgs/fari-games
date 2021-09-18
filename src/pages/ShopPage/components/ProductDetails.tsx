@@ -158,17 +158,6 @@ export function ProductDetails(props: {
                   )}
                 </Grid>
               </div>
-              {/* <Box mb="1rem">
-                <Divider />
-              </Box>
-              <div
-                className={css({
-                  color: productTheme.palette.text.primary,
-                  marginBottom: "1rem",
-                })}
-              >
-                <ProductLinks product={props.product} />
-              </div> */}
             </ThemeProvider>
           </div>
         </Grid>

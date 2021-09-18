@@ -18,6 +18,7 @@ import { Navbar } from "./Navbar";
 import { darkTheme, lightTheme } from "./theme";
 
 const GamePage = React.lazy(() => import("./pages/GamePage/GamePage"));
+const SearchPage = React.lazy(() => import("./pages/SearchPage/SearchPage"));
 const HomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
 const NotFoundPage = React.lazy(
   () => import("./pages/NotFoundPage/NotFoundPage")
@@ -94,6 +95,7 @@ function App() {
                     path="/games/:language/:author/:game/:chapter?"
                     component={GamePage}
                   />
+                  <Route exact path="/search" component={SearchPage} />
 
                   <Route
                     exact
