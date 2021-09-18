@@ -1,5 +1,4 @@
-import { BoxProps } from "@material-ui/system";
-import Box from "@mui/material/Box";
+import Box, { BoxProps } from "@mui/material/Box";
 import Container, { ContainerProps } from "@mui/material/Container";
 import React from "react";
 import { Helmet } from "react-helmet-async";
