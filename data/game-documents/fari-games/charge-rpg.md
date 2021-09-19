@@ -22,7 +22,11 @@ version: 0.1.1
 
 > ## Early Access
 >  
-> This game is currently in early access. It is available so that play-testers can test, and give feedback about the game.
+> This game is currently in early access. 
+> 
+> It is available so that people interested in play-testing the game have an easy access to the rules.
+> 
+> Thanks for you interest, support and appreciation. 💜
 
 First, thank you.
 
@@ -60,16 +64,6 @@ While Charge accepts donations, those donations will be re-invested in the game 
 If you want to contribute, join [Fari's Discord Server](https://fari.app/discord) or post a new topic on [Charge's Itch.io](https://itch.io/category/1498399/new-topic) page.
 
 We can't wait to work with you all. Let's build something incredible, together.
-
-## Work in Progress
-
-This game is a work-in-progress. A couple of things are still missing, and will be worked on in the next couple of months.
-
-- Section: Extras: more extras from us, and the community.
-- Section: GM's best practices
-- Section: Players's best practices
-- More examples
-- Editing
 
 ## Thanks
 
