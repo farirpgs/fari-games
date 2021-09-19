@@ -20,27 +20,32 @@ version: 0.1.1
 
 ![Charge](https://gyazo.com/5b8633befdb6fe3f894bdabaedac4001.png)
 
-> ## Early Access
+
+## What Is Charge
+
+Charge is a **free**, **open**, and **generic** table-top role-playing game. 
+
+It is free, and maintained by the Fari community. Which means anyone is welcome to make contribution to the rules of the game.
+
+It is also open licensed. Which means you can use it for free. You can also make (and sell) your own games using Charge as the base framework.
+
+> #### Early Access
 >  
-> This game is currently in early access. 
+> Charge is currently in early access. 
 > 
 > It is available so that people interested in play-testing the game have an easy access to the rules.
 > 
-> Thanks for you interest, support and appreciation. 💜
+> Thanks for you interest, support, and love. 💜
 
-First, thank you.
-
-The fact that you are reading this and are interested in playing this game means a lot to us, so thanks a million.
-
-You're amazing, i's as simple as that.
+## Who Is This Game For ?
 
 Now, one of the first things you probably want to know is: **who is this game for?**
 
-> This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to get there.
+*This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to get there.*
 
 Some mechanics were inspired or adapted from the Fate or Forged in the Dark systems, while others were created to make for more interactive sessions that naturally urge players to interact with the world.
 
-Now let's get to it! ⚡
+Now, let's power your storytelling ⚡
 
 ## Contributing
 
@@ -63,11 +68,11 @@ While Charge accepts donations, those donations will be re-invested in the game 
 
 If you want to contribute, join [Fari's Discord Server](https://fari.app/discord) or post a new topic on [Charge's Itch.io](https://itch.io/category/1498399/new-topic) page.
 
-We can't wait to work with you all. Let's build something incredible, together.
+Let's build something incredible, together.
 
 ## Thanks
 
-**Ideas Bouncers & Playtesters**:
+**Sounding Board & Playtesters**:
 
 <ul class="people">
   <li>Alexandre Lescarbeau</li>
@@ -75,7 +80,20 @@ We can't wait to work with you all. Let's build something incredible, together.
   <li>Valdy</li>
 </ul>
 
-**The White Lotus & The Delibuddies**: Béatrice Landry-Belleau, François Genois, Gabriel Lemire, Jean-Loup Kahloun, Wing Tak Won, Xavier Tétreault.
+**The White Lotus & The Delibuddies**:
+
+
+<ul class="people">
+ <li>Béatrice Landry-Belleau</li>
+ <li>François Genois</li>
+ <li>Gabriel Lemire</li>
+ <li>Jean-Loup Kahloun</li>
+ <li>Wing Tak Won</li>
+ <li>Xavier Tétreault.</li>
+</ul>
+
+
+ 
 
 # Goals | Power Your Story Telling
 
