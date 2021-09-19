@@ -622,7 +622,11 @@ export function Document(props: {
       return null;
     }
     return (
-      <pre>
+      <pre
+        className={css({
+          whiteSpace: "pre-wrap",
+        })}
+      >
         <p>title: {chapter.currentChapter.text}</p>
         <p>description: {chapter.currentChapter.description}</p>
       </pre>
