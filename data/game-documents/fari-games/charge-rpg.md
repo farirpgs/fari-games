@@ -20,6 +20,10 @@ version: 0.1.1
 
 ![Charge](https://gyazo.com/5b8633befdb6fe3f894bdabaedac4001.png)
 
+> ## Early Access
+>  
+> This game is currently in early access. It is available so that play-testers can test, and give feedback about the game.
+
 First, thank you.
 
 The fact that you are reading this and are interested in playing this game means a lot to us, so thanks a million.
