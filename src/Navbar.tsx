@@ -5,19 +5,21 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ForumIcon from "@mui/icons-material/Forum";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LightModeIcon from "@mui/icons-material/LightMode";
+import MenuIcon from "@mui/icons-material/Menu";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Collapse from "@mui/material/Collapse";
 import Container from "@mui/material/Container";
+import Drawer from "@mui/material/Drawer";
 import Grid from "@mui/material/Grid";
-import Hidden from "@mui/material/Hidden";
 import IconButton from "@mui/material/IconButton";
 import Paper from "@mui/material/Paper";
 import Popover from "@mui/material/Popover";
 import { Breakpoint, useTheme } from "@mui/material/styles";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import React, { useContext, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { ReactRouterLink } from "./components/ReactRouterLink/ReactRouterLink";
@@ -29,6 +31,8 @@ export function Navbar() {
   const theme = useTheme();
   const location = useLocation();
   const settingsManager = useContext(SettingsContext);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const shouldRenderMobileMenu = useMediaQuery(theme.breakpoints.down("md"));
   const maxWidth: Breakpoint | undefined = location.pathname.includes("/srds")
     ? "xl"
     : undefined;
@@ -85,55 +89,27 @@ export function Navbar() {
                 </Button>
               </ReactRouterLink>
             </Grid>
-            <Hidden smDown>
+
+            {shouldRenderMobileMenu
+              ? renderMobileDrawer()
+              : renderMenuGridItems()}
+            {shouldRenderMobileMenu && (
               <Grid item>
-                <NavLink
-                  to={AppLinksFactory.makeGameLink({
-                    author: "fari-games",
-                    game: "charge-rpg",
-                  })}
+                <IconButton
+                  color="inherit"
+                  className={css({ padding: "0" })}
+                  onClick={() => {
+                    setMenuOpen(true);
+                  }}
+                  size="large"
                 >
-                  Charge RPG ⚡
-                </NavLink>
+                  <MenuIcon />
+                </IconButton>
               </Grid>
-              <Grid item>
-                <NavLinkCategory
-                  label={"Community"}
-                  subNav={[
-                    {
-                      label: "Community",
-                      links: [
-                        {
-                          to: { pathname: "https://fari.app/discord" },
-                          label: "Join the Discord Server",
-                          icon: <ForumIcon />,
-                          target: "_blank",
-                        },
-                        {
-                          to: {
-                            pathname:
-                              "https://www.patreon.com/bePatron?u=43408921",
-                          },
-                          label: "Become a Patron",
-                          icon: <ThumbUpIcon />,
-                          target: "_blank",
-                        },
-                        {
-                          to: {
-                            pathname: "https://github.com/fariapp/fari-games",
-                          },
-                          label: "Contribute on GitHub",
-                          icon: <GitHubIcon />,
-                          target: "_blank",
-                        },
-                      ],
-                    },
-                  ]}
-                />
-              </Grid>
-            </Hidden>
+            )}
           </Grid>
-          <Hidden smDown>
+
+          {!shouldRenderMobileMenu && (
             <Grid item>
               <Tooltip title="Use Theme from System Preferences">
                 <IconButton
@@ -151,7 +127,8 @@ export function Navbar() {
                 </IconButton>
               </Tooltip>
             </Grid>
-          </Hidden>
+          )}
+
           <Grid item>
             <Tooltip
               title={
@@ -187,15 +164,104 @@ export function Navbar() {
       </Container>
     </Box>
   );
+
+  function renderMobileDrawer() {
+    return (
+      <Drawer
+        anchor="bottom"
+        classes={{
+          paper: css({
+            maxHeight: "80vh",
+          }),
+        }}
+        open={menuOpen}
+        onClose={() => {
+          setMenuOpen(false);
+        }}
+      >
+        <Box
+          p="1.5rem"
+          color={theme.palette.getContrastText(theme.palette.primary.main)}
+          bgcolor={theme.palette.primary.main}
+        >
+          {renderMenuGridItems()}
+        </Box>
+      </Drawer>
+    );
+  }
+
+  function renderMenuGridItems() {
+    return (
+      <>
+        <Grid item>
+          <NavLink
+            onClick={() => {
+              setMenuOpen(false);
+            }}
+            to={AppLinksFactory.makeGameLink({
+              author: "fari-games",
+              game: "charge-rpg",
+            })}
+          >
+            Charge RPG ⚡
+          </NavLink>
+        </Grid>
+        <Grid item>
+          <NavLinkCategory
+            label={"Community"}
+            onAnyLinkClick={() => {
+              setMenuOpen(false);
+            }}
+            subNav={[
+              {
+                label: "Community",
+                links: [
+                  {
+                    to: { pathname: "https://fari.app/discord" },
+                    label: "Join the Discord Server",
+                    icon: <ForumIcon />,
+                    target: "_blank",
+                  },
+                  {
+                    to: {
+                      pathname: "https://www.patreon.com/bePatron?u=43408921",
+                    },
+                    label: "Become a Patron",
+                    icon: <ThumbUpIcon />,
+                    target: "_blank",
+                  },
+                  {
+                    to: {
+                      pathname: "https://github.com/fariapp/fari-games",
+                    },
+                    label: "Contribute on GitHub",
+                    icon: <GitHubIcon />,
+                    target: "_blank",
+                  },
+                ],
+              },
+            ]}
+          />
+        </Grid>
+      </>
+    );
+  }
 }
 
-function NavLink(props: { to: string; children: React.ReactNode }) {
+function NavLink(props: {
+  to: string | { pathname: string };
+  target?: "_blank";
+  onClick?: () => void;
+  children: React.ReactNode;
+}) {
   const theme = useTheme();
   return (
     <Button
       color="inherit"
       component={ReactRouterLink}
       to={props.to}
+      onClick={props.onClick}
+      target={props.target}
       className={css({
         "&:hover": {
           background: theme.palette.primary.light,
@@ -219,9 +285,11 @@ function NavLinkCategory(props: {
       icon?: JSX.Element;
     }>;
   }>;
+  onAnyLinkClick?: () => void;
   children?: JSX.Element;
 }) {
   const theme = useTheme();
+  const shouldRenderMobileMenu = useMediaQuery(theme.breakpoints.down("md"));
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
 
   const open = Boolean(anchorEl);
@@ -255,7 +323,17 @@ function NavLinkCategory(props: {
         </Button>
       </div>
 
-      <Hidden mdDown>
+      {shouldRenderMobileMenu ? (
+        <Collapse in={open}>
+          <Box mt=".5rem">
+            <Paper elevation={2}>
+              <Box p="1rem">
+                <Box>{renderSubNav()}</Box>
+              </Box>
+            </Paper>
+          </Box>
+        </Collapse>
+      ) : (
         <Popover
           open={open}
           onClose={handleCloseSubNav}
@@ -279,19 +357,7 @@ function NavLinkCategory(props: {
             </Box>
           </Box>
         </Popover>
-      </Hidden>
-
-      <Hidden mdUp>
-        <Collapse in={open}>
-          <Box mt=".5rem">
-            <Paper elevation={2}>
-              <Box p="1rem">
-                <Box>{renderSubNav()}</Box>
-              </Box>
-            </Paper>
-          </Box>
-        </Collapse>
-      </Hidden>
+      )}
     </>
   );
 
@@ -347,6 +413,7 @@ function NavLinkCategory(props: {
                             <ReactRouterLink
                               to={link.to}
                               target={link.target}
+                              onClick={props.onAnyLinkClick}
                               className={css({
                                 color: theme.palette.secondary.main,
                                 fontWeight: theme.typography.fontWeightBold,

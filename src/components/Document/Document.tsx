@@ -11,7 +11,6 @@ import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import Fade from "@mui/material/Fade";
 import Grid from "@mui/material/Grid";
-import Hidden from "@mui/material/Hidden";
 import IconButton from "@mui/material/IconButton";
 import MenuItem from "@mui/material/MenuItem";
 import MenuList from "@mui/material/MenuList";
@@ -20,6 +19,7 @@ import Stack from "@mui/material/Stack";
 import { useTheme } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useHistory, useLocation } from "react-router-dom";
@@ -41,14 +41,18 @@ export function Document(props: {
   makeChapterLink(chapterId: string): string;
   renderLinks?(): void;
 }) {
+  const theme = useTheme();
+  const history = useHistory();
+  const location = useLocation();
+
   const [autocompleteOpen, setAutocompleteOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openedCategory, setOpenedCategory] = useState<string>();
 
-  const theme = useTheme();
-  const history = useHistory();
-  const location = useLocation();
+  const isMdDown = useMediaQuery(theme.breakpoints.down("md"));
+  const isLgDown = useMediaQuery(theme.breakpoints.down("lg"));
+  const isMdUp = useMediaQuery(theme.breakpoints.up("md"));
 
   useEffect(() => {
     if (!location.hash) {
@@ -91,72 +95,73 @@ export function Document(props: {
           })}
         </Helmet>
         <Grid container spacing={4}>
-          <Hidden mdDown>
+          {!isMdDown && (
             <Grid item xs={3}>
               {renderSideBar()}
             </Grid>
-          </Hidden>
+          )}
           <Grid item sm={12} md={9} lg={6}>
             {renderContent()}
           </Grid>
-          <Hidden lgDown>
+          {!isLgDown && (
             <Grid item xs={3}>
               {renderSearchBar()}
               {renderLanguageBar()}
               {renderToc()}
             </Grid>
-          </Hidden>
+          )}
         </Grid>
         {renderMobileMenuBar()}
         <Drawer
-          anchor="bottom"
+          anchor="left"
           open={mobileMenuOpen}
           classes={{
             paper: css({
-              top: "5rem",
+              width: "80vw",
             }),
           }}
           onClose={() => {
             setMobileMenuOpen(false);
           }}
         >
-          <Box p="2rem">{renderSideBar()}</Box>
+          <Box>{renderSideBar()}</Box>
         </Drawer>
       </div>
     </Fade>
   );
 
   function renderMobileMenuBar() {
+    if (isMdUp) {
+      return null;
+    }
     return (
-      <Hidden mdUp>
-        <Box
-          p=".5rem"
-          className={css({
-            position: "fixed",
-            bottom: "0",
-            left: "0",
-            width: "100%",
-            boxShadow: theme.shadows[24],
-            background: theme.palette.background.paper,
-          })}
-        >
-          <Grid container spacing={1} alignItems="center" wrap="nowrap">
-            <Grid item>
-              <IconButton
-                color="inherit"
-                onClick={() => {
-                  setMobileMenuOpen(true);
-                }}
-              >
-                <MenuIcon color="inherit" />
-              </IconButton>
-            </Grid>
-            <Grid item zeroMinWidth>
-              <Box>Chapters</Box>
-            </Grid>
+      <Box
+        p=".5rem"
+        className={css({
+          position: "fixed",
+          bottom: "0",
+          left: "0",
+          width: "100%",
+          boxShadow: theme.shadows[24],
+          background: theme.palette.background.paper,
+        })}
+      >
+        <Grid container spacing={1} alignItems="center" wrap="nowrap">
+          <Grid item>
+            <IconButton
+              color="inherit"
+              onClick={() => {
+                setMobileMenuOpen(true);
+              }}
+            >
+              <MenuIcon color="inherit" />
+            </IconButton>
           </Grid>
-        </Box>
-      </Hidden>
+          <Grid item zeroMinWidth>
+            <Box>Chapters</Box>
+          </Grid>
+        </Grid>
+      </Box>
     );
   }
 
@@ -283,13 +288,12 @@ export function Document(props: {
                 wrap="nowrap"
                 alignItems="center"
               >
-                <Grid item>
+                <Grid item xs zeroMinWidth>
                   <Typography
                     noWrap
                     component="span"
                     className={css({
-                      // fontWeight: theme.typography.fontWeightBold,
-                      // textTransform: "uppercase",
+                      display: "block",
                     })}
                   >
                     {categoryName}

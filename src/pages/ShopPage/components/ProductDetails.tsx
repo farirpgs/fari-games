@@ -1,7 +1,6 @@
 import { css } from "@emotion/css";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
-import Hidden from "@mui/material/Hidden";
 import {
   responsiveFontSizes,
   ThemeProvider,
@@ -45,6 +44,7 @@ export function ProductDetails(props: {
 }) {
   const productTheme = useThemeFromColor(props.color);
   const theme = useTheme();
+  const isLgDown = useMediaQuery(theme.breakpoints.down("lg"));
   const isSmall = useMediaQuery(theme.breakpoints.down("md"));
 
   if (!props.product) {
@@ -160,7 +160,7 @@ export function ProductDetails(props: {
             </ThemeProvider>
           </div>
         </Grid>
-        <Hidden lgDown>
+        {!isLgDown && (
           <Grid item xs={12} lg={6}>
             <ReactRouterLink
               to={AppLinksFactory.makeProductLink(props.product)}
@@ -183,7 +183,7 @@ export function ProductDetails(props: {
               />
             </ReactRouterLink>
           </Grid>
-        </Hidden>
+        )}
       </Grid>
     </>
   );
