@@ -27,7 +27,7 @@ import { track } from "../../domains/analytics/track";
 import {
   IChapter,
   ISearchIndex,
-  ISidebarItem
+  ISidebarItem,
 } from "../../domains/documents/DocumentParser";
 import { MarkdownContent } from "../MarkdownContent/MarkdownContent";
 import { ReactRouterLink } from "../ReactRouterLink/ReactRouterLink";
@@ -343,7 +343,7 @@ export function Document(props: {
         className={css({
           color: "inherit",
           textDecoration: "none",
-          backgroundColor:  "inherit",
+          backgroundColor: "inherit",
           borderLeft: selected
             ? `4px solid ${theme.palette.secondary.main}`
             : `4px solid transparent`,
@@ -607,8 +607,21 @@ export function Document(props: {
           <Divider />
           <Box mb="1rem" />
           {renderPreviousNextNavigation()}
+          {renderDevModeInfo()}
         </div>
       </>
+    );
+  }
+
+  function renderDevModeInfo() {
+    if (import.meta.env.PROD) {
+      return null;
+    }
+    return (
+      <pre>
+        <p>title: {chapter.currentChapter.text}</p>
+        <p>description: {chapter.currentChapter.description}</p>
+      </pre>
     );
   }
 

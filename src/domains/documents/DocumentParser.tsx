@@ -81,10 +81,8 @@ export type ISearchIndex = {
   path: string;
 };
 
-const previewTextSelector = "p:not(:empty),ul:not(:empty)";
-
-export class DocumentParser {
-  static async getDocument(props: {
+export const DocumentParser = {
+  async getDocument(props: {
     author: string;
     slug: string;
     language: string | undefined;
@@ -95,16 +93,10 @@ export class DocumentParser {
         : `${props.author}/${props.slug}_${props.language}`;
     const { default: fileContent } = await gameDocuments[link]();
 
-    const frontMatter =
-      DocumentParser.extractFrontMatterFromMarkdown(fileContent);
-
-    const dom = await DocumentParser.convertMarkdownToDom(fileContent);
-
-    const info = DocumentParser.extraInfoFromDom(dom);
-
-    DocumentParser.addImgCaptionsToDom(dom);
-
-    const style = DocumentParser.extractCustomCSSFromDom(dom);
+    const frontMatter = extractFrontMatterFromMarkdown(fileContent);
+    const dom = await convertMarkdownToDom(fileContent);
+    const info = extraInfoFromDom(dom);
+    const style = extractCustomCSSFromDom(dom);
 
     return {
       dom: dom,
@@ -114,119 +106,126 @@ export class DocumentParser {
       sidebar: info.sidebar,
       searchIndexes: info.searchIndexes,
     };
-  }
 
-  private static extraInfoFromDom(dom: HTMLDivElement) {
-    const headings = dom.querySelectorAll("h1,h2,h3,h4,h5,h6");
-    const pageSlugCounts: Record<string, number> = {};
-    const sectionSlugCounts: Record<string, number> = {};
+    function extraInfoFromDom(dom: HTMLDivElement) {
+      const headings = dom.querySelectorAll("h1,h2,h3,h4,h5,h6");
+      const pageSlugCounts: Record<string, number> = {};
+      const sectionSlugCounts: Record<string, number> = {};
 
-    const chapters: Array<{ id: string; text: string | null }> = [];
-    const sidebar: ISidebar = {
-      root: [],
-      categories: {},
-    };
+      const chapters: Array<{ id: string; text: string | null }> = [];
+      const sidebar: ISidebar = {
+        root: [],
+        categories: {},
+      };
 
-    const searchIndexes: Array<ISearchIndex> = [];
+      const searchIndexes: Array<ISearchIndex> = [];
 
-    let lastH1: Element | null = null;
-    headings.forEach((h) => {
-      const titles = h.textContent?.split("|");
-      const pageTitle = titles?.[0]?.trim() ?? "";
-      const headingTitle = titles?.[1]?.trim() ?? "";
-      const headingSlug = kebabCase(pageTitle ?? "");
+      let lastH1: Element | null = null;
+      headings.forEach((h) => {
+        const titles = h.textContent?.split("|");
+        const pageTitle = titles?.[0]?.trim() ?? "";
+        const headingTitle = titles?.[1]?.trim() ?? "";
+        const headingSlug = kebabCase(pageTitle ?? "");
 
-      const headingPreview =
-        getFirstSiblingUntilSelector(
-          h,
-          previewTextSelector
-        )?.textContent?.trim() ?? "";
+        const preview = getFirstTextContentAfter(h);
 
-      if (h.tagName === "H1") {
-        const count = pageSlugCounts[headingSlug] ?? 0;
-        const newCount = count + 1;
-        const id = count === 0 ? headingSlug : `${headingSlug}-${count}`;
-        pageSlugCounts[headingSlug] = newCount;
+        if (h.tagName === "H1") {
+          const count = pageSlugCounts[headingSlug] ?? 0;
+          const newCount = count + 1;
+          const id = count === 0 ? headingSlug : `${headingSlug}-${count}`;
+          pageSlugCounts[headingSlug] = newCount;
 
-        const sidebarItem: ISidebarItem = {
-          path: id,
-          title: pageTitle,
-        };
-        if (!headingTitle) {
-          sidebar.root.push(sidebarItem);
+          const sidebarItem: ISidebarItem = {
+            path: id,
+            title: pageTitle,
+          };
+          if (!headingTitle) {
+            sidebar.root.push(sidebarItem);
+          } else {
+            const prev = sidebar.categories[headingTitle] ?? [];
+
+            sidebar.categories[headingTitle] = [...prev, sidebarItem];
+          }
+
+          h.id = id;
+          h.textContent = pageTitle;
+          chapters.push({ id: id, text: pageTitle });
+          searchIndexes.push({
+            id: id,
+            label: pageTitle,
+            group: pageTitle,
+            preview: preview,
+            path: id,
+          });
+          lastH1 = h;
         } else {
-          const prev = sidebar.categories[headingTitle] ?? [];
+          const count = sectionSlugCounts[headingSlug] ?? 0;
+          const newCount = count + 1;
+          const id = count === 0 ? headingSlug : `${headingSlug}-${count}`;
+          sectionSlugCounts[headingSlug] = newCount;
 
-          sidebar.categories[headingTitle] = [...prev, sidebarItem];
+          h.id = id;
+          h.innerHTML = `<a href="#${id}" class="anchor">#</a> ${pageTitle}`;
+          searchIndexes.push({
+            id: id,
+            label: pageTitle,
+            group: lastH1?.textContent ?? "",
+            preview: preview,
+            path: `${lastH1?.id}#${id}` ?? "",
+          });
         }
+      });
+      return { chapters, sidebar, searchIndexes };
+    }
 
-        h.id = id;
-        h.textContent = pageTitle;
-        chapters.push({ id: id, text: pageTitle });
-        searchIndexes.push({
-          id: id,
-          label: pageTitle,
-          group: pageTitle,
-          preview: headingPreview,
-          path: id,
-        });
-        lastH1 = h;
-      } else {
-        const count = sectionSlugCounts[headingSlug] ?? 0;
-        const newCount = count + 1;
-        const id = count === 0 ? headingSlug : `${headingSlug}-${count}`;
-        sectionSlugCounts[headingSlug] = newCount;
+    function extractFrontMatterFromMarkdown(fileContent: string) {
+      const frontMatter = parseFrontMatter(fileContent) as IDocFrontMatter;
 
-        h.id = id;
-        h.innerHTML = `<a href="#${id}" class="anchor">#</a> ${pageTitle}`;
-        searchIndexes.push({
-          id: id,
-          label: pageTitle,
-          group: lastH1?.textContent ?? "",
-          preview: headingPreview,
-          path: `${lastH1?.id}#${id}` ?? "",
-        });
+      if (!frontMatter.title) {
+        console.warn("Missing Document `title`");
       }
-    });
-    return { chapters, sidebar, searchIndexes };
-  }
-
-  private static async convertMarkdownToDom(fileContent: string) {
-    const html = await MarkdownParser.toHtml(fileContent);
-
-    const dom = document.createElement("div");
-    dom.innerHTML = html;
-
-    return dom;
-  }
-
-  private static extractFrontMatterFromMarkdown(fileContent: string) {
-    const frontMatter = parseFrontMatter(fileContent) as IDocFrontMatter;
-
-    if (!frontMatter.title) {
-      console.warn("Missing Document `title`");
+      if (!frontMatter.author) {
+        console.warn("Missing Document `author`");
+      }
+      if (!frontMatter.image) {
+        console.warn("Missing Document `image`");
+      }
+      return frontMatter;
     }
-    if (!frontMatter.author) {
-      console.warn("Missing Document `author`");
+
+    function extractCustomCSSFromDom(dom: HTMLDivElement) {
+      return dom.querySelector("style")?.innerHTML ?? "";
     }
-    if (!frontMatter.image) {
-      console.warn("Missing Document `image`");
+
+    async function convertMarkdownToDom(fileContent: string) {
+      const html = await MarkdownParser.toHtml(fileContent);
+
+      const dom = document.createElement("div");
+      dom.innerHTML = html;
+
+      return dom;
     }
-    return frontMatter;
-  }
 
-  private static extractCustomCSSFromDom(dom: HTMLDivElement) {
-    return dom.querySelector("style")?.innerHTML ?? "";
-  }
+    function parseFrontMatter(markdown: string): Record<string, string> {
+      const frontMatter = markdown.split("---");
+      if (frontMatter.length === 1) {
+        return {};
+      }
+      const [, content] = frontMatter;
+      const firstLines = content.split("\n");
+      const frontMatterObject: Record<string, string> = {};
+      for (const line of firstLines) {
+        const [key, value] = line.split(": ");
+        if (key && value) {
+          frontMatterObject[key] = value;
+        }
+      }
 
-  private static addImgCaptionsToDom(dom: HTMLDivElement) {
-    dom.querySelectorAll("img").forEach((img) => {
-      const html = img.outerHTML;
-      img.outerHTML = `<figure class="document-image">${html}<figcaption>${img.alt}</figcaption></figure>`;
-    });
-  }
+      return frontMatterObject;
+    }
+  },
 
-  static async getChapter(props: {
+  async getChapter(props: {
     author: string;
     slug: string;
     chapterId: string;
@@ -238,23 +237,13 @@ export class DocumentParser {
       language: props.language,
     });
     const chapterId = props.chapterId ?? document.chapters[0]?.id;
-    const { currentChapterIndex, currentChapter } =
-      DocumentParser.getCurrentChapter(document, chapterId);
-    const previousChapter = DocumentParser.getPreviousChapter(
-      currentChapterIndex,
-      document
-    );
-    const nextChapter = DocumentParser.getNextChapter(
-      currentChapterIndex,
-      document
-    );
-
-    const chapter = DocumentParser.getChapterContent(
+    const { currentChapterIndex, currentChapter } = getCurrentChapter(
       document,
-      chapterId,
-      nextChapter
+      chapterId
     );
-
+    const previousChapter = getPreviousChapter(currentChapterIndex, document);
+    const nextChapter = getNextChapter(currentChapterIndex, document);
+    const chapter = getChapterContent(document, chapterId, nextChapter);
     const tableOfContent = getTableOfContent(chapter.html);
 
     return {
@@ -274,148 +263,128 @@ export class DocumentParser {
       previousChapter: previousChapter,
       nextChapter: nextChapter,
     };
-  }
 
-  private static getChapterContent(
-    document: IDocument,
-    chapterId: string,
-    nextChapter: { id: string; text: string | null }
-  ) {
-    const currentChapterHeading = document.dom.querySelector(
-      `h1[id="${chapterId}"]`
-    );
+    function addImgCaptionsToDom(dom: HTMLDivElement) {
+      dom.querySelectorAll("img").forEach((img) => {
+        const html = img.outerHTML;
+        img.outerHTML = `<figure class="document-image">${html}<figcaption>${img.alt}</figcaption></figure>`;
+      });
+    }
 
-    const elements = getAllNextSiblingUntilSelector(
-      currentChapterHeading,
-      nextChapter ? `[id="${nextChapter.id}"]` : undefined
-    );
+    function getChapterContent(
+      document: IDocument,
+      chapterId: string,
+      nextChapter: { id: string; text: string | null }
+    ) {
+      const currentChapterHeading = document.dom.querySelector(
+        `h1[id="${chapterId}"]`
+      );
 
-    const currentChapterPreview =
-      getFirstSiblingUntilSelector(
+      const elements = getAllNextSiblingUntilSelector(
         currentChapterHeading,
-        previewTextSelector
-      )?.textContent?.trim() ?? "";
+        nextChapter ? `[id="${nextChapter.id}"]` : undefined
+      );
 
-    let chapterHtml = "";
-    let words = "";
+      const preview = getFirstTextContentAfter(currentChapterHeading);
 
-    elements.forEach((e) => {
-      chapterHtml += e.outerHTML;
-      words += e.textContent;
-    });
+      addImgCaptionsToDom(document.dom);
 
-    const numberOfWords = words.split(" ").length;
-    return { html: chapterHtml, numberOfWords, preview: currentChapterPreview };
-  }
+      let chapterHtml = "";
+      let words = "";
 
-  private static getNextChapter(
-    currentChapterIndex: number,
-    document: IDocument
-  ) {
-    const nextChapterIndex = currentChapterIndex + 1;
-    const nextChapter = document.chapters[nextChapterIndex];
-    return nextChapter;
-  }
+      elements.forEach((e) => {
+        chapterHtml += e.outerHTML;
+        words += e.textContent;
+      });
 
-  private static getPreviousChapter(
-    currentChapterIndex: number,
-    document: IDocument
-  ) {
-    const previousChapterIndex = currentChapterIndex + -1;
-    const previousChapter = document.chapters[previousChapterIndex];
-    return previousChapter;
-  }
+      const numberOfWords = words.split(" ").length;
+      return { html: chapterHtml, numberOfWords, preview: preview };
+    }
 
-  private static getCurrentChapter(
-    document: IDocument,
-    chapterIdToUse: string
-  ) {
-    const currentChapterIndex = document.chapters.findIndex(
-      (c) => c.id === chapterIdToUse
-    );
-    const currentChapter = document.chapters[currentChapterIndex];
-    return { currentChapterIndex, currentChapter };
-  }
-}
+    function getNextChapter(currentChapterIndex: number, document: IDocument) {
+      const nextChapterIndex = currentChapterIndex + 1;
+      const nextChapter = document.chapters[nextChapterIndex];
+      return nextChapter;
+    }
 
-function getAllNextSiblingUntilSelector(
-  elem: Element | undefined | null,
-  selector: string | undefined
-) {
+    function getPreviousChapter(
+      currentChapterIndex: number,
+      document: IDocument
+    ) {
+      const previousChapterIndex = currentChapterIndex + -1;
+      const previousChapter = document.chapters[previousChapterIndex];
+      return previousChapter;
+    }
+
+    function getCurrentChapter(document: IDocument, chapterIdToUse: string) {
+      const currentChapterIndex = document.chapters.findIndex(
+        (c) => c.id === chapterIdToUse
+      );
+      const currentChapter = document.chapters[currentChapterIndex];
+      return { currentChapterIndex, currentChapter };
+    }
+
+    function getAllNextSiblingUntilSelector(
+      elem: Element | undefined | null,
+      selector: string | undefined
+    ) {
+      if (!elem) {
+        return [];
+      }
+      const siblings: Array<Element> = [elem];
+
+      let currentElement = elem?.nextElementSibling;
+
+      while (currentElement) {
+        if (selector) {
+          if (currentElement.matches(selector)) {
+            break;
+          }
+          siblings.push(currentElement);
+          currentElement = currentElement.nextElementSibling;
+        } else {
+          siblings.push(currentElement);
+          currentElement = currentElement.nextElementSibling;
+        }
+      }
+      return siblings;
+    }
+
+    function getTableOfContent(html: string) {
+      const dom = window.document.createElement("div");
+      dom.innerHTML = html;
+      const tableOfContent: Array<{ id: string; text: string; level: number }> =
+        [];
+
+      dom.querySelectorAll("h2,h3").forEach((h) => {
+        const id = h.id;
+        const level = h.tagName.split("H")[1];
+        const text = h.textContent?.split("#").join("") ?? "";
+
+        tableOfContent.push({ id, text, level: parseInt(level, 10) });
+      });
+
+      return tableOfContent;
+    }
+  },
+};
+
+function getFirstTextContentAfter(elem: Element | undefined | null) {
   if (!elem) {
-    return [];
+    return "";
   }
-  const siblings: Array<Element> = [elem];
 
   let currentElement = elem?.nextElementSibling;
 
   while (currentElement) {
-    if (selector) {
-      if (currentElement.matches(selector)) {
-        break;
-      }
-      siblings.push(currentElement);
-      currentElement = currentElement.nextElementSibling;
-    } else {
-      siblings.push(currentElement);
-      currentElement = currentElement.nextElementSibling;
+    const textContent = currentElement.textContent?.trim();
+
+    const isValidElement =
+      currentElement.nodeName === "P" || currentElement.nodeName === "UL";
+    if (textContent && isValidElement) {
+      return textContent;
     }
+    currentElement = currentElement.nextElementSibling;
   }
-  return siblings;
-}
-
-function getFirstSiblingUntilSelector(
-  elem: Element | undefined | null,
-  selector: string | undefined
-) {
-  if (!elem) {
-    return;
-  }
-
-  let currentElement = elem?.nextElementSibling;
-
-  while (currentElement) {
-    if (selector) {
-      if (currentElement.matches(selector)) {
-        return currentElement;
-      }
-      currentElement = currentElement.nextElementSibling;
-    } else {
-      currentElement = currentElement.nextElementSibling;
-    }
-  }
-}
-
-function parseFrontMatter(markdown: string): Record<string, string> {
-  const frontMatter = markdown.split("---");
-  if (frontMatter.length === 1) {
-    return {};
-  }
-  const [, content] = frontMatter;
-  const firstLines = content.split("\n");
-  const frontMatterObject: Record<string, string> = {};
-  for (const line of firstLines) {
-    const [key, value] = line.split(": ");
-    if (key && value) {
-      frontMatterObject[key] = value;
-    }
-  }
-
-  return frontMatterObject;
-}
-
-function getTableOfContent(html: string) {
-  const dom = document.createElement("div");
-  dom.innerHTML = html;
-  const tableOfContent: Array<{ id: string; text: string; level: number }> = [];
-
-  dom.querySelectorAll("h2,h3").forEach((h) => {
-    const id = h.id;
-    const level = h.tagName.split("H")[1];
-    const text = h.textContent?.split("#").join("") ?? "";
-
-    tableOfContent.push({ id, text, level: parseInt(level, 10) });
-  });
-
-  return tableOfContent;
+  return "";
 }
