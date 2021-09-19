@@ -19,6 +19,8 @@ export function Page(props: {
   const description =
     props.description ||
     "All the best TTRPG SRDs available right here on Fari Games.";
+  const image =
+    props.image || "https://gyazo.com/a8c7b185f1d5ee45e915830b7c876efc.png";
   return (
     <>
       <Helmet
@@ -37,7 +39,7 @@ export function Page(props: {
           },
           {
             property: "og:image",
-            content: props.image || "",
+            content: image,
           },
           {
             property: "og:url",

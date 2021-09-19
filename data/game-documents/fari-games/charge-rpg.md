@@ -10,6 +10,12 @@ highlightFont: Oswald
 version: 0.1.1
 ---
 
+<style>
+	ul.people li { display: inline; white-space: pre; }
+	ul.people li:after { content:  " •"; }
+	ul.people li:last-child:after { content: ""; }
+</style>
+
 # Introductions | Power Your Story Telling
 
 ![Charge](https://gyazo.com/5b8633befdb6fe3f894bdabaedac4001.png)
@@ -53,19 +59,15 @@ We can't wait to work with you all. Let's build something incredible, together.
 
 ## Work in Progress
 
-This game is a work-in-progress. A couple of things are still missing:
+This game is a work-in-progress. A couple of things are still missing, and will be worked on in the next couple of months.
 
-- Section: Extras: more extras from us and the community
-- Section: Playing the game with GM and Players best practices
+- Section: Extras: more extras from us, and the community.
+- Section: GM's best practices
+- Section: Players's best practices
 - More examples
+- Editing
 
 ## Thanks
-
-<style>
-	ul.people li { display: inline; white-space: pre; }
-	ul.people li:after { content:  " •"; }
-	ul.people li:last-child:after { content: ""; }
-</style>
 
 **Ideas Bouncers & Playtesters**:
 
