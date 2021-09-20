@@ -207,6 +207,17 @@ export function Navbar() {
           </NavLink>
         </Grid>
         <Grid item>
+          <NavLink
+            onClick={() => {
+              setMenuOpen(false);
+            }}
+            target="_blank"
+            to={{ pathname: "https://fari.app" }}
+          >
+            Fari App
+          </NavLink>
+        </Grid>
+        <Grid item>
           <NavLinkCategory
             label={"Community"}
             onAnyLinkClick={() => {
