@@ -3,12 +3,12 @@ import Typography from "@mui/material/Typography";
 import shuffle from "lodash/shuffle";
 import React, { useMemo } from "react";
 import { shopProducts } from "../../../../data/shop/shopProducts";
-import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
+import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { ProductList } from "./ProductList";
 
 export function useGames(
   tags: string | undefined,
-  excludeProduct?: IShopProduct | undefined
+  excludeProduct?: IShopProductWithAuthor | undefined
 ) {
   return useMemo(() => {
     const tagsList = tags?.split(",").map((t) => t.trim()) ?? [];
@@ -50,7 +50,7 @@ export function useGames(
 export function ShopCategory(props: {
   name: string;
   tags: string;
-  excludeProduct?: IShopProduct | undefined;
+  excludeProduct?: IShopProductWithAuthor | undefined;
   count: number;
 }) {
   const gamesForTags = useGames(props.tags, props.excludeProduct);

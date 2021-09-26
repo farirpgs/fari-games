@@ -4,7 +4,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import React from "react";
-import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
+import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { track } from "../../../domains/analytics/track";
 import { ItchIcon } from "../../../icons/ItchIcon";
 import {
@@ -12,7 +12,9 @@ import {
   itchIoAffiliateCode,
 } from "../configs/games";
 
-export function ProductLinks(props: { product: IShopProduct | undefined }) {
+export function ProductLinks(props: {
+  product: IShopProductWithAuthor | undefined;
+}) {
   if (!props.product) {
     return null;
   }
@@ -74,7 +76,7 @@ export function ProductLinks(props: { product: IShopProduct | undefined }) {
           </Button>
         </Grid>
       )}
-      {props.product.links.website && (
+      {props.product.author.links.website && (
         <Grid item xs={12}>
           <Button
             color="secondary"
@@ -82,7 +84,7 @@ export function ProductLinks(props: { product: IShopProduct | undefined }) {
             variant="outlined"
             size="small"
             component={"a"}
-            href={props.product.links.website}
+            href={props.product.author.links.website}
             target="_blank"
             onClick={() => {
               track("buy_website", {
@@ -97,7 +99,7 @@ export function ProductLinks(props: { product: IShopProduct | undefined }) {
           </Button>
         </Grid>
       )}
-      {props.product.links.twitter && (
+      {props.product.author.links.twitter && (
         <Grid item xs={12}>
           <Button
             color="secondary"
@@ -105,7 +107,7 @@ export function ProductLinks(props: { product: IShopProduct | undefined }) {
             variant="outlined"
             size="small"
             component={"a"}
-            href={props.product.links.twitter}
+            href={props.product.author.links.twitter}
             target="_blank"
             onClick={() => {
               track("follow_twitter", {

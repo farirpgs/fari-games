@@ -1,21 +1,40 @@
+export type IShop = {
+  authors: Array<IShopAuthor>;
+};
+
+export type IShopAuthor = {
+  name: string;
+  slug: string;
+  links: {
+    twitter?: string;
+    website?: string;
+  };
+  products: Array<IShopProduct>;
+};
+
 export type IShopProduct = {
   name: string;
   slug: string;
   description: string;
-  author: string;
-  authorSlug: string;
   image: string;
   tags: Array<string>;
   featured?: boolean;
-  releaseDate?: string;
-  rating: number;
   document?: boolean;
   affiliate?: boolean;
   links: {
     driveThru?: string;
     itchIo?: string;
-    twitter?: string;
     gumroad?: string;
-    website?: string;
+  };
+};
+
+export type IShopProductWithAuthor = IShopProduct & {
+  author: {
+    name: string;
+    slug: string;
+    links: {
+      twitter?: string;
+      website?: string;
+    };
   };
 };

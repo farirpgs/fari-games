@@ -27,7 +27,7 @@ export function SearchPage() {
   const productsToShow = shopProducts.filter((p) => {
     const searchLower = searchQuery.toLowerCase();
     const nameLower = p.name.toLowerCase();
-    const authorLower = p.author.toLowerCase();
+    const authorLower = p.author.name.toLowerCase();
     const tags = p.tags.join(" ").toLowerCase();
 
     if (searchLower.length === 0) {

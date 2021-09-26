@@ -3,10 +3,10 @@ import { useTheme } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import React from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
-import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
+import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 
-export function ProductCard(props: { product: IShopProduct }) {
+export function ProductCard(props: { product: IShopProductWithAuthor }) {
   const theme = useTheme();
   return (
     <div
@@ -78,7 +78,7 @@ export function ProductCard(props: { product: IShopProduct }) {
       </div>
       <div>
         <Typography variant="button" color="textSecondary">
-          {props.product.author}
+          {props.product.author.name}
         </Typography>
       </div>
       <div>

@@ -20,7 +20,7 @@ export function ShopAuthorProductPage() {
 
   const selectedGame = shopProducts.find((g) => {
     return (
-      match.params.authorSlug === g.authorSlug &&
+      match.params.authorSlug === g.author.slug &&
       match.params.productSlug === g.slug
     );
   });
@@ -52,7 +52,7 @@ export function ShopAuthorProductPage() {
                   to={AppLinksFactory.makeAuthorLink(selectedGame)}
                   component={ReactRouterLink}
                 >
-                  {selectedGame?.author}
+                  {selectedGame?.author.name}
                 </Link>
                 <Typography color="textPrimary">
                   {selectedGame?.name}
@@ -74,13 +74,13 @@ export function ShopAuthorProductPage() {
             />
             <MoreByAuthor
               variant="h3"
-              authorSlug={selectedGame?.authorSlug}
+              authorSlug={selectedGame?.author.slug}
               count={4}
               excludeProduct={selectedGame}
             />
           </Container>
         </Fade>
-      </Page>{" "}
+      </Page>
     </>
   );
 }

@@ -11,7 +11,7 @@ import Typography from "@mui/material/Typography";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import React, { useMemo } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
-import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
+import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 import { themeOptions } from "../../../theme";
 
@@ -35,7 +35,7 @@ export function useThemeFromColor(color: string, mode?: any) {
 }
 
 export function ProductDetails(props: {
-  product: IShopProduct | undefined;
+  product: IShopProductWithAuthor | undefined;
   alignItems?: string;
   justifyContent?: string;
   padding?: string;
@@ -85,7 +85,7 @@ export function ProductDetails(props: {
                     fontSize: "1rem",
                   })}
                 >
-                  By {props.product.author}
+                  By {props.product.author.name}
                 </Typography>
               </ReactRouterLink>
             </div>
@@ -144,7 +144,7 @@ export function ProductDetails(props: {
                         variant="contained"
                         component={ReactRouterLink}
                         to={AppLinksFactory.makeGameLink({
-                          author: props.product.authorSlug,
+                          author: props.product.author.slug,
                           game: props.product.slug,
                         })}
                         className={css({

@@ -1,9 +1,11 @@
 import Grid from "@mui/material/Grid";
 import React from "react";
-import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
+import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { ProductCard } from "./ProductCard";
 
-export function ProductList(props: { products: Array<IShopProduct> }) {
+export function ProductList(props: {
+  products: Array<IShopProductWithAuthor>;
+}) {
   return (
     <Grid flexWrap="wrap" container spacing={1}>
       {props.products.map((product, i) => {

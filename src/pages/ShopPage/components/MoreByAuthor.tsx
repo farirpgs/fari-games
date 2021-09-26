@@ -2,18 +2,19 @@ import Box from "@mui/material/Box";
 import Typography, { TypographyProps } from "@mui/material/Typography";
 import React from "react";
 import { shopProducts } from "../../../../data/shop/shopProducts";
-import { IShopProduct } from "../../../../data/shop/types/IShopProduct";
+import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { ProductList } from "./ProductList";
 
 export function MoreByAuthor(props: {
   authorSlug: string | undefined;
   count?: number;
   variant?: TypographyProps["variant"];
-  excludeProduct?: IShopProduct | undefined;
+  excludeProduct?: IShopProductWithAuthor | undefined;
 }) {
   const authorsGame = shopProducts.filter((g) => {
     return (
-      props.authorSlug === g.authorSlug && g.slug !== props.excludeProduct?.slug
+      props.authorSlug === g.author.slug &&
+      g.slug !== props.excludeProduct?.slug
     );
   });
 
@@ -29,7 +30,7 @@ export function MoreByAuthor(props: {
     <Box mb="2rem">
       <Box>
         <Typography variant={props.variant} gutterBottom>
-          By {firstGame.author}
+          By {firstGame.author.name}
         </Typography>
       </Box>
 

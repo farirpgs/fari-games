@@ -13,6 +13,7 @@ import {
   Switch,
   useLocation,
 } from "react-router-dom";
+import { ErrorBoundary } from "./components/ErrorBoundary/ErrorBoundary";
 import { SettingsContext, useSettings } from "./contexts/SettingsContext";
 import { Navbar } from "./Navbar";
 import { darkTheme, lightTheme } from "./theme";
@@ -67,60 +68,62 @@ function App() {
             <Router>
               <ScrollToTop />
               <Navbar />
-              <Suspense
-                fallback={
-                  <Fade in>
-                    <Container maxWidth="md">
-                      <Box
-                        display="flex"
-                        justifyContent="center"
-                        margin="3rem 0"
-                      >
-                        <CircularProgress />
-                      </Box>
-                    </Container>
-                  </Fade>
-                }
-              >
-                <Switch>
-                  <Route exact path="/" component={HomePage} />
+              <ErrorBoundary>
+                <Suspense
+                  fallback={
+                    <Fade in>
+                      <Container maxWidth="md">
+                        <Box
+                          display="flex"
+                          justifyContent="center"
+                          margin="3rem 0"
+                        >
+                          <CircularProgress />
+                        </Box>
+                      </Container>
+                    </Fade>
+                  }
+                >
+                  <Switch>
+                    <Route exact path="/" component={HomePage} />
 
-                  <Route
-                    exact
-                    path="/:language/srds/:author/:game/:chapter?"
-                    component={GamePage}
-                  />
-                  <Route
-                    exact
-                    path="/:language/srds/:author/:game/:chapter?"
-                    component={GamePage}
-                  />
-                  <Route exact path="/search" component={SearchPage} />
+                    <Route
+                      exact
+                      path="/:language/srds/:author/:game/:chapter?"
+                      component={GamePage}
+                    />
+                    <Route
+                      exact
+                      path="/:language/srds/:author/:game/:chapter?"
+                      component={GamePage}
+                    />
+                    <Route exact path="/search" component={SearchPage} />
 
-                  <Route
-                    exact
-                    path={"/browse/:authorSlug/"}
-                    render={() => {
-                      return <ShopAuthorPage />;
-                    }}
-                  />
-                  <Route
-                    exact
-                    path={"/browse/:authorSlug/:productSlug"}
-                    render={() => {
-                      return <ShopAuthorProductPage />;
-                    }}
-                  />
-                  <Route
-                    path="*"
-                    render={() => {
-                      return <NotFoundPage />;
-                    }}
-                  />
-                </Switch>
-              </Suspense>
+                    <Route
+                      exact
+                      path={"/browse/:authorSlug/"}
+                      render={() => {
+                        return <ShopAuthorPage />;
+                      }}
+                    />
+                    <Route
+                      exact
+                      path={"/browse/:authorSlug/:productSlug"}
+                      render={() => {
+                        return <ShopAuthorProductPage />;
+                      }}
+                    />
+                    <Route
+                      path="*"
+                      render={() => {
+                        return <NotFoundPage />;
+                      }}
+                    />
+                  </Switch>
+                </Suspense>
 
-              <Box mb="50vh" />
+                <Box mb="50vh" />
+              </ErrorBoundary>
             </Router>
           </ThemeProvider>
         </StyledEngineProvider>

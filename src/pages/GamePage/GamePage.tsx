@@ -24,7 +24,7 @@ export function GamePage() {
   const chapterSlug = match.params.chapter;
   const language = match.params.language;
   const product = shopProducts.find(
-    (p) => p.slug === gameSlug && p.authorSlug === authorSlug
+    (p) => p.slug === gameSlug && p.author.slug === authorSlug
   );
 
   const [chapter, setChapter] = useState<IChapter>();

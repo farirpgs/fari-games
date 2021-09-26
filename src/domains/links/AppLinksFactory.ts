@@ -1,4 +1,4 @@
-import { IShopProduct } from "../../../data/shop/types/IShopProduct";
+import { IShopProductWithAuthor } from "../../../data/shop/types/IShopProduct";
 
 export const AppLinksFactory = {
   makeHomeLink() {
@@ -7,17 +7,17 @@ export const AppLinksFactory = {
   makeBrowseLink() {
     return "/browse";
   },
-  makeAuthorLink(game: IShopProduct | undefined) {
+  makeAuthorLink(game: IShopProductWithAuthor | undefined) {
     if (!game) {
       return "";
     }
-    return `/browse/${game.authorSlug}`;
+    return `/browse/${game.author.slug}`;
   },
-  makeProductLink(game: IShopProduct | undefined) {
+  makeProductLink(game: IShopProductWithAuthor | undefined) {
     if (!game) {
       return "";
     }
-    return `/browse/${game.authorSlug}/${game.slug}`;
+    return `/browse/${game.author.slug}/${game.slug}`;
   },
   makeGameLink(props: { author: string; game: string; language?: string }) {
     if (!props.language || props.language === "en") {

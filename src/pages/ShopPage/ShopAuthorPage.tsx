@@ -17,7 +17,7 @@ export function ShopAuthorPage() {
   const match = useRouteMatch<{ authorSlug: string }>();
 
   const creatorsGames = shopProducts.filter((g) => {
-    const authorSlug = g.authorSlug;
+    const authorSlug = g.author.slug;
 
     return match.params.authorSlug === authorSlug;
   });
@@ -28,7 +28,7 @@ export function ShopAuthorPage() {
     <>
       <Page
         box={{ mt: "2rem" }}
-        title={`Games by ${firstGame?.author}`}
+        title={`Games by ${firstGame?.author.name}`}
         description={`${gamesAsString}, and more...`}
       >
         <Fade in>
@@ -43,11 +43,13 @@ export function ShopAuthorPage() {
                   Browse
                 </Link>
 
-                <Typography color="textPrimary">{firstGame.author}</Typography>
+                <Typography color="textPrimary">
+                  {firstGame.author.name}
+                </Typography>
               </Breadcrumbs>
             </Box>
             <Box mb="1rem">
-              <MoreByAuthor variant="h2" authorSlug={firstGame.authorSlug} />
+              <MoreByAuthor variant="h2" authorSlug={firstGame.author.slug} />
             </Box>
             <Box>
               <ShopCategory

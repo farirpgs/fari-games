@@ -12,7 +12,7 @@ import { default as React, useState } from "react";
 import { useHistory } from "react-router";
 import { Settings } from "react-slick";
 import { shopCategories } from "../../../data/shop/shopCategories";
-import { IShopProduct } from "../../../data/shop/types/IShopProduct";
+import { IShopProductWithAuthor } from "../../../data/shop/types/IShopProduct";
 import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
 import { BetterSlider } from "./components/BetterSlider";
 import { ProductDetails } from "./components/ProductDetails";
@@ -61,7 +61,7 @@ export function ShopPage() {
     </Fade>
   );
 
-  function renderHeroSlide(game: IShopProduct) {
+  function renderHeroSlide(game: IShopProductWithAuthor) {
     return (
       <div
         className={css({
