@@ -21,4 +21,6 @@ export const gameDocuments: Record<
   "peachgardengames/harmony-drive": () =>
     import("./peachgardengames/harmony-drive.md?raw"),
   "peachgardengames/carta": () => import("./peachgardengames/carta.md?raw"),
+  "gamenomicon/second-guess-system": () =>
+    import("./gamenomicon/second-guess-system.md?raw"),
 };

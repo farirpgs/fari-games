@@ -213,4 +213,21 @@ export const shopProducts: Array<IShopProduct> = [
       twitter: "https://twitter.com/peachgardenrpgs",
     },
   },
+  {
+    featured: true,
+    name: "Second Guess System",
+    slug: "second-guess-system",
+    document: true,
+    author: "Gamenomicon",
+    authorSlug: "gamenomicon",
+    description: "Power your solo role-playing games.",
+    tags: ["ttrpg", "main"],
+    rating: 0,
+    image: "https://gyazo.com/6586967082cf5b9c58d9023e57efc5d3.jpg",
+    links: {
+      website: "https://www.gamenomicon.com/",
+      itchIo: "https://gamenomicon.itch.io/second-guess-system-srd",
+      twitter: "https://twitter.com/the_gamenomicon",
+    },
+  },
 ];
