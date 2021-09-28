@@ -33,7 +33,7 @@ It is also open licensed. Which means you can use it for free. You can also make
 >  
 > Charge is currently in early access. 
 > 
-> It is available so that people interested in play-testing the game have an easy access to the rules.
+> It is available so that people interested in play-testing the game can easily access the rules.
 > 
 > Thanks for you interest, support, and love. 💜
 
