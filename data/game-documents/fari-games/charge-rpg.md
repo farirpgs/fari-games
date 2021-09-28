@@ -735,7 +735,7 @@ Even with safety mechanics in place, accidents happen. That is why you should al
 > If the result of an action roll is between `1-5`, the GM inflicts a **one** consequence:
 >
 > - **Reduced Effect** : reduce the `effect` of the action by one level.
-> - **Complication**: create or tick a `danger clock` using the `consequence rating`.
+> - **Complication**: tick one segment per `consequence rating` on a new or existing `danger clock`.
 > - **Worse Position** : reduce the `position` of the PC by one level for their next action rolls.
 > - **Lost Opportunity** : what you tried didn't work, you need to use another `action`.
 > - **Worse Condition**: take `1 stress` per consequence rating.
