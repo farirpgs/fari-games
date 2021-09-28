@@ -689,7 +689,7 @@ export function Document(props: {
         })}
       >
         {chapter.previousChapter?.id && (
-          <Grid item xs={chapter.nextChapter?.id ? 6 : 12}>
+          <Grid item xs={12} md={chapter.nextChapter?.id ? 6 : 12}>
             <ReactRouterLink
               to={props.makeChapterLink(chapter.previousChapter?.id)}
               className={css({
@@ -740,7 +740,7 @@ export function Document(props: {
           </Grid>
         )}
         {chapter.nextChapter?.id && (
-          <Grid item xs={chapter.previousChapter?.id ? 6 : 12}>
+          <Grid item xs={12} md={chapter.previousChapter?.id ? 6 : 12}>
             <ReactRouterLink
               to={props.makeChapterLink(chapter.nextChapter?.id)}
               className={css({
