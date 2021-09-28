@@ -4,18 +4,15 @@ import Container from "@mui/material/Container";
 import CssBaseline from "@mui/material/CssBaseline";
 import Fade from "@mui/material/Fade";
 import { StyledEngineProvider, ThemeProvider } from "@mui/material/styles";
-import React, { Suspense, useContext, useEffect } from "react";
+import React, { Suspense, useContext } from "react";
 import ReactDom from "react-dom";
 import { HelmetProvider } from "react-helmet-async";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  useLocation,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ErrorBoundary } from "./components/ErrorBoundary/ErrorBoundary";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { SettingsContext, useSettings } from "./contexts/SettingsContext";
 import { Navbar } from "./Navbar";
+import { SentryService } from "./services/SentryService";
 import { darkTheme, lightTheme } from "./theme";
 
 const GamePage = React.lazy(() => import("./pages/GamePage/GamePage"));
@@ -24,23 +21,12 @@ const HomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
 const NotFoundPage = React.lazy(
   () => import("./pages/NotFoundPage/NotFoundPage")
 );
-
 const ShopAuthorPage = React.lazy(
   () => import("./pages/ShopPage/ShopAuthorPage")
 );
 const ShopAuthorProductPage = React.lazy(
   () => import("./pages/ShopPage/ShopAuthorProductPage")
 );
-
-export default function ScrollToTop() {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return null;
-}
 
 function AppProviders(props: { children: any }) {
   const settingsManager = useSettings();
@@ -131,6 +117,8 @@ function App() {
     </>
   );
 }
+
+SentryService.init();
 
 ReactDom.render(
   <AppProviders>
