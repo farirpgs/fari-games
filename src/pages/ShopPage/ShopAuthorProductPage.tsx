@@ -34,6 +34,7 @@ export function ShopAuthorProductPage() {
       <Page
         box={{ mt: "2rem" }}
         title={`${selectedGame?.name} by ${selectedGame?.author.name}`}
+        image={selectedGame?.image}
         description={`${selectedGame?.description}`}
       >
         <Fade in>
