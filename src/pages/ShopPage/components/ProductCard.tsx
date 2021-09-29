@@ -79,6 +79,7 @@ export function ProductCard(props: { product: IShopProductWithAuthor }) {
                 label="CC BY 3.0"
                 color="default"
                 className={css({
+                  display: "none",
                   background: theme.palette.primary.main,
                   color: theme.palette.getContrastText(
                     theme.palette.primary.main
