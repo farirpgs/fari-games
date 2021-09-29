@@ -22,17 +22,11 @@ export type ISidebarItem = {
 };
 
 type IDocFrontMatter = {
-  title?: string;
-  description?: string;
-  author?: string;
   fonts?: string;
   headingFont?: string;
   textFont?: string;
   highlightFont?: string;
   headingUppercase?: string;
-  image?: string;
-  widget?: string;
-  version?: string;
   languages?: string;
 };
 
@@ -181,15 +175,6 @@ export const DocumentParser = {
     function extractFrontMatterFromMarkdown(fileContent: string) {
       const frontMatter = parseFrontMatter(fileContent) as IDocFrontMatter;
 
-      if (!frontMatter.title) {
-        console.warn("Missing Document `title`");
-      }
-      if (!frontMatter.author) {
-        console.warn("Missing Document `author`");
-      }
-      if (!frontMatter.image) {
-        console.warn("Missing Document `image`");
-      }
       return frontMatter;
     }
 

@@ -1,13 +1,8 @@
 ---
-title: Charge RPG
-description: Ready to use generic RPG system
-author: Fari Games
-image: https://gyazo.com/5b8633befdb6fe3f894bdabaedac4001.png
 fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap
 headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
-version: 0.1.1
 ---
 
 <style>

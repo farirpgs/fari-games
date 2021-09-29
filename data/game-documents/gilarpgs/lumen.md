@@ -1,8 +1,4 @@
 ---
-title: Lumen
-author: Gila RPGs
-description: RPG system for action packed, power fantasy games.
-image: https://gyazo.com/46a3de1a6a786af5668775a3de5a5053.png
 fonts: https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap,
 headingFont: Lato
 textFont: Lato

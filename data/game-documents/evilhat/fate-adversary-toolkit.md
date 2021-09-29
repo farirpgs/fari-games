@@ -1,10 +1,3 @@
----
-title: Fate Adversary Toolkit
-author: Evil Hat Productions
-description: What ever the genre, this book gives you the tools you need to create great obstacles for you stories.
-image: https://gyazo.com/02c73c31e5bd4c874c31ee476198cec1.png
----
-
 <style>
   @font-face {
   font-family: "fate";

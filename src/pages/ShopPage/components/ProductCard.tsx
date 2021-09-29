@@ -1,18 +1,24 @@
 import { css } from "@emotion/css";
+import Chip from "@mui/material/Chip";
+import Fade from "@mui/material/Fade";
+import Stack from "@mui/material/Stack";
 import { useTheme } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
-import React from "react";
+import React, { useState } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 
 export function ProductCard(props: { product: IShopProductWithAuthor }) {
   const theme = useTheme();
+  const [hover, setHover] = useState(false);
   return (
     <div
       className={css({
         marginBottom: "1rem",
       })}
+      onPointerEnter={() => setHover(true)}
+      onPointerLeave={() => setHover(false)}
     >
       <ReactRouterLink
         to={AppLinksFactory.makeProductLink(props.product)}
@@ -59,6 +65,31 @@ export function ProductCard(props: { product: IShopProductWithAuthor }) {
             padding: ".5rem .5rem .5rem .5rem",
           })}
         />
+
+        <Fade in={hover}>
+          <div
+            className={css({
+              position: "absolute",
+              bottom: ".75rem",
+              right: ".5rem",
+            })}
+          >
+            <Stack direction="row" spacing={1}>
+              <Chip
+                label="CC BY 3.0"
+                color="default"
+                className={css({
+                  display: "none",
+                  background: theme.palette.primary.main,
+                  color: theme.palette.getContrastText(
+                    theme.palette.primary.main
+                  ),
+                  fontWeight: theme.typography.fontWeightBold,
+                })}
+              />
+            </Stack>
+          </div>
+        </Fade>
       </ReactRouterLink>
       <div>
         <ReactRouterLink

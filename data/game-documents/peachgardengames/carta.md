@@ -1,10 +1,6 @@
 ---
-title: Carta SRD
-description: A Toolkit For Making Exploration Games
-author: Peach Garden Games
 fonts: https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap
 headingFont: Architects Daughter
-image: https://gyazo.com/106826ea4cbde0930e918551a63d7b4d.png
 ---
 
 # Welcome to Carta!

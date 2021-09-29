@@ -1,3 +1,4 @@
+import { css } from "@emotion/css";
 import Box from "@mui/material/Box";
 import React, { useEffect, useState } from "react";
 import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
@@ -69,20 +70,31 @@ export function GamePage() {
   return (
     <>
       <Page
-        title={`${chapter?.currentChapter.text} - ${chapter?.frontMatter?.title}`}
+        title={`${chapter?.currentChapter.text} - ${product?.name}`}
         description={`${chapter?.currentChapter.description}`}
-        image={chapter?.frontMatter?.image}
+        image={product?.image}
         box={{ mt: "2rem" }}
         container={{ maxWidth: "xl" }}
       >
         <Document
           authorLink={AppLinksFactory.makeAuthorLink(product)}
-          gameSlug={gameSlug}
-          renderLinks={() => {
+          slug={gameSlug}
+          title={product?.name}
+          author={product?.author.name}
+          renderDocInfo={() => {
             return (
               <>
                 <Box mb=".5rem">
                   <ProductLinks product={product} />
+                </Box>
+                <Box mb=".5rem">
+                  <img
+                    src={product?.image}
+                    className={css({
+                      width: "100%",
+                      height: "auto",
+                    })}
+                  />
                 </Box>
               </>
             );

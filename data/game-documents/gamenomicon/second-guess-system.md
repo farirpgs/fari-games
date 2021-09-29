@@ -1,8 +1,4 @@
 ---
-title: Second Guess System
-description: Power your solo role-playing games
-author: Gamenomicon
-image: https://gyazo.com/6586967082cf5b9c58d9023e57efc5d3.jpg
 fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap,https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap
 headingFont: Oswald
 textFont: Quattrocento

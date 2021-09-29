@@ -33,13 +33,15 @@ import { MarkdownContent } from "../MarkdownContent/MarkdownContent";
 import { ReactRouterLink } from "../ReactRouterLink/ReactRouterLink";
 
 export function Document(props: {
-  gameSlug: string;
   chapter: IChapter | undefined;
   language: string | undefined;
+  title: string | undefined;
+  slug: string | undefined;
+  author: string | undefined;
   authorLink: string;
   onLanguageChange(language: string): void;
   makeChapterLink(chapterId: string): string;
-  renderLinks?(): void;
+  renderDocInfo?(): React.ReactNode;
 }) {
   const theme = useTheme();
   const history = useHistory();
@@ -201,27 +203,10 @@ export function Document(props: {
             </>
           )}
           <Box px="1rem" py="1rem">
-            {props.renderLinks?.()}
-            <Box mb=".5rem">{renderImage()}</Box>
-            <Box>{renderVersion()}</Box>
+            {props.renderDocInfo?.()}
           </Box>
         </div>
       </>
-    );
-  }
-
-  function renderVersion() {
-    if (!chapter?.frontMatter?.version) {
-      return null;
-    }
-    return (
-      <Box
-        className={css({
-          fontFamily: "monospace",
-        })}
-      >
-        v{chapter?.frontMatter?.version}
-      </Box>
     );
   }
 
@@ -233,24 +218,6 @@ export function Document(props: {
         paddingLeft: "0",
       });
     });
-  }
-
-  function renderImage() {
-    if (!chapter?.frontMatter?.image) {
-      return null;
-    }
-
-    return (
-      <Box>
-        <img
-          src={chapter?.frontMatter?.image}
-          className={css({
-            width: "100%",
-            height: "auto",
-          })}
-        />
-      </Box>
-    );
   }
 
   function renderCategoriesSideBarItems() {
@@ -399,7 +366,7 @@ export function Document(props: {
               history.push(props.makeChapterLink(path));
               track("search", {
                 search_term: search,
-                game: props.gameSlug,
+                game: props.slug,
                 index: path,
               });
             }
@@ -420,7 +387,7 @@ export function Document(props: {
                   history.push(props.makeChapterLink(index.path));
                   track("search", {
                     search_term: search,
-                    game: props.gameSlug,
+                    game: props.slug,
                     index: index.path,
                   });
                 }}
@@ -563,14 +530,14 @@ export function Document(props: {
   }
 
   function renderTitle() {
-    if (!chapter?.frontMatter?.title) {
+    if (!props.title) {
       return null;
     }
-    return <Typography variant="h4">{chapter?.frontMatter?.title}</Typography>;
+    return <Typography variant="h4">{props.title}</Typography>;
   }
 
   function renderAuthor() {
-    if (!chapter?.frontMatter?.author) {
+    if (!props.author) {
       return null;
     }
 
@@ -587,7 +554,7 @@ export function Document(props: {
             fontSize: "1rem",
           })}
         >
-          By {chapter?.frontMatter?.author}
+          By {props.author}
         </Typography>
       </ReactRouterLink>
     );
@@ -648,7 +615,7 @@ export function Document(props: {
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_previous", {
-                  game: props.gameSlug,
+                  game: props.slug,
                   index: chapter.previousChapter?.id,
                 });
               }}
@@ -664,7 +631,7 @@ export function Document(props: {
               className={css({ color: "inherit", textDecoration: "none" })}
               onClick={() => {
                 track("go_to_next", {
-                  game: props.gameSlug,
+                  game: props.slug,
                   index: chapter.nextChapter?.id,
                 });
               }}
@@ -699,7 +666,7 @@ export function Document(props: {
               })}
               onClick={() => {
                 track("go_to_previous", {
-                  game: props.gameSlug,
+                  game: props.slug,
                   index: chapter.previousChapter?.id,
                 });
               }}
@@ -750,7 +717,7 @@ export function Document(props: {
               })}
               onClick={() => {
                 track("go_to_next", {
-                  game: props.gameSlug,
+                  game: props.slug,
                   index: chapter.nextChapter?.id,
                 });
               }}

@@ -22,6 +22,7 @@ export function MarkdownContent(props: {
       <div
         className={css({
           fontFamily: props.textFont,
+          wordBreak: "break-word",
           "& blockquote": {
             marginLeft: "0",
             marginRight: "0",

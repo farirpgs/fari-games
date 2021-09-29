@@ -1,11 +1,7 @@
 ---
-title: The Resistance Toolbox
-description: Make your own games of desperate struggle using the Resistance System, the core rules that power the Spire RPG.
-author: Rowan, Rook and Decard
 fonts: https://fonts.googleapis.com/css2?family=Special+Elite&display=swap,https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;700&display=swap
 headingFont: Special Elite
 textFont: Urbanist
-image: https://gyazo.com/a8c7868751ecb508bfefe3f6e010b2a9.jpg
 headingUppercase: true
 ---
 

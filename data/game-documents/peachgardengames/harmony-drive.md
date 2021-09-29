@@ -1,10 +1,6 @@
 ---
-title: Harmony Drive
-description: Build a campaign-style adventure TTRPG, one that lets players express themselves, work together, and make difficult choices, this is the system for you!
-author: Peach Garden Games
 fonts: https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap
 headingFont: Architects Daughter
-image: https://gyazo.com/d162a60038bed03bcb97ea19ba931a98.png
 ---
 
 # Welcome 
