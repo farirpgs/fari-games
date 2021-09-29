@@ -1,10 +1,3 @@
----
-title: Fate System Core
-author: Evil Hat Productions
-description: This expansion for the Fate Core System contains tons of flexible, hackable and adaptable rules that fits any world you are trying to play in.
-image: https://gyazo.com/856d366d726b4c5edc8d8fd505a7af9a.png
----
-
 <style>
   @font-face {
   font-family: "fate";

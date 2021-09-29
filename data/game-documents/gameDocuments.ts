@@ -23,4 +23,6 @@ export const gameDocuments: Record<
   "peachgardengames/carta": () => import("./peachgardengames/carta.md?raw"),
   "gamenomicon/second-guess-system": () =>
     import("./gamenomicon/second-guess-system.md?raw"),
+  "zadmargames/tricube-tales": () =>
+    import("./zadmargames/tricube-tales.md?raw"),
 };

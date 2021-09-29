@@ -1,7 +1,6 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import React, { useEffect, useState } from "react";
-import { Helmet } from "react-helmet-async";
 import { useRouteMatch } from "react-router-dom";
 import { MarkdownContent } from "../../components/MarkdownContent/MarkdownContent";
 import {
@@ -38,9 +37,6 @@ export function PrintGamePage() {
       <Container maxWidth="xl">
         {game && (
           <div>
-            <Helmet>
-              <title>{game.frontMatter?.title}</title>
-            </Helmet>
             <Grid container spacing={4}>
               <Grid item sm={12} md={9} lg={6}>
                 <MarkdownContent

@@ -1,11 +1,3 @@
-
----
-title: Fate Core
-author: Evil Hat Productions
-description: A Complete guide to Fate with rules, examples and tips. A most if your thirst for knowledge was not satisfied with Fate Condensed.
-image: https://gyazo.com/1f05a1e981dcec344f124f8e39b4f972.png
----
-
 <style>
   @font-face {
   font-family: "fate";

@@ -258,6 +258,31 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Zadmar Games",
+      slug: "zadmargames",
+      links: {
+        twitter: "https://twitter.com/ZadmarGames",
+      },
+      products: [
+        {
+          featured: true,
+          name: "Tricube Tales",
+          slug: "tricube-tales",
+          document: true,
+          description:
+            "A rules-light roleplaying system capable of handling a wide variety of genres and settings.",
+          tags: ["ttrpg", "main"],
+          image: "https://gyazo.com/9a154286dae1b48acb1f2bd5d764c9ca.png",
+          links: {
+            itchIo:
+              "https://itch.io/c/1589928/tricube-tales-one-page-rpgs-micro-settings",
+            driveThru:
+              "https://www.drivethrurpg.com/product/294202/Tricube-Tales",
+          },
+        },
+      ],
+    },
   ],
 };
 
