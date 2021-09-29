@@ -733,7 +733,7 @@ Even with safety mechanics in place, accidents happen. That is why you should al
 > - **Complication**: tick one segment per `consequence rating` on a new or existing `danger clock`.
 > - **Worse Position** : reduce the `position` of the PC by one level for their next action rolls.
 > - **Lost Opportunity** : what you tried didn't work, you need to use another `action`.
-> - **Worse Condition**: take `1 stress` per consequence rating.
+> - **Worse Condition**: take `1 stress` per `consequence rating`.
 
 # Resistance Roll| Mechanics
 
