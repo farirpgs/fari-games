@@ -19,8 +19,9 @@ export type IShopProduct = {
   image: string;
   tags: Array<string>;
   featured?: boolean;
-  document?: boolean;
   affiliate?: boolean;
+  license?: License;
+  footer?: string;
   links: {
     driveThru?: string;
     itchIo?: string;
@@ -38,3 +39,8 @@ export type IShopProductWithAuthor = IShopProduct & {
     };
   };
 };
+
+export enum License {
+  CC_BY_3 = "CC BY 3.0",
+  CC_BY_4 = "CC BY 4.0",
+}

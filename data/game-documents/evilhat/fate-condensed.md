@@ -34,8 +34,6 @@ Fate Condensed gives you the flexibility and power to bring your vision to life!
 
 
 > This is an adaption of the amazing work done by Randy Oest over the [Fate SRD website](https://fate-srd.com/).
->
-> Product images are copyrighted and used here with the express permission of Evil Hat Productions, LLC.
 
 # Introduction
 

@@ -20,8 +20,6 @@ Let’s face it: most roleplaying games aren’t grab-and-go. Giant books and pr
 <iframe src="https://itch.io/embed/491601" height="167" width="100%" frameborder="0"><a href="https://evilhat.itch.io/fate-accelerated">Fate Accelerated Edition • A Fate Core Build by evilhat</a></iframe>
 
 > This is an adaption of the amazing work done by Randy Oest over the [Fate SRD website](https://fate-srd.com/).
->
-> Product images are copyrighted and used here with the express permission of Evil Hat Productions, LLC.
 
 # Get Started!
 

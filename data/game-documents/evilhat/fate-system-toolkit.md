@@ -25,8 +25,6 @@ _Fate System Toolkit is an expansion for the Fate Core System_
 <iframe src="https://itch.io/embed/492920" height="167" width="100%" frameborder="0"><a href="https://evilhat.itch.io/fate-system-toolkit">Fate System Toolkit by evilhat</a></iframe>
 
 > This is an adaption of the amazing work done by Randy Oest over the [Fate SRD website](https://fate-srd.com/).
->
-> Product images are copyrighted and used here with the express permission of Evil Hat Productions, LLC.
 
 # 1: Introduction
 

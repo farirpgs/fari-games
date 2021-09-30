@@ -1,5 +1,4 @@
 import { css } from "@emotion/css";
-import Chip from "@mui/material/Chip";
 import Fade from "@mui/material/Fade";
 import Stack from "@mui/material/Stack";
 import { useTheme } from "@mui/material/styles";
@@ -8,6 +7,7 @@ import React, { useState } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
+import { ProductLicense } from "./ProductLicense";
 
 export function ProductCard(props: { product: IShopProductWithAuthor }) {
   const theme = useTheme();
@@ -75,18 +75,7 @@ export function ProductCard(props: { product: IShopProductWithAuthor }) {
             })}
           >
             <Stack direction="row" spacing={1}>
-              <Chip
-                label="CC BY 3.0"
-                color="default"
-                className={css({
-                  display: "none",
-                  background: theme.palette.primary.main,
-                  color: theme.palette.getContrastText(
-                    theme.palette.primary.main
-                  ),
-                  fontWeight: theme.typography.fontWeightBold,
-                })}
-              />
+              <ProductLicense product={props.product} />
             </Stack>
           </div>
         </Fade>

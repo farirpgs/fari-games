@@ -1,15 +1,19 @@
 import { css } from "@emotion/css";
 import Box from "@mui/material/Box";
+import { useTheme } from "@mui/material/styles";
+import Typography from "@mui/material/Typography";
 import React, { useEffect, useState } from "react";
 import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
 import { shopProducts } from "../../../data/shop/shopProducts";
 import { Document } from "../../components/Document/Document";
 import { Page } from "../../components/Page/Page";
+import { ReactRouterLink } from "../../components/ReactRouterLink/ReactRouterLink";
 import {
   DocumentParser,
   IChapter,
 } from "../../domains/documents/DocumentParser";
 import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
+import { ProductLicense } from "../ShopPage/components/ProductLicense";
 import { ProductLinks } from "../ShopPage/components/ProductLinks";
 
 export function GamePage() {
@@ -30,6 +34,7 @@ export function GamePage() {
 
   const [chapter, setChapter] = useState<IChapter>();
 
+  const theme = useTheme();
   const history = useHistory();
   const location = useLocation();
 
@@ -77,13 +82,40 @@ export function GamePage() {
         container={{ maxWidth: "xl" }}
       >
         <Document
-          authorLink={AppLinksFactory.makeAuthorLink(product)}
           slug={gameSlug}
-          title={product?.name}
-          author={product?.author.name}
-          renderDocInfo={() => {
+          renderSideBarHeader={() => {
             return (
-              <>
+              <Box px="1rem" pt="1rem">
+                <Box>
+                  <Typography variant="h4">{product?.name}</Typography>
+                </Box>
+                <Box mb=".5rem">
+                  <ReactRouterLink
+                    className={css({
+                      color: theme.palette.text.secondary,
+                    })}
+                    to={AppLinksFactory.makeAuthorLink(product)}
+                  >
+                    <Typography
+                      variant="caption"
+                      className={css({
+                        fontSize: "1rem",
+                      })}
+                    >
+                      By {product?.author.name}
+                    </Typography>
+                  </ReactRouterLink>
+                </Box>
+
+                <Box>
+                  <ProductLicense size="small" product={product} />
+                </Box>
+              </Box>
+            );
+          }}
+          renderSideBarFooter={() => {
+            return (
+              <Box px="1rem" py="1rem">
                 <Box mb=".5rem">
                   <ProductLinks product={product} />
                 </Box>
@@ -95,6 +127,18 @@ export function GamePage() {
                       height: "auto",
                     })}
                   />
+                </Box>
+              </Box>
+            );
+          }}
+          renderFooter={() => {
+            if (!product?.footer) {
+              return null;
+            }
+            return (
+              <>
+                <Box mb=".5rem" whiteSpace="pre-line">
+                  <Typography variant="caption">{product?.footer}</Typography>
                 </Box>
               </>
             );
