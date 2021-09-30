@@ -1201,7 +1201,7 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 >
 > Do you think the rest of the community would benefit from it?
 >
-> Join [Fari's Discord Server](https://fari.app/discord) or post a new topic on [Charge's Itch.io](https://itch.io/category/1498399/new-topic) page and let's include it in the official game!
+> Join [Fari's Discord Server](https://fari.app/discord) or post a new topic on [Charge's Itch.io](https://farigames.itch.io/charge-rpg) page and let's include it in the official game!
 
 # Asset Extra | Extras
 
