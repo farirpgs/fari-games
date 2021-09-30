@@ -6,7 +6,7 @@ import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct
 
 export function ProductLicense(props: {
   product: IShopProductWithAuthor | undefined;
-  size: ChipProps["size"];
+  size?: ChipProps["size"];
 }) {
   const theme = useTheme();
   if (!props.product?.license) {
