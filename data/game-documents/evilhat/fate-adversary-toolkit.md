@@ -26,8 +26,6 @@ The Fate Adversary Toolkit is a Fate Core supplement. This Toolkit includes:
 <iframe src="https://itch.io/embed/492914" height="167" width="100%" frameborder="0"><a href="https://evilhat.itch.io/fate-adversary-toolkit">Fate Adversary Toolkit by evilhat</a></iframe>
 
 > This is an adaption of the amazing work done by Randy Oest over the [Fate SRD website](https://fate-srd.com/).
->
-> Product images are copyrighted and used here with the express permission of Evil Hat Productions, LLC.
 
 # Types of Adversaries
 

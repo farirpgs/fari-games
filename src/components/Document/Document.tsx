@@ -35,13 +35,12 @@ import { ReactRouterLink } from "../ReactRouterLink/ReactRouterLink";
 export function Document(props: {
   chapter: IChapter | undefined;
   language: string | undefined;
-  title: string | undefined;
   slug: string | undefined;
-  author: string | undefined;
-  authorLink: string;
   onLanguageChange(language: string): void;
   makeChapterLink(chapterId: string): string;
-  renderDocInfo?(): React.ReactNode;
+  renderSideBarHeader?(): React.ReactNode;
+  renderSideBarFooter?(): React.ReactNode;
+  renderFooter?(): React.ReactNode;
 }) {
   const theme = useTheme();
   const history = useHistory();
@@ -182,13 +181,7 @@ export function Document(props: {
             overflowY: "auto",
           })}
         >
-          <Box px="1rem" mt="1rem">
-            <Box>{renderTitle()}</Box>
-            <Box pb=".5rem">{renderAuthor()}</Box>
-          </Box>
-          <Box px="1rem">
-            <Divider />
-          </Box>
+          {props.renderSideBarHeader?.()}
           {shouldRenderChapters && (
             <>
               <Box>
@@ -202,9 +195,7 @@ export function Document(props: {
               </Box>
             </>
           )}
-          <Box px="1rem" py="1rem">
-            {props.renderDocInfo?.()}
-          </Box>
+          {props.renderSideBarFooter?.()}
         </div>
       </>
     );
@@ -529,37 +520,6 @@ export function Document(props: {
     );
   }
 
-  function renderTitle() {
-    if (!props.title) {
-      return null;
-    }
-    return <Typography variant="h4">{props.title}</Typography>;
-  }
-
-  function renderAuthor() {
-    if (!props.author) {
-      return null;
-    }
-
-    return (
-      <ReactRouterLink
-        className={css({
-          color: theme.palette.text.secondary,
-        })}
-        to={props.authorLink}
-      >
-        <Typography
-          variant="caption"
-          className={css({
-            fontSize: "1rem",
-          })}
-        >
-          By {props.author}
-        </Typography>
-      </ReactRouterLink>
-    );
-  }
-
   function renderContent() {
     return (
       <>
@@ -578,27 +538,29 @@ export function Document(props: {
           <Divider />
           <Box mb="1rem" />
           {renderPreviousNextNavigation()}
-          {renderDevModeInfo()}
+          <Box mb="1rem" />
+          {props.renderFooter?.()}
+          {/* {renderDevModeInfo()} */}
         </div>
       </>
     );
   }
 
-  function renderDevModeInfo() {
-    if (import.meta.env.PROD) {
-      return null;
-    }
-    return (
-      <pre
-        className={css({
-          whiteSpace: "pre-wrap",
-        })}
-      >
-        <p>title: {chapter.currentChapter.text}</p>
-        <p>description: {chapter.currentChapter.description}</p>
-      </pre>
-    );
-  }
+  // function renderDevModeInfo() {
+  //   if (import.meta.env.PROD) {
+  //     return null;
+  //   }
+  //   return (
+  //     <pre
+  //       className={css({
+  //         whiteSpace: "pre-wrap",
+  //       })}
+  //     >
+  //       <p>title: {chapter.currentChapter.text}</p>
+  //       <p>description: {chapter.currentChapter.description}</p>
+  //     </pre>
+  //   );
+  // }
 
   function renderSmallPreviousNextNavigation() {
     return (

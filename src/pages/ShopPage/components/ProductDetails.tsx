@@ -137,24 +137,22 @@ export function ProductDetails(props: {
                 })}
               >
                 <Grid container spacing={1} alignItems="center">
-                  {props.product.document && (
-                    <Grid item>
-                      <Button
-                        size="large"
-                        variant="contained"
-                        component={ReactRouterLink}
-                        to={AppLinksFactory.makeGameLink({
-                          author: props.product.author.slug,
-                          game: props.product.slug,
-                        })}
-                        className={css({
-                          textTransform: "none",
-                        })}
-                      >
-                        Read the SRD
-                      </Button>
-                    </Grid>
-                  )}
+                  <Grid item>
+                    <Button
+                      size="large"
+                      variant="contained"
+                      component={ReactRouterLink}
+                      to={AppLinksFactory.makeGameLink({
+                        author: props.product.author.slug,
+                        game: props.product.slug,
+                      })}
+                      className={css({
+                        textTransform: "none",
+                      })}
+                    >
+                      Read the SRD
+                    </Button>
+                  </Grid>
                 </Grid>
               </div>
             </ThemeProvider>
