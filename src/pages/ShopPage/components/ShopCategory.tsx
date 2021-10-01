@@ -16,13 +16,11 @@ export function useGames(
     const gamesMatchingTags = shopProducts.filter((g) => {
       return g.tags.some((t) => tagsList.includes(t));
     });
-    const gamesWithoutExcluded = gamesMatchingTags.filter(
+    const gamesToReturn = gamesMatchingTags.filter(
       (g) =>
         g.author !== excludeProduct?.author && g.name !== excludeProduct?.name
     );
 
-    const numberOfItemsToReturn = 10;
-    const gamesToReturn = gamesWithoutExcluded.slice(0, numberOfItemsToReturn);
     return shuffle(gamesToReturn);
 
     // const gamesGroupedByRating = gamesWithoutExcluded.reduce<

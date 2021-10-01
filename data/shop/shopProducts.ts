@@ -289,6 +289,28 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Jesse Ross",
+      slug: "jesse-ross",
+      links: {
+        twitter: "https://twitter.com/jesseross",
+        website: "https://jesseross.com/",
+      },
+      products: [
+        {
+          name: "Trophy SRD",
+          slug: "trophy-srd",
+          description: "",
+          tags: ["ttrpg", "main"],
+          featured: true,
+          license: License.CC_BY_4,
+          links: {},
+          image: "https://gyazo.com/30ebb7b8d6fbd922b36a904c95c89ed3.png",
+          footer:
+            "Text by Jesse Ross under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+        },
+      ],
+    },
   ],
 };
 
