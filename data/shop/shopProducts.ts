@@ -300,7 +300,8 @@ export const shop: IShop = {
         {
           name: "Trophy SRD",
           slug: "trophy-srd",
-          description: "",
+          description:
+            "Build your own rules-light, risk-heavy games rooted in the Trophy SRD.",
           tags: ["ttrpg", "main"],
           featured: true,
           license: License.CC_BY_4,
