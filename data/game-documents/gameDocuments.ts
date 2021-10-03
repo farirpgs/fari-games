@@ -25,4 +25,5 @@ export const gameDocuments: Record<
     import("./gamenomicon/second-guess-system.md?raw"),
   "zadmargames/tricube-tales": () =>
     import("./zadmargames/tricube-tales.md?raw"),
+  "jesse-ross/trophy-srd": () => import("./jesse-ross/trophy-srd.md?raw"),
 };

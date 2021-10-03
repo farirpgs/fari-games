@@ -53,7 +53,7 @@ export function ShopPage() {
               key={i}
               name={category.name}
               tags={category.tags}
-              count={20}
+              count={100}
             />
           );
         })}

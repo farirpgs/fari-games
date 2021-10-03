@@ -27,6 +27,7 @@ export function SearchPage() {
   const productsToShow = shopProducts.filter((p) => {
     const searchLower = searchQuery.toLowerCase();
     const nameLower = p.name.toLowerCase();
+    const description = p.description.toLowerCase();
     const authorLower = p.author.name.toLowerCase();
     const tags = p.tags.join(" ").toLowerCase();
 
@@ -36,6 +37,7 @@ export function SearchPage() {
 
     const match =
       nameLower.includes(searchLower) ||
+      description.includes(searchLower) ||
       authorLower.includes(searchLower) ||
       tags.includes(searchLower);
 
