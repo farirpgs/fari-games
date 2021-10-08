@@ -747,7 +747,7 @@ The GM then tells you if resisting that consequence negates it completely, or si
 >
 > By adjusting which consequences are reduced vs. which are avoided, the GM establishes the overall tone of the game. For a more daring game, most consequences will be avoided. For a grittier game, most consequences will only be reduced if resisted.
 
-You'll then make a `resistance roll` to see how much momentum your character consumes as a result of their resistance.
+You'll then make a `resistance roll` to see how well your resist the consequence.
 
 You make that roll by burning momentum. Build a pool of d6s by adding `+1d6` per charge of momentum.
 
