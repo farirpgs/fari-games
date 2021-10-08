@@ -3,6 +3,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import MenuIcon from "@mui/icons-material/Menu";
+import TocIcon from "@mui/icons-material/Toc";
 import Autocomplete, { createFilterOptions } from "@mui/material/Autocomplete";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -11,7 +12,6 @@ import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import Fade from "@mui/material/Fade";
 import Grid from "@mui/material/Grid";
-import IconButton from "@mui/material/IconButton";
 import MenuItem from "@mui/material/MenuItem";
 import MenuList from "@mui/material/MenuList";
 import NativeSelect from "@mui/material/NativeSelect";
@@ -48,7 +48,8 @@ export function Document(props: {
 
   const [autocompleteOpen, setAutocompleteOpen] = useState(false);
   const [search, setSearch] = useState("");
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileChapterMenuOpen, setMobileChapterMenuOpen] = useState(false);
+  const [mobileTocMenuOpen, setMobileTocMenuOpen] = useState(false);
   const [openedCategory, setOpenedCategory] = useState<string>();
 
   const isMdDown = useMediaQuery(theme.breakpoints.down("md"));
@@ -115,17 +116,36 @@ export function Document(props: {
         {renderMobileMenuBar()}
         <Drawer
           anchor="left"
-          open={mobileMenuOpen}
+          open={mobileChapterMenuOpen}
           classes={{
             paper: css({
               width: "80vw",
             }),
           }}
           onClose={() => {
-            setMobileMenuOpen(false);
+            setMobileChapterMenuOpen(false);
           }}
         >
           <Box>{renderSideBar()}</Box>
+        </Drawer>
+        <Drawer
+          anchor="right"
+          open={mobileTocMenuOpen}
+          classes={{
+            paper: css({
+              width: "400px",
+              maxWidth: "80vw",
+            }),
+          }}
+          onClose={() => {
+            setMobileTocMenuOpen(false);
+          }}
+        >
+          <Box p="1rem">
+            {renderSearchBar()}
+            {renderLanguageBar()}
+            {renderToc()}
+          </Box>
         </Drawer>
       </div>
     </Fade>
@@ -147,19 +167,32 @@ export function Document(props: {
           background: theme.palette.background.paper,
         })}
       >
-        <Grid container spacing={1} alignItems="center" wrap="nowrap">
+        <Grid
+          container
+          spacing={1}
+          alignItems="center"
+          wrap="nowrap"
+          justifyContent="space-between"
+        >
           <Grid item>
-            <IconButton
-              color="inherit"
+            <Button
               onClick={() => {
-                setMobileMenuOpen(true);
+                setMobileChapterMenuOpen(true);
               }}
+              startIcon={<MenuIcon color="inherit" />}
             >
-              <MenuIcon color="inherit" />
-            </IconButton>
+              Chapters
+            </Button>
           </Grid>
-          <Grid item zeroMinWidth>
-            <Box>Chapters</Box>
+          <Grid item>
+            <Button
+              onClick={() => {
+                setMobileTocMenuOpen(true);
+              }}
+              endIcon={<TocIcon color="inherit" />}
+            >
+              Table of Content
+            </Button>
           </Grid>
         </Grid>
       </Box>
@@ -298,7 +331,7 @@ export function Document(props: {
         key={renderProps.key}
         component={ReactRouterLink}
         onClick={() => {
-          setMobileMenuOpen(false);
+          setMobileChapterMenuOpen(false);
         }}
         selected={selected}
         to={props.makeChapterLink(renderProps.item.path)}
@@ -355,6 +388,7 @@ export function Document(props: {
             if (path) {
               setAutocompleteOpen(false);
               history.push(props.makeChapterLink(path));
+              setMobileTocMenuOpen(false);
               track("search", {
                 search_term: search,
                 game: props.slug,
@@ -376,6 +410,7 @@ export function Document(props: {
                 onClick={() => {
                   setAutocompleteOpen(false);
                   history.push(props.makeChapterLink(index.path));
+                  setMobileTocMenuOpen(false);
                   track("search", {
                     search_term: search,
                     game: props.slug,
@@ -447,6 +482,7 @@ export function Document(props: {
             defaultValue={props.language}
             onChange={(event) => {
               const language = event.target.value;
+              setMobileTocMenuOpen(false);
               props.onLanguageChange(language);
             }}
           >
@@ -488,6 +524,9 @@ export function Document(props: {
                       display: "flex",
                       marginLeft: `${indentationLevel}rem`,
                     })}
+                    onClick={() => {
+                      setMobileTocMenuOpen(false);
+                    }}
                   >
                     <Typography
                       noWrap
