@@ -81,7 +81,7 @@ Let's build something incredible, together.
  <li>François Genois</li>
  <li>Gabriel Lemire</li>
  <li>Jean-Loup Kahloun</li>
- <li>Wing Tak Won</li>
+ <li>Wing Tak Wong</li>
  <li>Xavier Tétreault.</li>
 </ul>
 
