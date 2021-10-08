@@ -15,28 +15,27 @@ highlightFont: Oswald
 
 ![Charge](https://gyazo.com/5b8633befdb6fe3f894bdabaedac4001.png)
 
-
 ## What Is Charge
 
-Charge is a **free**, **open**, and **generic** table-top role-playing game. 
+Charge is a **free**, **open**, and **generic** table-top role-playing game.
 
 It is free, and maintained by the Fari community. Which means anyone is welcome to make contribution to the rules of the game.
 
 It is also open licensed. Which means you can use it for free. You can also make (and sell) your own games using Charge as the base framework.
 
 > #### Early Access
->  
-> Charge is currently in early access. 
-> 
+>
+> Charge is currently in early access.
+>
 > It is available so that people interested in play-testing the game can easily access the rules.
-> 
+>
 > Thanks for you interest, support, and love. 💜
 
 ## Who Is This Game For ?
 
 Now, one of the first things you probably want to know is: **who is this game for?**
 
-*This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to get there.*
+_This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to get there._
 
 Some mechanics were inspired or adapted from the Fate or Forged in the Dark systems, while others were created to make for more interactive sessions that naturally urge players to interact with the world.
 
@@ -77,7 +76,6 @@ Let's build something incredible, together.
 
 **The White Lotus & The Delibuddies**:
 
-
 <ul class="people">
  <li>Béatrice Landry-Belleau</li>
  <li>François Genois</li>
@@ -86,9 +84,6 @@ Let's build something incredible, together.
  <li>Wing Tak Won</li>
  <li>Xavier Tétreault.</li>
 </ul>
-
-
- 
 
 # Goals | Power Your Story Telling
 
@@ -289,8 +284,6 @@ When creating a character, you need to **distribute 7 action dots** among those 
 Those dots represent how good your character is at doing things. As the game progresses, you will gain additional dots that make your character more flexible. See [**Mechanics&nbsp;»&nbsp;Progression**](mechanics#progression).
 
 The 12 actions are grouped into 3 categories called `Attributes`. There is `Physique`, `Insight` and `Resolve`.
-
-Each attribute is important in its own way, since they let you resist different types of danger when things go sour. More on that in [**Mechanics&nbsp;»&nbsp;Resistance Roll**](mechanics#resistance-roll).
 
 For now let's look at the 12 different types of actions.
 
@@ -735,7 +728,7 @@ Even with safety mechanics in place, accidents happen. That is why you should al
 > - **Lost Opportunity** : what you tried didn't work, you need to use another `action`.
 > - **Worse Condition**: take `1 stress` per `consequence rating`.
 
-# Resistance Roll| Mechanics
+# Resistance Roll | Mechanics
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/3c9ae5d526da51b44be1e7953077be51.png)](https://pixabay.com/illustrations/fantasy-battle-warrior-fire-falcon-3721894/)
 
@@ -756,26 +749,16 @@ The GM then tells you if resisting that consequence negates it completely, or si
 
 You'll then make a `resistance roll` to see how much momentum your character consumes as a result of their resistance.
 
-You make the roll using one of your character's `attributes pool`s (`Physique`, `Insight`, or `Resolve`).
+You make that roll by burning momentum. Build a pool of d6s by adding `+1d6` per charge of momentum.
 
-That dice pool consists of `+1d6` for each dot in the first column on that attribute.
+Once you've decided how many charges you want to consume, roll and interpret the results:
 
-The GM chooses the attribute you use, based on the nature of the consequence:
-
-- `Physique`: Consequences from physical strain or injury.
-- `Insight`: Consequences from deception or understanding.
-- `Resolve`: Consequences from mental strain or willpower.
-
-When you resist consequences, you do it using charges of momentum. Getting a good roll consumes less charge, while bad rolls make you consume more of it.
-
-| Result | Name               | Explanation                 |
-| ------ | ------------------ | --------------------------- |
-| `66`   | `Critical Success` | You gain `+1 momentum`.     |
-| `6`    | `Full Success`     | You consume `-1 momentum`.  |
-| `4-5`  | `Partial Success`  | You consume `-2 momentums`. |
-| `1-3`  | `Bad outcome`      | You consume `-3 momentums`. |
-
-If you can't consume all the required charges of momentum, the GM inflicts 2 Consequences instead of one, and they cannot be resisted.
+| Result | Name               | Explanation                                                               |
+| ------ | ------------------ | ------------------------------------------------------------------------- |
+| `1-3`  | `Bad outcome`      | The `consequence` still happens.                                          |
+| `4-5`  | `Partial Success`  | The `consequence` is reduced.                                             |
+| `6`    | `Full Success`     | The `consequence` is avoided.                                             |
+| `66`   | `Critical Success` | The `consequence` is avoided, and you get +1 position for your next roll. |
 
 If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Team Work&nbsp;»&nbsp;Protect**](team-work#protect).
 
@@ -783,12 +766,11 @@ If you want, you can also resist a consequence that isn't targeting you directly
 
 > #### Resistance Rolls
 >
-> - Roll your Attribute Pool (Prowess, Insight, Resolve).
->   - On a `66`, gain `+1 momentum`
->   - On a `6`, consume `-1 momentum`
->   - On a ` 4-5`, gain `-2 momentums`
->   - On a `1-3`, gain `-3 momentums`
-> - GM declares 2 consequences if you can't consume all the required charges. Those consequences cannot be resisted.
+> - Roll `+1d6` per consumed charges of momentum.
+>   - On a `1-3`, The `consequence` still happens.
+>   - On a ` 4-5`, The `consequence` is reduced.
+>   - On a `6`, The `consequence` is avoided.
+>   - On a `66`, The `consequence` is avoided, and you get +1 position for your next roll.
 
 ```
 TODO: Include Examples
@@ -1745,19 +1727,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to resist a consequence, or incoming `stress`.
 >
-> - Roll `1d6` for each dot in the first column of an attribute:
->   - `Physique`: Consequences from physical strain or injury.
->   - `Insight`: Consequences from deception or understanding.
->   - `Resolve`: Consequences from mental strain or willpower.
->
-> | Result | Name               | Explanation                |
-> | ------ | ------------------ | -------------------------- |
-> | `66`   | `Critical Success` | You gain `+1 momentum`.    |
-> | `6`    | `Full Success`     | You consume `-1 momentum`. |
-> | `4-5`  | `Partial Success`  | You consume `-2 momentum`. |
-> | `1-3`  | `Bad outcome`      | You consume `-3 momentum`. |
->
-> If you can't consume all the required `momentum`, the GM inflicts `2 consequences` instead of one, and they cannot be resisted.
+> - Roll `+1d6` per consumed charges of momentum.
+>   - On a `1-3`, The `consequence` still happens.
+>   - On a ` 4-5`, The `consequence` is reduced.
+>   - On a `6`, The `consequence` is avoided.
+>   - On a `66`, The `consequence` is avoided, and you get +1 position for your next roll.
 >
 > ### Recovery
 >
@@ -1862,6 +1836,74 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - Tick 3 segment for a `desperate position`.
 > - Tick 2 segment for a `risky position`.
 > - Tick 1 segment for a `controlled position`.
+
+# Glossary
+
+## Translations
+
+### Global
+
+| English     | Français | Português |
+| ----------- | -------- | --------- |
+| Game Master |          |           |
+| Player      |          |           |
+| Scene       |          |           |
+| Session     |          |           |
+
+### Character Sheet
+
+| English       | Français | Português |
+| ------------- | -------- | --------- |
+| Details       |          |           |
+| Concept       |          |           |
+| Appearance    |          |           |
+| Ties          |          |           |
+| Actions       |          |           |
+| Attributes    |          |           |
+| Stress        |          |           |
+| Condition     |          |           |
+| Talents       |          |           |
+| Project       |          |           |
+| Complications |          |           |
+
+### Momentum
+
+| English        | Français | Português |
+| -------------- | -------- | --------- |
+| Momentum       |          |           |
+| Push Yourself  |          |           |
+| Take the Lead  |          |           |
+| Assist an Ally |          |           |
+| Flashback      |          |           |
+
+### Rolls
+
+| English         | Français | Português |
+| --------------- | -------- | --------- |
+| Action Roll     |          |           |
+| Position        |          |           |
+| Effect          |          |           |
+| Resistance Roll |          |           |
+
+### 12 Actions
+
+| English      | Français | Português |
+| ------------ | -------- | --------- |
+| **Physique** |          |           |
+| Brawl        |          |           |
+| Finesse      |          |           |
+| Move         |          |           |
+| Sneak        |          |           |
+| **Insight**  |          |           |
+| Shoot        |          |           |
+| Tinker       |          |           |
+| Study        |          |           |
+| Notice       |          |           |
+| **Resolve**  |          |           |
+| Bond         |          |           |
+| Command      |          |           |
+| Focus        |          |           |
+| Sway         |          |           |
 
 # Licencing
 
