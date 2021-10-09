@@ -176,6 +176,7 @@ export function Document(props: {
         >
           <Grid item>
             <Button
+              color="inherit"
               onClick={() => {
                 setMobileChapterMenuOpen(true);
               }}
@@ -186,6 +187,7 @@ export function Document(props: {
           </Grid>
           <Grid item>
             <Button
+              color="inherit"
               onClick={() => {
                 setMobileTocMenuOpen(true);
               }}
