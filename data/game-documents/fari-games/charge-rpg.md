@@ -64,6 +64,12 @@ If you want to contribute, join [Fari's Discord Server](https://fari.app/discord
 
 Let's build something incredible, together.
 
+## Useful Links
+
+- [Licensing](licencing)
+- [Charge Condensed](charge-condensed)
+- [Charge in a Nutshell](in-a-nutshell)
+
 ## Thanks
 
 **Sounding Board & Playtesters**:
@@ -444,35 +450,13 @@ Those mechanics mostly rely on figuring out what the risks are, and what is happ
 
 # Rolling Dice | Mechanics
 
-Charge uses six-sided dice. You roll several at once, which we call a dice pool, and read the **single highest result**.
+The game uses six-sided dice. You roll several at once, which we call a dice pool, and read the **single highest result**.
 
 - If the highest die is a `6`, it's a `full success`. Things go well. If you roll more than one `6`, it's a `critical success` and you gain some additional advantage.
 - If the highest die is a `4 or 5`, that's a `partial success`. You do what you were trying to do, but there are consequences.
 - If the highest die is `1-3`, it's a `bad outcome`. Things go poorly. You probably don't achieve your goal, and you suffer complications, too.
 
-The number of dice a player rolls depends on the `action` they are trying to accomplish. In Charge, there are 12 possible actions grouped in 3 distinct attributes.
-
-Those actions are linked to a dice pool called the `action rating`, represented by empty dots on the character sheet.
-
-If an action has 1 darkened dot beside it, you roll `1d6`. This gives you about a 50% chance of succeeding at your action.
-
-If an action has 2 darkened dots, you roll `2d6`... and so on.
-
-### Active Opposition
-
-Since NPCs don't roll for their actions, an action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**.
-
-The action roll tells us the results and the consequences of an action at the same time.
-
-On a `6`, the PC wins and gets what they wanted. On a `4 or 5`, both the PC and the NPC have an effect on the result. On a `1-3`, the NPC wins and results in a consequence for the PC.
-
-### No Action Dots
-
-If an action doesn't have any action dots darkened, then you roll `2d6` and **pick the worst**. This gives you around a 25% chance of success, so the odds aren't great.
-
-That being said, you can always `push yourself`, `add tension` to the scene, get an `assist`, or use an `asset` to add more dice to your pool. More on that later.
-
-For now, let's take a look at the different tools you can use to resolve the different situations that arise in your story.
+Most of the game's mechanics revolve around this basic format.
 
 # Action Roll | Mechanics
 
@@ -493,6 +477,22 @@ The first step in knowing whether you overcome that challenge is to know what yo
 When you make an action roll, you need to know which of the **12 Actions** your character is going for. Are they `Bonding` with a local merchant, or `Swaying` them into thinking that their prices are too high?
 
 Use the action rating (darkened dots beside the action) as your base dice pool.
+
+### Active Opposition
+
+Since NPCs don't roll for their actions, an action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**.
+
+The action roll tells us the results and the consequences of an action at the same time.
+
+On a `6`, the PC wins and gets what they wanted. On a `4 or 5`, both the PC and the NPC have an effect on the result. On a `1-3`, the NPC wins and results in a consequence for the PC.
+
+### No Action Dots
+
+If an action doesn't have any action dots darkened, then you roll `2d6` and **pick the worst**. This gives you around a 25% chance of success, so the odds aren't great.
+
+That being said, you can always `push yourself`, `add tension` to the scene, get an `assist`, or use an `asset` to add more dice to your pool. More on that later.
+
+For now, let's take a look at the different tools you can use to resolve the different situations that arise in your story.
 
 > #### Choosing an Action
 >
@@ -558,11 +558,11 @@ Your characters aren't proficient in everything, but they have aces up their sle
 
 First off, they aren't alone.
 
-#### Ask For Help
+#### Assist
 
-When you `ask for help`, a willing player can consume `-1 momentum` of momentum, in exchange for you to get `+1d6` added to your dice pool. In doing so, the helper exposes themselves to the same danger as your character for helping you.
+When you `assist` a player, you consume `-1 momentum`, to give `+1d6` to the dice pool of your team mate. When doing this, you also expose yourself to possible danger.
 
-You can also even the odds by using **only one** of the following methods.
+You can also even the odds by using **either** of the following methods.
 
 #### Push Yourself
 
@@ -570,7 +570,7 @@ When you `push yourself`, you consume `-2 momentum` **per push** to gain one of 
 
 - Add `+1d6` to your dice pool.
 - Gain `+1 effect rating` for your roll.
-- Take action when you are incapacitated.
+- Take action even if you were taken out.
 
 > _Note: you `push yourself` in a action roll, that roll won't generate `momentum`_
 
@@ -612,7 +612,7 @@ _Xavier's character wants to take out a guard without him noticing anything. He 
 
 **_Sometimes things work out. Other times..._**
 
-If you make an action roll and you get a `partial success ( 4-5)` or a `bad outcome (1-3)`, you suffer a single `consequence`.
+If you make an action roll and you get a `partial success (4-5)` or a `bad outcome (1-3)`, you suffer a `consequence`.
 
 Consequences are a tool the GM can use to spice up the story. The GM uses the fiction, style, and tone established by the group to determine the type of consequence.
 
@@ -738,16 +738,7 @@ If a character suffers a consequence that you, as a player, don't like, you can 
 
 Simply tell the GM, "No, I don't think so. I'm resisting that."
 
-The GM then tells you if resisting that consequence negates it completely, or simply reduces it.
-
-- When negated, the PC is able to avoid the consequence entirely. e.g. they take no `stress`, no `danger clock` is ticked, etc.
-- When reduced, the PC still suffers the consequence, but the effect of that consequence is reduced. e.g. they take 2 stress instead of 3, the danger clock only gets ticked once instead of twice.
-
-> #### Avoiding vs Reducing Consequences
->
-> By adjusting which consequences are reduced vs. which are avoided, the GM establishes the overall tone of the game. For a more daring game, most consequences will be avoided. For a grittier game, most consequences will only be reduced if resisted.
-
-You'll then make a `resistance roll` to see how well you resist the consequence.
+You then make a `resistance roll` to see how well you resist the consequence.
 
 You make that roll by burning momentum. Build a pool of d6s by adding `+1d6` per charge of momentum.
 
@@ -827,7 +818,7 @@ The reason why you start with only `2` at the beginning of a session is because 
 
 **The main way you get momentum back is by participating in the game.**
 
-**By default**, you gain momentum when you make an action roll, and you rolled a `4`.
+**By default**, you gain momentum as a result of a successful action roll.
 
 - If you rolled a ` 4-5`, you gain `+1 momentum`.
 - If you rolled a `6`, you gain `+2 momentum`.
@@ -972,6 +963,7 @@ When you `take the lead`, you coordinate multiple members of the group to tackle
 > Each player character who's involved makes an **action roll**. The team counts the **single best result** as the final result.
 >
 > The character leading the group action consumes `-1 momentum` for each PC that rolled **1-3** as their best result.
+> If a player can't consume the required momentum, they take
 >
 > ---
 >
@@ -995,7 +987,7 @@ When you perform a setup action, you have an indirect effect on an obstacle. If 
 
 You choose the benefit, based on the nature of your setup action.
 
-> **Make an action roll to improve the effect rating of a future action roll.**
+> **Make an action roll to improve the effect rating or position of a future action roll.**
 >
 > ---
 >
@@ -1168,6 +1160,258 @@ Upon the completion of a complication's danger clock, the GM reveals a new dange
 Depending on the context, this new complication could be **imposed or exposed** to the group. **When imposed**, the characters need to resolve it as soon as possible. The story cannot continue without this being taken care of first. **When it is exposed**, the GM can foretell that the life of the group will be a bit more complicated because of a certain situation that comes from a result of the complication.
 
 The goal here is to emphasize that every action elicits a reaction from the world, even if it isn't immediate.
+
+# In a Nutshell | Mechanics
+
+This chapter will go over the most important bits of the book in a quick recap so that it's easy to use as a reference.
+
+<details>
+	<summary>
+		[Character Sheet](/documents/charge-rpg/character-sheet.pdf)
+	</summary>
+	<object data="/documents/charge-rpg/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
+		<embed src="/documents/charge-rpg/character-sheet.pdf">
+			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/charge-rpg/character-sheet.pdf">Download PDF</a>.</p>
+		</embed>
+	</object>
+</details>
+
+## Character Creation
+
+> ### Details
+>
+> Define who your character is.
+>
+> - `Concept`: The elevator pitch of your character.
+> - `Appearance`: What your character looks like.
+> - `Ties`: Connection with the other player's character or forces within the world.
+>
+> ### Actions
+>
+> Distribute `7 action dots` among the `12 actions` to define how good your character is at doing things.
+>
+> - Actions are grouped into 3 attributes: `Physique`, `Insight` and `Resolve`.
+> - At character creation, a single `action` cannot have more than `2 action dots`.
+>
+> #### Physique
+>
+> - When you `Brawl`, you clash with something that is in your way.
+> - When you `Finesse`, you employ dexterous manipulation or subtle misdirection.
+> - When you `Move`, you quickly shift to a new position or get out of danger.
+> - When you `Sneak`, you traverse skillfully and quietly.
+>
+> #### Insight
+>
+> - When you `Shoot`, you carefully track and shoot a target.
+> - When you `Tinker`, you understand, create, or repair complex mechanisms or organisms.
+> - When you `Study`, you scrutinize details and interpret evidence.
+> - When you `Notice`, you observe the situation and anticipate outcomes.
+>
+> #### Resolve
+>
+> - When you `Bond`, you reassure and socialize with friends and contacts.
+> - When you `Command`, you compel swift obedience with skills, respect or intimidation.
+> - When you `Focus`, you concentrate to accomplish a task that requires great strength of mind.
+> - When you `Sway`, you influence with guile, charm, or argument.
+>
+> ### Momentum
+>
+> - Every time you make an `action roll`, you have a chance to gain `momentum`.
+> - You start every session with `2 momentum`.
+>
+> ---
+>
+> _Note: if you `push yourself` in a `action roll`, that roll won't generate `momentum`_
+>
+> ---
+>
+> #### Default Momentum Dial
+>
+> - Gain `+1 momentum` for a `4-5`.
+> - Gain `+2 momentum` for a `6`.
+> - Gain `+3 momentum` for a `66`.
+>
+> #### Using Momentum
+>
+> | Cost          | Result                                              |
+> | ------------- | --------------------------------------------------- |
+> | `-2 momentum` | `Push yourself` and add `+1d6` to your action roll. |
+> | `-2 momentum` | `Take the lead` on a group action.                  |
+> | `-1 momentum` | `Assist` an ally, add `+1d6` to their action roll.  |
+> | `-1 momentum` | Do a `flashback` scene.                             |
+>
+> ### Talents
+>
+> Talents make your character stronger and more versatile over time.
+>
+> - Get `+1 talent dot` every `milestone`.
+>
+> #### Talent Types
+>
+> A Talent gives either:
+>
+> - `+1 action dot` to spend on an Action.
+> - A new `situational talent`. A bonus that applies for an `action` in a certain `situation` (fill in the blank: \_\_\_\_).
+>
+> ### Stress
+>
+> On a failed action roll, GM can inflict `stress` on a PC.
+>
+> The number of stress inflicted depends on the action's `position`:
+>
+> - `Controlled`: `+1 stress`
+> - `Risky`: `+2 stress`
+> - `Desperate`: `+3 stress`
+>
+> Each stress ticks a segment on a PC's condition clock. When you mark stress, you also need to add/update your `condition`.
+>
+> When the clock is filled, your character is taken out for the scene and your condition clock is cleared.
+
+> ### Projects and Complications
+>
+> Use these Clocks when a player has a long-term project or when the GM inflicts a complication as a `consequence`.
+
+## Doing Things
+
+> ### Action Roll
+>
+> Use this when someone, or something, is in your way.
+>
+> 1. Pick an `action` and find how many dice you need to roll.
+> 1. Determine the `position` (`1 controlled` ► `2 risky` ► `3 desperate`)
+> 1. Determine the `effect rating` (`3 great` ► `2 standard` ► `1 limited`)
+> 1. Choose one:
+>    - Add `+1d6` if you `push yourself` (`-2 momentum`)
+>    - Add `+1d6` if you `add tension` to the action.
+> 1. Add `+1d6` if you have `assistance` (they consume `-1 momentum`)
+> 1. Roll and wish for the best!
+>
+> ---
+>
+> _If you don't have any action dots and can't `push yourself`, `add tension`, or `request assistance`, roll `2d6` and take the worst result._
+>
+> ---
+>
+> | Result | Name               | Explanation                                                       |
+> | ------ | ------------------ | ----------------------------------------------------------------- |
+> | `66`   | `Critical Success` | You greatly overcome the obstacle.                                |
+> | `6`    | `Full Success`     | You overcome the obstacle.                                        |
+> | `4-5`  | `Partial Success`  | You overcome the obstacle, but there's a `consequence`.           |
+> | `1-3`  | `Bad outcome`      | You fail at overcoming the obstacle, and there's a `consequence`. |
+>
+> ### Resistance Roll
+>
+> Use this to resist a consequence, or incoming `stress`.
+>
+> - Roll `+1d6` per consumed charges of momentum.
+>   - On a `1-3`, The `consequence` still happens.
+>   - On a ` 4-5`, The `consequence` is reduced.
+>   - On a `6`, The `consequence` is avoided.
+>   - On a `66`, The `consequence` is avoided, and you get +1 position for your next roll.
+>
+> ### Recovery
+>
+> Use this to heal and recuperate.
+>
+> - Once per session, if the fiction allows it, clear 1 segment from your condition clock.
+
+## Team Work
+
+> ### Take the Lead
+>
+> Use this to carry the group with your leadership and skills.
+>
+> - Leader describes how they take the lead, and consumes `-1 momentum`.
+> - Everyone makes an `action roll`; the best result counts as the group's result.
+> - The leader consumes `-1 momentum` for each player that got a `1-3` as their best result.
+> - The leader doesn't get momentum from the result of that action.
+>
+> ### Assist
+>
+> Use this to help a fellow PC accomplish their action.
+>
+> - Consume `-1 momentum` and add `+1d6` to their roll.
+> - This also exposes the helper to any potential consequences resulting from the roll.
+>
+> ### Protect
+>
+> Use this to protect a fellow PC from danger.
+>
+> - Roll to resist someone else's consequence.
+>
+> ### Set up
+>
+> Use this to improve your chances at overcoming an obstacle.
+>
+> - Roll to improve the `effect` rating or the `position` of subsequent action rolls made by your team.
+
+## Misc
+
+> ### Progression
+>
+> Use this to make characters evolve and get stronger over time.
+>
+> #### Session
+>
+> - Happens every session.
+> - Update the details of your character if necessary.
+>
+> #### Milestone
+>
+> - Happens every 3-5 sessions, usually after a big event.
+> - Gain `+1 Talent Dot`
+>
+> ### Consequences
+>
+> Use this when there's a `bad outcome` on a PC's Action Roll.
+>
+> Select one of the following:
+>
+> - The `effect` of the roll is reduced.
+> - A narrative `complication` occurs (you can track this on the character sheet).
+> - The opportunity is lost and the PC must try a new approach.
+> - The `position` worsens.
+> - The PC takes `stress`:
+>   - `+1 stress` for a `controlled` position
+>   - `+2 stress` for a `risky` position
+>   - `+3 stress` for a `desperate` position
+>
+> ### Fortune Roll
+>
+> Use this to find out what happens when the PCs aren't involved.
+>
+> - Add `1d6` per likeliness level.
+> - Roll `2d6` and pick the worst if it's really unlikely.
+>
+> | Result | Name               | Explanation                                       |
+> | ------ | ------------------ | ------------------------------------------------- |
+> | `66`   | `Critical Success` | Great results, and something exceptional happens. |
+> | `6`    | `Full Success`     | Great results.                                    |
+> | `4-5`  | `Partial Success`  | Mixed results.                                    |
+> | `1-3`  | `Bad outcome`      | Bad results.                                      |
+>
+> ### Clocks
+>
+> Used to define complex obstacles.
+>
+> - GM creates a clock to represent long-lasting obstacles.
+>   - Divide into 4 segments for a complex obstacle.
+>   - Divide into 6 segments for a complicated obstacle.
+>   - Divide into 8 segments for a daunting obstacle.
+>
+> ---
+>
+> When a PC succeeds on an action roll, you can tick segments of a `progress Clock`:
+>
+> - Tick 1 segment for a `limited effect`.
+> - Tick 2 segment for a `standard effect`.
+> - Tick 3 segment for a `great effect`.
+>
+> When a PC gets a consequence from an action roll, you can tick segments of a `danger Clock`:
+>
+> - Tick 3 segment for a `desperate position`.
+> - Tick 2 segment for a `risky position`.
+> - Tick 1 segment for a `controlled position`.
 
 # What are Extras | Extras
 
@@ -1585,257 +1829,231 @@ Once you've done one playbook, just repeat the process a couple of time to offer
 
 This should help your players find interesting ideas for their characters since constraints are known to aid with creativity.
 
-# In a Nutshell
+# Charge Condensed
 
-This chapter will go over the most important bits of the book in a quick recap so that it's easy to use as a reference.
+Here's a condensed version of the rules of Charge to easily include in **Powered by Charge** games.
 
-<details>
-	<summary>
-		[Character Sheet](/documents/charge-rpg/character-sheet.pdf)
-	</summary>
-	<object data="/documents/charge-rpg/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
-		<embed src="/documents/charge-rpg/character-sheet.pdf">
-			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/charge-rpg/character-sheet.pdf">Download PDF</a>.</p>
-		</embed>
-	</object>
-</details>
+## The Game
 
-## Character Creation
+### Game Master & Players
 
-> ### Details
->
-> Define who your character is.
->
-> - `Concept`: The elevator pitch of your character.
-> - `Appearance`: What your character looks like.
-> - `Ties`: Connection with the other player's character or forces within the world.
->
-> ### Actions
->
-> Distribute `7 action dots` among the `12 actions` to define how good your character is at doing things.
->
-> - Actions are grouped into 3 attributes: `Physique`, `Insight` and `Resolve`.
-> - At character creation, a single `action` cannot have more than `2 action dots`.
->
-> #### Physique
->
-> - When you `Brawl`, you clash with something that is in your way.
-> - When you `Finesse`, you employ dexterous manipulation or subtle misdirection.
-> - When you `Move`, you quickly shift to a new position or get out of danger.
-> - When you `Sneak`, you traverse skillfully and quietly.
->
-> #### Insight
->
-> - When you `Shoot`, you carefully track and shoot a target.
-> - When you `Tinker`, you understand, create, or repair complex mechanisms or organisms.
-> - When you `Study`, you scrutinize details and interpret evidence.
-> - When you `Notice`, you observe the situation and anticipate outcomes.
->
-> #### Resolve
->
-> - When you `Bond`, you reassure and socialize with friends and contacts.
-> - When you `Command`, you compel swift obedience with skills, respect or intimidation.
-> - When you `Focus`, you concentrate to accomplish a task that requires great strength of mind.
-> - When you `Sway`, you influence with guile, charm, or argument.
->
-> ### Momentum
->
-> - Every time you make an `action roll`, you have a chance to gain `momentum`.
-> - You start every session with `2 momentum`.
->
-> ---
->
-> _Note: you `push yourself` in a `action roll`, that roll won't generate `momentum`_
->
-> ---
->
-> #### Default Momentum Dial
->
-> - Gain `+1 momentum` for a `4-5`.
-> - Gain `+2 momentum` for a `6`.
-> - Gain `+3 momentum` for a `66`.
->
-> #### Using Momentum
->
-> | Cost          | Result                                              |
-> | ------------- | --------------------------------------------------- |
-> | `-2 momentum` | `Push yourself` and add `+1d6` to your action roll. |
-> | `-2 momentum` | `Take the lead` on a group action.                  |
-> | `-1 momentum` | `Assist` an ally, add `+1d6` to their action roll.  |
-> | `-1 momentum` | Do a `flashback` scene.                             |
->
-> ### Talents
->
-> Talents make your character stronger and more versatile over time.
->
-> - Get `+1 talent dot` every `milestone`.
->
-> #### Talent Types
->
-> A Talent gives either:
->
-> - `+1 action dot` to spend on an Action.
-> - A new `situational talent`. A bonus that applies for an `action` in a certain `situation` (fill in the blank: \_\_\_\_).
->
-> ### Stress
->
-> On a failed action roll, GM can inflict `stress` on a PC.
->
-> The number of stress inflicted depends on the action's `position`:
->
-> - `Controlled`: `+1 stress`
-> - `Risky`: `+2 stress`
-> - `Desperate`: `+3 stress`
->
-> Each stress ticks a segment on a PC's condition clock. When you mark stress, you also need to add/update your `condition`.
->
-> When the clock is filled, your character is taken out for the scene and your condition clock is cleared.
+One person in the group needs to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that live in it (those that aren't directly played by the rest of the table). We call those characters "non-player characters", or *NPC*s.
 
-> ### Projects and Complications
->
-> Use these Clocks when a player has a long-term project or when the GM inflicts a complication as a `consequence`.
+The rest of the group are `Players`. The players create a character that experiences compelling stories inside this world. We call those player characters, or *PC*s.
 
-## Doing Things
+While the GM is usually the main person in charge of the way the world changes over time, everyone at the table is in charge of the story.
 
-> ### Action Roll
->
-> Use this when someone, or something, is in your way.
->
-> 1. Pick an `action` and find how many dice you need to roll.
-> 1. Determine the `position` (`1 controlled` ► `2 risky` ► `3 desperate`)
-> 1. Determine the `effect rating` (`3 great` ► `2 standard` ► `1 limited`)
-> 1. Choose one:
->    - Add `+1d6` if you `push yourself` (`-2 momentum`)
->    - Add `+1d6` if you `add tension` to the action.
-> 1. Add `+1d6` if you have `assistance` (they consume `-1 momentum`)
-> 1. Roll and wish for the best!
->
-> ---
->
-> _If you don't have any action dots and can't `push yourself`, `add tension`, or `request assistance`, roll `2d6` and take the worst result._
->
-> ---
->
-> | Result | Name               | Explanation                                                       |
-> | ------ | ------------------ | ----------------------------------------------------------------- |
-> | `66`   | `Critical Success` | You greatly overcome the obstacle.                                |
-> | `6`    | `Full Success`     | You overcome the obstacle.                                        |
-> | `4-5`  | `Partial Success`  | You overcome the obstacle, but there's a `consequence`.           |
-> | `1-3`  | `Bad outcome`      | You fail at overcoming the obstacle, and there's a `consequence`. |
->
-> ### Resistance Roll
->
-> Use this to resist a consequence, or incoming `stress`.
->
-> - Roll `+1d6` per consumed charges of momentum.
->   - On a `1-3`, The `consequence` still happens.
->   - On a ` 4-5`, The `consequence` is reduced.
->   - On a `6`, The `consequence` is avoided.
->   - On a `66`, The `consequence` is avoided, and you get +1 position for your next roll.
->
-> ### Recovery
->
-> Use this to heal and recuperate.
->
-> - Once per session, if the fiction allows it, clear 1 segment from your condition clock.
+Everyone at the table contributes to make the story successful and captivating.
+
+### Game Structure
+
+Each session is made of `scenes`, like in a movie. Each scene plays out as a bunch of back-and-forth between the GM and the players. The GM describes what the scene is like, the players tell the GM what they do, and the GM makes the world react to those actions depending on the outcomes of certain dice rolls.
+
+During sessions, tension rises during scenes, and the players encounter narrative unknowns. To decide what happens during those moments, the group rolls dice because they want to be on the edge of their seats. They want to be surprised by where the story takes them next.
+
+## Rolling Dice
+
+The game uses six-sided dice. You roll several at once, which we call a dice pool, and read the **single highest result**.
+
+- If the highest die is a `6`, it's a `full success`. Things go well. If you roll more than one `6`, it's a `critical success` and you gain some additional advantage.
+- If the highest die is a `4 or 5`, that's a `partial success`. You do what you were trying to do, but there are consequences.
+- If the highest die is `1-3`, it's a `bad outcome`. Things go poorly. You probably don't achieve your goal, and you suffer complications, too.
+
+Most of the game's mechanics revolve around this basic format.
+
+## Action Rolls
+
+When there's a challenge that needs to be overcome, and there's a risk of failure, a player makes an `action roll`.
+
+The number of dice to roll depends on the `action` the character is doing. The list of possible action can be found on the character sheet.
+
+The action roll resolves what the PC is doing, as well as the NPC.
+
+Here's what happens when a player makes an action roll:
+
+- The player states their goal and which `action` they are using.
+- The GM sets the position of the situation (`controlled`, `risky` or `desperate`)
+- The GM sets the effect rating of the action (`limited`, `standard` or `great`)
+- The player decide if they boost their roll (if a team member `assists` them, if they `push themselves` or if they `add tension` to the scene)
+- Roll the dice and judge the result.
+- If the result of the dice is higher than `3`, the PC gains `momentum`
+
+### Momentum
+
+When a player gets a successful action roll, that roll generates `momentum`.
+
+You start every session with `2`, and generate more `momentum` when making action rolls.
+
+- On a `4-5`, you gain `+1 momentum`.
+- On a `6`, you gain `+2 momentum`.
+- On a `66`, you gain `+3 momentum`.
+
+PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and the group.
+
+### Boosting Action Rolls
+
+You boost your action roll by one of the following methods.
+
+#### Assist a Player
+
+When you `assist` a player, you consume `-1 momentum`, to give `+1d6` to the dice pool of your team mate. When doing this, you also expose yourself to possible danger.
+
+You can also even the odds by using **either** of the following methods.
+
+#### 1. Push Yourself
+
+When you `push yourself`, you consume `-2 momentum` **per push** to gain one of the following bonuses.
+
+- Add `+1d6` to your dice pool.
+- Gain `+1 effect rating` for your roll.
+- Take action even if you were taken out.
+
+> _Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_
+
+#### 2. Add Tension
+
+When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM then offers a complication, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
+
+If you accept the deal, add `+1d6` to your dice pool.
+
+## Consequences
+
+If you make an action roll and you get a `partial success (4-5)` or a `bad outcome (1-3)`, you suffer a `consequence`.
+
+The GM chooses one of the following:
+
+- **Reduced Effect** : reduce the `effect` of the action by one level.
+- **Complication**: tick one segment per `consequence rating` on a new or existing `danger clock`.
+- **Worse Position** : reduce the `position` of the PC by one level for their next action rolls.
+- **Lost Opportunity** : what you tried didn't work, you need to use another `action`.
+- **Worse Condition**: take `1 stress` per `consequence rating`.
+
+The `consequence rating` is determined by looking at the position for the roll.
+
+- A `controlled` position, generates a consequence rating of `1`.
+- A `risky` position, generates a consequence rating of `2`.
+- A `desperate` position, generates a consequence rating of `3`.
+
+## Resistance Roll
+
+If a character suffers a consequence that you, as a player, don't like, you can choose to resist it.
+
+Simply tell the GM, "No, I don't think so. I'm resisting that."
+
+You then make a `resistance roll` to see how well you resist the consequence.
+
+You make that roll by burning momentum.
+
+Build a pool of d6s by adding `+1d6` per charge of momentum.
+
+Once you've decided how many charges you want to consume, roll and interpret the results:
+
+- On a `1-3`, The `consequence` still happens.
+- On a `4-5`, The `consequence` is reduced.
+- On a `6`, The `consequence` is avoided.
+- On a `66`, The `consequence` is avoided, and you get +1 position for your next roll.
+
+## Clocks
+
+Clocks are circles divided in either 4,6 or 8 segments.
+
+Use those to track a task's **progress** or incoming **danger**.
+
+When a PC succeeds an action roll, you can tick segments of a `progress clock`:
+
+- Tick 1 segment for a `limited effect`.
+- Tick 2 segments for a `standard effect`.
+- Tick 3 segments for a `great effect`.
+
+When a PC gets a consequence from an action roll, you can tick segments of a `danger clock`:
+
+- Tick 3 segments for a `desperate position`.
+- Tick 2 segments for a `risky position`.
+- Tick 1 segment for a `controlled position`.
 
 ## Team Work
 
-> ### Take the Lead
->
-> Use this to carry the group with your leadership and skills.
->
-> - Leader describes how they take the lead, and consumes `-1 momentum`.
-> - Everyone makes an `action roll`; the best result counts as the group's result.
-> - The leader consumes `-1 momentum` for each player that got a `1-3` as their best result.
-> - The leader doesn't get momentum from the result of that action.
->
-> ### Assist
->
-> Use this to help a fellow PC accomplish their action.
->
-> - Consume `-1 momentum` and add `+1d6` to their roll.
-> - This also exposes the helper to any potential consequences resulting from the roll.
->
-> ### Protect
->
-> Use this to protect a fellow PC from danger.
->
-> - Roll to resist someone else's consequence.
->
-> ### Set up
->
-> Use this to improve your chances at overcoming an obstacle.
->
-> - Roll to improve the `effect` rating or the `position` of subsequent action rolls made by your team.
+### Assist
 
-## Misc
+When you `assist`, you help another player who's making an action roll. Describe what your character does to help.
 
-> ### Progression
->
-> Use this to make characters evolve and get stronger over time.
->
-> #### Session
->
-> - Happens every session.
-> - Update the details of your character if necessary.
->
-> #### Milestone
->
-> - Happens every 3-5 sessions, usually after a big event.
-> - Gain `+1 Talent Dot`
->
-> ### Consequences
->
-> Use this when there's a `bad outcome` on a PC's Action Roll.
->
-> Select one of the following:
->
-> - The `effect` of the roll is reduced.
-> - A narrative `complication` occurs (you can track this on the character sheet).
-> - The opportunity is lost and the PC must try a new approach.
-> - The `position` worsens.
-> - The PC takes `stress`:
->   - `+1 stress` for a `controlled` position
->   - `+2 stress` for a `risky` position
->   - `+3 stress` for a `desperate` position
->
-> ### Fortune Roll
->
-> Use this to find out what happens when the PCs aren't involved.
->
-> - Add `1d6` per likeliness level.
-> - Roll `2d6` and pick the worst if it's really unlikely.
->
-> | Result | Name               | Explanation                                       |
-> | ------ | ------------------ | ------------------------------------------------- |
-> | `66`   | `Critical Success` | Great results, and something exceptional happens. |
-> | `6`    | `Full Success`     | Great results.                                    |
-> | `4-5`  | `Partial Success`  | Mixed results.                                    |
-> | `1-3`  | `Bad outcome`      | Bad results.                                      |
->
-> ### Clocks
->
-> Used to define complex obstacles.
->
-> - GM creates a clock to represent long-lasting obstacles.
->   - Divide into 4 segments for a complex obstacle.
->   - Divide into 6 segments for a complicated obstacle.
->   - Divide into 8 segments for a daunting obstacle.
->
-> ---
->
-> When a PC succeeds on an action roll, you can tick segments of a `progress Clock`:
->
-> - Tick 1 segment for a `limited effect`.
-> - Tick 2 segment for a `standard effect`.
-> - Tick 3 segment for a `great effect`.
->
-> When a PC gets a consequence from an action roll, you can tick segments of a `danger Clock`:
->
-> - Tick 3 segment for a `desperate position`.
-> - Tick 2 segment for a `risky position`.
-> - Tick 1 segment for a `controlled position`.
+**Consume `-1 momentum`**, and give them an additional `+1d6` for their roll.
+
+Be warned that, by doing this, you are also exposing yourself to possible consequences that this roll might end up creating.
+
+### Take the Lead
+
+When you `take the lead`, you coordinate multiple members of the group to tackle a problem together. Describe how your character is leading the group.
+
+Each player character who's involved makes an **action roll**. The team counts the **single best result** as the final result.
+
+The character leading the group action consumes `-1 momentum` for each PC that rolled **1-3** as their best result.
+
+**The group action result covers everyone who rolled.** If you don't roll, your character doesn't get the effects of the action.
+
+### Protect
+
+You step in to confront a consequence that one of your teammates would otherwise face. Describe how you intervene.
+
+**You suffer the consequence instead of them. You may roll to resist it as normal.**
+
+### Set up
+
+When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll.
+
+You choose the benefit, based on the nature of your setup action.
+
+**Make an action roll to improve the effect rating or position of a future action roll.**
+
+
+## Fortune Rolls
+
+When the outcome of a situation isn't certain, and the players aren't involved, make a `fortune roll` to see what happens.
+
+- Add `+1d6` per likeliness level of that thing hapenning
+
+---
+
+- On a **critical success**, great results, and something exceptional happens.
+- On a **full success**, great results.
+- On a **partial success**, mixed results.
+- On a **bad outcome**, bad results.
+
+## Flashbacks
+
+Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation.
+
+- The GM sets a cost in `momentum` (0-2) for the player to do a `flashback` scene.
+- If necessary, make an `action roll` or a `fortune roll` to see what happens.
+
+# Licencing
+
+Charge is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
+
+That means that if you want to make a game using or inspired by this game, you just need to give us attribution for our work.
+
+Because Charge is greatly inspired by Blades in the Dark, you would also need to include attribution to the creators of this game as well.
+
+To do so, copy the text below in your own game and things should be good to go.
+
+## Attribution
+
+This work is based on Charge RPG, product of Fari Games, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+
+This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
+
+## Powered By Charge
+
+If you want, you can also include the following images in your game to say that it's powered by Charge.
+
+<div style="display: flex">
+	<img src="https://gyazo.com/27e002466c083bb87b6dfa5a79733ece.png" width="300px" style="margin-bottom: 1rem"/>
+	<img src="https://gyazo.com/78a7cba83f98e8ed05e97eae721f9530.png" width="300px" style="margin-bottom: 1rem"/>
+</div>
+
+# Credits
+
+> This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
 # Glossary
 
@@ -1904,33 +2122,3 @@ This chapter will go over the most important bits of the book in a quick recap s
 | Command      |          |           |
 | Focus        |          |           |
 | Sway         |          |           |
-
-# Licencing
-
-Charge is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/3.0/).
-
-That means that if you want to make a game using or inspired by this game, you just need to give us attribution for our work.
-
-Because Charge is greatly inspired by Blades in the Dark, you would also need to include attribution to the creators of this game as well.
-
-To do so, copy the text below in your own game and things should be good to go.
-
-## Attribution
-
-This work is based on Charge RPG, product of Fari Games, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
-
-This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
-
-# Credits
-
-> This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
-
-# Changelog
-
-## v0.1.1
-
-- Proof reading
-
-## v0.1.0
-
-- Initial Pitch

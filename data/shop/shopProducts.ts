@@ -18,7 +18,7 @@ export const shop: IShop = {
           footer:
             "Text by Fari Games under a Creative Commons Attribution 3.0 license (CC BY 3.0)",
           tags: ["charge-rpg", "ttrpg", "main"],
-          image: "https://gyazo.com/a8db97f79b14526c0458286383d40d91.png",
+          image: "https://gyazo.com/7eb9b91ba6ab20bf0d639ccfd87c0b95.png",
           links: {
             itchIo: "https://farigames.itch.io/charge-rpg",
           },

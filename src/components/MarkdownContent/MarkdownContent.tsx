@@ -138,6 +138,7 @@ export function MarkdownContent(props: {
           "& h3": {
             ...(theme.typography.h3 as any),
             fontFamily: props.headingFont,
+
             textTransform:
               props.headingUppercase === "true" ? "uppercase" : "none",
           },
