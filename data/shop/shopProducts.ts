@@ -312,6 +312,27 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Thought Police",
+      slug: "thought-police",
+      links: {
+        twitter: "https://twitter.com/__ThoughtPolice",
+      },
+      products: [
+        {
+          name: "Motif Toolkit SRD",
+          slug: "motif-toolkit-srd",
+          description: "A solo play oracle, an add-on solo RPG system",
+          tags: ["ttrpg", "main"],
+          featured: true,
+          license: License.CC_BY_3,
+          links: {},
+          image: "https://gyazo.com/8488aba599f1a0fafef849748f5137f1.png",
+          footer:
+            "Text by Jim Liao and Rev. Casey under a Creative Commons Attribution 3.0 license (CC BY 3.0)",
+        },
+      ],
+    },
   ],
 };
 

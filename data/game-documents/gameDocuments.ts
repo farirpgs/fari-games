@@ -26,4 +26,6 @@ export const gameDocuments: Record<
   "zadmargames/tricube-tales": () =>
     import("./zadmargames/tricube-tales.md?raw"),
   "jesse-ross/trophy-srd": () => import("./jesse-ross/trophy-srd.md?raw"),
+  "thought-police/motif-toolkit-srd": () =>
+    import("./thought-police/motif-toolkit-srd.md?raw"),
 };
