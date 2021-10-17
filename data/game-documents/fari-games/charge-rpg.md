@@ -317,7 +317,7 @@ When you `Sneak`, you traverse skillfully and quietly.
 
 #### Insight
 
-When you `Shoot`, you carefully track and shoot a target.
+When you `Shoot`, you carefully track and shoot at a target.
 
 > You might snipe an enemy long-distance. You might throw a fireball to light the battlefield on fire. You might aim the ship's laser guns. You could try skillfully throw a dart in a bar game (but `Finessing` might be better).
 
@@ -865,7 +865,7 @@ TODO: Include Examples
 
 As the game plays out, the PCs will get more stressed out and their condition will worsen.
 
-When a PC accumulates `stress`, making action rolls will be more limited because of the narrative restrictions their `condition` creates.
+When a PC accumulates `stress`, their actions are limited because of the narrative restrictions their `condition` creates.
 
 The condition clock exists to pace the game, since not every action will go well, and failing an action has consequences which will affect the characters for some time.
 
@@ -1202,7 +1202,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > #### Insight
 >
-> - When you `Shoot`, you carefully track and shoot a target.
+> - When you `Shoot`, you carefully track and shoot at a target.
 > - When you `Tinker`, you understand, create, or repair complex mechanisms or organisms.
 > - When you `Study`, you scrutinize details and interpret evidence.
 > - When you `Notice`, you observe the situation and anticipate outcomes.
@@ -1431,11 +1431,11 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 
 # Asset Extra | Extras
 
+**By René-Pier Deshaies**
+
 Assets are an extra that you can use as an alternative to `pushing yourself` or `adding tension` to a scene to get a bonus die when making an action roll.
 
-## Loot Assets
-
-> For games that are about survival or that you want to resemble the "Looter and Shooter" genre.
+## Loot Assets Rule
 
 The Loot Asset is an additional mechanic that gives you the chance to find good loot that will have a mechanical impact on the game when you scavenge a place.
 
@@ -1456,9 +1456,7 @@ If more than one player is scavenging, you can do a group roll using the `take t
 >   - On a critical (66): you create two assets.
 > - If an asset was created, take note of it on someone's character sheet.
 
-### Boon Asset
-
-> For moments of great role-play
+### Boon Asset Rule
 
 It's always amazing when a player loses themselves in their character, or has an amazing idea that is just too brilliant to ignore.
 
@@ -1494,6 +1492,28 @@ So, in short:
 - If you are alone, you have fewer options to be awesome.
 - So we reduce the cost of the remaining options.
 - This allow Solo situations to be equally awesome.
+
+# Gear Extra | Extras
+
+**By René-Pier Deshaies**
+
+Gear is an Extra that you can use to make equipment feel more important in your games.
+
+Either its important because finding supplies is rare in your setting, or because gear is a core part of who the characters are.
+
+## Gear Extra Rule
+
+Add new character `detail` for each `Gear Slot` you want to allow your players to have. Usually between `1-2 Gear Slot` per character.
+
+When a player wants to resist an incoming `consequence`, they can instead decide to `break a gear` instead of doing a `resistance roll`.
+
+This can only be done if it makes sense narratively.
+
+Breaking a gear automatically cancels the consequence, but that particular piece of equipment **cannot be used until it's re-acquired or repaired**.
+
+You track this effort by assigning a `project progress clock` with 4 segments on the character sheet.
+
+Once the project completed, the character is re-allowed to use it in the fiction, and to block future consequences.
 
 # Mission Extra | Extras
 
@@ -1833,7 +1853,17 @@ This should help your players find interesting ideas for their characters since 
 
 Here's a condensed version of the rules of Charge to easily include in **Powered by Charge** games.
 
+
+<div style="display: flex">
+	<img src="https://gyazo.com/27e002466c083bb87b6dfa5a79733ece.png" width="300px" style="margin-bottom: 1rem"/>
+	<img src="https://gyazo.com/78a7cba83f98e8ed05e97eae721f9530.png" width="300px" style="margin-bottom: 1rem"/>
+</div>
+
+
 ## The Game
+
+In this game, you and your friends get together to tell an interactive story about a group of fictional character you create. Those characters face obstacles and challenges, and you get to decide how they react. The world then changes based on what the characters do.
+
 
 ### Game Master & Players
 
@@ -1850,6 +1880,37 @@ Everyone at the table contributes to make the story successful and captivating.
 Each session is made of `scenes`, like in a movie. Each scene plays out as a bunch of back-and-forth between the GM and the players. The GM describes what the scene is like, the players tell the GM what they do, and the GM makes the world react to those actions depending on the outcomes of certain dice rolls.
 
 During sessions, tension rises during scenes, and the players encounter narrative unknowns. To decide what happens during those moments, the group rolls dice because they want to be on the edge of their seats. They want to be surprised by where the story takes them next.
+
+## Character Creation
+
+Characters are defined by descriptive traits called `details`. Each character usually have between 2-5 details to highlight who they are, and what is important about them.
+
+### Details
+
+When creating a new character, define their: 
+
+- `Concept`: elevator-pitch of the character.
+- `Appearance`: what the character looks like.
+- `Ties`: relations that the character has with certain people or organizations.
+
+### Actions
+
+To decide how good characters are at doing things, we have the `actions`. Players assign 7  `action dots` at character creation among the 12 possible actions:
+
+- `Muscle`: you use your force to move, overcome or wreck the obstacle in front of you.
+- `Move`: you quickly shift to a new position or get out of danger.
+- `Finesse`: you employ dexterous manipulation or subtle misdirection.
+- `Sneak`: you traverse skillfully and quietly.
+- `Shoot`: you carefully track and shoot at a target.
+- `Tinker`: you understand, create, or repair complex mechanisms or organisms.
+- `Study`: you scrutinize details and interpret evidence.
+- `Notice`: you observe the situation and anticipate outcomes.
+- `Bond`: you reassure and socialize with friends and contacts.
+- `Command`: you compel swift obedience with skills and respect.
+- `Focus`: you concentrate to accomplish a task that requires great strength of mind.
+- `Sway`: you influence with guile, charm, or argument.
+
+At the start of a campaign, a single action cannot have more than 2 action dots.
 
 ## Rolling Dice
 
@@ -1878,7 +1939,64 @@ Here's what happens when a player makes an action roll:
 - Roll the dice and judge the result.
 - If the result of the dice is higher than `3`, the PC gains `momentum`
 
-### Momentum
+### The Actions
+
+#### Physique
+
+When you `Muscle`, you use your force to move, overcome or wreck the obstacle in front of you.
+
+> You might lift, punch, grapple, hack and slash. You might wrestle with a wild animal. You might blast a door open. You could try to fight in a formal duel (but `Finessing` might be better).
+
+When you `Finesse`, you employ dexterous manipulation or subtle misdirection.
+
+> You might steal something from someone's pocket. You might hack a security system. You might helm the controls of a ship. You could try to pick a lock (but `Tinkering` might be better).
+
+When you `Move`, you quickly shift to a new position or get out of danger.
+
+> You might climb, swim, run, or jump. You might outpace the guards. You might jump above a spiked pit. You could try to lose someone on your tail (but `Sneak` might be better).
+
+When you `Sneak`, you traverse skillfully and quietly.
+
+> You might sneak past a guard or hide in the shadows. You could try to back-stab a solder in the middle of a battle (but `Muscle` might be better).
+
+#### Insight
+
+When you `Shoot`, you carefully track and shoot at a target.
+
+> You might snipe an enemy long-distance. You might throw a fireball to light the battlefield on fire. You might aim the ship's laser guns. You could try skillfully throw a dart in a bar game (but `Finessing` might be better).
+
+When you `Tinker`, you understand, create, or repair complex mechanisms or organisms.
+
+> You might create a new gadget or alter an existing item. You might mend a broken bone. You could try to use your technical expertise to control a vehicle (but `Finessing` might be better).
+
+When you `Study`, you scrutinize details and interpret evidence.
+
+> You might gather information from documents, newspapers, and books. You might closely analyze a person to detect lies or true feelings. You could try to examine events to understand a pressing situation (but `Noticing` might be better).
+
+When you `Notice`, you observe the situation and anticipate outcomes.
+
+> You might pick up important details in the moment. You might anticipate danger before it happens. You could try to figure out what is making someone sick (but `Studying` might be better).
+
+#### Resolve
+
+When you `Bond`, you reassure and socialize with friends and contacts.
+
+> You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm, style, or empathy. You could try to manipulate your friends with social pressure (but `Sway` might be better).
+
+When you `Command`, you compel swift obedience with skills and respect.
+
+> You might intimidate or threaten to get what you want. You might ask a small militia to get their things together. You might order your undead minions to sacrifice themselves for you. You could also ask your familiar to look for something in a room (but `Bonding` might be better).
+
+When you `Focus`, you concentrate to accomplish a task that requires great strength of mind.
+
+> You might meditate to enter the spirit world. You might concentrate to win a game of chess. You might enter a trance to finish up an important ritual. You could try to pay closer attention to your surroundings beyond what is visible (but `Noticing` might be better).
+
+When you `Sway`, you influence with guile, charm, or argument.
+
+> You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but `Bonding` or `Commanding` might be better).
+
+
+## Momentum
 
 When a player gets a successful action roll, that roll generates `momentum`.
 
@@ -1888,19 +2006,13 @@ You start every session with `2`, and generate more `momentum` when making actio
 - On a `6`, you gain `+2 momentum`.
 - On a `66`, you gain `+3 momentum`.
 
-PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and the group.
+PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and their teammates.
 
-### Boosting Action Rolls
+## Boosting Action Rolls
 
-You boost your action roll by one of the following methods.
+If you want, you can add bonus dice to your action roll by using **one** of the following methods.
 
-#### Assist a Player
-
-When you `assist` a player, you consume `-1 momentum`, to give `+1d6` to the dice pool of your team mate. When doing this, you also expose yourself to possible danger.
-
-You can also even the odds by using **either** of the following methods.
-
-#### 1. Push Yourself
+###  Push Yourself
 
 When you `push yourself`, you consume `-2 momentum` **per push** to gain one of the following bonuses.
 
@@ -1908,13 +2020,33 @@ When you `push yourself`, you consume `-2 momentum` **per push** to gain one of 
 - Gain `+1 effect rating` for your roll.
 - Take action even if you were taken out.
 
-> _Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_
+_Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_
 
-#### 2. Add Tension
+###  Add Tension
 
 When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM then offers a complication, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
 If you accept the deal, add `+1d6` to your dice pool.
+
+## Team work
+
+The PCs can help one another in different ways to assure that the teams overcome the different challenges that are facing them.
+
+### Assist
+
+When you `assist` a PC, you consume `-1 momentum`, to give `+1d6` to the dice pool of your team mate. When doing this, you also expose yourself to possible danger.
+
+You can also even the odds by using **either** of the following methods.
+
+### Protect
+
+You step in to confront a consequence that one of your teammates would otherwise face. Describe how you intervene, and suffer the consequence instead of them. You can make a `resistance roll` to try to reduce or cancel the consequence.
+
+### Set up
+
+When you perform a setup action, you make an `action roll` to have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll.
+
+You choose the benefit, based on the nature of your setup action.
 
 ## Consequences
 
@@ -1936,13 +2068,9 @@ The `consequence rating` is determined by looking at the position for the roll.
 
 ## Resistance Roll
 
-If a character suffers a consequence that you, as a player, don't like, you can choose to resist it.
+If a character suffers a consequence that you, as a player, don't like, you can choose to resist it. Simply tell the GM, "No, I don't think so. I'm resisting that."
 
-Simply tell the GM, "No, I don't think so. I'm resisting that."
-
-You then make a `resistance roll` to see how well you resist the consequence.
-
-You make that roll by burning momentum.
+You then make a `resistance roll` to see how well you resist the consequence. You make that roll by burning momentum.
 
 Build a pool of d6s by adding `+1d6` per charge of momentum.
 
@@ -1955,9 +2083,9 @@ Once you've decided how many charges you want to consume, roll and interpret the
 
 ## Clocks
 
-Clocks are circles divided in either 4,6 or 8 segments.
+Clocks are circles divided in either 4, 6 or 8 segments.
 
-Use those to track a task's **progress** or incoming **danger**.
+Use those to track a task's **progress** or escalating **danger** in scenes.
 
 When a PC succeeds an action roll, you can tick segments of a `progress clock`:
 
@@ -1971,48 +2099,35 @@ When a PC gets a consequence from an action roll, you can tick segments of a `da
 - Tick 2 segments for a `risky position`.
 - Tick 1 segment for a `controlled position`.
 
-## Team Work
+## Health and Condition
 
-### Assist
+When a PC gets hurt as a result of a consequence, they take `stress`. Each stress ticks a segment on the PC's `condition clock ⨁`.
 
-When you `assist`, you help another player who's making an action roll. Describe what your character does to help.
+As the condition clock gets filled, you also need to update the PC's `condition` by writing a small descriptive text below the clock.
 
-**Consume `-1 momentum`**, and give them an additional `+1d6` for their roll.
+The character's condition imposes narrative restrictions as to what the character can or cannot do.
 
-Be warned that, by doing this, you are also exposing yourself to possible consequences that this roll might end up creating.
+When the 4 segments of the `condition clock`  are filled, the PC is taken out for the scene and their condition clock is cleared.
 
-### Take the Lead
+## Recovery
 
-When you `take the lead`, you coordinate multiple members of the group to tackle a problem together. Describe how your character is leading the group.
+As time passes, PCs will get better, and their condition will improve.
 
-Each player character who's involved makes an **action roll**. The team counts the **single best result** as the final result.
+If the fiction allows it, once per session clear 1 segment off a PC's condition clock.
 
-The character leading the group action consumes `-1 momentum` for each PC that rolled **1-3** as their best result.
+## Progression
 
-**The group action result covers everyone who rolled.** If you don't roll, your character doesn't get the effects of the action.
+As a campaign evolves over time, so will the characters.
 
-### Protect
+So at the end of every session, you can update a character's `details` to represent how they grow over the course of the campaign.
 
-You step in to confront a consequence that one of your teammates would otherwise face. Describe how you intervene.
-
-**You suffer the consequence instead of them. You may roll to resist it as normal.**
-
-### Set up
-
-When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll.
-
-You choose the benefit, based on the nature of your setup action.
-
-**Make an action roll to improve the effect rating or position of a future action roll.**
-
+Also, the GM can award the group a new `action dot` for the players to invest in their character's action when a significant event happened in the campaign. This will make the PCs significantly stronger, or more versatile, so use this with parsimony.
 
 ## Fortune Rolls
 
 When the outcome of a situation isn't certain, and the players aren't involved, make a `fortune roll` to see what happens.
 
-- Add `+1d6` per likeliness level of that thing hapenning
-
----
+Add `+1d6` per likeliness level of that thing hapenning
 
 - On a **critical success**, great results, and something exceptional happens.
 - On a **full success**, great results.
@@ -2025,6 +2140,13 @@ Players can call for a `flashback` scene if they want to declare that their char
 
 - The GM sets a cost in `momentum` (0-2) for the player to do a `flashback` scene.
 - If necessary, make an `action roll` or a `fortune roll` to see what happens.
+
+## Attribution
+
+This work is based on Charge RPG, product of Fari Games, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+
+This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
+
 
 # Licencing
 

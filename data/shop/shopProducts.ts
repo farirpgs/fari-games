@@ -14,9 +14,9 @@ export const shop: IShop = {
           name: "Charge RPG",
           slug: "charge-rpg",
           description: "Ready to use generic RPG system.",
-          license: License.CC_BY_3,
+          license: License.CC_BY_4,
           footer:
-            "Text by Fari Games under a Creative Commons Attribution 3.0 license (CC BY 3.0)",
+            "Text by Fari Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
           tags: ["charge-rpg", "ttrpg", "main"],
           image: "https://gyazo.com/7eb9b91ba6ab20bf0d639ccfd87c0b95.png",
           links: {
