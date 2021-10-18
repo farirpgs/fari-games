@@ -299,9 +299,9 @@ For now let's look at the 12 different types of actions.
 
 #### Physique
 
-When you `Brawl`, you clash with something that is in your way.
+When you `Muscle`, you use your force to move, overcome or wreck the obstacle in front of you.
 
-> You might hack and slash. You might wrestle with a wild animal. You might blast a door open. You could try to fight in a formal duel (but `Finessing` might be better).
+> You might lift, punch, grapple, hack and slash. You might wrestle with a wild animal. You might blast a door open. You could try to fight in a formal duel (but `Finessing` might be better).
 
 When you `Finesse`, you employ dexterous manipulation or subtle misdirection.
 
@@ -313,7 +313,7 @@ When you `Move`, you quickly shift to a new position or get out of danger.
 
 When you `Sneak`, you traverse skillfully and quietly.
 
-> You might sneak past a guard or hide in the shadows. You could try to back-stab a solder in the middle of a battle (but `Brawl` might be better).
+> You might sneak past a guard or hide in the shadows. You could try to back-stab a solder in the middle of a battle (but `Muscle` might be better).
 
 #### Insight
 
@@ -1129,7 +1129,7 @@ The fact that writing up situational talents takes a bit of work is the reason w
 
 We want character creation to be streamlined, so take the time to understand and discover who they are first. Later in the campaign, when a milestone occurs, you can then think of new ways to make them truly unique using talents.
 
-_Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Brawling** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
+_Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
 
 _In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agree saying "My character lived in the forest all their life, and would probably be intimated by big cities. I like it; let's go with this for now!"_
 
@@ -1195,7 +1195,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > #### Physique
 >
-> - When you `Brawl`, you clash with something that is in your way.
+> - When you `Muscle`, you use your force to move, overcome or wreck the obstacle in front of you.
 > - When you `Finesse`, you employ dexterous manipulation or subtle misdirection.
 > - When you `Move`, you quickly shift to a new position or get out of danger.
 > - When you `Sneak`, you traverse skillfully and quietly.
@@ -1853,17 +1853,18 @@ This should help your players find interesting ideas for their characters since 
 
 Here's a condensed version of the rules of Charge to easily include in **Powered by Charge** games.
 
-
 <div style="display: flex">
 	<img src="https://gyazo.com/27e002466c083bb87b6dfa5a79733ece.png" width="300px" style="margin-bottom: 1rem"/>
 	<img src="https://gyazo.com/78a7cba83f98e8ed05e97eae721f9530.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
 
+> #### Designer Choice
+>
+> Text inside blockquotes like this one means that, as a game designer, you should choose or adapt a rule based on your game's needs.
 
 ## The Game
 
 In this game, you and your friends get together to tell an interactive story about a group of fictional character you create. Those characters face obstacles and challenges, and you get to decide how they react. The world then changes based on what the characters do.
-
 
 ### Game Master & Players
 
@@ -1887,7 +1888,7 @@ Characters are defined by descriptive traits called `details`. Each character us
 
 ### Details
 
-When creating a new character, define their: 
+When creating a new character, define their:
 
 - `Concept`: elevator-pitch of the character.
 - `Appearance`: what the character looks like.
@@ -1895,20 +1896,51 @@ When creating a new character, define their:
 
 ### Actions
 
-To decide how good characters are at doing things, we have the `actions`. Players assign 7  `action dots` at character creation among the 12 possible actions:
+To decide how good characters are at doing things, we have the `actions`.
 
-- `Muscle`: you use your force to move, overcome or wreck the obstacle in front of you.
-- `Move`: you quickly shift to a new position or get out of danger.
-- `Finesse`: you employ dexterous manipulation or subtle misdirection.
-- `Sneak`: you traverse skillfully and quietly.
-- `Shoot`: you carefully track and shoot at a target.
-- `Tinker`: you understand, create, or repair complex mechanisms or organisms.
-- `Study`: you scrutinize details and interpret evidence.
-- `Notice`: you observe the situation and anticipate outcomes.
-- `Bond`: you reassure and socialize with friends and contacts.
-- `Command`: you compel swift obedience with skills and respect.
-- `Focus`: you concentrate to accomplish a task that requires great strength of mind.
-- `Sway`: you influence with guile, charm, or argument.
+> #### Designer Choice: Choose One or Adapt
+>
+> At character creation, players assign `7 action dots` among the following action list:
+>
+> - `Muscle`: you use your force to move, overcome or wreck the obstacle in front of you.
+> - `Move`: you quickly shift to a new position or get out of danger.
+> - `Finesse`: you employ dexterous manipulation or subtle misdirection.
+> - `Sneak`: you traverse skillfully and quietly.
+> - `Shoot`: you carefully track and shoot at a target.
+> - `Tinker`: you understand, create, or repair complex mechanisms or organisms.
+> - `Study`: you scrutinize details and interpret evidence.
+> - `Notice`: you observe the situation and anticipate outcomes.
+> - `Bond`: you reassure and socialize with friends and contacts.
+> - `Command`: you compel swift obedience with skills and respect.
+> - `Focus`: you concentrate to accomplish a task that requires great strength of mind.
+> - `Sway`: you influence with guile, charm, or argument.
+>
+> ---
+>
+> At character creation, players assign `4 action dots` among the following action list:
+>
+> - `Muscle`: you use your force to move, overcome or wreck the obstacle in front of you.
+> - `Finesse`: you employ dexterous manipulation or subtle misdirection.
+> - `Move`: you quickly shift to a new position or get out of danger.
+> - `Think`: you scrutinize details and interpret evidence.
+> - `Talk`: you reassure, socialize or influence with kindness, guile, charm or argument.
+> - `Focus`: you concentrate to accomplish a task that requires great strength of mind.
+>
+> ---
+>
+> At character creation, players assign `3 action dots` among the following attributes:
+>
+> - `Strength` / `Agility` / `Intelligence` / `Charm`
+>
+> ---
+>
+> At character creation, players assign `2 action dots` among the following attributes:
+>
+> - `Power` / `Speed` / `Focus`
+>
+> ---
+>
+> _...etc_
 
 At the start of a campaign, a single action cannot have more than 2 action dots.
 
@@ -1939,63 +1971,6 @@ Here's what happens when a player makes an action roll:
 - Roll the dice and judge the result.
 - If the result of the dice is higher than `3`, the PC gains `momentum`
 
-### The Actions
-
-#### Physique
-
-When you `Muscle`, you use your force to move, overcome or wreck the obstacle in front of you.
-
-> You might lift, punch, grapple, hack and slash. You might wrestle with a wild animal. You might blast a door open. You could try to fight in a formal duel (but `Finessing` might be better).
-
-When you `Finesse`, you employ dexterous manipulation or subtle misdirection.
-
-> You might steal something from someone's pocket. You might hack a security system. You might helm the controls of a ship. You could try to pick a lock (but `Tinkering` might be better).
-
-When you `Move`, you quickly shift to a new position or get out of danger.
-
-> You might climb, swim, run, or jump. You might outpace the guards. You might jump above a spiked pit. You could try to lose someone on your tail (but `Sneak` might be better).
-
-When you `Sneak`, you traverse skillfully and quietly.
-
-> You might sneak past a guard or hide in the shadows. You could try to back-stab a solder in the middle of a battle (but `Muscle` might be better).
-
-#### Insight
-
-When you `Shoot`, you carefully track and shoot at a target.
-
-> You might snipe an enemy long-distance. You might throw a fireball to light the battlefield on fire. You might aim the ship's laser guns. You could try skillfully throw a dart in a bar game (but `Finessing` might be better).
-
-When you `Tinker`, you understand, create, or repair complex mechanisms or organisms.
-
-> You might create a new gadget or alter an existing item. You might mend a broken bone. You could try to use your technical expertise to control a vehicle (but `Finessing` might be better).
-
-When you `Study`, you scrutinize details and interpret evidence.
-
-> You might gather information from documents, newspapers, and books. You might closely analyze a person to detect lies or true feelings. You could try to examine events to understand a pressing situation (but `Noticing` might be better).
-
-When you `Notice`, you observe the situation and anticipate outcomes.
-
-> You might pick up important details in the moment. You might anticipate danger before it happens. You could try to figure out what is making someone sick (but `Studying` might be better).
-
-#### Resolve
-
-When you `Bond`, you reassure and socialize with friends and contacts.
-
-> You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm, style, or empathy. You could try to manipulate your friends with social pressure (but `Sway` might be better).
-
-When you `Command`, you compel swift obedience with skills and respect.
-
-> You might intimidate or threaten to get what you want. You might ask a small militia to get their things together. You might order your undead minions to sacrifice themselves for you. You could also ask your familiar to look for something in a room (but `Bonding` might be better).
-
-When you `Focus`, you concentrate to accomplish a task that requires great strength of mind.
-
-> You might meditate to enter the spirit world. You might concentrate to win a game of chess. You might enter a trance to finish up an important ritual. You could try to pay closer attention to your surroundings beyond what is visible (but `Noticing` might be better).
-
-When you `Sway`, you influence with guile, charm, or argument.
-
-> You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but `Bonding` or `Commanding` might be better).
-
-
 ## Momentum
 
 When a player gets a successful action roll, that roll generates `momentum`.
@@ -2012,7 +1987,7 @@ PCs consume momentum to boost their action rolls. They also use it to resist con
 
 If you want, you can add bonus dice to your action roll by using **one** of the following methods.
 
-###  Push Yourself
+### Push Yourself
 
 When you `push yourself`, you consume `-2 momentum` **per push** to gain one of the following bonuses.
 
@@ -2022,7 +1997,7 @@ When you `push yourself`, you consume `-2 momentum` **per push** to gain one of 
 
 _Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_
 
-###  Add Tension
+### Add Tension
 
 When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM then offers a complication, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
@@ -2107,21 +2082,24 @@ As the condition clock gets filled, you also need to update the PC's `condition`
 
 The character's condition imposes narrative restrictions as to what the character can or cannot do.
 
-When the 4 segments of the `condition clock`  are filled, the PC is taken out for the scene and their condition clock is cleared.
+When the 4 segments of the `condition clock` are filled, the PC is taken out for the scene and their condition clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
 
 ## Recovery
 
 As time passes, PCs will get better, and their condition will improve.
 
-If the fiction allows it, once per session clear 1 segment off a PC's condition clock.
+If the fiction allows it, once per session clear 1 segment off a PC's condition clock. Also update the condition text to represent the character's current condition.
 
 ## Progression
 
 As a campaign evolves over time, so will the characters.
-
 So at the end of every session, you can update a character's `details` to represent how they grow over the course of the campaign.
 
-Also, the GM can award the group a new `action dot` for the players to invest in their character's action when a significant event happened in the campaign. This will make the PCs significantly stronger, or more versatile, so use this with parsimony.
+When a big event is concluded in the story, the GM can decide to award the group a new `talent dot`.
+
+Players invest those talent dots to make their characters stronger and more versatile.
+
+A talent either gives the PC a new `action dot`, or a situational talent in the form of `+1 [d6/position/effect] when ______` that gives an action roll bonus in very specific situations.
 
 ## Fortune Rolls
 
@@ -2136,17 +2114,21 @@ Add `+1d6` per likeliness level of that thing hapenning
 
 ## Flashbacks
 
-Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation.
+Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation before it happened. Flashback scenes aren't like timetravel, and can't undo what was already been established.
 
-- The GM sets a cost in `momentum` (0-2) for the player to do a `flashback` scene.
-- If necessary, make an `action roll` or a `fortune roll` to see what happens.
+When a player calls for a flashback scene:
+
+- The GM sets a cost in `momentum` between `0-2` for the scene.
+- Depending on the fiction, either
+  - the player gets what they want.
+  - the GM makes a fortune roll to see what happens.
+  - the player makes an action roll to see what happens.
 
 ## Attribution
 
 This work is based on Charge RPG, product of Fari Games, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 
-This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
-
+This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
 # Licencing
 
@@ -2162,7 +2144,7 @@ To do so, copy the text below in your own game and things should be good to go.
 
 This work is based on Charge RPG, product of Fari Games, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 
-This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
+This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
 ## Powered By Charge
 
@@ -2230,7 +2212,7 @@ If you want, you can also include the following images in your game to say that 
 | English      | Français | Português |
 | ------------ | -------- | --------- |
 | **Physique** |          |           |
-| Brawl        |          |           |
+| Muscle       |          |           |
 | Finesse      |          |           |
 | Move         |          |           |
 | Sneak        |          |           |
