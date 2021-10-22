@@ -23,6 +23,21 @@ export const shop: IShop = {
             itchIo: "https://farigames.itch.io/charge-rpg",
           },
         },
+        {
+          featured: true,
+          name: "Charge SRD",
+          slug: "charge-srd",
+          description:
+            "Power your next game with this condensed version of Charge RPG",
+          license: License.CC_BY_4,
+          footer:
+            "Text by Fari Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+          tags: ["charge-rpg", "ttrpg", "main"],
+          image: "https://gyazo.com/47feb7a73ba2765e03bc70f4d7db6cc7.png",
+          links: {
+            itchIo: "https://farigames.itch.io/charge-rpg",
+          },
+        },
       ],
     },
     {
