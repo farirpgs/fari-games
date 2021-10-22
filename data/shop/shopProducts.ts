@@ -14,11 +14,26 @@ export const shop: IShop = {
           name: "Charge RPG",
           slug: "charge-rpg",
           description: "Ready to use generic RPG system.",
-          license: License.CC_BY_3,
+          license: License.CC_BY_4,
           footer:
-            "Text by Fari Games under a Creative Commons Attribution 3.0 license (CC BY 3.0)",
+            "Text by Fari Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
           tags: ["charge-rpg", "ttrpg", "main"],
-          image: "https://gyazo.com/a8db97f79b14526c0458286383d40d91.png",
+          image: "https://gyazo.com/7eb9b91ba6ab20bf0d639ccfd87c0b95.png",
+          links: {
+            itchIo: "https://farigames.itch.io/charge-rpg",
+          },
+        },
+        {
+          featured: true,
+          name: "Charge SRD",
+          slug: "charge-srd",
+          description:
+            "Power your next game with this condensed version of Charge RPG",
+          license: License.CC_BY_4,
+          footer:
+            "Text by Fari Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+          tags: ["charge-rpg", "ttrpg", "main"],
+          image: "https://gyazo.com/47feb7a73ba2765e03bc70f4d7db6cc7.png",
           links: {
             itchIo: "https://farigames.itch.io/charge-rpg",
           },

@@ -3,6 +3,7 @@ export const gameDocuments: Record<
   () => Promise<typeof import("*?raw")>
 > = {
   "fari-games/charge-rpg": () => import("./fari-games/charge-rpg.md?raw"),
+  "fari-games/charge-srd": () => import("./fari-games/charge-srd.md?raw"),
   "evilhat/fate-condensed": () => import("./evilhat/fate-condensed.md?raw"),
   "evilhat/fate-condensed_pt-br": () =>
     import("./evilhat/fate-condensed_pt-br.md?raw"),
