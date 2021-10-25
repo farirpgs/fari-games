@@ -18,7 +18,7 @@ export const shop: IShop = {
           footer:
             "Text by Fari Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
           tags: ["charge-rpg", "ttrpg", "main"],
-          image: "https://gyazo.com/7eb9b91ba6ab20bf0d639ccfd87c0b95.png",
+          image: "https://gyazo.com/db461bac8eda79fa13f2b81dc03272e3.png",
           links: {
             itchIo: "https://farigames.itch.io/charge-rpg",
           },
@@ -33,7 +33,7 @@ export const shop: IShop = {
           footer:
             "Text by Fari Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
           tags: ["charge-rpg", "ttrpg", "main"],
-          image: "https://gyazo.com/47feb7a73ba2765e03bc70f4d7db6cc7.png",
+          image: "https://gyazo.com/a6eabc2383f01fa9e30be8c1d64596f2.png",
           links: {
             itchIo: "https://farigames.itch.io/charge-rpg",
           },
