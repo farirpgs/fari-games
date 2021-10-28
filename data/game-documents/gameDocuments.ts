@@ -29,4 +29,6 @@ export const gameDocuments: Record<
   "jesse-ross/trophy-srd": () => import("./jesse-ross/trophy-srd.md?raw"),
   "thought-police/motif-toolkit-srd": () =>
     import("./thought-police/motif-toolkit-srd.md?raw"),
+  "live-real-productions/ven6-storytelling-system-srd": () =>
+    import("./live-real-productions/ven6-storytelling-system-srd.md?raw"),
 };

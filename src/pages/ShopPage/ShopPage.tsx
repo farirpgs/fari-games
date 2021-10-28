@@ -16,8 +16,7 @@ import { IShopProductWithAuthor } from "../../../data/shop/types/IShopProduct";
 import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
 import { BetterSlider } from "./components/BetterSlider";
 import { ProductDetails } from "./components/ProductDetails";
-import { ShopCategory } from "./components/ShopCategory";
-import { featuredGames } from "./configs/games";
+import { ShopCategory, useGames } from "./components/ShopCategory";
 
 export function ShopPage() {
   const heroSliderSettings: Settings = {
@@ -31,6 +30,7 @@ export function ShopPage() {
   };
   const theme = useTheme();
   const isSmall = useMediaQuery(theme.breakpoints.down("md"));
+  const featuredGames = useGames("new");
 
   return (
     <Fade in>

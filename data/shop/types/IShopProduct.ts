@@ -18,7 +18,6 @@ export type IShopProduct = {
   description: string;
   image: string;
   tags: Array<string>;
-  featured?: boolean;
   affiliate?: boolean;
   license?: License;
   footer?: string;

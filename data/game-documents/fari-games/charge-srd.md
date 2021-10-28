@@ -5,27 +5,32 @@ textFont: inherit
 highlightFont: Oswald
 ---
 
-# Charge SRD
+# Introductions | Charge SRD
 
-Here's a condensed version of the rules of Charge RPG to include in **Powered by Charge** games.
+This is a condensed version of the rules of Charge RPG that you can use to make your own **Powered by Charge** games.
+
+This document follows a certain format that you can use as a base framework for your game.
+
+You can fill-in the gaps, or tear-it down to build it back up again. Your game, your choice.
+
+We can't wait to see what you will build with this. Enjoy!
 
 > #### Designer Note
 >
-> Text inside blockquotes is for you, the game designer. 
-> 
+> Text inside blockquotes is for you, the game designer.
+>
 > Either it contains relevant design information, or you need to make a choice has to which dial of Charge you want to use for your game.
-> 
+>
 > #### Powered By Charge Logos
-> 
+>
 > Use those logos to show that your game is **Powered by Charge** ⚡
 >
 > <div style="display: flex">
-> 	<img src="https://gyazo.com/27e002466c083bb87b6dfa5a79733ece.png" width="300px" style="margin-bottom: 1rem"/>
-> 	<img src="https://gyazo.com/78a7cba83f98e8ed05e97eae721f9530.png" width="300px" style="margin-bottom: 1rem"/>
+> 	<img style="background: #fff" src="https://gyazo.com/e5bc1209d98efa4fbbce316197004dbb.png" width="300px" style="margin-bottom: 1rem"/>
+> 	<img style="background: #000" src="https://gyazo.com/8b7ee1e4d454279e6a3cf447d4b75658.png" width="300px" style="margin-bottom: 1rem"/>
 > </div>
 
-
-## The Game
+# The Game | Charge SRD
 
 In this game, you and your friends get together to tell an interactive story about a group of fictional character you create. Those characters face obstacles and challenges, and you get to decide how they react. The world then changes based on what the characters do.
 
@@ -34,7 +39,8 @@ In this game, you and your friends get together to tell an interactive story abo
 To play, you will need:
 
 - A set of six-sided dice. At least 6 would be ideal.
-- A pile of index cards
+- A standard deck of playing cards.
+- A pile of index cards.
 - A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
 
 ### Game Master & Players
@@ -53,24 +59,45 @@ Each session is made of `scenes`, like in a movie. Each scene plays out as a bun
 
 During sessions, tension rises during scenes, and the players encounter narrative unknowns. To decide what happens during those moments, the group rolls dice because they want to be on the edge of their seats. They want to be surprised by where the story takes them next.
 
-## Character Creation
+### Safety Tools
+
+If at any point during the game creation process, or when playing a scene, something doesn't click with someone at the table, the game needs to be paused and things need to be aligned and discussed so that **everyone is on the same page**.
+
+One way the GM can help make the table safer for everyone is by using safety tools like the [**X-Card**](https://docs.google.com/document/d/1SB0jsx34bWHZWbnNIVVuMjhDkrdFGo1_hSC2BWPlI3A/edit) by John Stavropoulos, or Beau's [**Script Change RPG Toolbox**](https://briebeau.itch.io/script-change).
+
+This is super important and should not be taken lightly. Everyone at the table should feel safe and comfortable.
+
+If you don't feel safe at a table, it is totally OK to quit and find another group of people to play with. Don't feel bad, and more importantly, respect yourself.
+
+# The Setting | Charge SRD
+
+> #### Designer Note
+>
+> Use this section of the game to explain what is the setting of your game.
+>
+> You can talk about:
+>
+> - The history of the world.
+> - what kind of characters the PCs are going to play.
+> - the different types of problems the PCs might face. etc.
+
+# Character Creation | Charge SRD
 
 Characters are defined by descriptive traits called `details`. Each character usually have between 2-5 details to highlight who they are, and what is important about them.
 
-### Details
-
+## Details
 
 > #### Designer Choice: Choose or Adapt
 >
 > When creating a new character, define their:
-> 
+>
 > - `Concept`: elevator-pitch of the character.
 > - `Appearance`: what the character looks like.
 > - `Ties`: relations that the character has with certain people or organizations.
 
-### Actions
+## Actions
 
-To decide how good characters are at doing things, we have the `actions`.
+To decide how good characters are at doing things, PCs assign points to the following action list:
 
 > #### Designer Choice: Choose or Adapt
 >
@@ -118,6 +145,14 @@ To decide how good characters are at doing things, we have the `actions`.
 
 At the start of a campaign, a single action cannot have more than 2 action dots.
 
+# Mechanics | Charge SRD
+
+This is a **fiction first** game.
+
+This means that the GM and the players tell a story, and afterwards look at the rules to see if something needs to be resolved using the game's mechanics.
+
+You can see the mechanics in Charge as tools in a box to use as needed. They resolve situations where you don't know the direct answers to a question.
+
 ## Rolling Dice
 
 The game uses six-sided dice. You roll several at once, which we call a dice pool, and read the **single highest result**.
@@ -158,9 +193,9 @@ You start every session with `2`, and generate more `momentum` when making actio
 PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and their teammates.
 
 > #### Designer Note
-> 
-> For you game, don't hesitate to change when `Momentum` is gained and how much is generated when it's gained. 
-> 
+>
+> For you game, don't hesitate to change when `Momentum` is gained and how much is generated when it's gained.
+>
 > Changing this will affect the whole theme of your game making it feel either grimmer or bigger than life.
 
 ## Boosting Action Rolls
@@ -281,11 +316,11 @@ Players invest those talent dots to make their characters stronger and more vers
 
 A talent either gives the PC a new `action dot`, or a `situational talent` that gives a bonus or certain narrative liberty during a specific situation:
 
-- `+1d6 when ______` 
-- `+1 position when ______` 
-- `+1 effect when ______` 
-- `Use [action] instead of [action] when ______` 
-- `[narrative liberties] when ______` 
+- `+1d6 when ______`
+- `+1 position when ______`
+- `+1 effect when ______`
+- `Use [action] instead of [action] when ______`
+- `[narrative liberties] when ______`
 
 ## Fortune Rolls
 
@@ -310,11 +345,133 @@ When a player calls for a flashback scene:
   - the GM makes a fortune roll to see what happens.
   - the player makes an action roll to see what happens.
 
+# The World | Charge SRD
+
+During sessions, the PCs will go on missions to accomplish objectives. They will then come back to their H.Q. to debrief, rest and recover.
+
+At the start of a campaign, or **every time the PCs come back to their H.Q.**, the GM draws **3 `setting hook cards`** of a standard deck of playing cards.
+
+- The first card tells us about something related to [Setting Hook Group #1].
+- The second card tells us about something related to [Setting Hook Group #2].
+- The third tells the GM what the PC's next mission is going to be.
+
+The GM can use those setting hooks to create narrative threads for the PCs to explore and bring life to the world.
+
+> #### Designer Note
+>
+> Change the setting hooks to match your game's settings.
+>
+> - A game about a the crew of a space ship trying to make ends meet could have: The Ship / The Crew / The Next Job
+> - A game about a thieving crew could have: The Crew / The Other Factions / The Next Score
+> - A game about super heroes in a big city could have: The City / The News / The Next Case
+
+<details open>
+	<summary>
+   **1st Card: [Setting Hooks Group #1]**
+	</summary>
+- **Ace**: [prompt] 
+- **2**: [prompt] 
+- **3**: [prompt] 
+- **4**: [prompt] 
+- **5**: [prompt] 
+- **6**: [prompt] 
+- **7**: [prompt] 
+- **8**: [prompt] 
+- **9**: [prompt] 
+- **10**: [prompt] 
+- **Jack**: [prompt] 
+- **Queen**: [prompt] 
+- **King**: [prompt] 
+</details>
+
+<details>
+	<summary>
+   **2nd Card: [Setting Hooks Group #2]**
+	</summary>
+- **Ace**: [prompt] 
+- **2**: [prompt] 
+- **3**: [prompt] 
+- **4**: [prompt] 
+- **5**: [prompt] 
+- **6**: [prompt] 
+- **7**: [prompt] 
+- **8**: [prompt] 
+- **9**: [prompt] 
+- **10**: [prompt] 
+- **Jack**: [prompt] 
+- **Queen**: [prompt] 
+- **King**: [prompt] 
+</details>
+
+<details>
+	<summary>
+   **3rd Card: The Mission**
+	</summary>
+- **Ace**: [prompt] 
+- **2**: [prompt] 
+- **3**: [prompt] 
+- **4**: [prompt] 
+- **5**: [prompt] 
+- **6**: [prompt] 
+- **7**: [prompt] 
+- **8**: [prompt] 
+- **9**: [prompt] 
+- **10**: [prompt] 
+- **Jack**: [prompt] 
+- **Queen**: [prompt] 
+- **King**: [prompt] 
+</details>
+
+Once the 3 setting hook cards drawn, the GM uses the prompts on the first two to explain what happened while the PCs were away. The PCs can then spend time exploring those threads as they see fit.
+
+When the PCs are ready for their next mission, the GM makes a `mission roll`.
+
+To do so, the GM looks at the 3 hook cards they've drawn, and builds a dice pool of `1d6` for each red hook card (<span style="color:red">♥ ♦</span>).
+
+If there's no red card, roll `2d6`, and select the lowest number.
+
+The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting the next mission.
+
+- On a `1-3`, the PCs start in a `desperate` position.
+- On a `4-5`, the PCs start in a `risky` position.
+- On a `6`, the PCs start in a `controlled` position.
+- On a `66`, the PCs start in a `controlled` position, and gain some additional benefit.
+
+The GM introduces the mission to the PCs, and they decide how they will approach the situation.
+
+Once they've decided on a strategy, the GM cuts to the first scene of the mission using the result of the mission roll to describe the PCs current position.
+
+Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
+
+# World Forces | Charge SRD
+
+> #### Designer Note
+>
+> Define a couple of `world forces` for your setting.
+>
+> A `force` is something or someone with goals looking to change the status quo in significant and narratively interesting ways.
+>
+> This could be a person, but it could also be an organization, a country, a planet, mother nature, or the space-time continuum!
+>
+> For each force you create, define what their `goal` is. Their goal defines the impact the force will have on the world. A goal isn't necessarily good or bad— it is merely what the force wants to accomplish. It can also be considered to be "good" by the Force itself, but others might have different view on the subject.
+>
+> Lastly, define 2-3 `methods` the force is going to use to interact with the world in the hope of achieving their goal
+>
+> Here's an example of what a world force could look like:
+>
+> #### Force Example
+>
+> **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
+>
+> - _Finding dirt on the government to expose corruption._
+> - _Convincing the real king to take back what is theirs._
+> - _Finding money to hire mercenaries to fight an eventual war._
+
 # Licencing
 
-Charge is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
+The Charge SRD is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
-That means that if you want to make a game using or inspired by this game, you just need to give us attribution for our work.
+That means that if you want to make a game using or based by this game, you just need to give us attribution for our work.
 
 Because Charge is based off Blades in the Dark, you would also need to include attribution to the creators of this game as well.
 
@@ -331,8 +488,8 @@ This work is also based on Blades in the Dark (found at [http://www.bladesinthed
 If you want, you can also include the following images in your game to say that it's powered by Charge.
 
 <div style="display: flex">
-	<img src="https://gyazo.com/27e002466c083bb87b6dfa5a79733ece.png" width="300px" style="margin-bottom: 1rem"/>
-	<img src="https://gyazo.com/78a7cba83f98e8ed05e97eae721f9530.png" width="300px" style="margin-bottom: 1rem"/>
+	<img style="background: #fff" src="https://gyazo.com/e5bc1209d98efa4fbbce316197004dbb.png" width="300px" style="margin-bottom: 1rem"/>
+	<img style="background: #000" src="https://gyazo.com/8b7ee1e4d454279e6a3cf447d4b75658.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
 
 # Credits

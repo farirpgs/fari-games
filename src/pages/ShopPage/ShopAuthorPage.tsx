@@ -55,7 +55,7 @@ export function ShopAuthorPage() {
               <ShopCategory
                 excludeProduct={firstGame}
                 name={`You Might Also Like... `}
-                tags={"main"}
+                tags={"srd"}
                 count={4}
               />
             </Box>

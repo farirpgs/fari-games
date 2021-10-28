@@ -39,6 +39,7 @@ export function Navbar() {
 
   return (
     <Box
+      displayPrint="none"
       className={css({
         width: "100%",
         background: theme.palette.primary.main,

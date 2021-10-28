@@ -25,6 +25,10 @@ It is also open licensed. Which means you can use it for free. You can also make
 
 ## Charge SRD
 
+<a href="/en/srds/fari-games/charge-srd">
+	<img width="320px" src="https://gyazo.com/7a7d4cecbf087f5d66cb1b16d30271ad.png">
+</a>
+
 If you want to make **Powered by Charge** game, check-out the [Charge SRD](/en/srds/fari-games/charge-srd) to get started.
 
 ### Credits
@@ -35,13 +39,13 @@ This work is based on Blades in the Dark (found at [http://www.bladesinthedark.c
 
 Now, one of the first things you probably want to know is: **who is this game for?**
 
-_This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to get there._
+_This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to succeed._
 
 Now, let's power your storytelling ⚡
 
 ## Contributing
 
-One of the core part of what makes this game unique is that it **belongs to the community**.
+One of the core parts of what makes this game unique is that it **belongs to the community**.
 
 The game is free, released under an open game license, and welcomes contributions.
 
@@ -51,8 +55,7 @@ What we mean by that is that you can:
 
 - Suggest core rules updates
 - Provide new Extras
-- Help rise the quality and reachability of the game by proofreading or translating it
-- etc.
+- Help improve the quality and reachability of the game by proofreading or translating it etc.
 
 If you contribute to this project in any way, your name will be properly credited on the first page of the game. If you designed a specific extra for the game, your name will also be credited there.
 
@@ -95,13 +98,13 @@ Let's build something incredible, together.
 
 There are thousands of great table-top role-playing games out there. Some are generic, like Charge, and others are made with a very specific setting in mind. In the latter, mechanics are often created to reinforce the setting.
 
-Charge is generic, which means you get to pick the world and setting you want to play in. You could play in Sci-Fi setting where new planets are still being discovered and terraformed every year, or on Earth during the British Industrial Revolution. You get to choose.
+Charge is generic, which means you get to pick the world and setting you want to play in. You could play in a Sci-Fi setting where new planets are still being discovered and terraformed every year, or on Earth during the British Industrial Revolution. You get to choose.
 
 Because settings can differ greatly, Charge's game mechanics were made with very specific goals in mind to help you create the story you want to tell.
 
 ## The Idea Behind Charge
 
-Here a some things that makes Charge special compare to other games you might have played before.
+Here are some things that makes Charge special compared to other games you might have played before.
 
 **It's easy to create characters for any settings.**
 
@@ -111,7 +114,7 @@ Here a some things that makes Charge special compare to other games you might ha
 
 **It offers easy to tune dials and extras to have "grimmer" up to "bigger than life" adventures.**
 
-> From a post-apocalyptic survival adventure where each bullet counts, to a grand space opera where the heroes always prevail, the mechanics are easily tunable to reflect the kind of story you want to tell.
+> From a post-apocalyptic survival adventure where each bullet counts, to a grand space opera where the heroes always prevail, the mechanics are easily tuneable to reflect the kind of story you want to tell.
 >
 > Either adjust the main difficulty setting of the game, or use one of the many `extras` provided to play the way you want to.
 
@@ -129,7 +132,7 @@ You will like this game if:
 - you like when your character starts competent and gradually becomes more flexible
 - you like playing Fate or Forged in the Dark games
 
-Charge also brings new interesting ideas to the table, like a new flexible progression framework and new mechanics to make players want to interact with the world instead of saying still on the back-seat waiting for the best moment to act.
+Charge also brings new interesting ideas to the table, like a flexible progression framework and mechanics to make players want to interact with the world instead of saying still on the back-seat waiting for the best moment to act.
 
 We hope you have fun with this, because we sure had fun writing it and playing it.
 
@@ -140,7 +143,7 @@ Now, let us go over what you need to play Charge!
 To play Charge, you need:
 
 - Copies of the [Charge RPG Character Sheet](/documents/charge-rpg/character-sheet.pdf)
-- A pile of index cards
+- A pile of index cards or small pieces of paper to draw things on.
 - A set of six-sided dice. At least 6 would be ideal.
 - A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
 
@@ -150,7 +153,7 @@ And that's it.
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/3cbb1bac26449de5d6762c699efe5585.png)](https://pixabay.com/photos/spaceship-ufo-rock-mountains-5848274/)
 
-Charge is a generic table-top role-playing game. That means that you and your friends get together to tell an interactive story about a group of fictional character you create. Those characters face obstacles and challenges, and you get to decide how they react. The world then changes based on what the characters do.
+Charge is a generic table-top role-playing game. That means that you and your friends get together to tell an interactive story about a group of fictional characters you create. Those characters face obstacles and challenges, and you get to decide how they react. The world then changes based on what the characters do.
 
 ## Game Master & Players
 
@@ -204,7 +207,7 @@ Then, patiently wait until the next session. And while you are waiting, remember
 
 As a player, you create a `character`.
 
-Your character is defined by certain traits, and tied to certain elements of the world they live in. They will affect the world around them with their `actions`. Through their actions might come `consequences` which might inflict `stress` or worsen their `condition`.
+Your character is defined by certain traits, and tied to certain elements of the world they live in. They will affect the world around them with their `actions`. Through their actions lead to `consequences` which might inflict `stress` or worsen their `condition`.
 
 The `details` of your characters are a good way to make your characters unique in the fiction, but Charge uses `talents` to make each character shine in their own special way.
 
@@ -227,8 +230,7 @@ A good concept could include things like:
 - their profession or role within the group
 - where they come from
 - a personality trait
-- a unique talent they possess
-- etc.
+- a unique talent they possess etc.
 
 ```
 TODO: Include Examples
@@ -299,11 +301,11 @@ For now let's look at the 12 different types of actions.
 
 When you `Muscle`, you use your force to move, overcome or wreck the obstacle in front of you.
 
-> You might lift, punch, grapple, hack and slash. You might wrestle with a wild animal. You might blast a door open. You could try to fight in a formal duel (but `Finessing` might be better).
+> You might lift, punch, grapple, hack and slash. You might wrestle with a wild animal. You might blast a door open. You could try to fight in a formal duel (but `Finesse` might be better).
 
 When you `Finesse`, you employ dexterous manipulation or subtle misdirection.
 
-> You might steal something from someone's pocket. You might hack a security system. You might helm the controls of a ship. You could try to pick a lock (but `Tinkering` might be better).
+> You might steal something from someone's pocket. You might hack a security system. You might helm the controls of a ship. You could try to pick a lock (but `Tinker` might be better).
 
 When you `Move`, you quickly shift to a new position or get out of danger.
 
@@ -317,19 +319,19 @@ When you `Sneak`, you traverse skillfully and quietly.
 
 When you `Shoot`, you carefully track and shoot at a target.
 
-> You might snipe an enemy long-distance. You might throw a fireball to light the battlefield on fire. You might aim the ship's laser guns. You could try skillfully throw a dart in a bar game (but `Finessing` might be better).
+> You might snipe an enemy long-distance. You might throw a fireball to light the battlefield on fire. You might aim the ship's laser guns. You could try skillfully throw a dart in a bar game (but `Finesse` might be better).
 
 When you `Tinker`, you understand, create, or repair complex mechanisms or organisms.
 
-> You might create a new gadget or alter an existing item. You might mend a broken bone. You could try to use your technical expertise to control a vehicle (but `Finessing` might be better).
+> You might create a new gadget or alter an existing item. You might mend a broken bone. You could try to use your technical expertise to control a vehicle (but `Finesse` might be better).
 
 When you `Study`, you scrutinize details and interpret evidence.
 
-> You might gather information from documents, newspapers, and books. You might closely analyze a person to detect lies or true feelings. You could try to examine events to understand a pressing situation (but `Noticing` might be better).
+> You might gather information from documents, newspapers, and books. You might closely analyze a person to detect lies or true feelings. You could try to examine events to understand a pressing situation (but `Notice` might be better).
 
 When you `Notice`, you observe the situation and anticipate outcomes.
 
-> You might pick up important details in the moment. You might anticipate danger before it happens. You could try to figure out what is making someone sick (but `Studying` might be better).
+> You might pick up important details in the moment. You might anticipate danger before it happens. You could try to figure out what is making someone sick (but `Study` might be better).
 
 #### Resolve
 
@@ -339,15 +341,15 @@ When you `Bond`, you reassure and socialize with friends and contacts.
 
 When you `Command`, you compel swift obedience with skills and respect.
 
-> You might intimidate or threaten to get what you want. You might ask a small militia to get their things together. You might order your undead minions to sacrifice themselves for you. You could also ask your familiar to look for something in a room (but `Bonding` might be better).
+> You might intimidate or threaten to get what you want. You might ask a small militia to get their things together. You might order your undead minions to sacrifice themselves for you. You could also ask your familiar to look for something in a room (but `Bond` might be better).
 
 When you `Focus`, you concentrate to accomplish a task that requires great strength of mind.
 
-> You might meditate to enter the spirit world. You might concentrate to win a game of chess. You might enter a trance to finish up an important ritual. You could try to pay closer attention to your surroundings beyond what is visible (but `Noticing` might be better).
+> You might meditate to enter the spirit world. You might concentrate to win a game of chess. You might enter a trance to finish up an important ritual. You could try to pay closer attention to your surroundings beyond what is visible (but `Notice` might be better).
 
 When you `Sway`, you influence with guile, charm, or argument.
 
-> You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but `Bonding` or `Commanding` might be better).
+> You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but `Bond` or `Command` might be better).
 
 ### **Which Action to Pick for a Roll**
 
@@ -359,13 +361,15 @@ As a player, you get to choose which action you roll by simply saying what your 
 
 ## Momentum
 
-A character's `momentum` is a track that represents the _momentum_ of your character. The more you interact with the world, and the people that live in it, the more your character gains `charges of momentum`.
+A character's `momentum` is a measure that represents the impact of your character on the world. The more you interact with the world, and the people that live in it, the more your character gains `charges of momentum`.
 
 You then consume those charges to boost your action rolls or assist your teammates.
 
 ![](https://gyazo.com/e0aac9468c6a2a2932e59da933c64e21.png)
 
-When you are out of momentum, things can go bad pretty quickly since you also it them to resist incoming consequences or harm.
+When you are out of momentum, things can go bad pretty quickly since you also use momentum to resist incoming consequences or harm.
+
+Characters start with 2 momentum at the beginning of each session.
 
 ## Stress & Condition
 
@@ -377,11 +381,11 @@ Each character has a `condition` that is tied to a `condition clock` which inclu
 
 ![Condition](https://gyazo.com/468a4a981adfbc795ef328b3b95e798a.png)
 
-When you get hurt, you take a certain amount of `stress`, and each stress ticks a segment on your `condition clock`. Depending on the number of segments ticked, you represent how your character is doing by updating your `condition` which is represented by a little text field below the clock.
+When you get hurt, you take a certain amount of `stress`, and each stress ticks a segment on your `condition clock`. The numbe of segments ticked represents how your character is doing by updating your `condition` which is represented by a little text field below the clock.
 
 When a character has a condition, their narrative liberties are restricted by said condition.
 
-For example, it's almost impossible to climb on the roof of a house with a _Twisted Anlke_. So even if you have only **2 segments** ticked on your condition clock, your condition in and of itself still imposes narrative restrictions on what your character can do.
+For example, it's almost impossible to climb on the roof of a house with a \_Twisted Ankle. So even if you have only **2 segments** ticked on your condition clock, your condition in and of itself still imposes narrative restrictions on what your character can do.
 
 Here are a couple examples of conditions:
 
@@ -1847,13 +1851,11 @@ This should help your players find interesting ideas for their characters since 
 
 # Licencing
 
-Charge is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
+The Charge SRD is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
-That means that if you want to make a game using or inspired by this game, you just need to give us attribution for our work.
+That means that if you want to make a game using or based by this game, you just need to give us attribution for our work.
 
 Because Charge is based off Blades in the Dark, you would also need to include attribution to the creators of this game as well.
-
-
 
 To do so, copy the text below in your own game and things should be good to go.
 
@@ -1867,9 +1869,9 @@ This work is also based on Blades in the Dark (found at [http://www.bladesinthed
 
 If you want, you can also include the following images in your game to say that it's powered by Charge.
 
-<div style="display: flex">
-	<img src="https://gyazo.com/27e002466c083bb87b6dfa5a79733ece.png" width="300px" style="margin-bottom: 1rem"/>
-	<img src="https://gyazo.com/78a7cba83f98e8ed05e97eae721f9530.png" width="300px" style="margin-bottom: 1rem"/>
+<div style="display: flex;">
+	<img style="background: #fff" src="https://gyazo.com/e5bc1209d98efa4fbbce316197004dbb.png" width="300px" style="margin-bottom: 1rem"/>
+	<img style="background: #000" src="https://gyazo.com/8b7ee1e4d454279e6a3cf447d4b75658.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
 
 # Glossary

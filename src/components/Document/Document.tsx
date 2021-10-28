@@ -157,6 +157,7 @@ export function Document(props: {
     }
     return (
       <Box
+        displayPrint="none"
         p=".5rem"
         className={css({
           position: "fixed",
@@ -206,7 +207,8 @@ export function Document(props: {
 
     return (
       <>
-        <div
+        <Box
+          displayPrint="none"
           className={css({
             background: theme.palette.background.paper,
             boxShadow: theme.shadows[1],
@@ -231,7 +233,7 @@ export function Document(props: {
             </>
           )}
           {props.renderSideBarFooter?.()}
-        </div>
+        </Box>
       </>
     );
   }
@@ -298,7 +300,7 @@ export function Document(props: {
                     className={css({
                       width: "1rem",
                       height: "1rem",
-                      transform: false ? "rotate(90deg)" : "rotate(0deg)",
+                      transform: open ? "rotate(90deg)" : "rotate(0deg)",
                       transition: theme.transitions.create("transform"),
                     })}
                   />
@@ -553,7 +555,7 @@ export function Document(props: {
     const numberOfWordsInChapter = chapter?.numberOfWordsInChapter ?? 0;
     const time = Math.round(numberOfWordsInChapter / wordsPerMinute);
     return (
-      <Box position="absolute" right="0">
+      <Box position="absolute" right="0" displayPrint="none">
         <Typography variant="caption" color={theme.palette.text.secondary}>
           {time > 0 ? time : 1} min read
         </Typography>
@@ -605,162 +607,168 @@ export function Document(props: {
 
   function renderSmallPreviousNextNavigation() {
     return (
-      <Grid
-        container
-        spacing={1}
-        justifyContent="space-between"
-        alignItems="center"
-      >
-        <Grid item>
-          {chapter.previousChapter?.id && (
-            <ReactRouterLink
-              to={props.makeChapterLink(chapter.previousChapter?.id)}
-              className={css({ color: "inherit", textDecoration: "none" })}
-              onClick={() => {
-                track("go_to_previous", {
-                  game: props.slug,
-                  index: chapter.previousChapter?.id,
-                });
-              }}
-            >
-              <Button color="inherit">« {chapter.previousChapter?.text}</Button>
-            </ReactRouterLink>
-          )}
+      <Box displayPrint="none">
+        <Grid
+          container
+          spacing={1}
+          justifyContent="space-between"
+          alignItems="center"
+        >
+          <Grid item>
+            {chapter.previousChapter?.id && (
+              <ReactRouterLink
+                to={props.makeChapterLink(chapter.previousChapter?.id)}
+                className={css({ color: "inherit", textDecoration: "none" })}
+                onClick={() => {
+                  track("go_to_previous", {
+                    game: props.slug,
+                    index: chapter.previousChapter?.id,
+                  });
+                }}
+              >
+                <Button color="inherit">
+                  « {chapter.previousChapter?.text}
+                </Button>
+              </ReactRouterLink>
+            )}
+          </Grid>
+          <Grid item>
+            {chapter.nextChapter?.id && (
+              <ReactRouterLink
+                to={props.makeChapterLink(chapter.nextChapter?.id)}
+                className={css({ color: "inherit", textDecoration: "none" })}
+                onClick={() => {
+                  track("go_to_next", {
+                    game: props.slug,
+                    index: chapter.nextChapter?.id,
+                  });
+                }}
+              >
+                <Button color="inherit">{chapter.nextChapter?.text} »</Button>
+              </ReactRouterLink>
+            )}
+          </Grid>
         </Grid>
-        <Grid item>
-          {chapter.nextChapter?.id && (
-            <ReactRouterLink
-              to={props.makeChapterLink(chapter.nextChapter?.id)}
-              className={css({ color: "inherit", textDecoration: "none" })}
-              onClick={() => {
-                track("go_to_next", {
-                  game: props.slug,
-                  index: chapter.nextChapter?.id,
-                });
-              }}
-            >
-              <Button color="inherit">{chapter.nextChapter?.text} »</Button>
-            </ReactRouterLink>
-          )}
-        </Grid>
-      </Grid>
+      </Box>
     );
   }
 
   function renderPreviousNextNavigation() {
     return (
-      <Grid
-        container
-        spacing={1}
-        // justifyContent="space-between"
-        alignItems="stretch"
-        className={css({
-          color: theme.palette.text.disabled,
-        })}
-      >
-        {chapter.previousChapter?.id && (
-          <Grid item xs={12} md={chapter.nextChapter?.id ? 6 : 12}>
-            <ReactRouterLink
-              to={props.makeChapterLink(chapter.previousChapter?.id)}
-              className={css({
-                color: "inherit",
-                textDecoration: "none",
-                height: "100%",
-              })}
-              onClick={() => {
-                track("go_to_previous", {
-                  game: props.slug,
-                  index: chapter.previousChapter?.id,
-                });
-              }}
-            >
-              <Button
-                fullWidth
-                variant="outlined"
-                startIcon={
-                  <ArrowBackIcon
-                    className={css({
-                      width: "1.5rem",
-                      height: "1.5rem",
-                    })}
-                  />
-                }
+      <Box displayPrint="none">
+        <Grid
+          container
+          spacing={1}
+          // justifyContent="space-between"
+          alignItems="stretch"
+          className={css({
+            color: theme.palette.text.disabled,
+          })}
+        >
+          {chapter.previousChapter?.id && (
+            <Grid item xs={12} md={chapter.nextChapter?.id ? 6 : 12}>
+              <ReactRouterLink
+                to={props.makeChapterLink(chapter.previousChapter?.id)}
                 className={css({
+                  color: "inherit",
+                  textDecoration: "none",
                   height: "100%",
-                  padding: "1.5rem 1rem",
-                  textAlign: "right",
                 })}
-                color="inherit"
-                size="large"
+                onClick={() => {
+                  track("go_to_previous", {
+                    game: props.slug,
+                    index: chapter.previousChapter?.id,
+                  });
+                }}
               >
-                <Grid container>
-                  <Grid item xs={12}>
-                    <Typography color="textSecondary" variant="caption">
-                      Previous
-                    </Typography>
+                <Button
+                  fullWidth
+                  variant="outlined"
+                  startIcon={
+                    <ArrowBackIcon
+                      className={css({
+                        width: "1.5rem",
+                        height: "1.5rem",
+                      })}
+                    />
+                  }
+                  className={css({
+                    height: "100%",
+                    padding: "1.5rem 1rem",
+                    textAlign: "right",
+                  })}
+                  color="inherit"
+                  size="large"
+                >
+                  <Grid container>
+                    <Grid item xs={12}>
+                      <Typography color="textSecondary" variant="caption">
+                        Previous
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12}>
+                      <Typography color="textPrimary" fontWeight="bold">
+                        {chapter.previousChapter?.text}
+                      </Typography>
+                    </Grid>
                   </Grid>
-                  <Grid item xs={12}>
-                    <Typography color="textPrimary" fontWeight="bold">
-                      {chapter.previousChapter?.text}
-                    </Typography>
-                  </Grid>
-                </Grid>
-              </Button>
-            </ReactRouterLink>
-          </Grid>
-        )}
-        {chapter.nextChapter?.id && (
-          <Grid item xs={12} md={chapter.previousChapter?.id ? 6 : 12}>
-            <ReactRouterLink
-              to={props.makeChapterLink(chapter.nextChapter?.id)}
-              className={css({
-                color: "inherit",
-                textDecoration: "none",
-                height: "100%",
-              })}
-              onClick={() => {
-                track("go_to_next", {
-                  game: props.slug,
-                  index: chapter.nextChapter?.id,
-                });
-              }}
-            >
-              <Button
-                fullWidth
-                variant="outlined"
-                endIcon={
-                  <ArrowForwardIcon
-                    className={css({
-                      width: "1.5rem",
-                      height: "1.5rem",
-                    })}
-                  />
-                }
+                </Button>
+              </ReactRouterLink>
+            </Grid>
+          )}
+          {chapter.nextChapter?.id && (
+            <Grid item xs={12} md={chapter.previousChapter?.id ? 6 : 12}>
+              <ReactRouterLink
+                to={props.makeChapterLink(chapter.nextChapter?.id)}
                 className={css({
+                  color: "inherit",
+                  textDecoration: "none",
                   height: "100%",
-                  padding: "1.5rem 1rem",
-                  textAlign: "left",
                 })}
-                color="inherit"
-                size="large"
+                onClick={() => {
+                  track("go_to_next", {
+                    game: props.slug,
+                    index: chapter.nextChapter?.id,
+                  });
+                }}
               >
-                <Grid container>
-                  <Grid item xs={12}>
-                    <Typography color="textSecondary" variant="caption">
-                      Next
-                    </Typography>
+                <Button
+                  fullWidth
+                  variant="outlined"
+                  endIcon={
+                    <ArrowForwardIcon
+                      className={css({
+                        width: "1.5rem",
+                        height: "1.5rem",
+                      })}
+                    />
+                  }
+                  className={css({
+                    height: "100%",
+                    padding: "1.5rem 1rem",
+                    textAlign: "left",
+                  })}
+                  color="inherit"
+                  size="large"
+                >
+                  <Grid container>
+                    <Grid item xs={12}>
+                      <Typography color="textSecondary" variant="caption">
+                        Next
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12}>
+                      <Typography color="textPrimary" fontWeight="bold">
+                        {chapter.nextChapter?.text}
+                      </Typography>
+                    </Grid>
                   </Grid>
-                  <Grid item xs={12}>
-                    <Typography color="textPrimary" fontWeight="bold">
-                      {chapter.nextChapter?.text}
-                    </Typography>
-                  </Grid>
-                </Grid>
-              </Button>
-            </ReactRouterLink>
-          </Grid>
-        )}
-      </Grid>
+                </Button>
+              </ReactRouterLink>
+            </Grid>
+          )}
+        </Grid>
+      </Box>
     );
   }
 }
