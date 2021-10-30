@@ -381,7 +381,15 @@ Each character has a `condition` that is tied to a `condition clock` which inclu
 
 ![Condition](https://gyazo.com/468a4a981adfbc795ef328b3b95e798a.png)
 
-When you get hurt, you take a certain amount of `stress`, and each stress ticks a segment on your `condition clock`. The numbe of segments ticked represents how your character is doing by updating your `condition` which is represented by a little text field below the clock.
+When you get hurt, you take a certain amount of `stress`, and each stress ticks a segment on your `condition clock`. The number of segments ticked represents how your character is doing by updating your `condition` which is represented by a little text field below the clock.
+
+> ### A Word on Clocks
+> 
+> Clocks are circles divided in 4, 6 or 8 segments used to track things that evolve over time during the game.
+> 
+> They are used to track a character's condition, the different projects they are working on, the complications that they are creating around them, and even the obstacles that they are facing.
+> 
+> More on clocks in [**Mechanics&nbsp;»&nbsp;Clocks**](mechanics#clocks)
 
 When a character has a condition, their narrative liberties are restricted by said condition.
 
@@ -392,6 +400,7 @@ Here are a couple examples of conditions:
 - When your condition clock has **1 or 2 segments** filled, you might be: exhausted, humiliated, tired, sore, winded, sick, etc.
 - When your condition clock has **3 segments** filled, you might have a gunshot wound, a slash from a blade, a first degree burn, or be completely drunk.
 - When your condition clock reaches **4 filled segments**, you clear the condition clock, and are taken out for the scene. You might have gotten a second degree burn, or a fractured leg, or your brain can't comprehend what is happening anymore.
+
 
 ## Talents
 
@@ -440,7 +449,7 @@ Now we will go over all the mechanics used in the game that exist to resolve unk
 
 This means that the GM and the players tell a story, and afterwards look at the rules to see if something needs to be resolved using the game's mechanics.
 
-You can see the mechanics in Charge as tools in a box to use as needed. They resolve situations where you don't know the direct answers to a question.
+You can see the mechanics in Charge as tools in a box, to use as needed. They resolve situations where you don't know the direct answers to a question.
 
 **_Will this character find what they are looking for? Can that character convince this merchant to talk? How will this faction react to this big event? etc._**
 
@@ -504,19 +513,26 @@ For now, let's take a look at the different tools you can use to resolve the dif
 
 ## Position
 
-If an obstacle is in your way, you are in a `controlled`, `risky`, or `desperate` position. The GM is responsible for telling you this information.
+If an obstacle is in your way, the GM needs to tell you in which `position` you are.
 
-In most common scenarios, if you roll to overcome something, you are probably in a `risky` position.
+A situation is either in a `controlled`, `risky`, or `desperate` position. 
 
-Multiple things can affect your current position. You may be vastly outnumbered, or perhaps you are just out of time. The narrative context will help you and the GM decide your current position.
+- In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out. 
+- In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
+- In a `desperate` position, the odds are against you. Tempting to go against them might backfire heavily.
 
-If the merchant you are trying to convince is in a bad mood, using `Sway` might be a pretty `desperate` move. Perhaps `Bond` could put you in a more `controlled` situation.
+By default, if you roll to overcome something, you are probably in a `risky` position.
+
+The GM will use the narrative context to determine which position to pick.
+
+Another thing that might affect the position is which `action` is being used. If a merchant you are trying to convince is in a bad mood, using `Sway` might be pretty `desperate`. `Bond` on the other hand could put you in a more `controlled` position.
+
+The position helps you determine what failure might look like. To know what success looks like, the GM tells you the potential `effect` of your roll.
 
 > #### What Position to Pick
 >
 > If you aren't sure of your current situation, talk with the rest of the table. A quick discussion is usually enough to clear things up.
 
-Your position helps you determine what failure might look like. Once you know your position, the GM will tell you what it might look like to succeed on your roll.
 
 ## Effect
 
@@ -524,7 +540,7 @@ Your position isn't the only thing helping you dictate the end result of a roll.
 
 In Charge, there are 3 possible effect ratings: `great`, `standard`, and `limited`. In most common scenarios, if you are rolling to overcome something, you are probably looking at generating a `standard` effect. The GM is responsible for telling you this information.
 
-If a heavy door is blocking your way, you could use `Finesse` to pick the lock. This might generate a `standard effect`, since it takes some time to do, but it's a more `controlled position`. You could also try to use `Tinker` and wreck the door open with an explosive. This will be of `great effect`, but might be a `desperate move`, since it could create a lot of unwanted attention.
+If a heavy door is blocking your way, you could use `Finesse` to pick the lock. This might generate a `standard effect`, since it takes some time to do, but it's a more `controlled position`. You could also try to use `Tinker` and wreck the door open with an explosive. This will be of `great effect`, but might be a `desperate` position, since it could create a lot of unwanted attention.
 
 The Effect Rating is there to help you determine what success might look like.
 
@@ -574,13 +590,15 @@ When you `push yourself`, you consume `-2 momentum` **per push** to gain one of 
 - Gain `+1 effect rating` for your roll.
 - Take action even if you were taken out.
 
-> _Note: you `push yourself` in a action roll, that roll won't generate `momentum`_
+> _Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_
 
 #### Add Tension
 
-When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM then offers a complication, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
+When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM can then offers a complication, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
 If you accept the deal, add `+1d6` to your dice pool.
+
+It is to be noted that there could be scenarios where adding tension isn't an option. In that case, the GM can simply communicate that to the player so that they look into other ways to boost their roll.
 
 #### Use an Asset
 
@@ -670,11 +688,11 @@ This represents shifting circumstance. What you tried didn't work, and now there
 >
 > ---
 >
-> _You were tailing on someone, but they saw you and disappeared. You were fighting a robot, but they adapted, and are now able to anticipate your every move._
+> _You were tailing someone, but they saw you and disappeared. You were fighting a robot, but they adapted, and are now able to anticipate your every move._
 
 ### Worse Position
 
-This consequence represents losing control of the situation. The action carries you into a more dangerous \*_position_.
+This consequence represents losing control of the situation. The action carries you into a more dangerous `position`.
 
 Perhaps you make the leap across to the next rooftop, only to end up dangling by your fingertips. You haven't failed, but you haven't succeeded yet, either. You can try again, re-rolling at the new, worse position.
 
@@ -722,7 +740,7 @@ Even with safety mechanics in place, accidents happen. That is why you should al
 
 > #### Consequences
 >
-> If the result of an action roll is between `1-5`, the GM inflicts a **one** consequence:
+> If the result of an action roll is between `1-5`, the GM inflicts **one** consequence:
 >
 > - **Reduced Effect** : reduce the `effect` of the action by one level.
 > - **Complication**: tick one segment per `consequence rating` on a new or existing `danger clock`.
@@ -738,7 +756,7 @@ Even with safety mechanics in place, accidents happen. That is why you should al
 
 If a character suffers a consequence that you, as a player, don't like, you can try to resist it.
 
-You do so by calling for a `determination roll` to see how well you resist the consequence. You make that roll by burning momentum.
+You do so by calling for a `determination roll` to see how well you resist the consequence.
 
 You make that roll by burning momentum. Build a pool of d6s by adding `+1d6` per charge of momentum.
 
@@ -843,7 +861,7 @@ But if for example you want to emphasize the fact that life is hard and resource
 >
 > ---
 >
-> _Note: you `push yourself` in a `action roll`, that roll won't generate `momentum`_
+> _Note: if you `push yourself` in a `action roll`, that roll won't generate `momentum`_
 >
 > ---
 >
@@ -942,7 +960,7 @@ TODO: Include Examples
 
 **_It's dangerous to go alone, take this!_**
 
-There are multiple ways player characters can help each other in Charge. They could **assist** each other, **take the lead** on an action, or perhaps **protect** another PC from danger.
+There are multiple ways player characters can help each other in Charge. They could **assist** each other, make a **setup action**, or even **protect** someone from danger.
 
 ## Assist
 
@@ -955,21 +973,6 @@ When you `assist`, you help another player who's making an action roll. Describe
 > _I can't reach it, can you give me a boost?_
 
 Be warned that, by doing this, you are also exposing yourself to possible consequences that this roll might end up creating.
-
-## **Take the Lead**
-
-When you `take the lead`, you coordinate multiple members of the group to tackle a problem together. Describe how your character is leading the group.
-
-> Each player character who's involved makes an **action roll**. The team counts the **single best result** as the final result.
->
-> The character leading the group action consumes `-1 momentum` for each PC that rolled **1-3** as their best result.
-> If a player can't consume the required momentum, they take
->
-> ---
->
-> _It's fine, I know the way. Just follow me. But don't make a sound, or you'll wake it up._
-
-**The group action result covers everyone who rolled.** If you don't roll, your character doesn't get the effects of the action.
 
 ## Protect
 
@@ -1131,7 +1134,7 @@ We want character creation to be streamlined, so take the time to understand and
 
 _Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
 
-_In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agree saying "My character lived in the forest all their life, and would probably be intimated by big cities. I like it; let's go with this for now!"_
+_In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agree saying "My character lived in the forest all their life, and would probably be intimidated by big cities. I like it; let's go with this for now!"_
 
 # Projects and Complications | Mechanics
 
@@ -1236,7 +1239,6 @@ This chapter will go over the most important bits of the book in a quick recap s
 > | Cost          | Result                                              |
 > | ------------- | --------------------------------------------------- |
 > | `-2 momentum` | `Push yourself` and add `+1d6` to your action roll. |
-> | `-2 momentum` | `Take the lead` on a group action.                  |
 > | `-1 momentum` | `Assist` an ally, add `+1d6` to their action roll.  |
 > | `-1 momentum` | Do a `flashback` scene.                             |
 >
@@ -1317,15 +1319,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 
 ## Team Work
 
-> ### Take the Lead
->
-> Use this to carry the group with your leadership and skills.
->
-> - Leader describes how they take the lead, and consumes `-1 momentum`.
-> - Everyone makes an `action roll`; the best result counts as the group's result.
-> - The leader consumes `-1 momentum` for each player that got a `1-3` as their best result.
-> - The leader doesn't get momentum from the result of that action.
->
+
 > ### Assist
 >
 > Use this to help a fellow PC accomplish their action.
@@ -1446,7 +1440,6 @@ After a conflict between multiple parties is resolved, or when the general tensi
 
 Take note of this asset on your character sheet, and use it when the time is right to get a `+1d6` or `increased effect` on an action roll.
 
-If more than one player is scavenging, you can do a group roll using the `take the lead` mechanic.
 
 > **Loot Roll**
 >
@@ -1485,7 +1478,7 @@ This is intended to those moments when, you are by yourself, you are the last ho
 
 I have a tendency to make one to one games (one GM and one player), and Charge revolves around Momentum being gained and spent.
 
-Almost all mechanics about spending Momentum relies on having someone else available to assist you. So, by reducing the cost of Pushing Yourself, you allow for a higher flow of Momentum, which is more fair since no one can Assist, Take the Lead, and so on.
+Almost all mechanics about spending Momentum relies on having someone else available to assist you. So, by reducing the cost of Pushing Yourself, you allow for a higher flow of Momentum, which is more fair since no one can Assist each other.
 
 So, in short:
 
@@ -1909,7 +1902,6 @@ If you want, you can also include the following images in your game to say that 
 | -------------- | -------- | --------- |
 | Momentum       |          |           |
 | Push Yourself  |          |           |
-| Take the Lead  |          |           |
 | Assist an Ally |          |           |
 | Flashback      |          |           |
 
