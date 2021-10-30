@@ -349,17 +349,17 @@ When a player calls for a flashback scene:
 
 During sessions, the PCs will go on missions to accomplish objectives. They will then come back to their H.Q. to debrief, rest and recover.
 
-At the start of a campaign, or **every time the PCs come back to their H.Q.**, the GM draws **3 `setting hook cards`** of a standard deck of playing cards.
+At the start of a campaign, or **every time the PCs come back to their H.Q.**, the GM draws **3 `hook cards`** of a standard deck of playing cards.
 
-- The first card tells us about something related to [Setting Hook Group #1].
-- The second card tells us about something related to [Setting Hook Group #2].
+- The first card tells us about something related to [Theme #1].
+- The second card tells us about something related to [Thme #2].
 - The third tells the GM what the PC's next mission is going to be.
 
-The GM can use those setting hooks to create narrative threads for the PCs to explore and bring life to the world.
+The GM can use those hooks to create narrative threads for the PCs to explore and bring life to the world.
 
 > #### Designer Note
 >
-> Change the setting hooks to match your game's settings.
+> Change the themes to match your game's settings.
 >
 > - A game about a the crew of a space ship trying to make ends meet could have: The Ship / The Crew / The Next Job
 > - A game about a thieving crew could have: The Crew / The Other Factions / The Next Score
@@ -367,7 +367,7 @@ The GM can use those setting hooks to create narrative threads for the PCs to ex
 
 <details open>
 	<summary>
-   **1st Card: [Setting Hooks Group #1]**
+   **1st Card: [Theme #1]**
 	</summary>
 - **Ace**: [prompt] 
 - **2**: [prompt] 
@@ -386,7 +386,7 @@ The GM can use those setting hooks to create narrative threads for the PCs to ex
 
 <details>
 	<summary>
-   **2nd Card: [Setting Hooks Group #2]**
+   **2nd Card: [Theme #2]**
 	</summary>
 - **Ace**: [prompt] 
 - **2**: [prompt] 
@@ -422,11 +422,11 @@ The GM can use those setting hooks to create narrative threads for the PCs to ex
 - **King**: [prompt] 
 </details>
 
-Once the 3 setting hook cards drawn, the GM uses the prompts on the first two to explain what happened while the PCs were away. The PCs can then spend time exploring those threads as they see fit.
+Once the 3 cards are drawn, the GM uses the prompts on the first two to explain what happened while the PCs were away. The PCs can then spend time exploring those threads as they see fit.
 
 When the PCs are ready for their next mission, the GM makes a `mission roll`.
 
-To do so, the GM looks at the 3 hook cards they've drawn, and builds a dice pool of `1d6` for each red hook card (<span style="color:red">♥ ♦</span>).
+To do so, the GM looks at the 3 cards they've drawn, and builds a dice pool of `1d6` for each red card (<span style="color:red">♥ ♦</span>).
 
 If there's no red card, roll `2d6`, and select the lowest number.
 
