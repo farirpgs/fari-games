@@ -377,11 +377,11 @@ When your character faces dangerous challenges and fails their action roll, some
 
 Maybe the situation is more complicated or even perilous. The alternative to this is that you get hurt. The GM is the one who decides if the `consequence` of the roll is harm or something else.
 
-Each character has a `condition` that is tied to a `condition clock` which includes 4 segments.
+Each character has a `condition` that is tied to a `stress clock` which includes 4 segments.
 
 ![Condition](https://gyazo.com/468a4a981adfbc795ef328b3b95e798a.png)
 
-When you get hurt, you take a certain amount of `stress`, and each stress ticks a segment on your `condition clock`. The number of segments ticked represents how your character is doing by updating your `condition` which is represented by a little text field below the clock.
+When you get hurt, you take a certain amount of `stress`, and each stress ticks a segment on your `stress clock`. The number of segments ticked represents how your character is doing by updating your `condition` which is represented by a little text field below the clock.
 
 > ### A Word on Clocks
 > 
@@ -393,13 +393,13 @@ When you get hurt, you take a certain amount of `stress`, and each stress ticks 
 
 When a character has a condition, their narrative liberties are restricted by said condition.
 
-For example, it's almost impossible to climb on the roof of a house with a \_Twisted Ankle. So even if you have only **2 segments** ticked on your condition clock, your condition in and of itself still imposes narrative restrictions on what your character can do.
+For example, it's almost impossible to climb on the roof of a house with a \_Twisted Ankle. So even if you have only **2 segments** ticked on your stress clock, your condition in and of itself still imposes narrative restrictions on what your character can do.
 
 Here are a couple examples of conditions:
 
-- When your condition clock has **1 or 2 segments** filled, you might be: exhausted, humiliated, tired, sore, winded, sick, etc.
-- When your condition clock has **3 segments** filled, you might have a gunshot wound, a slash from a blade, a first degree burn, or be completely drunk.
-- When your condition clock reaches **4 filled segments**, you clear the condition clock, and are taken out for the scene. You might have gotten a second degree burn, or a fractured leg, or your brain can't comprehend what is happening anymore.
+- When your stress clock has **1 or 2 segments** filled, you might be: exhausted, humiliated, tired, sore, winded, sick, etc.
+- When your stress clock has **3 segments** filled, you might have a gunshot wound, a slash from a blade, a first degree burn, or be completely drunk.
+- When your stress clock reaches **4 filled segments**, you clear it, and are taken out for the scene. You might have gotten a second degree burn, or a fractured leg, or your brain can't comprehend what is happening anymore.
 
 
 ## Talents
@@ -708,11 +708,11 @@ This is a good consequence to choose to show escalating action. A situation migh
 
 This consequence represent injuries or trauma inflicted on a character.
 
-When your condition worsens, you take a certain amount of `stress` on your `condition clock`. You also need to update your `condition ` to represent the new state your character is in.
+When your condition worsens, you take a certain amount of `stress` that you track on the `stress clock`. You also need to update your `condition ` to represent the new state your character is in.
 
 Your new condition will affect the narrative permissions of your character, and how they can interact with the world.
 
-When your condition clocked is filled, you can clear all the segments, and your character is taken out for the scene.
+When your stress clock is filled, you can clear all the segments, and your character is taken out for the scene.
 
 > **Take `1 Stress` per `consequence rating` on your character's `condition`**
 >
@@ -885,7 +885,7 @@ As the game plays out, the PCs will get more stressed out and their condition wi
 
 When a PC accumulates `stress`, their actions are limited because of the narrative restrictions their `condition` creates.
 
-The condition clock exists to pace the game, since not every action will go well, and failing an action has consequences which will affect the characters for some time.
+The stress clock exists to pace the game, since not every action will go well, and failing an action has consequences which will affect the characters for some time.
 
 Things will eventually go back to normal, and the PCs will recover. But for the recovery to happen, it needs to happen in the **fiction first**.
 
@@ -899,7 +899,7 @@ That being said, **Downtime** doesn't mean that all the PCs have to sit down by 
 
 The structure of a game of Charge isn't enforced, so the PCs can do what ever they want, whenever they want.
 
-So **once** per session, if the fiction allows it, clear 1 segment from your `condition clock`.
+So **once** per session, if the fiction allows it, clear 1 segment from your `stress clock`.
 
 We aren't using dice to support this mechanic because we don't believe luck should _generally_ factor in the healing process. Of course, there are moments where it could. If you want, you can use the [Fortune Roll](fortune-roll) mechanic to resolve this type of situation.
 
@@ -909,7 +909,7 @@ We aren't using dice to support this mechanic because we don't believe luck shou
 >
 > Use this to heal and recuperate.
 >
-> - Once per session, if the fiction allows it, clear 1 segment from your `condition clock`.
+> - Once per session, if the fiction allows it, clear 1 segment from your `stress clock`.
 
 # Fortune Roll| Mechanics
 
@@ -1267,9 +1267,9 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - `Risky`: `+2 stress`
 > - `Desperate`: `+3 stress`
 >
-> Each stress ticks a segment on a PC's condition clock. When you mark stress, you also need to add/update your `condition`.
+> Each stress ticks a segment on a PC's stress clock. When you mark stress, you also need to add/update your `condition`.
 >
-> When the clock is filled, your character is taken out for the scene and your condition clock is cleared.
+> When the clock is filled, your character is taken out for the scene and your stress clock is cleared.
 
 > ### Projects and Complications
 >
@@ -1317,7 +1317,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to heal and recuperate.
 >
-> - Once per session, if the fiction allows it, clear 1 segment from your condition clock.
+> - Once per session, if the fiction allows it, clear 1 segment from your stress clock.
 
 ## Team Work
 
@@ -1760,19 +1760,19 @@ Just remember to keep things fair!
 
 A PC's condition acts as a combat pacing mechanism, but also as a way to represent the character's current health condition.
 
-### Changing Condition Clock
+### Changing The Stress Clock
 
-If characters in your world are supposed to be weaker to tougher, change the number of segments in the condition clock.
+If characters in your world are supposed to be weaker to tougher, change the number of segments in the stress clock.
 
 This is an easy change that has a big impact on in-game challenges.
 
-Be warned that having bigger condition clocks can make conflicts drag for longer. This can either be a good, or bad thing, depending on what you're going for.
+Be warned that having bigger stress clocks can make conflicts drag for longer. This can either be a good, or bad thing, depending on what you're going for.
 
 ### Changing Recovery
 
 Another important detail about condition is that they are supposed to recover after a time.
 
-By default, a condition clocks recovers **one segment per session**, if the fiction allows it.
+By default, a stress clocks recovers **one segment per session**, if the fiction allows it.
 
 You could offer other opportunities to PCs to get better. Perhaps by going to see a doctor, or by interacting with the "medic" of the group.
 
@@ -1802,7 +1802,7 @@ For some types of games, you might also want to consider if conditions can get w
 
 Things like poison or untreated wounds can make a character's life harder over time.
 
-For this, you could think of ways of making condition clocks "auto-advance" based on certain triggers. Figure out what those triggers are and how many segments are ticked when they happen.
+For this, you could think of ways of making stress clocks "auto-advance" based on certain triggers. Figure out what those triggers are and how many segments are ticked when they happen.
 
 You should also think of opportunities for players to take care of those deteriorations so that they stop being inflicted upon their characters.
 
