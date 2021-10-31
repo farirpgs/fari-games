@@ -291,19 +291,19 @@ When a PC gets a consequence from an action roll, you can tick segments of a `da
 
 ## Health and Condition
 
-When a PC gets hurt as a result of a consequence, they take `stress`. Each stress ticks a segment on the PC's `condition clock ⨁`.
+When a PC gets hurt as a result of a consequence, they take `stress`. Each stress ticks a segment on the PC's `stress clock ⨁`.
 
-As the condition clock gets filled, you also need to update the PC's `condition` by writing a small descriptive text below the clock.
+As the stress clock gets filled, you also need to update the PC's `condition` by writing a small descriptive text below the clock.
 
 The character's condition imposes narrative restrictions as to what the character can or cannot do.
 
-When the 4 segments of the `condition clock` are filled, the PC is taken out for the scene and their condition clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
+When the 4 segments of the `stress clock` are filled, the PC is taken out for the scene and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
 
 ## Recovery
 
 As time passes, PCs will get better, and their condition will improve.
 
-If the fiction allows it, once per session clear 1 segment off a PC's condition clock. Also update the condition text to represent the character's current condition.
+If the fiction allows it, once per session clear 1 segment off a PC's stress clock. Also update the condition text to represent the character's current condition.
 
 ## Progression
 
