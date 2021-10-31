@@ -1008,7 +1008,8 @@ This gives them a fighting chance.
 
 # Clocks| Mechanics
 
-[![Image by KELLEPICS from pixabay.com](https://gyazo.com/8aeb209f8442ddf2ed9dab425bd9b603.png)](https://pixabay.com/photos/cave-fantastic-light-nature-6481713/)
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/635caaef063a8652b3ce86a0ad3eeb7a.png)](https://pixabay.com/photos/fantasy-clock-time-light-magic-3517206/)
+
 
 A `clock` is a circle **divided into 4, 6, or 8 segments**. Draw a clock when you need to track an ongoing effort against an obstacle that cannot be resolved with a simple action roll.
 
@@ -1069,7 +1070,8 @@ Here are a couple examples of how clocks could be used to represent some situati
 
 # Progression | Mechanics
 
-[![Image by KELLEPICS from pixabay.com](https://gyazo.com/635caaef063a8652b3ce86a0ad3eeb7a.png)](https://pixabay.com/photos/fantasy-clock-time-light-magic-3517206/)
+
+[![Image by KELLEPICS from pixabay.com](https://gyazo.com/8aeb209f8442ddf2ed9dab425bd9b603.png)](https://pixabay.com/photos/cave-fantastic-light-nature-6481713/)
 
 **_That's something I'll never forget._**
 
@@ -1484,7 +1486,7 @@ So, in short:
 
 - If you are alone, you have fewer options to be awesome.
 - So we reduce the cost of the remaining options.
-- This allow Solo situations to be equally awesome.
+- This allows Solo situations to be equally awesome.
 
 # Gear Extra | Extras
 
@@ -1506,7 +1508,7 @@ Breaking a gear automatically cancels the consequence, but that particular piece
 
 You track this effort by assigning a `project progress clock` with 4 segments on the character sheet.
 
-Once the project completed, the character is re-allowed to use it in the fiction, and to block future consequences.
+Once the project is completed, the character is allowed to use it in the fiction again, and to block future consequences.
 
 # Mission Extra | Extras
 
@@ -1534,7 +1536,7 @@ Now comes the important question that will affect everyone for the weeks/months 
 
 In the next chapter, we will go over how to find a good setting to play in, how to organize the campaign, and how to play it out.
 
-These are merely suggestions and can be taken with a grain of salt.
+These are merely suggestions and can be taken with a pinch of salt.
 
 Whether this is your first rodeo or not, we think those are good starting points to enjoy a good campaign in general.
 
@@ -1591,13 +1593,13 @@ We are using the term `Force` here instead of enemy, foe, or big bad, because a 
 
 That's why you shouldn't always think of a force as something that will go toe-to-toe against the PCs.
 
-It is entirely up to the PCs how they want to interact with the World Forces. The group could be opposed to some, allied with others, and neutral about the rest.
+It is entirely up to the PCs how they want to interact with the `World Forces`. The group could be opposed to some, allied with others, and neutral about the rest.
 
 > A `Force` could be a Person, but it could also be an Organization, a Country, a Planet, Mother Nature, or the Space-Time Continuum!
 
 Once you have found one or two interesting `World Forces`, you need to think about their `Goal`.
 
-Their goal defines the impact the force will have on the world. A goal isn't necessarily good or bad— it is merely what the force wants to accomplish. It can also be considered as "good" by the Force itself, but others might have different view on the subject.
+Their goal defines the impact the force will have on the world. A `goal` isn't necessarily good or bad— it is merely what the force wants to accomplish. It can also be considered as "good" by the `Force` itself, but others might have different view on the subject.
 
 > A `Goal` could be to take back the throne, protect the galaxy from thieves and thugs, or to open a portal that connects to another world.
 
@@ -1625,7 +1627,7 @@ As time advances, they will act with their `Methods`, which will get them closer
 
 Now that we've added more life into our world, we can determine what the group is all about.
 
-Doing this is pretty straightforward. Simply do the exact same exercise we did above, but now the Force we are creating represents the group of player characters.
+Doing this is pretty straightforward. Simply do the exact same exercise we did above, but now the `Force` we are creating represents the group of player characters.
 
 To define the group as a `Force`, all the players need to align on what they are about. To do this, they should look back at the `World Forces` and decide how they feel about them. Are they aligned, neutral, or against the different Goals of those Forces?
 
@@ -1700,7 +1702,7 @@ If some of those words feel off, rename them.
 
 Replace `Tinker` by `Craft` or `Hack`. Or replace `Sway` by `Negotiate` or `Argue`.
 
-Even a small change in word can affect the underlying tone of what the action does.
+Even a small change in wording can affect the underlying tone of what the action does.
 
 Use this to evoke a genre, and highlight the risky actions that the PCs will be doing.
 
@@ -1708,15 +1710,15 @@ Use this to evoke a genre, and highlight the risky actions that the PCs will be 
 
 If you feel like 12 actions to memorize is too much, you can reduce the list to 9 or even 6 actions.
 
-Reducing the number of actions also means that each action will cover more use-cases. Take that in consideration when choosing your action words.
+Reducing the number of actions also means that each action will cover more use. Take that into consideration when choosing your action words.
 
-Also think about the **maximum action rating** (default is 4) and the **starting number of action dots** (default is 7) character gets at the beginning of a game.
+Also think about the **maximum action rating** (default is 4) and the **number of action dots** (default is 7) each character gets at the beginning of a game.
 
 ## Hacking Momentum
 
-As mentioned in [**ealier**](momentum#momentum-dial), momentum is pretty much hackable by default because of the existence of the `momentum dial`.
+Momentum is pretty much hackable by default because of the existence of the `momentum dial`.
 
-When you start a new campaign, check if the default momentum dial feels good for you and your group.
+When you start a new campaign, check if the default `momentum dial` feels good for you and your group.
 
 Do you have a feeling that PCs gain momentum too often ? Or do you think that when it is gained, the amount gained should be more generous ? There is no golden hammer here, every story is different.
 
@@ -1738,7 +1740,7 @@ You could change the content of that tree to make certain types of talent more c
 
 Talent dots are usually gained after narrative `milestones`. Depending on the genre, you could alter this and make talent dots gained in different scenarios.
 
-A player could gain a talent dot when they fail `desperate` roll, or when they finish a `project` clock on their character sheet.
+A player could gain a talent dot when they fail a `desperate` roll, or when they finish a `project` clock on their character sheet.
 
 Talents are a great player incentive, so hacking this is an easy way to reinforce behaviors you want your players to do.
 
@@ -1778,7 +1780,7 @@ Doing this will affect what the PCs do immediately after big battles, because th
 
 > #### Luck Based Recovery
 >
-> Be weary of making recovery based on luck.
+> Be wary of making recovery based on luck.
 >
 > If you use action or fortune rolls to recover, a couple of bad rolls in a row can make for quite a couple of uninteresting session for a player.
 >
