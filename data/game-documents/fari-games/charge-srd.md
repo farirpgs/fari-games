@@ -363,7 +363,7 @@ The GM can use those hooks to create narrative threads for the PCs to explore an
 >
 > - A game about a the crew of a space ship trying to make ends meet could have: **The Ship** / **The Crew** / **The Next Job**.
 > - A game about a thieving crew could have: **The Crew** / **The Other Factions** / **The Next Score**.
-> - A game about super heroes in a big city could have: **The City** / **The News** / **The Next Crime**
+> - A game about super heroes fighting crime in a metropolis could have: **The City** / **The News** / **The Next Crime**
 
 <details open>
 	<summary>
