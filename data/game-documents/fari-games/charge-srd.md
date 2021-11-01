@@ -11,13 +11,13 @@ This is a condensed version of the rules of Charge RPG that you can use to make 
 
 This document follows a certain format that you can use as a base framework for your game.
 
-You can fill-in the gaps, or tear-it down to build it back up again. Your game, your choice.
+You can fill-in the gaps, or tear-it down to make something completely different.
 
 We can't wait to see what you will build with this. Enjoy!
 
 > #### Designer Note
 >
-> Text inside blockquotes is for you, the game designer.
+> Text inside blockquotes is for the game designer.
 >
 > Either it contains relevant design information, or you need to make a choice has to which dial of Charge you want to use for your game.
 >
@@ -32,7 +32,7 @@ We can't wait to see what you will build with this. Enjoy!
 
 # The Game | Charge SRD
 
-In this game, you and your friends get together to tell an interactive story about a group of fictional character you create. Those characters face obstacles and challenges, and you get to decide how they react. The world then changes based on what the characters do.
+In this game, you and your friends get together to tell an interactive story about a group of fictional characters facing, and trying to overcome obstacles. In this game, you decide how the characters resolve those challenges, and how the world reacts to those actions.
 
 ### What You Need To Play
 
@@ -40,24 +40,24 @@ To play, you will need:
 
 - A set of six-sided dice. At least 6 would be ideal.
 - A standard deck of playing cards.
-- A pile of index cards.
+- A pile of index cards to write notes on.
 - A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
 
 ### Game Master & Players
 
-One person in the group needs to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that live in it (those that aren't directly played by the rest of the table). We call those characters "non-player characters", or *NPC*s.
+One person in the group needs to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that live in it (those that aren't directly played by the rest of the table). We call those characters "non-player characters", or `NPCs`.
 
-The rest of the group are `Players`. The players create a character that experiences compelling stories inside this world. We call those player characters, or *PC*s.
+The rest of the group are `Players`. The players create a character that experiences compelling stories inside this world. We call those player characters, or `PCs`.
 
 While the GM is usually the main person in charge of the way the world changes over time, everyone at the table is in charge of the story.
 
-Everyone at the table contributes to make the story successful and captivating.
+Everyone at the table contributes to make the story successful, and captivating.
 
 ### Game Structure
 
-Each session is made of `scenes`, like in a movie. Each scene plays out as a bunch of back-and-forth between the GM and the players. The GM describes what the scene is like, the players tell the GM what they do, and the GM makes the world react to those actions depending on the outcomes of certain dice rolls.
+Each session is made of `scenes`, like in a movie. Each scene plays out as a bunch of back-and-forth between the GM and the players. The GM describes what the scene is like, the players tell the GM what their characters do, and the GM makes the world react to those actions depending on the outcomes of dice rolls.
 
-During sessions, tension rises during scenes, and the players encounter narrative unknowns. To decide what happens during those moments, the group rolls dice because they want to be on the edge of their seats. They want to be surprised by where the story takes them next.
+During sessions, tension rises during scenes, and the players encounter narrative unknowns. To decide what happens during those moments, the group rolls dice because we want to be on the edge of our seats. We want to be surprised by where the story takes us next.
 
 ### Safety Tools
 
@@ -65,7 +65,7 @@ If at any point during the game creation process, or when playing a scene, somet
 
 One way the GM can help make the table safer for everyone is by using safety tools like the [**X-Card**](https://docs.google.com/document/d/1SB0jsx34bWHZWbnNIVVuMjhDkrdFGo1_hSC2BWPlI3A/edit) by John Stavropoulos, or Beau's [**Script Change RPG Toolbox**](https://briebeau.itch.io/script-change).
 
-This is super important and should not be taken lightly. Everyone at the table should feel safe and comfortable.
+This is super important, and should not be taken lightly. Everyone at the table should feel safe and comfortable.
 
 If you don't feel safe at a table, it is totally OK to quit and find another group of people to play with. Don't feel bad, and more importantly, respect yourself.
 
@@ -89,11 +89,11 @@ Characters are defined by descriptive traits called `details`. Each character us
 
 > #### Designer Choice: Choose or Adapt
 >
-> When creating a new character, define their:
+> When creating a new character, write down their:
 >
 > - `Concept`: an elevator-pitch version of who the character is.
 > - `Appearance`: what the character looks like, what they wear, etc.
-> - `Ties`: relations that the character has with certain people or organizations.
+> - `Ties`: 1-3 relations that the character has with certain people or organizations in the world.
 
 ## Actions
 
@@ -151,7 +151,7 @@ This is a **fiction first** game.
 
 This means that the GM and the players tell a story, and afterwards look at the rules to see if something needs to be resolved using the game's mechanics.
 
-You can see the mechanics in Charge as tools in a box to use as needed. They resolve situations where you don't know the direct answers to a question.
+See those mechanics as tools in a box to use as needed. They exist to resolve situations where you don't know the direct answers to a question.
 
 ## Rolling Dice
 
@@ -167,18 +167,51 @@ Most of the game's mechanics revolve around this basic format.
 
 When there's a challenge that needs to be overcome, and there's a risk of failure, a player makes an `action roll`.
 
-The number of dice to roll depends on the `action` the character is doing. The list of possible action can be found on the character sheet.
+The number of dice to roll depends on the `action` the character is doing. The list of possible action can be found in the character creation section.
 
-The action roll resolves what the PC is doing, as well as the NPC.
+The action roll acts as double duty. Which means that it resolves what the PC is doing, as well as the NPC.
 
 Here's what happens when a player makes an action roll:
 
-- The player states their goal and which `action` they are using.
-- The GM sets the position of the situation (`controlled`, `risky` or `desperate`)
-- The GM sets the effect rating of the action (`limited`, `standard` or `great`)
-- The player decide if they boost their roll (if a team member `assists` them, if they `push themselves` or if they `add tension` to the scene)
-- Roll the dice and judge the result.
-- If the result of the dice is higher than `3`, the PC gains `momentum`
+#### 1. Player Sets Their Goal
+
+The player states their goal and, which `action` they are using.
+
+#### 2. GM Sets the Position
+
+The GM sets the position of the situation based on what has been established in the narrative.
+
+- In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out. 
+- In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
+- In a `desperate` position, the odds are against you. Tempting to go against them might backfire heavily.
+
+By default, a an action roll is `risky. You wouldn’t be rolling if there was no risk involved
+
+#### 3. GM Sets the Effect Rating
+
+The GM sets the effect rating of the action.
+
+- With a `great` effect, you achieve more than usual.
+- With a `standard` effect, you achieve what we would have expected.
+- With a `limited` effect, you achieve a partial or weak effect.
+
+#### 4. Player Evens the Odds
+  
+The player decide if they want to even the odds.
+
+They can either 
+
+- `Push themselves`: Consume `2 momentum` to get `+1d6` or an improved effect rating.
+- `Add tension` to the scene, to get `+1d6`.
+
+
+They can also receive assistance from another PC for an additional `1d6`.
+
+#### 5. Roll the Dice
+
+Finally, the player rolls the dice, and the group judge the result.
+
+If the result of the dice is higher than `3`, the PC gains `momentum` from their action except if they pushed themselves.
 
 ## Momentum
 
@@ -190,11 +223,11 @@ You start every session with `2`, and generate more `momentum` when making actio
 - On a `6`, you gain `+2 momentum`.
 - On a `66`, you gain `+3 momentum`.
 
-PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and their teammates.
+PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and their group.
 
 > #### Designer Note
 >
-> For you game, don't hesitate to change when `Momentum` is gained and how much is generated when it's gained.
+> For you game, don't hesitate to change when `momentum` is gained and how much is generated when it's gained.
 >
 > Changing this will affect the whole theme of your game making it feel either grimmer or bigger than life.
 
@@ -204,7 +237,7 @@ If you want, you can add bonus dice to your action roll by using **one** of the 
 
 ### Push Yourself
 
-When you `push yourself`, you consume `-2 momentum` **per push** to gain one of the following bonuses.
+When you `push yourself`, you consume `-2 momentum` per push to gain one of the following bonuses.
 
 - Add `+1d6` to your dice pool.
 - Gain `+1 effect rating` for your roll.
@@ -224,13 +257,13 @@ The PCs can help one another in different ways to assure that the teams overcome
 
 ### Assist
 
-When you `assist` a PC, you consume `-1 momentum`, to give `+1d6` to the dice pool of your team mate. When doing this, you also expose yourself to possible danger.
-
-You can also even the odds by using **either** of the following methods.
+When you `assist` a PC, you consume `-1 momentum`, to give `+1d6` to their. When doing this, you also expose yourself to possible danger.
 
 ### Protect
 
-You step in to confront a consequence that one of your teammates would otherwise face. Describe how you intervene, and suffer the consequence instead of them. You can make a `determination roll` to try to reduce or cancel the consequence.
+When you protect a PC, you step in to confront a consequence they would otherwise face. Describe how you intervene, and suffer the consequence for them. 
+
+You can make a `determination roll` to try to reduce or cancel the consequence.
 
 ### Set up
 
@@ -252,17 +285,17 @@ The GM chooses one of the following:
 
 The `consequence rating` is determined by looking at the position for the roll.
 
-- A `controlled` position, generates a consequence rating of `1`.
-- A `risky` position, generates a consequence rating of `2`.
-- A `desperate` position, generates a consequence rating of `3`.
+- A `controlled` position, has a consequence rating of `1`.
+- A `risky` position, has a consequence rating of `2`.
+- A `desperate` position, has a consequence rating of `3`.
 
 ## Determination Roll
 
 If a character suffers a consequence that you, as a player, don't like, you can try to resist it.
 
-You do so by calling for a `determination roll` to see how well you resist the consequence. You make that roll by burning momentum.
+You do so by calling for a `determination roll` to see how well you resist the consequence.
 
-Build a pool of d6s by adding `+1d6` per charge of momentum.
+Build a pool of d6s by adding `+1d6` for each charge of momentum you are willing to consume for the roll.
 
 Once you've decided how many charges you want to consume, roll and interpret the results:
 
@@ -297,7 +330,7 @@ As the stress clock gets filled, you also need to update the PC's `condition` by
 
 The character's condition imposes narrative restrictions as to what the character can or cannot do.
 
-When the 4 segments of the `stress clock` are filled, the PC is taken out for the scene and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
+When the 4 segments of the `stress clock` are filled, the PC is taken out for the scene,and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
 
 ## Recovery
 
@@ -308,25 +341,27 @@ If the fiction allows it, once per session clear 1 segment off a PC's stress clo
 ## Progression
 
 As a campaign evolves over time, so will the characters.
-So at the end of every session, you can update a character's `details` to represent how they grow over the course of the campaign.
+So at the end of every session, you can update a character's `details` to represent how they've grow over the course of the session.
 
 When a big event is concluded in the story, the GM can decide to award the group a new `talent dot`.
 
 Players invest those talent dots to make their characters stronger and more versatile.
 
-A talent either gives the PC a new `action dot`, or a `situational talent` that gives a bonus or certain narrative liberty during a specific situation:
+A talent either gives the PC a new `action dot`, or a `situational talent`.
+
+A situational talent gives a bonus or a certain narrative liberty during a certain situation:
 
 - `+1d6 when ______`
 - `+1 position when ______`
 - `+1 effect when ______`
 - `Use [action] instead of [action] when ______`
-- `[narrative liberties] when ______`
+- `[New narrative liberty] when ______`
 
 ## Fortune Rolls
 
-When the outcome of a situation isn't certain, and the players aren't involved, make a `fortune roll` to see what happens.
+When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a `fortune roll` to see what happens.
 
-Add `+1d6` per likeliness level of that thing hapenning
+Add `+1d6` per likeliness level of that thing happening.
 
 - On a **critical success**, great results, and something exceptional happens.
 - On a **full success**, great results.
@@ -335,7 +370,9 @@ Add `+1d6` per likeliness level of that thing hapenning
 
 ## Flashbacks
 
-Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation before it happened. Flashback scenes aren't like timetravel, and can't undo what was already been established.
+Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation before it happened. 
+
+Flashback scenes aren't like time travel, and can't undo what was already established in the narrative.
 
 When a player calls for a flashback scene:
 
