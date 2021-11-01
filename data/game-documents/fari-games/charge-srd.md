@@ -78,8 +78,8 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 > You can talk about:
 >
 > - The history of the world.
-> - what kind of characters the PCs are going to play.
-> - the different types of problems the PCs might face. etc.
+> - What kind of characters the PCs are going to play.
+> - The different types of problems the PCs might face. etc.
 
 # Character Creation | Charge SRD
 
