@@ -83,21 +83,21 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 # Character Creation | Charge SRD
 
-Characters are defined by descriptive traits called `details`. Each character usually have between 2-5 details to highlight who they are, and what is important about them.
-
 ## Details
+
+Characters are defined by descriptive traits called `details`. Each character usually have between 2-5 details to highlight who they are, and what is important about them.
 
 > #### Designer Choice: Choose or Adapt
 >
 > When creating a new character, define their:
 >
-> - `Concept`: elevator-pitch of the character.
-> - `Appearance`: what the character looks like.
+> - `Concept`: an elevator-pitch version of who the character is.
+> - `Appearance`: what the character looks like, what they wear, etc.
 > - `Ties`: relations that the character has with certain people or organizations.
 
 ## Actions
 
-To decide how good characters are at doing things, PCs assign points to the following action list:
+When a PC needs to overcome an obstacle, they use one of their `actions`.
 
 > #### Designer Choice: Choose or Adapt
 >
