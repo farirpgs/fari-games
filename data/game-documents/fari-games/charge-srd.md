@@ -19,7 +19,7 @@ We can't wait to see what you will build with this. Enjoy!
 >
 > Text inside blockquotes is for the game designer.
 >
-> Either it contains relevant design information, or you need to make a choice has to which dial of Charge you want to use for your game.
+> Either it contains relevant design information, or it offers different dials or options you could use for your game.
 >
 > #### Powered By Charge Logos
 >
@@ -87,38 +87,48 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 Characters are defined by descriptive traits called `details`. Each character usually have between 2-5 details to highlight who they are, and what is important about them.
 
-> #### Designer Choice: Choose or Adapt
+ When creating a new character, write down their:
+
+ - `Concept`: an elevator-pitch version of who the character is.
+ - `Appearance`: what the character looks like, what they wear, etc.
+ - `Ties`: 1-3 relations that the character has with certain people or organizations in the world.
+
+> #### Designer Note
 >
-> When creating a new character, write down their:
->
-> - `Concept`: an elevator-pitch version of who the character is.
-> - `Appearance`: what the character looks like, what they wear, etc.
-> - `Ties`: 1-3 relations that the character has with certain people or organizations in the world.
+> An easy way to customize Charge is by changing the default `details` of a character. 
+> 
+> Try to have around 2-5 details. Use them as a way to reinforce what is narratively important in your setting.
 
 ## Actions
 
 When a PC needs to overcome an obstacle, they use one of their `actions`.
 
-> #### Designer Choice: Choose or Adapt
->
-> At character creation, players assign `7 action dots` among the following action list:
->
-> - `Muscle`: you use your force to move, overcome or wreck the obstacle in front of you.
-> - `Move`: you quickly shift to a new position or get out of danger.
-> - `Finesse`: you employ dexterous manipulation or subtle misdirection.
-> - `Sneak`: you traverse skillfully and quietly.
-> - `Shoot`: you carefully track and shoot at a target.
-> - `Tinker`: you understand, create, or repair complex mechanisms or organisms.
-> - `Study`: you scrutinize details and interpret evidence.
-> - `Notice`: you observe the situation and anticipate outcomes.
-> - `Bond`: you reassure and socialize with friends and contacts.
-> - `Command`: you compel swift obedience with skills and respect.
-> - `Focus`: you concentrate to accomplish a task that requires great strength of mind.
-> - `Sway`: you influence with guile, charm, or argument.
->
+At character creation, players assign `7 action dots` among the following action list:
+
+- `Muscle`: you use your force to move, overcome or wreck the obstacle in front of you.
+- `Move`: you quickly shift to a new position or get out of danger.
+- `Finesse`: you employ dexterous manipulation or subtle misdirection.
+- `Sneak`: you traverse skillfully and quietly.
+- `Shoot`: you carefully track and shoot at a target.
+- `Tinker`: you understand, create, or repair complex mechanisms or organisms.
+- `Study`: you scrutinize details and interpret evidence.
+- `Notice`: you observe the situation and anticipate outcomes.
+- `Bond`: you reassure and socialize with friends and contacts.
+- `Command`: you compel swift obedience with skills and respect.
+- `Focus`: you concentrate to accomplish a task that requires great strength of mind.
+- `Sway`: you influence with guile, charm, or argument.
+
+At the start of a campaign, a single action cannot have more than 2 action dots.
+
+> #### Designer Note
+> 
+> You are encouraged to change the default action list to something that better fits your game's aesthetic. 
+> 
+> Here are a couple of examples you could use:
+> 
 > ---
 >
-> At character creation, players assign `4 action dots` among the following action list:
+> Assign `4 action dots` in:
 >
 > - `Muscle`: you your force to move, overcome or wreck the obstacle in front of you.
 > - `Finesse`: you employ dexterous manipulation or subtle misdirection.
@@ -129,13 +139,13 @@ When a PC needs to overcome an obstacle, they use one of their `actions`.
 >
 > ---
 >
-> At character creation, players assign `3 action dots` among the following attributes:
+> Assign `3 action dots` in:
 >
 > - `Strength` / `Agility` / `Intelligence` / `Charm`
 >
 > ---
 >
-> At character creation, players assign `2 action dots` among the following attributes:
+> Assign `2 action dots` in:
 >
 > - `Power` / `Speed` / `Focus`
 >
@@ -143,7 +153,6 @@ When a PC needs to overcome an obstacle, they use one of their `actions`.
 >
 > _...etc_
 
-At the start of a campaign, a single action cannot have more than 2 action dots.
 
 # Mechanics | Charge SRD
 
@@ -185,7 +194,7 @@ The GM sets the position of the situation based on what has been established in 
 - In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
 - In a `desperate` position, the odds are against you. Tempting to go against them might backfire heavily.
 
-By default, a an action roll is `risky. You wouldn’t be rolling if there was no risk involved
+By default, an action roll is `risky`. You wouldn’t be rolling if there was no risk involved.
 
 #### 3. GM Sets the Effect Rating
 
@@ -225,10 +234,10 @@ You start every session with `2`, and generate more `momentum` when making actio
 PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and their group.
 
 > #### Designer Note
+> 
+> If you want your game to feel grimmer or bigger than life, change **when momentum is gained** and **how much is gained**
 >
-> For you game, don't hesitate to change when `momentum` is gained and how much is generated when it's gained.
->
-> Changing this will affect the whole theme of your game making it feel either grimmer or bigger than life.
+> Changing this dial is an easy way to change the whole vibe of a game since most mechanics rely on `momentum`.
 
 ## Boosting Action Rolls
 
