@@ -295,7 +295,7 @@ For now let's look at the 12 different types of actions.
 
 ### The 12 Actions
 
-![12 Actions](https://gyazo.com/a0cc5668a0e3b486af1b166099b9da51.png)
+![12 Actions](https://gyazo.com/70ccecc40690c43a0948cd05db0c0d80.png)
 
 #### Physique
 
