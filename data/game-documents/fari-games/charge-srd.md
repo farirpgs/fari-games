@@ -181,7 +181,7 @@ The player states their goal and, which `action` they are using.
 
 The GM sets the position of the situation based on what has been established in the narrative.
 
-- In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out. 
+- In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out.
 - In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
 - In a `desperate` position, the odds are against you. Tempting to go against them might backfire heavily.
 
@@ -196,14 +196,13 @@ The GM sets the effect rating of the action.
 - With a `limited` effect, you achieve a partial or weak effect.
 
 #### 4. Player Evens the Odds
-  
+
 The player decide if they want to even the odds.
 
-They can either 
+They can either
 
 - `Push themselves`: Consume `2 momentum` to get `+1d6` or an improved effect rating.
 - `Add tension` to the scene, to get `+1d6`.
-
 
 They can also receive assistance from another PC for an additional `1d6`.
 
@@ -261,7 +260,7 @@ When you `assist` a PC, you consume `-1 momentum`, to give `+1d6` to their. When
 
 ### Protect
 
-When you protect a PC, you step in to confront a consequence they would otherwise face. Describe how you intervene, and suffer the consequence for them. 
+When you protect a PC, you step in to confront a consequence they would otherwise face. Describe how you intervene, and suffer the consequence for them.
 
 You can make a `determination roll` to try to reduce or cancel the consequence.
 
@@ -370,7 +369,7 @@ Add `+1d6` per likeliness level of that thing happening.
 
 ## Flashbacks
 
-Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation before it happened. 
+Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation before it happened.
 
 Flashback scenes aren't like time travel, and can't undo what was already established in the narrative.
 
