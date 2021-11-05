@@ -1846,7 +1846,7 @@ This should help your players find interesting ideas for their characters since 
 
 # Licencing
 
-The Charge SRD is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
+Charge RPG is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
 That means that if you want to make a game using or based by this game, you just need to give us attribution for our work.
 
@@ -1865,8 +1865,8 @@ This work is also based on Blades in the Dark (found at [http://www.bladesinthed
 If you want, you can also include the following images in your game to say that it's powered by Charge.
 
 <div style="display: flex;">
-	<img style="background: #fff" src="https://gyazo.com/e5bc1209d98efa4fbbce316197004dbb.png" width="300px" style="margin-bottom: 1rem"/>
-	<img style="background: #000" src="https://gyazo.com/8b7ee1e4d454279e6a3cf447d4b75658.png" width="300px" style="margin-bottom: 1rem"/>
+	<img style="background: #fff" src="https://gyazo.com/e6f386391ee4d8a079aa4d10469b15d0.png" width="300px" style="margin-bottom: 1rem"/>
+	<img style="background: #000" src="https://gyazo.com/3f66d3276513deef1cdb7c200c098689.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
 
 # Glossary
