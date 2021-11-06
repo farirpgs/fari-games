@@ -33,7 +33,7 @@ export const shop: IShop = {
           tags: ["charge-rpg", "srd", "new"],
           image: "https://gyazo.com/a6eabc2383f01fa9e30be8c1d64596f2.png",
           links: {
-            itchIo: "https://farigames.itch.io/charge-rpg",
+            itchIo: "https://farigames.itch.io/charge-srd",
           },
         },
       ],
