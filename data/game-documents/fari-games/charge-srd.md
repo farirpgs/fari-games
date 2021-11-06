@@ -194,7 +194,7 @@ The GM sets the position of the situation based on what has been established in 
 - In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
 - In a `desperate` position, the odds are against you. Tempting to go against them might backfire heavily.
 
-By default, an action roll is `risky`. You wouldn’t be rolling if there was no risk involved.
+By default, an action roll is `'risky'`. You wouldn’t be rolling if there was no risk involved.
 
 #### 3. GM Sets the Effect Rating
 
@@ -206,7 +206,7 @@ The GM sets the effect rating of the action.
 
 #### 4. Player Evens the Odds
 
-The player decide if they want to even the odds.
+The player decides if they want to even the odds.
 
 They can either
 
