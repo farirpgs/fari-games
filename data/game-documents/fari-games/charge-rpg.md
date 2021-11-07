@@ -978,7 +978,9 @@ Be warned that, by doing this, you are also exposing yourself to possible conseq
 
 You step in to confront a consequence that one of your teammates would otherwise face. Describe how you intervene.
 
-> **You suffer the consequence instead of them. You may roll to resist it as normal.**
+You can make a `determination roll` to try to reduce or cancel the consequence.
+
+> **You suffer the consequence instead of them. You may call for a `determination roll` to reduce or cancel the consequence.**
 >
 > ---
 >
