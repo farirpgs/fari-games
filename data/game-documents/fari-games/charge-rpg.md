@@ -19,7 +19,7 @@ highlightFont: Oswald
 
 Charge is a **free**, **open**, and **generic** table-top role-playing game.
 
-It is free, and maintained by the Fari community. Which means anyone is welcome to make contribution to the rules of the game.
+It is free, and maintained by the Fari community. Which means anyone is welcome to make a contribution to the rules of the game.
 
 It is also open licensed. Which means you can use it for free. You can also make (and sell) your own games using Charge as the base framework.
 
@@ -132,11 +132,11 @@ You will like this game if:
 - you like when your character starts competent and gradually becomes more flexible
 - you like playing Fate or Forged in the Dark games
 
-Charge also brings new interesting ideas to the table, like a flexible progression framework and mechanics to make players want to interact with the world instead of saying still on the back-seat waiting for the best moment to act.
+Charge also brings new interesting ideas to the table, like a flexible progression framework and mechanics to make players want to interact with the world instead of staying still on the back-seat waiting for the best moment to act.
 
 We hope you have fun with this, because we sure had fun writing it and playing it.
 
-Now, let us go over what you need to play Charge!
+Now, let's go over what you need to play Charge!
 
 # What You Need To Play | Power Your Storytelling
 
@@ -161,7 +161,7 @@ One person in the group needs to act as the `Game Master`, or `GM`. The GM is re
 
 The rest of the group are `Players`. The players create a character that experiences compelling stories inside this world. We call those player characters, or *PC*s.
 
-While the GM is usually the main person in charge of the way the world changes over time, everyone at the table is in charge of the story.
+While the GM is usually the main person responsible for the way the world changes over time, everyone at the table is in charge of the story.
 
 This isn't a "GM versus Players" or "GM is god" kind of deal. If playing this game was like making a movie, the **GM would be the director** and all the **players would be writers**.
 
@@ -319,7 +319,7 @@ When you `Sneak`, you traverse skillfully and quietly.
 
 When you `Shoot`, you carefully track and shoot at a target.
 
-> You might snipe an enemy long-distance. You might throw a fireball to light the battlefield on fire. You might aim the ship's laser guns. You could try skillfully throw a dart in a bar game (but `Finesse` might be better).
+> You might snipe an enemy long-distance. You might throw a fireball to light the battlefield on fire. You might aim the ship's laser guns. You could try to skill-fully throw a dart in a bar game (but `Finesse` might be better).
 
 When you `Tinker`, you understand, create, or repair complex mechanisms or organisms.
 
@@ -393,7 +393,7 @@ When you get hurt, you take a certain amount of `stress`, and each stress ticks 
 
 When a character has a condition, their narrative liberties are restricted by said condition.
 
-For example, it's almost impossible to climb on the roof of a house with a \_Twisted Ankle. So even if you have only **2 segments** ticked on your stress clock, your condition in and of itself still imposes narrative restrictions on what your character can do.
+For example, it's almost impossible to climb on the roof of a house with a _twisted ankle_. So even if you have only **2 segments** ticked on your stress clock, your condition in and of itself still imposes narrative restrictions on what your character can do.
 
 Here are a couple examples of conditions:
 
@@ -832,7 +832,7 @@ Basically, you can either gain momentum as a **result of an action roll**, or by
 
 Everytime you make an action roll, you have a chance of gaining new charges of `momentum`.
 
-The reason why you start with only `2` at the beginning of a session is because we want players who are running low to engage with the game mechanics instead of sitting back because they are out of resources.
+The reason why each character starts with only `2 momentum` at the beginning of a session is because we want players who are running low to engage with the game mechanics instead of sitting back because they are out of resources.
 
 **The main way you get momentum back is by participating in the game.**
 
@@ -1794,7 +1794,7 @@ In Charge, we prefer to encourage good behaviors than to give punishment for sim
 
 That doesn't mean that we want to discourage you from doing something different in your game.
 
-We mostly want to highlight why Charge is the way it is so that you take it in consideration when designing new modifications to the rules.
+We mostly want to highlight why Charge is the way it is so that you take it into consideration when designing new modifications to the rules.
 
 ### Introducing Deterioration
 
