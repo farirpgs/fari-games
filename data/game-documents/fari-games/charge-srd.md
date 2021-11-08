@@ -265,7 +265,7 @@ The PCs can help one another in different ways to assure that the teams overcome
 
 ### Assist
 
-When you `assist` a PC, you consume `-1 momentum`, to give `+1d6` to their dice pool. When doing this, you also expose yourself to possible danger.
+When you `assist` a PC, you consume `-1 momentum`, to give `+1d6` to their roll. When doing this, you also expose yourself to possible danger.
 
 ### Protect
 
