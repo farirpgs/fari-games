@@ -87,16 +87,16 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 Characters are defined by descriptive traits called `details`. Each character usually have between 2-5 details to highlight who they are, and what is important about them.
 
- When creating a new character, write down their:
+When creating a new character, write down their:
 
- - `Concept`: an elevator-pitch version of who the character is.
- - `Appearance`: what the character looks like, what they wear, etc.
- - `Ties`: 1-3 relations that the character has with certain people or organizations in the world.
+- `Concept`: an elevator-pitch version of who the character is.
+- `Appearance`: what the character looks like, what they wear, etc.
+- `Ties`: 1-3 relations that the character has with certain people or organizations in the world.
 
 > #### Designer Note
 >
-> An easy way to customize Charge is by changing the default `details` of a character. 
-> 
+> An easy way to customize Charge is by changing the default `details` of a character.
+>
 > Try to have around 2-5 details. Use them as a way to reinforce what is narratively important in your setting.
 
 ## Actions
@@ -111,7 +111,7 @@ At character creation, players assign `7 action dots` among the following action
 - `Sneak`: you traverse skillfully and quietly.
 - `Shoot`: you carefully track and shoot at a target.
 - `Tinker`: you understand, create, or repair complex mechanisms or organisms.
-- `Study`: you scrutinize details and interpret evidence.
+- `Study`: you gather, scrutinize and analyse information.
 - `Notice`: you observe the situation and anticipate outcomes.
 - `Bond`: you reassure and socialize with friends and contacts.
 - `Command`: you compel swift obedience with skills and respect.
@@ -121,11 +121,11 @@ At character creation, players assign `7 action dots` among the following action
 At the start of a campaign, a single action cannot have more than 2 action dots.
 
 > #### Designer Note
-> 
-> You are encouraged to change the default action list to something that better fits your game's aesthetic. 
-> 
+>
+> You are encouraged to change the default action list to something that better fits your game's aesthetic.
+>
 > Here are a couple of examples you could use:
-> 
+>
 > ---
 >
 > Assign `4 action dots` in:
@@ -152,7 +152,6 @@ At the start of a campaign, a single action cannot have more than 2 action dots.
 > ---
 >
 > _...etc_
-
 
 # Mechanics | Charge SRD
 
@@ -234,7 +233,7 @@ You start every session with `2`, and generate more `momentum` when making actio
 PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and their group.
 
 > #### Designer Note
-> 
+>
 > If you want your game to feel grimmer or bigger than life, change **when momentum is gained** and **how much is gained**
 >
 > Changing this dial is an easy way to change the whole vibe of a game since most mechanics rely on `momentum`.
@@ -245,7 +244,7 @@ If you want, you can add bonus dice to your action roll by using **one** of the 
 
 ### Push Yourself
 
-When you `push yourself`, you consume `-2 momentum` per push to gain one of the following bonuses.
+When you `push yourself`, you consume `2 momentum` per push to gain one of the following bonuses.
 
 - Add `+1d6` to your dice pool.
 - Gain `+1 effect rating` for your roll.
@@ -265,7 +264,7 @@ The PCs can help one another in different ways to assure that the teams overcome
 
 ### Assist
 
-When you `assist` a PC, you consume `-1 momentum`, to give `+1d6` to their. When doing this, you also expose yourself to possible danger.
+When you `assist` a PC, you consume `1 momentum`, to give `+1d6` to their. When doing this, you also expose yourself to possible danger.
 
 ### Protect
 
@@ -536,9 +535,6 @@ If you want, you can also include the following images in your game to say that 
 	<img style="background: #fff" src="https://gyazo.com/e6f386391ee4d8a079aa4d10469b15d0.png" width="300px" style="margin-bottom: 1rem"/>
 	<img style="background: #000" src="https://gyazo.com/3f66d3276513deef1cdb7c200c098689.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
-
-
-
 
 # Credits
 

@@ -384,11 +384,11 @@ Each character has a `condition` that is tied to a `stress clock` which includes
 When you get hurt, you take a certain amount of `stress`, and each stress ticks a segment on your `stress clock`. The number of segments ticked represents how your character is doing by updating your `condition` which is represented by a little text field below the clock.
 
 > ### A Word on Clocks
-> 
+>
 > Clocks are circles divided in 4, 6 or 8 segments used to track things that evolve over time during the game.
-> 
+>
 > They are used to track a character's condition, the different projects they are working on, the complications that they are creating around them, and even the obstacles that they are facing.
-> 
+>
 > More on clocks in [**Mechanics&nbsp;»&nbsp;Clocks**](mechanics#clocks)
 
 When a character has a condition, their narrative liberties are restricted by said condition.
@@ -400,7 +400,6 @@ Here are a couple examples of conditions:
 - When your stress clock has **1 or 2 segments** filled, you might be: exhausted, humiliated, tired, sore, winded, sick, etc.
 - When your stress clock has **3 segments** filled, you might have a gunshot wound, a slash from a blade, a first degree burn, or be completely drunk.
 - When your stress clock reaches **4 filled segments**, you clear it, and are taken out for the scene. You might have gotten a second degree burn, or a fractured leg, or your brain can't comprehend what is happening anymore.
-
 
 ## Talents
 
@@ -515,9 +514,9 @@ For now, let's take a look at the different tools you can use to resolve the dif
 
 If an obstacle is in your way, the GM needs to tell you in which `position` you are.
 
-A situation is either in a `controlled`, `risky`, or `desperate` position. 
+A situation is either in a `controlled`, `risky`, or `desperate` position.
 
-- In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out. 
+- In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out.
 - In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
 - In a `desperate` position, the odds are against you. Tempting to go against them might backfire heavily.
 
@@ -532,7 +531,6 @@ The position helps you determine what failure might look like. To know what succ
 > #### What Position to Pick
 >
 > If you aren't sure of your current situation, talk with the rest of the table. A quick discussion is usually enough to clear things up.
-
 
 ## Effect
 
@@ -578,13 +576,13 @@ First off, they aren't alone.
 
 #### Assist
 
-When you `assist` a player, you consume `-1 momentum`, to give `+1d6` to the dice pool of your team mate. When doing this, you also expose yourself to possible danger.
+When you `assist` a player, you consume `1 momentum`, to give `+1d6` to the dice pool of your team mate. When doing this, you also expose yourself to possible danger.
 
 You can also even the odds by using **either** of the following methods.
 
 #### Push Yourself
 
-When you `push yourself`, you consume `-2 momentum` **per push** to gain one of the following bonuses.
+When you `push yourself`, you consume `2 momentum` **per push** to gain one of the following bonuses.
 
 - Add `+1d6` to your dice pool.
 - Gain `+1 effect rating` for your roll.
@@ -613,8 +611,8 @@ So now, let's go over all of this again to recap what happens when you make an a
 > 1. Pick an Action and find out how many dice you need to roll (the `action rating`)
 > 1. Determine the `position` (`1 controlled` ► `2 risky` ► `3 desperate`)
 > 1. Determine the `effect rating` (`3 great` ► `2 standard` ► `1 limited`)
-> 1. Add `+1d6` if: you `push yourself` (-2 momentum) -or- if you `add tension` to the scene.
-> 1. Add `+1d6` if you have `assistance` (they consume -1 momentum)
+> 1. Add `+1d6` if: you `push yourself` (`2 momentum`) -or- if you `add tension` to the scene.
+> 1. Add `+1d6` if you have `assistance` (they consume `1 momentum`)
 > 1. Roll and wish for the best!
 >
 > ---
@@ -966,7 +964,7 @@ There are multiple ways player characters can help each other in Charge. They co
 
 When you `assist`, you help another player who's making an action roll. Describe what your character does to help.
 
-> **Consume `-1 momentum`**, and give them an additional `+1d6` for their roll.
+> **Consume `1 momentum`**, and give them an additional `+1d6` for their roll.
 >
 > ---
 >
@@ -1011,7 +1009,6 @@ This gives them a fighting chance.
 # Clocks| Mechanics
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/635caaef063a8652b3ce86a0ad3eeb7a.png)](https://pixabay.com/photos/fantasy-clock-time-light-magic-3517206/)
-
 
 A `clock` is a circle **divided into 4, 6, or 8 segments**. Draw a clock when you need to track an ongoing effort against an obstacle that cannot be resolved with a simple action roll.
 
@@ -1071,7 +1068,6 @@ Here are a couple examples of how clocks could be used to represent some situati
 > - Tick 1 segment for a `controlled position`.
 
 # Progression | Mechanics
-
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/8aeb209f8442ddf2ed9dab425bd9b603.png)](https://pixabay.com/photos/cave-fantastic-light-nature-6481713/)
 
@@ -1240,11 +1236,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > #### Using Momentum
 >
-> | Cost          | Result                                              |
-> | ------------- | --------------------------------------------------- |
-> | `-2 momentum` | `Push yourself` and add `+1d6` to your action roll. |
-> | `-1 momentum` | `Assist` an ally, add `+1d6` to their action roll.  |
-> | `-1 momentum` | Do a `flashback` scene.                             |
+> | Cost         | Result                                              |
+> | ------------ | --------------------------------------------------- |
+> | `2 momentum` | `Push yourself` and add `+1d6` to your action roll. |
+> | `1 momentum` | `Assist` an ally, add `+1d6` to their action roll.  |
+> | `1 momentum` | Do a `flashback` scene.                             |
 >
 > ### Talents
 >
@@ -1287,9 +1283,9 @@ This chapter will go over the most important bits of the book in a quick recap s
 > 1. Determine the `position` (`1 controlled` ► `2 risky` ► `3 desperate`)
 > 1. Determine the `effect rating` (`3 great` ► `2 standard` ► `1 limited`)
 > 1. Choose one:
->    - Add `+1d6` if you `push yourself` (`-2 momentum`)
+>    - Add `+1d6` if you `push yourself` (`2 momentum`)
 >    - Add `+1d6` if you `add tension` to the action.
-> 1. Add `+1d6` if you have `assistance` (they consume `-1 momentum`)
+> 1. Add `+1d6` if you have `assistance` (they consume `1 momentum`)
 > 1. Roll and wish for the best!
 >
 > ---
@@ -1323,12 +1319,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 
 ## Team Work
 
-
 > ### Assist
 >
 > Use this to help a fellow PC accomplish their action.
 >
-> - Consume `-1 momentum` and add `+1d6` to their roll.
+> - Consume `1 momentum` and add `+1d6` to their roll.
 > - This also exposes the helper to any potential consequences resulting from the roll.
 >
 > ### Protect
@@ -1443,7 +1438,6 @@ After a conflict between multiple parties is resolved, or when the general tensi
 - On a `66`, you create `2 assets`.
 
 Take note of this asset on your character sheet, and use it when the time is right to get a `+1d6` or `increased effect` on an action roll.
-
 
 > **Loot Roll**
 >
@@ -1877,63 +1871,63 @@ If you want, you can also include the following images in your game to say that 
 
 ### Global
 
-| English     | Français | Português |
-| ----------- | -------- | --------- |
-| Game Master |          |           |
-| Player      |          |           |
-| Scene       |          |           |
-| Session     |          |           |
+| English     | Français      | Português |
+| ----------- | ------------- | --------- |
+| Game Master | Maître du Jeu |           |
+| Player      | Joueur        |           |
+| Scene       | Scène         |           |
+| Session     | Session       |           |
 
 ### Character Sheet
 
-| English       | Français | Português |
-| ------------- | -------- | --------- |
-| Details       |          |           |
-| Concept       |          |           |
-| Appearance    |          |           |
-| Ties          |          |           |
-| Actions       |          |           |
-| Attributes    |          |           |
-| Stress        |          |           |
-| Condition     |          |           |
-| Talents       |          |           |
-| Project       |          |           |
-| Complications |          |           |
+| English       | Français      | Português |
+| ------------- | ------------- | --------- |
+| Details       | Détails       |           |
+| Concept       | Concept       |           |
+| Appearance    | Apparence     |           |
+| Ties          | Liens         |           |
+| Actions       | Actions       |           |
+| Attributes    | Attributs     |           |
+| Stress        | Stress        |           |
+| Condition     | Condition     |           |
+| Talents       | Talents       |           |
+| Project       | Projets       |           |
+| Complications | Complications |           |
 
 ### Momentum
 
-| English        | Français | Português |
-| -------------- | -------- | --------- |
-| Momentum       |          |           |
-| Push Yourself  |          |           |
-| Assist an Ally |          |           |
-| Flashback      |          |           |
+| English        | Français       | Português |
+| -------------- | -------------- | --------- |
+| Momentum       | Élan           |           |
+| Push Yourself  | Se surpasser   |           |
+| Assist an Ally | Aider un allié |           |
+| Flashback      | Flashback      |           |
 
 ### Rolls
 
-| English            | Français | Português |
-| ------------------ | -------- | --------- |
-| Action Roll        |          |           |
-| Position           |          |           |
-| Effect             |          |           |
-| Determination Roll |          |           |
+| English            | Français             | Português |
+| ------------------ | -------------------- | --------- |
+| Action Roll        | Jet d’action         |           |
+| Position           | Position             |           |
+| Effect             | Effet                |           |
+| Determination Roll | Jet de détermination |           |
 
 ### 12 Actions
 
-| English      | Français | Português |
-| ------------ | -------- | --------- |
-| **Physique** |          |           |
-| Muscle       |          |           |
-| Finesse      |          |           |
-| Move         |          |           |
-| Sneak        |          |           |
-| **Insight**  |          |           |
-| Shoot        |          |           |
-| Tinker       |          |           |
-| Study        |          |           |
-| Notice       |          |           |
-| **Resolve**  |          |           |
-| Bond         |          |           |
-| Command      |          |           |
-| Focus        |          |           |
-| Sway         |          |           |
+| English      | Français     | Português |
+| ------------ | ------------ | --------- |
+| **Physique** | Physique     |           |
+| Muscle       | Forcer       |           |
+| Finesse      | Finesse      |           |
+| Move         | Bouger       |           |
+| Sneak        | Faufiler     |           |
+| **Insight**  | Perspicacité |           |
+| Shoot        | Tirer        |           |
+| Tinker       | Bricoler     |           |
+| Study        | Étudier      |           |
+| Notice       | Remarquer    |           |
+| **Resolve**  | Volonté      |           |
+| Bond         | Sociabiliser |           |
+| Command      | Ordonner     |           |
+| Focus        | Concentrer   |           |
+| Sway         | Manipuler    |           |
