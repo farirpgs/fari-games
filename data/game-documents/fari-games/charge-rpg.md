@@ -1871,63 +1871,63 @@ If you want, you can also include the following images in your game to say that 
 
 ### Global
 
-| English     | Français      | Português |
-| ----------- | ------------- | --------- |
-| Game Master | Maître du Jeu |           |
-| Player      | Joueur        |           |
-| Scene       | Scène         |           |
-| Session     | Session       |           |
+| English     | Français      | Português | Swedish    |
+| ----------- | ------------- | --------- | ---------- |
+| Game Master | Maître du Jeu |           | Spelledare |
+| Player      | Joueur        |           | Spelare    |
+| Scene       | Scène         |           | Scen       |
+| Session     | Session       |           | Spelomgång |
 
 ### Character Sheet
 
-| English       | Français      | Português |
-| ------------- | ------------- | --------- |
-| Details       | Détails       |           |
-| Concept       | Concept       |           |
-| Appearance    | Apparence     |           |
-| Ties          | Liens         |           |
-| Actions       | Actions       |           |
-| Attributes    | Attributs     |           |
-| Stress        | Stress        |           |
-| Condition     | Condition     |           |
-| Talents       | Talents       |           |
-| Project       | Projets       |           |
-| Complications | Complications |           |
+| English       | Français      | Português | Swedish        |
+| ------------- | ------------- | --------- | -------------- |
+| Details       | Détails       |           | Detaljer       |
+| Concept       | Concept       |           | Koncept        |
+| Appearance    | Apparence     |           | Utseende       |
+| Ties          | Liens         |           | Kopplingar     |
+| Actions       | Actions       |           | Handlingar     |
+| Attributes    | Attributs     |           | Attribut       |
+| Stress        | Stress        |           | Stress         |
+| Condition     | Condition     |           | Tillstånd      |
+| Talents       | Talents       |           | Talanger       |
+| Project       | Projets       |           | Projekt        |
+| Complications | Complications |           | Komplikationer |
 
 ### Momentum
 
-| English        | Français       | Português |
-| -------------- | -------------- | --------- |
-| Momentum       | Élan           |           |
-| Push Yourself  | Se surpasser   |           |
-| Assist an Ally | Aider un allié |           |
-| Flashback      | Flashback      |           |
+| English        | Français       | Português | Swedish       |
+| -------------- | -------------- | --------- | ------------- |
+| Momentum       | Élan           |           | Momentum      |
+| Push Yourself  | Se surpasser   |           | Forcera       |
+| Assist an Ally | Aider un allié |           | Assistera     |
+| Flashback      | Flashback      |           | Tillbakablick |
 
 ### Rolls
 
-| English            | Français             | Português |
-| ------------------ | -------------------- | --------- |
-| Action Roll        | Jet d’action         |           |
-| Position           | Position             |           |
-| Effect             | Effet                |           |
-| Determination Roll | Jet de détermination |           |
+| English            | Français             | Português | Swedish           |
+| ------------------ | -------------------- | --------- | ----------------- |
+| Action Roll        | Jet d’action         |           | Färdighetsslag    |
+| Position           | Position             |           | Position          |
+| Effect             | Effet                |           | Effekt            |
+| Determination Roll | Jet de détermination |           | Beslutsamhetsslag |
 
 ### 12 Actions
 
-| English      | Français     | Português |
-| ------------ | ------------ | --------- |
-| **Physique** | Physique     |           |
-| Muscle       | Forcer       |           |
-| Finesse      | Finesse      |           |
-| Move         | Bouger       |           |
-| Sneak        | Faufiler     |           |
-| **Insight**  | Perspicacité |           |
-| Shoot        | Tirer        |           |
-| Tinker       | Bricoler     |           |
-| Study        | Étudier      |           |
-| Notice       | Remarquer    |           |
-| **Resolve**  | Volonté      |           |
-| Bond         | Sociabiliser |           |
-| Command      | Ordonner     |           |
-| Focus        | Concentrer   |           |
-| Sway         | Manipuler    |           |
+| English      | Français     | Português | Swedish           |
+| ------------ | ------------ | --------- | ----------------- |
+| **Physique** | Physique     |           | **Kroppsbyggnad** |
+| Muscle       | Forcer       |           | Kraftfullt        |
+| Finesse      | Finesse      |           | Fingerfärdigt     |
+| Move         | Bouger       |           | Snabbt            |
+| Sneak        | Faufiler     |           | Tyst              |
+| **Insight**  | Perspicacité |           | **Koncentration** |
+| Shoot        | Tirer        |           | Träffsäkert       |
+| Tinker       | Bricoler     |           | Underfundigt      |
+| Study        | Étudier      |           | Studerande        |
+| Notice       | Remarquer    |           | Uppmärksamt       |
+| **Resolve**  | Volonté      |           | **Beslutsamhet**  |
+| Bond         | Sociabiliser |           | Uppmuntrande      |
+| Command      | Ordonner     |           | Beordrande        |
+| Focus        | Concentrer   |           | Fokuserat         |
+| Sway         | Manipuler    |           | Manipulerande     |
