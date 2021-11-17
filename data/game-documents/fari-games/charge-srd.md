@@ -156,9 +156,7 @@ At the start of a campaign, a single action cannot have more than 2 action dots.
 
 # Mechanics | Charge SRD
 
-This is a **fiction first** game.
-
-This means that the GM and the players tell a story, and afterwards look at the rules to see if something needs to be resolved using the game's mechanics.
+In this game the GM and the players tell a story, and afterwards look at the rules to see if something needs to be resolved using the game's mechanics. You don't look at the rules first, you look at the fiction first.
 
 See those mechanics as tools in a box to use as needed. They exist to resolve situations where you don't know the direct answers to a question.
 
@@ -251,7 +249,7 @@ When you `push yourself`, you consume `2 momentum` per push to gain one of the f
 - Gain `+1 effect rating` for your roll.
 - Take action even if you were taken out.
 
-_Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_
+_Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_.
 
 ### Add Tension
 
@@ -265,7 +263,7 @@ The PCs can help one another in different ways to assure that the teams overcome
 
 ### Assist
 
-When you `assist` a PC, you consume `1 momentum`, to give `+1d6` to their. When doing this, you also expose yourself to possible danger.
+When you `assist` a PC, you consume `1 momentum`, to give `+1d6` to their roll. When doing this, you also expose yourself to possible danger.
 
 ### Protect
 
@@ -307,10 +305,10 @@ Build a pool of d6s by adding `+1d6` for each charge of momentum you are willing
 
 Once you've decided how many charges you want to consume, roll and interpret the results:
 
-- On a `1-3`, The `consequence` still happens.
-- On a `4-5`, The `consequence` is reduced.
-- On a `6`, The `consequence` is avoided.
-- On a `66`, The `consequence` is avoided, and you get +1 position for your next roll.
+- On a `1-3`, the `consequence` still happens.
+- On a `4-5`, the `consequence` is reduced.
+- On a `6`, the `consequence` is avoided.
+- On a `66`, the `consequence` is avoided, and you get +1 position for your next roll.
 
 ## Clocks
 
@@ -344,7 +342,7 @@ When the 4 segments of the `stress clock` are filled, the PC is taken out for th
 
 As time passes, PCs will get better, and their condition will improve.
 
-If the fiction allows it, once per session clear 1 segment off a PC's stress clock. Also update the condition text to represent the character's current condition.
+If the fiction allows it, once per session clear 1 segment off a PC's `stress clock`. Also update the condition text to represent the character's current `condition`.
 
 ## Progression
 
