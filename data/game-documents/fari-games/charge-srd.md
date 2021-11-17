@@ -41,7 +41,7 @@ To play, you will need:
 - A set of six-sided dice. At least 6 would be ideal.
 - A standard deck of playing cards.
 - A pile of index cards to write notes on.
-- A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
+- A couple people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
 
 ### Game Master & Players
 
