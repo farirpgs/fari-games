@@ -254,11 +254,11 @@ Since your character is one of the story's protagonists, they need to be linked 
 
 To establish those links, we define `ties`.
 
-A tie links your character to another player's character, an organization, etc.
+A tie links your character to another player's character, an organization, or other [world forces](making-a-compelling-campaign).
 
 When you write down a tie for your character, try to answer **who is my character linked to** and also **how they are linked to them**.
 
-This will also help establish a bit of a general backstory for your character, without you having to write down 10 pages of notes that might end up unused.
+This will also help establish a bit of a general backstory for your character, without you having to write down 10 pages of notes that might end up staying unused.
 
 ```
 TODO: Include Examples
