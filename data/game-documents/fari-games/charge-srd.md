@@ -283,11 +283,11 @@ If you make an action roll and you get a `partial success (4-5)` or a `bad outco
 
 The GM chooses one of the following:
 
-- **Reduced Effect** : reduce the `effect` of the action by one level.
-- **Complication**: tick one segment per `consequence rating` on a new or existing `danger clock`.
-- **Worse Position** : reduce the `position` of the PC by one level for their next action rolls.
-- **Lost Opportunity** : what you tried didn't work, you need to use another `action`.
-- **Worse Condition**: take `1 stress` per `consequence rating`.
+- `Reduced Effect` : reduce the `effect` of the action by one level.
+- `Complication`: tick one segment per `consequence rating` on a new or existing `danger clock`.
+- `Worse Position` : reduce the `position` of the PC by one level for their next action rolls.
+- `Lost Opportunity` : what you tried didn't work, you need to use another `action`.
+- `Worse Condition`: take `1 stress` per `consequence rating`.
 
 The `consequence rating` is determined by looking at the position for the roll.
 
