@@ -36,12 +36,13 @@ In this game, you and your friends get together to tell an interactive story abo
 
 ### What You Need To Play
 
-To play, you will need:
+Here’s what you’ll need to play:
 
+- Between two and five people. One of them acting as the Game Master.
+- Character sheets, one for each player.
 - A set of six-sided dice. At least 6 would be ideal.
+- Index cards, sticky notes or similar slips of paper.
 - A standard deck of playing cards.
-- A pile of index cards to write notes on.
-- A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
 
 ### Game Master & Players
 
@@ -87,16 +88,16 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 Characters are defined by descriptive traits called `details`. Each character usually have between 2-5 details to highlight who they are, and what is important about them.
 
- When creating a new character, write down their:
+When creating a new character, write down their:
 
- - `Concept`: an elevator-pitch version of who the character is.
- - `Appearance`: what the character looks like, what they wear, etc.
- - `Ties`: 1-3 relations that the character has with certain people or organizations in the world.
+- `Concept`: an elevator-pitch version of who the character is.
+- `Appearance`: what the character looks like, what they wear, etc.
+- `Ties`: 1-3 relations that the character has with certain people or organizations in the world.
 
 > #### Designer Note
 >
-> An easy way to customize Charge is by changing the default `details` of a character. 
-> 
+> An easy way to customize Charge is by changing the default `details` of a character.
+>
 > Try to have around 2-5 details. Use them as a way to reinforce what is narratively important in your setting.
 
 ## Actions
@@ -111,7 +112,7 @@ At character creation, players assign `7 action dots` among the following action
 - `Sneak`: you traverse skillfully and quietly.
 - `Shoot`: you carefully track and shoot at a target.
 - `Tinker`: you understand, create, or repair complex mechanisms or organisms.
-- `Study`: you scrutinize details and interpret evidence.
+- `Study`: you gather, scrutinize and analyse information.
 - `Notice`: you observe the situation and anticipate outcomes.
 - `Bond`: you reassure and socialize with friends and contacts.
 - `Command`: you compel swift obedience with skills and respect.
@@ -121,11 +122,11 @@ At character creation, players assign `7 action dots` among the following action
 At the start of a campaign, a single action cannot have more than 2 action dots.
 
 > #### Designer Note
-> 
-> You are encouraged to change the default action list to something that better fits your game's aesthetic. 
-> 
+>
+> You are encouraged to change the default action list to something that better fits your game's aesthetic.
+>
 > Here are a couple of examples you could use:
-> 
+>
 > ---
 >
 > Assign `4 action dots` in:
@@ -153,12 +154,9 @@ At the start of a campaign, a single action cannot have more than 2 action dots.
 >
 > _...etc_
 
-
 # Mechanics | Charge SRD
 
-This is a **fiction first** game.
-
-This means that the GM and the players tell a story, and afterwards look at the rules to see if something needs to be resolved using the game's mechanics.
+In this game the GM and the players tell a story, and afterwards look at the rules to see if something needs to be resolved using the game's mechanics. You don't look at the rules first, you look at the fiction first.
 
 See those mechanics as tools in a box to use as needed. They exist to resolve situations where you don't know the direct answers to a question.
 
@@ -234,7 +232,7 @@ You start every session with `2`, and generate more `momentum` when making actio
 PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and their group.
 
 > #### Designer Note
-> 
+>
 > If you want your game to feel grimmer or bigger than life, change **when momentum is gained** and **how much is gained**
 >
 > Changing this dial is an easy way to change the whole vibe of a game since most mechanics rely on `momentum`.
@@ -245,13 +243,13 @@ If you want, you can add bonus dice to your action roll by using **one** of the 
 
 ### Push Yourself
 
-When you `push yourself`, you consume `-2 momentum` per push to gain one of the following bonuses.
+When you `push yourself`, you consume `2 momentum` per push to gain one of the following bonuses.
 
 - Add `+1d6` to your dice pool.
 - Gain `+1 effect rating` for your roll.
 - Take action even if you were taken out.
 
-_Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_
+_Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_.
 
 ### Add Tension
 
@@ -265,7 +263,7 @@ The PCs can help one another in different ways to assure that the teams overcome
 
 ### Assist
 
-When you `assist` a PC, you consume `-1 momentum`, to give `+1d6` to their roll. When doing this, you also expose yourself to possible danger.
+When you `assist` a PC, you consume `1 momentum`, to give `+1d6` to their roll. When doing this, you also expose yourself to possible danger.
 
 ### Protect
 
@@ -307,10 +305,10 @@ Build a pool of d6s by adding `+1d6` for each charge of momentum you are willing
 
 Once you've decided how many charges you want to consume, roll and interpret the results:
 
-- On a `1-3`, The `consequence` still happens.
-- On a `4-5`, The `consequence` is reduced.
-- On a `6`, The `consequence` is avoided.
-- On a `66`, The `consequence` is avoided, and you get +1 position for your next roll.
+- On a `1-3`, the `consequence` still happens.
+- On a `4-5`, the `consequence` is reduced.
+- On a `6`, the `consequence` is avoided.
+- On a `66`, the `consequence` is avoided, and you get +1 position for your next roll.
 
 ## Clocks
 
@@ -344,7 +342,7 @@ When the 4 segments of the `stress clock` are filled, the PC is taken out for th
 
 As time passes, PCs will get better, and their condition will improve.
 
-If the fiction allows it, once per session clear 1 segment off a PC's stress clock. Also update the condition text to represent the character's current condition.
+If the fiction allows it, once per session clear 1 segment off a PC's `stress clock`. Also update the condition text to represent the character's current `condition`.
 
 ## Progression
 
@@ -536,9 +534,6 @@ If you want, you can also include the following images in your game to say that 
 	<img style="background: #fff" src="https://gyazo.com/e6f386391ee4d8a079aa4d10469b15d0.png" width="300px" style="margin-bottom: 1rem"/>
 	<img style="background: #000" src="https://gyazo.com/3f66d3276513deef1cdb7c200c098689.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
-
-
-
 
 # Credits
 

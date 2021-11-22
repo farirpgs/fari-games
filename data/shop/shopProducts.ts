@@ -355,6 +355,30 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Pandion Games",
+      slug: "pandion-games",
+      links: {
+        twitter: "https://twitter.com/PandionGames",
+        website: "https://www.pandiongames.com/",
+      },
+      products: [
+        {
+          name: "Threads of Lachesis",
+          slug: "threads-of-lachesis",
+          description:
+            "A guide to create solo games or generators with branched random prompts that the player organizes into a cohesive sequence via a single roll.",
+          tags: ["srd", "new"],
+          license: License.CC_BY_4,
+          links: {
+            itchIo: "https://pandiongames.itch.io/threadsoflachesis",
+          },
+          image: "https://gyazo.com/f0297d02ee6a46009767e524b12855dc.png",
+          footer:
+            "Text by Pandion Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+        },
+      ],
+    },
   ],
 };
 

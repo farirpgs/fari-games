@@ -31,4 +31,6 @@ export const gameDocuments: Record<
     import("./thought-police/motif-toolkit-srd.md?raw"),
   "live-real-productions/ven6-storytelling-system-srd": () =>
     import("./live-real-productions/ven6-storytelling-system-srd.md?raw"),
+  "pandion-games/threads-of-lachesis": () =>
+    import("./pandion-games/threads-of-lachesis.md?raw"),
 };
