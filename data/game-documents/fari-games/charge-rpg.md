@@ -1521,7 +1521,7 @@ During sessions, the PCs will go on missions to accomplish objectives. They will
 At the start of a campaign, or **every time the PCs come back to their H.Q.**, the GM draws **3 `hook cards`** of a standard deck of playing cards.
 
 - The first card tells us about something related to [Theme #1].
-- The second card tells us about something related to [Thme #2].
+- The second card tells us about something related to [Theme #2].
 - The third tells the GM what the PC's next mission is going to be.
 
 The GM can use those hooks to create narrative threads for the PCs to explore and bring life to the world.
