@@ -518,7 +518,7 @@ A situation is either in a `controlled`, `risky`, or `desperate` position.
 
 - In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out.
 - In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
-- In a `desperate` position, the odds are against you. Tempting to go against them might backfire heavily.
+- In a `desperate` position, the odds are against you. Attempting to go against them might backfire heavily.
 
 By default, if you roll to overcome something, you are probably in a `risky` position.
 
@@ -1506,19 +1506,111 @@ You track this effort by assigning a `project progress clock` with 4 segments on
 
 Once the project is completed, the character is allowed to use it in the fiction again, and to block future consequences.
 
-# Mission Extra | Extras
+# World Extra | Extras
 
-<p style="font-size:3rem; text-align:center; margin:0;">👷‍♀️ 🚧 🚧 🚧 👷</p>
+**By René-Pier Deshaies**
 
-```
-TODO:
+The World Extra is a additional mechanic that is mostly useful if you want to make a custom Powered by Charge game that feels unique.
 
- - Assault
- - Deceiving
- - Infiltration
- - Defending
- - Using Connections
-```
+This extra also requires the GM to use a standard deck of playing cards.
+
+## World Extra Rule
+
+During sessions, the PCs will go on missions to accomplish objectives. They will then come back to their H.Q. to debrief, rest and recover.
+
+At the start of a campaign, or **every time the PCs come back to their H.Q.**, the GM draws **3 `hook cards`** of a standard deck of playing cards.
+
+- The first card tells us about something related to [Theme #1].
+- The second card tells us about something related to [Thme #2].
+- The third tells the GM what the PC's next mission is going to be.
+
+The GM can use those hooks to create narrative threads for the PCs to explore and bring life to the world.
+
+> #### Designer Note
+>
+> Change the themes to match your game's settings.
+>
+> - A game about a the crew of a space ship trying to make ends meet could have: **The Ship** / **The Crew** / **The Next Job**.
+> - A game about a thieving crew could have: **The Crew** / **The Other Factions** / **The Next Score**.
+> - A game about super heroes fighting crime in a metropolis could have: **The City** / **The News** / **The Next Crime**
+
+<details open>
+	<summary>
+   **1st Card: [Theme #1]**
+	</summary>
+- **Ace**: [prompt] 
+- **2**: [prompt] 
+- **3**: [prompt] 
+- **4**: [prompt] 
+- **5**: [prompt] 
+- **6**: [prompt] 
+- **7**: [prompt] 
+- **8**: [prompt] 
+- **9**: [prompt] 
+- **10**: [prompt] 
+- **Jack**: [prompt] 
+- **Queen**: [prompt] 
+- **King**: [prompt] 
+</details>
+
+<details>
+	<summary>
+   **2nd Card: [Theme #2]**
+	</summary>
+- **Ace**: [prompt] 
+- **2**: [prompt] 
+- **3**: [prompt] 
+- **4**: [prompt] 
+- **5**: [prompt] 
+- **6**: [prompt] 
+- **7**: [prompt] 
+- **8**: [prompt] 
+- **9**: [prompt] 
+- **10**: [prompt] 
+- **Jack**: [prompt] 
+- **Queen**: [prompt] 
+- **King**: [prompt] 
+</details>
+
+<details>
+	<summary>
+   **3rd Card: The Mission**
+	</summary>
+- **Ace**: [prompt] 
+- **2**: [prompt] 
+- **3**: [prompt] 
+- **4**: [prompt] 
+- **5**: [prompt] 
+- **6**: [prompt] 
+- **7**: [prompt] 
+- **8**: [prompt] 
+- **9**: [prompt] 
+- **10**: [prompt] 
+- **Jack**: [prompt] 
+- **Queen**: [prompt] 
+- **King**: [prompt] 
+</details>
+
+Once the 3 cards are drawn, the GM uses the prompts on the first two to explain what happened while the PCs were away. The PCs can then spend time exploring those threads as they see fit.
+
+When the PCs are ready for their next mission, the GM makes a `mission roll`.
+
+To do so, the GM looks at the 3 cards they've drawn, and builds a dice pool of `1d6` for each red card (<span style="color:red">♥ ♦</span>).
+
+If there's no red card, roll `2d6`, and select the lowest number.
+
+The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting the next mission.
+
+- On a `1-3`, the PCs start in a `desperate` position.
+- On a `4-5`, the PCs start in a `risky` position.
+- On a `6`, the PCs start in a `controlled` position.
+- On a `66`, the PCs start in a `controlled` position, and gain some additional benefit.
+
+The GM introduces the mission to the PCs, and they decide how they will approach the situation.
+
+Once they've decided on a strategy, the GM cuts to the first scene of the mission using the result of the mission roll to describe the PCs current position.
+
+Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
 
 # Making a Compelling Campaign | Preparing the Game
 

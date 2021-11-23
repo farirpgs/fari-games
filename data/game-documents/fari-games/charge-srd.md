@@ -190,7 +190,7 @@ The GM sets the position of the situation based on what has been established in 
 
 - In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out.
 - In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
-- In a `desperate` position, the odds are against you. Tempting to go against them might backfire heavily.
+- In a `desperate` position, the odds are against you. Attempting to go against them might backfire heavily.
 
 By default, an action roll is `risky`. You wouldn’t be rolling if there was no risk involved.
 
