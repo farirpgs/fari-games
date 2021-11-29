@@ -1857,7 +1857,7 @@ This extra is meant to emulate low-level magic, so it may not be the best to use
 
 ## The Magic Dial
 
-First, you want to decide **Which stat to use**, though you can obviously mix and match (even inside the same spell) :
+First, you want to decide **which action to use**, though you can obviously mix and match (even inside the same spell) :
 
 Is magic made of drawn-out rituals that require you to spend a long time gathering some amount of magic power ? Then you need `Focus`
 

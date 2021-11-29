@@ -1,5 +1,7 @@
 import { css } from "@emotion/css";
+import EditIcon from "@mui/icons-material/Edit";
 import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
 import { useTheme } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import React, { useEffect, useState } from "react";
@@ -139,6 +141,17 @@ export function GamePage() {
               <>
                 <Box mb=".5rem" whiteSpace="pre-line">
                   <Typography variant="caption">{product?.footer}</Typography>
+                </Box>
+                <Box mb=".5rem" whiteSpace="pre-line">
+                  <Button
+                    component="a"
+                    startIcon={<EditIcon />}
+                    target="_blank"
+                    rel="noreferrer"
+                    href={`https://github.com/fariapp/fari-games/tree/main/data/game-documents/${authorSlug}/${gameSlug}.md#:~:text=${chapter?.currentChapter.originalText}`}
+                  >
+                    Edit this Page
+                  </Button>
                 </Box>
               </>
             );

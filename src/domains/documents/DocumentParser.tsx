@@ -43,26 +43,22 @@ export type IChapter = {
     text: string;
     level: number;
   }>;
-  currentChapter: {
-    id: string | null;
-    text: string | null;
-    description: string | null;
-  };
-  previousChapter: {
-    id: string | null;
-    text: string | null;
-  } | null;
-  nextChapter: {
-    id: string | null;
-    text: string | null;
-  } | null;
+  currentChapter: IChapterInfo & { description: string };
+  previousChapter: IChapterInfo | null;
+  nextChapter: IChapterInfo | null;
+};
+
+export type IChapterInfo = {
+  id: string | null;
+  text: string | null;
+  originalText: string | null;
 };
 
 export type IDocument = {
   dom: HTMLDivElement;
   style: string;
   frontMatter: IDocFrontMatter;
-  chapters: Array<{ id: string; text: string | null }>;
+  chapters: Array<IChapterInfo>;
   sidebar: ISidebar;
   searchIndexes: Array<ISearchIndex>;
 };
@@ -106,7 +102,7 @@ export const DocumentParser = {
       const pageSlugCounts: Record<string, number> = {};
       const sectionSlugCounts: Record<string, number> = {};
 
-      const chapters: Array<{ id: string; text: string | null }> = [];
+      const chapters: Array<IChapterInfo> = [];
       const sidebar: ISidebar = {
         root: [],
         categories: {},
@@ -116,7 +112,8 @@ export const DocumentParser = {
 
       let lastH1: Element | null = null;
       headings.forEach((h) => {
-        const titles = h.textContent?.split("|");
+        const initialPageContent = h.textContent;
+        const titles = initialPageContent?.split("|");
         const pageTitle = titles?.[0]?.trim() ?? "";
         const headingTitle = titles?.[1]?.trim() ?? "";
         const headingSlug = kebabCase(pageTitle ?? "");
@@ -143,7 +140,11 @@ export const DocumentParser = {
 
           h.id = id;
           h.textContent = pageTitle;
-          chapters.push({ id: id, text: pageTitle });
+          chapters.push({
+            id: id,
+            text: pageTitle,
+            originalText: initialPageContent,
+          });
           searchIndexes.push({
             id: id,
             label: pageTitle,
@@ -226,8 +227,11 @@ export const DocumentParser = {
       document,
       chapterId
     );
-    const previousChapter = getPreviousChapter(currentChapterIndex, document);
-    const nextChapter = getNextChapter(currentChapterIndex, document);
+    const previousChapter = getPreviousChapterInfo(
+      currentChapterIndex,
+      document
+    );
+    const nextChapter = getNextChapterInfo(currentChapterIndex, document);
     const chapter = getChapterContent(document, chapterId, nextChapter);
     const tableOfContent = getTableOfContent(chapter.html);
 
@@ -243,6 +247,7 @@ export const DocumentParser = {
       currentChapter: {
         id: currentChapter?.id || null,
         text: currentChapter?.text || null,
+        originalText: currentChapter?.originalText || null,
         description: chapter.preview,
       },
       previousChapter: previousChapter,
@@ -259,7 +264,7 @@ export const DocumentParser = {
     function getChapterContent(
       document: IDocument,
       chapterId: string,
-      nextChapter: { id: string; text: string | null }
+      nextChapter: IChapterInfo
     ) {
       const currentChapterHeading = document.dom.querySelector(
         `h1[id="${chapterId}"]`
@@ -286,13 +291,16 @@ export const DocumentParser = {
       return { html: chapterHtml, numberOfWords, preview: preview };
     }
 
-    function getNextChapter(currentChapterIndex: number, document: IDocument) {
+    function getNextChapterInfo(
+      currentChapterIndex: number,
+      document: IDocument
+    ) {
       const nextChapterIndex = currentChapterIndex + 1;
       const nextChapter = document.chapters[nextChapterIndex];
       return nextChapter;
     }
 
-    function getPreviousChapter(
+    function getPreviousChapterInfo(
       currentChapterIndex: number,
       document: IDocument
     ) {
