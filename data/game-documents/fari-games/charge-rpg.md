@@ -1623,7 +1623,7 @@ Once they've decided on a strategy, the GM cuts to the first scene of the missio
 
 Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
 
-# Quick Charge | Extras
+# Quick Charge Extra | Extras
 
 **By René-Pier Deshaies**
 
@@ -1792,7 +1792,7 @@ When you perform a setup action, you make an `action roll` to have an indirect e
 
 You choose the benefit, based on the nature of your setup action.
 
-## Determination Roll
+### Determination Roll
 
 If a character suffers a consequence that you, as a player, don't like, you can try to resist it.
 
@@ -1807,7 +1807,7 @@ Once you've decided how many charges you want to consume, roll and interpret the
 - On a `6`, the `consequence` is avoided.
 - On a `66`, the `consequence` is avoided, and you get +1 position for your next roll.
 
-## Clocks
+### Clocks
 
 Clocks are circles divided in either 4, 6 or 8 segments.
 
@@ -1818,13 +1818,13 @@ Use those to track a task's **progress** or escalating **danger** in scenes.
 
 When a clock is filled, a narrative element in the story is now resolved. Either the PCs got closer to their goal, or danger has come to fruition and makes the situation more complicated.
 
-## Recovery
+### Recovery
 
 As time passes, PCs will get better, and their condition will improve.
 
 If the fiction allows it, once per session clear 1 segment off a PC's `stress clock`.
 
-## Fortune Rolls
+### Fortune Rolls
 
 When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a `fortune roll` to see what happens.
 
@@ -1835,7 +1835,7 @@ Add `+1d6` per likeliness level of that thing happening.
 - On a **partial success**, mixed results.
 - On a **bad outcome**, bad results.
 
-## Flashbacks
+### Flashbacks
 
 Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation before it happened.
 
@@ -1849,12 +1849,13 @@ When a player calls for a flashback scene:
   - the GM makes a fortune roll to see what happens.
   - the player makes an action roll to see what happens.
 
-# Magic | Extras
+# Magic Extra | Extras
+
 **By Nugat**
 
 This extra is meant to emulate low-level magic, so it may not be the best to use in high-powered settings, or setting where magic is everywhere.
 
-## The Magic Dial 
+## The Magic Dial
 
 First, you want to decide **Which stat to use**, though you can obviously mix and match (even inside the same spell) :
 
@@ -1872,7 +1873,7 @@ Maybe you need to use your `Bond` with a specific god to call upon their particu
 
 Though, obviously, you can mix and match on the same roll or in the same setting : Maybe casting the same spell can be done through a chant or through some movements. Be creative with your magic!
 
-## The Cost of Magic 
+## The Cost of Magic
 
 Depending on the tone of your game, magic can have different costs and have different effects :
 
