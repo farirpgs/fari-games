@@ -102,7 +102,7 @@ When creating a new character, write down their:
 
 ## Actions
 
-When a PC needs to overcome an obstacle, they use one of their `actions`.
+When a PC needs to overcome an obstacle and there is a risk, they use one of their `actions`.
 
 At character creation, players assign `7 action dots` among the following action list:
 
@@ -134,7 +134,7 @@ At the start of a campaign, a single action cannot have more than 2 action dots.
 > - `Muscle`: you your force to move, overcome or wreck the obstacle in front of you.
 > - `Finesse`: you employ dexterous manipulation or subtle misdirection.
 > - `Move`: you quickly shift to a new position or get out of danger.
-> - `Think`: you scrutinize details and interpret evidence.
+> - `Study`: you scrutinize details and interpret evidence.
 > - `Talk`: you reassure, socialize or influence with kindness, guile, charm or argument.
 > - `Focus`: you concentrate to accomplish a task that requires great strength of mind.
 >
@@ -165,8 +165,10 @@ See those mechanics as tools in a box to use as needed. They exist to resolve si
 The game uses six-sided dice. You roll several at once, which we call a dice pool, and read the **single highest result**.
 
 - If the highest die is a `6`, it's a `full success`. Things go well. If you roll more than one `6`, it's a `critical success` and you gain some additional advantage.
-- If the highest die is a `4 or 5`, that's a `partial success`. You do what you were trying to do, but there are consequences.
-- If the highest die is `1-3`, it's a `bad outcome`. Things go poorly. You probably don't achieve your goal, and you suffer complications, too.
+- If the highest die is a `4 or 5`, that's a `partial success`. You do what you were trying to do, but there is a `consequence`.
+- If the highest die is `1-3`, it's a `bad outcome`. Things go poorly. You don't achieve your goal, and suffer a `consequence`.
+
+*If you ever need to roll but you have zero (or negative) dice, roll two dice and take the single lowest result. You can’t roll a critical when you have zero dice.*
 
 Most of the game's mechanics revolve around this basic format.
 
@@ -215,7 +217,12 @@ They can also receive assistance from another PC for an additional `1d6`.
 
 #### 5. Roll the Dice
 
-Finally, the player rolls the dice, and the group judge the result.
+Finally, the player rolls the dice, and the group judges the result.
+
+- On a `66` it's a critical success. You achieve your goal with increased `effect`.
+- On a `6` it's a full success. You achieve your goal.
+- On a `4-5` it's a partial success. You achieve your goal, but there's a `consequence`.
+- On a `1-3` it's a bad outcome. Things go badly, and there's a `consequence`.
 
 If the result of the dice is higher than `3`, the PC gains `momentum` from their action except if they pushed themselves.
 
@@ -312,9 +319,9 @@ Once you've decided how many charges you want to consume, roll and interpret the
 
 ## Clocks
 
-Clocks are circles divided in either 4, 6 or 8 segments.
+Clocks are circles divided in either 4, 6 or 8 segments used to track a task's **progress** or escalating **danger** in a scene.
 
-Use those to track a task's **progress** or escalating **danger** in scenes.
+Generally, the more complex the problem, the more segments the clock should have.
 
 When a PC succeeds an action roll, you can tick segments of a `progress clock`:
 
@@ -328,6 +335,8 @@ When a PC gets a consequence from an action roll, you can tick segments of a `da
 - Tick 2 segments for a `risky position`.
 - Tick 1 segment for a `controlled position`.
 
+When a clock is filled, a narrative element in the story is now resolved. Either the PCs got closer to their goal, or danger has come to fruition and makes the situation more complicated.
+
 ## Health and Condition
 
 When a PC gets hurt as a result of a consequence, they take `stress`. Each stress ticks a segment on the PC's `stress clock ⨁`.
@@ -336,7 +345,7 @@ As the stress clock gets filled, you also need to update the PC's `condition` by
 
 The character's condition imposes narrative restrictions as to what the character can or cannot do.
 
-When the 4 segments of the `stress clock` are filled, the PC is taken out for the scene,and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
+When the 4 segments of the `stress clock` are filled, the PC is taken out for the scene, and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
 
 ## Recovery
 

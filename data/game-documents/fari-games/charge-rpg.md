@@ -73,14 +73,6 @@ Let's build something incredible, together.
 
 ## Thanks
 
-**Sounding Board & Playtesters**:
-
-<ul class="people">
-  <li>Alexandre Lescarbeau</li>
-  <li>Matthieu Poirier</li>
-  <li>Valdy</li>
-</ul>
-
 **The White Lotus & The Delibuddies**:
 
 <ul class="people">
@@ -90,6 +82,23 @@ Let's build something incredible, together.
  <li>Jean-Loup Kahloun</li>
  <li>Wing Tak Wong</li>
  <li>Xavier Tétreault.</li>
+</ul>
+
+**Extras Contributors**:
+
+<ul class="people">
+  <li>René-Pier Deshaies</li>
+  <li>Valdy</li>
+  <li>Keita Creations</li>
+  <li>Nugat</li>
+</ul>
+
+**Sounding Board & Playtesters**:
+
+<ul class="people">
+  <li>Alexandre Lescarbeau</li>
+  <li>Matthieu Poirier</li>
+  <li>Valdy</li>
 </ul>
 
 # Goals | Power Your Storytelling
@@ -463,8 +472,10 @@ Those mechanics mostly rely on figuring out what the risks are, and what is happ
 The game uses six-sided dice. You roll several at once, which we call a dice pool, and read the **single highest result**.
 
 - If the highest die is a `6`, it's a `full success`. Things go well. If you roll more than one `6`, it's a `critical success` and you gain some additional advantage.
-- If the highest die is a `4 or 5`, that's a `partial success`. You do what you were trying to do, but there are consequences.
-- If the highest die is `1-3`, it's a `bad outcome`. Things go poorly. You probably don't achieve your goal, and you suffer complications, too.
+- If the highest die is a `4 or 5`, that's a `partial success`. You do what you were trying to do, but there is a consequence.
+- If the highest die is `1-3`, it's a `bad outcome`. Things go poorly. You don't achieve your goal, and suffer a consequence.
+
+_If you ever need to roll but you have zero (or negative) dice, roll two dice and take the single lowest result. You can’t roll a critical when you have zero dice._
 
 Most of the game's mechanics revolve around this basic format.
 
@@ -498,9 +509,9 @@ On a `6`, the PC wins and gets what they wanted. On a `4 or 5`, both the PC and 
 
 ### No Action Dots
 
-If an action doesn't have any action dots darkened, then you roll `2d6` and **pick the worst**. This gives you around a 25% chance of success, so the odds aren't great.
+If an action doesn't have any action dots darkened, then you roll `2d6` and **pick the lowest result**.
 
-That being said, you can always `push yourself`, `add tension` to the scene, get an `assist`, or use an `asset` to add more dice to your pool. More on that later.
+While to odds aren't great, you can always `push yourself`, `add tension` to the scene or get an `assist` to add more dice to your pool. More on that later.
 
 For now, let's take a look at the different tools you can use to resolve the different situations that arise in your story.
 
@@ -1061,7 +1072,7 @@ Here are a couple examples of how clocks could be used to represent some situati
 > - Tick 2 segments for a `standard effect`.
 > - Tick 3 segments for a `great effect`.
 >
-> When a PC gets a consequence from an action roll, you can tick segments of a `danger clock`:
+> When a PC suffers a consequence from an action roll, you can tick segments of a `danger clock`:
 >
 > - Tick 3 segments for a `desperate position`.
 > - Tick 2 segments for a `risky position`.
@@ -1400,7 +1411,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - Tick 2 segment for a `standard effect`.
 > - Tick 3 segment for a `great effect`.
 >
-> When a PC gets a consequence from an action roll, you can tick segments of a `danger Clock`:
+> When a PC suffers a consequence from an action roll, you can tick segments of a `danger Clock`:
 >
 > - Tick 3 segment for a `desperate position`.
 > - Tick 2 segment for a `risky position`.
@@ -1611,6 +1622,297 @@ The GM introduces the mission to the PCs, and they decide how they will approach
 Once they've decided on a strategy, the GM cuts to the first scene of the mission using the result of the mission roll to describe the PCs current position.
 
 Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
+
+# Quick Charge | Extras
+
+**By René-Pier Deshaies**
+
+Quick Charge is an extra that simplifies the core rules of Charge so that it's easier to pick-up and play.
+
+Use it for a quick one-shot, to introduce the Charge to new players, or simply because you prefer those streamlined rules.
+
+Some text was copied over from the rest of the game to make this Extra stand on its own, but here's a quick rundown of the modifications for the Charge veterans reading this:
+
+- There's only 2 character details: the `concept` and the `appearance`.
+- The action list was reduced to 6 actions. Start with 4 action dots at character creation:
+  - `Muscle`: you your force to move, overcome or wreck the obstacle in front of you.
+  - `Finesse`: you employ dexterous manipulation or subtle misdirection.
+  - `Move`: you quickly shift to a new position or get out of danger.
+  - `Study`: you scrutinize details and interpret evidence.
+  - `Talk`: you reassure, socialize or influence with kindness, guile, charm or argument.
+  - `Focus`: you concentrate to accomplish a task that requires great strength of mind.
+- The `effect` rating is determined by the action roll's result:
+  - A `66` gives a `+3 effect`.
+  - A `6` gives a `+2 effect`.
+  - A `4-5` gives a `+1 effect`.
+- The consequence rating is determined by the action roll's result:
+  - A `1-3` creates a `+2 consequence`
+  - A `4-5` creates a `+1 consequence`
+- Progress clocks are filled using the `effect rating` of an action roll.
+- Danger clocks are filled using the `consequence rating` of an action roll.
+- The stress clock is also filled using the `consequence rating` of an action roll.
+
+---
+
+## Quick Charge
+
+### Character Creation
+
+Characters are defined by descriptive traits called `details`.
+
+When creating a new character, write down their:
+
+- `Concept`: an elevator-pitch version of who the character is.
+- `Appearance`: what the character looks like, what they wear, etc.
+
+#### Actions
+
+When a PC needs to overcome an obstacle and there is a risk, they use one of their `actions`.
+
+At character creation, players assign `4 action dots` among the following action list:
+
+Assign `4 action dots` in:
+
+- `Muscle`: you your force to move, overcome or wreck the obstacle in front of you.
+- `Finesse`: you employ dexterous manipulation or subtle misdirection.
+- `Move`: you quickly shift to a new position or get out of danger.
+- `Think`: you scrutinize details and interpret evidence.
+- `Talk`: you reassure, socialize or influence with kindness, guile, charm or argument.
+- `Focus`: you concentrate to accomplish a task that requires great strength of mind.
+
+#### Condition
+
+A character's condition is tracked using a clock divided in 4 segments called the `stress clock ⨁`.
+
+When they get hurt, that clock gets filled.
+
+When the 4 segments of the `stress clock` are filled, the PC is taken out for the scene, and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
+
+### Rolling Dice
+
+The game uses six-sided dice. You roll several at once, which we call a dice pool, and read the **single highest result**.
+
+- If the highest die is a `6`, it's a `full success`. Things go well. If you roll more than one `6`, it's a `critical success` and you gain some additional advantage.
+- If the highest die is a `4 or 5`, that's a `partial success`. You do what you were trying to do, but there is a consequence.
+- If the highest die is `1-3`, it's a `bad outcome`. Things go poorly. You don't achieve your goal, and suffer a consequence.
+
+_If you ever need to roll but you have zero (or negative) dice, roll two dice and take the single lowest result. You can’t roll a critical when you have zero dice._
+
+Most of the game's mechanics revolve around this basic format.
+
+### Action Rolls
+
+When there's a challenge that needs to be overcome, and there's a risk of failure, a player makes an `action roll`.
+
+The number of dice to roll depends on the `action` the character is doing.
+
+The action roll acts as double duty. Which means that it resolves what the PC is doing, as well as the NPC.
+
+Here's what happens when a player makes an action roll:
+
+#### 1. Player Sets Their Goal
+
+The player states their goal and, which `action` they are using.
+
+#### 2. The GM explains the risk
+
+You would not be rolling if there were no risks. So the GM should explain to the player what they are getting themselves into.
+
+#### 3. Player Evens the Odds
+
+The player decides if they want to even the odds.
+
+They can either
+
+- `Push themselves`: Consume `2 momentum` to get `+1d6` or an improved effect rating.
+- `Add tension` to the scene, to get `+1d6`.
+
+They can also receive assistance from another PC for an additional `1d6`.
+
+#### 4. Roll the Dice
+
+Finally, the player rolls the dice, and the group judges the result.
+
+- On a `66` it's a critical success. You _greatly_ achieve your goal with a `+3 effect`
+- On a `6` it's a full success. You achieve your goal with a `+2 effect`
+- On a `4-5` it's a partial success. You achieve your goal with a `+1 effect`, but there's a `+1 consequence`.
+- On a `1-3` it's a bad outcome. Things go badly, and there's a `+1 consequence`.
+
+If the result of the dice is higher than `3`, the PC gains `momentum` from their action except if they pushed themselves.
+
+### Momentum
+
+When a player gets a successful action roll, that roll generates `momentum`.
+
+You start every session with `2`, and generate more `momentum` when making action rolls.
+
+- On a `4-5`, you gain `+1 momentum`.
+- On a `6`, you gain `+2 momentum`.
+- On a `66`, you gain `+3 momentum`.
+
+PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and their group.
+
+### Boosting Action Rolls
+
+If you want, you can add bonus dice to your action roll by using **one** of the following methods.
+
+#### Push Yourself
+
+When you `push yourself`, you consume `2 momentum` per push to gain one of the following bonuses.
+
+- Add `+1d6` to your dice pool.
+- Gain `+1 effect rating` for your roll.
+- Take action even if you were taken out.
+
+_Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_.
+
+#### Add Tension
+
+When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
+
+If you accept the deal, add `+1d6` to your dice pool.
+
+### Team work
+
+The PCs can help one another in different ways to assure that the teams overcome the different challenges that are facing them.
+
+#### Assist
+
+When you `assist` a PC, you consume `1 momentum`, to give `+1d6` to their roll. When doing this, you also expose yourself to possible danger.
+
+#### Protect
+
+When you protect a PC, you step in to confront a consequence they would otherwise face. Describe how you intervene, and suffer the consequence for them.
+
+You can make a `determination roll` to try to reduce or cancel the consequence.
+
+#### Set up
+
+When you perform a setup action, you make an `action roll` to have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll.
+
+You choose the benefit, based on the nature of your setup action.
+
+## Determination Roll
+
+If a character suffers a consequence that you, as a player, don't like, you can try to resist it.
+
+You do so by calling for a `determination roll` to see how well you resist the consequence.
+
+Build a pool of d6s by adding `+1d6` for each charge of momentum you are willing to consume for the roll.
+
+Once you've decided how many charges you want to consume, roll and interpret the results:
+
+- On a `1-3`, the `consequence` still happens.
+- On a `4-5`, the `consequence` is reduced.
+- On a `6`, the `consequence` is avoided.
+- On a `66`, the `consequence` is avoided, and you get +1 position for your next roll.
+
+## Clocks
+
+Clocks are circles divided in either 4, 6 or 8 segments.
+
+Use those to track a task's **progress** or escalating **danger** in scenes.
+
+- When a PC succeeds an action roll, you can tick 1 segment of a `progress clock` for each `effect` rating.
+- When a PC suffers a `consequence` from an action roll, you can tick 1 segment of a `danger clock` for each `consequence` rating.
+
+When a clock is filled, a narrative element in the story is now resolved. Either the PCs got closer to their goal, or danger has come to fruition and makes the situation more complicated.
+
+## Recovery
+
+As time passes, PCs will get better, and their condition will improve.
+
+If the fiction allows it, once per session clear 1 segment off a PC's `stress clock`.
+
+## Fortune Rolls
+
+When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a `fortune roll` to see what happens.
+
+Add `+1d6` per likeliness level of that thing happening.
+
+- On a **critical success**, great results, and something exceptional happens.
+- On a **full success**, great results.
+- On a **partial success**, mixed results.
+- On a **bad outcome**, bad results.
+
+## Flashbacks
+
+Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation before it happened.
+
+Flashback scenes aren't like time travel, and can't undo what was already established in the narrative.
+
+When a player calls for a flashback scene:
+
+- The GM sets a cost in `momentum` between `0-2` for the scene.
+- Depending on the fiction, either
+  - the player gets what they want.
+  - the GM makes a fortune roll to see what happens.
+  - the player makes an action roll to see what happens.
+
+# Magic | Extras
+**By Nugat**
+
+This extra is meant to emulate low-level magic, so it may not be the best to use in high-powered settings, or setting where magic is everywhere.
+
+## The Magic Dial 
+
+First, you want to decide **Which stat to use**, though you can obviously mix and match (even inside the same spell) :
+
+Is magic made of drawn-out rituals that require you to spend a long time gathering some amount of magic power ? Then you need `Focus`
+
+Does magic require careful movements or even danses that you have to execute perfectly ? That would require some amount of `Finesse`
+
+Is magic made of alchemy and enchanting ? This sounds like `Tinkering`
+
+Is magic something made out of a runic language that you have to decipher, arias you need to know by heart or complex drawings ? I hope you're a good `Study` (but `Focus` could work, especially if you have a book in hand!)
+
+Do you use Hypnosis or Kototama (japanese word magic)? It might be `Sway` or `Command`
+
+Maybe you need to use your `Bond` with a specific god to call upon their particular powers.
+
+Though, obviously, you can mix and match on the same roll or in the same setting : Maybe casting the same spell can be done through a chant or through some movements. Be creative with your magic!
+
+## The Cost of Magic 
+
+Depending on the tone of your game, magic can have different costs and have different effects :
+
+For a cost, magic could require any of :
+
+- Some amount of `momentum`.
+- Time (require a `clock` to be filled).
+- Risk (put you in a certain `position` by default).
+- Danger (a `clock` to tick on consequences that is in your character's `complications` on their sheet).
+- Materials (no need to keep an inventory, use common sense).
+- Casting Prerequisites (at night; on-site; with a spell tome).
+- Casting Limits (once per day; once per session; once in the whole campaign).
+- Drawbacks (create collateral damage; take stress).
+- Long-term effects on the caster (maybe it takes a toll on their health, maybe it even corrupts them [if someone makes a corruption extra, add it here].).
+
+Just be sure the effect that you're giving magic fits the cost, so that your players will always be tempted to use it.
+
+## The Effect of Magic
+
+### Magic with Multiple Uses and Magic Items
+
+When creating a magic item, or when using magic that may be used multiple times in the same cast, you should likely define limits to the spell :
+
+- Either use the [Gear extra](https://fari.games/en/srds/fari-games/charge-rpg/gear-extra) for a protective item.
+- Use a "magic charge" clock that depletes with use (may or may not be replenished by the caster) that can be tracked on the character sheet, using `projects`.
+- Make the spell much harder to cast and more dangerous.
+- Make further uses of the effect have a cost (see above).
+- For an item, allow the character wearing the item to roll for the spell in lieu of the caster (give them narrative permission to do something)..
+
+### The effect of magic
+
+Use the effect rating of the spell, or clear segments (if the spell is a clock), to determine its effect. When ticking clocks, follow the normal rules. If the spell is meant to help an ally or hinder the enemy, it applies a bonus (only on rolls where the effect might be relevant) :
+
+A spell with **limited** effect (1 segment) will only have a small impact on whatever you're doing : it only provides a better effect or a better position
+
+A spell with **normal** effect (2 segments) is stronger : it gives you an extra d6 when rolling
+
+A spell with **great** effect (3 segments) is powerful : it gives you both better effect or position and gives you an extra d6 when rolling.
+
+Critical successes on spells raise the effect by one level for every additionnal d6 besides the first. A critical success on a spell that already had a **great** effect can have two effect : either it provides better effect, position and an extra d6, or it simply lets the character automatically succeed on a roll where the effect applies (in that case, the effect rating stays the same).
 
 # Making a Compelling Campaign | Preparing the Game
 
@@ -2023,3 +2325,20 @@ If you want, you can also include the following images in your game to say that 
 | Command      | Ordonner     |           | Beordrande        |
 | Focus        | Concentrer   |           | Fokuserat         |
 | Sway         | Manipuler    |           | Manipulerande     |
+
+# Keita's World Force Generator | Community Resources
+
+[Keita Creations](https://keitacreates.itch.io/) released an amazing [World Force Generator](https://perchance.org/gex3b4ueer) for Charge.
+
+Simply click a few time on the **Randomize** button to generate awesome Forces to add to your world.
+
+They also posted a great [step-by-step guide](https://itch.io/t/1783551/keitas-world-force-generator) on how to use this tool on Charge's itch.io community.
+
+You can find more by Keita Creations on:
+
+- [Itch.io](https://keitacreates.itch.io/)
+- [Twitter](https://twitter.com/KeitaCreates)
+
+Randomize away!
+
+<iframe src="https://null.perchance.org/gex3b4ueer" style="width:100%; height:600px; border:none;"></iframe>
