@@ -1857,7 +1857,7 @@ This extra is meant to emulate low-level magic, so it may not be the best to use
 
 ## The Magic Dial
 
-First, you want to decide **which action to use**, though you can obviously mix and match (even inside the same spell) :
+First, you want to decide **which action to use**, though you are not restricted in how many you select in the same setting or for a single spell :
 
 Is magic made of drawn-out rituals that require you to spend a long time gathering some amount of magic power ? Then you need `Focus`
 
@@ -1871,7 +1871,7 @@ Do you use Hypnosis or Kototama (japanese word magic)? It might be `Sway` or `Co
 
 Maybe you need to use your `Bond` with a specific god to call upon their particular powers.
 
-Though, obviously, you can mix and match on the same roll or in the same setting : Maybe casting the same spell can be done through a chant or through some movements. Be creative with your magic!
+Be creative with magic! Maybe one spell requires multiple actions, maybe one spell can be cast in multiple different ways.
 
 ## The Cost of Magic
 
@@ -1891,7 +1891,7 @@ For a cost, magic could require any of :
 
 Just be sure the effect that you're giving magic fits the cost, so that your players will always be tempted to use it.
 
-## The Effect of Magic
+## The Effect(s) of Magic
 
 ### Magic with Multiple Uses and Magic Items
 
