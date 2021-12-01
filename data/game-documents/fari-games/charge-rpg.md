@@ -2329,7 +2329,7 @@ If you want, you can also include the following images in your game to say that 
 
 # Keita's World Force Generator | Community Resources
 
-[Keita Creations](https://keitacreates.itch.io/) released an amazing [World Force Generator](https://perchance.org/gex3b4ueer) for Charge.
+[Keita Creations](https://keitacreates.itch.io/) released an amazing [World Force Generator](https://keitacreates.itch.io/charge-ttrpg-world-force-generator) for Charge.
 
 Simply click a few time on the **Randomize** button to generate awesome Forces to add to your world.
 
