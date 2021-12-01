@@ -112,7 +112,7 @@ At character creation, players assign `7 action dots` among the following action
 - `Sneak`: you traverse skillfully and quietly.
 - `Shoot`: you carefully track and shoot at a target.
 - `Tinker`: you understand, create, or repair complex mechanisms or organisms.
-- `Study`: you gather, scrutinize and analyse information.
+- `Study`: you gather, scrutinize and analyze information.
 - `Notice`: you observe the situation and anticipate outcomes.
 - `Bond`: you reassure and socialize with friends and contacts.
 - `Command`: you compel swift obedience with skills and respect.
