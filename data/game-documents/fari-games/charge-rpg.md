@@ -1873,6 +1873,10 @@ Maybe you need to use your `Bond` with a specific god to call upon their particu
 
 Be creative with magic! Maybe one spell requires multiple actions, maybe one spell can be cast in multiple different ways.
 
+```
+For her specific game about mages with books and incantations, Alice has decided that magic can be done in two ways : Either the character can `Focus` on reading from the book, or they could simply remember a prior `Study` if the character doesn't have their book on hand. But, for a ritual to summon a being from another world, she has decided that the spell require a clock to be filled. Half of it must be filled with `Focus` as the character reads incantations from the book, but the other half has to be done with `Command`, as they must bind the being to their will
+```
+
 ## The Cost of Magic
 
 Depending on the tone of your game, magic can have different costs and have different effects :
@@ -1891,6 +1895,10 @@ For a cost, magic could require any of :
 
 Just be sure the effect that you're giving magic fits the cost, so that your players will always be tempted to use it.
 
+```
+For the summoning ritual from before, alice decides it should be a time-consuming process with a lot of care put into it. She decides that the spell is an eight-segment clock, and that each segment represents one hour of game time where the character has to conclude the ritual. Obviously, it's also going to require an entire empty room dedicated to the summon. If the character fails at any point, she could make the entire spell fail, but she decides on something else : for every consequence, she ticks a segment from a four-segment clock. When it is filled, the being is summoned, but they are hostile to the player who summoned them.
+```
+
 ## The Effect(s) of Magic
 
 ### Magic with Multiple Uses and Magic Items
@@ -1899,13 +1907,17 @@ When creating a magic item, or when using magic that may be used multiple times 
 
 - Either use the [Gear extra](https://fari.games/en/srds/fari-games/charge-rpg/gear-extra) for a protective item.
 - Use a "magic charge" clock that depletes with use (may or may not be replenished by the caster) that can be tracked on the character sheet, using `projects`.
-- Make the spell much harder to cast and more dangerous.
+- For both of the aforementioned items, you may use [Keita Creation's repairs and restoration rules](https://keitacreates.itch.io/repairs-and-restorations)
+- Make the spell much harder to cast and more dangerous on further uses in the same scene.
 - Make further uses of the effect have a cost (see above).
-- For an item, allow the character wearing the item to roll for the spell in lieu of the caster (give them narrative permission to do something)..
+- For an item, allow the character wearing the item to roll for the spell in lieu of the caster (give them narrative permission to do something).
+- You may treat the item as an [Asset](https://fari.games/en/srds/fari-games/charge-rpg/asset-extra) for spells with delayed effect
+- You may also treat them as an [Asset](https://fari.games/en/srds/fari-games/charge-rpg/asset-extra) for spells multiple uses using a clock, either with fixed effect, or with different effects depending on the number of segments ticked (see below)
+
 
 ### The effect of magic
 
-Use the effect rating of the spell, or clear segments (if the spell is a clock), to determine its effect. When ticking clocks, follow the normal rules. If the spell is meant to help an ally or hinder the enemy, it applies a bonus (only on rolls where the effect might be relevant) :
+Use the effect rating of the spell, or empty segments (if the spell is a clock), to determine its effect. When ticking clocks, follow the normal rules. If the spell is meant to help an ally or hinder the enemy, it applies a bonus (only on rolls where the effect might be relevant) :
 
 A spell with **limited** effect (1 segment) will only have a small impact on whatever you're doing : it only provides a better effect or a better position
 
@@ -1914,6 +1926,14 @@ A spell with **normal** effect (2 segments) is stronger : it gives you an extra 
 A spell with **great** effect (3 segments) is powerful : it gives you both better effect or position and gives you an extra d6 when rolling.
 
 Critical successes on spells raise the effect by one level for every additionnal d6 besides the first. A critical success on a spell that already had a **great** effect can have two effect : either it provides better effect, position and an extra d6, or it simply lets the character automatically succeed on a roll where the effect applies (in that case, the effect rating stays the same).
+
+```
+The being has been summoned succesfully, and it is now represented by a post-it that has a name and a clock. She decides that the spirit is a **normal** spiritual being that may be commanded any time the summoner wants to provide an extra d6 when rolling a dice when it would make sense that the spirit could act on behalf of the character. Since it acts instead of the character, Alice decides that the being has its own condition clock to tick on consequences. 
+
+But, since this is a powerful effect, it also has a powerful drawback : Using the spiritual being is taxing on both body and mind, and any uses of the being tick one segment of the character's condition clocck. Furthermore, as soon as the character is taken out, the being breaks free of the spell and turns hostile to the party. 
+
+```
+
 
 # Making a Compelling Campaign | Preparing the Game
 
