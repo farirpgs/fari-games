@@ -1531,7 +1531,7 @@ Once the project is completed, the character is re-allowed to use the attachment
 
 ### Repair and Restorations
 
-Keita Creations made a great expansion to this extra called **Repairs and Restorations** available on their [Itch page](https://keitacreates.itch.io/repairs-and-restorations).
+Parts of this Extra were originally part of a work by Keita Creations which you can find on his [itch.io page](https://keitacreates.itch.io/repairs-and-restorations). Reprinted with permission
 
 # World Extra | Extras
 
