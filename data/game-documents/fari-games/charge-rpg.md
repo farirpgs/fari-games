@@ -2367,20 +2367,45 @@ If you want, you can also include the following images in your game to say that 
 
 ### 12 Actions
 
-| English      | Français     | Português | Swedish           |
-| ------------ | ------------ | --------- | ----------------- |
-| **Physique** | Physique     |           | **Kroppsbyggnad** |
-| Muscle       | Forcer       |           | Kraftfullt        |
-| Finesse      | Finesse      |           | Fingerfärdigt     |
-| Move         | Bouger       |           | Snabbt            |
-| Sneak        | Faufiler     |           | Tyst              |
-| **Insight**  | Perspicacité |           | **Koncentration** |
-| Shoot        | Tirer        |           | Träffsäkert       |
-| Tinker       | Bricoler     |           | Underfundigt      |
-| Study        | Étudier      |           | Studerande        |
-| Notice       | Remarquer    |           | Uppmärksamt       |
-| **Resolve**  | Volonté      |           | **Beslutsamhet**  |
-| Bond         | Sociabiliser |           | Uppmuntrande      |
-| Command      | Ordonner     |           | Beordrande        |
-| Focus        | Concentrer   |           | Fokuserat         |
-| Sway         | Manipuler    |           | Manipulerande     |
+| English      | Français         | Português | Swedish           |
+| ------------ | ---------------- | --------- | ----------------- |
+| **Physique** | **Physique**     |           | **Kroppsbyggnad** |
+| Muscle       | Forcer           |           | Kraftfullt        |
+| Finesse      | Finesse          |           | Fingerfärdigt     |
+| Move         | Bouger           |           | Snabbt            |
+| Sneak        | Faufiler         |           | Tyst              |
+| **Insight**  | **Perspicacité** |           | **Koncentration** |
+| Shoot        | Tirer            |           | Träffsäkert       |
+| Tinker       | Bricoler         |           | Underfundigt      |
+| Study        | Étudier          |           | Studerande        |
+| Notice       | Remarquer        |           | Uppmärksamt       |
+| **Resolve**  | **Volonté**      |           | **Beslutsamhet**  |
+| Bond         | Sociabiliser     |           | Uppmuntrande      |
+| Command      | Ordonner         |           | Beordrande        |
+| Focus        | Concentrer       |           | Fokuserat         |
+| Sway         | Manipuler        |           | Manipulerande     |
+
+### Hacks
+
+| English      | Français      | Português | Swedish |
+| ------------ | ------------- | --------- | ------- |
+| Attachments  | Connections   |           |         |
+| Asset        | Atout         |           |         |
+| Quick Charge | Charge Rapide |           |         |
+
+# Keita's World Force Generator | Community Resources
+
+[Keita Creations](https://keitacreates.itch.io/) released an amazing [World Force Generator](https://keitacreates.itch.io/charge-ttrpg-world-force-generator) for Charge.
+
+Simply click a few time on the **Randomize** button to generate awesome Forces to add to your world.
+
+They also posted a great [step-by-step guide](https://itch.io/t/1783551/keitas-world-force-generator) on how to use this tool on Charge's itch.io community.
+
+You can find more by Keita Creations on:
+
+- [Itch.io](https://keitacreates.itch.io/)
+- [Twitter](https://twitter.com/KeitaCreates)
+
+Randomize away!
+
+<iframe src="https://null.perchance.org/gex3b4ueer" style="width:100%; height:600px; border:none;"></iframe>
