@@ -2079,8 +2079,6 @@ Once the players have a general idea of what their group is about, write a `Forc
 
 # What to Hack | Hacking the Game
 
- <p style="font-size:3rem; text-align:center; margin:0;">👷‍♀️ 🚧 🚧 🚧 👷</p>
-
 You've read the rules and best practices, and your first thought is:
 
 **_This is great! Now, how can I hack this ?_**
