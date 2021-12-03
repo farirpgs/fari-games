@@ -2287,9 +2287,9 @@ Thank you, and go power your storytelling!
 - `René-Pier Deshaies (original author | core maintainer | extra contributor)`
   - [Twitter](https://twitter.com/RPDeshaies)
   - [Itch.io](https://farigames.itch.io/)
-- Valdy (extra contributor)
-- Nugat (extra contributor)
-- Keita Creations (extra contributor)
+- `Valdy (extra contributor)`
+- `Nugat (extra contributor)`
+- `Keita Creations (extra contributor)`
   - [Twitter](https://twitter.com/KeitaCreates)
   - [Itch.io](https://keitacreates.itch.io/)
 
