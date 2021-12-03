@@ -84,23 +84,6 @@ Let's build something incredible, together.
  <li>Xavier Tétreault.</li>
 </ul>
 
-**Extras Contributors**:
-
-<ul class="people">
-  <li>René-Pier Deshaies</li>
-  <li>Valdy</li>
-  <li>Keita Creations</li>
-  <li>Nugat</li>
-</ul>
-
-**Sounding Board & Playtesters**:
-
-<ul class="people">
-  <li>Alexandre Lescarbeau</li>
-  <li>Matthieu Poirier</li>
-  <li>Valdy</li>
-</ul>
-
 # Goals | Power Your Storytelling
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/4e66d10b4b1784cc27093097134aaa35.png)](https://pixabay.com/illustrations/fantasy-sun-sea-dragon-flying-4033001/)
@@ -1529,9 +1512,10 @@ Depending on what is being repaired, the player may have to make different `acti
 
 Once the project is completed, the character is re-allowed to use the attachment it in the fiction, and may use it again to block a new consequence.
 
-### Repair and Restorations
+### Credits
 
-Parts of this Extra were originally part of a work by Keita Creations which you can find on his [itch.io page](https://keitacreates.itch.io/repairs-and-restorations). Reprinted with permission
+- Parts of this Extra were originally part of a work by **Keita Creations** which you can find on his [itch.io page](https://keitacreates.itch.io/repairs-and-restorations). Reprinted with permission.
+- Thanks **Lynn Jones** for finding the name `attachment` which is way better than the previous name this extra had.
 
 # World Extra | Extras
 
@@ -2261,6 +2245,23 @@ Once you've done one playbook, just repeat the process a couple of time to offer
 
 This should help your players find interesting ideas for their characters since constraints are known to aid with creativity.
 
+# Keita's World Force Generator | Community Resources
+
+[Keita Creations](https://keitacreates.itch.io/) released an amazing [World Force Generator](https://keitacreates.itch.io/charge-ttrpg-world-force-generator) for Charge.
+
+Simply click a few time on the **Randomize** button to generate awesome Forces to add to your world.
+
+They also posted a great [step-by-step guide](https://itch.io/t/1783551/keitas-world-force-generator) on how to use this tool on Charge's itch.io community.
+
+You can find more by Keita Creations on:
+
+- [Itch.io](https://keitacreates.itch.io/)
+- [Twitter](https://twitter.com/KeitaCreates)
+
+Randomize away!
+
+<iframe src="https://null.perchance.org/gex3b4ueer" style="width:100%; height:600px; border:none;"></iframe>
+
 # What Next
 
 Now that you've read the game form start to finish, you might wonder that you need to do next.
@@ -2280,6 +2281,17 @@ All the funds are re-invested in the game to buy original art, paying editors or
 Thank you, and go power your storytelling!
 
 <iframe frameborder="0" src="https://itch.io/embed/1196268?bg_color=ffffff&amp;fg_color=324149&amp;link_color=2d436e&amp;border_color=58676f" width="100%" height="167"><a href="https://farigames.itch.io/charge-rpg">Charge RPG | Free, Open and Generic by Fari Games</a></iframe>
+
+# Credits
+
+- `René-Pier Deshaies (original author | core maintainer | extra contributor)`
+  - [Twitter](https://twitter.com/RPDeshaies)
+  - [Itch.io](https://farigames.itch.io/)
+- Valdy (extra contributor)
+- Nugat (extra contributor)
+- Keita Creations (extra contributor)
+  - [Twitter](https://twitter.com/KeitaCreates)
+  - [Itch.io](https://keitacreates.itch.io/)
 
 # Licencing
 
@@ -2372,20 +2384,3 @@ If you want, you can also include the following images in your game to say that 
 | Command      | Ordonner     |           | Beordrande        |
 | Focus        | Concentrer   |           | Fokuserat         |
 | Sway         | Manipuler    |           | Manipulerande     |
-
-# Keita's World Force Generator | Community Resources
-
-[Keita Creations](https://keitacreates.itch.io/) released an amazing [World Force Generator](https://keitacreates.itch.io/charge-ttrpg-world-force-generator) for Charge.
-
-Simply click a few time on the **Randomize** button to generate awesome Forces to add to your world.
-
-They also posted a great [step-by-step guide](https://itch.io/t/1783551/keitas-world-force-generator) on how to use this tool on Charge's itch.io community.
-
-You can find more by Keita Creations on:
-
-- [Itch.io](https://keitacreates.itch.io/)
-- [Twitter](https://twitter.com/KeitaCreates)
-
-Randomize away!
-
-<iframe src="https://null.perchance.org/gex3b4ueer" style="width:100%; height:600px; border:none;"></iframe>
