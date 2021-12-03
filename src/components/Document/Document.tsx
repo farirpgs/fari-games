@@ -613,12 +613,24 @@ export function Document(props: {
           spacing={1}
           justifyContent="space-between"
           alignItems="center"
+          wrap="nowrap"
         >
-          <Grid item>
+          <Grid
+            item
+            xs={6}
+            className={css({
+              display: "flex",
+              justifyContent: "flex-start",
+            })}
+          >
             {chapter.previousChapter?.id && (
               <ReactRouterLink
                 to={props.makeChapterLink(chapter.previousChapter?.id)}
-                className={css({ color: "inherit", textDecoration: "none" })}
+                className={css({
+                  color: "inherit",
+                  textDecoration: "none",
+                  textAlign: "left",
+                })}
                 onClick={() => {
                   track("go_to_previous", {
                     game: props.slug,
@@ -632,11 +644,22 @@ export function Document(props: {
               </ReactRouterLink>
             )}
           </Grid>
-          <Grid item>
+          <Grid
+            item
+            xs={6}
+            className={css({
+              display: "flex",
+              justifyContent: "flex-end",
+            })}
+          >
             {chapter.nextChapter?.id && (
               <ReactRouterLink
                 to={props.makeChapterLink(chapter.nextChapter?.id)}
-                className={css({ color: "inherit", textDecoration: "none" })}
+                className={css({
+                  color: "inherit",
+                  textDecoration: "none",
+                  textAlign: "right",
+                })}
                 onClick={() => {
                   track("go_to_next", {
                     game: props.slug,
@@ -659,7 +682,6 @@ export function Document(props: {
         <Grid
           container
           spacing={1}
-          // justifyContent="space-between"
           alignItems="stretch"
           className={css({
             color: theme.palette.text.disabled,
