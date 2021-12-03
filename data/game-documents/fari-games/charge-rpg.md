@@ -2355,31 +2355,23 @@ If you want, you can also include the following images in your game to say that 
 
 ### 12 Actions
 
-| English      | Français       | Português | Swedish           |
-| ------------ | -------------- | --------- | ----------------- |
-| **Physique** | **Physique**   |           | **Kroppsbyggnad** |
-| Muscle       | Forcer         |           | Kraftfullt        |
-| Finesse      | Finesse        |           | Fingerfärdigt     |
-| Move         | Bouger         |           | Snabbt            |
-| Sneak        | Faufiler       |           | Tyst              |
-| **Insight**  |**Perspicacité**|           | **Koncentration** |
-| Shoot        | Tirer          |           | Träffsäkert       |
-| Tinker       | Bricoler       |           | Underfundigt      |
-| Study        | Étudier        |           | Studerande        |
-| Notice       | Remarquer      |           | Uppmärksamt       |
-| **Resolve**  | **Volonté**    |           | **Beslutsamhet**  |
-| Bond         | Sociabiliser   |           | Uppmuntrande      |
-| Command      | Ordonner       |           | Beordrande        |
-| Focus        | Concentrer     |           | Fokuserat         |
-| Sway         | Manipuler      |           | Manipulerande     |
-
-### Hacks
-
-| English      | Français      | Português | Swedish           |
-| ------------ | ------------- | --------- | ----------------- |
-| Attachments  | Connections   |           |                   |
-| Asset        | Atout         |           |                   |
-| Quick Charge | Charge Rapide |           |                   |
+| English      | Français     | Português | Swedish           |
+| ------------ | ------------ | --------- | ----------------- |
+| **Physique** | Physique     |           | **Kroppsbyggnad** |
+| Muscle       | Forcer       |           | Kraftfullt        |
+| Finesse      | Finesse      |           | Fingerfärdigt     |
+| Move         | Bouger       |           | Snabbt            |
+| Sneak        | Faufiler     |           | Tyst              |
+| **Insight**  | Perspicacité |           | **Koncentration** |
+| Shoot        | Tirer        |           | Träffsäkert       |
+| Tinker       | Bricoler     |           | Underfundigt      |
+| Study        | Étudier      |           | Studerande        |
+| Notice       | Remarquer    |           | Uppmärksamt       |
+| **Resolve**  | Volonté      |           | **Beslutsamhet**  |
+| Bond         | Sociabiliser |           | Uppmuntrande      |
+| Command      | Ordonner     |           | Beordrande        |
+| Focus        | Concentrer   |           | Fokuserat         |
+| Sway         | Manipuler    |           | Manipulerande     |
 
 # Keita's World Force Generator | Community Resources
 
