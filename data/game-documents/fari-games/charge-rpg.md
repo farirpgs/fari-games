@@ -1435,7 +1435,7 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 
 # Asset Extra | Extras
 
-**By René-Pier Deshaies**
+**A Charge RPG Extra to make item discovery interesting | By René-Pier Deshaies**
 
 Assets are an extra that you can use as an alternative to `pushing yourself` or `adding tension` to a scene to get a bonus die when making an action roll.
 
@@ -1468,7 +1468,7 @@ This is how the GM says: this was amazing, here's `+1d6` or `increased effect` f
 
 # Solo Extra | Extras
 
-**By Valdy**
+**A Charge RPG Extra to make unfair fights more awesome | By Valdy**
 
 Sometimes you want to play a game with only one Player Character, and other moments you are alone or your team was taken out.
 
@@ -1495,31 +1495,47 @@ So, in short:
 - So we reduce the cost of the remaining options.
 - This allows Solo situations to be equally awesome.
 
-# Gear Extra | Extras
+# Attachment Extra | Extras
 
-**By René-Pier Deshaies**
+**A Charge RPG Extra to bring more focus on certain character details | By René-Pier Deshaies, Nugat & Keita Creation**
 
-Gear is an Extra that you can use to make equipment feel more important in your games.
+The Attachment Extra is an extra that you can use to make certain aspects of your characters more important to the game.
 
-Either its important because finding supplies is rare in your setting, or because gear is a core part of who the characters are.
+## Attachment Extra Rule
 
-## Gear Extra Rule
+Characters are defined using `details` to represent who they are, what they are like and who they are linked to. By default, details don't have any mechanical uses in the game apart from providing narrative liberties.
 
-Add new character `detail` for each `Gear Slot` you want to allow your players to have. Usually between `1-2 Gear Slot` per character.
+If you want some of those details to feel more important in your game, you can consider them as `attachments`.
 
-When a player wants to resist an incoming `consequence`, they can instead decide to `break a gear` instead of doing a `determination roll`.
+An `attachment` could be an important piece of equipment (a sword, a shield, a staff, a book, an armor), a relationship (an ally, a tie), or even a familiar.
 
-This can only be done if it makes sense narratively.
+An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`. Doing this is called "breaking" the `attachment` and cancels the `consequence` outright. That means that the player does not have to make a `determination roll`.
 
-Breaking a gear automatically cancels the consequence, but that particular piece of equipment **cannot be used until it's re-acquired or repaired**.
+However, this can only be done when it makes sense narratively, and that particular `attachment` cannot be used until time is taken to repair or reacquire it.
 
-You track this effort by assigning a `project progress clock` with 4 segments on the character sheet.
+Since they can be used to cancel consequences entirely, characters only have between `1-2 attachments` each.
 
-Once the project is completed, the character is allowed to use it in the fiction again, and to block future consequences.
+## Recovering an Attachment
+
+Like character `details`, attachments provide narrative permissions to characters. When they are broken, those narrative permissions are lost.
+
+To re-require or repair an attachment, the PC needs to start a `project` and track it on their character sheet using a `project progress clock` on their character sheet. The project progress clock starts at 4 segments, but may have more segments if the attachment is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
+
+To make progress on the project, a character may only roll to repair a "broken" attachment when they have the appropriate amount of downtime.
+
+The amount of action rolls taken should be narratively related to the amount of downtime the character has. Pulling an all-nighter by a campfire may only be one roll, but if the character has a free week they may get three rolls or more.
+
+Depending on what is being repaired, the player may have to make different `action rolls`, or may have multiple progress clocks at once. Repairing an armor may just require a `Tinker` action roll and some time at the forge, but contacting a demon and convincing them to work with you again may require first to `Focus` on a ritual, then try to `Bond` with them. The amount of segments ticked is usually tied to the `effect` rating of the `action roll`.
+
+Once the project is completed, the character is re-allowed to use the attachment it in the fiction, and may use it again to block a new consequence.
+
+### Repair and Restorations
+
+Keita Creations made a great expansion to this extra called **Repairs and Restorations** available on their [Itch page](https://keitacreates.itch.io/repairs-and-restorations).
 
 # World Extra | Extras
 
-**By René-Pier Deshaies**
+**A Charge RPG Extra to make the world feel more alive | by René-Pier Deshaies**
 
 The World Extra is a additional mechanic that is mostly useful if you want to make a custom Powered by Charge game that feels unique.
 
@@ -1625,7 +1641,7 @@ Once the mission is over, the PCs go back to their H.Q., and the loop starts ane
 
 # Quick Charge Extra | Extras
 
-**By René-Pier Deshaies**
+**A Charge RPG Extra that simplifies the game for a reduced "time to table" | by René-Pier Deshaies**
 
 Quick Charge is an extra that simplifies the core rules of Charge so that it's easier to pick-up and play.
 
@@ -1851,7 +1867,7 @@ When a player calls for a flashback scene:
 
 # Magic Extra | Extras
 
-**By Nugat**
+**A Charge RPG Extra to guide you on how to introduce magic in your game | Nugat**
 
 This extra is meant to emulate low-level magic, so it may not be the best to use in high-powered settings, or setting where magic is everywhere.
 
@@ -1901,7 +1917,7 @@ Just be sure the effect that you're giving magic fits the cost, so that your pla
 
 When creating a magic item, or when using magic that may be used multiple times in the same cast, you should likely define limits to the spell :
 
-- Either use the [Gear extra](https://fari.games/en/srds/fari-games/charge-rpg/gear-extra) for a protective item.
+- Either use the [Attachment extra](https://fari.games/en/srds/fari-games/charge-rpg/attachment-extra) for a protective item.
 - Use a "magic charge" clock that depletes with use (may or may not be replenished by the caster) that can be tracked on the character sheet, using `projects`.
 - For both of the aforementioned items, you may use [Keita Creation's repairs and restoration rules](https://keitacreates.itch.io/repairs-and-restorations)
 - Make the spell much harder to cast and more dangerous on further uses in the same scene.
@@ -2259,7 +2275,7 @@ If what you've read has inspired you to make your own **Powered by Charge** game
 
 To talk with people who have played or hacked the game before, join [Fari's Discord Server](https://fari.app/discord) for great discussions about anything Charge related!
 
-Lastly, if you liked what you read, consider [donating](https://farigames.itch.io/charge-rpg) some money on itch.io. 
+Lastly, if you liked what you read, consider [donating](https://farigames.itch.io/charge-rpg) some money on itch.io.
 
 All the funds are re-invested in the game to buy original art, paying editors or translators.
 
