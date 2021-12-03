@@ -397,7 +397,7 @@ When a player calls for a flashback scene:
   - the GM makes a fortune roll to see what happens.
   - the player makes an action roll to see what happens.
 
-# The World | Charge SRD
+# The World | Extras
 
 During sessions, the PCs will go on missions to accomplish objectives. They will then come back to their H.Q. to debrief, rest and recover.
 
