@@ -67,7 +67,7 @@ Let's build something incredible, together.
 
 ## Useful Links
 
-- [Licensing Information](/en/srds/fari-games/charge-rpg/licencing)
+- [Licencing Information](/en/srds/fari-games/charge-rpg/licencing)
 - [Charge SRD](/en/srds/fari-games/charge-srd)
 - [Charge Cheatsheet](/en/srds/fari-games/charge-rpg/in-a-nutshell)
 
@@ -1873,9 +1873,7 @@ Maybe you need to use your `Bond` with a specific god to call upon their particu
 
 Be creative with magic! Maybe one spell requires multiple actions, maybe one spell can be cast in multiple different ways.
 
-```
-For her specific game about mages with books and incantations, Alice has decided that magic can be done in two ways : Either the character can `Focus` on reading from the book, or they could simply remember a prior `Study` if the character doesn't have their book on hand. But, for a ritual to summon a being from another world, she has decided that the spell require a clock to be filled. Half of it must be filled with `Focus` as the character reads incantations from the book, but the other half has to be done with `Command`, as they must bind the being to their will
-```
+> _For her specific game about mages with books and incantations, Alice has decided that magic can be done in two ways : Either the character can `Focus` on reading from the book, or they could simply remember a prior `Study` if the character doesn't have their book on hand. But, for a ritual to summon a being from another world, she has decided that the spell require a clock to be filled. Half of it must be filled with `Focus` as the character reads incantations from the book, but the other half has to be done with `Command`, as they must bind the being to their will._
 
 ## The Cost of Magic
 
@@ -1895,9 +1893,7 @@ For a cost, magic could require any of :
 
 Just be sure the effect that you're giving magic fits the cost, so that your players will always be tempted to use it.
 
-```
-For the summoning ritual from before, alice decides it should be a time-consuming process with a lot of care put into it. She decides that the spell is an eight-segment clock, and that each segment represents one hour of game time where the character has to conclude the ritual. Obviously, it's also going to require an entire empty room dedicated to the summon. If the character fails at any point, she could make the entire spell fail, but she decides on something else : for every consequence, she ticks a segment from a four-segment clock. When it is filled, the being is summoned, but they are hostile to the player who summoned them.
-```
+> _For the summoning ritual from before, alice decides it should be a time-consuming process with a lot of care put into it. She decides that the spell is an eight-segment clock, and that each segment represents one hour of game time where the character has to conclude the ritual. Obviously, it's also going to require an entire empty room dedicated to the summon. If the character fails at any point, she could make the entire spell fail, but she decides on something else : for every consequence, she ticks a segment from a four-segment clock. When it is filled, the being is summoned, but they are hostile to the player who summoned them._
 
 ## The Effect(s) of Magic
 
@@ -1914,7 +1910,6 @@ When creating a magic item, or when using magic that may be used multiple times 
 - You may treat the item as an [Asset](https://fari.games/en/srds/fari-games/charge-rpg/asset-extra) for spells with delayed effect
 - You may also treat them as an [Asset](https://fari.games/en/srds/fari-games/charge-rpg/asset-extra) for spells multiple uses using a clock, either with fixed effect, or with different effects depending on the number of segments ticked (see below)
 
-
 ### The effect of magic
 
 Use the effect rating of the spell, or empty segments (if the spell is a clock), to determine its effect. When ticking clocks, follow the normal rules. If the spell is meant to help an ally or hinder the enemy, it applies a bonus (only on rolls where the effect might be relevant) :
@@ -1927,13 +1922,9 @@ A spell with **great** effect (3 segments) is powerful : it gives you both bette
 
 Critical successes on spells raise the effect by one level for every additionnal d6 besides the first. A critical success on a spell that already had a **great** effect can have two effect : either it provides better effect, position and an extra d6, or it simply lets the character automatically succeed on a roll where the effect applies (in that case, the effect rating stays the same).
 
-```
-The being has been summoned succesfully, and it is now represented by a post-it that has a name and a clock. She decides that the spirit is a **normal** spiritual being that may be commanded any time the summoner wants to provide an extra d6 when rolling a dice when it would make sense that the spirit could act on behalf of the character. Since it acts instead of the character, Alice decides that the being has its own condition clock to tick on consequences. 
-
-But, since this is a powerful effect, it also has a powerful drawback : Using the spiritual being is taxing on both body and mind, and any uses of the being tick one segment of the character's condition clocck. Furthermore, as soon as the character is taken out, the being breaks free of the spell and turns hostile to the party. 
-
-```
-
+> _The being has been summoned succesfully, and it is now represented by a post-it that has a name and a clock. She decides that the spirit is a **normal** spiritual being that may be commanded any time the summoner wants to provide an extra d6 when rolling a dice when it would make sense that the spirit could act on behalf of the character. Since it acts instead of the character, Alice decides that the being has its own condition clock to tick on consequences._
+>
+> _But, since this is a powerful effect, it also has a powerful drawback : Using the spiritual being is taxing on both body and mind, and any uses of the being tick one segment of the character's condition clocck. Furthermore, as soon as the character is taken out, the being breaks free of the spell and turns hostile to the party._
 
 # Making a Compelling Campaign | Preparing the Game
 
@@ -2067,6 +2058,7 @@ Once the players have a general idea of what their group is about, write a `Forc
  - Be involved. Do Stuff. Ask Questions!
  - Give feedback
  - Burn that momentum, and take risks
+ - You don't need that 50 pages long character backstory
 ```
 
 # What to Hack | Hacking the Game
@@ -2254,6 +2246,26 @@ In the `talents` section, pre-fill the situational talents by things that make s
 Once you've done one playbook, just repeat the process a couple of time to offer different archetypes to your players.
 
 This should help your players find interesting ideas for their characters since constraints are known to aid with creativity.
+
+# What Next
+
+Now that you've read the game form start to finish, you might wonder that you need to do next.
+
+You might feel comfortable enough to talk to a group of friends and look into starting your own game of Charge right away. If that's the case, great!
+
+Perhaps you liked what you read, but you want to homebrew it to fit a certain style. If so, you can re-read chapter about [hacking the game](what-to-hack) to have some guideline about what you can hack and how. You can also re-read the section about [extras](what-are-extras) which contains community made hacks that you can use in your game! You can also submit your own extras on [Charge's Itch Community](https://itch.io/category/1543442/new-topic) to get feedback from the community.
+
+If what you've read has inspired you to make your own **Powered by Charge** game, then check-out the [Charge System Reference Document](/en/srds/fari-games/charge-srd) as a good starting point.
+
+To talk with people who have played or hacked the game before, join [Fari's Discord Server](https://fari.app/discord) for great discussions about anything Charge related!
+
+Lastly, if you liked what you read, consider [donating](https://farigames.itch.io/charge-rpg) some money on itch.io. 
+
+All the funds are re-invested in the game to buy original art, paying editors or translators.
+
+Thank you, and go power your storytelling!
+
+<iframe frameborder="0" src="https://itch.io/embed/1196268?bg_color=ffffff&amp;fg_color=324149&amp;link_color=2d436e&amp;border_color=58676f" width="100%" height="167"><a href="https://farigames.itch.io/charge-rpg">Charge RPG | Free, Open and Generic by Fari Games</a></iframe>
 
 # Licencing
 
