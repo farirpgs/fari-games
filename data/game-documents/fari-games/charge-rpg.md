@@ -1099,6 +1099,7 @@ There are 4 types of talents a character can get when reaching this milestone:
 - `+1 Effect when ____`: In a certain situation, the effect rating described by the GM is increased by 1.
 - `+1 Position when ____`: In a certain situation, the position rating described by the GM is increased by 1.
 - `+1d6 when_____` : In a certain situation, you can add `+1d6` to your dice pool.
+- `[New narrative liberty] when ______`: In a certain situation, you get access to a new ability that gives your more narrative liberties.
 
 Gaining a new talent will feel like a breath of fresh air. It won't make your characters overpowered or god-like, but it will make them more flexible, or more specialized.
 
