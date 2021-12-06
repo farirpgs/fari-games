@@ -494,7 +494,7 @@ On a `6`, the PC wins and gets what they wanted. On a `4 or 5`, both the PC and 
 
 If an action doesn't have any action dots darkened, then you roll `2d6` and **pick the lowest result**.
 
-While to odds aren't great, you can always `push yourself`, `add tension` to the scene or get an `assist` to add more dice to your pool. More on that later.
+While to odds aren't great, you can always `push yourself`, `add tension` to the scene or get an `assist` to add more dice to your pool. More on that in [Even the Odds](#even-the-odds)
 
 For now, let's take a look at the different tools you can use to resolve the different situations that arise in your story.
 
@@ -616,7 +616,9 @@ So now, let's go over all of this again to recap what happens when you make an a
 > - On a `4-5 partial success`, you overcome the obstacle, but there's a `consequence`.
 > - On a `1-3 bad outcome`, you fail at overcoming the obstacle, and there's a `consequence`.
 
-_Xavier's character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it's a **risky position** since the guard might not be alone, but the outcome would be of **great effect** because the guard isn't on high alert. Xavier doesn't want to leave everything up to chance, and decides to even the odds. He declares that his character will **push themselves** to get an additional `+1d6` by diving in the water to get closer before taking the guard out. Xavier rolls his dice pool and... gets a `5`, partial success! The GM then says that Xavier's character takes out the guard, but ticks 2 segments on an "Alert Clock" because of the noise Xavier's character made pulling the guard in the water._
+> #### Example
+> 
+> _Xavier's character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it's a **risky position** since the guard might not be alone, but the outcome would be of **great effect** because the guard isn't on high alert. Xavier doesn't want to leave everything up to chance, and decides to even the odds. He declares that his character will **push themselves** to get an additional `+1d6` by diving in the water to get closer before taking the guard out. Xavier rolls his dice pool and... gets a `5`, partial success! The GM then says that Xavier's character takes out the guard, but ticks 2 segments on an "Alert Clock" because of the noise Xavier's character made pulling the guard in the water._
 
 # Consequences| Mechanics
 
