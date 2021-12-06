@@ -1478,7 +1478,7 @@ After a conflict between multiple parties is resolved, or when the general tensi
 
 Take note of this asset on your character sheet, and use it when the time is right to get a `+1d6` or `increased effect` on an action roll.
 
-> **Loot Roll**
+> #### Loot Roll
 >
 > - Roll **1d6**.
 >   - On a 1-5: nothing happens.
