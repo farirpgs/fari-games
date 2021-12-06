@@ -1409,17 +1409,58 @@ Now, this next chapter is about **Extras**.
 
 Extras are additional mechanics that you can add in your games to mimic certain types of gameplay or to tailor the game more to your liking.
 
-> ### Charge Contributions
->
-> Have you designed an extra for Charge?
->
-> Do you think the rest of the community would benefit from it?
->
-> Join [Fari's Discord Server](https://fari.app/discord) or post a new topic on [Charge's Itch.io](https://farigames.itch.io/charge-rpg) page and let's include it in the official game!
+> ## Making an Extra
+> 
+> If you want to make an extra for Charge and want to submit it to the Fari Community, here's what you need to do:
+> 
+> - Write you extra in Markdown (`*.md` file).
+> - Once it's ready, submit it [here](https://itch.io/category/1543442/new-topic) using the **extra-submission** tag.
+> - Wait for feedback on itch, or on [Discord](https://fari.app/discord)
+> - Once the extra is approved by the community, talk with RP so that he merges the extra on the site.
+>   - Discord: RPDeshaies#4116
+>   - Twitter: @RPDeshaies
+> 
+> Your Extra should follow a certain format so that it blends nicely with the rest of Charge.
+> 
+> Here's a boilerplate you can use as a starting point for your document:
+> 
+> ```
+> # {Name of the Extra} | Extras
+> 
+> {short description}
+> 
+> \- By {author name}
+> 
+> ---
+> 
+> {detailed description of the extra and what it should be used for}
+> 
+> ## {Name of the Extra} Rule
+> 
+> {Bulk of the document explaining how to use the extra and all of its rules}
+> 
+> > #### Example
+> > 
+> > _Example of a game using the extra_
+> 
+> ## Credits
+> 
+> - {credit #1}
+> - {credit #2}
+> 
+> > ## Recap
+> >
+> > {Abbreviated version of the extra to be used as a quick reference}
+> 
+> ```
 
 # Asset Extra | Extras
 
-**A Charge RPG Extra to make item discovery interesting | By René-Pier Deshaies**
+A Charge RPG Extra to make item discovery interesting
+
+\- By René-Pier Deshaies
+
+---
 
 Assets are an extra that you can use as an alternative to `pushing yourself` or `adding tension` to a scene to get a bonus die when making an action roll.
 
@@ -1452,7 +1493,11 @@ This is how the GM says: this was amazing, here's `+1d6` or `increased effect` f
 
 # Solo Extra | Extras
 
-**A Charge RPG Extra to make unfair fights more awesome | By Valdy**
+A Charge RPG Extra to make unfair fights more awesome
+
+\- By Valdy
+
+---
 
 Sometimes you want to play a game with only one Player Character, and other moments you are alone or your team was taken out.
 
@@ -1469,6 +1514,7 @@ This is intended to those moments when, you are by yourself, you are the last ho
 
 ### Design considerations
 
+
 I have a tendency to make one to one games (one GM and one player), and Charge revolves around Momentum being gained and spent.
 
 Almost all mechanics about spending Momentum relies on having someone else available to assist you. So, by reducing the cost of Pushing Yourself, you allow for a higher flow of Momentum, which is more fair since no one can Assist each other.
@@ -1481,7 +1527,11 @@ So, in short:
 
 # Attachment Extra | Extras
 
-**A Charge RPG Extra to bring more focus on certain character details | By René-Pier Deshaies, Nugat & Keita Creation**
+A Charge RPG Extra to bring more focus on certain character details.
+
+\- By René-Pier Deshaies, Nugat & Keita Creation
+
+---
 
 The Attachment Extra is an extra that you can use to make certain aspects of your characters more important to the game.
 
@@ -1493,17 +1543,30 @@ If you want some of those details to feel more important in your game, you can c
 
 An `attachment` could be an important piece of equipment (a sword, a shield, a staff, a book, an armor), a relationship (an ally, a tie), or even a familiar.
 
-An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`. Doing this is called "breaking" the `attachment` and cancels the `consequence` outright. That means that the player does not have to make a `determination roll`.
+An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`. 
+
+Doing this is called "breaking" the `attachment` and cancels the `consequence` outright. That means that the player does not have to make a `determination roll`.
 
 However, this can only be done when it makes sense narratively, and that particular `attachment` cannot be used until time is taken to repair or reacquire it.
 
 Since they can be used to cancel consequences entirely, characters only have between `1-2 attachments` each.
 
+> #### Example
+> 
+> _Jean-Loup's character is surrounded by a horde of monsters while inside his Mech. He just failed a `desperate` action rolls which will tick 3 segments of his character's condition clock._ 
+> 
+> _To avoid this, Jean-Loup proposes to break his attachment **Mech's Core Reactor** to trigger an explosion, kill some monsters and give his character an opportunity to escape._
+> 
+> _The GM agrees and ask Jean-Loup to start a new project progress clock if he wants to require a new core in the future_.
+> 
+
 ## Recovering an Attachment
 
 Like character `details`, attachments provide narrative permissions to characters. When they are broken, those narrative permissions are lost.
 
-To re-require or repair an attachment, the PC needs to start a `project` and track it on their character sheet using a `project progress clock` on their character sheet. The project progress clock starts at 4 segments, but may have more segments if the attachment is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
+To re-require or repair an attachment, the PC needs to start a `project` and track it on their character sheet using a `project progress clock` on their character sheet. 
+
+The project progress clock starts at 4 segments, but may have more segments if the attachment is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
 
 To make progress on the project, a character may only roll to repair a "broken" attachment when they have the appropriate amount of downtime.
 
@@ -1513,21 +1576,36 @@ Depending on what is being repaired, the player may have to make different `acti
 
 Once the project is completed, the character is re-allowed to use the attachment it in the fiction, and may use it again to block a new consequence.
 
-## Attachment Condition 
+## Attachment Condition
 
-Maybe you want an attachment that degrades over time, with use or by soaking up consequences. You can do so by introducing the `Condition` mechanic from the character sheet on your attachment. Then, the more damage your attachment takes (or the more you use it), the more this clock fills, and the attachment's condition changes. 
+Maybe you want an attachment that degrades over time, with use or by soaking up consequences. You can do so by introducing the `Condition` mechanic from the character sheet on your attachment. 
 
-Once the clock is full, the item is either irredeemably lost or unusable until it is partially or fully repaired (Which can happen during downtime or through action rolls). If using the aforementioned repairing mechanic, you can have the repair clock be used as the item's condition clock, with each succesful repair clearing one (or multiple, your choice) segments.
+Then, the more damage your attachment takes (or the more you use it), the more this clock fills, and the attachment's condition changes.
 
-### Credits
+Once the clock is full, the item is either irredeemably lost or unusable until it is partially or fully repaired (Which can happen during downtime or through action rolls). 
+
+If using the aforementioned repairing mechanic, you can have the repair clock be used as the item's condition clock, with each succesful repair clearing one (or multiple, your choice) segments.
+
+## Credits
 
 - Parts of this Extra were originally part of a work by **Keita Creations** which you can find on his [itch.io page](https://keitacreates.itch.io/repairs-and-restorations). Reprinted with permission.
 - Thanks **Nugat** for the addition of Attachment Conditions
 - Thanks **Lynn Jones** for finding the name `attachment` which is way better than the previous name this extra had.
 
+> #_Example of a game session using the# Recap
+> 
+> - Each character has 1-2 `attachments`
+> - `Attachments` are like character details. They give narrative liberties to the PCs.
+> - If a PC wants, they can choose to **break their attachment** to outright cancel an incoming consequence. Doing so renders the attachment unusable in the narrative.
+> - A PC can repair/require their attachment by creating a 4 segment `project progress clock` that they can work on in their downtime.
+
 # World Extra | Extras
 
-**A Charge RPG Extra to make the world feel more alive | by René-Pier Deshaies**
+A Charge RPG Extra to make the world feel more alive
+
+\- By René-Pier Deshaies
+
+---
 
 The World Extra is a additional mechanic that is mostly useful if you want to make a custom Powered by Charge game that feels unique.
 
@@ -1633,7 +1711,11 @@ Once the mission is over, the PCs go back to their H.Q., and the loop starts ane
 
 # Quick Charge Extra | Extras
 
-**A Charge RPG Extra that simplifies the game for a reduced "time to table" | by René-Pier Deshaies**
+A Charge RPG Extra that simplifies the game for a reduced "time to table"
+
+\- By René-Pier Deshaies
+
+---
 
 Quick Charge is an extra that simplifies the core rules of Charge so that it's easier to pick-up and play.
 
@@ -1859,7 +1941,11 @@ When a player calls for a flashback scene:
 
 # Magic Extra | Extras
 
-**A Charge RPG Extra to guide you on how to introduce magic in your game | Nugat**
+A Charge RPG Extra to guide you on how to introduce magic in your game
+
+\- By Nugat
+
+---
 
 This extra is meant to emulate low-level magic, so it may not be the best to use in high-powered settings, or setting where magic is everywhere.
 
