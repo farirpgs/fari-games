@@ -1515,11 +1515,14 @@ Once the project is completed, the character is re-allowed to use the attachment
 
 ## Attachment Condition 
 
-Maybe you want an attachment that degrades over time, with use or by soaking up consequences. You can do so by introducing the `Condition` mechanic from the character sheet on your attachment. Then, the more damage your attachment takes (or the more you use it), the more this clock fills, and the attachment's condition changes. Once the clock is full, the item is either irredeemably lost or unusable until it is partially or fully repaired (Which can happen during downtime or through action rolls). If using the aforementioned repairing mechanic, you can have the repair clock be used as the item's condition clock, with each succesful repair clearing one (or multiple, your choice) segments.
+Maybe you want an attachment that degrades over time, with use or by soaking up consequences. You can do so by introducing the `Condition` mechanic from the character sheet on your attachment. Then, the more damage your attachment takes (or the more you use it), the more this clock fills, and the attachment's condition changes. 
+
+Once the clock is full, the item is either irredeemably lost or unusable until it is partially or fully repaired (Which can happen during downtime or through action rolls). If using the aforementioned repairing mechanic, you can have the repair clock be used as the item's condition clock, with each succesful repair clearing one (or multiple, your choice) segments.
 
 ### Credits
 
 - Parts of this Extra were originally part of a work by **Keita Creations** which you can find on his [itch.io page](https://keitacreates.itch.io/repairs-and-restorations). Reprinted with permission.
+- Thanks **Nugat** for the addition of Attachment Conditions
 - Thanks **Lynn Jones** for finding the name `attachment` which is way better than the previous name this extra had.
 
 # World Extra | Extras
