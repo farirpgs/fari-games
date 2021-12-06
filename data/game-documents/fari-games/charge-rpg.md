@@ -1911,7 +1911,7 @@ You can make a `determination roll` to try to reduce or cancel the consequence.
 
 #### Set up
 
-When you perform a setup action, you make an `action roll` to have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll.
+When you perform a setup action, you make an `action roll` to have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level for their roll.
 
 You choose the benefit, based on the nature of your setup action.
 
@@ -1928,7 +1928,7 @@ Once you've decided how many charges you want to consume, roll and interpret the
 - On a `1-3`, the `consequence` still happens.
 - On a `4-5`, the `consequence` is reduced.
 - On a `6`, the `consequence` is avoided.
-- On a `66`, the `consequence` is avoided, and you get +1 position for your next roll.
+- On a `66`, the `consequence` is avoided, and you get some other benefit.
 
 ### Clocks
 
