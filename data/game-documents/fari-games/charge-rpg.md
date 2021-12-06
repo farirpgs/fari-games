@@ -1592,7 +1592,7 @@ If using the aforementioned repairing mechanic, you can have the repair clock be
 - Thanks **Nugat** for the addition of Attachment Conditions
 - Thanks **Lynn Jones** for finding the name `attachment` which is way better than the previous name this extra had.
 
-> #_Example of a game session using the# Recap
+> ## Recap
 > 
 > - Each character has 1-2 `attachments`
 > - `Attachments` are like character details. They give narrative liberties to the PCs.
