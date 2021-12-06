@@ -1410,51 +1410,51 @@ Now, this next chapter is about **Extras**.
 Extras are additional mechanics that you can add in your games to mimic certain types of gameplay or to tailor the game more to your liking.
 
 > ## Making an Extra
-> 
+>
 > Charge is open, which means anybody can submit additional extras to be added to the game.
-> 
+>
 > To do so, submit your idea on [Charge's Community Board](https://itch.io/category/1543442/new-topic) using the **extra-submission** tag.
-> 
+>
 > We have a group of volunteers who will review it and provide feedback, comments and suggestions.
-> 
+>
 > Once the extra is approved by the community, you can send a message to RPDeshaies to include it in the game.
-> 
+>
 > You can contact RP on Discord (RPDeshaies#4116) or on [Twitter](https://twitter.com/RPDeshaies).
-> 
+>
 > While markdown documents are preferred, we will accept and consider others types of documents such as google docs, word documents, PDFs, and ideas posted directly to the Community Board!
-> 
+>
 > To make Charge has homogeneous as possible, you can find below a markdown template that you can use to design your extra.
-> 
+>
 > We can't wait to see what you will be creating!
-> 
+>
 > ```
 > # {Name of the Extra} | Extras
-> 
+>
 > {short description}
-> 
+>
 > \- By {author name}
-> 
+>
 > ---
-> 
+>
 > {detailed description of the extra and what it should be used for}
-> 
+>
 > ## {Name of the Extra} Rule
-> 
+>
 > {Bulk of the document explaining how to use the extra and all of its rules}
-> 
+>
 > > #### Example
-> > 
+> >
 > > _Example of a game using the extra_
-> 
+>
 > ## Credits
-> 
+>
 > - {credit #1}
 > - {credit #2}
-> 
+>
 > > ## Recap
 > >
 > > {Abbreviated version of the extra to be used as a quick reference}
-> 
+>
 > ```
 
 # Asset Extra | Extras
@@ -1508,15 +1508,15 @@ This extra is for these moments.
 
 ## The Last Standing Rule
 
-> When you are alone, you are `the last standing`.
-> If this happens, `pushing yourself` will only cost `1 momentum per push`.
+When you are alone, you are `the last standing`.
+
+If this happens, `pushing yourself` will only cost `1 momentum per push`.
 
 ### Why to use this?
 
 This is intended to those moments when, you are by yourself, you are the last hope, and then you find a new flame that allows you to overcome the impossible odds stacked against you.
 
 ### Design considerations
-
 
 I have a tendency to make one to one games (one GM and one player), and Charge revolves around Momentum being gained and spent.
 
@@ -1546,7 +1546,7 @@ If you want some of those details to feel more important in your game, you can c
 
 An `attachment` could be an important piece of equipment (a sword, a shield, a staff, a book, an armor), a relationship (an ally, a tie), or even a familiar.
 
-An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`. 
+An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`.
 
 Doing this is called "breaking" the `attachment` and cancels the `consequence` outright. That means that the player does not have to make a `determination roll`.
 
@@ -1555,19 +1555,18 @@ However, this can only be done when it makes sense narratively, and that particu
 Since they can be used to cancel consequences entirely, characters only have between `1-2 attachments` each.
 
 > #### Example
-> 
-> _Jean-Loup's character is surrounded by a horde of monsters while inside his Mech. He just failed a `desperate` action rolls which will tick 3 segments of his character's condition clock._ 
-> 
+>
+> _Jean-Loup's character is surrounded by a horde of monsters while inside his Mech. He just failed a `desperate` action rolls which will tick 3 segments of his character's condition clock._
+>
 > _To avoid this, Jean-Loup proposes to break his attachment **Mech's Core Reactor** to trigger an explosion, kill some monsters and give his character an opportunity to escape._
-> 
+>
 > _The GM agrees and ask Jean-Loup to start a new project progress clock if he wants to require a new core in the future_.
-> 
 
 ## Recovering an Attachment
 
 Like character `details`, attachments provide narrative permissions to characters. When they are broken, those narrative permissions are lost.
 
-To re-require or repair an attachment, the PC needs to start a `project` and track it on their character sheet using a `project progress clock` on their character sheet. 
+To re-require or repair an attachment, the PC needs to start a `project` and track it on their character sheet using a `project progress clock` on their character sheet.
 
 The project progress clock starts at 4 segments, but may have more segments if the attachment is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
 
@@ -1581,11 +1580,11 @@ Once the project is completed, the character is re-allowed to use the attachment
 
 ## Attachment Condition
 
-Maybe you want an attachment that degrades over time, with use or by soaking up consequences. You can do so by introducing the `Condition` mechanic from the character sheet on your attachment. 
+Maybe you want an attachment that degrades over time, with use or by soaking up consequences. You can do so by introducing the `Condition` mechanic from the character sheet on your attachment.
 
 Then, the more damage your attachment takes (or the more you use it), the more this clock fills, and the attachment's condition changes.
 
-Once the clock is full, the item is either irredeemably lost or unusable until it is partially or fully repaired (Which can happen during downtime or through action rolls). 
+Once the clock is full, the item is either irredeemably lost or unusable until it is partially or fully repaired (Which can happen during downtime or through action rolls).
 
 If using the aforementioned repairing mechanic, you can have the repair clock be used as the item's condition clock, with each succesful repair clearing one (or multiple, your choice) segments.
 
@@ -1596,7 +1595,7 @@ If using the aforementioned repairing mechanic, you can have the repair clock be
 - Thanks **Lynn Jones** for finding the name `attachment` which is way better than the previous name this extra had.
 
 > ## Recap
-> 
+>
 > - Each character has 1-2 `attachments`
 > - `Attachments` are like character details. They give narrative liberties to the PCs.
 > - If a PC wants, they can choose to **break their attachment** to outright cancel an incoming consequence. Doing so renders the attachment unusable in the narrative.
@@ -1699,7 +1698,7 @@ To do so, the GM looks at the 3 cards they've drawn, and builds a dice pool of `
 
 If there's no red card, roll `2d6`, and select the lowest number.
 
-The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting the next mission.
+The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting their next mission.
 
 - On a `1-3`, the PCs start in a `desperate` position.
 - On a `4-5`, the PCs start in a `risky` position.
@@ -1711,6 +1710,35 @@ The GM introduces the mission to the PCs, and they decide how they will approach
 Once they've decided on a strategy, the GM cuts to the first scene of the mission using the result of the mission roll to describe the PCs current position.
 
 Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
+
+> #### Example
+>
+> _The PCs just got back to their space ship after pulling a very successful heist. As they come back, the GM draws 3 cards from a deck of cards._
+>
+> _The GM then reads the 3 prompts associated with the cards_
+>
+> - _**The AI**: The AI of the ship just discovered sarcasm. (`Red Card`)_
+> - _**The Ship**: There are no more food-tubes in the kitchen. (`Black Card`)_
+> - _**The Next Score**: A bounty was just put on a group of crazy pirates near the asteroid belt. (`Red Card`)_
+>
+> _The GM then gradually reveals those narrative hooks to the players as they interact with their ship._
+> 
+> _When the PCs are ready to start their next mission, the GM rolls `2d6` (one for each red card). They get a `4`, so the mission will start with a `risky` position._
+> 
+> *The GM then thinks about a way to make the bounty on the pirates more complicated. They decide that when the PCs arrive, there will already be another crew of scoundrels there trying to catch the bounty as well.*
+
+> ## Recap
+>
+> When the PCs go back to their HQ, the GM draws 3 card from a standard deck of playing cards.
+>
+> Each card gives a new story prompt to the GM to make the world feel more alive.
+>
+> To determine how the PC's next mission is going to start, roll `1d6` for each red card that was drawn. The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting their next mission.
+>
+> - On a `1-3`, the PCs start in a `desperate` position.
+> - On a `4-5`, the PCs start in a `risky` position.
+> - On a `6`, the PCs start in a `controlled` position.
+> - On a `66`, the PCs start in a `controlled` position, and gain some additional benefit.
 
 # Quick Charge Extra | Extras
 

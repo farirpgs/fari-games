@@ -482,7 +482,7 @@ To do so, the GM looks at the 3 cards they've drawn, and builds a dice pool of `
 
 If there's no red card, roll `2d6`, and select the lowest number.
 
-The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting the next mission.
+The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting their next mission.
 
 - On a `1-3`, the PCs start in a `desperate` position.
 - On a `4-5`, the PCs start in a `risky` position.
