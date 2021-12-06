@@ -1471,7 +1471,7 @@ Assets are an extra that you can use as an alternative to `pushing yourself` or 
 
 The Loot Asset is an additional mechanic that gives you the chance to find good loot that will have a mechanical impact on the game when you scavenge a place.
 
-After a conflict between multiple parties is resolved, or when the general tension in a scene is reduced, you can do a `fortune roll` with `Notice` to find good loot or to scavenge the place.
+After a conflict between multiple parties is resolved, or when the general tension in a scene is reduced, you can do a `fortune roll` of `1d6` to find loot or to search a location.
 
 - On a `6`, you create `1 asset`.
 - On a `66`, you create `2 assets`.
@@ -1480,7 +1480,7 @@ Take note of this asset on your character sheet, and use it when the time is rig
 
 > **Loot Roll**
 >
-> - Roll **Notice**.
+> - Roll **1d6**.
 >   - On a 1-5: nothing happens.
 >   - On a 6: you create one asset
 >   - On a critical (66): you create two assets.
