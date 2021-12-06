@@ -28,10 +28,12 @@ export function MarkdownContent(props: {
             marginRight: "0",
             padding: ".5rem 1rem",
             background: theme.palette.background.paper,
-            boxShadow: theme.shadows[1],
-            borderLeft: `4px solid ${theme.palette.secondary.main}`,
+            border: `4px solid ${theme.palette.secondary.main}`,
+            "& h1,h2,h3,h4,h5,h6": {
+              marginTop: ".5rem",
+            },
           },
-          "& code": {
+          "&  code": {
             fontFamily: props.highlightFont,
             fontWeight: theme.typography.fontWeightBold,
           },
@@ -39,11 +41,16 @@ export function MarkdownContent(props: {
             whiteSpace: "pre-wrap",
             wordBreak: "break-word",
             background: theme.palette.action.selected,
+            borderRadius: "4px",
+            fontFamily: theme.typography.body1.fontFamily,
+            fontWeight: theme.typography.fontWeightRegular,
             padding: "1rem",
-            "& code": {
-              background: "none",
+            "& code,": {
+              fontFamily: theme.typography.body1.fontFamily,
+              fontWeight: theme.typography.fontWeightRegular,
             },
           },
+
           "& p": {
             ...(theme.typography.body1 as any),
             fontFamily: props.textFont,

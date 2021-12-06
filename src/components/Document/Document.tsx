@@ -583,27 +583,27 @@ export function Document(props: {
           {renderPreviousNextNavigation()}
           <Box mb="1rem" />
           {props.renderFooter?.()}
-          {/* {renderDevModeInfo()} */}
+          {false && renderDevModeInfo()}
         </div>
       </>
     );
   }
 
-  // function renderDevModeInfo() {
-  //   if (import.meta.env.PROD) {
-  //     return null;
-  //   }
-  //   return (
-  //     <pre
-  //       className={css({
-  //         whiteSpace: "pre-wrap",
-  //       })}
-  //     >
-  //       <p>title: {chapter.currentChapter.text}</p>
-  //       <p>description: {chapter.currentChapter.description}</p>
-  //     </pre>
-  //   );
-  // }
+  function renderDevModeInfo() {
+    if (import.meta.env.PROD) {
+      return null;
+    }
+    return (
+      <pre
+        className={css({
+          whiteSpace: "pre-wrap",
+        })}
+      >
+        <p>title: {chapter.currentChapter.text}</p>
+        <p>description: {chapter.currentChapter.description}</p>
+      </pre>
+    );
+  }
 
   function renderSmallPreviousNextNavigation() {
     return (
