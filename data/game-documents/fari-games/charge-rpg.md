@@ -1411,18 +1411,21 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 
 > ## Making an Extra
 > 
-> If you want to make an extra for Charge and want to submit it to the Fari Community, here's what you need to do:
+> Charge is open, which means anybody can submit additional extras to be added to the game.
 > 
-> - Write you extra in Markdown (`*.md` file).
-> - Once it's ready, submit it [here](https://itch.io/category/1543442/new-topic) using the **extra-submission** tag.
-> - Wait for feedback on itch, or on [Discord](https://fari.app/discord)
-> - Once the extra is approved by the community, talk with RP so that he merges the extra on the site.
->   - Discord: RPDeshaies#4116
->   - Twitter: @RPDeshaies
+> To do so, submit your idea on [Charge's Community Board](https://itch.io/category/1543442/new-topic) using the **extra-submission** tag.
 > 
-> Your Extra should follow a certain format so that it blends nicely with the rest of Charge.
+> We have a group of volunteers who will review it and provide feedback, comments and suggestions!
 > 
-> Here's a boilerplate you can use as a starting point for your document:
+> Once the extra is approved by the community, you can send a message to RPDeshaies to include it in the game! 
+> 
+> You can contact RP on Discord (RPDeshaies#4116) or on [Twitter](https://twitter.com/RPDeshaies).
+> 
+> While markdown documents are preferred, we will accept and consider others types of documents such as google docs, word documents, PDFs, and ideas posted directly to the Community Board!
+> 
+> To make Charge has homogeneous as possible, you can find below a markdown template that you can use to design your extra!
+> 
+> We can't wait to see what you will be creating!
 > 
 > ```
 > # {Name of the Extra} | Extras
