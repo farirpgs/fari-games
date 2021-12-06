@@ -1415,15 +1415,15 @@ Extras are additional mechanics that you can add in your games to mimic certain 
 > 
 > To do so, submit your idea on [Charge's Community Board](https://itch.io/category/1543442/new-topic) using the **extra-submission** tag.
 > 
-> We have a group of volunteers who will review it and provide feedback, comments and suggestions!
+> We have a group of volunteers who will review it and provide feedback, comments and suggestions.
 > 
-> Once the extra is approved by the community, you can send a message to RPDeshaies to include it in the game! 
+> Once the extra is approved by the community, you can send a message to RPDeshaies to include it in the game.
 > 
 > You can contact RP on Discord (RPDeshaies#4116) or on [Twitter](https://twitter.com/RPDeshaies).
 > 
 > While markdown documents are preferred, we will accept and consider others types of documents such as google docs, word documents, PDFs, and ideas posted directly to the Community Board!
 > 
-> To make Charge has homogeneous as possible, you can find below a markdown template that you can use to design your extra!
+> To make Charge has homogeneous as possible, you can find below a markdown template that you can use to design your extra.
 > 
 > We can't wait to see what you will be creating!
 > 
