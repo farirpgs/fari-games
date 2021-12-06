@@ -494,7 +494,7 @@ On a `6`, the PC wins and gets what they wanted. On a `4 or 5`, both the PC and 
 
 If an action doesn't have any action dots darkened, then you roll `2d6` and **pick the lowest result**.
 
-While to odds aren't great, you can always `push yourself`, `add tension` to the scene or get an `assist` to add more dice to your pool. More on that in [Even the Odds](#even-the-odds)
+While to odds aren't great, you can always `push yourself`, `add tension` to the scene or get an `assist` to add more dice to your pool. More on that in [Even the Odds](#even-the-odds).
 
 For now, let's take a look at the different tools you can use to resolve the different situations that arise in your story.
 
@@ -542,7 +542,7 @@ We said there were only 3 effect ratings, and that was actually a little bit of 
 
 The GM can use this when a task is so difficult that whatever the PC attempts, the best they will end up getting is "nothing".
 
-Obviously, doing nothing is boring. That's why you can boost that `no-effect` to a `limited effect` if you Push Yourself using charges of momentum. More on that in [Even the Odds](#even-the-odds)
+Obviously, doing nothing is boring. That's why you can boost that `no-effect` to a `limited effect` if you Push Yourself using charges of momentum. More on that in [Even the Odds](#even-the-odds).
 
 #### The Impact of Effect & Position
 
