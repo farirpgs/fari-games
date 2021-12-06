@@ -492,7 +492,7 @@ On a `6`, the PC wins and gets what they wanted. On a `4 or 5`, both the PC and 
 
 ### No Action Dots
 
-If an action doesn't have any action dots darkened, then you roll `2d6` and **pick the lowest result**.
+If your character has no action rating for the chosen action, then you roll `2d6` and **pick the lowest result**.
 
 While to odds aren't great, you can always `push yourself`, `add tension` to the scene or get an `assist` to add more dice to your pool. More on that in [Even the Odds](#even-the-odds).
 
