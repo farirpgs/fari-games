@@ -392,7 +392,7 @@ export const shop: IShop = {
           slug: "turbo-fate",
           description:
             "Turbo-Fate ist die deutsche Übersetzung von Fate Accelerated und eine gekürzte Form des beliebten Fate-Core-Rollenspiels.",
-          tags: ["srd", "new"],
+          tags: ["srd", "fate", "new"],
           image: "https://gyazo.com/bd23a66e8a2f25ac615af16080b7b9a0.png",
           links: {},
           footer:
