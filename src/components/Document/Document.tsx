@@ -23,6 +23,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useHistory, useLocation } from "react-router-dom";
+import { Delays } from "../../constants/delays";
 import { track } from "../../domains/analytics/track";
 import {
   IChapter,
@@ -62,9 +63,16 @@ export function Document(props: {
     }
     const scrollElement = document.querySelector(location.hash);
 
+    let timeout: number;
     if (scrollElement) {
-      scrollElement.scrollIntoView({ behavior: "smooth" });
+      timeout = setTimeout(() => {
+        scrollElement.scrollIntoView({ behavior: "smooth" });
+      }, Delays.scrollToHeadingDelay);
     }
+
+    return () => {
+      clearTimeout(timeout);
+    };
   }, [location.hash, props.chapter]);
 
   useEffect(() => {

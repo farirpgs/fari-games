@@ -41,17 +41,6 @@ export function GamePage() {
   const location = useLocation();
 
   useEffect(() => {
-    if (!location.hash) {
-      return;
-    }
-    const scrollElement = document.querySelector(location.hash);
-
-    if (scrollElement) {
-      scrollElement.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [location.hash, chapter]);
-
-  useEffect(() => {
     load();
     async function load() {
       try {
