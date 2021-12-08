@@ -836,7 +836,7 @@ The reason why each character starts with only `2 momentum` at the beginning of 
 
 While this is the default setting, we encourage you and your group to change this as you wish. We want you to consider hacking this rule because it is the basis of the whole meta-economy of the game. Making momentum harder or easier to gain will have a big impact on the way the game plays out.
 
-PCs consume their `momentum` to boost their actions, assist an ally or resist a`consequence`.
+PCs consume their `momentum` to boost their actions, assist an ally or resist a `consequence`.
 
 **When momentum is spent for a roll, that roll cannot in turn generate momentum.**
 
