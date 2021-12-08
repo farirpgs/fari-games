@@ -8,8 +8,8 @@ export const gameDocuments: Record<
   "evilhat/fate-condensed_pt-br": () =>
     import("./evilhat/fate-condensed_pt-br.md?raw"),
   "evilhat/fate-accelerated": () => import("./evilhat/fate-accelerated.md?raw"),
-  "evilhat/fate-accelerated_de": () =>
-    import("./evilhat/fate-accelerated_de.md?raw"),
+  "uhrwerk-verlag/turbo-fate": () =>
+    import("./uhrwerk-verlag/turbo-fate.md?raw"),
   "evilhat/fate-core": () => import("./evilhat/fate-core.md?raw"),
   "evilhat/fate-system-toolkit": () =>
     import("./evilhat/fate-system-toolkit.md?raw"),

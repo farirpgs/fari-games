@@ -1,8 +1,4 @@
----
-languages: en,de
----
-
-# TurboFate
+# Turbo Fate
 
 Erinnerst du dich an das Buch über den jungen Zauberer, der gegen den Dunklen Fürsten der Finsternis antritt? An den Film über die Zwerge, die sich mit einem Drachen anlegen, weil sie ihren Berg zurückerobern wollen? An die Zeichentrickserie über die magischen Ritter und ihre Klonarmee, die in der ganzen Galaxis für Gerechtigkeit kämpfen?
 

@@ -379,6 +379,27 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Uhrwerk Verlag",
+      slug: "uhrwerk-verlag",
+      links: {
+        website: "https://www.uhrwerk-verlag.de",
+        twitter: "https://twitter.com/SilentPat",
+      },
+      products: [
+        {
+          name: "Turbo-Fate",
+          slug: "turbo-fate",
+          description:
+            "Turbo-Fate ist die deutsche Übersetzung von Fate Accelerated und eine gekürzte Form des beliebten Fate-Core-Rollenspiels.",
+          tags: ["srd", "new"],
+          image: "https://gyazo.com/bd23a66e8a2f25ac615af16080b7b9a0.png",
+          links: {},
+          footer:
+            "© Uhrwerk Verlag 2015 Authorized translation of the english edition © 2015 Evil Hat. This translation is published and sold by permission of Evil Hat, the owner of all rights to publish and sell the game. Alle Rechte vorbehalten.",
+        },
+      ],
+    },
   ],
 };
 
