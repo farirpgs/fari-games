@@ -168,7 +168,7 @@ The game uses six-sided dice. You roll several at once, which we call a dice poo
 - If the highest die is a `4 or 5`, that's a `partial success`. You do what you were trying to do, but there is a `consequence`.
 - If the highest die is `1-3`, it's a `bad outcome`. Things go poorly. You don't achieve your goal, and suffer a `consequence`.
 
-*If you ever need to roll but you have zero (or negative) dice, roll two dice and take the single lowest result. You can’t roll a critical when you have zero dice.*
+_If you ever need to roll but you have zero (or negative) dice, roll two dice and take the single lowest result. You can’t roll a critical when you have zero dice._
 
 Most of the game's mechanics revolve around this basic format.
 
@@ -228,15 +228,17 @@ If the result of the dice is higher than `3`, the PC gains `momentum` from their
 
 ## Momentum
 
-When a player gets a successful action roll, that roll generates `momentum`.
+When a player makes an action roll, that roll has a chance generating `momentum`.
 
-You start every session with `2`, and generate more `momentum` when making action rolls.
+You start every session with `2`, and generate more `momentum` when making successful action rolls.
 
 - On a `4-5`, you gain `+1 momentum`.
 - On a `6`, you gain `+2 momentum`.
 - On a `66`, you gain `+3 momentum`.
 
-PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and their group.
+PCs consume their `momentum` to boost their actions, assist an ally or resist incoming `consequences`.
+
+**When momentum is spent for a roll, that roll cannot in turn generate momentum.**
 
 > #### Designer Note
 >
@@ -256,13 +258,11 @@ When you `push yourself`, you consume `2 momentum` per push to gain one of the f
 - Gain `+1 effect rating` for your roll.
 - Take action even if you were taken out.
 
-_Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_.
-
 ### Add Tension
 
 When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
-If you accept the deal, add `+1d6` to your dice pool.
+If you accept the `consequence`, add `+1d6` to your current dice pool.
 
 ## Team work
 
