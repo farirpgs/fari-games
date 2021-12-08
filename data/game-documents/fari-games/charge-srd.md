@@ -236,7 +236,7 @@ You start every session with `2`, and generate more `momentum` when making succe
 - On a `6`, you gain `+2 momentum`.
 - On a `66`, you gain `+3 momentum`.
 
-PCs consume their `momentum` to boost their actions, assist an ally or resist incoming `consequences`.
+PCs consume their `momentum` to boost their actions, assist an ally or resist a `consequence`.
 
 **When momentum is spent for a roll, that roll cannot in turn generate momentum.**
 
