@@ -582,13 +582,11 @@ When you `push yourself`, you consume `2 momentum` **per push** to gain one of t
 - Gain `+1 effect rating` for your roll.
 - Take action even if you were taken out.
 
-> _Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_
-
 #### Add Tension
 
 When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM can then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
-If you accept the deal, add `+1d6` to your dice pool.
+If you accept the `consequence`, add `+1d6` to your current dice pool.
 
 It is to be noted that there could be scenarios where adding tension isn't an option. In that case, the GM can simply communicate that to the player so that they look into other ways to boost their roll.
 
@@ -617,7 +615,7 @@ So now, let's go over all of this again to recap what happens when you make an a
 > - On a `1-3 bad outcome`, you fail at overcoming the obstacle, and there's a `consequence`.
 
 > #### Example
-> 
+>
 > _Xavier's character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it's a **risky position** since the guard might not be alone, but the outcome would be of **great effect** because the guard isn't on high alert. Xavier doesn't want to leave everything up to chance, and decides to even the odds. He declares that his character will **push themselves** to get an additional `+1d6` by diving in the water to get closer before taking the guard out. Xavier rolls his dice pool and... gets a `5`, partial success! The GM then says that Xavier's character takes out the guard, but ticks 2 segments on an "Alert Clock" because of the noise Xavier's character made pulling the guard in the water._
 
 # Consequences| Mechanics
@@ -816,7 +814,7 @@ For instance, if a maître d' is making a scene to stop you from entering at a v
 
 We've talked about the fact that characters have a `momentum` track, which starts with `2` charges at the beginning of every session.
 
-We've also seen that momentum can be consumed to **boost** action rolls, **assist** allies, **lead** group actions, and do **flashback** scenes.
+We've also seen that momentum can be consumed to **boost** action rolls, **assist** allies, and do **flashback** scenes.
 
 Now we will go over the different methods to gain momentum during scenes.
 
@@ -836,9 +834,11 @@ The reason why each character starts with only `2 momentum` at the beginning of 
 - If you rolled a `6`, you gain `+2 momentum`.
 - If you rolled a `66`, you gain `+3 momentum`.
 
-If you `push yourself` in a action roll, that roll won't generate `momentum`.
-
 While this is the default setting, we encourage you and your group to change this as you wish. We want you to consider hacking this rule because it is the basis of the whole meta-economy of the game. Making momentum harder or easier to gain will have a big impact on the way the game plays out.
+
+PCs consume their `momentum` to boost their actions, assist an ally or resist a`consequence`.
+
+**When momentum is spent for a roll, that roll cannot in turn generate momentum.**
 
 ### Momentum Dial
 
@@ -855,7 +855,7 @@ But if for example you want to emphasize the fact that life is hard and resource
 >
 > ---
 >
-> _Note: if you `push yourself` in a `action roll`, that roll won't generate `momentum`_
+> **When momentum is spent for a roll, that roll cannot in turn generate momentum.**
 >
 > ---
 >
@@ -1221,7 +1221,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > ---
 >
-> _Note: if you `push yourself` in a `action roll`, that roll won't generate `momentum`_
+> **When momentum is spent for a roll, that roll cannot in turn generate momentum.**
 >
 > ---
 >
@@ -1724,10 +1724,10 @@ Once the mission is over, the PCs go back to their H.Q., and the loop starts ane
 > - _**The Next Score**: A bounty was just put on a group of crazy pirates near the asteroid belt. (`Red Card`)_
 >
 > _The GM then gradually reveals those narrative hooks to the players as they interact with their ship._
-> 
+>
 > _When the PCs are ready to start their next mission, the GM rolls `2d6` (one for each red card). They get a `4`, so the mission will start with a `risky` position._
-> 
-> *The GM then thinks about a way to make the bounty on the pirates more complicated. They decide that when the PCs arrive, there will already be another crew of scoundrels there trying to catch the bounty as well.*
+>
+> _The GM then thinks about a way to make the bounty on the pirates more complicated. They decide that when the PCs arrive, there will already be another crew of scoundrels there trying to catch the bounty as well._
 
 > ## Recap
 >
@@ -1865,15 +1865,17 @@ If the result of the dice is higher than `3`, the PC gains `momentum` from their
 
 ### Momentum
 
-When a player gets a successful action roll, that roll generates `momentum`.
+When a player makes an action roll, that roll has a chance generating `momentum`.
 
-You start every session with `2`, and generate more `momentum` when making action rolls.
+You start every session with `2`, and generate more `momentum` when making successful action rolls.
 
 - On a `4-5`, you gain `+1 momentum`.
 - On a `6`, you gain `+2 momentum`.
 - On a `66`, you gain `+3 momentum`.
 
-PCs consume momentum to boost their action rolls. They also use it to resist consequences happening to them, and their group.
+PCs consume their `momentum` to boost their actions, assist an ally or resist a `consequence`.
+
+**When momentum is spent for a roll, that roll cannot in turn generate momentum.**
 
 ### Boosting Action Rolls
 
@@ -1887,13 +1889,11 @@ When you `push yourself`, you consume `2 momentum` per push to gain one of the f
 - Gain `+1 effect rating` for your roll.
 - Take action even if you were taken out.
 
-_Note: if you `push yourself` in a action roll, that roll won't generate `momentum`_.
-
 #### Add Tension
 
 When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
-If you accept the deal, add `+1d6` to your dice pool.
+If you accept the `consequence`, add `+1d6` to your current dice pool.
 
 ### Team work
 

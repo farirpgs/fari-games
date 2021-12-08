@@ -1,3 +1,7 @@
+---
+languages: en,de
+---
+
 <style>
   @font-face {
   font-family: "fate";
