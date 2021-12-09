@@ -746,7 +746,7 @@ Even with safety mechanics in place, accidents happen. That is why you should al
 
 **_Not on my watch! (you are filled with determination)_**
 
-If a character suffers a consequence that you, as a player, don't like, you can try to resist it.
+If a character suffers a `consequence` that you, as a player, don't like, you can try to resist it.
 
 You do so by calling for a `determination roll` to see how well you resist the consequence.
 
@@ -1917,7 +1917,7 @@ You choose the benefit, based on the nature of your setup action.
 
 ### Determination Roll
 
-If a character suffers a consequence that you, as a player, don't like, you can try to resist it.
+If a character suffers a `consequence` that you, as a player, don't like, you can try to resist it.
 
 You do so by calling for a `determination roll` to see how well you resist the consequence.
 

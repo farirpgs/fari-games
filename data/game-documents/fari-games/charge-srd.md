@@ -304,7 +304,7 @@ The `consequence rating` is determined by looking at the position for the roll.
 
 ## Determination Roll
 
-If a character suffers a consequence that you, as a player, don't like, you can try to resist it.
+If a character suffers a `consequence` that you, as a player, don't like, you can try to resist it.
 
 You do so by calling for a `determination roll` to see how well you resist the consequence.
 
