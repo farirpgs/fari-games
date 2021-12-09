@@ -1,5 +1,4 @@
 import kebabCase from "lodash/kebabCase";
-import { gameDocuments } from "../../../data/game-documents/gameDocuments";
 import { MarkdownParser } from "../markdown/MarkdownParser";
 
 export type IChapterListItem = {
@@ -81,7 +80,9 @@ export const DocumentParser = {
       props.language === "en"
         ? `${props.author}/${props.slug}`
         : `${props.author}/${props.slug}_${props.language}`;
-    const { default: fileContent } = await gameDocuments[link]();
+    const fileContent = await fetch(`/documents/${link}.md`).then((res) =>
+      res.text()
+    );
 
     const frontMatter = extractFrontMatterFromMarkdown(fileContent);
     const dom = await convertMarkdownToDom(fileContent);

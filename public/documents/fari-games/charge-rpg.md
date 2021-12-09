@@ -31,9 +31,6 @@ If you want to make and publish your own game using Charge, checkout the [Charge
 	<img width="320px" src="https://gyazo.com/7a7d4cecbf087f5d66cb1b16d30271ad.png">
 </a>
 
-
-
-
 ## Credits
 
 This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
@@ -43,7 +40,6 @@ This work is based on Blades in the Dark (found at [http://www.bladesinthedark.c
 Now, one of the first things you probably want to know is: **who is this game for?**
 
 > _This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to succeed._
-
 
 ## Contributing
 
@@ -71,7 +67,7 @@ Now, let's build something incredible, together.
 
 - [Licencing Information](/en/srds/fari-games/charge-rpg/licencing)
 - [Charge SRD](/en/srds/fari-games/charge-srd)
-- [Fari's Discord server](https://fari.app/discord) 
+- [Fari's Discord server](https://fari.app/discord)
 - [Charge Community Forums](https://farigames.itch.io/charge-rpg/community)
 - [Charge Cheatsheet](/en/srds/fari-games/charge-rpg/in-a-nutshell)
 
@@ -103,20 +99,26 @@ Because settings can differ greatly, Charge's game mechanics were made with very
 
 Here are some things that makes Charge special compared to other games you might have played before.
 
-**It's easy to create characters for any settings.**
-
+> **It's easy to create characters for any settings.**
+>
+> ---
+>
 > Characters are easy to define, and still unique in their own way. Charge gives you a good framework to create characters for settings you want.
 >
 > Charge does this by making characters shine using `character details` to define who they are and how they're linked to the world. They have `actions` to highlight what they are good at, and `talents` to make them evolve in interesting ways.
 
-**It offers easy to tune dials and extras to have "grimmer" up to "bigger than life" adventures.**
-
+> **It offers easy to tune dials and extras to have "grimmer" up to "bigger than life" adventures.**
+>
+> ---
+>
 > From a post-apocalyptic survival adventure where each bullet counts, to a grand space opera where the heroes always prevail, the mechanics are easily tuneable to reflect the kind of story you want to tell.
 >
 > Either adjust the main difficulty setting of the game, or use one of the many `extras` provided to play the way you want to.
 
-**It is both a utility belt, and a toolbox.**
-
+> **It is both a utility belt, and a toolbox.**
+>
+> ---
+>
 > Charge is a toolbox, because it has a set of mechanics to resolve narrative problems in multiple different ways. It is also a utility belt, since it gives you a default way to play that's easy to pick-up and use.
 >
 > Play it as is, or hack it as your want.
@@ -133,18 +135,16 @@ Charge also brings new interesting ideas to the table, like a flexible progressi
 
 We hope you have fun with this, because we sure had fun writing it and playing it.
 
-Now, let's go over what you need to play Charge!
+Now, let's go over what you need to play Charge.
 
 # What You Need To Play | Power Your Storytelling
 
 To play Charge, you need:
 
-- Copies of the [Charge RPG Character Sheet](/documents/charge-rpg/character-sheet.pdf)
+- Copies of the [Charge RPG Character Sheet](/documents/fari-games/charge-rpg/downloads/character-sheet.pdf)
 - A pile of index cards or small pieces of paper to draw things on.
 - A set of six-sided dice. At least 6 would be ideal.
 - A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
-
-And that's it.
 
 # The Game | Power Your Storytelling
 
@@ -1114,11 +1114,23 @@ Gaining a new talent will feel like a breath of fresh air. It won't make your ch
 >
 > Just as a reminder, the longer it takes for a milestone to happen, the longer it will take for characters to become stronger.
 >
-> This is important to keep in mind depending on what kind of progression curve you want to have. Do you want to have a short campaign where characters will grow stronger pretty quickly, or are you looking for a year-spanning campaign where the characters will mostly evolve by changing their character details and where milestones will be more scarce?
+> This is important to keep in mind depending on what kind of progression curve you want to have. 
+> 
+> Do you want to have a short campaign where characters will grow stronger pretty quickly, or are you looking for a year-spanning campaign where the characters will mostly evolve by changing their character details and where milestones will be more scarce?
 >
 > You could go as low as giving the player character only 2-3 Talents during an entire campaign, or reward them more often.
 >
 > There isn't a right or wrong answer here. It depends 100% on what kind of campaign you want to have. This is also something you can discuss with the group to make sure everyone has the same expectations.
+
+> #### Starting Talent
+> 
+> Some groups already have a pretty good idea of who their character is and what they are good at.
+> 
+> If that is the case with your group, it might be a good idea to offer them a starting talent in the form of `+1 Effect when ____`
+> 
+> This will give them an edge in certain situation, without breaking the balance of the game.
+> 
+> Here's an adapted [character sheet](/documents/fari-games/charge-rpg/downloads/character-sheet-with-starting-talent.pdf) to get you started.
 
 ### Situational Talents
 
@@ -1172,11 +1184,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 
 <details>
 	<summary>
-		[Character Sheet](/documents/charge-rpg/character-sheet.pdf)
+		[Character Sheet](/documents/fari-games/charge-rpg/downloads/character-sheet.pdf)
 	</summary>
-	<object data="/documents/charge-rpg/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
-		<embed src="/documents/charge-rpg/character-sheet.pdf">
-			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/charge-rpg/character-sheet.pdf">Download PDF</a>.</p>
+	<object data="/documents/fari-games/charge-rpg/downloads/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
+		<embed src="/documents/fari-games/charge-rpg/downloads/character-sheet.pdf">
+			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/fari-games/charge-rpg/downloads/character-sheet.pdf">Download PDF</a>.</p>
 		</embed>
 	</object>
 </details>
