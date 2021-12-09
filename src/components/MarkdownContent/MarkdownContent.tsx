@@ -74,6 +74,9 @@ export function MarkdownContent(props: {
             borderSpacing: "initial",
             borderLeft: `1px solid ${theme.palette.divider}`,
             borderRight: `1px solid ${theme.palette.divider}`,
+            display: "block",
+            overflowX: "auto",
+            whiteSpace: "nowrap",
             "& thead": {
               "& th": {
                 background: theme.palette.primary.main,
