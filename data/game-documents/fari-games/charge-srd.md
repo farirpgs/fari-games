@@ -86,7 +86,7 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 ## Details
 
-Characters are defined by descriptive traits called `details`. Each character usually have between 2-5 details to highlight who they are, and what is important about them.
+Characters are defined by descriptive traits called `details`. Each character usually has between 2-5 details to highlight who they are, and what is important about them. Those details are also used as a guide to know the different narrative liberties that a character has.
 
 When creating a new character, write down their:
 
@@ -319,7 +319,7 @@ Once you've decided how many charges you want to consume, roll and interpret the
 
 ## Clocks
 
-Clocks are circles divided in either 4, 6 or 8 segments used to track a task's **progress** or escalating **danger** in a scene.
+Clocks are circles divided in either 4, 6 or 8 segments used to track a task's **progress** or escalating **danger** in a scene. They can also be used on a PC's character sheet to track the long term `projects` that they are working on or the `complications` that they create in the world.
 
 Generally, the more complex the problem, the more segments the clock should have.
 
@@ -518,6 +518,19 @@ Once the mission is over, the PCs go back to their H.Q., and the loop starts ane
 > - _Finding dirt on the government to expose corruption._
 > - _Convincing the real king to take back what is theirs._
 > - _Finding money to hire mercenaries to fight an eventual war._
+
+
+# Attachment | Extras
+
+If you want to resist a `consequence`, but don’t want to make a `determination roll`, you can decide to break one of your `attachment`. Doing so cancels the consequence outright.
+
+However, this can only be done when it makes sense narratively, and that particular mod cannot be used until time is taken to repair or reacquire it.
+
+To re-require or repair a MOD, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the mod is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
+
+To make progress on the project, a character may only roll to repair a "broken" attachment when they have the appropriate amount of downtime. 
+
+Once the project is completed, the character is permitted to use the attachment in the fiction, and is allowed to block a new consequence by breaking it once again.
 
 # Licencing
 

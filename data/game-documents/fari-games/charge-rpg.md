@@ -25,13 +25,16 @@ It is also open licensed. Which means you can use it for free. You can also make
 
 ## Charge SRD
 
+If you want to make and publish your own game using Charge, checkout the [Charge SRD](/en/srds/fari-games/charge-srd) to get started.
+
 <a href="/en/srds/fari-games/charge-srd">
 	<img width="320px" src="https://gyazo.com/7a7d4cecbf087f5d66cb1b16d30271ad.png">
 </a>
 
-If you want to make **Powered by Charge** game, check-out the [Charge SRD](/en/srds/fari-games/charge-srd) to get started.
 
-### Credits
+
+
+## Credits
 
 This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
@@ -39,9 +42,8 @@ This work is based on Blades in the Dark (found at [http://www.bladesinthedark.c
 
 Now, one of the first things you probably want to know is: **who is this game for?**
 
-_This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to succeed._
+> _This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to succeed._
 
-Now, let's power your storytelling ⚡
 
 ## Contributing
 
@@ -57,31 +59,34 @@ What we mean by that is that you can:
 - Provide new Extras
 - Help improve the quality and reachability of the game by proofreading or translating it etc.
 
-If you contribute to this project in any way, your name will be properly credited on the first page of the game. If you designed a specific extra for the game, your name will also be credited there.
+If you contribute to this project in any way, your name will be added in the [credits](/en/srds/fari-games/charge-rpg/credits) of the game. If you designed a specific extra for the game, your name will also be credited there.
 
 While Charge accepts donations, those donations will be re-invested in the game directly by commissioning the creation of official art, paying for the editing, etc.
 
-If you want to contribute, join [Fari's Discord Server](https://fari.app/discord) or post a new topic on [Charge's Itch.io](https://itch.io/category/1498399/new-topic) page.
+If you want to contribute to Charge, join [Fari's Discord server](https://fari.app/discord) or check-out the [Charge Community Forums](https://farigames.itch.io/charge-rpg/community) on Itch.
 
-Let's build something incredible, together.
+Now, let's build something incredible, together.
 
 ## Useful Links
 
 - [Licencing Information](/en/srds/fari-games/charge-rpg/licencing)
 - [Charge SRD](/en/srds/fari-games/charge-srd)
+- [Fari's Discord server](https://fari.app/discord) 
+- [Charge Community Forums](https://farigames.itch.io/charge-rpg/community)
 - [Charge Cheatsheet](/en/srds/fari-games/charge-rpg/in-a-nutshell)
 
 ## Thanks
 
-**The White Lotus & The Delibuddies**:
+Wanted to say a quick thank you to my friends who have helped me with this idea from the very beginning.
 
 <ul class="people">
+ <li>Alexandre Lescarbeau</li>
  <li>Béatrice Landry-Belleau</li>
  <li>François Genois</li>
  <li>Gabriel Lemire</li>
  <li>Jean-Loup Kahloun</li>
  <li>Wing Tak Wong</li>
- <li>Xavier Tétreault.</li>
+ <li>Xavier Tétreault</li>
 </ul>
 
 # Goals | Power Your Storytelling
@@ -207,7 +212,7 @@ You can find each of those terms in the character sheet, but let's go over what 
 
 ## Details
 
-When creating your character, you figure out who they are, what they look like, and how they are tied to the world. We call this information the character's details.
+Characters are defined by descriptive traits called `details`. Each character usually has between 2-5 details to highlight who they are, and what is important about them. Those details are also used as a guide to know the different narrative liberties that a character has.
 
 ![](https://gyazo.com/e4ac2539a73b8650b7aee2ca20661371.png)
 
@@ -1568,9 +1573,9 @@ Since they can be used to cancel consequences entirely, characters only have bet
 
 Like character `details`, attachments provide narrative permissions to characters. When they are broken, those narrative permissions are lost.
 
-To re-require or repair an attachment, the PC needs to start a `project` and track it on their character sheet using a `project progress clock` on their character sheet.
+To re-require or repair an attachment, the PC needs to start a `project progress clock` and track it on their character sheet.
 
-The project progress clock starts at 4 segments, but may have more segments if the attachment is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
+The clocks starts at 4 segments, but may have more segments if the attachment is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
 
 To make progress on the project, a character may only roll to repair a "broken" attachment when they have the appropriate amount of downtime.
 
@@ -1578,7 +1583,7 @@ The amount of action rolls taken should be narratively related to the amount of 
 
 Depending on what is being repaired, the player may have to make different `action rolls`, or may have multiple progress clocks at once. Repairing an armor may just require a `Tinker` action roll and some time at the forge, but contacting a demon and convincing them to work with you again may require first to `Focus` on a ritual, then try to `Bond` with them. The amount of segments ticked is usually tied to the `effect` rating of the `action roll`.
 
-Once the project is completed, the character is re-allowed to use the attachment it in the fiction, and may use it again to block a new consequence.
+Once the project is completed, the character is permitted to use the attachment in the fiction, and is allowed to block a new consequence by breaking it once again.
 
 ## Attachment Condition
 
@@ -1781,7 +1786,7 @@ Some text was copied over from the rest of the game to make this Extra stand on 
 
 ### Character Creation
 
-Characters are defined by descriptive traits called `details`.
+Characters are defined by descriptive traits called `details`. These highlight who the characters are, and what is important about them. Those details are also used as a guide to know the different narrative liberties that a character has.
 
 When creating a new character, write down their:
 
