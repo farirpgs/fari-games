@@ -72,8 +72,8 @@ export function MarkdownContent(props: {
           },
           "& table": {
             borderSpacing: "initial",
-            borderLeft: `1px solid ${theme.palette.divider}`,
-            borderRight: `1px solid ${theme.palette.divider}`,
+            // borderLeft: `1px solid ${theme.palette.divider}`,
+            // borderRight: `1px solid ${theme.palette.divider}`,
             display: "block",
             overflowX: "auto",
             whiteSpace: "nowrap",
@@ -90,8 +90,11 @@ export function MarkdownContent(props: {
                 "&:empty": {
                   display: "none",
                 },
-                "&:not(:first-child)": {
+                "&:not(:last-child)": {
                   borderLeft: `1px solid ${theme.palette.divider}`,
+                },
+                "&:last-child": {
+                  borderRight: `1px solid ${theme.palette.divider}`,
                 },
               },
             },
@@ -109,8 +112,11 @@ export function MarkdownContent(props: {
                 "& td": {
                   borderBottom: `1px solid ${theme.palette.divider}`,
                   padding: ".5rem",
-                  "&:not(:first-child)": {
+                  "&:not(:last-child)": {
                     borderLeft: `1px solid ${theme.palette.divider}`,
+                  },
+                  "&:last-child": {
+                    borderRight: `1px solid ${theme.palette.divider}`,
                   },
                 },
               },
