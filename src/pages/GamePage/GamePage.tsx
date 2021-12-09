@@ -138,7 +138,7 @@ export function GamePage() {
                     color="secondary"
                     target="_blank"
                     rel="noreferrer"
-                    href={`https://github.com/fariapp/fari-games/tree/main/data/game-documents/${authorSlug}/${gameSlug}.md#:~:text=${chapter?.currentChapter.originalText}`}
+                    href={`https://github.com/fariapp/fari-games/tree/main/public/documents/${authorSlug}/${gameSlug}.md#:~:text=${chapter?.currentChapter.originalText}`}
                   >
                     Edit this Page
                   </Button>
