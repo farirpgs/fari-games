@@ -2434,7 +2434,7 @@ Thank you, and go power your storytelling!
 | `Valdy`                      | extra contributor                | 5-142857#7577   |                                          |                                       |
 | `Nugat`                      | extra contributor                |                 |                                          |                                       |
 | `Keita Creations`            | extra contributor                |                 | [Link](https://twitter.com/KeitaCreates) | [Link](https://keitacreates.itch.io/) |
-| `Othelarian`                 | extra contributor                |                 |                                          | [Link](https://othelarian.itch.io/)   |
+| `Othelarian`                 | extra contributor                | othelarian#5063 |                                          | [Link](https://othelarian.itch.io/)   |
 | `Stx11`                      | contributor                      | Stx11#0278      |                                          | [Link](https://stx11.itch.io/)        |
 
 # Licencing
