@@ -2419,7 +2419,7 @@ If what you've read has inspired you to make your own **Powered by Charge** game
 To talk with people who have played or hacked the game before, join [Fari's Discord Server](https://fari.app/discord) for great discussions about anything Charge related!
 
 Lastly, if you liked what you read, consider [donating](https://farigames.itch.io/charge-rpg) some money on itch.io.
-
+  
 All the funds are re-invested in the game to buy original art, paying editors or translators.
 
 Thank you, and go power your storytelling!
@@ -2428,14 +2428,12 @@ Thank you, and go power your storytelling!
 
 # Credits
 
-- `René-Pier Deshaies (original author | core maintainer | extra contributor)`
-  - [Twitter](https://twitter.com/RPDeshaies)
-  - [Itch.io](https://farigames.itch.io/)
-- `Valdy (extra contributor)`
-- `Nugat (extra contributor)`
-- `Keita Creations (extra contributor)`
-  - [Twitter](https://twitter.com/KeitaCreates)
-  - [Itch.io](https://keitacreates.itch.io/)
+| Name                         | Role                                                | Twitter                                  | Itch                                  |
+| ---------------------------- | --------------------------------------------------- | ---------------------------------------- | ------------------------------------- |
+| `René-Pier Deshaies-Gélinas` | original author, core maintainer, extra contributor | [Link](https://twitter.com/RPDeshaies)   | [Link](https://farigames.itch.io/)    |
+| `Valdy`                      | extra contributor                                   |                                          |                                       |
+| `Nugat`                      | extra contributor                                   |                                          |                                       |
+| `Keita Creations`            | extra contributor                                   | [Link](https://twitter.com/KeitaCreates) | [Link](https://keitacreates.itch.io/) |
 
 # Licencing
 
