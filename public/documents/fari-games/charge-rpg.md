@@ -2435,6 +2435,7 @@ Thank you, and go power your storytelling!
 | `Nugat`                      | extra contributor                                   |                                          |                                       |
 | `Keita Creations`            | extra contributor                                   | [Link](https://twitter.com/KeitaCreates) | [Link](https://keitacreates.itch.io/) |
 | `Othelarian`                 | extra contributor                                   |                                          | [Link](https://othelarian.itch.io/)   |
+| `Stx11`                      | contributor                                         |                                          |                                       |
 
 # Licencing
 
