@@ -86,7 +86,7 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 ## Details
 
-Characters are defined by descriptive traits called `details`. Each character usually has between 2-5 details to highlight who they are, and what is important about them. Those details are also used as a guide to know the different narrative liberties that a character has.
+Characters are defined by descriptive traits called `details`. Each character usually has between 2-5 of them to highlight who they are, and what is important about them. Those details aren’t just information to give the character color, but should be the aspects of the character that we pay attention to in the story. They are also used as a guide to know the different narrative liberties that a character has in the fiction.
 
 When creating a new character, write down their:
 

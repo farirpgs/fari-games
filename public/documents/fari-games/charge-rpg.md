@@ -212,7 +212,7 @@ You can find each of those terms in the character sheet, but let's go over what 
 
 ## Details
 
-Characters are defined by descriptive traits called `details`. Each character usually has between 2-5 details to highlight who they are, and what is important about them. Those details are also used as a guide to know the different narrative liberties that a character has.
+Characters are defined by descriptive traits called `details`. Each character usually has between 2-5 of them to highlight who they are, and what is important about them. Those details aren’t just information to give the character color, but should be the aspects of the character that we pay attention to in the story. They are also used as a guide to know the different narrative liberties that a character has in the fiction.
 
 ![](https://gyazo.com/e4ac2539a73b8650b7aee2ca20661371.png)
 
@@ -1798,7 +1798,7 @@ Some text was copied over from the rest of the game to make this Extra stand on 
 
 ### Character Creation
 
-Characters are defined by descriptive traits called `details`. These highlight who the characters are, and what is important about them. Those details are also used as a guide to know the different narrative liberties that a character has.
+Characters are defined by descriptive traits called `details`. These highlight who they are, and what is important about them. Those details aren’t just information to give the character color, but should be the aspects of the character that we pay attention to in the story. They are also used as a guide to know the different narrative liberties that a character has in the fiction.
 
 When creating a new character, write down their:
 
