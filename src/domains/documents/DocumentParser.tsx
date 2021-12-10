@@ -70,6 +70,11 @@ export type ISearchIndex = {
   path: string;
 };
 
+const FileContentCache = {
+  path: "",
+  content: "",
+};
+
 export const DocumentParser = {
   async getDocument(props: {
     author: string;
@@ -80,9 +85,16 @@ export const DocumentParser = {
       props.language === "en"
         ? `${props.author}/${props.slug}`
         : `${props.author}/${props.slug}_${props.language}`;
-    const fileContent = await fetch(`/documents/${link}.md`).then((res) =>
-      res.text()
-    );
+    let fileContent = "";
+
+    const path = `/documents/${link}.md`;
+    if (FileContentCache.path === path) {
+      fileContent = FileContentCache.content;
+    } else {
+      fileContent = await fetch(path).then((res) => res.text());
+    }
+    FileContentCache.path = path;
+    FileContentCache.content = fileContent;
 
     const frontMatter = extractFrontMatterFromMarkdown(fileContent);
     const dom = await convertMarkdownToDom(fileContent);
