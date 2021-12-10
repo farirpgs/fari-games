@@ -1575,7 +1575,7 @@ Since they can be used to cancel consequences entirely, characters only have bet
 
 > #### Example
 >
-> _Jean-Loup's character is surrounded by a horde of monsters while inside his Mech. He just failed a `desperate` action rolls which will tick 3 segments of his character's condition clock._
+> _Jean-Loup's character is surrounded by a horde of monsters while inside his Mech. He just failed a `desperate` action rolls which will tick 3 segments of his character's stress clock._
 >
 > _To avoid this, Jean-Loup proposes to break his attachment **Mech's Core Reactor** to trigger an explosion, kill some monsters and give his character an opportunity to escape._
 >
@@ -1605,7 +1605,7 @@ Then, the more damage your attachment takes (or the more you use it), the more t
 
 Once the clock is full, the item is either irredeemably lost or unusable until it is partially or fully repaired (Which can happen during downtime or through action rolls).
 
-If using the aforementioned repairing mechanic, you can have the repair clock be used as the item's condition clock, with each succesful repair clearing one (or multiple, your choice) segments.
+If using the aforementioned repairing mechanic, you can have the repair clock be used as the item's stress clock, with each succesful repair clearing one (or multiple, your choice) segments.
 
 ## Credits
 
@@ -2066,7 +2066,7 @@ A spell with **great** effect (3 segments) is powerful : it gives you both bette
 
 Critical successes on spells raise the effect by one level for every additionnal d6 besides the first. A critical success on a spell that already had a **great** effect can have two effect : either it provides better effect, position and an extra d6, or it simply lets the character automatically succeed on a roll where the effect applies (in that case, the effect rating stays the same).
 
-> _The being has been summoned succesfully, and it is now represented by a post-it that has a name and a clock. She decides that the spirit is a **normal** spiritual being that may be commanded any time the summoner wants to provide an extra d6 when rolling a dice when it would make sense that the spirit could act on behalf of the character. Since it acts instead of the character, Alice decides that the being has its own condition clock to tick on consequences._
+> _The being has been summoned succesfully, and it is now represented by a post-it that has a name and a clock. She decides that the spirit is a **normal** spiritual being that may be commanded any time the summoner wants to provide an extra d6 when rolling a dice when it would make sense that the spirit could act on behalf of the character. Since it acts instead of the character, Alice decides that the being has its own stress clock to tick on consequences._
 >
 > _But, since this is a powerful effect, it also has a powerful drawback : Using the spiritual being is taxing on both body and mind, and any uses of the being tick one segment of the character's condition clocck. Furthermore, as soon as the character is taken out, the being breaks free of the spell and turns hostile to the party._
 
