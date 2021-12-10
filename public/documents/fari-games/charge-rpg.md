@@ -2428,14 +2428,15 @@ Thank you, and go power your storytelling!
 
 # Credits
 
-| Name                         | Role                             | Discord         | Twitter                                  | Itch                                  |
-| ---------------------------- | -------------------------------- | --------------- | ---------------------------------------- | ------------------------------------- |
-| `René-Pier Deshaies-Gélinas` | original author, core maintainer | RPDeshaies#4116 | [Link](https://twitter.com/RPDeshaies)   | [Link](https://farigames.itch.io/)    |
-| `Valdy`                      | extra contributor                | 5-142857#7577   |                                          |                                       |
-| `Nugat`                      | extra contributor                |                 |                                          |                                       |
-| `Keita Creations`            | extra contributor                |                 | [Link](https://twitter.com/KeitaCreates) | [Link](https://keitacreates.itch.io/) |
-| `Othelarian`                 | extra contributor                | othelarian#5063 |                                          | [Link](https://othelarian.itch.io/)   |
-| `Stx11`                      | contributor                      | Stx11#0278      |                                          | [Link](https://stx11.itch.io/)        |
+| Name                         | Role                             | Discord                    | Twitter                                   | Itch                                  |
+| ---------------------------- | -------------------------------- | -------------------------- | ----------------------------------------- | ------------------------------------- |
+| `René-Pier Deshaies-Gélinas` | original author, core maintainer | RPDeshaies#4116            | [Link](https://twitter.com/RPDeshaies)    | [Link](https://farigames.itch.io/)    |
+| `Valdy`                      | extra contributor                | 5-142857#7577              |                                           |                                       |
+| `Nugat`                      | extra contributor                |                            |                                           |                                       |
+| `Keita Creations`            | extra contributor                |                            | [Link](https://twitter.com/KeitaCreates)  | [Link](https://keitacreates.itch.io/) |
+| `Othelarian`                 | extra contributor                | othelarian#5063            |                                           | [Link](https://othelarian.itch.io/)   |
+| `Stx11`                      | contributor                      | Stx11#0278                 |                                           | [Link](https://stx11.itch.io/)        |
+| `Dylan Greene`               | contributor                      | American Space Prince#2381 | [Link](https://twitter.com/dgcloudrunner) |                                       |
 
 # Licencing
 
