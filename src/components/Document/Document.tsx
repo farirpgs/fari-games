@@ -61,7 +61,9 @@ export function Document(props: {
     if (!location.hash) {
       return;
     }
-    const scrollElement = document.querySelector(location.hash);
+    const scrollElement = document.querySelector(
+      `[id="${location.hash.replace("#", "")}"]`
+    );
 
     let timeout: number;
     if (scrollElement) {
