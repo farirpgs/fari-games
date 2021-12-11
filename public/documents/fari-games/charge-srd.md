@@ -178,9 +178,9 @@ When there's a challenge that needs to be overcome, and there's a risk of failur
 
 The number of dice to roll depends on the `action` the character is doing. The list of possible action can be found in the character creation section.
 
-In this game, NPCs don't roll for their actions. Instead, an action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**. The action roll tells us the results, and the consequences of an action at the same time.
+In this game, NPCs don't roll for their actions. NPCs succeed unless the players attempt to stop them, in which case the action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**. The action roll tells us the results, and the consequences of an action at the same time, encouraging players to be active participants in the story.
 
-To make an action goal, we go through the following steps:
+To make an action roll, we go through the following steps:
 
 #### 1. Player Sets Their Goal
 
@@ -206,7 +206,7 @@ The GM sets the effect rating of the action.
 
 #### 4. Player Evens the Odds
 
-The player decides if they want to even the odds by adding bonus dice to their pool.
+As the player, you decides if you want to even the odds by adding bonus dice to your pool.
 
 You can normally get two bonus dice for your action roll.
 
