@@ -29,9 +29,10 @@ export function MarkdownContent(props: {
             padding: ".5rem 1rem",
             background: theme.palette.background.paper,
             border: `4px solid ${theme.palette.secondary.main}`,
-            "& h1,h2,h3,h4,h5,h6": {
-              marginTop: ".5rem",
-            },
+            "& h1:first-child,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child":
+              {
+                marginTop: ".5rem",
+              },
           },
           "&  code": {
             fontFamily: props.highlightFont,
