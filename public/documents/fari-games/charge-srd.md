@@ -327,13 +327,13 @@ Clocks are circles divided in either 4, 6 or 8 segments used to track a task's *
 
 Generally, the more complex the problem, the more segments the clock should have.
 
-When a PC succeeds an action roll, you can tick segments of a `progress clock`:
+When a PC succeeds an action roll, you can use a `progress clock` and:
 
 - Tick 1 segment for a `limited effect`.
 - Tick 2 segments for a `standard effect`.
 - Tick 3 segments for a `great effect`.
 
-When a PC gets a consequence from an action roll, you can tick segments of a `danger clock`:
+When a PC gets a consequence from an action roll, you can use  `danger clock` and:
 
 - Tick 3 segments for a `desperate position`.
 - Tick 2 segments for a `risky position`.
@@ -368,13 +368,14 @@ Players invest those talent dots to make their characters stronger and more vers
 
 A talent either gives the PC a new `action dot`, or a `situational talent`.
 
-A situational talent gives a bonus or a certain narrative liberty during a certain situation:
+A situational talent gives a bonus or a certain narrative liberty during a certain situation.
 
 - `+1d6 when ______`
 - `+1 position when ______`
 - `+1 effect when ______`
 - `Use [action] instead of [action] when ______`
 - `[New narrative liberty] when ______`
+- `Can use [action] instead of [action] when ______`: 
 
 ## Fortune Rolls
 
