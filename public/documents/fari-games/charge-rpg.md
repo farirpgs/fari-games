@@ -206,7 +206,7 @@ As a player, you create a `character`.
 
 Your character is defined by certain traits, and tied to certain elements of the world they live in. They will affect the world around them with their `actions`. Their actions may succeed, or lead to `consequences` which might inflict `stress` or worsen their `condition`.
 
-The `details` of your characters are a good way to make your characters unique in the fiction, but Charge uses `talents` to make each character shine in their own special way.
+The `details` of your characters are a good way to make your characters unique in the fiction, but Charge uses `talents` to give characters mechanical benefits when doing an `action roll`.
 
 You can find each of those terms in the character sheet, but let's go over what all of them mean and how we use them during a session.
 
@@ -829,11 +829,9 @@ The reason why each character starts with only `2 momentum` at the beginning of 
 - If you rolled a `6`, you gain `+2 momentum`.
 - If you rolled a `66`, you gain `+3 momentum`.
 
-**Also, if you've spent moment for a roll, that roll cannot in turn generate momentum.**
+**Also, when momentum is spent for a roll, that roll cannot in turn generate momentum.**
 
-While this is the default dial, we encourage you and your group to change this as you wish. We want you to consider hacking this rule because it is the basis of the whole meta-economy of the game.
-
-Making momentum harder or easier to gain will have a big impact on the way the game plays out.
+While this is the default dial, we encourage you and your group to change this as you wish. Making momentum harder or easier to gain will have a big impact on the way the game plays out.
 
 ### Momentum Dial
 

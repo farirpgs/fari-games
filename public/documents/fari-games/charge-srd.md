@@ -262,7 +262,7 @@ When you `push yourself`, you consume `2 momentum` **per push** to gain one of t
 
 ### Add Tension
 
-When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
+When you `add tension` to an action roll, you can ask the GM _"What would adding tension look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
 If you accept the `consequence`, add `+1d6` to your current dice pool.
 
