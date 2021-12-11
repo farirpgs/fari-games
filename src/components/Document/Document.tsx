@@ -527,8 +527,34 @@ export function Document(props: {
           })}
         >
           <Stack spacing={1}>
+            <a
+              className={css({
+                color: theme.palette.text.secondary,
+                fontWeight: theme.typography.fontWeightBold,
+                textDecoration: "none",
+                cursor: "pointer",
+                display: "flex",
+                marginLeft: `0`,
+              })}
+              onClick={(e) => {
+                e.preventDefault();
+                setMobileTocMenuOpen(false);
+                window.scrollTo({
+                  top: 0,
+                });
+              }}
+            >
+              <Typography
+                noWrap
+                className={css({
+                  fontSize: ".85rem",
+                })}
+              >
+                {chapter.currentChapter.text}
+              </Typography>
+            </a>
             {chapter?.chapterToc.map((tocItem, index) => {
-              const indentationLevel = tocItem.level - 2;
+              const indentationLevel = tocItem.level - 1;
               return (
                 <div key={index}>
                   <a
