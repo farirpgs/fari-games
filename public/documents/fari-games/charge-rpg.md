@@ -204,7 +204,7 @@ Then, patiently wait until the next session. And while you are waiting, remember
 
 As a player, you create a `character`.
 
-Your character is defined by certain traits, and tied to certain elements of the world they live in. They will affect the world around them with their `actions`. Their actions may succeed, or lead to `consequences` which might inflict `stress` or worsen their `condition`.
+Your character is defined by certain traits, and tied to certain elements of the world they live in. They will affect the world around them with their `actions`. If their actions are not completely successful they will lead to `consequences` which might inflict `stress` or worsen their `condition`.
 
 The `details` of your characters are a good way to make your characters unique in the fiction, but Charge uses `talents` to give characters mechanical benefits when doing an `action roll`.
 
@@ -415,7 +415,7 @@ The `Projects and Complications` section of the character sheet is something the
 
 ![](https://gyazo.com/cc0d601c9fc82fbfe8a433ac3fdc303d.png)
 
-You don't need to know how to use this right away, so for more on this, checkout [**Mechanics&nbsp;»&nbsp;Projects and Complications**](projects-and-complications).
+You don't need to know how to use this right away, so for more on this, check out [**Mechanics&nbsp;»&nbsp;Projects and Complications**](projects-and-complications).
 
 ## Character Recap
 
@@ -484,7 +484,7 @@ The action rating is used to define the initial dice pool of the roll.
 
 > #### Active Opposition
 >
-> In Charge, NPCs don't roll for their actions. Instead, an action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**.
+> In Charge, NPCs don't roll for their actions. NPCs automatically succeed at their actions unless players attempt to intervene. In this case, an action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**. This encourages players to get involved in the action and be proactive, rather than to sit back and be a passive participant.
 >
 > The action roll tells us the results, and the consequences of an action at the same time.
 >
@@ -492,7 +492,7 @@ The action rating is used to define the initial dice pool of the roll.
 
 ## 2. GM Sets the Position
 
-If an obstacle is in the way, the GM needs set the `position` of the roll.
+The GM needs to set the `position` of the roll, based on the risks involved from failure. 
 
 A situation is either in a `controlled`, `risky`, or `desperate` position.
 
@@ -522,7 +522,7 @@ The effect rating helps determine what success looks like.
 >
 > We said there were only 3 effect ratings, and that was actually a little bit of a lie since there's a fourth one called the `no-effect`.
 >
-> The GM can use this when a task is so difficult that whatever the PC attempts, there is no chance of .
+> The GM can use this when a task is so difficult that whatever the PC attempts, there is no chance of success.
 >
 > Obviously, doing nothing is boring. That's why you can boost that `no-effect` to a `limited effect` if you Push Yourself using charges of momentum. More on that in [Even the Odds](#even-the-odds).
 
@@ -542,7 +542,7 @@ The effect rating helps determine what success looks like.
 >
 > When a roll creates a consequence, you use the `position rating` to see how many segments you tick on danger clocks, how much stress a character gets when they are harmed, etc.
 >
-> While the GM usually sets the initial ratings, the entire table should participate in the discussion to make sure every aspect of the fictions were taken in consideration to establish those before a action roll is made.
+> While the GM usually sets the initial ratings, the entire table should participate in the discussion to make sure all aspects of the fiction are taken into consideration before an action roll is made.
 >
 > More on clocks in [**Mechanics&nbsp;»&nbsp;Clocks**](mechanics#clocks)
 
@@ -568,7 +568,7 @@ When you `push yourself`, you consume `2 momentum` **per push** to gain one of t
 
 ### Add Tension
 
-When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
+When you `add tension` to an action roll, you can ask the GM _"What would adding tension look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
 If you accept the `consequence`, add `+1d6` to your current dice pool.
 
@@ -582,7 +582,7 @@ You can also even the odds by using **either** of the following methods.
 
 > #### Use an Asset
 >
-> Assets are an optional rule available in [Extras&nbsp;»&nbsp;Asset Extra](asset-extra), but they are still considered an option for you to even the odds if you are using that Extra.
+> Assets are an optional rule available in [Extras&nbsp;»&nbsp;Asset Extra](asset-extra) which gives an additional way to even the odds. 
 
 ## Recap
 
@@ -620,7 +620,7 @@ Consequences are a tool the GM can use to spice up the story. The GM uses the fi
 
 ## Consequence Rating
 
-When a consequence is inflicted on a character, the `position` of the action roll tells us how bad that consequence is.
+When a consequence is inflicted on a player's character, the `position` of the action roll tells us how bad that consequence is.
 
 So a consequence that comes from a `desperate` action roll is _usually_ worse than a consequence from a `controlled` one.
 
@@ -983,7 +983,7 @@ You choose the benefit, based on the nature of your setup action.
 >
 > _First I'll distract them. Then you gotta make a run for it. OK?_
 
-This is a good way to contribute to an operation when you don't have a good rating in the action at hand. A clever setup action lets you help the team indirectly. Multiple follow-up actions may take advantage of your setup as long as it makes sense in the fiction.
+This is a good way to contribute to an operation when you don't have a good rating in the action at hand. A clever setup action lets you help the team indirectly - either in the moment or via a `flashback`. Multiple follow-up actions may take advantage of your setup as long as it makes sense in the fiction.
 
 ### From Zero to Limited
 
@@ -1159,7 +1159,7 @@ Later in the campaign, when a milestone occurs, then you can think of new ways t
 
 >_Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
 >
->_In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agree saying "My character lived in the forest all their life, and would probably be intimidated by big cities. I like it; let's go with this for now!"_
+>_In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agrees, saying "My character lived in the forest all their life, and would probably be intimidated by big cities. I like it; let's go with this for now!"_
 
 # Projects and Complications | Mechanics
 
@@ -1171,7 +1171,7 @@ Those clocks represent long-term projects or ever-evolving danger that the chara
 
 Perhaps your character is piling up money to be able to afford something good for their family, or perhaps they are trying to figure out a way to reverse the damaged caused by a dangerous new disease that's plaguing the city.
 
-In any case, once per session, if the narrative allows it, a character can make an action roll to work on those long-term agendas.
+In any case, once per session, if the narrative allows it, a character can make an action roll to work on those long-term agendas. The player works with the GM to describe what action they are taking to advance their agenda and figure out the `effect` and `position` of the roll.
 
  These projects are tracked using `progress clocks` on the character sheet. The `effect` rating of the roll determines how much the project progresses when the character is working on it.
 
