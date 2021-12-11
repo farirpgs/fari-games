@@ -76,7 +76,7 @@ Now, let's build something incredible, together.
 Wanted to say a quick thank you to my friends who have helped me with this idea from the very beginning.
 
 <ul class="people">
- <li>Alexandre Lescarbeau</li>
+ <li>Alexandre L. Lescarbeau</li>
  <li>Béatrice Landry-Belleau</li>
  <li>François Genois</li>
  <li>Gabriel Lemire</li>
@@ -2431,6 +2431,7 @@ Thank you, and go power your storytelling!
 | Name                         | Role                             | Discord                    | Twitter                                   | Itch                                  |
 | ---------------------------- | -------------------------------- | -------------------------- | ----------------------------------------- | ------------------------------------- |
 | `René-Pier Deshaies-Gélinas` | original author, core maintainer | RPDeshaies#4116            | [Link](https://twitter.com/RPDeshaies)    | [Link](https://farigames.itch.io/)    |
+| `Alexandre L. Lescarbeau`    | sounding board                   |                            |                                           |                                       |
 | `Valdy`                      | extra contributor                | 5-142857#7577              |                                           |                                       |
 | `Nugat`                      | extra contributor                |                            |                                           |                                       |
 | `Keita Creations`            | extra contributor                |                            | [Link](https://twitter.com/KeitaCreates)  | [Link](https://keitacreates.itch.io/) |
