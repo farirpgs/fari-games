@@ -375,7 +375,6 @@ A situational talent gives a bonus or a certain narrative liberty during a certa
 - `+1 effect when ______`
 - `Use [action] instead of [action] when ______`
 - `[New narrative liberty] when ______`
-- `Can use [action] instead of [action] when ______`: 
 
 ## Fortune Rolls
 

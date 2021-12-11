@@ -1113,12 +1113,11 @@ A talent either gives the PC a new `action dot`, or a `situational talent`.
 
 A situational talent gives a bonus or a certain narrative liberty during a certain situation.
 
-- `+1 Action Dot`: You can increase any action on your character sheet by 1 dot.
-- `+1 Effect when ______`: In a certain situation, the effect rating described by the GM is increased by 1.
-- `+1 Position when ______`: In a certain situation, the position rating described by the GM is increased by 1.
-- `+1d6 when ______` : In a certain situation, you can add `+1d6` to your dice pool.
-- `[New narrative liberty] when ______`: In a certain situation, you get access to a new ability that gives your more narrative liberties.
-- `Can use [action] instead of [action] when ______`: 
+- `+1d6 when ______`
+- `+1 position when ______`
+- `+1 effect when ______`
+- `Use [action] instead of [action] when ______`
+- `[New narrative liberty] when ______`
 
 Gaining a new talent will feel like a breath of fresh air. It won't make your characters overpowered or god-like, but it will make them more flexible, or more specialized.
 
