@@ -2435,7 +2435,7 @@ All the funds are re-invested in the game to buy original art, paying editors or
 
 Thank you, and go power your storytelling!
 
-<iframe frameborder="0" src="https://itch.io/embed/1196268?bg_color=ffffff&amp;fg_color=324149&amp;link_color=2d436e&amp;border_color=58676f" width="100%" height="167"><a href="https://farigames.itch.io/charge-rpg">Charge RPG | Free, Open and Generic by Fari Games</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/1196268?bg_color=ffffff&amp;fg_color=324149&amp;link_color=2d436e&amp;border_color=58676f" width="100%" height="167"><a href="https://farigames.itch.io/charge-rpg">Charge RPG | Free, Open and Generic by Fari RPGs</a></iframe>
 
 # Credits
 
@@ -2462,7 +2462,7 @@ To do so, copy the text below in your own game and things should be good to go.
 
 ## Attribution
 
-This work is based on Charge RPG, product of Fari Games, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+This work is based on Charge RPG, product of Fari RPGs, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 
 This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
