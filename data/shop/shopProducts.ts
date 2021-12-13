@@ -400,6 +400,28 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "WuDeRPG",
+      slug: "wuderpg",
+      links: {
+        twitter: "https://twitter.com/WuDeRPG",
+        website: "https://wuderpg.wordpress.com/",
+      },
+      products: [
+        {
+          name: "The Five Powers SRD",
+          slug: "the-five-powers-srd",
+          description:
+            "The Five Powers SRD harnesses the full potential of the 5 Elements of East-Asian Philosophy so you can create evocative games!",
+          image: "https://gyazo.com/0784a27c26e7811eb327e64cf8718028.jpg",
+          links: {
+            itchIo: "https://wuderpg.itch.io/wude-the-five-powers",
+          },
+          tags: ["srd", "new"],
+          // license:License.CC_BY_4,
+        },
+      ],
+    },
   ],
 };
 
