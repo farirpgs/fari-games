@@ -178,9 +178,9 @@ When there's a challenge that needs to be overcome, and there's a risk of failur
 
 The number of dice to roll depends on the `action` the character is doing. The list of possible action can be found in the character creation section.
 
-The action roll acts as double duty. Which means that it resolves what the PC is doing, as well as the NPC.
+In this game, NPCs don't roll for their actions. NPCs succeed unless the players attempt to stop them, in which case the action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**. The action roll tells us the results, and the consequences of an action at the same time, encouraging players to be active participants in the story.
 
-Here's what happens when a player makes an action roll:
+To make an action roll, we go through the following steps:
 
 #### 1. Player Sets Their Goal
 
@@ -206,14 +206,16 @@ The GM sets the effect rating of the action.
 
 #### 4. Player Evens the Odds
 
-The player decides if they want to even the odds.
+As the player, you decides if you want to even the odds by adding bonus dice to your pool.
 
-They can either
+You can normally get two bonus dice for your action roll.
 
-- `Push themselves`: Consume `2 momentum` to get `+1d6` or an improved effect rating.
+For one bonus die, you can get assistance from a teammate. They consume `1 momentum`, say how they help you, and give you `+1d6`.
+
+For another bonus die, you can either:
+
+- `Push yourself`: Consume `2 momentum` to get `+1d6` or an improved `effect` rating.
 - `Add tension` to the scene, to get `+1d6`.
-
-They can also receive assistance from another PC for an additional `1d6`.
 
 #### 5. Roll the Dice
 
@@ -252,7 +254,7 @@ If you want, you can add bonus dice to your action roll by using **one** of the 
 
 ### Push Yourself
 
-When you `push yourself`, you consume `2 momentum` per push to gain one of the following bonuses.
+When you `push yourself`, you consume `2 momentum` **per push** to gain one of the following bonuses.
 
 - Add `+1d6` to your dice pool.
 - Gain `+1 effect rating` for your roll.
@@ -260,9 +262,11 @@ When you `push yourself`, you consume `2 momentum` per push to gain one of the f
 
 ### Add Tension
 
-When you `add tension` to an action roll, you can ask the GM _"What would adding tension would look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
+When you `add tension` to an action roll, you can ask the GM _"What would adding tension look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
 If you accept the `consequence`, add `+1d6` to your current dice pool.
+
+There could be scenarios where adding tension isn't an option. In that case, the GM can simply communicate that to the player so that they look into other ways to even the odds.
 
 ## Team work
 
@@ -323,13 +327,13 @@ Clocks are circles divided in either 4, 6 or 8 segments used to track a task's *
 
 Generally, the more complex the problem, the more segments the clock should have.
 
-When a PC succeeds an action roll, you can tick segments of a `progress clock`:
+When a PC succeeds an action roll, you can use a `progress clock` and:
 
 - Tick 1 segment for a `limited effect`.
 - Tick 2 segments for a `standard effect`.
 - Tick 3 segments for a `great effect`.
 
-When a PC gets a consequence from an action roll, you can tick segments of a `danger clock`:
+When a PC gets a consequence from an action roll, you can use  `danger clock` and:
 
 - Tick 3 segments for a `desperate position`.
 - Tick 2 segments for a `risky position`.
@@ -364,7 +368,7 @@ Players invest those talent dots to make their characters stronger and more vers
 
 A talent either gives the PC a new `action dot`, or a `situational talent`.
 
-A situational talent gives a bonus or a certain narrative liberty during a certain situation:
+A situational talent gives a bonus or a certain narrative liberty during a certain situation.
 
 - `+1d6 when ______`
 - `+1 position when ______`
