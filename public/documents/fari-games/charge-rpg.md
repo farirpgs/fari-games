@@ -2081,6 +2081,148 @@ Critical successes on spells raise the effect by one level for every additionnal
 >
 > _But, since this is a powerful effect, it also has a powerful drawback : Using the spiritual being is taxing on both body and mind, and any uses of the being tick one segment of the character's condition clocck. Furthermore, as soon as the character is taken out, the being breaks free of the spell and turns hostile to the party._
 
+
+
+# Scars Extra | Extras
+
+This extra introduces new a type of `detail` that permanently changes your character when the stress clock fills up.
+
+\- By Krister Svanlund
+
+---
+
+_CW: This Extra handles topics of graphic bodily harm and touches on subjects that can be associated with mental health._
+
+This extra is intended to replace the simple default rule of _"When your stress clock reaches **4 filled segments**, you clear it, and are taken out for the scene."_ in a way that makes putting yourself in risky situations have an actual permanent effect.
+
+Games that could benefit from these rules are primarily those going for a grittier tone where the hero doesn't just bounce back, but rather where they are forced to deal with the consequences of their actions.
+
+This extra adds a few concepts to the basis of Charge RPG, namely;
+
+ - `scars` -- A new type of character `detail` that indicates a permanent change to your character, either physically or mentally.
+ - `bowing out` -- The act of leaving your friends to deal with a conflict to avoid more severe consequences to yourself.
+ - being `hardened` -- The beneficial aspects of having a `scar` detail; allows you to take more stress in some circumstances.
+
+---
+
+> ## Scars disclaimer
+
+>
+> _The topics of this Extra have a complicated relationship to both real life and tropes in popular media. Therefore when you use these rules, keep that in mind that pop culture generally hasn't treated disabilities kindly but that we, collectively, have an awesome chance to change that. These rules are not meant to make your character broken or unplayable, they are meant to create a permanent record on your character sheet and how you portray your character of the adventures you have been on. But always; be mindful and listen to what other people you share the table with have to say about it, and always respect those that want you to stay away from certain conditions or disabilities._
+>
+> _These rules give you a chance to embrace the changes to your characters and show how it doesn't make them less competent even if they have their struggles due to the scars they have. The purpose of this isn't to cause a death spiral but to make the world have an impression on the character similar to how the characters make an impression on the world._
+
+## Scars Rule
+
+When your stress clock reaches **4 filled segments**, you do not clear it but instead, add a `scar` to your character details and update the condition to something that represents you being `incapacitated`. When you come to from being incapacitated, either by getting help from a friend or from just crawling back on the scene, you clear half of the stress clock and update your `condition` accordingly.
+
+An incapacitated character can not take more `scars` but further harm to the body can change the nature of the `scar`, such as a burn having a wider reach, or instead of having a deep scar you get an intricate net of deep scars.
+
+> ### Overlapping scars
+>
+> _In some cases `scars` end up overlapping in what it affects, such as losing your left arm after leaving your left hand, and in those cases, it is perfectly acceptable to merge those `scars` into a single scar. If a `scar` doesn't change anything about your character it has no use on the character sheet either._  
+
+Remember to also update your looks if necessary as you add `scars`.
+
+> ### Optional dial setting: Bleeding out ###
+>
+> _For some games, a fresh `scar` should require some kind of `action` from another character to get the scared character back in the game. This can be being "talked down from the ledge", "staunch the bleeding", or "taking care of the burns". This rule, in particular, can be a bit too much for some groups, so make extra sure to include this with consent, as with all rules dealing with bodily or mental harm._
+
+### Definition of a scar
+
+A `scar` is a character detail that is based on the `condition` you got from filling up the stress clock. Similar to conditions, physical and mental `scars` aren't kept separated but rather tracked as the same list of details. The important part is that the `scar` isn't the `condition` itself but rather what stays behind after some time.
+
+> ##### Examples of scars
+>
+> - "a deep scar across the abdomen"
+> - "missing left hand and underarm"
+> - "intrusive thoughts of the scarred non-blinking eye of Gazh".
+
+Similar to `conditions` certain `scars` may restrict the narrative liberties you are allowed. _For example, you normally can't hold two weapons if you only have one hand._
+
+### Being hardened
+
+When you have a `scar` it also means that you are `hardened` to some extent, this means that whenever any of your `scars` cause you or your friends' real trouble you are allowed to **clear one tick on the stress clock** by consuming `1 momentum`. What defines as "real trouble" is up to the GM but it should be consequential to what your purpose as a character, or group, is.
+
+> #### Examples of real trouble
+>
+> - Being chased out of the small town because the burn scars are seen as a sign of evil.
+> - Forgetting about the missing hand and using it to try and catch the weapon thrown at you.
+> - Cowering in fear, unable to come to your friends' aid, from hearing the cursed bells tolling.
+
+> #### Note Scars as slapstick
+>
+> _An important note here is that `scars` causing you "trouble" aren't intended for comedic effect. This will naturally vary between groups but remember to treat `scars` with the same level of respect as any other character `detail`._
+
+### Optional dial setting: Compensating
+
+In some cases, and for certain settings, it can make sense to allow for some way to "compensate" for a `scar`, this doesn't remove or negate it but rather compensate some part of the loss of ability. Examples of this can be buying a clockwork prosthesis, getting a skin graft, or just receiving therapy. This doesn't block you from utilizing being `hardened` but it does lessen the chances of the `scar` causing problems.
+
+_An important balance issue for the GM to have in mind for this is that a `compensation` shouldn't, by default, allow for anything a character without the scar can do, nor should it be held against the character as a weakness. But it can be used as an in-character target for future improvement, depending on the type of setting and tone._
+
+### Bowing out
+
+_This rule might not be suitable for all groups. Don't use this if it risks creating interpersonal conflicts among the players. The purpose of the rule is to allow players some agency when it comes to getting a `scar` or not. If leaving your friends in trouble isn't seen as **a cost**, this rule isn't for your group._
+
+As you get closer to filling up the stress clock you have the option to `bow out` instead of taking a `consequence` that would fill up your stress clock. You do this by telling the GM before you roll for your final action that risks filling up your stress clock, that you wish to `bow out`. This means that you narrate how the result of the action causes you to leave the scene or be `incapacitated`, and you can't rejoin the group during the same scene. If this ends up leaving at least one friend in trouble you also get to clear 2 ticks of your stress clock.
+
+> #### Example: Bowing out
+>
+> _Player 1s character is at 3 stress, with the condition "overwhelmed and stabbed through the right shoulder"."_
+>
+> _**GM:** The Brute rushes towards you as the bullets fly through the air, it looks to go in for tackling you into the wall behind you, you're in a `desperate position`._
+>
+> _**Player 1:** Ok, so I want to `move` out of the way but since I'm at 3 stress I also want to `bow out`._
+>
+> _**GM:** Yeah, sure that's fine, you have `standard effect` for that, but it will leave <Player 2> in pretty deep shit with you gone and having to deal with both the Brute and the Slice. How do you leave the fight?_
+>
+> _**Player 1:** [Rolling dice] Ok, I actually succeed at the `move` without complications, so I move out of the way and use my effect to cause 2 stress damage to the Brute as it smashes into the wall. But my only way to move out of the way was to throw myself over the edge to the right so I fall into the river below and get carried away._
+>
+> _**GM:** Ok, so clear 2 ticks from your stress clock and you get to come back when the fight is over._
+
+### Optional dial setting: Starting the game with scars
+
+`Scars` are the character's history etched into their body, mind, and soul. For that reason there is _no_ option to take `scars` to gain extra `talents`, `action dots`, or similar, if you want your character to start out with `scars` there needs to be a story that goes along with that scar. A story that has fundamentally shaped them into who they are at the start of the game. Preferably each `scar` should have a story that could be told around a campfire, even the `scars` that get added during play.
+
+But naturally, not all scars need to be `scars` in the mechanical sense, a purely decorative scar is just part of your character's looks and personality.
+
+> ### Example of taking a scar
+>
+> _Player 2s character has only taken 1 stress so far and is "winded"._
+>
+> _**GM:** The Slice has gotten up and as you wipe your face shield clear you see how it's stalking towards you._
+>
+> _**Player 2:** Ok, but I saw that <Player 1> got over the railing, right? So I start circling the Slice to get to where I can look down and see if <Player 1> survived._
+>
+> _**GM:** Sure, but that will also mean that you come closer to the Brute, even tho you know it's pretty inattentive and, at the moment, looks pretty out of it after going face-first into the wall._
+>
+> _**Player 2:** Yeah, that's fine. But I want to take a chance and look over the edge for <Player 1>, that's a `notice` action right?_
+>
+> _**GM:** Sure, that works. You have a `risky position` and `standard effect` on that roll._
+>
+> _**Player 2:** [Rolling dice] I got a 4?_
+>
+> _**GM:** So you look over the railing and see <Player 1> floating in the river, being kept afloat by the auto-inflated vests you both are wearing. But while you're looking over the edge the Slice sees an opportunity and makes a lunge towards you, putting you in a `desperate position`._
+>
+> _**Player 2:** I try to `move` out of the way. [Rolling dice] my highest is a 2 so I guess not! And I'm out of armor from the earlier attack._
+>
+> _**GM:** Ouch, as you try to move out of the way you feel the burning sensation of the blade gliding in between your ribs on the right side and the speed of the Slice causes both of you to go over the railing. You're at `4 stress` now right?_
+>
+> _**Player 2:** Sure am, I guess the hit knocks the wind out of me and I barely notice as we fall towards the river, at least until the cold water hits me._
+>
+> _**GM:** You come to as you feel the vest inflate around you but you have distinct trouble breathing and your right side hurts like nothing before. You don't see a trace of the Slice after that and manage to crawl to shore a bit further downstream where you fall into unconsiousness until <Player 1> finds you barely patched up by the auto-doctor in the vest. You can clear half of your `stress clock` and write down a new `scar` that's called "badly healed scar tissue, right lung". What do you do now?_
+
+## Credits
+
+- #charge-rpg-talk at the Fari Discord
+- Blades in the dark by John Harper – This is heavily inspired by the **trauma** mechanics.
+
+> ## Recap
+>
+> - **Scar:** When you **fill-up your stress clock**, clear **half of it** and turn your condition into a `scar`.
+> - **Hardened:** If the scar causes you problems, `consume 1 momentum` to `clear one tick` of the stress clock.
+> - **Optional – Bow Out:** Announce **before your final action** that you wish to leave the scene. If your friends end up in a **worse situation** from it you get to `clear 2 ticks` of stress.
+
 # Making a Compelling Campaign | Preparing the Game
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/7b529142ada0e29c88323c82eec6c3ab.png)](https://pixabay.com/photos/fantasy-landscape-mountains-rock-6328992/)
