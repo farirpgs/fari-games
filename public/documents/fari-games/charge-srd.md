@@ -42,7 +42,6 @@ Here’s what you’ll need to play:
 - Character sheets, one for each player.
 - A set of six-sided dice. At least 6 would be ideal.
 - Index cards, sticky notes or similar slips of paper.
-- A standard deck of playing cards.
 
 ### Game Master & Players
 
