@@ -2223,6 +2223,117 @@ But naturally, not all scars need to be `scars` in the mechanical sense, a purel
 > - **Hardened:** If the scar causes you problems, `consume 1 momentum` to `clear one tick` of the stress clock.
 > - **Optional – Bow Out:** Announce **before your final action** that you wish to leave the scene. If your friends end up in a **worse situation** from it you get to `clear 2 ticks` of stress.
 
+# Goals Extra | Extras
+
+**An alternate way to think about progression in Charge**
+
+\- By othelarian
+
+---
+
+It's sometimes easier to grasp how a character progresses by declaring goals and see if they manage to reach them. Here you, dear reader, will find a way to simulate this.
+
+## My Words, My Goals
+
+### What is a Goal?
+
+A `goal` is something a character wants to accomplish, like a mission or a quest. It's also a way to define what the character has to do, what they up for.
+
+A character can have a single important `goal`, or multiple small ones. These can be set at creation or emerge during play.
+
+When defining a `goal` for their character, a player has to think about two things:
+
+- The `goal`'s name
+- The `goal`'s difficulty
+
+The name must be detailed enough for everyone, leaving little room about if the `goal` is progressing or not.
+
+The difficulty can be **easy**, **medium** or **hard**.
+
+### Advancing a Goal
+
+A `goal` has an associated clock with 8 segments (see options later for more ideas on this point).  When a character makes progress towards one of their `goals` it's time to tick segments, depending on the `goal`'s difficulty:
+
+| Difficulty | Number of segments ticked |
+| ---------- | ------------------------- |
+| Easy       | 3                         |
+| Medium     | 2                         |
+| Hard       | 1                         |
+
+Note: to follow the chassic Charge progression, a good guideline is to ask for the progression at the end of a session.
+
+### Finishing a Goal
+
+When a `goal`'s clock is full, the `goal` is complete, and the character receives a number of `talent dots` based on the difficulty.
+
+| Difficulty | Number of talent dots gained |
+| ---------- | ---------------------------- |
+| Easy       | 1                            |
+| Medium     | 2                            |
+| Hard       | 3                            |
+
+The character can apply their freshly acquired `talent dots` immediately, but must keep it thematic to the `goal`. For example, it may not be a good choice to put a dot into Muscle if the `goal` is "writing a delicate recipe with flowers as main ingredient".
+
+## Dial: Rolling to Advance
+
+Instead of automatically ticking a number of segments when a `goal` progresses, it's possible to roll to see if it advances even partially, or not.
+
+As Charge is a narrative game at its heart, to determine the dice pool follow this guideline:
+
+* Did the character take a risk just to advance their `goal`?
+* Did working on the `goal` impact the character (condition related, etc)?
+
+If it's complicated, here a fast and simple rule: *use 2 dice*.
+
+The number of segments ticked depends on the result and the difficulty.
+
+| Result | Name             | What it means                                      |
+| ------ | ---------------- | -------------------------------------------------- |
+| 1-3    | Bad Outcome      | No segments ticked                                 |
+| 4-5    | Partial Success  | -1 segment ticked (so no tick at all for **easy**) |
+| 6      | Full Success     | Tick segments normally                             |
+| 66     | Critical Success | +1 segment ticked (so 4 segments for **easy**)     |
+
+## Dial: Rolling to Resolve
+
+Another option is to roll to resolve the `goal`. The 2 ideas behind rolling to resolve are:
+
+* Add a way to create more narrative around the `goal`'s resolution
+* Authorize a player to test their luck and try to finish a `goal` earlier
+
+The roll is similar to an Action Roll, with the number of dice rolled related to the `goal` clock's status:
+
+| Clock's status             | Number of segments ticked | equivalent in action dot |
+| -------------------------- | ------------------------- | ------------------------ |
+| Less than 1/4 of the clock | 0-2                       | No roll, it's too soon   |
+| Between 1/4 and 1/2        | 3-4                       | Like having **0** dot    |
+| Between 1/2 and 3/4        | 5-6                       | 1 dot                    |
+| More than 3/4              | 7                         | 2 dot                    |
+| Full clock                 | 8                         | 3 dot                    |
+
+Note: "number of segments ticked" is for a 8 segment clock.
+
+Time to discover how to read the result:
+
+| Result | What happens                                                 |
+| ------ | ------------------------------------------------------------ |
+| 1-3    | The `goal` is lost, it's a failure                           |
+| 4-5    | Partial success, one less talent dot or suffer a consequence |
+| 6      | Success! Get your talent dots!                               |
+| 66     | Critical Success! Get one more talent dots than expected!    |
+
+## Dial: Changing the Clock
+
+It's totally possible to change the default clock, to accelarate how often players obtain milestones. A good idea before doing so is to reread the [clock chapter](https://fari.games/en/srds/fari-games/charge-rpg/clocks).
+
+Also, if you want to character progression harder, try a new clock: **the 12 segment clock**!
+
+## Credits
+
+The original idea comes from [Ironsworn](https://ironswornrpg.com)'s vows. `Goals` are a humble adaptation of them for Charge.
+
+Special thanks to LynnJones who enhance the readibility, RP for the useful feedback to make it more Charge, and therabidbanana for the progression guideline.
+
 # Making a Compelling Campaign | Preparing the Game
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/7b529142ada0e29c88323c82eec6c3ab.png)](https://pixabay.com/photos/fantasy-landscape-mountains-rock-6328992/)
