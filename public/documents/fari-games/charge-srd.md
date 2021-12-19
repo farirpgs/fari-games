@@ -32,7 +32,7 @@ We can't wait to see what you will build with this. Enjoy!
 
 # The Game | Charge SRD
 
-In this game, you and your friends get together to tell an interactive story about a group of fictional characters facing, and trying to overcome obstacles. In this game, you decide how the characters resolve those challenges, and how the world reacts to those actions.
+In this game, you and your friends get together to tell an interactive story about a group of fictional characters facing, and trying to overcome obstacles. You decide how the characters resolve those challenges, and how the world reacts to those actions.
 
 ### What You Need To Play
 
