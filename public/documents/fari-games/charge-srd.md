@@ -40,7 +40,7 @@ Here’s what you’ll need to play:
 
 - Between two and five people. One of them acting as the Game Master.
 - Character sheets, one for each player.
-- A set of six-sided dice. At least 6 would be ideal.
+- A bunch of six-sided dice. At least 6 would be ideal.
 - Index cards, sticky notes or similar slips of paper.
 
 ### Game Master & Players
@@ -55,9 +55,9 @@ Everyone at the table contributes to make the story successful, and captivating.
 
 ### Game Structure
 
-Each session is made of `scenes`, like in a movie. Each scene plays out as a bunch of back-and-forth between the GM and the players. The GM describes what the scene is like, the players tell the GM what their characters do, and the GM makes the world react to those actions depending on the outcomes of dice rolls.
+Each `session` is made of `scenes`, like in a movie. Each scene plays out as a bunch of back-and-forth between the GM and the players. The GM describes what the scene is like, the players tell the GM what their characters do, and the GM makes the world react to those actions depending on the outcomes of dice rolls.
 
-During sessions, tension rises during scenes, and the players encounter narrative unknowns. To decide what happens during those moments, the group rolls dice because we want to be on the edge of our seats. We want to be surprised by where the story takes us next.
+We roll dice because we want to be on the edge of our seats. We want to be surprised by where the story takes us next.
 
 ### Safety Tools
 
