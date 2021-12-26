@@ -7,7 +7,7 @@ import { StyledEngineProvider, ThemeProvider } from "@mui/material/styles";
 import React, { Suspense, useContext } from "react";
 import ReactDom from "react-dom";
 import { HelmetProvider } from "react-helmet-async";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ErrorBoundary } from "./components/ErrorBoundary/ErrorBoundary";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { SettingsContext, useSettings } from "./contexts/SettingsContext";
@@ -70,42 +70,37 @@ function App() {
                     </Fade>
                   }
                 >
-                  <Switch>
-                    <Route exact path="/" component={HomePage} />
-
+                  <Routes>
+                    <Route path="/" element={HomePage} />
                     <Route
-                      exact
                       path="/:language/srds/:author/:game/:chapter?"
-                      component={GamePage}
+                      element={GamePage}
                     />
                     <Route
-                      exact
                       path="/:language/srds/:author/:game/:chapter?"
-                      component={GamePage}
+                      element={GamePage}
                     />
-                    <Route exact path="/search" component={SearchPage} />
+                    <Route path="/search" element={SearchPage} />
 
                     <Route
-                      exact
                       path={"/browse/:authorSlug/"}
-                      render={() => {
+                      children={() => {
                         return <ShopAuthorPage />;
                       }}
                     />
                     <Route
-                      exact
                       path={"/browse/:authorSlug/:productSlug"}
-                      render={() => {
+                      children={() => {
                         return <ShopAuthorProductPage />;
                       }}
                     />
                     <Route
                       path="*"
-                      render={() => {
+                      children={() => {
                         return <NotFoundPage />;
                       }}
                     />
-                  </Switch>
+                  </Routes>
                 </Suspense>
 
                 <Box mb="50vh" />
