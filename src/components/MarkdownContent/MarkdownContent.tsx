@@ -77,7 +77,7 @@ export function MarkdownContent(props: {
             // borderRight: `1px solid ${theme.palette.divider}`,
             display: "block",
             overflowX: "auto",
-            whiteSpace: "nowrap",
+            // whiteSpace: "nowrap",
             "& thead": {
               "& th": {
                 background: theme.palette.primary.main,
@@ -91,9 +91,7 @@ export function MarkdownContent(props: {
                 "&:empty": {
                   display: "none",
                 },
-                "&:not(:last-child)": {
-                  borderLeft: `1px solid ${theme.palette.divider}`,
-                },
+                borderLeft: `1px solid ${theme.palette.divider}`,
                 "&:last-child": {
                   borderRight: `1px solid ${theme.palette.divider}`,
                 },
@@ -113,9 +111,7 @@ export function MarkdownContent(props: {
                 "& td": {
                   borderBottom: `1px solid ${theme.palette.divider}`,
                   padding: ".5rem",
-                  "&:not(:last-child)": {
-                    borderLeft: `1px solid ${theme.palette.divider}`,
-                  },
+                  borderLeft: `1px solid ${theme.palette.divider}`,
                   "&:last-child": {
                     borderRight: `1px solid ${theme.palette.divider}`,
                   },
