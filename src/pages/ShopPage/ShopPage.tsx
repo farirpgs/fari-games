@@ -9,7 +9,7 @@ import { useTheme } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { default as React, useState } from "react";
-import { useHistory } from "react-router";
+import { useNavigate } from "react-router";
 import { Settings } from "react-slick";
 import { shopCategories } from "../../../data/shop/shopCategories";
 import { IShopProductWithAuthor } from "../../../data/shop/types/IShopProduct";
@@ -109,12 +109,12 @@ export function ShopPage() {
 function ShopPageSearch() {
   const [search, setSearch] = useState("");
 
-  const history = useHistory();
+  const navigate = useNavigate();
   return (
     <form
       onSubmit={(e) => {
         e.preventDefault();
-        history.push(AppLinksFactory.makeSearchPage(search));
+        navigate(AppLinksFactory.makeSearchPage(search));
       }}
     >
       <TextField

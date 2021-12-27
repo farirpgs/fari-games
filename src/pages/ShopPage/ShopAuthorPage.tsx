@@ -5,7 +5,7 @@ import Fade from "@mui/material/Fade";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import React from "react";
-import { useRouteMatch } from "react-router";
+import { useParams } from "react-router";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { shopProducts } from "../../../data/shop/shopProducts";
 import { Page } from "../../components/Page/Page";
@@ -14,12 +14,12 @@ import { MoreByAuthor } from "./components/MoreByAuthor";
 import { ShopCategory } from "./components/ShopCategory";
 
 export function ShopAuthorPage() {
-  const match = useRouteMatch<{ authorSlug: string }>();
+  const params = useParams<{ authorSlug: string }>();
 
   const creatorsGames = shopProducts.filter((g) => {
     const authorSlug = g.author.slug;
 
-    return match.params.authorSlug === authorSlug;
+    return params.authorSlug === authorSlug;
   });
   const gamesAsString = creatorsGames.map((g) => g.name).join(", ");
   const [firstGame] = creatorsGames;

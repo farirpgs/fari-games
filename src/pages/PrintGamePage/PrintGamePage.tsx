@@ -1,7 +1,7 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import React, { useEffect, useState } from "react";
-import { useRouteMatch } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { MarkdownContent } from "../../components/MarkdownContent/MarkdownContent";
 import {
   DocumentParser,
@@ -9,14 +9,14 @@ import {
 } from "../../domains/documents/DocumentParser";
 
 export function PrintGamePage() {
-  const match = useRouteMatch<{
+  const params = useParams<{
     author: string;
     game: string;
     language: string | undefined;
   }>();
-  const gameSlug = match.params.game;
-  const author = match.params.author;
-  const language = match.params.language;
+  const gameSlug = params.game as string;
+  const author = params.author as string;
+  const language = params.language as string;
   const [game, setGame] = useState<IDocument>();
 
   useEffect(() => {

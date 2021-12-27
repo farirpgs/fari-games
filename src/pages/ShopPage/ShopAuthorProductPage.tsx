@@ -6,7 +6,7 @@ import Link from "@mui/material/Link";
 import { useTheme } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import React from "react";
-import { useRouteMatch } from "react-router";
+import { useParams } from "react-router";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { shopProducts } from "../../../data/shop/shopProducts";
 import { Page } from "../../components/Page/Page";
@@ -16,13 +16,10 @@ import { ProductDetails } from "./components/ProductDetails";
 import { ShopCategory } from "./components/ShopCategory";
 
 export function ShopAuthorProductPage() {
-  const match = useRouteMatch<{ authorSlug: string; productSlug: string }>();
+  const params = useParams<{ authorSlug: string; productSlug: string }>();
 
   const selectedGame = shopProducts.find((g) => {
-    return (
-      match.params.authorSlug === g.author.slug &&
-      match.params.productSlug === g.slug
-    );
+    return params.authorSlug === g.author.slug && params.productSlug === g.slug;
   });
 
   const selectedGameTags = selectedGame?.tags ?? [];
