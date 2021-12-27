@@ -17,7 +17,7 @@ We can't wait to see what you will build with this. Enjoy!
 
 > #### Designer Note
 >
-> Text inside blockquotes is for your, the game designer.
+> Text inside blockquotes is for you, the game designer.
 >
 > It either contains relevant design information, or it offers different dials or options you could use for your game.
 >
