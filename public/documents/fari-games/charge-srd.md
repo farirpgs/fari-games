@@ -408,7 +408,7 @@ So at the end of every session, you can update a character's `details` to repres
 
 When a big event is concluded in the story, the GM can decide to award the group a new `talent dot`. This is called reaching a `milestone`.
 
-Players invest those talent dots to make their characters stronger and more versatile.
+Players invest those talent dots in their respective `talent tree` to make their characters stronger and more versatile.
 
 A talent either gives the PC a new `action dot`, or a `situational talent`.
 
