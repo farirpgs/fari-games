@@ -59,7 +59,7 @@ If you contribute to this project in any way, your name will be added in the [cr
 
 While Charge accepts donations, those donations will be re-invested in the game directly by commissioning the creation of official art, paying for the editing, etc.
 
-If you want to contribute to Charge, join [Fari's Discord server](https://fari.app/discord) or check-out the [Charge Community Forums](https://farigames.itch.io/charge-rpg/community) on Itch.
+If you want to contribute to Charge, join [Fari's Discord server](https://fari.app/discord) or check-out the [Charge Community Forums](https://fari-rpgs.itch.io/charge-rpg/community) on Itch.
 
 Now, let's build something incredible, together.
 
@@ -68,7 +68,7 @@ Now, let's build something incredible, together.
 - [Licencing Information](/en/srds/fari-games/charge-rpg/licencing)
 - [Charge SRD](/en/srds/fari-games/charge-srd)
 - [Fari's Discord server](https://fari.app/discord)
-- [Charge Community Forums](https://farigames.itch.io/charge-rpg/community)
+- [Charge Community Forums](https://fari-rpgs.itch.io/charge-rpg/community)
 - [Charge Cheatsheet](/en/srds/fari-games/charge-rpg/in-a-nutshell)
 
 ## Thanks
@@ -2682,19 +2682,19 @@ If what you've read has inspired you to make your own **Powered by Charge** game
 
 To talk with people who have played or hacked the game before, join [Fari's Discord Server](https://fari.app/discord) for great discussions about anything Charge related!
 
-Lastly, if you liked what you read, consider [donating](https://farigames.itch.io/charge-rpg) some money on itch.io.
+Lastly, if you liked what you read, consider [donating](https://fari-rpgs.itch.io/charge-rpg) some money on itch.io.
 
 All the funds are re-invested in the game to buy original art, paying editors or translators.
 
 Thank you, and go power your storytelling!
 
-<iframe frameborder="0" src="https://itch.io/embed/1196268?bg_color=ffffff&amp;fg_color=324149&amp;link_color=2d436e&amp;border_color=58676f" width="100%" height="167"><a href="https://farigames.itch.io/charge-rpg">Charge RPG | Free, Open and Generic by Fari RPGs</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/1196268?bg_color=ffffff&amp;fg_color=324149&amp;link_color=2d436e&amp;border_color=58676f" width="100%" height="167"><a href="https://fari-rpgs.itch.io/charge-rpg">Charge RPG | Free, Open and Generic by Fari RPGs</a></iframe>
 
 # Credits
 
 | Name                         | Role                             | Discord                    | Twitter                                   | Itch                                  |
 | ---------------------------- | -------------------------------- | -------------------------- | ----------------------------------------- | ------------------------------------- |
-| `René-Pier Deshaies-Gélinas` | original author, core maintainer | RPDeshaies#4116            | [Link](https://twitter.com/RPDeshaies)    | [Link](https://farigames.itch.io/)    |
+| `René-Pier Deshaies-Gélinas` | original author, core maintainer | RPDeshaies#4116            | [Link](https://twitter.com/RPDeshaies)    | [Link](https://fari-rpgs.itch.io/)    |
 | `Alexandre L. Lescarbeau`    | sounding board                   |                            |                                           |                                       |
 | `Valdy`                      | extra contributor                | 5-142857#7577              |                                           |                                       |
 | `Nugat`                      | extra contributor                |                            |                                           |                                       |

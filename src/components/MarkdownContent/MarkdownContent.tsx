@@ -36,6 +36,7 @@ export function MarkdownContent(props: {
           },
           "&  code": {
             fontFamily: props.highlightFont,
+            lineHeight: "1em",
             fontWeight: theme.typography.fontWeightBold,
           },
           "& pre": {

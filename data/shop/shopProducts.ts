@@ -19,7 +19,7 @@ export const shop: IShop = {
           tags: ["charge-rpg", "game"],
           image: "https://gyazo.com/db461bac8eda79fa13f2b81dc03272e3.png",
           links: {
-            itchIo: "https://farigames.itch.io/charge-rpg",
+            itchIo: "https://fari-rpgs.itch.io/charge-rpg",
           },
         },
         {
@@ -33,7 +33,7 @@ export const shop: IShop = {
           tags: ["charge-rpg", "srd", "new"],
           image: "https://gyazo.com/a6eabc2383f01fa9e30be8c1d64596f2.png",
           links: {
-            itchIo: "https://farigames.itch.io/charge-srd",
+            itchIo: "https://fari-rpgs.itch.io/charge-srd",
           },
         },
       ],
