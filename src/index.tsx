@@ -7,7 +7,7 @@ import { StyledEngineProvider, ThemeProvider } from "@mui/material/styles";
 import React, { Suspense, useContext } from "react";
 import ReactDom from "react-dom";
 import { HelmetProvider } from "react-helmet-async";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ErrorBoundary } from "./components/ErrorBoundary/ErrorBoundary";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { SettingsContext, useSettings } from "./contexts/SettingsContext";
@@ -37,8 +37,27 @@ function AppProviders(props: { children: any }) {
   );
 }
 
+function LazyPage(props: { children: React.ReactNode }) {
+  return (
+    <Suspense
+      fallback={
+        <Fade in>
+          <Container maxWidth="md">
+            <Box display="flex" justifyContent="center" margin="3rem 0">
+              <CircularProgress />
+            </Box>
+          </Container>
+        </Fade>
+      }
+    >
+      {props.children}
+    </Suspense>
+  );
+}
+
 function App() {
   const settingsManager = useContext(SettingsContext);
+
   return (
     <>
       <HelmetProvider>
@@ -55,58 +74,70 @@ function App() {
               <ScrollToTop />
               <Navbar />
               <ErrorBoundary>
-                <Suspense
-                  fallback={
-                    <Fade in>
-                      <Container maxWidth="md">
-                        <Box
-                          display="flex"
-                          justifyContent="center"
-                          margin="3rem 0"
-                        >
-                          <CircularProgress />
-                        </Box>
-                      </Container>
-                    </Fade>
-                  }
-                >
-                  <Switch>
-                    <Route exact path="/" component={HomePage} />
+                <Routes>
+                  <Route
+                    path="/"
+                    element={
+                      <LazyPage>
+                        <HomePage></HomePage>
+                      </LazyPage>
+                    }
+                  ></Route>
 
-                    <Route
-                      exact
-                      path="/:language/srds/:author/:game/:chapter?"
-                      component={GamePage}
-                    />
-                    <Route
-                      exact
-                      path="/:language/srds/:author/:game/:chapter?"
-                      component={GamePage}
-                    />
-                    <Route exact path="/search" component={SearchPage} />
+                  <Route
+                    path="/:language/srds/:author/:game/"
+                    element={
+                      <LazyPage>
+                        <GamePage></GamePage>
+                      </LazyPage>
+                    }
+                  />
+                  <Route
+                    path="/:language/srds/:author/:game/:chapter?"
+                    element={
+                      <LazyPage>
+                        <GamePage></GamePage>
+                      </LazyPage>
+                    }
+                  />
 
-                    <Route
-                      exact
-                      path={"/browse/:authorSlug/"}
-                      render={() => {
-                        return <ShopAuthorPage />;
-                      }}
-                    />
-                    <Route
-                      exact
-                      path={"/browse/:authorSlug/:productSlug"}
-                      render={() => {
-                        return <ShopAuthorProductPage />;
-                      }}
-                    />
-                    <Route
-                      path="*"
-                      render={() => {
-                        return <NotFoundPage />;
-                      }}
-                    />
-                  </Switch>
-                </Suspense>
+                  <Route
+                    path="/search"
+                    element={
+                      <LazyPage>
+                        <SearchPage></SearchPage>
+                      </LazyPage>
+                    }
+                  />
+
+                  <Route
+                    path={"/browse/:authorSlug/"}
+                    element={
+                      <LazyPage>
+                        <ShopAuthorPage></ShopAuthorPage>
+                      </LazyPage>
+                    }
+                  />
+                  <Route
+                    path={"/browse/:authorSlug/:productSlug"}
+                    children={() => {
+                      return <ShopAuthorProductPage />;
+                    }}
+                    element={
+                      <LazyPage>
+                        <ShopAuthorProductPage></ShopAuthorProductPage>
+                      </LazyPage>
+                    }
+                  />
+                  <Route
+                    path="*"
+                    element={
+                      <LazyPage>
+                        <NotFoundPage></NotFoundPage>
+                      </LazyPage>
+                    }
+                  />
+                </Routes>
 
                 <Box mb="50vh" />
               </ErrorBoundary>

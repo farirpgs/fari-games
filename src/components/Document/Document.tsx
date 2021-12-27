@@ -22,13 +22,13 @@ import Typography from "@mui/material/Typography";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useHistory, useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { Delays } from "../../constants/delays";
 import { track } from "../../domains/analytics/track";
 import {
   IChapter,
   ISearchIndex,
-  ISidebarItem,
+  ISidebarItem
 } from "../../domains/documents/DocumentParser";
 import { MarkdownContent } from "../MarkdownContent/MarkdownContent";
 import { ReactRouterLink } from "../ReactRouterLink/ReactRouterLink";
@@ -44,7 +44,7 @@ export function Document(props: {
   renderFooter?(): React.ReactNode;
 }) {
   const theme = useTheme();
-  const history = useHistory();
+  const navigate = useNavigate();
   const location = useLocation();
 
   const [autocompleteOpen, setAutocompleteOpen] = useState(false);
@@ -401,7 +401,7 @@ export function Document(props: {
             const path = (newValue as ISearchIndex).path;
             if (path) {
               setAutocompleteOpen(false);
-              history.push(props.makeChapterLink(path));
+              navigate(props.makeChapterLink(path));
               setMobileTocMenuOpen(false);
               track("search", {
                 search_term: search,
@@ -423,7 +423,7 @@ export function Document(props: {
                 {...renderProps}
                 onClick={() => {
                   setAutocompleteOpen(false);
-                  history.push(props.makeChapterLink(index.path));
+                  navigate(props.makeChapterLink(index.path));
                   setMobileTocMenuOpen(false);
                   track("search", {
                     search_term: search,

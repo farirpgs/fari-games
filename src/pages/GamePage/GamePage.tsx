@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import { useTheme } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import React, { useEffect, useState } from "react";
-import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { shopProducts } from "../../../data/shop/shopProducts";
 import { Document } from "../../components/Document/Document";
 import { Page } from "../../components/Page/Page";
@@ -19,17 +19,17 @@ import { ProductLicense } from "../ShopPage/components/ProductLicense";
 import { ProductLinks } from "../ShopPage/components/ProductLinks";
 
 export function GamePage() {
-  const match = useRouteMatch<{
+  const params = useParams<{
     author: string;
     game: string;
     chapter: string;
     language: string | undefined;
   }>();
 
-  const authorSlug = match.params.author;
-  const gameSlug = match.params.game;
-  const chapterSlug = match.params.chapter;
-  const language = match.params.language;
+  const authorSlug = params.author as string;
+  const gameSlug = params.game as string;
+  const chapterSlug = params.chapter as string;
+  const language = params.language as string;
   const product = shopProducts.find(
     (p) => p.slug === gameSlug && p.author.slug === authorSlug
   );
@@ -37,7 +37,7 @@ export function GamePage() {
   const [chapter, setChapter] = useState<IChapter>();
 
   const theme = useTheme();
-  const history = useHistory();
+  const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export function GamePage() {
         setChapter(result);
       } catch (error) {
         console.error(error);
-        history.replace(`/not-found?path=${location.pathname}`);
+        navigate(`/not-found?path=${location.pathname}`, { replace: true });
       }
     }
   }, [authorSlug, gameSlug, chapterSlug, language]);
@@ -149,7 +149,7 @@ export function GamePage() {
           chapter={chapter}
           language={language}
           onLanguageChange={(newLanguage) => {
-            history.push(
+            navigate(
               AppLinksFactory.makeGameLink({
                 author: authorSlug,
                 game: gameSlug,
