@@ -9,7 +9,7 @@ highlightFont: Oswald
 
 The Charge SRD is a condensed version of the rules of Charge RPG that you can use to make your own **Powered by Charge** games.
 
-It follows a certain format that you can use as a base framework for your game, but also offers design advice so that you can hack it while still keeping the "Charge feeling"
+This document follows a certain format that you can use as a base framework for your game, but also offers design advice so that you can hack it while still keeping the "Charge feeling".
 
 You can fill-in the gaps, or tear-it down to make something completely different.
 
@@ -88,7 +88,7 @@ When creating a new character, write down their:
 > An easy way to customize Charge is by changing the default `details` of the characters.
 > They are a simple yet effective way to reinforce what is narratively important in your setting.
 >
-> Are the PCs parts of noble houses ? Or are they magically imbued with certain types of powers ?
+> Are the PCs parts of noble houses? Or are they magically imbued with certain types of powers?
 > Define `details` around those concepts to support important aspects of the game.
 >
 > You can aim to have around `2-5 details`.
@@ -118,7 +118,7 @@ At the start of the game, a single action cannot have more than `2 action dots`.
 >
 > Words are important so you should look at changing the default action list to better fits your game's aesthetic.
 >
-> First, look at what you think characters will do the most in your game. Are they going to fight a lot or are they going to play a political game ? Depending on what you are aiming for, adapt the action list to reflect your intentions.
+> First, look at what you think characters will do the most in your game. Are they going to fight a lot or are they going to play a political game? Depending on what you are aiming for, adapt the action list to reflect your intentions.
 >
 > If you use less than 12 actions, you might want to look at reducing the initial action dots PCs get at the start of a the game. A good ratio is something like `{number of actions} / 2 + 1`.
 >
