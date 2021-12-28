@@ -613,7 +613,7 @@ To re-require or repair a MOD, the PC needs to start a `project progress clock` 
 
 To make progress on the project, a character may only roll to repair a "broken" `attachment` when they have the appropriate amount of downtime.
 
-Once the project is completed, the character is permitted to use the attachment in the fiction, and is allowed to block a new consequence by breaking it once again.
+Once the project is completed, the character is permitted to use the `attachment` in the fiction, and is allowed to block a new `consequence` by breaking it once again.
 
 # Licencing
 
