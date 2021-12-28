@@ -473,7 +473,7 @@ When a player calls for a flashback scene:
 
 World `forces` are independent organizations with their own unique agendas that the GM might use during the game to make it feel more vibrant. Each `force` has a specific `goal` that it will try to achieve by using `certain` methods.
 
-If the GM feels it makes sense, they can create a `progress clock` to represents the `force` them getting closer to their `goals`. They then mark progress on the clock when it fits the narrative - either as a `consequence` or as a result of player actions helping the `force`.
+If the GM feels it makes sense, they can create a `progress clock` to represent the `force` getting closer to their `goals`. They then mark progress on the clock when it fits the narrative - either as a `consequence` or as a result of player actions helping the `force`.
 
 > #### Designer Note: Making World Forces
 >
