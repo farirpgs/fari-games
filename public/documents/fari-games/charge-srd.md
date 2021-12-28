@@ -605,7 +605,7 @@ Once the mission is over, the PCs go back to their H.Q., and the loop starts ane
 
 If you want to resist a `consequence`, but don’t want to make a `determination roll`, you can decide to break one of your `attachment`. Doing so cancels the consequence outright.
 
-However, this can only be done when it makes sense narratively, and that particular mod cannot be used until time is taken to repair or reacquire it.
+However, this can only be done when it makes sense narratively, and that particular `attachment` cannot be used until time is taken to repair or reacquire it.
 
 To re-require or repair a MOD, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the mod is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
 
