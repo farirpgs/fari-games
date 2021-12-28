@@ -599,7 +599,11 @@ Once the mission is over, the PCs go back to their H.Q., and the loop starts ane
 > - _Convincing the real king to take back what is theirs._
 > - _Finding money to hire mercenaries to fight an eventual war._
 >
-> Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with.
+> Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with. 
+
+World `forces` are independent organizations with their own agendas that the GM might use during gameplay. Different `forces` with competing goals can be used to make the world feel more vibrant as they use their own `methods` to advance their own ends. 
+
+If the GM feels it makes sense, they can create a clock for the `force` that represents them advancing their goals, and mark progress on the clock when it suits the narrative - either as a `consequence` or as a result of player actions helping the `force`.
 
 # Attachment Extra | Extras
 
