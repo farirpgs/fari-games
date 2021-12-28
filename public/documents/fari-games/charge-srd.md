@@ -611,7 +611,7 @@ However, this can only be done when it makes sense narratively, and that particu
 
 To re-require or repair a MOD, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the mod is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
 
-To make progress on the project, a character may only roll to repair a "broken" attachment when they have the appropriate amount of downtime.
+To make progress on the project, a character may only roll to repair a "broken" `attachment` when they have the appropriate amount of downtime.
 
 Once the project is completed, the character is permitted to use the attachment in the fiction, and is allowed to block a new consequence by breaking it once again.
 
