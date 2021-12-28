@@ -171,7 +171,7 @@ At the start of the game, characters begin with zero talents. They will gain tho
 
 > #### Designer Note: Making Playbooks
 >
-> Playbooks are like character sheets presets that often represent a certain archetype. They are partially filled to make character creation smoother for the players. 
+> Playbooks are character sheet presets that often represent a certain archetype. They are partially filled to make character creation smoother for the players. 
 > 
 > Limiting choices is often a good way to kickstart creativity, and that's exactly what happens with a game that uses playbooks. They are also a great way to introduce the group to the kind of characters the story is going to be focused on.
 >
