@@ -19,7 +19,7 @@ We can't wait to see what you will build with this. Enjoy!
 >
 > Text inside blockquotes (like this) is for you, the game designer.
 >
-> It either contains relevant design information, or it offers different dials or options you could use for your game.
+> Designer notes will contain relevant design information, or offer different dials and options you could use for your game.
 >
 > #### Powered By Charge Logos
 >
