@@ -161,38 +161,35 @@ At the start of the game, characters begin with zero talents. They will gain tho
 
 > #### Designer Note: Hacking Talents
 >
->
 > The default character sheet in Charge has a `talent tree` containing 13 `talents`. That being said, we don't necessarily think you should do the same for you game.
 >
 > Taking into consideration that Charge is generic by default, we wanted to offer more leeway for the group to make their characters progress at their own pace. That's the reason the `talent tree` is that big.
 >
 > Since the average campaign lasts for around 6 sessions, having a `talent tree` with 4 or even 6 `talents` should be more than enough.
 
-
 > #### Designer Note: Making Playbooks
 >
-> Playbooks are character sheet presets that often represent a certain archetype. They are partially filled to make character creation smoother for the players. 
-> 
+> Playbooks are character sheet presets that often represent a certain archetype. They are partially filled to make character creation smoother for the players.
+>
 > Limiting choices is often a good way to kickstart creativity, and that's exactly what happens with a game that uses playbooks. They are also a great way to introduce the group to the kind of characters the story is going to be focused on.
 >
 > To make a playbook in Charge, you first need to find a cool name. Look for something catchy that will be easy to remember, and fits the theme of the game. Once you've found one, write it down as the `concept` of that playbook.
-> 
+>
 > For the other `details` of the character, offer multiple options for the players to choose from. For example, a list of possible `ties` or relations the characters might have.
-> 
+>
 > For the `actions`, assign 3 starting `action dots` in you think this playbook is skilled at. The remaining 4 are left for the player to assign. If you decided to use increase or reduce the default number of actions, you should adjust those numbers accordingly.
 >
-> The last thing you need to make a playbook is to define its `talent tree`. Each playbook can have between 4 or 6 distinct `talents` which makes playing this playbook a fun, and unique experience. 
-> 
-> A good way to get started with this is to think about what makes the playbook you are designing special. Think about its powers, abilities or the cool gear they might be using. 
-> 
+> The last thing you need to make a playbook is to define its `talent tree`. Each playbook can have between 4 or 6 distinct `talents` which makes playing this playbook a fun, and unique experience.
+>
+> A good way to get started with this is to think about what makes the playbook you are designing special. Think about its powers, abilities or the cool gear they might be using.
+>
 > Give each `talent` a name and describe what they do. A talent can do many things including, but not limited to:
-> 
+>
 > - `+1d6 when ______`
 > - `+1 position when ______`
 > - `+1 effect when ______`
 > - `Use [action] instead of [action] when ______`
 > - `[New narrative liberty] when ______`
-
 
 # Mechanics | Charge SRD
 
@@ -397,9 +394,11 @@ When the 4 segments of the `stress clock` are filled, the PC is taken out for th
 
 ## Recovery
 
-As time passes, PCs will get better, and their condition will improve.
+When a PC gets hurt or stressed as a result of one of their actions, they take `stress` and their condition worsen. As time passes, they will get better, and their condition will improve.
 
-If the fiction allows it, once per session clear 1 segment off a PC's `stress clock`. Also update the condition text to represent the character's current `condition`.
+The only way to recover from `stress` is in-fiction. You can either rest, lay low or seek medical attention. When doing so, the GM will look at the fiction and tell you how much `stress` (1-4) you clear on your `stress clock`.
+
+As your character gets better, you also need to update your `condition` to represent your character's current state.
 
 ## Progression
 
@@ -497,10 +496,7 @@ If the GM feels it makes sense, they can create a `progress clock` to represent 
 > - _Convincing the real king to take back what is theirs._
 > - _Finding money to hire mercenaries to fight an eventual war._
 >
-> Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with. 
-
-
-
+> Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with.
 
 # Extras | Extras
 
@@ -607,7 +603,6 @@ The GM introduces the mission to the PCs, and they decide how they will approach
 Once they've decided on a strategy, the GM cuts to the first scene of the mission using the result of the mission roll to describe the PCs current position.
 
 Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
-
 
 # Attachment Extra | Extras
 
