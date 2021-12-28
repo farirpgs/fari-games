@@ -457,6 +457,51 @@ When a player calls for a flashback scene:
   - the GM makes a fortune roll to see what happens.
   - the player makes an action roll to see what happens.
 
+# The Setting | Charge SRD
+
+> #### Designer Note: Your Setting
+>
+> Use this section of the game to explain what is the setting of your game.
+>
+> You can talk about:
+>
+> - The history of the world.
+> - What kind of characters the PCs are going to play.
+> - The different types of problems the PCs might face. etc.
+
+# World Forces | Charge SRD
+
+World `forces` are independent organizations with their own unique agendas that the GM might use during the game to make it feel more vibrant. Each `force` has a specific `goal` that it will try to achieve by using `certain` methods.
+
+If the GM feels it makes sense, they can create a `progress clock` to represents the `force` them getting closer to their `goals`. They then mark progress on the clock when it fits the narrative - either as a `consequence` or as a result of player actions helping the `force`.
+
+> #### Designer Note: Making World Forces
+>
+> Charge games usually have what we call `world forces`.
+>
+> A `force` is something or someone with goals looking to change the status quo in significant and narratively interesting ways.
+>
+> This could be a person, but it could also be an organization, a country, a planet, mother nature, or the space-time continuum!
+>
+> For each force you create, define what their `goal` is. Their goal defines the impact the force will have on the world. A goal isn't necessarily good or bad— it is merely what the force wants to accomplish. It can also be considered to be "good" by the Force itself, but others might have different view on the subject.
+>
+> Lastly, define 2-3 `methods` the force is going to use to interact with the world in the hope of achieving their goal
+>
+> Here's an example of what a world force could look like:
+>
+> #### Force Example
+>
+> **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
+>
+> - _Finding dirt on the government to expose corruption._
+> - _Convincing the real king to take back what is theirs._
+> - _Finding money to hire mercenaries to fight an eventual war._
+>
+> Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with. 
+
+
+
+
 # Extras | Extras
 
 > #### Designer Notes: What are Extras
@@ -563,47 +608,6 @@ Once they've decided on a strategy, the GM cuts to the first scene of the missio
 
 Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
 
-# The Setting | Charge SRD
-
-> #### Designer Note: Your Setting
->
-> Use this section of the game to explain what is the setting of your game.
->
-> You can talk about:
->
-> - The history of the world.
-> - What kind of characters the PCs are going to play.
-> - The different types of problems the PCs might face. etc.
-
-# World Forces | Charge SRD
-
-> #### Designer Note: Making World Forces
->
-> Charge games usually have what we call `world forces`.
->
-> A `force` is something or someone with goals looking to change the status quo in significant and narratively interesting ways.
->
-> This could be a person, but it could also be an organization, a country, a planet, mother nature, or the space-time continuum!
->
-> For each force you create, define what their `goal` is. Their goal defines the impact the force will have on the world. A goal isn't necessarily good or bad— it is merely what the force wants to accomplish. It can also be considered to be "good" by the Force itself, but others might have different view on the subject.
->
-> Lastly, define 2-3 `methods` the force is going to use to interact with the world in the hope of achieving their goal
->
-> Here's an example of what a world force could look like:
->
-> #### Force Example
->
-> **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
->
-> - _Finding dirt on the government to expose corruption._
-> - _Convincing the real king to take back what is theirs._
-> - _Finding money to hire mercenaries to fight an eventual war._
->
-> Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with. 
-
-World `forces` are independent organizations with their own agendas that the GM might use during gameplay. Different `forces` with competing goals can be used to make the world feel more vibrant as they use their own `methods` to advance their own ends. 
-
-If the GM feels it makes sense, they can create a clock for the `force` that represents them advancing their goals, and mark progress on the clock when it suits the narrative - either as a `consequence` or as a result of player actions helping the `force`.
 
 # Attachment Extra | Extras
 
