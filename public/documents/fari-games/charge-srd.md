@@ -463,7 +463,7 @@ When a player calls for a flashback scene:
 >
 > Extras are additional mechanics that you hack into your games to tailor it to a specific genre or style.
 >
-> You can see the full list of extras [here](http://localhost:1235/en/srds/fari-games/charge-rpg/what-are-extras) but this SRD contains a couple of pre-condensed extras that you can use as is.
+> You can see the full list of extras [here](/en/srds/fari-games/charge-rpg/what-are-extras) but this SRD contains a couple of pre-condensed extras that you can use as is.
 
 # World Extra | Extras
 
