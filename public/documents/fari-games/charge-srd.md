@@ -7,9 +7,9 @@ highlightFont: Oswald
 
 # Introductions | Charge SRD
 
-This is a condensed version of the rules of Charge RPG that you can use to make your own **Powered by Charge** games.
+The Charge SRD is a condensed version of the rules of Charge RPG that you can use to make your own **Powered by Charge** games.
 
-This document follows a certain format that you can use as a base framework for your game.
+This document follows a certain format that you can use as a base framework for your game, but also offers design advice so that you can hack it while still keeping the "Charge feeling".
 
 You can fill-in the gaps, or tear-it down to make something completely different.
 
@@ -17,9 +17,9 @@ We can't wait to see what you will build with this. Enjoy!
 
 > #### Designer Note
 >
-> Text inside blockquotes is for the game designer.
+> Text inside blockquotes (like this) is for you, the game designer.
 >
-> Either it contains relevant design information, or it offers different dials or options you could use for your game.
+> Designer notes will contain relevant design information, or offer different dials and options you could use for your game.
 >
 > #### Powered By Charge Logos
 >
@@ -34,7 +34,7 @@ We can't wait to see what you will build with this. Enjoy!
 
 In this game, you and your friends get together to tell an interactive story about a group of fictional characters facing, and trying to overcome obstacles. You decide how the characters resolve those challenges, and how the world reacts to those actions.
 
-### What You Need To Play
+## What You Need To Play
 
 Here’s what you’ll need to play:
 
@@ -43,7 +43,7 @@ Here’s what you’ll need to play:
 - A bunch of six-sided dice. At least 6 would be ideal.
 - Index cards, sticky notes or similar slips of paper.
 
-### Game Master & Players
+## Game Master & Players
 
 One person in the group needs to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that live in it (those that aren't directly played by the rest of the table). We call those characters "non-player characters", or `NPCs`.
 
@@ -53,13 +53,15 @@ While the GM is usually the main person in charge of the way the world changes o
 
 Everyone at the table contributes to make the story successful, and captivating.
 
-### Game Structure
+## Game Structure
 
-Each `session` is made of `scenes`, like in a movie. Each scene plays out as a bunch of back-and-forth between the GM and the players. The GM describes what the scene is like, the players tell the GM what their characters do, and the GM makes the world react to those actions depending on the outcomes of dice rolls.
+To play this game, you meet-up with other people either in real life or online to collaborate on creating an interesting story together.
+
+Each `session` is its own unique experience and is made of multiple `scenes` stitched together, like in a movie. Each scene plays out as a bunch of back-and-forth between the GM and the players. The GM describes what the scene is like, the players tell the GM what their characters do, and the GM makes the world react to those actions depending on the outcomes of dice rolls.
 
 We roll dice because we want to be on the edge of our seats. We want to be surprised by where the story takes us next.
 
-### Safety Tools
+## Safety Tools
 
 If at any point during the game creation process, or when playing a scene, something doesn't click with someone at the table, the game needs to be paused and things need to be aligned and discussed so that **everyone is on the same page**.
 
@@ -68,18 +70,6 @@ One way the GM can help make the table safer for everyone is by using safety too
 This is super important, and should not be taken lightly. Everyone at the table should feel safe and comfortable.
 
 If you don't feel safe at a table, it is totally OK to quit and find another group of people to play with. Don't feel bad, and more importantly, respect yourself.
-
-# The Setting | Charge SRD
-
-> #### Designer Note
->
-> Use this section of the game to explain what is the setting of your game.
->
-> You can talk about:
->
-> - The history of the world.
-> - What kind of characters the PCs are going to play.
-> - The different types of problems the PCs might face. etc.
 
 # Character Creation | Charge SRD
 
@@ -93,17 +83,21 @@ When creating a new character, write down their:
 - `Appearance`: what the character looks like, what they wear, etc.
 - `Ties`: 1-3 relations that the character has with certain people or organizations in the world.
 
-> #### Designer Note
+> #### Designer Note: Hacking the Details
 >
-> An easy way to customize Charge is by changing the default `details` of a character.
+> An easy way to customize Charge is by changing the default `details` of the characters.
+> They are a simple yet effective way to reinforce what is narratively important in your setting.
 >
-> Try to have around 2-5 details. Use them as a way to reinforce what is narratively important in your setting.
+> Are the PCs parts of noble houses? Or are they magically imbued with certain types of powers?
+> Define `details` around those concepts to support important aspects of the game.
+>
+> You can aim to have around `2-5 details`.
 
 ## Actions
 
 When a PC needs to overcome an obstacle and there is a risk, they use one of their `actions`.
 
-At character creation, players assign `7 action dots` among the following action list:
+At character creation, assign `7 action dots` among the following action list:
 
 - `Muscle`: you use your force to move, overcome or wreck the obstacle in front of you.
 - `Move`: you quickly shift to a new position or get out of danger.
@@ -118,13 +112,17 @@ At character creation, players assign `7 action dots` among the following action
 - `Focus`: you concentrate to accomplish a task that requires great strength of mind.
 - `Sway`: you influence with guile, charm, or argument.
 
-At the start of a campaign, a single action cannot have more than 2 action dots.
+At the start of the game, a single action cannot have more than `2 action dots`.
 
-> #### Designer Note
+> #### Designer Note: Hacking the Actions
 >
-> You are encouraged to change the default action list to something that better fits your game's aesthetic.
+> Words are important so you should look at changing the default action list to better fits your game's aesthetic.
 >
-> Here are a couple of examples you could use:
+> First, look at what you think characters will do the most in your game. Are they going to fight a lot or are they going to play a political game? Depending on what you are aiming for, adapt the action list to reflect your intentions.
+>
+> If you use less than 12 actions, you might want to look at reducing the initial action dots PCs get at the start of a the game. A good ratio is something like `{number of actions} / 2 + 1`.
+>
+> Here are a couple of generic examples you can use as is or as an inspiration for your game:
 >
 > ---
 >
@@ -152,6 +150,46 @@ At the start of a campaign, a single action cannot have more than 2 action dots.
 > ---
 >
 > _...etc_
+
+## Talents
+
+Talents are specific abilities your character gains when they reach certain milestones in the story.
+
+A `talent` either gives them new a `action dot` to invest, or a new `situational talent` which give them a temporary boost in specific circumstances.
+
+At the start of the game, characters begin with zero talents. They will gain those special abilities when they achieve certain milestones in the story.
+
+> #### Designer Note: Hacking Talents
+>
+> The default character sheet in Charge has a `talent tree` containing 13 `talents`. That being said, we don't necessarily think you should do the same for you game.
+>
+> Taking into consideration that Charge is generic by default, we wanted to offer more leeway for the group to make their characters progress at their own pace. That's the reason the `talent tree` is that big.
+>
+> Since the average campaign lasts for around 6 sessions, having a `talent tree` with 4 or even 6 `talents` should be more than enough.
+
+> #### Designer Note: Making Playbooks
+>
+> Playbooks are character sheet presets that often represent a certain archetype. They are partially filled to make character creation smoother for the players.
+>
+> Limiting choices is often a good way to kickstart creativity, and that's exactly what happens with a game that uses playbooks. They are also a great way to introduce the group to the kind of characters the story is going to be focused on.
+>
+> To make a playbook in Charge, you first need to find a cool name. Look for something catchy that will be easy to remember, and fits the theme of the game. Once you've found one, write it down as the `concept` of that playbook.
+>
+> For the other `details` of the character, offer multiple options for the players to choose from. For example, a list of possible `ties` or relations the characters might have.
+>
+> For the `actions`, assign 3 starting `action dots` in you think this playbook is skilled at. The remaining 4 are left for the player to assign. If you decided to use increase or reduce the default number of actions, you should adjust those numbers accordingly.
+>
+> The last thing you need to make a playbook is to define its `talent tree`. Each playbook can have between 4 or 6 distinct `talents` which makes playing this playbook a fun, and unique experience.
+>
+> A good way to get started with this is to think about what makes the playbook you are designing special. Think about its powers, abilities or the cool gear they might be using.
+>
+> Give each `talent` a name and describe what they do. A talent can do many things including, but not limited to:
+>
+> - `+1d6 when ______`
+> - `+1 position when ______`
+> - `+1 effect when ______`
+> - `Use [action] instead of [action] when ______`
+> - `[New narrative liberty] when ______`
 
 # Mechanics | Charge SRD
 
@@ -241,11 +279,15 @@ PCs consume their `momentum` to boost their actions, assist an ally or resist a 
 
 **When momentum is spent for a roll, that roll cannot in turn generate momentum.**
 
-> #### Designer Note
+> #### Designer Note: Momentum Dial
 >
-> If you want your game to feel grimmer or bigger than life, change **when momentum is gained** and **how much is gained**
+> If you want your game to feel grimmer or bigger than life, a simple way to do this is by changing **when momentum is gained** and **how much is gained**. This is called changing the `momentum dial`.
 >
-> Changing this dial is an easy way to change the whole vibe of a game since most mechanics rely on `momentum`.
+> Changing this dial is an easy way to change the whole vibe of a game. Since `pushing yourself` and making `determination rolls` to resist consequences rely on `momentum` only, the `momentum dial` has a big impact on the game.
+>
+> If you turn up the `momentum dial`, PCs will be able to boost their rolls more often and will have an easier time resisting consequences. Turn it down, and PCs will instead need to rely more on their initial `action dots` to make their action roll. Consequences on the other end will hit way harder with a dial turned down.
+>
+> Tune it and test this until it feels right for your game. One thing to keep in consideration is that by default `momentum` is gained for participating in the game. We do this to make the players more interested in taking risks. Your game should try to do the same to keep that "Charge" feeling.
 
 ## Boosting Action Rolls
 
@@ -332,7 +374,7 @@ When a PC succeeds an action roll, you can use a `progress clock` and:
 - Tick 2 segments for a `standard effect`.
 - Tick 3 segments for a `great effect`.
 
-When a PC gets a consequence from an action roll, you can use  `danger clock` and:
+When a PC gets a consequence from an action roll, you can use `danger clock` and:
 
 - Tick 3 segments for a `desperate position`.
 - Tick 2 segments for a `risky position`.
@@ -352,18 +394,20 @@ When the 4 segments of the `stress clock` are filled, the PC is taken out for th
 
 ## Recovery
 
-As time passes, PCs will get better, and their condition will improve.
+When a PC gets hurt or stressed as a result of one of their actions, they take `stress` and their condition worsen. As time passes, they will get better, and their condition will improve.
 
-If the fiction allows it, once per session clear 1 segment off a PC's `stress clock`. Also update the condition text to represent the character's current `condition`.
+The only way to recover from `stress` is in-fiction. You can either rest, lay low or seek medical attention. When doing so, the GM will look at the fiction and tell you how much `stress` (1-4) you clear on your `stress clock`.
+
+As your character gets better, you also need to update your `condition` to represent your character's current state.
 
 ## Progression
 
-As a campaign evolves over time, so will the characters.
+As the story progresses over time, so will the characters.
 So at the end of every session, you can update a character's `details` to represent how they've grow over the course of the session.
 
-When a big event is concluded in the story, the GM can decide to award the group a new `talent dot`.
+When a big event is concluded in the story, the GM can decide to award the group a new `talent dot`. This is called reaching a `milestone`.
 
-Players invest those talent dots to make their characters stronger and more versatile.
+Players invest those talent dots in their respective `talent tree` to make their characters stronger and more versatile.
 
 A talent either gives the PC a new `action dot`, or a `situational talent`.
 
@@ -374,6 +418,18 @@ A situational talent gives a bonus or a certain narrative liberty during a certa
 - `+1 effect when ______`
 - `Use [action] instead of [action] when ______`
 - `[New narrative liberty] when ______`
+
+> #### Designer Note: Hacking Progression
+>
+> The longer it takes for a `milestone` to happen, the longer it will take for characters to become stronger.
+>
+> This is important to keep in mind depending on what kind of progression curve you want to have.
+>
+> Do you want to have a short campaign where characters will grow stronger pretty quickly, or are you looking for a year-spanning one where the characters will mostly evolve by changing their character `details` and where milestones will be more scarce?
+>
+> You could go as low as giving the player character only 2-3 Talents during an entire campaign, or reward them more often.
+>
+> There isn't a right or wrong answer here. It depends 100% on what kind of game you want to have.
 
 ## Fortune Rolls
 
@@ -400,11 +456,61 @@ When a player calls for a flashback scene:
   - the GM makes a fortune roll to see what happens.
   - the player makes an action roll to see what happens.
 
-# The World | Extras
+# The Setting | Charge SRD
+
+> #### Designer Note: Your Setting
+>
+> Use this section of the game to explain what is the setting of your game.
+>
+> You can talk about:
+>
+> - The history of the world.
+> - What kind of characters the PCs are going to play.
+> - The different types of problems the PCs might face. etc.
+
+# World Forces | Charge SRD
+
+World `forces` are independent organizations with their own unique agendas that the GM might use during the game to make it feel more vibrant. Each `force` has a specific `goal` that it will try to achieve by using `certain` methods.
+
+If the GM feels it makes sense, they can create a `progress clock` to represent the `force` getting closer to their `goals`. They then mark progress on the clock when it fits the narrative - either as a `consequence` or as a result of player actions helping the `force`.
+
+> #### Designer Note: Making World Forces
+>
+> Charge games usually have what we call `world forces`.
+>
+> A `force` is something or someone with goals looking to change the status quo in significant and narratively interesting ways.
+>
+> This could be a person, but it could also be an organization, a country, a planet, mother nature, or the space-time continuum!
+>
+> For each force you create, define what their `goal` is. Their goal defines the impact the force will have on the world. A goal isn't necessarily good or bad— it is merely what the force wants to accomplish. It can also be considered to be "good" by the Force itself, but others might have different view on the subject.
+>
+> Lastly, define 2-3 `methods` the force is going to use to interact with the world in the hope of achieving their goal
+>
+> Here's an example of what a world force could look like:
+>
+> #### Force Example
+>
+> **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
+>
+> - _Finding dirt on the government to expose corruption._
+> - _Convincing the real king to take back what is theirs._
+> - _Finding money to hire mercenaries to fight an eventual war._
+>
+> Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with.
+
+# Extras | Extras
+
+> #### Designer Notes: What are Extras
+>
+> Extras are additional mechanics that you hack into your games to tailor it to a specific genre or style.
+>
+> You can see the full list of extras [here](/en/srds/fari-games/charge-rpg/what-are-extras) but this SRD contains a couple of pre-condensed extras that you can use as is.
+
+# World Extra | Extras
 
 During sessions, the PCs will go on missions to accomplish objectives. They will then come back to their H.Q. to debrief, rest and recover.
 
-At the start of a campaign, or **every time the PCs come back to their H.Q.**, the GM draws **3 `hook cards`** of a standard deck of playing cards.
+At the start of the game, or **every time the PCs come back to their H.Q.**, the GM draws **3 `hook cards`** of a standard deck of playing cards.
 
 - The first card tells us about something related to [Theme #1].
 - The second card tells us about something related to [Theme #2].
@@ -498,42 +604,19 @@ Once they've decided on a strategy, the GM cuts to the first scene of the missio
 
 Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
 
-# World Forces | Charge SRD
+# Attachment Extra | Extras
 
-> #### Designer Note
->
-> Define a couple of `world forces` for your setting.
->
-> A `force` is something or someone with goals looking to change the status quo in significant and narratively interesting ways.
->
-> This could be a person, but it could also be an organization, a country, a planet, mother nature, or the space-time continuum!
->
-> For each force you create, define what their `goal` is. Their goal defines the impact the force will have on the world. A goal isn't necessarily good or bad— it is merely what the force wants to accomplish. It can also be considered to be "good" by the Force itself, but others might have different view on the subject.
->
-> Lastly, define 2-3 `methods` the force is going to use to interact with the world in the hope of achieving their goal
->
-> Here's an example of what a world force could look like:
->
-> #### Force Example
->
-> **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
->
-> - _Finding dirt on the government to expose corruption._
-> - _Convincing the real king to take back what is theirs._
-> - _Finding money to hire mercenaries to fight an eventual war._
+Characters are defined using `details` to represent who they are, what they are like and who they are linked to. By default, `details` don't have any mechanical uses in the game apart from providing narrative liberties.
 
+An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`. If you want to resist a `consequence`, but don’t want to make a `determination roll`, you can decide to break one of your `attachment`. Doing so cancels the consequence outright.
 
-# Attachment | Extras
+However, this can only be done when it makes sense narratively, and that particular `attachment` cannot be used until time is taken to repair or reacquire it.
 
-If you want to resist a `consequence`, but don’t want to make a `determination roll`, you can decide to break one of your `attachment`. Doing so cancels the consequence outright.
+To reacquire or repair an `attachment`, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the mod is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
 
-However, this can only be done when it makes sense narratively, and that particular mod cannot be used until time is taken to repair or reacquire it.
+To make progress on the project, a character may only roll to repair a "broken" `attachment` when they have the appropriate amount of downtime.
 
-To re-require or repair a MOD, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the mod is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
-
-To make progress on the project, a character may only roll to repair a "broken" attachment when they have the appropriate amount of downtime. 
-
-Once the project is completed, the character is permitted to use the attachment in the fiction, and is allowed to block a new consequence by breaking it once again.
+Once the project is completed, the character is permitted to use the `attachment` in the fiction, and is allowed to block a new `consequence` by breaking it once again.
 
 # Licencing
 

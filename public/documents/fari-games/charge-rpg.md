@@ -886,7 +886,9 @@ That being said, **downtime** doesn't mean that all the PCs have to sit down by 
 
 In Charge, the structure of a session isn't enforced, so the PCs can do what ever they want, whenever they want. This is why there will be moments when it just doesn't make sense for the PC to recover at that time.
 
-So **once** per session, if the fiction allows it, clear 1 segment from your `stress clock` to begin recovery. Also update the `condition` of your character to represent the character's current state after they started getting better.
+So the only way to recover from `stress` is in-fiction. You can either rest, lay low or seek medical attention. When doing so, the GM will look at the fiction and tell you how much `stress` (1-4) you clear on your `stress clock`.
+
+As your character gets better, you also need to update your `condition` to represent your character's current state.
 
 We aren't using dice to support this mechanic because we don't believe luck should _generally_ factor in the healing process. Of course, there are moments where it could. If you want, you can use the [Fortune Roll](fortune-roll) mechanic to resolve this type of situation.
 
