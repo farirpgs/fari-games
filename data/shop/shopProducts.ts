@@ -413,17 +413,17 @@ export const shop: IShop = {
           slug: "save-the-srd",
           description:
             "The SAVE System is a framework for building quick-playing, low-prep, story-focused RPGs.",
-          tags: ["srd"],
+          tags: ["srd", "new"],
           license: License.CC_BY_4,
           image: "https://gyazo.com/f885d1354a3a2950f1ba11ec28ef56a3.png",
           links: {
-            itchIo: "https://dbisdorf.itch.io/the-save-system"
+            itchIo: "https://dbisdorf.itch.io/the-save-system",
           },
           footer:
             "Text by Don Bisdorf under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
         },
       ],
-    }
+    },
   ],
 };
 
