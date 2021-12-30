@@ -1990,15 +1990,15 @@ Add `+1d6` per likeliness level of that thing happening.
 
 ### Flashbacks
 
-Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation before it happened. That being said, a flashback scene isn’t like time travel and can't undo what was already established in the narrative.
+Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation even though it hasn't been discussed at the table yet. That being said, a flashback scene isn’t like time travel and can't undo what was already established in the narrative.
 
-When a player calls for a flashback, the GM looks at the fiction and sets a cost in `momentum`.
+When a player calls for a `flashback`, the GM looks at the fiction and sets a cost in `momentum` (from 0 to 2) that the player needs to pay before moving forward.
 
-Then, one the following thing happens:
+Afterwards, the player narrates a short scene of what their character attempted to accomplish in the flashback. Depending on the narrative and the character's actions, the GM decides between one of the following:
 
-- the player gets what they want.
-- the GM makes a `fortune roll` to see what happens.
-- the player makes an `action roll` to see what happens.
+- The flashback happens and the character's actions have a impact on the narrative.
+- The flashback happens, but a `action roll` is required to determine if the character's actions were successful or not.
+- The result of the character's actions are left to chance and determined by a `fortune roll`.
 
 # Magic Extra | Extras
 
