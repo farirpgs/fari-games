@@ -177,7 +177,7 @@ At the start of the game, characters begin with zero talents. They will gain tho
 >
 > For the other `details` of the character, offer multiple options for the players to choose from. For example, a list of possible `ties` or relations the characters might have.
 >
-> For the `actions`, assign 3 starting `action dots` in you think this playbook is skilled at. The remaining 4 are left for the player to assign. If you decided to use increase or reduce the default number of actions, you should adjust those numbers accordingly.
+> For the `actions`, assign 3 starting `action dots` in what you think this playbook is skilled at. The remaining 4 are left for the player to assign. If you decided to use increase or reduce the default number of actions, you should adjust those numbers accordingly.
 >
 > The last thing you need to make a playbook is to define its `talent tree`. Each playbook can have between 4 or 6 distinct `talents` which makes playing this playbook a fun, and unique experience.
 >
