@@ -15,12 +15,12 @@ export function Page(props: {
   const location = useLocation();
   const title = props.title
     ? `${props.title} - Fari Games`
-    : "Fari Games - Building RPGs Together";
+    : "Fari Games - The Ultimate Collection of Open Content for TTRPGs";
   const description =
     props.description ||
     "All the best TTRPG SRDs available right here on Fari Games.";
   const image =
-    props.image || "https://gyazo.com/a8c7b185f1d5ee45e915830b7c876efc.png";
+    props.image || "https://gyazo.com/f9baeab64ff7d93b32e89ef6f44e2916";
   return (
     <>
       <Helmet
