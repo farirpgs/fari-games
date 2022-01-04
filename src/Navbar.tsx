@@ -200,7 +200,7 @@ export function Navbar() {
               setMenuOpen(false);
             }}
             to={AppLinksFactory.makeGameLink({
-              author: "fari-games",
+              author: "fari-rpgs",
               game: "charge-rpg",
             })}
           >

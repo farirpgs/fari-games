@@ -4,7 +4,7 @@ export const shop: IShop = {
   authors: [
     {
       name: "Fari RPGs",
-      slug: "fari-games",
+      slug: "fari-rpgs",
       links: {
         twitter: "https://twitter.com/RPDeshaies",
       },
