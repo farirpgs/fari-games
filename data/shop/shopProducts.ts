@@ -3,8 +3,8 @@ import { IShop, IShopProductWithAuthor, License } from "./types/IShopProduct";
 export const shop: IShop = {
   authors: [
     {
-      name: "Fari Games",
-      slug: "fari-games",
+      name: "Fari RPGs",
+      slug: "fari-rpgs",
       links: {
         twitter: "https://twitter.com/RPDeshaies",
       },
@@ -15,7 +15,7 @@ export const shop: IShop = {
           description: "Ready to use generic RPG system.",
           license: License.CC_BY_4,
           footer:
-            "Text by Fari Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
           tags: ["charge-rpg", "game"],
           image: "https://gyazo.com/db461bac8eda79fa13f2b81dc03272e3.png",
           links: {
@@ -29,7 +29,7 @@ export const shop: IShop = {
             "Power your next game with this condensed version of Charge RPG",
           license: License.CC_BY_4,
           footer:
-            "Text by Fari Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
           tags: ["charge-rpg", "srd", "new"],
           image: "https://gyazo.com/a6eabc2383f01fa9e30be8c1d64596f2.png",
           links: {

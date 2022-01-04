@@ -25,9 +25,9 @@ It is also open licensed. Which means you can use it for free. You can also make
 
 ## Charge SRD
 
-If you want to make and publish your own game using Charge, checkout the [Charge SRD](/en/srds/fari-games/charge-srd) to get started.
+If you want to make and publish your own game using Charge, checkout the [Charge SRD](/en/srds/fari-rpgs/charge-srd) to get started.
 
-<a href="/en/srds/fari-games/charge-srd">
+<a href="/en/srds/fari-rpgs/charge-srd">
 	<img width="320px" src="https://gyazo.com/7a7d4cecbf087f5d66cb1b16d30271ad.png">
 </a>
 
@@ -55,7 +55,7 @@ What we mean by that is that you can:
 - Provide new Extras
 - Help improve the quality and reachability of the game by proofreading or translating it etc.
 
-If you contribute to this project in any way, your name will be added in the [credits](/en/srds/fari-games/charge-rpg/credits) of the game. If you designed a specific extra for the game, your name will also be credited there.
+If you contribute to this project in any way, your name will be added in the [credits](/en/srds/fari-rpgs/charge-rpg/credits) of the game. If you designed a specific extra for the game, your name will also be credited there.
 
 While Charge accepts donations, those donations will be re-invested in the game directly by commissioning the creation of official art, paying for the editing, etc.
 
@@ -65,11 +65,11 @@ Now, let's build something incredible, together.
 
 ## Useful Links
 
-- [Licencing Information](/en/srds/fari-games/charge-rpg/licencing)
-- [Charge SRD](/en/srds/fari-games/charge-srd)
+- [Licencing Information](/en/srds/fari-rpgs/charge-rpg/licencing)
+- [Charge SRD](/en/srds/fari-rpgs/charge-srd)
 - [Fari's Discord server](https://fari.app/discord)
 - [Charge Community Forums](https://fari-rpgs.itch.io/charge-rpg/community)
-- [Charge Cheatsheet](/en/srds/fari-games/charge-rpg/in-a-nutshell)
+- [Charge Cheatsheet](/en/srds/fari-rpgs/charge-rpg/in-a-nutshell)
 
 ## Thanks
 
@@ -141,7 +141,7 @@ Now, let's go over what you need to play Charge.
 
 To play Charge, you need:
 
-- Copies of the [Charge RPG Character Sheet](/documents/fari-games/charge-rpg/downloads/character-sheet.pdf)
+- Copies of the [Charge RPG Character Sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf)
 - A pile of index cards or small pieces of paper to draw things on.
 - A set of six-sided dice. At least 6 would be ideal.
 - A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
@@ -1139,7 +1139,7 @@ Gaining a new talent will feel like a breath of fresh air. It won't make your ch
 >
 > This will give them an edge in certain situation, without breaking the balance of the game.
 >
-> Here's an adapted [character sheet](/documents/fari-games/charge-rpg/downloads/character-sheet-with-starting-talent.pdf) to get you started.
+> Here's an adapted [character sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet-with-starting-talent.pdf) to get you started.
 
 ### Situational Talents
 
@@ -1200,11 +1200,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 
 <details>
 	<summary>
-		[Character Sheet](/documents/fari-games/charge-rpg/downloads/character-sheet.pdf)
+		[Character Sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf)
 	</summary>
-	<object data="/documents/fari-games/charge-rpg/downloads/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
-		<embed src="/documents/fari-games/charge-rpg/downloads/character-sheet.pdf">
-			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/fari-games/charge-rpg/downloads/character-sheet.pdf">Download PDF</a>.</p>
+	<object data="/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
+		<embed src="/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf">
+			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf">Download PDF</a>.</p>
 		</embed>
 	</object>
 </details>
@@ -2056,14 +2056,14 @@ Just be sure the effect that you're giving magic fits the cost, so that your pla
 
 When creating a magic item, or when using magic that may be used multiple times in the same cast, you should likely define limits to the spell :
 
-- Either use the [Attachment extra](https://fari.games/en/srds/fari-games/charge-rpg/attachment-extra) for a protective item.
+- Either use the [Attachment extra](https://fari.games/en/srds/fari-rpgs/charge-rpg/attachment-extra) for a protective item.
 - Use a "magic charge" clock that depletes with use (may or may not be replenished by the caster) that can be tracked on the character sheet, using `projects`.
 - For both of the aforementioned items, you may use [Keita Creation's repairs and restoration rules](https://keitacreates.itch.io/repairs-and-restorations)
 - Make the spell much harder to cast and more dangerous on further uses in the same scene.
 - Make further uses of the effect have a cost (see above).
 - For an item, allow the character wearing the item to roll for the spell in lieu of the caster (give them narrative permission to do something).
-- You may treat the item as an [Asset](https://fari.games/en/srds/fari-games/charge-rpg/asset-extra) for spells with delayed effect
-- You may also treat them as an [Asset](https://fari.games/en/srds/fari-games/charge-rpg/asset-extra) for spells multiple uses using a clock, either with fixed effect, or with different effects depending on the number of segments ticked (see below)
+- You may treat the item as an [Asset](https://fari.games/en/srds/fari-rpgs/charge-rpg/asset-extra) for spells with delayed effect
+- You may also treat them as an [Asset](https://fari.games/en/srds/fari-rpgs/charge-rpg/asset-extra) for spells multiple uses using a clock, either with fixed effect, or with different effects depending on the number of segments ticked (see below)
 
 ### The effect of magic
 
@@ -2324,7 +2324,7 @@ Time to discover how to read the result:
 
 ## Dial: Changing the Clock
 
-It's totally possible to change the default clock, to accelarate how often players obtain milestones. A good idea before doing so is to reread the [clock chapter](https://fari.games/en/srds/fari-games/charge-rpg/clocks).
+It's totally possible to change the default clock, to accelarate how often players obtain milestones. A good idea before doing so is to reread the [clock chapter](https://fari.games/en/srds/fari-rpgs/charge-rpg/clocks).
 
 Also, if you want to character progression harder, try a new clock: **the 12 segment clock**!
 
@@ -2678,7 +2678,7 @@ You might feel comfortable enough to talk to a group of friends and look into st
 
 Perhaps you liked what you read, but you want to homebrew it to fit a certain style. If so, you can re-read chapter about [hacking the game](what-to-hack) to have some guideline about what you can hack and how. You can also re-read the section about [extras](what-are-extras) which contains community made hacks that you can use in your game! You can also submit your own extras on [Charge's Itch Community](https://itch.io/category/1543442/new-topic) to get feedback from the community.
 
-If what you've read has inspired you to make your own **Powered by Charge** game, then check-out the [Charge System Reference Document](/en/srds/fari-games/charge-srd) as a good starting point.
+If what you've read has inspired you to make your own **Powered by Charge** game, then check-out the [Charge System Reference Document](/en/srds/fari-rpgs/charge-srd) as a good starting point.
 
 To talk with people who have played or hacked the game before, join [Fari's Discord Server](https://fari.app/discord) for great discussions about anything Charge related!
 
