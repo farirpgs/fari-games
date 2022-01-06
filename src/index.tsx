@@ -7,7 +7,12 @@ import { StyledEngineProvider, ThemeProvider } from "@mui/material/styles";
 import React, { Suspense, useContext } from "react";
 import ReactDom from "react-dom";
 import { HelmetProvider } from "react-helmet-async";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
 import { ErrorBoundary } from "./components/ErrorBoundary/ErrorBoundary";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { SettingsContext, useSettings } from "./contexts/SettingsContext";
@@ -70,21 +75,16 @@ function App() {
                     </Fade>
                   }
                 >
+                  {renderRedirects()}
                   <Switch>
                     <Route exact path="/" component={HomePage} />
-
-                    <Route
-                      exact
-                      path="/:language/srds/:author/:game/:chapter?"
-                      component={GamePage}
-                    />
-                    <Route
-                      exact
-                      path="/:language/srds/:author/:game/:chapter?"
-                      component={GamePage}
-                    />
                     <Route exact path="/search" component={SearchPage} />
 
+                    <Route
+                      exact
+                      path="/:language/srds/:author/:game/:chapter?"
+                      component={GamePage}
+                    />
                     <Route
                       exact
                       path={"/browse/:authorSlug/"}
@@ -116,6 +116,30 @@ function App() {
       </HelmetProvider>
     </>
   );
+
+  function renderRedirects() {
+    return (
+      <>
+        <Route
+          path="*"
+          render={(routeProps) => {
+            if (routeProps.match.url.includes("fari-games")) {
+              return (
+                <>
+                  <Redirect
+                    to={routeProps.match.url
+                      .split("fari-games")
+                      .join("fari-rpgs")}
+                  />
+                </>
+              );
+            }
+            return null;
+          }}
+        />
+      </>
+    );
+  }
 }
 
 SentryService.init();

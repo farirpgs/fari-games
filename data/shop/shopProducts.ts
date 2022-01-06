@@ -3,8 +3,8 @@ import { IShop, IShopProductWithAuthor, License } from "./types/IShopProduct";
 export const shop: IShop = {
   authors: [
     {
-      name: "Fari Games",
-      slug: "fari-games",
+      name: "Fari RPGs",
+      slug: "fari-rpgs",
       links: {
         twitter: "https://twitter.com/RPDeshaies",
       },
@@ -15,11 +15,11 @@ export const shop: IShop = {
           description: "Ready to use generic RPG system.",
           license: License.CC_BY_4,
           footer:
-            "Text by Fari Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
           tags: ["charge-rpg", "game"],
           image: "https://gyazo.com/db461bac8eda79fa13f2b81dc03272e3.png",
           links: {
-            itchIo: "https://farigames.itch.io/charge-rpg",
+            itchIo: "https://fari-rpgs.itch.io/charge-rpg",
           },
         },
         {
@@ -29,11 +29,11 @@ export const shop: IShop = {
             "Power your next game with this condensed version of Charge RPG",
           license: License.CC_BY_4,
           footer:
-            "Text by Fari Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
           tags: ["charge-rpg", "srd", "new"],
           image: "https://gyazo.com/a6eabc2383f01fa9e30be8c1d64596f2.png",
           links: {
-            itchIo: "https://farigames.itch.io/charge-srd",
+            itchIo: "https://fari-rpgs.itch.io/charge-srd",
           },
         },
       ],
@@ -397,6 +397,30 @@ export const shop: IShop = {
           links: {},
           footer:
             "© Uhrwerk Verlag 2015 Authorized translation of the english edition © 2015 Evil Hat. This translation is published and sold by permission of Evil Hat, the owner of all rights to publish and sell the game. Alle Rechte vorbehalten.",
+        },
+      ],
+    },
+    {
+      name: "Don Bisdorf",
+      slug: "donbisdorf",
+      links: {
+        twitter: "https://twitter.com/dbisdorf",
+        website: "https://www.donbisdorf.com/",
+      },
+      products: [
+        {
+          name: "The SAVE System",
+          slug: "save-the-srd",
+          description:
+            "The SAVE System is a framework for building quick-playing, low-prep, story-focused RPGs.",
+          tags: ["srd", "new"],
+          license: License.CC_BY_4,
+          image: "https://gyazo.com/f885d1354a3a2950f1ba11ec28ef56a3.png",
+          links: {
+            itchIo: "https://dbisdorf.itch.io/the-save-system",
+          },
+          footer:
+            "Text by Don Bisdorf under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
         },
       ],
     },
