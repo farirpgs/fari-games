@@ -161,7 +161,7 @@ At the start of the game, characters begin with zero talents. They will gain tho
 
 > #### Designer Note: Hacking Talents
 >
-> The default character sheet in Charge has a `talent tree` containing 13 `talents`. That being said, we don't necessarily think you should do the same for you game.
+> The default character sheet in Charge has a `talent tree` containing 13 `talents`. That being said, we don't necessarily think you should do the same for your game.
 >
 > Taking into consideration that Charge is generic by default, we wanted to offer more leeway for the group to make their characters progress at their own pace. That's the reason the `talent tree` is that big.
 >
