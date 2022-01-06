@@ -470,11 +470,11 @@ Afterwards, the player narrates a short scene of what their character attempted 
 
 World `forces` are independent organizations with their own unique agendas that the GM might use during the game to make it feel more vibrant. Each `force` has a specific `goal` that it will try to achieve by using certain `methods`.
 
-If the GM feels it makes sense, they can create a `progress clock` to represent the `force` getting closer to their `goals`. They then mark progress on the clock when it fits the narrative - either as a `consequence` or as a result of player actions helping the `force`.
+If the GM feels it makes sense, they can create a `progress clock` to represent the `force` getting closer to their `goal`. They then mark progress on the clock when it fits the narrative - either as a `consequence` or as a result of player actions helping the `force`.
 
 > #### Designer Note: Making World Forces
 >
-> Charge games usually have what we call `world forces`.
+> Charge games usually come with a couple of `world forces`.
 >
 > A `force` is something or someone with goals looking to change the status quo in significant and narratively interesting ways.
 >
@@ -490,11 +490,11 @@ If the GM feels it makes sense, they can create a `progress clock` to represent 
 >
 > **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
 >
-> - _Finding dirt on the government to expose corruption._
+> - _Finding dirt on the noble houses to expose corruption._
 > - _Convincing the real king to take back what is theirs._
-> - _Finding money to hire mercenaries to fight an eventual war._
+> - _Finding money to hire mercenaries to fight the war that is to come._
 >
-> Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with.
+> Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with if they so desire.
 
 # Extras | Extras
 
