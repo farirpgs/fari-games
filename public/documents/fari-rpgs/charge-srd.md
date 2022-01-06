@@ -43,6 +43,16 @@ Here’s what you’ll need to play:
 - A bunch of six-sided dice. At least 6 would be ideal.
 - Index cards, sticky notes or similar slips of paper.
 
+## Content Warning
+
+We want to take a moment to be transparent about the themes present in this game. If some of them make you or anyone at your table uncomfortable, it's important to talk about it as a group. You can then decide to either remove them from your game or play something else. Stay safe and be empathetic with everyone you are playing with.
+
+This game includes references and expressions of the following themes: [...]
+
+> #### Designer Note: Content Warning
+>
+> Take the time to fill out the themes present in your game with the section above. Being transparent will go a long way to ensure a safe playing experience for everyone at the table.
+
 ## Game Master & Players
 
 One person in the group needs to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that live in it (those that aren't directly played by the rest of the table). We call those characters "non-player characters", or `NPCs`.
@@ -625,7 +635,6 @@ That means that if you want to make a game using or based by this game, you just
 Because Charge is based off Blades in the Dark, you would also need to include attribution to the creators of this game as well.
 
 To do so, copy the text below in your own game and things should be good to go.
-
 
 > This work is based on Charge RPG, product of Fari RPGs, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 >
