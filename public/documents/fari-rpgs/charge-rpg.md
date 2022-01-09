@@ -2336,14 +2336,16 @@ Special thanks to LynnJones who enhance the readibility, RP for the useful feedb
 
 # Party Extra | Extras
 
-This is an Extra for Charge to add both narrative and mechanical structure to the group of characters represented by the players, referred to in this extra as a `party`. This group has a separate `party sheet` which tracks `details` of how they are perceived by the world around them, as well as maintaining party-level `danger` and `progress` clocks.
+An Extra for Charge to add both narrative structure and mechanical benefits to the group of characters represented by the players.
 
-The `party sheet` can represent things such as their “HQ” or “Ship”. It can also be used to represent relationships with important groups or specific NPCs. 
-
-\- By therabidbanana (David Haslem)
+\- By David Haslem
 
 
 ## Overview
+
+The group of players is referred to in this extra as a `party`. This group has a separate `party sheet` which tracks `details` of how they are perceived by the world around them, as well as maintaining party-level `danger` and `progress` clocks.
+
+The `party sheet` can represent things such as their “HQ” or “Ship”. It can also be used to represent relationships with important groups or specific NPCs. 
 
 ###  Key Concepts and Supporting Details
 
@@ -2367,9 +2369,9 @@ Sometimes a `party` will have to sacrifice their long term goals to focus on the
 > 
 > Further structure can be added to the supporting details to drive home key points in the setting, for example, asking players to choose a specific adversary and ally from a list of available world forces.
 > 
-> Starting positions for these key details can help further drive a story for the group of players to build on. A crew looking for their first big score might not have a lot of assets or allies, but they probably aren’t big enough to be on anyone’s radar as an adversary either. A resistance group against a repressive regime might start in a horrible position against authority, but have a large list of allies to lean on. 
+> Starting positions for these key details can help further drive a story for the group of players to build on. A crew looking for their first big score might not have a lot of assets or allies, but they probably aren’t big enough to be on anyone’s radar as an adversary either. A resistance group against a repressive regime might start in a horrible position against authority, but have a larger list of allies to lean on. 
 
-Like with character creation, `details` on the `party sheet` can offer both fictional support (helping build on the story) and narrative liberties (giving players permission to take certain actions). While the GM will have the final say, the entire party should have a chance to help develop and decide on these details at creation, and over time as the `party` advances.  
+Like with character creation, `details` on the `party sheet` can offer both fictional support (helping build on the story) and narrative liberties (giving players permission to take certain actions). While the GM will have the final say, the entire party should have a chance to help develop and decide on these details at character creation. There will also have the chance to change these over time as the `party` advances.  
 
 ### Key Concepts
 
@@ -2377,10 +2379,10 @@ Each `key concept` focuses on the position of the `party` along an important axi
 
 `Supporting details` are specific people, places, things or ideas related to the party in some sort of way, while `key concepts` are overarching, category level descriptions of the party’s standing. 
 
-Assets - This represents the available resources of the party, including money and any available equipment. Positive `supporting details` might be key equipment or artifacts, while negative `supporting details` might be debt hanging over the head of the `party`.
-Allies - This represents allies to the party, which might be specific key contacts or whole organizations ready to back the party. Positive `supporting details` are strong allies that can give you help when you need it while negative `supporting details` might be allies that need your help more often than helping you.
-Adversaries - This represents the adversaries of the party, which could be specific powerful enemies or a whole civilization bent on your destruction. Positive `supporting details` here might represent a weaker adversary or friendly competition, while negative `supporting details` would be strong adversaries that make life challenging for the party.
-Authority - This represents the party’s relationship with authority - how much they have, or how much those who have it like (or dislike) the party. Positive `supporting details` might be good relationships with those in power, while negative `supporting details` might represent being wanted for activities considered to be crimes by those in authority.
+* **Assets** - This represents the available resources of the party, including money and any available equipment. Positive `supporting details` might be key equipment or artifacts, while negative `supporting details` might be debt hanging over the head of the `party`.
+* **Allies** - This represents allies to the party, which might be specific key contacts or whole organizations ready to back the party. Positive `supporting details` are strong allies that can give you help when you need it while negative `supporting details` might be allies that need your help more often than helping you.
+* **Adversaries** - This represents the adversaries of the party, which could be specific powerful enemies or a whole civilization bent on your destruction. Positive `supporting details` here might represent a weaker adversary or friendly competition, while negative `supporting details` would be strong adversaries that make life challenging for the party.
+* **Authority** - This represents the party’s relationship with authority - how much they have, or how much those who have it like (or dislike) the party. Positive `supporting details` might be good relationships with those in power, while negative `supporting details` might represent being wanted for activities considered to be crimes by those in authority.
 
 ### Dispositions 
 
@@ -2393,7 +2395,7 @@ Authority - This represents the party’s relationship with authority - how much
 | Neutral  (0)                 | Risky                            | No change to Consequence Rating  |
 | Negative (-)                 | Desperate                        | +1 Consequence Rating            |
 
-The collection of `supporting details` for a `key concept` ladder up to a numeric score between -4 and +4. A `key concept` is considered neutral until the score reaches either <-2 (three or more negative `supporting details`), becoming a negative `disposition`, or >+2 (three or more positive. `supporting details`), becoming a positive `disposition`. When the `key concept` changes disposition it should be rewritten to represent the change in fortunes for the party.
+The collection of `supporting details` for a `key concept` ladder up to a numeric score between -4 and +4. A `key concept` is considered neutral until the score reaches either <-2 (three or more negative `supporting details`), becoming a negative `disposition`, or >+2 (three or more positive `supporting details`), becoming a positive `disposition`. When the `key concept` changes disposition it should be rewritten to represent the change in fortunes for the party.
 
 ### Getting Started
 
@@ -2418,25 +2420,31 @@ At the start of a campaign, the party should generally start with each `key conc
 This represents the available resources of the party, including money and any available equipment. A positive `key concept` might be something like “a well funded and equipped organization”, while a negative one might be something like “a ragtag group that’s always behind on their rent and looking for a big score”. 
 
 **Positive (+) Supporting Details**
+
 Positive `supporting details` for assets might include a fancy ship with the latest equipment, access to large banking accounts, or a secret stash of gold doubloons. 
 
 **Negative (-) Supporting Details**
+
 Negative `supporting details` for assets might be a big loan that the party can never quite pay off, or a broken down ship that will cost more than it’s worth to repair.  
 
 **Neutral (0) Supporting Details**
+
 Neutral `supporting details` for assets might be equipment or assets that come with drawbacks - the party might have a ship that’s constantly in need of repair or have access to a loan that will definitely come with strings attached if the party tries to use it.
 
 #### 2. Authority
 
-This represents how people in power feel about the party, or, depending on the game how much power the party has. A positive `key concept` might be something like “leaders of a thriving business empire”, while a negative one might be something like “wanted dead or alive by the king”. 
+This represents how people in power feel about the party, or, depending on the game how much power the party has. A positive `key concept` might be something like “leaders of a thriving business empire”, while a negative one might be something like “considered enemies of the kingdom”. 
 
 **Positive (+) Supporting Details**
+
 Positive `supporting details` for authority might include a group of freedom fighters ready to follow your lead or a being the king’s go-to problem solvers. 
 
 **Negative (-) Supporting Details**
-Negative `supporting details` for authority might be the captain of the watch out to get you or a bounty on everyone’s heads. 
+
+Negative `supporting details` for authority might be the captain of the watch out to get you or a bounty on everyone’s heads for their latest crime. 
 
 **Neutral (0) Supporting Details**
+
 Neutral `supporting details` for authority might be an easily bribed bureaucrat willing to look the other way for now, or a legal decree that could end up causing trouble for the party. 
 
 #### 3. Allies
@@ -2444,24 +2452,30 @@ Neutral `supporting details` for authority might be an easily bribed bureaucrat 
 This represents people that might be willing to help the party, or who have reason to be connected with the party in some way. While typically positive sounding, negative `dispositions` could be used to represent obligations or relationships turned sour. A positive `key concept` might be something like “friends to all we meet”, while a negative one might be something like “everyone expects our help whether they deserve it or not”. 
 
 **Positive (+) Supporting Details**
+
 Positive `supporting details` for allies could be people or groups that are both friendly to the party and have the means to be helpful. 
 
 **Negative (-) Supporting Details**
+
 Negative `supporting details` for allies could be people that you’re connected to that cause more trouble for the party than they might be worth, or estranged relationships. 
 
 **Neutral (0) Supporting Details**
+
 Neutral `supporting details` for allies could be people that are willing to help but don’t have the means or maybe a group that hasn’t decided for sure whether the party is worthy of being helped. 
 #### 4. Adversaries
 
 This represents people or groups that are against the party, or possibly even harsh conditions & impending doom. While typically negative sounding, positive leaning `dispositions` could represent friendly competition or forces of nature that can be treated as both friend and foe. A positive `key concept` might be something like “with friends like these, who needs enemies?”, while a negative one might be something like “hunted by nearly everyone”. 
 
 **Positive (+) Supporting Details**
+
 Positive `supporting details` for adversaries could be people or groups that might still help the party if they were in mortal danger, sworn enemies that are comically bad at their jobs, or maybe enemies that don’t yet realize the party exists.
 
 **Negative (-) Supporting Details**
+
 Negative `supporting details` for adversaries might include powerful enemies sworn to destroy the party, or impending doom of an inbound asteroid.  
 
 **Neutral (0) Supporting Details**
+
 Neutral `supporting details` for adversaries could be enemies that have bigger fish to fry and consider the party beneath them, or powerful desert sandstorms that can be used to the party’s advantage if they can survive. 
 
 ## Danger and Progress
@@ -2563,7 +2577,7 @@ Progress and danger are kept as abstract clocks to prevent the bookkeeping load 
 
 ### Detailed Disposition
 
-To avoid getting too complicated, `disposition` is either positive, negative or neutral. It'd be possible to allow a range of values for `disposition`, for example from -4 to +4, to allow more nuance for given `supporting details`. If using this approach, you'd probably want to allow players to gain progress and danger more quickly, and only treat >+2 / <-2 as “positive” / “negative” for purposes of changing effect or position on rolls. 
+To avoid getting too complicated, `disposition` is either positive, negative or neutral. It'd be possible to allow a range of values for `disposition` (for example from -4 to +4) to allow more nuance on given `supporting details`. If using this approach, you'd probably want to allow players to gain progress and danger more quickly, and only treat >+2 / <-2 as “positive” / “negative” for purposes of changing effect or position on rolls. 
 
 ## Combining with other Rules
 
@@ -2579,7 +2593,7 @@ An obvious way for Powered by Charge games to make the `party sheet` easier to f
 
 The World extra offers options to help the GM plan the next mission. One of the three cards drawn could refer to a specific `supporting detail` to tie the adventure into the existing fiction found in the `party sheet`. 
 
-To help tie to a specific `key concept`, Hearts are Allies, Diamonds are Assets, Spades are Adversaries and Clubs are Authority. 
+To help tie to a specific `key concept`, Hearts are Allies, Diamonds are Assets, Spades are Adversaries and Clubs are Authority.
 
 ### Goals Extra
 
