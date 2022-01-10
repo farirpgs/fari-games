@@ -195,7 +195,7 @@ export const shop: IShop = {
       },
       products: [
         {
-          name: "The Resistance Toolbox",
+          name: "Resistance Toolbox",
           slug: "resistance-toolbox",
           description:
             "Make your own games of desperate struggle using the Resistance System, the core rules that power the Spire RPG.",
@@ -409,7 +409,7 @@ export const shop: IShop = {
       },
       products: [
         {
-          name: "The SAVE System",
+          name: "SAVE System",
           slug: "save-the-srd",
           description:
             "The SAVE System is a framework for building quick-playing, low-prep, story-focused RPGs.",
@@ -455,8 +455,8 @@ export const shop: IShop = {
       },
       products: [
         {
-          name: "The Five Powers SRD",
-          slug: "the-five-powers-srd",
+          name: "Five Powers SRD",
+          slug: "five-powers-srd",
           description:
             "The Five Powers SRD harnesses the full potential of the 5 Elements of East-Asian Philosophy so you can create evocative games!",
           image: "https://gyazo.com/0784a27c26e7811eb327e64cf8718028.jpg",
