@@ -2445,30 +2445,6 @@ That's why we defined the `World Forces` before the `Player Force`.
 
 Once the players have a general idea of what their group is about, write a `Force`, a `Goal`, and 2-3 `Methods` that represent them.
 
-# GM's Best Practices | Playing the Game
-
- <p style="font-size:3rem; text-align:center; margin:0;">👷‍♀️ 🚧 🚧 🚧 👷</p>
-
-```
-- Being the Player's biggest fan.
-- You are a player too. Whether you're having fun is just as important as if the players are.
-- Find a setting that is fun to everyone.
-- Be on the same page.
-- Don't overload yourself with prep. Just a bit is enough!
-- Let the players fill in the gaps
-```
-
-# Player's Best Practices | Playing the Game
-
- <p style="font-size:3rem; text-align:center; margin:0;">👷‍♀️ 🚧 🚧 🚧 👷</p>
-
-```
- - Be involved. Do Stuff. Ask Questions!
- - Give feedback
- - Burn that momentum, and take risks
- - You don't need that 50 pages long character backstory
-```
-
 # What to Hack | Hacking the Game
 
 You've read the rules and best practices, and your first thought is:
@@ -2616,8 +2592,6 @@ For this, you could think of ways of making stress clocks "auto-advance" based o
 You should also think of opportunities for players to take care of those deteriorations so that they stop being inflicted upon their characters.
 
 # Making Playbooks | Hacking the Game
-
-<p style="font-size:3rem; text-align:center; margin:0;">👷‍♀️ 🚧 🚧 🚧 👷</p>
 
 In Charge, we don't offer a list of playbooks, archetypes or classes for the players to choose from when starting a new game. This is because we want players to be able to create the character they want to, without limiting their creativity.
 
