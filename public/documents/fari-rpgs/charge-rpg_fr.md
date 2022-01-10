@@ -25,9 +25,9 @@ It is also open licensed. Which means you can use it for free. You can also make
 
 ## Charge SRD
 
-If you want to make and publish your own game using Charge, checkout the [Charge SRD](/en/srds/fari-games/charge-srd) to get started.
+If you want to make and publish your own game using Charge, checkout the [Charge SRD](/en/srds/fari-rpgs/charge-srd) to get started.
 
-<a href="/en/srds/fari-games/charge-srd">
+<a href="/en/srds/fari-rpgs/charge-srd">
 	<img width="320px" src="https://gyazo.com/7a7d4cecbf087f5d66cb1b16d30271ad.png">
 </a>
 
@@ -55,21 +55,21 @@ What we mean by that is that you can:
 - Provide new Extras
 - Help improve the quality and reachability of the game by proofreading or translating it etc.
 
-If you contribute to this project in any way, your name will be added in the [credits](/en/srds/fari-games/charge-rpg/credits) of the game. If you designed a specific extra for the game, your name will also be credited there.
+If you contribute to this project in any way, your name will be added in the [credits](/en/srds/fari-rpgs/charge-rpg/credits) of the game. If you designed a specific extra for the game, your name will also be credited there.
 
 While Charge accepts donations, those donations will be re-invested in the game directly by commissioning the creation of official art, paying for the editing, etc.
 
-If you want to contribute to Charge, join [Fari's Discord server](https://fari.app/discord) or check-out the [Charge Community Forums](https://farigames.itch.io/charge-rpg/community) on Itch.
+If you want to contribute to Charge, join [Fari's Discord server](https://fari.app/discord) or check-out the [Charge Community Forums](https://fari-rpgs.itch.io/charge-rpg/community) on Itch.
 
 Now, let's build something incredible, together.
 
 ## Useful Links
 
-- [Licencing Information](/en/srds/fari-games/charge-rpg/licencing)
-- [Charge SRD](/en/srds/fari-games/charge-srd)
+- [Licencing Information](/en/srds/fari-rpgs/charge-rpg/licencing)
+- [Charge SRD](/en/srds/fari-rpgs/charge-srd)
 - [Fari's Discord server](https://fari.app/discord)
-- [Charge Community Forums](https://farigames.itch.io/charge-rpg/community)
-- [Charge Cheatsheet](/en/srds/fari-games/charge-rpg/in-a-nutshell)
+- [Charge Community Forums](https://fari-rpgs.itch.io/charge-rpg/community)
+- [Charge Cheatsheet](/en/srds/fari-rpgs/charge-rpg/in-a-nutshell)
 
 ## Thanks
 
@@ -141,7 +141,7 @@ Now, let's go over what you need to play Charge.
 
 To play Charge, you need:
 
-- Copies of the [Charge RPG Character Sheet](/documents/fari-games/charge-rpg/downloads/character-sheet.pdf)
+- Copies of the [Charge RPG Character Sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf)
 - A pile of index cards or small pieces of paper to draw things on.
 - A set of six-sided dice. At least 6 would be ideal.
 - A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
@@ -1139,7 +1139,7 @@ Gaining a new talent will feel like a breath of fresh air. It won't make your ch
 >
 > This will give them an edge in certain situation, without breaking the balance of the game.
 >
-> Here's an adapted [character sheet](/documents/fari-games/charge-rpg/downloads/character-sheet-with-starting-talent.pdf) to get you started.
+> Here's an adapted [character sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet-with-starting-talent.pdf) to get you started.
 
 ### Situational Talents
 
@@ -1200,11 +1200,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 
 <details>
 	<summary>
-		[Character Sheet](/documents/fari-games/charge-rpg/downloads/character-sheet.pdf)
+		[Character Sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf)
 	</summary>
-	<object data="/documents/fari-games/charge-rpg/downloads/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
-		<embed src="/documents/fari-games/charge-rpg/downloads/character-sheet.pdf">
-			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/fari-games/charge-rpg/downloads/character-sheet.pdf">Download PDF</a>.</p>
+	<object data="/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
+		<embed src="/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf">
+			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf">Download PDF</a>.</p>
 		</embed>
 	</object>
 </details>
@@ -2056,14 +2056,14 @@ Just be sure the effect that you're giving magic fits the cost, so that your pla
 
 When creating a magic item, or when using magic that may be used multiple times in the same cast, you should likely define limits to the spell :
 
-- Either use the [Attachment extra](https://fari.games/en/srds/fari-games/charge-rpg/attachment-extra) for a protective item.
+- Either use the [Attachment extra](https://fari.games/en/srds/fari-rpgs/charge-rpg/attachment-extra) for a protective item.
 - Use a "magic charge" clock that depletes with use (may or may not be replenished by the caster) that can be tracked on the character sheet, using `projects`.
 - For both of the aforementioned items, you may use [Keita Creation's repairs and restoration rules](https://keitacreates.itch.io/repairs-and-restorations)
 - Make the spell much harder to cast and more dangerous on further uses in the same scene.
 - Make further uses of the effect have a cost (see above).
 - For an item, allow the character wearing the item to roll for the spell in lieu of the caster (give them narrative permission to do something).
-- You may treat the item as an [Asset](https://fari.games/en/srds/fari-games/charge-rpg/asset-extra) for spells with delayed effect
-- You may also treat them as an [Asset](https://fari.games/en/srds/fari-games/charge-rpg/asset-extra) for spells multiple uses using a clock, either with fixed effect, or with different effects depending on the number of segments ticked (see below)
+- You may treat the item as an [Asset](https://fari.games/en/srds/fari-rpgs/charge-rpg/asset-extra) for spells with delayed effect
+- You may also treat them as an [Asset](https://fari.games/en/srds/fari-rpgs/charge-rpg/asset-extra) for spells multiple uses using a clock, either with fixed effect, or with different effects depending on the number of segments ticked (see below)
 
 ### The effect of magic
 
@@ -2080,6 +2080,259 @@ Critical successes on spells raise the effect by one level for every additionnal
 > _The being has been summoned succesfully, and it is now represented by a post-it that has a name and a clock. She decides that the spirit is a **normal** spiritual being that may be commanded any time the summoner wants to provide an extra d6 when rolling a dice when it would make sense that the spirit could act on behalf of the character. Since it acts instead of the character, Alice decides that the being has its own stress clock to tick on consequences._
 >
 > _But, since this is a powerful effect, it also has a powerful drawback : Using the spiritual being is taxing on both body and mind, and any uses of the being tick one segment of the character's condition clocck. Furthermore, as soon as the character is taken out, the being breaks free of the spell and turns hostile to the party._
+
+
+
+# Scars Extra | Extras
+
+This extra introduces new a type of `detail` that permanently changes your character when the stress clock fills up.
+
+\- By Krister Svanlund
+
+---
+
+_CW: This Extra handles topics of graphic bodily harm and touches on subjects that can be associated with mental health._
+
+This extra is intended to replace the simple default rule of _"When your stress clock reaches **4 filled segments**, you clear it, and are taken out for the scene."_ in a way that makes putting yourself in risky situations have an actual permanent effect.
+
+Games that could benefit from these rules are primarily those going for a grittier tone where the hero doesn't just bounce back, but rather where they are forced to deal with the consequences of their actions.
+
+This extra adds a few concepts to the basis of Charge RPG, namely;
+
+ - `scars` -- A new type of character `detail` that indicates a permanent change to your character, either physically or mentally.
+ - `bowing out` -- The act of leaving your friends to deal with a conflict to avoid more severe consequences to yourself.
+ - being `hardened` -- The beneficial aspects of having a `scar` detail; allows you to take more stress in some circumstances.
+
+---
+
+> ## Scars disclaimer
+
+>
+> _The topics of this Extra have a complicated relationship to both real life and tropes in popular media. Therefore when you use these rules, keep that in mind that pop culture generally hasn't treated disabilities kindly but that we, collectively, have an awesome chance to change that. These rules are not meant to make your character broken or unplayable, they are meant to create a permanent record on your character sheet and how you portray your character of the adventures you have been on. But always; be mindful and listen to what other people you share the table with have to say about it, and always respect those that want you to stay away from certain conditions or disabilities._
+>
+> _These rules give you a chance to embrace the changes to your characters and show how it doesn't make them less competent even if they have their struggles due to the scars they have. The purpose of this isn't to cause a death spiral but to make the world have an impression on the character similar to how the characters make an impression on the world._
+
+## Scars Rule
+
+When your stress clock reaches **4 filled segments**, you do not clear it but instead, add a `scar` to your character details and update the condition to something that represents you being `incapacitated`. When you come to from being incapacitated, either by getting help from a friend or from just crawling back on the scene, you clear half of the stress clock and update your `condition` accordingly.
+
+An incapacitated character can not take more `scars` but further harm to the body can change the nature of the `scar`, such as a burn having a wider reach, or instead of having a deep scar you get an intricate net of deep scars.
+
+> ### Overlapping scars
+>
+> _In some cases `scars` end up overlapping in what it affects, such as losing your left arm after leaving your left hand, and in those cases, it is perfectly acceptable to merge those `scars` into a single scar. If a `scar` doesn't change anything about your character it has no use on the character sheet either._  
+
+Remember to also update your looks if necessary as you add `scars`.
+
+> ### Optional dial setting: Bleeding out ###
+>
+> _For some games, a fresh `scar` should require some kind of `action` from another character to get the scared character back in the game. This can be being "talked down from the ledge", "staunch the bleeding", or "taking care of the burns". This rule, in particular, can be a bit too much for some groups, so make extra sure to include this with consent, as with all rules dealing with bodily or mental harm._
+
+### Definition of a scar
+
+A `scar` is a character detail that is based on the `condition` you got from filling up the stress clock. Similar to conditions, physical and mental `scars` aren't kept separated but rather tracked as the same list of details. The important part is that the `scar` isn't the `condition` itself but rather what stays behind after some time.
+
+> ##### Examples of scars
+>
+> - "a deep scar across the abdomen"
+> - "missing left hand and underarm"
+> - "intrusive thoughts of the scarred non-blinking eye of Gazh".
+
+Similar to `conditions` certain `scars` may restrict the narrative liberties you are allowed. _For example, you normally can't hold two weapons if you only have one hand._
+
+### Being hardened
+
+When you have a `scar` it also means that you are `hardened` to some extent, this means that whenever any of your `scars` cause you or your friends' real trouble you are allowed to **clear one tick on the stress clock** by consuming `1 momentum`. What defines as "real trouble" is up to the GM but it should be consequential to what your purpose as a character, or group, is.
+
+> #### Examples of real trouble
+>
+> - Being chased out of the small town because the burn scars are seen as a sign of evil.
+> - Forgetting about the missing hand and using it to try and catch the weapon thrown at you.
+> - Cowering in fear, unable to come to your friends' aid, from hearing the cursed bells tolling.
+
+> #### Note Scars as slapstick
+>
+> _An important note here is that `scars` causing you "trouble" aren't intended for comedic effect. This will naturally vary between groups but remember to treat `scars` with the same level of respect as any other character `detail`._
+
+### Optional dial setting: Compensating
+
+In some cases, and for certain settings, it can make sense to allow for some way to "compensate" for a `scar`, this doesn't remove or negate it but rather compensate some part of the loss of ability. Examples of this can be buying a clockwork prosthesis, getting a skin graft, or just receiving therapy. This doesn't block you from utilizing being `hardened` but it does lessen the chances of the `scar` causing problems.
+
+_An important balance issue for the GM to have in mind for this is that a `compensation` shouldn't, by default, allow for anything a character without the scar can do, nor should it be held against the character as a weakness. But it can be used as an in-character target for future improvement, depending on the type of setting and tone._
+
+### Bowing out
+
+_This rule might not be suitable for all groups. Don't use this if it risks creating interpersonal conflicts among the players. The purpose of the rule is to allow players some agency when it comes to getting a `scar` or not. If leaving your friends in trouble isn't seen as **a cost**, this rule isn't for your group._
+
+As you get closer to filling up the stress clock you have the option to `bow out` instead of taking a `consequence` that would fill up your stress clock. You do this by telling the GM before you roll for your final action that risks filling up your stress clock, that you wish to `bow out`. This means that you narrate how the result of the action causes you to leave the scene or be `incapacitated`, and you can't rejoin the group during the same scene. If this ends up leaving at least one friend in trouble you also get to clear 2 ticks of your stress clock.
+
+> #### Example: Bowing out
+>
+> _Player 1s character is at 3 stress, with the condition "overwhelmed and stabbed through the right shoulder"."_
+>
+> _**GM:** The Brute rushes towards you as the bullets fly through the air, it looks to go in for tackling you into the wall behind you, you're in a `desperate position`._
+>
+> _**Player 1:** Ok, so I want to `move` out of the way but since I'm at 3 stress I also want to `bow out`._
+>
+> _**GM:** Yeah, sure that's fine, you have `standard effect` for that, but it will leave <Player 2> in pretty deep shit with you gone and having to deal with both the Brute and the Slice. How do you leave the fight?_
+>
+> _**Player 1:** [Rolling dice] Ok, I actually succeed at the `move` without complications, so I move out of the way and use my effect to cause 2 stress damage to the Brute as it smashes into the wall. But my only way to move out of the way was to throw myself over the edge to the right so I fall into the river below and get carried away._
+>
+> _**GM:** Ok, so clear 2 ticks from your stress clock and you get to come back when the fight is over._
+
+### Optional dial setting: Starting the game with scars
+
+`Scars` are the character's history etched into their body, mind, and soul. For that reason there is _no_ option to take `scars` to gain extra `talents`, `action dots`, or similar, if you want your character to start out with `scars` there needs to be a story that goes along with that scar. A story that has fundamentally shaped them into who they are at the start of the game. Preferably each `scar` should have a story that could be told around a campfire, even the `scars` that get added during play.
+
+But naturally, not all scars need to be `scars` in the mechanical sense, a purely decorative scar is just part of your character's looks and personality.
+
+> ### Example of taking a scar
+>
+> _Player 2s character has only taken 1 stress so far and is "winded"._
+>
+> _**GM:** The Slice has gotten up and as you wipe your face shield clear you see how it's stalking towards you._
+>
+> _**Player 2:** Ok, but I saw that <Player 1> got over the railing, right? So I start circling the Slice to get to where I can look down and see if <Player 1> survived._
+>
+> _**GM:** Sure, but that will also mean that you come closer to the Brute, even tho you know it's pretty inattentive and, at the moment, looks pretty out of it after going face-first into the wall._
+>
+> _**Player 2:** Yeah, that's fine. But I want to take a chance and look over the edge for <Player 1>, that's a `notice` action right?_
+>
+> _**GM:** Sure, that works. You have a `risky position` and `standard effect` on that roll._
+>
+> _**Player 2:** [Rolling dice] I got a 4?_
+>
+> _**GM:** So you look over the railing and see <Player 1> floating in the river, being kept afloat by the auto-inflated vests you both are wearing. But while you're looking over the edge the Slice sees an opportunity and makes a lunge towards you, putting you in a `desperate position`._
+>
+> _**Player 2:** I try to `move` out of the way. [Rolling dice] my highest is a 2 so I guess not! And I'm out of armor from the earlier attack._
+>
+> _**GM:** Ouch, as you try to move out of the way you feel the burning sensation of the blade gliding in between your ribs on the right side and the speed of the Slice causes both of you to go over the railing. You're at `4 stress` now right?_
+>
+> _**Player 2:** Sure am, I guess the hit knocks the wind out of me and I barely notice as we fall towards the river, at least until the cold water hits me._
+>
+> _**GM:** You come to as you feel the vest inflate around you but you have distinct trouble breathing and your right side hurts like nothing before. You don't see a trace of the Slice after that and manage to crawl to shore a bit further downstream where you fall into unconsiousness until <Player 1> finds you barely patched up by the auto-doctor in the vest. You can clear half of your `stress clock` and write down a new `scar` that's called "badly healed scar tissue, right lung". What do you do now?_
+
+## Credits
+
+- #charge-rpg-talk at the Fari Discord
+- Blades in the dark by John Harper – This is heavily inspired by the **trauma** mechanics.
+
+> ## Recap
+>
+> - **Scar:** When you **fill-up your stress clock**, clear **half of it** and turn your condition into a `scar`.
+> - **Hardened:** If the scar causes you problems, `consume 1 momentum` to `clear one tick` of the stress clock.
+> - **Optional – Bow Out:** Announce **before your final action** that you wish to leave the scene. If your friends end up in a **worse situation** from it you get to `clear 2 ticks` of stress.
+
+# Goals Extra | Extras
+
+**An alternate way to think about progression in Charge**
+
+\- By othelarian
+
+---
+
+It's sometimes easier to grasp how a character progresses by declaring goals and see if they manage to reach them. Here you, dear reader, will find a way to simulate this.
+
+## My Words, My Goals
+
+### What is a Goal?
+
+A `goal` is something a character wants to accomplish, like a mission or a quest. It's also a way to define what the character has to do, what they up for.
+
+A character can have a single important `goal`, or multiple small ones. These can be set at creation or emerge during play.
+
+When defining a `goal` for their character, a player has to think about two things:
+
+- The `goal`'s name
+- The `goal`'s difficulty
+
+The name must be detailed enough for everyone, leaving little room about if the `goal` is progressing or not.
+
+The difficulty can be **easy**, **medium** or **hard**.
+
+### Advancing a Goal
+
+A `goal` has an associated clock with 8 segments (see options later for more ideas on this point).  When a character makes progress towards one of their `goals` it's time to tick segments, depending on the `goal`'s difficulty:
+
+| Difficulty | Number of segments ticked |
+| ---------- | ------------------------- |
+| Easy       | 3                         |
+| Medium     | 2                         |
+| Hard       | 1                         |
+
+Note: to follow the chassic Charge progression, a good guideline is to ask for the progression at the end of a session.
+
+### Finishing a Goal
+
+When a `goal`'s clock is full, the `goal` is complete, and the character receives a number of `talent dots` based on the difficulty.
+
+| Difficulty | Number of talent dots gained |
+| ---------- | ---------------------------- |
+| Easy       | 1                            |
+| Medium     | 2                            |
+| Hard       | 3                            |
+
+The character can apply their freshly acquired `talent dots` immediately, but must keep it thematic to the `goal`. For example, it may not be a good choice to put a dot into Muscle if the `goal` is "writing a delicate recipe with flowers as main ingredient".
+
+## Dial: Rolling to Advance
+
+Instead of automatically ticking a number of segments when a `goal` progresses, it's possible to roll to see if it advances even partially, or not.
+
+As Charge is a narrative game at its heart, to determine the dice pool follow this guideline:
+
+* Did the character take a risk just to advance their `goal`?
+* Did working on the `goal` impact the character (condition related, etc)?
+
+If it's complicated, here a fast and simple rule: *use 2 dice*.
+
+The number of segments ticked depends on the result and the difficulty.
+
+| Result | Name             | What it means                                      |
+| ------ | ---------------- | -------------------------------------------------- |
+| 1-3    | Bad Outcome      | No segments ticked                                 |
+| 4-5    | Partial Success  | -1 segment ticked (so no tick at all for **easy**) |
+| 6      | Full Success     | Tick segments normally                             |
+| 66     | Critical Success | +1 segment ticked (so 4 segments for **easy**)     |
+
+## Dial: Rolling to Resolve
+
+Another option is to roll to resolve the `goal`. The 2 ideas behind rolling to resolve are:
+
+* Add a way to create more narrative around the `goal`'s resolution
+* Authorize a player to test their luck and try to finish a `goal` earlier
+
+The roll is similar to an Action Roll, with the number of dice rolled related to the `goal` clock's status:
+
+| Clock's status             | Number of segments ticked | equivalent in action dot |
+| -------------------------- | ------------------------- | ------------------------ |
+| Less than 1/4 of the clock | 0-2                       | No roll, it's too soon   |
+| Between 1/4 and 1/2        | 3-4                       | Like having **0** dot    |
+| Between 1/2 and 3/4        | 5-6                       | 1 dot                    |
+| More than 3/4              | 7                         | 2 dot                    |
+| Full clock                 | 8                         | 3 dot                    |
+
+Note: "number of segments ticked" is for a 8 segment clock.
+
+Time to discover how to read the result:
+
+| Result | What happens                                                 |
+| ------ | ------------------------------------------------------------ |
+| 1-3    | The `goal` is lost, it's a failure                           |
+| 4-5    | Partial success, one less talent dot or suffer a consequence |
+| 6      | Success! Get your talent dots!                               |
+| 66     | Critical Success! Get one more talent dots than expected!    |
+
+## Dial: Changing the Clock
+
+It's totally possible to change the default clock, to accelerate how often players obtain milestones. A good idea before doing so is to reread the [clock chapter](https://fari.games/en/srds/fari-rpgs/charge-rpg/clocks).
+
+Also, if you want to character progression harder, try a new clock: **the 12 segment clock**!
+
+## Credits
+
+The original idea comes from [Ironsworn](https://ironswornrpg.com)'s vows. `Goals` are a humble adaptation of them for Charge.
+
+Special thanks to LynnJones who enhance the readibility, RP for the useful feedback to make it more Charge, and therabidbanana for the progression guideline.
 
 # Making a Compelling Campaign | Preparing the Game
 
@@ -2425,23 +2678,23 @@ You might feel comfortable enough to talk to a group of friends and look into st
 
 Perhaps you liked what you read, but you want to homebrew it to fit a certain style. If so, you can re-read chapter about [hacking the game](what-to-hack) to have some guideline about what you can hack and how. You can also re-read the section about [extras](what-are-extras) which contains community made hacks that you can use in your game! You can also submit your own extras on [Charge's Itch Community](https://itch.io/category/1543442/new-topic) to get feedback from the community.
 
-If what you've read has inspired you to make your own **Powered by Charge** game, then check-out the [Charge System Reference Document](/en/srds/fari-games/charge-srd) as a good starting point.
+If what you've read has inspired you to make your own **Powered by Charge** game, then check-out the [Charge System Reference Document](/en/srds/fari-rpgs/charge-srd) as a good starting point.
 
 To talk with people who have played or hacked the game before, join [Fari's Discord Server](https://fari.app/discord) for great discussions about anything Charge related!
 
-Lastly, if you liked what you read, consider [donating](https://farigames.itch.io/charge-rpg) some money on itch.io.
+Lastly, if you liked what you read, consider [donating](https://fari-rpgs.itch.io/charge-rpg) some money on itch.io.
 
 All the funds are re-invested in the game to buy original art, paying editors or translators.
 
 Thank you, and go power your storytelling!
 
-<iframe frameborder="0" src="https://itch.io/embed/1196268?bg_color=ffffff&amp;fg_color=324149&amp;link_color=2d436e&amp;border_color=58676f" width="100%" height="167"><a href="https://farigames.itch.io/charge-rpg">Charge RPG | Free, Open and Generic by Fari Games</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/1196268?bg_color=ffffff&amp;fg_color=324149&amp;link_color=2d436e&amp;border_color=58676f" width="100%" height="167"><a href="https://fari-rpgs.itch.io/charge-rpg">Charge RPG | Free, Open and Generic by Fari RPGs</a></iframe>
 
 # Credits
 
 | Name                         | Role                             | Discord                    | Twitter                                   | Itch                                  |
 | ---------------------------- | -------------------------------- | -------------------------- | ----------------------------------------- | ------------------------------------- |
-| `René-Pier Deshaies-Gélinas` | original author, core maintainer | RPDeshaies#4116            | [Link](https://twitter.com/RPDeshaies)    | [Link](https://farigames.itch.io/)    |
+| `René-Pier Deshaies-Gélinas` | original author, core maintainer | RPDeshaies#4116            | [Link](https://twitter.com/RPDeshaies)    | [Link](https://fari-rpgs.itch.io/)    |
 | `Alexandre L. Lescarbeau`    | sounding board                   |                            |                                           |                                       |
 | `Valdy`                      | extra contributor                | 5-142857#7577              |                                           |                                       |
 | `Nugat`                      | extra contributor                |                            |                                           |                                       |
@@ -2462,7 +2715,7 @@ To do so, copy the text below in your own game and things should be good to go.
 
 ## Attribution
 
-This work is based on Charge RPG, product of Fari Games, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+This work is based on Charge RPG, product of Fari RPGs, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 
 This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
