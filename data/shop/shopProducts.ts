@@ -440,7 +440,7 @@ export const shop: IShop = {
           tags: ["srd", "new"],
           license: License.CC_BY_4,
           links: {
-            itchIo: "https://urania-games.itch.io/",
+            itchIo: "https://urania-games.itch.io/bad-time-game-srd",
           },
           image: "https://gyazo.com/35cece593383cab956d19e42b7e9a925.png",
         },
