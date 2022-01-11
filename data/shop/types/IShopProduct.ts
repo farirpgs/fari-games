@@ -2,6 +2,11 @@ export type IShop = {
   authors: Array<IShopAuthor>;
 };
 
+export enum ShopCategory {
+  SRD = "srds",
+  Game = "games",
+}
+
 export type IShopAuthor = {
   name: string;
   slug: string;
@@ -21,6 +26,7 @@ export type IShopProduct = {
   affiliate?: boolean;
   license?: License;
   footer?: string;
+  category: ShopCategory;
   links: {
     driveThru?: string;
     itchIo?: string;

@@ -142,7 +142,8 @@ export function ProductDetails(props: {
                       size="large"
                       variant="contained"
                       component={ReactRouterLink}
-                      to={AppLinksFactory.makeGameLink({
+                      to={AppLinksFactory.makeProductContentLink({
+                        category: props.product.category,
                         author: props.product.author.slug,
                         game: props.product.slug,
                       })}

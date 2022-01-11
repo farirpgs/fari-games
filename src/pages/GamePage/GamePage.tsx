@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import React, { useEffect, useState } from "react";
 import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
 import { shopProducts } from "../../../data/shop/shopProducts";
+import { ShopCategory } from "../../../data/shop/types/IShopProduct";
 import { Document } from "../../components/Document/Document";
 import { Page } from "../../components/Page/Page";
 import { ReactRouterLink } from "../../components/ReactRouterLink/ReactRouterLink";
@@ -150,7 +151,8 @@ export function GamePage() {
           language={language}
           onLanguageChange={(newLanguage) => {
             history.push(
-              AppLinksFactory.makeGameLink({
+              AppLinksFactory.makeProductContentLink({
+                category: product?.category as ShopCategory,
                 author: authorSlug,
                 game: gameSlug,
                 language: newLanguage,

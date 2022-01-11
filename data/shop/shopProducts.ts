@@ -1,4 +1,9 @@
-import { IShop, IShopProductWithAuthor, License } from "./types/IShopProduct";
+import {
+  IShop,
+  IShopProductWithAuthor,
+  License,
+  ShopCategory,
+} from "./types/IShopProduct";
 
 export const shop: IShop = {
   authors: [
@@ -12,6 +17,7 @@ export const shop: IShop = {
         {
           name: "Charge RPG",
           slug: "charge-rpg",
+          category: ShopCategory.SRD,
           description: "Ready to use generic RPG system.",
           license: License.CC_BY_4,
           footer:
@@ -25,6 +31,7 @@ export const shop: IShop = {
         {
           name: "Charge SRD",
           slug: "charge-srd",
+          category: ShopCategory.SRD,
           description:
             "Power your next game with this condensed version of Charge RPG",
           license: License.CC_BY_4,
@@ -48,6 +55,7 @@ export const shop: IShop = {
         {
           name: "Lumen",
           slug: "lumen",
+          category: ShopCategory.SRD,
           description: "RPG system for action packed, power fantasy games.",
           tags: ["lumen", "srd"],
           image: "https://gyazo.com/047b237d11168d35c52912e0f64ae096.png",
@@ -69,6 +77,7 @@ export const shop: IShop = {
           slug: "fate-condensed",
           description:
             "The latest version of the Fate System. Compact, stand-alone and streamlined for clarity and ease of reference.",
+          category: ShopCategory.SRD,
           license: License.CC_BY_3,
           footer:
             "Text by Evil Hat Productions under a Creative Commons Attribution 3.0 license (CC BY 3.0).\n Product images are copyrighted and used here with the express permission of Evil Hat Productions, LLC.\n The Fate Core font is © Evil Hat Productions, LLC and is used with permission. The Four Actions icons were designed by Jeremy Keller.",
@@ -85,6 +94,7 @@ export const shop: IShop = {
           slug: "fate-accelerated",
           description:
             "If you want to get started quickly, this dialed-down version of Fate Core will get you going in no time.",
+          category: ShopCategory.SRD,
           footer:
             "Product images are copyrighted and used here with the express permission of Evil Hat Productions, LLC. \n The Fate Core font is © Evil Hat Productions, LLC and is used with permission. The Four Actions icons were designed by Jeremy Keller.",
           tags: ["fate", "ttrpg"],
@@ -100,6 +110,7 @@ export const shop: IShop = {
           slug: "fate-core",
           description:
             "A Complete guide to Fate with rules, examples and tips. A most if your thirst for knowledge was not satisfied with Fate Condensed.",
+          category: ShopCategory.SRD,
           footer:
             "Product images are copyrighted and used here with the express permission of Evil Hat Productions, LLC. \n The Fate Core font is © Evil Hat Productions, LLC and is used with permission. The Four Actions icons were designed by Jeremy Keller.",
           tags: ["fate", "ttrpg"],
@@ -115,6 +126,7 @@ export const shop: IShop = {
           slug: "fate-system-toolkit",
           description:
             "This expansion for the Fate Core System contains tons of flexible, hackable and adaptable rules that fits any world you are trying to play in.",
+          category: ShopCategory.SRD,
           footer:
             "Product images are copyrighted and used here with the express permission of Evil Hat Productions, LLC. \n The Fate Core font is © Evil Hat Productions, LLC and is used with permission. The Four Actions icons were designed by Jeremy Keller.",
           tags: ["fate", "ttrpg"],
@@ -130,6 +142,7 @@ export const shop: IShop = {
           slug: "fate-adversary-toolkit",
           description:
             "What ever the genre, this book gives you the tools you need to create great obstacles for you stories.",
+          category: ShopCategory.SRD,
           footer:
             "Product images are copyrighted and used here with the express permission of Evil Hat Productions, LLC. \n The Fate Core font is © Evil Hat Productions, LLC and is used with permission. The Four Actions icons were designed by Jeremy Keller.",
           tags: ["fate", "ttrpg"],
@@ -153,6 +166,7 @@ export const shop: IShop = {
           name: "24XX",
           slug: "24xx",
           description: "A lo-fi sci-fi RPG SRD.",
+          category: ShopCategory.SRD,
           tags: ["24xx", "srd"],
           license: License.CC_BY_4,
           footer:
@@ -178,6 +192,7 @@ export const shop: IShop = {
           slug: "guided-by-the-sun",
           description:
             "A GM-less, card-based system, where players tell the story of a protagonist undertaking a journey and making friends along the way.",
+          category: ShopCategory.SRD,
           tags: ["srd"],
           image: "https://gyazo.com/122ae6210bcd519928bc297267593423.png",
           links: {
@@ -199,6 +214,7 @@ export const shop: IShop = {
           slug: "resistance-toolbox",
           description:
             "Make your own games of desperate struggle using the Resistance System, the core rules that power the Spire RPG.",
+          category: ShopCategory.SRD,
           tags: ["resistance", "srd"],
           image: "https://gyazo.com/a8c7868751ecb508bfefe3f6e010b2a9.jpg",
           links: {},
@@ -218,6 +234,7 @@ export const shop: IShop = {
           slug: "harmony-drive",
           description:
             "Build a campaign-style adventure TTRPG, one that lets players express themselves, work together, and make difficult choices, this is the system for you!",
+          category: ShopCategory.SRD,
           license: License.CC_BY_3,
           footer:
             "Text by Peach Garden Games under a Creative Commons Attribution 3.0 license (CC BY 3.0)",
@@ -231,6 +248,7 @@ export const shop: IShop = {
           name: "Carta",
           slug: "carta",
           description: "A Toolkit For Making Exploration Games.",
+          category: ShopCategory.SRD,
           license: License.CC_BY_3,
           footer:
             "Text by Peach Garden Games under a Creative Commons Attribution 3.0 license (CC BY 3.0)",
@@ -254,6 +272,7 @@ export const shop: IShop = {
           name: "Second Guess System",
           slug: "second-guess-system",
           description: "Power your solo role-playing games.",
+          category: ShopCategory.SRD,
           tags: ["srd"],
           image: "https://gyazo.com/6586967082cf5b9c58d9023e57efc5d3.jpg",
           links: {
@@ -274,6 +293,7 @@ export const shop: IShop = {
           slug: "tricube-tales",
           description:
             "A rules-light roleplaying system capable of handling a wide variety of genres and settings.",
+          category: ShopCategory.SRD,
           tags: ["srd"],
           license: License.CC_BY_3,
           footer:
@@ -301,6 +321,7 @@ export const shop: IShop = {
           slug: "trophy-srd",
           description:
             "Build your own rules-light, risk-heavy games rooted in the Trophy SRD.",
+          category: ShopCategory.SRD,
           tags: ["srd"],
           license: License.CC_BY_4,
           links: {},
@@ -321,6 +342,7 @@ export const shop: IShop = {
           name: "Motif Toolkit SRD",
           slug: "motif-toolkit-srd",
           description: "A solo play oracle, an add-on solo RPG system",
+          category: ShopCategory.SRD,
           tags: ["srd"],
           license: License.CC_BY_3,
           links: {},
@@ -344,6 +366,7 @@ export const shop: IShop = {
           slug: "ven6-storytelling-system-srd",
           description:
             "Create narrative storytelling roleplaying games with conflict mechanics and a GM option.",
+          category: ShopCategory.SRD,
           tags: ["srd"],
           license: License.CC_BY_3,
           links: {
@@ -368,6 +391,7 @@ export const shop: IShop = {
           slug: "threads-of-lachesis",
           description:
             "A guide to create solo games or generators with branched random prompts that the player organizes into a cohesive sequence via a single roll.",
+          category: ShopCategory.SRD,
           tags: ["srd", "new"],
           license: License.CC_BY_4,
           links: {
@@ -392,6 +416,7 @@ export const shop: IShop = {
           slug: "turbo-fate",
           description:
             "Turbo-Fate ist die deutsche Übersetzung von Fate Accelerated und eine gekürzte Form des beliebten Fate-Core-Rollenspiels.",
+          category: ShopCategory.SRD,
           tags: ["srd", "fate"],
           image: "https://gyazo.com/8a15fdf2f519522f5c7d97c6a6310d47.png",
           links: {},
@@ -413,6 +438,7 @@ export const shop: IShop = {
           slug: "save-the-srd",
           description:
             "The SAVE System is a framework for building quick-playing, low-prep, story-focused RPGs.",
+          category: ShopCategory.SRD,
           tags: ["srd", "new"],
           license: License.CC_BY_4,
           image: "https://gyazo.com/f885d1354a3a2950f1ba11ec28ef56a3.png",
@@ -437,6 +463,7 @@ export const shop: IShop = {
           slug: "bad-time-srd",
           description:
             "Give characters a laughably bad time with the Bad Time Game SRD!",
+          category: ShopCategory.SRD,
           tags: ["srd", "new"],
           license: License.CC_BY_4,
           links: {
@@ -459,6 +486,7 @@ export const shop: IShop = {
           slug: "five-powers-srd",
           description:
             "The Five Powers SRD harnesses the full potential of the 5 Elements of East-Asian Philosophy so you can create evocative games!",
+          category: ShopCategory.SRD,
           image: "https://gyazo.com/0784a27c26e7811eb327e64cf8718028.jpg",
           links: {
             itchIo: "https://wuderpg.itch.io/wude-the-five-powers",

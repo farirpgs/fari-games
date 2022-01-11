@@ -82,7 +82,10 @@ function App() {
 
                     <Route
                       exact
-                      path="/:language/srds/:author/:game/:chapter?"
+                      path={[
+                        "/:language/srds/:author/:game/:chapter?",
+                        "/:language/games/:author/:game/:chapter?",
+                      ]}
                       component={GamePage}
                     />
                     <Route

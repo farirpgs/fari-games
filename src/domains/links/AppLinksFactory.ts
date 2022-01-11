@@ -1,4 +1,7 @@
-import { IShopProductWithAuthor } from "../../../data/shop/types/IShopProduct";
+import {
+  IShopProductWithAuthor,
+  ShopCategory,
+} from "../../../data/shop/types/IShopProduct";
 
 export const AppLinksFactory = {
   makeHomeLink() {
@@ -19,11 +22,16 @@ export const AppLinksFactory = {
     }
     return `/browse/${game.author.slug}/${game.slug}`;
   },
-  makeGameLink(props: { author: string; game: string; language?: string }) {
+  makeProductContentLink(props: {
+    author: string;
+    category: ShopCategory;
+    game: string;
+    language?: string;
+  }) {
     if (!props.language || props.language === "en") {
-      return `/en/srds/${props.author}/${props.game}`;
+      return `/en/${props.category}/${props.author}/${props.game}`;
     }
-    return `/${props.language}/srds/${props.author}/${props.game}`;
+    return `/${props.language}/${props.category}/${props.author}/${props.game}`;
   },
   makeSearchPage(query: string) {
     return `/search?query=${query}`;
