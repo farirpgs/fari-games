@@ -372,6 +372,21 @@ Once you've decided how many charges you want to consume, roll and interpret the
 - On a `6`, the `consequence` is avoided.
 - On a `66`, the `consequence` is avoided, and you get +1 position for your next roll.
 
+> #### Designer Note: Hacking Determination Rolls
+> 
+> Determination rolls act as a mechanism for the players to say "no, I don't think so" when something bad happens to their character.
+> 
+> There are two important things you should look at if you want to hack this mechanic. 
+> 
+> - First, how does one resist a consequence. 
+> - Second, what should be the cost of trying to resist a consequence. 
+> 
+> By default, you try to resist by spending momentum to build a determination pool in the hope of reducing or even canceling an incoming consequence. The cost, in the case, is paid in `momentum` since you will not be able to spend later to `push yourself` or `assist` an ally.
+> 
+> Perhaps that for your game, characters resist consequences by making a roll based on certain stats. Another option might be for the PCs to sacrifice certain assets, previously defined as `details`, to outright cancel a consequence.
+> 
+> The thing to keep in mind is that this mechanic should encourage players to truly take the time to consider if what they are sacrificing is worth the shot.
+
 ## Clocks
 
 Clocks are circles divided in either 4, 6 or 8 segments used to track a task's **progress** or escalating **danger** in a scene. They can also be used on a PC's character sheet to track the long term `projects` that they are working on or the `complications` that they create in the world.
@@ -402,6 +417,10 @@ The character's condition imposes narrative restrictions as to what the characte
 
 When the 4 segments of the `stress clock` are filled, the PC is taken out for the scene, and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
 
+> #### Designer Note: Hacking Health
+> 
+> 
+
 ## Recovery
 
 When a PC gets hurt or stressed as a result of one of their actions, they take `stress` and their condition worsen. As time passes, they will get better, and their condition will improve.
@@ -409,6 +428,10 @@ When a PC gets hurt or stressed as a result of one of their actions, they take `
 The only way to recover from `stress` is in-fiction. You can either rest, lay low or seek medical attention. When doing so, the GM will look at the fiction and tell you how much `stress` (1-4) you clear on your `stress clock`.
 
 As your character gets better, you also need to update your `condition` to represent your character's current state.
+
+> #### Designer Note: Hacking Recovery
+> 
+> 
 
 ## Progression
 
