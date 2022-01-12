@@ -2401,7 +2401,7 @@ In a pinch, the ticks on the progress clock can also be used as a substitute for
 
 Both `supporting details` and `key concepts` are `details` as described in Charge's [Character Creation rules](https://fari.games/en/srds/fari-rpgs/charge-rpg/creating-your-character#details). `Supporting details` should be specific people, places or things, such as specific `world forces`, while `key concepts` are more wide-reaching. 
 
-Like with character creation, `details` on the `party sheet` are facts about the party that can be used for story telling. They can also offer narrative liberties - potentially giving players permission to take certain actions. While the GM will have the final say, the entire party should have a chance to help develop and decide on these details at character creation. Much like character details, there will also have the chance to change these over time through play.
+Like with character creation, `details` on the `party sheet` are facts about the party that can be used for story telling. They also offer narrative liberties, potentially giving players permission to take certain actions. While the GM will have the final say, the entire party should have a chance to help develop and decide on these details at character creation. Much like character details, there will also have the chance to change these over time through play.
 
 ### Zooming in and out
 
