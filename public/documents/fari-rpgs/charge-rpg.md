@@ -2511,7 +2511,7 @@ The `party sheet` holds two clocks which fight against each other, one dragging 
 
 ### Ticking the Danger Clock
 
-There may be times when something very bad happens to the party when a consequence is rolled. If this happens, the party can agree that adding segments to the `danger` clock of the `party sheet` makes sense. Generally this should represent a major consequence as it can have long-term implications, and should not be taken lightly - no more than a couple of times per session is probably a good rule of thumb. Marking the `danger` clock as a consequence adds segments to the equal to the consequence rating.
+As the PCs take risky or even desperate actions, there will be times when those actions will result in big consequences. When that happens, the party can evaluate if that consequence should be applied to the `danger clock` of the party sheet. As it has long-term implications, this option should not be taken lightly - no more than a couple of times per session is probably a good rule of thumb. Marking the `danger` clock as a consequence adds segments to the equal to the consequence rating.
 
 > #### Example
 > 
