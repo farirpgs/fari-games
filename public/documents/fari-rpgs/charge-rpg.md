@@ -2628,11 +2628,11 @@ Granting progress on the `party sheet` could happen when milestones or long-term
 
 > ## Recap
 >
-> `Supporting details` are party level details that offer narrative benefits and altered position or effect, based on whether they are `positive` or `negative`. They relate to specific people, groups, places or assets that hold narrative weight for the party. 
+> `Supporting details` are party level details that offer narrative liberties and altered position or effect (if they are `positive` or `negative`). They relate to specific people, groups, places or assets that hold narrative weight for the party. 
 >
-> `Key concepts` are 4 higher level descriptors that `supporting details` are grouped into. Having three or more positive (or negative) `supporting details` makes the `key concept` positive (or negative). 
+> `Key concepts` are 4 higher level details that `supporting details` are grouped into. Having three or more positive (or negative) `supporting details` makes the `key concept` positive (or negative), and can alter positions of all rolls related to that category.
 >
-> `Supporting details` can be upgraded or downgraded based on filling the `progress` and `danger` clocks, respectively. The `danger` clock might be filled as a consequence, while the `progress` clock is filled each milestone and as the result of `long-term projects`. 
+> `Supporting details` can be upgraded or downgraded based on filling the `progress` and `danger` clocks, respectively. The `danger` clock might be filled as a consequence, while the `progress` clock is filled each milestone and as the result of `long-term projects`. Ticks on the `progress` clock can be burned as momentum on a one-for-one basis.
 
 
 # Making a Compelling Campaign | Preparing the Game
