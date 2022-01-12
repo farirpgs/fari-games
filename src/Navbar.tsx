@@ -204,7 +204,18 @@ export function Navbar() {
               game: "charge-rpg",
             })}
           >
-            Charge RPG ⚡
+            Charge RPG
+          </NavLink>
+          <NavLink
+            onClick={() => {
+              setMenuOpen(false);
+            }}
+            to={AppLinksFactory.makeGameLink({
+              author: "fari-rpgs",
+              game: "charge-srd",
+            })}
+          >
+            Charge SRD
           </NavLink>
         </Grid>
         <Grid item>
