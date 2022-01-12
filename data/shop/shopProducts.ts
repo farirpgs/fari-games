@@ -195,7 +195,7 @@ export const shop: IShop = {
       },
       products: [
         {
-          name: "The Resistance Toolbox",
+          name: "Resistance Toolbox",
           slug: "resistance-toolbox",
           description:
             "Make your own games of desperate struggle using the Resistance System, the core rules that power the Spire RPG.",
@@ -321,7 +321,7 @@ export const shop: IShop = {
           name: "Motif Toolkit SRD",
           slug: "motif-toolkit-srd",
           description: "A solo play oracle, an add-on solo RPG system",
-          tags: ["srd", "new"],
+          tags: ["srd"],
           license: License.CC_BY_3,
           links: {},
           image: "https://gyazo.com/8488aba599f1a0fafef849748f5137f1.png",
@@ -344,7 +344,7 @@ export const shop: IShop = {
           slug: "ven6-storytelling-system-srd",
           description:
             "Create narrative storytelling roleplaying games with conflict mechanics and a GM option.",
-          tags: ["srd", "new"],
+          tags: ["srd"],
           license: License.CC_BY_3,
           links: {
             itchIo: "https://jwalberg.itch.io/ven6-srd",
@@ -392,7 +392,7 @@ export const shop: IShop = {
           slug: "turbo-fate",
           description:
             "Turbo-Fate ist die deutsche Übersetzung von Fate Accelerated und eine gekürzte Form des beliebten Fate-Core-Rollenspiels.",
-          tags: ["srd", "fate", "new"],
+          tags: ["srd", "fate"],
           image: "https://gyazo.com/8a15fdf2f519522f5c7d97c6a6310d47.png",
           links: {},
           footer:
@@ -409,7 +409,7 @@ export const shop: IShop = {
       },
       products: [
         {
-          name: "The SAVE System",
+          name: "SAVE System",
           slug: "save-the-srd",
           description:
             "The SAVE System is a framework for building quick-playing, low-prep, story-focused RPGs.",
@@ -421,6 +421,50 @@ export const shop: IShop = {
           },
           footer:
             "Text by Don Bisdorf under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+        },
+      ],
+    },
+    {
+      name: "Kyle Tam",
+      slug: "kyle-tam",
+      links: {
+        twitter: "https://twitter.com/PercyPropa?s=20",
+        website: "https://urania-games.itch.io/",
+      },
+      products: [
+        {
+          name: "Bad Time SRD",
+          slug: "bad-time-srd",
+          description:
+            "Give characters a laughably bad time with the Bad Time Game SRD!",
+          tags: ["srd", "new"],
+          license: License.CC_BY_4,
+          links: {
+            itchIo: "https://urania-games.itch.io/bad-time-game-srd",
+          },
+          image: "https://gyazo.com/35cece593383cab956d19e42b7e9a925.png",
+        },
+      ],
+    },
+    {
+      name: "WuDeRPG",
+      slug: "wuderpg",
+      links: {
+        twitter: "https://twitter.com/WuDeRPG",
+        website: "https://wuderpg.wordpress.com/",
+      },
+      products: [
+        {
+          name: "Five Powers SRD",
+          slug: "five-powers-srd",
+          description:
+            "The Five Powers SRD harnesses the full potential of the 5 Elements of East-Asian Philosophy so you can create evocative games!",
+          image: "https://gyazo.com/0784a27c26e7811eb327e64cf8718028.jpg",
+          links: {
+            itchIo: "https://wuderpg.itch.io/wude-the-five-powers",
+          },
+          tags: ["srd", "new"],
+          // license:License.CC_BY_4,
         },
       ],
     },
