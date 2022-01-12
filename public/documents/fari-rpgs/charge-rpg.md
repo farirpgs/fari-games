@@ -2431,6 +2431,8 @@ Examples for each `key concept` and related `supporting details` are available f
 
 The collection of `supporting details` for a `key concept` can be converted to a numeric score between -4 and +4. The overarching `key concept` is considered neutral until the _majority_ of `supporting details` are negative (score less than -2), or positive (score greater than 2) - changing the `disposition` of the `key concept` to match. When the `key concept` changes disposition it should be rewritten to represent the change in fortunes for the party.
 
+In cases where `supporting details` or `key concepts` have conflicting `dispositions` that both might impact a roll, they will end up cancelling each other out to a neutral `disposition`.
+
 ### Party Creation
 
 At the start of a campaign, the party should generally start with each `key concept` at -1, 0, or +1 with one or two `supporting details` written for each concept. This keeps the play group from having to do too much planning up front and offers room to expand as the story goes. This can be pushed further to create interesting balances that fit the story the play group wants to tell.
@@ -2562,7 +2564,7 @@ When the progress clock fills up the players should decide, based on recent even
 > 
 > The party is back at spacedock and has gathered enough progress to fill the progress clock. They collectively decide they would like to get the target off their back. They choose to improve the authority `supporting detail` “falsified spacecraft registration” (-), and rewrite it as “overhauled ship hides stolen past” (0). They haven't completely gotten rid of the mysterious origin of the ship, but it won’t put them in such disadvantageous `positions` any more.
 
-## Uses for Key Concepts and Supporting Details
+## Uses for Party Details
 
 > #### Designer Note
 > 
@@ -2570,7 +2572,7 @@ When the progress clock fills up the players should decide, based on recent even
 
 ### Details Affect Position
 
-When dealing with a situation that directly relates to a `supporting detail` or more broadly relates to a `key concept`, the `disposition` of the `detail` (positive or negative) may be impact the `position` of the roll.
+When dealing with a situation that directly relates to a `supporting detail` or more broadly relates to a `key concept`, the `disposition` of the `detail` (positive or negative) may be impact the `position` of the roll. In cases where `supporting details` or `key concepts` have conflicting `dispositions` that might impact a roll, they cancel each other out.
 
 ### Improved Effect
 
@@ -2608,15 +2610,15 @@ Neutral `supporting details` are often a mix of positive and negative traits and
 
 ## Combining with other Rules
 
-### Attachment Extra - Damaging Supporting Details Directly
+### Attachment Extra
 
 For some supporting details it may make sense to take damage directly to a supporting detail rather than mark a consequence on the party’s danger clock. In this case you might drop the danger clock completely and do damage directly to the details on the `party sheet`.
 
-### World Forces - Prebuilt Adversaries and Allies
+### World Forces
 
-An obvious way for Powered by Charge games to make the `party sheet` easier to fill out is to define some world forces and allow players to pick some as allies or adversaries.
+An straightforward way for Powered by Charge games to make the `party sheet` easier to fill out is to define some world forces and allow players to pick some as allies or adversaries.
 
-### World Extra - Randomize Supporting Details
+### World Extra
 
 The World extra offers options to help the GM plan the next mission. One of the three cards drawn could refer to a specific `supporting detail` to tie the adventure into the existing fiction found in the `party sheet`. 
 
