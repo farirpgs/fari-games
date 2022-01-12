@@ -2636,6 +2636,101 @@ Granting progress on the `party sheet` could happen when milestones or long-term
 >
 > `Supporting details` can be upgraded or downgraded based on filling the `progress` and `danger` clocks, respectively. The `danger` clock might be filled as a consequence, while the `progress` clock is filled each milestone and as the result of `long-term projects`. Ticks on the `progress` clock can be burned as momentum on a one-for-one basis.
 
+# Threat Level Extra | Extras
+
+**An alternate way to think adversity in Charge**
+
+\- By othelarian
+
+---
+
+Sometimes, ennemies are so powerful they have a direct effect over characters, hindering their abilityto fight back.
+
+Threat Level is an extra about adversity and how it can affect the character's dice rolls.
+
+## What is a Threat Level?
+
+While adversity doesn't affect directly the character, it's ok to use position and effect. But when it has an impact, it can be less obvious on how to deal with it and make it count mechanically speaking.
+
+`Threat Level` is a way to represent this.
+
+It takes the form of a value associated with the adversity. The higher the value, the most threatening it is.
+
+## How to define a Threat Level?
+
+A Threat Level has two main components:
+
+* A defined source of the `Threat Level`
+* A value associated with the source
+
+The source must be clearly identify and describe to let no room for player's interpretation. Also, the source must define how it generates the `Threat Level`.
+
+> #### Threat Level example: the mist
+>
+> The `mist` wrap the characters in its moisty texture, overwhelming every move, hindering the perception, blunting the dexterity.
+> A heavy `mist` is a simple threat, with a value of 1, just enough to slightly deter characters.
+> A poisonous `mist` can be lethal, and more than just hindering the senses the protection needed to survive it is a reason by itself to rise the `Threat Level` to 2.
+
+> #### Threat Level example: the hexer
+>
+> More than a simple witcher, the `hexer` is a real issue for a group of intrepid adventurer, plaguing them with hexes, slowing them.
+> The `hexer`'s spells are typically `Threat Level` applied to a single character or to the entire group, depending on the `hexer`'s power.
+
+### Is there a limit to the Threat Level value?
+
+Depends on the group, but a good range would be between 1 and 3. Keep in mind that a higher value means a greater chance to totally cancel character's roll, and so make them fail really hard.
+
+## Rolling with the Threat Dice
+
+Now that the `Threat Level` is clearly defined, what to do with its value?
+
+Well, it's easy: when a player make a roll, and if the threat is applicable to the roll (like perception with the mist), the player also roll the number of dice equal to the `Threat Level` value in the same time.
+
+Let's call the character's dice pool the character's dice, and the dice roll for the `Threat Level` the threat dice.
+
+Now, it's a bit tricky: each threat dice cancel a character's **dice of the same value**.
+
+A little example?
+
+> #### first roll case
+>
+> The character as a character's dice of 2, and the `Threat Level` has a value of 3.
+>
+> Then, the player rolls character's dice and get 3 and 5.
+> In the same time, they rolls threat dice and get 2, 3 and 6.
+> The 3 on character's roll is cancel.
+>
+> The result is 5.
+
+> #### second roll case
+>
+> Same situation, but the player rolls 2, 3 and 5 on threat dice. Then both 3 and 5 are canceled.
+>
+> The result is 0, a critical fail!
+
+## Tune it to make it deadlier
+
+A first dial to turn the extra a bit harsher for the players, on a 6 on a threat dice, the 6 automatically cancel one character's die, no matter its value, and the higher.
+
+> #### first roll case, with this dial
+>
+> With the threat dice result 2, 3 and 6, the 6 cancel the 5 (the highest die of the character's dice pool).
+>
+> The result is 2.
+
+And it's possible to be harsher than this by canceling every character's dice that are equal **or inferior** to the threat dice.
+
+> #### harsher than the rest
+>
+> Same situation, with 2 character's dice and 3 threat dice.
+> The player rolls on character's dice 3 and 5. The result on the threat are 2, 4 and 6. The 6 cancels the 5, and the 4 cancels the 3.
+>
+> The result is 2.
+
+## Credits
+
+This extra is a direct inspiration of Neon City Overdrive.
+
 
 # Making a Compelling Campaign | Preparing the Game
 
