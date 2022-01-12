@@ -2431,6 +2431,8 @@ Examples for each `key concept` and related `supporting details` are available f
 
 The collection of `supporting details` for a `key concept` can be converted to a numeric score between -4 and +4. The overarching `key concept` is considered neutral until the _majority_ of `supporting details` are negative (score less than -2), or positive (score greater than 2) - changing the `disposition` of the `key concept` to match. When the `key concept` changes disposition it should be rewritten to represent the change in fortunes for the party.
 
+In cases where `supporting details` or `key concepts` have conflicting `dispositions` that both might impact a roll, they will end up cancelling each other out to a neutral `disposition`.
+
 ### Party Creation
 
 At the start of a campaign, the party should generally start with each `key concept` at -1, 0, or +1 with one or two `supporting details` written for each concept. This keeps the play group from having to do too much planning up front and offers room to expand as the story goes. This can be pushed further to create interesting balances that fit the story the play group wants to tell.
@@ -2570,7 +2572,7 @@ When the progress clock fills up the players should decide, based on recent even
 
 ### Details Affect Position
 
-When dealing with a situation that directly relates to a `supporting detail` or more broadly relates to a `key concept`, the `disposition` of the `detail` (positive or negative) may be impact the `position` of the roll.
+When dealing with a situation that directly relates to a `supporting detail` or more broadly relates to a `key concept`, the `disposition` of the `detail` (positive or negative) may be impact the `position` of the roll. In cases where `supporting details` or `key concepts` have conflicting `dispositions` that might impact a roll, they cancel each other out.
 
 ### Improved Effect
 
