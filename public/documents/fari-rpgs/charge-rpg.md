@@ -2509,10 +2509,11 @@ The GM or players may suggest that marking a consequence on the `party sheet` ma
 ### Filling the Danger Clock
 
 When the danger clock fills up the players should decide, based on recent events, what makes the most sense in the storyline:
-Add a new `supporting detail` - the `disposition` of this detail should generally start at `neutral`. Note `supporting details` should all be specific, unique details that tie back into the fiction that are expected to show up again. 
-Downgrade the `disposition` of an existing `supporting detail` (moving from `positive` to `neutral` to ` negative`).
-Remove or replace an existing neutral `supporting detail`. If all the spaces that make sense are taken or negative, consider whether recent events might have completely supplanted an existing `supporting detail`. This could be a good fit for story elements that have served their purpose or didn't really get much play. 
-Create a new immediate threat - the GM exposes a danger and threatens the players with a negative `supporting detail` _unless_ they complete a mission to prevent it.
+
+* Add a new `supporting detail` - the `disposition` of this detail should generally start at `neutral`. Note `supporting details` should all be specific, unique details that tie back into the fiction that are expected to show up again. 
+* Downgrade the `disposition` of an existing `supporting detail` (moving from `positive` to `neutral` to ` negative`).
+* Remove or replace an existing neutral `supporting detail`. If all the spaces that make sense are taken or negative, consider whether recent events might have completely supplanted an existing `supporting detail`. This could be a good fit for story elements that have served their purpose or didn't really get much play. 
+* Create a new immediate threat - the GM exposes a danger and threatens the players with a negative `supporting detail` _unless_ they complete a mission to prevent it.
 
 > #### Example
 > 
@@ -2540,10 +2541,11 @@ The segments of the progress clock can be used as a shared pool of momentum. Pla
 ### Filling the Progress Clock
 
 When the progress clock fills up the players should decide, based on recent events, what makes the most sense in the storyline:
-Add a new `supporting detail` - the `disposition` of this detail should generally start at `neutral`. Note `supporting details` should all be specific, unique details that tie back into the fiction, so this is a good chance to promote NPCs to recurring characters, or lean into interesting bits of the story.
-Upgrade the `disposition` of an existing `supporting detail` (moving from `negative` to `neutral` to `positive`).
-Remove or replace an existing neutral `supporting detail`. If all the spaces that make sense are taken or positive, consider whether recent events might have completely supplanted an existing `supporting detail`. This could be a good fit for story elements that have served their purpose or didn't really get much play.
-Create a new immediate opportunity - the GM exposes an opportunity and offers the players with a positive `supporting detail` _if_ they complete a mission to obtain it.
+
+* Add a new `supporting detail` - the `disposition` of this detail should generally start at `neutral`. Note `supporting details` should all be specific, unique details that tie back into the fiction, so this is a good chance to promote NPCs to recurring characters, or lean into interesting bits of the story.
+* Upgrade the `disposition` of an existing `supporting detail` (moving from `negative` to `neutral` to `positive`).
+* Remove or replace an existing neutral `supporting detail`. If all the spaces that make sense are taken or positive, consider whether recent events might have completely supplanted an existing `supporting detail`. This could be a good fit for story elements that have served their purpose or didn't really get much play.
+* Create a new immediate opportunity - the GM exposes an opportunity and offers the players with a positive `supporting detail` _if_ they complete a mission to obtain it.
 
 > #### Example
 > 
