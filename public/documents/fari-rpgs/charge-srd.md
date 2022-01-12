@@ -381,7 +381,7 @@ Once you've decided how many charges you want to consume, roll and interpret the
 > - First, how does one resist a consequence. 
 > - Second, what should be the cost of trying to resist a consequence. 
 > 
-> By default, you try to resist by spending momentum to build a determination pool in the hope of reducing or even canceling an incoming consequence. The cost, in the case, is paid in `momentum` since you will not be able to spend later to `push yourself` or `assist` an ally.
+> By default, you try to resist by spending momentum to build a determination pool in the hope of reducing or even canceling an incoming consequence. In this case, the cost is paid in `momentum` since you won't be able to spend more later to `push yourself` or `assist` an ally.
 > 
 > Perhaps that for your game, characters resist consequences by making a roll based on certain stats. Another option might be for the PCs to sacrifice certain assets, previously defined as `details`, to outright cancel a consequence.
 > 
