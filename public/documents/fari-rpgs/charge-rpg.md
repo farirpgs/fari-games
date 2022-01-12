@@ -2564,7 +2564,7 @@ When the progress clock fills up the players should decide, based on recent even
 > 
 > The party is back at spacedock and has gathered enough progress to fill the progress clock. They collectively decide they would like to get the target off their back. They choose to improve the authority `supporting detail` “falsified spacecraft registration” (-), and rewrite it as “overhauled ship hides stolen past” (0). They haven't completely gotten rid of the mysterious origin of the ship, but it won’t put them in such disadvantageous `positions` any more.
 
-## Uses for Key Concepts and Supporting Details
+## Uses for Party Details
 
 > #### Designer Note
 > 
@@ -2610,15 +2610,15 @@ Neutral `supporting details` are often a mix of positive and negative traits and
 
 ## Combining with other Rules
 
-### Attachment Extra - Damaging Supporting Details Directly
+### Attachment Extra
 
 For some supporting details it may make sense to take damage directly to a supporting detail rather than mark a consequence on the party’s danger clock. In this case you might drop the danger clock completely and do damage directly to the details on the `party sheet`.
 
-### World Forces - Prebuilt Adversaries and Allies
+### World Forces
 
-An obvious way for Powered by Charge games to make the `party sheet` easier to fill out is to define some world forces and allow players to pick some as allies or adversaries.
+An straightforward way for Powered by Charge games to make the `party sheet` easier to fill out is to define some world forces and allow players to pick some as allies or adversaries.
 
-### World Extra - Randomize Supporting Details
+### World Extra
 
 The World extra offers options to help the GM plan the next mission. One of the three cards drawn could refer to a specific `supporting detail` to tie the adventure into the existing fiction found in the `party sheet`. 
 
