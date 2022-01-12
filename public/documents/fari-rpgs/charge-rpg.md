@@ -2345,7 +2345,7 @@ An Extra for Charge to add both narrative structure and mechanical benefits to t
 
 The group of players is referred to in this extra as a `party`. This group has a separate `party sheet` which tracks `details` of how they are perceived by the world around them, as well as maintaining party-level `danger` and `progress` clocks.
 
-The `party sheet` can represent things such as their “HQ” or “Ship”. It can also be used to represent relationships with important groups or specific NPCs. 
+The `party sheet` can represent things such as their “HQ” or “Ship”. It can also be used to represent relationships with important factions or specific NPCs. 
 
 > #### Example
 > 
@@ -2372,11 +2372,11 @@ When `key concepts` or `supporting details` are positive they grant improvements
 > All of these `key concepts` are still neutral in `disposition`, but Authority is close to becoming negative. The team will have to keep a low profile for a while if they want to avoid being put into “desperate” positions with the Empire before they’re ready. 
 
 
-### Party Danger and Progress
+### Party Danger and Progress Clocks
 
-When it makes sense as a `consequence` of events in the session, the GM may mark the `danger` clock on the `party sheet`. This clock tracks a generally deteriorating position in society - loss of assets, adversaries growing more hostile, or alliances shifting. In a similar fashion, the `progress` clock is available for when significant events happen in a session that might improve the party’s position. 
+If an action roll results in a `consequence`, the GM can evaluate marking a `danger` clock on the `party sheet` to represent a complication that might affect the group later. This clock tracks a generally deteriorating position in society - loss of assets, adversaries growing more hostile, or alliances shifting. Similarly, the `progress` clock is available for when significant events happen in a session that might improve the party’s position. 
 
-When these clocks fill, they are reset and a `supporting detail` changes. If the `danger` clock fills, this change is generally for the worse. If the `progress` clock fills, the change is generally for the better. 
+When any of these clocks are filled, they are cleared and one of the `supporting detail` changes. If the `danger` clock fills, this change is generally for the worse. If the `progress` clock fills, the change is generally for the better. 
 
 ### Burning Progress
 
@@ -2386,7 +2386,7 @@ Sometimes a `party` will have to sacrifice their long term goals to focus on the
 
 > #### Designer Note
 > 
-> Key Concepts and Supporting details can be a way for game designers to help drive the kinds of stories that make sense in their setting. The categories provided below are intended to be a generic starting point that can be made setting specific - renaming them per setting is an easy customization to set the right mood!
+> `Key Concepts` and `Supporting details` can be a way for game designers to help drive the kinds of stories that make sense in their setting. The categories provided below are intended to be a generic starting point that can be made setting specific - renaming them per setting is an easy customization to set the right mood!
 > 
 > Further structure can be added to the supporting details to drive home key points in the setting, for example, asking players to choose a specific adversary and ally from a list of available world forces.
 > 
@@ -2396,7 +2396,7 @@ Like with character creation, `details` on the `party sheet` can offer both fict
 
 ### Key Concepts
 
-Each `key concept` focuses on the position of the `party` along an important axis. The `disposition` of the party in these categories may be represented as the sum of positive `supporting details`, subtracting any negative `supporting details`, resulting in a range from -4 to +4. 
+Each `key concept` focuses on the position of the `party` along an important axis. The `disposition` of the party in these categories may be represented as the sum of positive `supporting details`, minus any negative `supporting details`, resulting in a range from -4 to +4. 
 
 `Supporting details` are specific people, places, things or ideas related to the party in some sort of way, while `key concepts` are overarching, category level descriptions of the party’s standing. 
 
@@ -2579,7 +2579,7 @@ These rules can be adapted in a few different ways. Below are some ways to tweak
 
 ### No Clocks
 
-Rather than track progress and danger on abstract clocks, the play group might decide to update the `party sheet` whenever it makes sense narratively. Rather than keep track of additional clocks, the players can decide to update details 
+Rather than track progress and danger on abstract clocks, the party might decide to update the `party sheet` whenever it makes sense narratively. Rather than keep track of additional clocks, the players can decide to update details 
 
 This works best with the Attachment extra rules (for absorbing consequences) and Losing Progress via Add Tension (for offering benefits to rolls). The players can use long term projects to improve specific details on the `party sheet` directly. 
 
