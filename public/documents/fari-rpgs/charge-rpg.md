@@ -2334,6 +2334,307 @@ The original idea comes from [Ironsworn](https://ironswornrpg.com)'s vows. `Goal
 
 Special thanks to LynnJones who enhance the readibility, RP for the useful feedback to make it more Charge, and therabidbanana for the progression guideline.
 
+# Party Extra | Extras
+
+An Extra for Charge to add both narrative structure and mechanical benefits to the group of characters represented by the players.
+
+\- By David Haslem
+
+
+## Overview
+
+The group of players is referred to in this extra as a `party`. This group has a separate `party sheet` which tracks `details` of how they are perceived by the world around them, as well as maintaining party-level `danger` and `progress` clocks.
+
+The `party sheet` can represent things such as their “HQ” or “Ship”. It can also be used to represent relationships with important factions or specific NPCs. 
+
+> #### Example
+> 
+> The play group wants to tell the story of a small band of resistance fighters that want to rebel against an evil space empire. They decide they want to start their story with a stolen prototype spaceship and not much else. They have some ideas for characters and they know they want to start on an out-of-the-way space station.
+
+###  Party Details
+
+The `party sheet` tracks `details` about the party, in much the same way as character sheets have `details` about the character. Much like with the character sheet, these details might offer narrative liberties to allow the party to take certain actions. Additionally these details have a `disposition` which might be positive, negative, or neutral. The `disposition` impacts any rolls related with the detail on the `party sheet`.
+
+`Supporting details` are collected into four categories, summarized under four broader `details` called `key concepts`. If the majority of details under the `key concept` are positive (or negative), the `disposition` of the `key concept` also becomes positive (or negative). The `disposition` of the `key concept` works the same as `supporting details`, but at a broader scope, impacting all rolls related to the category.
+
+
+> #### Example
+>
+> The party decides on the following to start their `party sheet` to represent the story they came up with:
+>
+> Authority, representing the evil empire, with a `key concept` of “Enemies of the Kabraxian Empire”, and two negative `supporting details` of “thorn in the side of the regional governor” and “falsified spacecraft registration”  
+>
+> Assets, with a `key concept` of “scrappy band of fighters ready to fight” and positive `supporting detail` of “recently ‘liberated’ state-of-the-art spacecraft”.
+>
+> Allies, with a `key concept` of “nobody likes the Empire”, a positive `supporting detail` of “Maven, a bar owner friendly to rebels” and a neutral `supporting detail` of “dock workers tired of Empire soldiers pushing them around”.
+>
+> Adversaries, with a `key concept` of “enemies of my enemies are my friends?” and a single neutral `supporting detail` of “Jebralt, the sketchy arms dealer”.
+>
+> Because all of these `key concepts` are still neutral in `disposition`, the party will only receive advantages or disadvantages to rolls when dealing with the specific `supporting details` listed.  Authority will become negative if it gains one more negative `supporting detail` - the team will have to keep a low profile and take care of that "falsified spacecraft registration" if they want to prevent being put into `desparate` situations every time they roll against the Empire.
+
+
+### Party Danger and Progress Clocks
+
+In addition to `key concepts` and their related `supporting details`, the `party sheet` also has a `progress` and `danger` clock.
+
+If an action roll results in a `consequence`, the GM can evaluate marking the `danger` clock on the `party sheet` to represent a complication that might affect the group later. This clock tracks a generally deteriorating position in society - loss of assets, adversaries growing more hostile, or alliances shifting. Similarly, the `progress` clock is available for when significant events happen in a session that might improve the party’s position. 
+
+When any of these clocks are filled, they are cleared and one of the `supporting detail` changes. If the `danger` clock fills, this change is generally for the worse. If the `progress` clock fills, the change is generally for the better. 
+
+### How the Party Sheet Impacts Rolls
+
+Details on the party sheet can offer mechanical support in addition to their narrative impact.
+
+When `key concepts` or `supporting details` have a positive disposition, any rolls related to them can receive a bonus to `effect` or `position`. Negative disposition impacts rolls in a similar way. 
+
+In a pinch, the ticks on the progress clock can also be used as a substitute for momentum.
+
+## Concepts and Details
+
+> #### Designer Note
+> 
+> `Key Concepts` and `Supporting details` can be a way for game designers to help drive the kinds of stories that make sense in their setting. The categories provided below are intended to be a generic starting point that can be made setting specific - renaming them per setting is an easy customization to set the right mood!
+> 
+> Further structure can be added to the supporting details to drive home key points in the setting, for example, asking players to choose a specific adversary and ally from a list of available world forces.
+> 
+> Starting positions for these key details can help further drive a story for the group of players to build on. A crew looking for their first big score might not have a lot of assets or allies, but they probably aren’t big enough to be on anyone’s radar as an adversary either. A resistance group against a repressive regime might start in a horrible position against authority, but have a larger list of allies to lean on. 
+
+Both `supporting details` and `key concepts` are `details` as described in Charge's [Character Creation rules](https://fari.games/en/srds/fari-rpgs/charge-rpg/creating-your-character#details). `Supporting details` should be specific people, places or things, such as specific `world forces`, while `key concepts` are more wide-reaching. 
+
+Like with character creation, `details` on the `party sheet` are facts about the party that can be used for story telling. They can also offer narrative liberties - potentially giving players permission to take certain actions. While the GM will have the final say, the entire party should have a chance to help develop and decide on these details at character creation. Much like character details, there will also have the chance to change these over time through play.
+
+### Zooming in and out
+
+Each `key concept` is a `detail` that focuses broadly on the position of the `party` in an important category. Narratively they zoom out and share more of the big picture. `Key concepts` are wide-reaching - they create an assumed default for anything related to that category that isn't already a `supporting detail`. 
+
+`Supporting details` add color to `key concepts` by zooming in on specific people, places, or things related to the party in some way (for example, a relationship with a specific `world force`). 
+
+The four `key concepts` describe the party's standing in the following categories:
+
+* **Assets** - This represents the available resources of the party, including money and any available equipment.
+* **Allies** - This represents allies to the party, which might be specific key contacts or whole organizations ready to back the party.
+* **Adversaries** - This represents the adversaries of the party, which could be specific powerful enemies or a whole civilization bent on your destruction.
+* **Authority** - This represents the party’s relationship with authority - how much they have, or how much those who have it like (or dislike) the party.
+
+Examples for each `key concept` and related `supporting details` are available further on in this document.
+
+### Dispositions 
+
+`Supporting details` have either a positive disposition (good for players, +1 to key concept), or a neutral disposition (+0 to key concept), or a negative disposition (bad for players, -1 to key concept). These dispositions can be used to alter the `position` of a roll. `Disposition` can alter the consequence rating of a `position`, and might be directly used by the GM to help set the `position` of a roll when it makes sense.
+
+
+| Disposition                  | Default Position                 | Consequence Rating               | 
+| ---------------------------- | -------------------------------- | -------------------------------- |
+| Positive (+)                 | Controlled                       | -1 Consequence Rating            |
+| Neutral  (0)                 | Risky                            | No change to Consequence Rating  |
+| Negative (-)                 | Desperate                        | +1 Consequence Rating            |
+
+The collection of `supporting details` for a `key concept` can be converted to a numeric score between -4 and +4. The overarching `key concept` is considered neutral until the _majority_ of `supporting details` are negative (score less than -2), or positive (score greater than 2) - changing the `disposition` of the `key concept` to match. When the `key concept` changes disposition it should be rewritten to represent the change in fortunes for the party.
+
+### Party Creation
+
+At the start of a campaign, the party should generally start with each `key concept` at -1, 0, or +1 with one or two `supporting details` written for each concept. This keeps the play group from having to do too much planning up front and offers room to expand as the story goes. This can be pushed further to create interesting balances that fit the story the play group wants to tell.
+
+### More Examples
+
+#### 1. Assets
+
+This represents the available resources of the party, including money and any available equipment. A positive `key concept` might be something like “a well funded and equipped organization”, while a negative one might be something like “a ragtag group that’s always behind on their rent and looking for a big score”. 
+
+**Positive (+) Supporting Details**
+
+Positive `supporting details` for assets might include a fancy ship with the latest equipment, access to large banking accounts, or a secret stash of gold doubloons. 
+
+**Neutral (0) Supporting Details**
+
+Neutral `supporting details` for assets might be equipment or assets that come with drawbacks - the party might have a ship that’s constantly in need of repair or have access to a loan that will definitely come with strings attached if the party tries to use it.
+
+**Negative (-) Supporting Details**
+
+Negative `supporting details` for assets might be a big loan that the party can never quite pay off, or a broken down ship that will cost more than it’s worth to repair.  
+
+#### 2. Authority
+
+This represents how people in power feel about the party, or, depending on the game how much power the party has. A positive `key concept` might be something like “leaders of a thriving business empire”, while a negative one might be something like “considered enemies of the kingdom”. 
+
+**Positive (+) Supporting Details**
+
+Positive `supporting details` for authority might include a group of freedom fighters ready to follow your lead or a being the king’s go-to problem solvers. 
+
+**Neutral (0) Supporting Details**
+
+Neutral `supporting details` for authority might be an easily bribed bureaucrat willing to look the other way for now, or a legal decree that could end up causing trouble for the party. 
+
+**Negative (-) Supporting Details**
+
+Negative `supporting details` for authority might be the captain of the watch out to get you or a bounty on everyone’s heads for their latest crime. 
+
+#### 3. Allies
+
+This represents people that might be willing to help the party, or who have reason to be connected with the party in some way. While typically positive sounding, negative `dispositions` could be used to represent obligations or relationships turned sour. A positive `key concept` might be something like “lots of powerful allies”, while a negative one might be something like “everyone expects our help whether they deserve it or not”. 
+
+**Positive (+) Supporting Details**
+
+Positive `supporting details` for allies could be people or groups that are both friendly to the party and have the means to be helpful. 
+
+**Neutral (0) Supporting Details**
+
+Neutral `supporting details` for allies could be people that are willing to help but don’t have the means or maybe a group that hasn’t decided for sure whether the party is worthy of being helped. 
+
+**Negative (-) Supporting Details**
+
+Negative `supporting details` for allies could be people that you’re connected to that cause more trouble for the party than they might be worth, or estranged relationships. 
+
+#### 4. Adversaries
+
+This represents people or groups that are against the party, or possibly even harsh conditions & impending doom. While typically negative sounding, positive leaning `dispositions` could represent friendly competition or forces of nature that can be treated as both friend and foe. A positive `key concept` might be something like “with friends like these, who needs enemies?”, while a negative one might be something like “hunted by nearly everyone”. 
+
+**Positive (+) Supporting Details**
+
+Positive `supporting details` for adversaries could be people or groups that might still help the party if they were in mortal danger, sworn enemies that are comically bad at their jobs, or maybe enemies that don’t yet realize the party exists.
+
+**Neutral (0) Supporting Details**
+
+Neutral `supporting details` for adversaries could be enemies that have bigger fish to fry and consider the party beneath them, or powerful desert sandstorms that can be used to the party’s advantage if they can survive. 
+
+**Negative (-) Supporting Details**
+
+Negative `supporting details` for adversaries might include powerful enemies sworn to destroy the party, or impending doom of an inbound asteroid.  
+
+## Danger and Progress
+
+> #### Designer Notes
+> 
+> The pace at which the `supporting details` of the party change can be a dial for changing the feel of the game, especially in games where additional mechanical benefits are offered for building up positive `supporting details`.  By default, the intended pace is an average of no more than one detail changing per session.
+
+The `party sheet` holds two clocks which fight against each other, one dragging the party down, and the other pulling the party up. By default, both of these clocks have eight segments. 
+
+### Ticking the Danger Clock
+
+As the PCs take risky or even desperate actions, there will be times when those actions will result in big consequences. When that happens, the party can evaluate if that consequence should be applied to the `danger clock` of the party sheet. As it has long-term implications, this option should not be taken lightly - no more than a couple of times per session is probably a good rule of thumb. Marking the `danger` clock as a consequence adds segments to the equal to the consequence rating.
+
+> #### Example
+> 
+> The party is in a spaceship being chased by multiple authorities (`supporting detail` “falsified spacecraft registration”). They need to make a quick, clean getaway to get medical equipment to a dying friend. They are in a desperate position - their pilot rolls a 5, indicating success with a consequence. The play group suggests they get away but they’ve pushed their ship to its limits (`supporting detail` “state-of-the-art spacecraft”). The GM agrees - they can take the consequence on their `party sheet` instead of risking the life of their friend. 
+
+### Filling the Danger Clock
+
+When the danger clock fills up the players should decide, based on recent events, what makes the most sense in the storyline:
+
+* Add a new `supporting detail` - the `disposition` of this detail should generally start at `neutral`. Note `supporting details` should all be specific, unique details that tie back into the fiction that are expected to show up again. 
+* Downgrade the `disposition` of an existing `supporting detail` (moving from `positive` to `neutral` to ` negative`).
+* Remove or replace an existing neutral `supporting detail`. If all the spaces that make sense are taken or negative, consider whether recent events might have completely supplanted an existing `supporting detail`. This could be a good fit for story elements that have served their purpose or didn't really get much play. 
+* Create a new immediate threat - the GM exposes a danger and threatens the players with a negative `supporting detail` _unless_ they complete a mission to prevent it.
+
+> #### Example
+> 
+> The danger clock fills from the strain placed on the starship engines racing to help a dying friend.
+> 
+> The party decides it makes the most sense to downgrade the Assets `supporting detail` “state-of-the-art ship” (+) to “damaged ship” (0). 
+
+
+### Ticking the Progress Clock
+
+Generally players should be given a chance to advance the progress clock a couple of times per session - this can be as the result of completing a project and/or as a reward for successful completion of a mission. 
+
+> #### Example
+> 
+> Saving a person in need has completed a story arc for the players. The GM grants them a milestone and two progress on the `party sheet`. One player has a long term project to find allies and rolls successfully during downtime, adding two more. 
+
+### Burning Progress
+
+The segments of the progress clock can be used as a shared pool of momentum. Players may decide to sacrifice their long term goals for a short term boost and spend filled segments of the progress clock as momentum, on a one-for-one basis.
+
+> #### Example
+> 
+> The party is running from an enemy in their spaceship. It’s not fully repaired yet (`supporting detail` “damaged ship” (0), but they have been working toward that goal. The pilot says they’re going to have to give it everything they’ve got - the mechanic curses under his breath and agrees - they erase one progress from the progress clock as momentum to allow the mechanic to assist and add an extra die to the pilot’s roll. 
+
+### Filling the Progress Clock
+
+When the progress clock fills up the players should decide, based on recent events, what makes the most sense in the storyline:
+
+* Add a new `supporting detail` - the `disposition` of this detail should generally start at `neutral`. Note `supporting details` should all be specific, unique details that tie back into the fiction, so this is a good chance to promote NPCs to recurring characters, or lean into interesting bits of the story.
+* Upgrade the `disposition` of an existing `supporting detail` (moving from `negative` to `neutral` to `positive`).
+* Remove or replace an existing neutral `supporting detail`. If all the spaces that make sense are taken or positive, consider whether recent events might have completely supplanted an existing `supporting detail`. This could be a good fit for story elements that have served their purpose or didn't really get much play.
+* Create a new immediate opportunity - the GM exposes an opportunity and offers the players with a positive `supporting detail` _if_ they complete a mission to obtain it.
+
+> #### Example
+> 
+> The party is back at spacedock and has gathered enough progress to fill the progress clock. They collectively decide they would like to get the target off their back. They choose to improve the authority `supporting detail` “falsified spacecraft registration” (-), and rewrite it as “overhauled ship hides stolen past” (0). They haven't completely gotten rid of the mysterious origin of the ship, but it won’t put them in such disadvantageous `positions` any more.
+
+## Uses for Key Concepts and Supporting Details
+
+> #### Designer Note
+> 
+> Certain games may pick and choose between the following options - while they do not add a large amount of complexity, using the full set of rules grants the players many additional options to see them through tough spots. 
+
+### Details Affect Position
+
+When dealing with a situation that directly relates to a `supporting detail` or more broadly relates to a `key concept`, the `disposition` of the `detail` (positive or negative) may be impact the `position` of the roll.
+
+### Improved Effect
+
+When dealing with a situation for which a `supporting detail` or `key concept` could be a useful advantage, players may opt for +1 effect rather than an improved position. Which option is being used must be decided before the roll. 
+
+### Losing Progress via Add Tension
+
+Progress toward improving details can be burned as momentum. Taking this concept a step further - if it makes sense, the players might suggest downgrading the `disposition` of a supporting detail as a consequence to `add tension` if they don’t have progress to spare. 
+
+## Dials
+
+These rules can be adapted in a few different ways. Below are some ways to tweak them to better fit how the play group wants to use them. 
+
+### No Clocks
+
+Rather than track progress and danger on abstract clocks, the party might decide to update the `party sheet` whenever it makes sense narratively. Rather than keep track of additional clocks, the players can decide to update details 
+
+This works best with the Attachment extra rules (for absorbing consequences) and Losing Progress via Add Tension (for offering benefits to rolls). The players can use long term projects to improve specific details on the `party sheet` directly. 
+
+### More Clocks
+
+Progress and danger are kept as abstract clocks to prevent the bookkeeping load of tracking a variety of complications and projects on the `party sheet`. If the play group wants to have more direct narrative ties to improvements and complications, they can track them individually as clocks and follow the same rules for danger and progress - damaging `supporting details` with consequences and taking on projects to improve others. 
+
+### Detailed Disposition
+
+To avoid getting too complicated, `disposition` is either positive, negative or neutral. It'd be possible to allow a range of values for `disposition` (for example from -4 to +4) to allow more nuance on given `supporting details`. If using this approach, you'd probably want to allow players to gain progress and danger more quickly, and only treat >+2 / <-2 as “positive” / “negative” for purposes of changing effect or position on rolls. 
+
+### No Neutral Disposition
+
+Neutral `supporting details` are often a mix of positive and negative traits and have no direct impact on rolls. You could avoid using them completely by:
+
+1. Clearing negative `supporting details` rather than upgrading them to `neutral`.
+2. Clearing positive `supporting details` rather than downgrading them to `neutral`.
+3. Adding new details from `progress` and `danger` clocks directly as positive and negative, respectively, or by presenting opportunities and threats which will add `supporting details` based on how the party reacts.
+
+## Combining with other Rules
+
+### Attachment Extra - Damaging Supporting Details Directly
+
+For some supporting details it may make sense to take damage directly to a supporting detail rather than mark a consequence on the party’s danger clock. In this case you might drop the danger clock completely and do damage directly to the details on the `party sheet`.
+
+### World Forces - Prebuilt Adversaries and Allies
+
+An obvious way for Powered by Charge games to make the `party sheet` easier to fill out is to define some world forces and allow players to pick some as allies or adversaries.
+
+### World Extra - Randomize Supporting Details
+
+The World extra offers options to help the GM plan the next mission. One of the three cards drawn could refer to a specific `supporting detail` to tie the adventure into the existing fiction found in the `party sheet`. 
+
+To help tie to a specific `key concept`, Hearts are Allies, Diamonds are Assets, Spades are Adversaries and Clubs are Authority.
+
+### Goals Extra
+
+Granting progress on the `party sheet` could happen when milestones or long-term projects are completed. Goals are another way to offer progress to players - allowing them to focus on specific `supporting details` to upgrade. In this case, no more than a few goals should be available at once. 
+
+> ## Recap
+>
+> `Supporting details` are party level details that offer narrative liberties and altered position or effect (if they are `positive` or `negative`). They relate to specific people, groups, places or assets that hold narrative weight for the party. 
+>
+> `Key concepts` are 4 higher level details that `supporting details` are grouped into. Having three or more positive (or negative) `supporting details` makes the `key concept` positive (or negative), and can alter positions of all rolls related to that category.
+>
+> `Supporting details` can be upgraded or downgraded based on filling the `progress` and `danger` clocks, respectively. The `danger` clock might be filled as a consequence, while the `progress` clock is filled each milestone and as the result of `long-term projects`. Ticks on the `progress` clock can be burned as momentum on a one-for-one basis.
+
+
 # Making a Compelling Campaign | Preparing the Game
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/7b529142ada0e29c88323c82eec6c3ab.png)](https://pixabay.com/photos/fantasy-landscape-mountains-rock-6328992/)
@@ -2591,6 +2892,8 @@ For this, you could think of ways of making stress clocks "auto-advance" based o
 
 You should also think of opportunities for players to take care of those deteriorations so that they stop being inflicted upon their characters.
 
+
+
 # Making Playbooks | Hacking the Game
 
 In Charge, we don't offer a list of playbooks, archetypes or classes for the players to choose from when starting a new game. This is because we want players to be able to create the character they want to, without limiting their creativity.
@@ -2666,16 +2969,17 @@ Thank you, and go power your storytelling!
 
 # Credits
 
-| Name                         | Role                             | Discord                    | Twitter                                   | Itch                                  |
-| ---------------------------- | -------------------------------- | -------------------------- | ----------------------------------------- | ------------------------------------- |
-| `René-Pier Deshaies-Gélinas` | original author, core maintainer | RPDeshaies#4116            | [Link](https://twitter.com/RPDeshaies)    | [Link](https://fari-rpgs.itch.io/)    |
-| `Alexandre L. Lescarbeau`    | sounding board                   |                            |                                           |                                       |
-| `Valdy`                      | extra contributor                | 5-142857#7577              |                                           |                                       |
-| `Nugat`                      | extra contributor                |                            |                                           |                                       |
-| `Keita Creations`            | extra contributor                |                            | [Link](https://twitter.com/KeitaCreates)  | [Link](https://keitacreates.itch.io/) |
-| `Othelarian`                 | extra contributor                | othelarian#5063            |                                           | [Link](https://othelarian.itch.io/)   |
-| `Stx11`                      | contributor                      | Stx11#0278                 |                                           | [Link](https://stx11.itch.io/)        |
-| `Dylan Greene`               | contributor                      | American Space Prince#2381 | [Link](https://twitter.com/dgcloudrunner) |                                       |
+| Name                         | Role                             | Discord                    | Twitter                                    | Itch                                    |
+| ---------------------------- | -------------------------------- | -------------------------- | ------------------------------------------ | --------------------------------------- |
+| `René-Pier Deshaies-Gélinas` | original author, core maintainer | RPDeshaies#4116            | [Link](https://twitter.com/RPDeshaies)     | [Link](https://fari-rpgs.itch.io/)      |
+| `Alexandre L. Lescarbeau`    | sounding board                   |                            |                                            |                                         |
+| `Valdy`                      | extra contributor                | 5-142857#7577              |                                            |                                         |
+| `Nugat`                      | extra contributor                |                            |                                            |                                         |
+| `Keita Creations`            | extra contributor                |                            | [Link](https://twitter.com/KeitaCreates)   | [Link](https://keitacreates.itch.io/)   |
+| `Othelarian`                 | extra contributor                | othelarian#5063            |                                            | [Link](https://othelarian.itch.io/)     |
+| `Stx11`                      | contributor                      | Stx11#0278                 |                                            | [Link](https://stx11.itch.io/)          |
+| `Dylan Greene`               | contributor                      | American Space Prince#2381 | [Link](https://twitter.com/dgcloudrunner)  |                                         |
+| `David Haslem`               | contributor                      | therabidbanana#9231        | [Link](https://twitter.com/therabidbanana) | [Link](https://therabidbanana.itch.io/) |
 
 # Licencing
 
