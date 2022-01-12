@@ -36,6 +36,19 @@ export const shop: IShop = {
             itchIo: "https://fari-rpgs.itch.io/charge-srd",
           },
         },
+        {
+          name: "HOPES & DREAMS SRD",
+          slug: "hopes-and-dreams-srd",
+          description: "Make your own game ignited by HOPES & DREAMS",
+          license: License.CC_BY_4,
+          footer:
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+          tags: ["hopes-and-dreams", "srd", "new"],
+          image: "https://gyazo.com/174e2d366a13b73bbe556fb39e8e9b97.png",
+          links: {
+            itchIo: "https://fari-rpgs.itch.io/hopes-and-dreams-srd",
+          },
+        },
       ],
     },
     {
