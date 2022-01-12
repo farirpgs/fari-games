@@ -2349,7 +2349,7 @@ The `party sheet` can represent things such as their “HQ” or “Ship”. It 
 
 > #### Example
 > 
-> The play group wants to tell the story of a small band of resistance fighters against an evil space empire. They decide they want to start their story with a stolen prototype spaceship and not much else. They have some ideas for characters and they know they want to start on an out-of-the-way space station.
+> The play group wants to tell the story of a small band of resistance fighters that want to rebel against an evil space empire. They decide they want to start their story with a stolen prototype spaceship and not much else. They have some ideas for characters and they know they want to start on an out-of-the-way space station.
 
 ###  Key Concepts and Supporting Details
 
