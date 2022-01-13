@@ -479,7 +479,8 @@ export const shop: IShop = {
         {
           name: "Shillings SRD",
           slug: "shillings-srd",
-          description: "",
+          description:
+            "Shillings SRD is an SRD where you pay to make other pay",
           image: "https://gyazo.com/66265315e6946f9e596f03370701d25b.png",
           links: {
             itchIo: "https://lynxen-rpgs.itch.io/shillings-srd",
