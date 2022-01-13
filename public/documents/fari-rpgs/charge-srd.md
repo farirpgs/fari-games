@@ -419,7 +419,9 @@ When the 4 segments of the `stress clock` are filled, the PC is taken out for th
 
 > #### Designer Note: Hacking Health
 > 
+> Health in Charge is an expendable resource. It has a `clock` that gets ticked when you get stressed, and there's also a linked `detail` to represent the new condition of the PC as the clock .
 > 
+> If you want, you can have other types of expandable resources Things like reputation, money, or even corruption.  
 
 ## Recovery
 
