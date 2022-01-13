@@ -112,9 +112,9 @@ All characters have actions they excel at, this is called being `SKILLED`.
 
 To decide which action your character is `SKILLED` at, you first choose a `KIT`.
 
-KITS are character presets that come with pre-selected `ACTIONS` and special `ABILITIES` that you can use to make powerful stunts.
+`KITS` are character presets that come with `2 SKILLED ACTIONS` and special `ABILITIES` that you can use to make powerful stunts.
 
-Characters are skilled in 3 actions in total. The first 2 are determined by your KIT, and the last one is left for you to decide when you're creating your character.
+Characters are skilled in `3 ACTIONS` in total. Your `KIT` is `SKILLED in 2`, but you get to decide what is the last action your character is skilled at.
 
 ## Hopes
 
