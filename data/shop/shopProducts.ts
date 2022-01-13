@@ -468,6 +468,27 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Lynxen RPGs",
+      slug: "lynxen-rpgs",
+      links: {
+        twitter: "https://twitter.com/CrackersCheese2",
+        website: "https://lynxen-rpgs.itch.io",
+      },
+      products: [
+        {
+          name: "Shillings SRD",
+          slug: "shillings-srd",
+          description: "",
+          image: "https://gyazo.com/66265315e6946f9e596f03370701d25b.png",
+          links: {
+            itchIo: "https://lynxen-rpgs.itch.io/shillings-srd",
+          },
+          tags: ["srd", "new"],
+          license: License.CC_BY_4,
+        },
+      ],
+    },
   ],
 };
 
