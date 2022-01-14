@@ -2636,6 +2636,118 @@ Granting progress on the `party sheet` could happen when milestones or long-term
 >
 > `Supporting details` can be upgraded or downgraded based on filling the `progress` and `danger` clocks, respectively. The `danger` clock might be filled as a consequence, while the `progress` clock is filled each milestone and as the result of `long-term projects`. Ticks on the `progress` clock can be burned as momentum on a one-for-one basis.
 
+# Threat Level Extra | Extras
+
+**An alternate way to think adversity in Charge**
+
+\- By othelarian
+
+---
+
+Sometimes, enemies are so specific they have a special effect over characters, hindering their ability to fight back.
+
+Threat Level is an extra about how adversityit can affect the character's actions.
+
+## What is a Threat Level?
+
+`Threat Level` is a way to represent a special type opposition, affecting the characters capacity while let it's position untouched. It can be seen as a passive way to alter character's chances of success.
+
+## How to define a Threat Level?
+
+A Threat Level has two main components:
+
+* A defined source of the `Threat Level`
+* A rating associated with the source
+
+The source must be clearly identified so that there's no room for players' interpretation. Also, the source must define how it generates the `Threat Level`.
+
+> #### Threat Level example: the mist
+>
+> The `mist` wraps the characters in its damp texture, overwhelming their every move, hindering their perception, and blunting their dexterity.
+>
+> A heavy `mist` is a simple threat, with a rating of 1, just enough to slightly affect the characters.
+> A poisonous `mist` can be lethal, and more than just a hindrance. The protection needed to survive it is a reason in and of itself to raise the `Threat Level` to a 2.
+
+> #### Threat Level example: the hexer
+>
+> More than a simple witcher, the `hexer` is a real issue for a group of intrepid adventurers, plaguing them with curses, slowing them.
+>
+> Spells made by `hexers` can be seen as a `Threat Level` applied to a single character or the entire group, depending on the `hexer`'s power.
+
+### Is there a limit to the Threat Level rating?
+
+Depends on the group, but a good range would be between 1 and 3. Keep in mind that a higher rating means a greater chance to totally cancel a character's roll and make them fail really hard.
+
+## Rolling with the Threat Dice
+
+Now that the `Threat Level` is clearly defined, let's go over how it has an impact on the mechanics.
+
+When a player makes a roll and the threat can be tied to a reason why that roll might be impacted (e.g. perception with the mist example), the player also rolls the number of dice equal to the `Threat Level` rating at the same time.
+
+Let's call the character's dice pool the action pool, and the dice roll for the `Threat Level` the threat pool.
+
+Once the two pools are rolled, each die from the threat pool cancels **a single die of the same value** in the action pool.
+
+For example:
+
+> #### Example #1
+>
+> The action pool contains 2d6, and since the `Threat Level` has a rating of 3, the threat pool is made of 3d6 (let say a poisonous mist (2) with a little curse from the hexer (1)).
+>
+> Then, the player rolls the action pool and gets a 3 and a 5.
+> In the same time, they rolls threat dice and gets a 2, a 3 and a 6.
+> Because both the threat pool and the action pool contain a 3, the 3 from the action pool is canceled.
+>
+> The result is 5.
+
+> #### Example #2
+>
+> Like in the example #1, the action pool contains 2d6, and with a rating of 3, the threat pool is made of 3d6.
+> With the action pool the players gets a 3 and a 5.
+> But this time for the threat pool the player gets a 2, a 3 and a 5.
+> Because both threat pool and the action pool contain a 3 and a 5, then all the action pool is canceled.
+>
+> The result is 0, a critical fail!
+
+## Tune it to make it deadlier
+
+One way to customize this is to turn the extra so that it hits a bit harder. This can be done this way: each 6 of the threat pool automatically cancels one of the highest die on the action pool, no matter its value.
+
+> #### Example #3, with this dial
+>
+> The action pool contains 3d6, and since the `Threat Level` has a rating of 2, the threat pool is made of 2d6 (only the poisonous mist here).
+>
+> The player gets a 2, a 3 and a 5 on the action pool, and a 3 and a 6 on the threat pool.
+> The 3 from the threat pool cancels the 3 from the action pool, and the 6 from the threat pool cancels the 5 (the highest die of the character's dice pool).
+>
+> The result is 2.
+
+Another way to change this mechanic could be that each die from the threat pool cancels one die from the action pool that is equal or inferior.
+
+
+> #### Example #3, harsher
+>
+> The action pool contains 3d6, and since the `Threat Level` has a rating of 2, the threat pool is made of 2d6.
+>
+> The player gets a 2, a 3 and a 5 on the action pool, and a 4 and a 6 on the threat pool.
+> From the threat pool over the action pool, the 6 cancels the 5 and the 4 cancel the 3.
+>
+> The result is 2.
+
+## GM rolling the threat
+
+Instead of letting players rolling the threat pool, it can be the GM who roll it. If so, it can do that in the same time, or after the player's roll to add some intensity.
+
+> ## Recap
+>
+> A `Threat Level` is a threat source with an associated rating. This rating turns into a dice pool. Each die of the threat pool cancels a die of the same value from the action pool.
+
+## Credits
+
+This extra is a direct inspiration of Neon City Overdrive.
+
+Corrected and enhanced by RP Deshaies and David Haslem.
+
 
 # Making a Compelling Campaign | Preparing the Game
 
