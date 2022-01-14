@@ -374,7 +374,7 @@ Once you've decided how many charges you want to consume, roll and interpret the
 
 > #### Designer Note: Hacking Determination Rolls
 > 
-> Determination rolls act as a mechanism for the players to say "no, I don't think so" when something bad happens to their character.
+> Determination rolls act as a mechanism for the players to resist and say "no, I don't think so" when something bad happens to their character.
 > 
 > There are two important things you should look at if you want to hack this mechanic. 
 > 
