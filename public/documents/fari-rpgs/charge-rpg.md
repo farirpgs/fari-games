@@ -2340,6 +2340,8 @@ An Extra for Charge to add both narrative structure and mechanical benefits to t
 
 \- By David Haslem
 
+<iframe frameborder="0" src="https://itch.io/embed/1351580?bg_color=ffffff&amp;fg_color=222222&amp;link_color=8b5abb&amp;border_color=7c6685" width="552" height="167"><a href="https://therabidbanana.itch.io/charge-party-extra">Charge Party Extra by therabidbanana</a></iframe>
+
 
 ## Overview
 
@@ -2423,11 +2425,11 @@ Examples for each `key concept` and related `supporting details` are available f
 `Supporting details` have either a positive disposition (good for players, +1 to key concept), or a neutral disposition (+0 to key concept), or a negative disposition (bad for players, -1 to key concept). These dispositions can be used to alter the `position` of a roll. `Disposition` can alter the consequence rating of a `position`, and might be directly used by the GM to help set the `position` of a roll when it makes sense.
 
 
-| Disposition                  | Default Position                 | Consequence Rating               | 
-| ---------------------------- | -------------------------------- | -------------------------------- |
-| Positive (+)                 | Controlled                       | -1 Consequence Rating            |
-| Neutral  (0)                 | Risky                            | No change to Consequence Rating  |
-| Negative (-)                 | Desperate                        | +1 Consequence Rating            |
+| Disposition  | Default Position | Consequence Rating              |
+| ------------ | ---------------- | ------------------------------- |
+| Positive (+) | Controlled       | -1 Consequence Rating           |
+| Neutral  (0) | Risky            | No change to Consequence Rating |
+| Negative (-) | Desperate        | +1 Consequence Rating           |
 
 The collection of `supporting details` for a `key concept` can be converted to a numeric score between -4 and +4. The overarching `key concept` is considered neutral until the _majority_ of `supporting details` are negative (score less than -2), or positive (score greater than 2) - changing the `disposition` of the `key concept` to match. When the `key concept` changes disposition it should be rewritten to represent the change in fortunes for the party.
 
@@ -2642,7 +2644,8 @@ Granting progress on the `party sheet` could happen when milestones or long-term
 
 \- By othelarian
 
----
+<iframe frameborder="0" src="https://itch.io/embed/1349986" width="552" height="167"><a href="https://othelarian.itch.io/charge-extra-threat-level">Charge Extra: Threat Level by Othy</a></iframe>
+
 
 Sometimes, enemies are so specific they have a special effect over characters, hindering their ability to fight back.
 
