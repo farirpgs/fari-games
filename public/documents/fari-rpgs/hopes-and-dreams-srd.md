@@ -180,7 +180,9 @@ By making each `TRACK` size around 60% bigger than the previous one, deciding ea
 
 ## Checks
 
-When a player character tries to do something risky, we make a `CHECK` to determine how it plays out. To do so, you assemble a pool of six sided dice to try to beat an opposed pool assembled by the GM.
+When a player character tries to do something risky, we make a `CHECK` to determine how it plays out.  If what the PC is trying to accomplish is something we would just expect them to do, there is no need for a `CHECK`. The GM just narrates what happens, and the story moves forward.
+
+To make a `CHECK`, you assemble a pool of six sided dice to try to beat an opposed pool assembled by the GM.
 
 First, you need to agree with the GM on which of the `12 ACTIONS` is being used.
 
