@@ -235,7 +235,7 @@ When you get a `PAYOFF`, you get what you want. The player chooses one from the 
 
 - For a simple `CHECK`, you get what you want.
 - If there's a `CHALLENGE TRACK` in play, mark boxes matching the `{IMPACT}`.
-- If the fiction allows it, reduce tension in the scene. Remove `-1d6` to the `RISK POOL` for one upcoming `CHECK`.
+- If the fiction allows it, reduce tension of a future action. Remove `-1d6` to the `RISK POOL` for one upcoming `CHECK`.
 -
 
 ### Consequences
@@ -245,7 +245,7 @@ When there’s a `CONSEQUENCE`, something bad happens. The GM chooses one from t
 - Introduce something new and dangerous in the fiction.
 - If there's a `DANGER TRACK` in play, mark boxes matching the `{COST}`.
 - Inflict `HARM` matching the `{COST}`.
-- If the fiction allows it, increase tension in the scene. Add `+1d6` to the `RISK POOL` for one upcoming `CHECK`.
+- If the fiction allows it, increase tension of a future action. Add `+1d6` to the `RISK POOL` for one upcoming `CHECK`.
 
 ### Zero Cost & Reduced Consequences
 
