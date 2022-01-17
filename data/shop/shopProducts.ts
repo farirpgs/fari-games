@@ -469,7 +469,7 @@ export const shop: IShop = {
         {
           name: "Quixotic SRD",
           slug: "quixotic-srd",
-          description: "",
+          description: "Extravagantly chivalrous",
           image: "https://gyazo.com/656b801dec8a60dae053d107031de588.png",
           links: {
             itchIo: "https://wuderpg.itch.io/quixotic",
