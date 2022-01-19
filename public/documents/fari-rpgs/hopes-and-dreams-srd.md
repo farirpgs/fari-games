@@ -44,7 +44,7 @@ In this game, you and your friends get together to tell an interactive story abo
 
 Here’s what you’ll need to play:
 
-- Between two and five people. One of them acting as the Game Master.
+- Between two and five friends to play with one acting as the Game Master.
 - Character sheets, one for each player.
 - A bunch of six-sided dice. At least 6 would be ideal.
 - Index cards, sticky notes or similar slips of paper.
@@ -79,6 +79,10 @@ We roll dice because we want to be on the edge of our seats. We want to be surpr
 
 ## Safety Tools
 
+Safety at the table is very important, which is why we think that you should establish a couple of **Lines and Veils** before you start playing. 
+
+**Lines** are allow everyone in the group to define what topics should never come up in the game. **Veils** ensures that whilst an action or event might take place, it will happen ‘off-screen’: mentioned in passing, but not dwelled on in detail.
+
 If at any point during the game creation process, or when playing a scene, something doesn't click with someone at the table, the game needs to be paused and things need to be aligned and discussed so that **everyone is on the same page**.
 
 One way the GM can help make the table safer for everyone is by using safety tools like the [**X-Card**](https://docs.google.com/document/d/1SB0jsx34bWHZWbnNIVVuMjhDkrdFGo1_hSC2BWPlI3A/edit) by John Stavropoulos, or Beau's [**Script Change RPG Toolbox**](https://briebeau.itch.io/script-change).
@@ -108,13 +112,13 @@ The way your character interacts with the world is via their `ACTIONS`. When a P
 - `SWAY`: influence, charm, manipulate.
 - `FOCUS`: concentrate, calculate, mediate.
 
-All characters have actions they excel at, this is called being `SKILLED`.
+All characters have actions they excel at, this is called being `SKILLED`. Characters are skilled in 3 `ACTIONS` in total. 
 
-To decide which action your character is `SKILLED` at, you first choose a `KIT`.
+To decide which action your character is `SKILLED` at, you first choose a KIT.  
 
-`KITS` are character presets that come with `2 SKILLED ACTIONS` and special `ABILITIES` that you can use to make powerful stunts.
+`KITS` are character presets that come with 2 `SKILLED ACTIONS` and special `ABILITIES` that you can use to make powerful stunts.
 
-Characters are skilled in `3 ACTIONS` in total. Your `KIT` is `SKILLED in 2`, but you get to decide what is the last action your character is skilled at.
+Once you’ve chosen a `KIT`, you get to decide what is the last action your character is skilled at.
 
 ## Hopes
 
@@ -170,13 +174,13 @@ There are two types of `TRACKS`.
 - CHALLENGE TRACKS are used to represent challenges that the group needs to handle, like fighting a group of enemies or entering a well secured compound.
 - DANGER TRACKS are used for escalating threats like a group of guards that is about to be alerted by your presence, or the time left until a bomb explodes.
 
-### Fibonacci Sequence
-
-The number of boxes for `TRACKS` aren’t arbitrary. They follow the Fibonacci Sequence (1, 1, 2, 3, 5, 8, 13, 21, etc) where each number is the sum of the two preceding ones.
-
-The reason for this is that according to Weber’s Law, the difference we can identify between objects is given by a percentage. If that percentage is too low, differentiating two things becomes harder.
-
-By making each `TRACK` size around 60% bigger than the previous one, deciding each one to use becomes a easier. Doing this speeds up the game and keeps the group focused on what is important; the fiction.
+> ### Fibonacci Sequence
+> 
+> The number of boxes for `TRACKS` aren’t arbitrary. They follow the Fibonacci Sequence (1, 1, 2, 3, 5, 8, 13, 21, etc) where each number is the sum of the two preceding ones.
+> 
+> The reason for this is that according to Weber’s Law, the difference we can identify between objects is given by a percentage. If that percentage is too low, differentiating two things becomes harder.
+> 
+> By making each `TRACK` size around 60% bigger than the previous one, deciding each one to use becomes a easier. Doing this speeds up the game and keeps the group focused on what is important; the fiction.
 
 ## Checks
 
@@ -204,10 +208,10 @@ The `ACTION POOL` represents the effort of the PC to overcome a task.
 - If your character is `SKILLED` in the chosen `ACTION`, add `+1d6`.
 - You can also `FILL YOUR HEART WITH HOPE`. Spend `1 HOPE` for an additional `+1d6`.
 
-### Assist
-
-If you want to `ASSIST` a fellow PC, describe how you do it and give `+1 IMPACT` or `-1 COST` to their final result.
-By doing this, you also expose yourself to the possible `CONSEQUENCES` that results of their action.
+> ### Assist
+> 
+> If you want to `ASSIST` a fellow PC, describe how you do it and give `+1 IMPACT` or `-1 COST` to their final result.
+> By doing this, you also expose yourself to the possible `CONSEQUENCES` that results of their action.
 
 ### Interpreting The Result
 
@@ -217,11 +221,17 @@ When everyone is ready, roll the dice and compare the single highest result of y
 - On a tie, you get a `PAYOFF` for your action, but there's a `CONSEQUENCE`.
 - If your result is lower, your action didn't work and there's a `CONSEQUENCE`.
 
-### Which Risk To Pick
+> ### Which Risk To Pick
+> 
+> By default, if a player is making an `CHECK`, the situation is risky. In some occasions, you can use a desperate pool but doing it often or going higher than that will make the odds heavily against the players
+> 
+> When in doubt, look at the fiction, but keep this in mind when building your `RISK POOL`.
 
-By default, if a player is making an `CHECK`, the situation is risky. In some occasions, you can use a desperate pool but doing it often or going higher than that will make the odds heavily against the players
+## Non-Player Character
 
-When in doubt, look at the fiction, but keep this in mind when building your `RISK POOL`.
+In this game, NPCs don't roll for their actions. NPCs succeed unless the players attempt to stop them, in which case the action roll does double-duty: it resolves the action of the PC as well as any NPCs that are involved.
+
+The result tells us about the impact and the cost of an action at the same time, encouraging players to be active participants in the story.
 
 ## Payoffs & Consequences
 
@@ -238,7 +248,7 @@ When you get a `PAYOFF`, you get what you want. The player chooses one from the 
 - For a simple `CHECK`, you get what you want.
 - If there's a `CHALLENGE TRACK` in play, mark boxes matching the `{IMPACT}`.
 - If the fiction allows it, reduce tension of a future action. Remove `-1d6` to the `RISK POOL` for one upcoming `CHECK`.
--
+
 
 ### Consequences
 
@@ -257,11 +267,17 @@ For example, if you were thinking about marking HARM, look into marking a `DANGE
 
 Go with what feels right according to what has already been established.
 
-## Non-Player Character
 
-In this game, NPCs don't roll for their actions. NPCs succeed unless the players attempt to stop them, in which case the action roll does double-duty: it resolves the action of the PC as well as any NPCs that are involved.
 
-The result tells us about the impact and the cost of an action at the same time, encouraging players to be active participants in the story.
+# Kits
+
+[...]
+
+# The World
+
+[...]
+
+# GM Section
 
 ## Balancing Tracks
 
@@ -280,7 +296,3 @@ Generally speaking, to keep things relatively balanced, `DANGER TRACK`S should h
 For `CHALLENGE TRACKS`, you can easily go up to 5, 8 or even 13 boxes.
 
 This is simply a guideline so you can consider this a good starting point when using `TRACKS`.
-
-# Kits
-
-# The World
