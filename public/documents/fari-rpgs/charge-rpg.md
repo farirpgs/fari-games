@@ -144,7 +144,7 @@ To play Charge, you need:
 - Copies of the [Charge RPG Character Sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf)
 - A pile of index cards or small pieces of paper to draw things on.
 - A set of six-sided dice. At least 6 would be ideal.
-- A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
+- Between two and five friends to play with one acting as the Game Master.
 
 # The Game | Power Your Storytelling
 

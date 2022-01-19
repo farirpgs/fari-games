@@ -38,7 +38,7 @@ In this game, you and your friends get together to tell an interactive story abo
 
 Here’s what you’ll need to play:
 
-- Between two and five people. One of them acting as the Game Master.
+- Between two and five friends to play with one acting as the Game Master.
 - Character sheets, one for each player.
 - A bunch of six-sided dice. At least 6 would be ideal.
 - Index cards, sticky notes or similar slips of paper.
