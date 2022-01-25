@@ -487,6 +487,7 @@ export function Document(props: {
     const languageLabels: Record<string, string> = {
       en: "English",
       "pt-br": "Português",
+      fr: "Français",
       de: "Deutsch",
     };
 

@@ -3,428 +3,540 @@ fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&disp
 headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
+languages: en, fr
 ---
 
-# Introductions | Charge SRD
+# Introductions | Charge DRS
 
-This is a condensed version of the rules of Charge RPG that you can use to make your own **Powered by Charge** games.
+Le Document de Référence du Système Charge est une version condensée des règles de Charge RPG que vous pouvez utiliser pour créer vos propres jeux **Propulsés par Charge**.
 
-This document follows a certain format that you can use as a base framework for your game.
+Ce document suit un format que vous pouvez utiliser comme un cadre pour votre jeu, mais propose également des conseils de design afin que vous puissiez le modifier tout en gardant le "ressenti Charge".
 
-You can fill-in the gaps, or tear-it down to make something completely different.
+Vous pouvez combler les blancs ou l'éradiquer pour en faire quelque chose de complètement différent.
 
-We can't wait to see what you will build with this. Enjoy!
+Nous avons hâte de voir ce que vous bâtirez à partir de cela. Lancez-vous!
 
-> #### Designer Note
+ >#### Note du Designer
 >
-> Text inside blockquotes is for the game designer.
+> Un texte dans un encadré (comme celui-ci) vous êtes destiné, chère créatrice de jeu.
 >
-> Either it contains relevant design information, or it offers different dials or options you could use for your game.
+> Les notes du designer contienneront des informations importantes quant au designe ou vous proposeront différents curseurs et options que vous pouvez utiliser pour votre jeu.
 >
-> #### Powered By Charge Logos
+> #### Logos Propulsé par Charge
 >
-> Use those logos to show that your game is **Powered by Charge** ⚡
+> Utilisez ces logos pour montrer que votre jeu est **Propulsé par Charge**.
 >
 > <div style="display: flex">
 > 	<img style="background: #fff" src="https://gyazo.com/e6f386391ee4d8a079aa4d10469b15d0.png" width="300px" style="margin-bottom: 1rem"/>
 > 	<img style="background: #000" src="https://gyazo.com/3f66d3276513deef1cdb7c200c098689.png" width="300px" style="margin-bottom: 1rem"/>
 > </div>
 
-# The Game | Charge SRD
+# Le Jeu | Charge DRS
 
-In this game, you and your friends get together to tell an interactive story about a group of fictional characters facing, and trying to overcome obstacles. You decide how the characters resolve those challenges, and how the world reacts to those actions.
+Dans ce jeu, vous rassemblez vos amis pour raconter ensemble l'histoire interactive d'un groupe de personnages fictifs qui affrontent, et surmontent, des obstacles. Vous décidez comment les personnages résolvent ces défis et comment le monde réagit à ces actions.
 
-### What You Need To Play
+## Ce dont vous avez besoin pour jouer
 
-Here’s what you’ll need to play:
+Voici ce qu'il vous faut pour jouer:
 
-- Between two and five friends to play with one acting as the Game Master.
-- Character sheets, one for each player.
-- A bunch of six-sided dice. At least 6 would be ideal.
-- Index cards, sticky notes or similar slips of paper.
+* entre deux et cinq participants: l'un d'entre eux sera le Meneur de Jeu
+* une fiche de personnage par joueuse
+* une poignée de dés à six faces (idéalement au moins six).
+* des post-it, fiches bristol ou feuilles de papier similaires
 
-### Game Master & Players
+## Avertissement de Contenu
 
-One person in the group needs to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that live in it (those that aren't directly played by the rest of the table). We call those characters "non-player characters", or `NPCs`.
+Nous prenons un moment pour être transparent quant aux thèmes présents dans ce jeu. Si certains d'entre eux vous mettent mal à l'aise, il est important d'en discuter en groupe. Vous pouvez alors décider de les retirer de votre jeu ou de jouer à quelque chose d'autre. Prenez soin de vous et montrez de l'empathie envers tous vos camarades de jeu.
 
-The rest of the group are `Players`. The players create a character that experiences compelling stories inside this world. We call those player characters, or `PCs`.
+Ce jeu inclut des références et des exemples des thèmes suivants: [...]
 
-While the GM is usually the main person in charge of the way the world changes over time, everyone at the table is in charge of the story.
-
-Everyone at the table contributes to make the story successful, and captivating.
-
-### Game Structure
-
-Each `session` is made of `scenes`, like in a movie. Each scene plays out as a bunch of back-and-forth between the GM and the players. The GM describes what the scene is like, the players tell the GM what their characters do, and the GM makes the world react to those actions depending on the outcomes of dice rolls.
-
-We roll dice because we want to be on the edge of our seats. We want to be surprised by where the story takes us next.
-
-### Safety Tools
-
-If at any point during the game creation process, or when playing a scene, something doesn't click with someone at the table, the game needs to be paused and things need to be aligned and discussed so that **everyone is on the same page**.
-
-One way the GM can help make the table safer for everyone is by using safety tools like the [**X-Card**](https://docs.google.com/document/d/1SB0jsx34bWHZWbnNIVVuMjhDkrdFGo1_hSC2BWPlI3A/edit) by John Stavropoulos, or Beau's [**Script Change RPG Toolbox**](https://briebeau.itch.io/script-change).
-
-This is super important, and should not be taken lightly. Everyone at the table should feel safe and comfortable.
-
-If you don't feel safe at a table, it is totally OK to quit and find another group of people to play with. Don't feel bad, and more importantly, respect yourself.
-
-# The Setting | Charge SRD
-
-> #### Designer Note
+> #### Note du Designer: Avertissement de Contenu
 >
-> Use this section of the game to explain what is the setting of your game.
+> Prenez le temps de lister les thèmes présents dans votre jeu dans la rubrique ci-dessus. Être transparente vous permettra d'assurer une expérience de jeu sûre pour chaque participant à la table.
+
+## Meneur de Jeu et Joueuses
+
+Une personne du groupe agira en tant que `Meneur de Jeu` ou `MJ`. Le MJ est responsable du monde et des personnages qui y vivent (ceux qui ne sont pas interprétés par le reste de la table). Nous appelons ces personnages des "personnages non-joueurs", ou `PNJ`.
+
+Le reste du groupe sont les `Joueuses`. Les joueuses créent un personnage qui vivent des histoires passionnantes dans ce monde. Nous les appelons les personnages joueurs, ou `PJ`.
+
+Tandis que le MJ est principalement la personne en charge de l'évolution du monde, tout le monde à la table est en charge de l'histoire.
+
+Tout le monde contribue à produire une histoire captivante et satisfaisante.
+
+## Structure du jeu
+
+Pour jouer à ce jeu, vous rassemblez des personnes soit en réel ou en ligne pour la création collaborative d'une histoire intéressante.
+
+Chaque `séance` est sa propre et une unique expérience faite de `scènes` multiples reliées entre elles, comme un film. Chaque scène se déroule comme un ensemble d'aller-retours entre le MJ et les joueuses. Le MJ décrit la scène, les joueuses disent au MJ ce que font leurs personnages et le MJ fait réagir le monde à ces actions en fonction du résultat de lancers de dés.
+
+Nous lançons des dés car nous souhaitons être captivés. Nous voulons être surpris par la direction dans laquelle nous mène l'histoire.
+
+## Outils de sécurité
+
+Si à un moment quelconque du processus de création de la partie, ou en jouant une scène, quelque chose dérange quelqu'un à la table, il faut mettre la partie en pause et discuter ensemble des éléments du jeu. Il faut que **tout le monde soit sur la même longueur d'onde**.
+
+Une des manière pour le MJ de rendre la partie plus sûre pour tout le monde est l'usage d'outils de sécurité tels que la Carte-X de John Stravropoulos ou la boîte à outils [Script Change](https://aikya.itch.io/scg-fr).
+
+C'est vraiment important et ça ne devrait pas être pris à la légère. Chacun à la table doit se sentir à l'aise et en sécurité.
+
+Si vous n'êtes pas à l'aide, il est tout à fait OK de partir et de trouver un autre groupe de jeu. Ne le prenez pas mal, et plus important encore, prenez soin de vous.
+
+# Création de personnage | Charge DRS
+
+## Détails
+
+Les personnages sont définis par des traits descriptifs appelés `détails`. Chaque personnage a généralement entre 2 à 5 détails pour souligner qui il est et ce qui est important pour lui. Ces détails ne sont pas de simples informations pour donner une couleur au personnage mais doivent être des aspects du personnage auxquels on attache une importance durant l'histoire. Ils sont également utilisés comme guides pour déterminer les libertés narratives que le personnage possède dans la fiction.
+
+Quand vous créez un nouveau eprsonnage, écrivez :
+
+* son `Concept`: un résumé en quelques mots de qui est le personnage.
+* son `Apparence`: à quoi ressemble le personnage, ce qu'il porte, etc.
+* ses `Liens`: 1 à 3 relations que le personnage possède avec certaines personnes ou organisations dans le monde.
+
+> #### Notes du Designer: Hacker les Détails
 >
-> You can talk about:
+> Une des manière de customiser facilement Charge est de changer les `détails` par défaut des personnages.
+> C'est une façon efficace de souligner ce qui est important narrativement dans votre contexte de jeu.
 >
-> - The history of the world.
-> - What kind of characters the PCs are going to play.
-> - The different types of problems the PCs might face. etc.
-
-# Character Creation | Charge SRD
-
-## Details
-
-Characters are defined by descriptive traits called `details`. Each character usually has between 2-5 of them to highlight who they are, and what is important about them. Those details aren’t just information to give the character color, but should be the aspects of the character that we pay attention to in the story. They are also used as a guide to know the different narrative liberties that a character has in the fiction.
-
-When creating a new character, write down their:
-
-- `Concept`: an elevator-pitch version of who the character is.
-- `Appearance`: what the character looks like, what they wear, etc.
-- `Ties`: 1-3 relations that the character has with certain people or organizations in the world.
-
-> #### Designer Note
+> Est-ce que les personnages les membres de maisons nobles? Ou possèdent-ils des pouvoirs magiques?
+> Déterminer les `détails` en fonction de ces concepts vient renforcer les aspects les plus importants du jeu.
 >
-> An easy way to customize Charge is by changing the default `details` of a character.
->
-> Try to have around 2-5 details. Use them as a way to reinforce what is narratively important in your setting.
+> Il est recommandé d'avoir 2 à 5 `détails`.
 
 ## Actions
 
-When a PC needs to overcome an obstacle and there is a risk, they use one of their `actions`.
+Quand un PJ a besoin de surmonter un obstacle et qu'il y a un risque, il utilise une de ses `actions`.
 
-At character creation, players assign `7 action dots` among the following action list:
+Lors de la création de personnage, assignez `7 points d'actions` parmi la liste suivante:
 
-- `Muscle`: you use your force to move, overcome or wreck the obstacle in front of you.
-- `Move`: you quickly shift to a new position or get out of danger.
-- `Finesse`: you employ dexterous manipulation or subtle misdirection.
-- `Sneak`: you traverse skillfully and quietly.
-- `Shoot`: you carefully track and shoot at a target.
-- `Tinker`: you understand, create, or repair complex mechanisms or organisms.
-- `Study`: you gather, scrutinize and analyze information.
-- `Notice`: you observe the situation and anticipate outcomes.
-- `Bond`: you reassure and socialize with friends and contacts.
-- `Command`: you compel swift obedience with skills and respect.
-- `Focus`: you concentrate to accomplish a task that requires great strength of mind.
-- `Sway`: you influence with guile, charm, or argument.
+* `Forcer`: vous utilisez votre force pour déplacer, dépasser ou détruire l'obstacle face à vous.
+* `Bouger`: vous changez rapidement de position ou vous vous éloignez du danger.
+* `Manoeuvrer`: vous employez une manipulation adroite ou une redirection subtile.
+* `Se faufiler`: vous vous déplacez discrètement et efficacement.
+* `Tirer`: vous traquez et tirez sur une cible.
+* `Bricoler`: vous comprenez, créez ou réparez des méchanismes ou organismes complexes.
+* `Etudier`: vous rassemblez, examiner et analysez une information.
+* `Remarquer`: vous observez la situation et anticipez ses conséquences.
+* `Sociabiliser`: vous rassurez et échangez avec des amis ou des contacts.
+* `Commander`: vous obtenez une obéissance rapide basée sur la compétence et le respect.
+* `Se Concentrer`: vous vous concentrez pour accomplire une tâche qui requiert une volonté inébranlable.
+* `Influencer`: vous manipulez en utilisant votre ruse, votre charme ou vos arguments.
 
-At the start of a campaign, a single action cannot have more than 2 action dots.
+Au début du jeu, une action ne peut pas avoir plus de `2 points d'action`.
 
-> #### Designer Note
+>#### Note du Designer: Hacker les Actions
 >
-> You are encouraged to change the default action list to something that better fits your game's aesthetic.
+>Les mots sont importants: vous devriez songer à changer la liste par défaut des actions afin de mieux coller à l'esthétique de votre jeu.
 >
-> Here are a couple of examples you could use:
+>Tout d'abord, déterminer ce que feront majoritairement les personnages dans votre jeu. Vont-ils beaucoup se battre ou plutôt jouer des intrigues politiques? En fonction de ce que vous recherchez, adaptez la liste à vos intentions.
+>
+>Si vous utilisez moins de 12 actions, n'hésitez pas à réduire le nombre intial de points d'action obtenus par les PJ. Un bon ratio est quelque chose comme `{nombre d'actions}/2 +1`.
+>
+>Voici quelques exemples génériques que vous pouvez utiliser tels quels ou comme inspiration:
 >
 > ---
 >
-> Assign `4 action dots` in:
+> Assignez `4 points d'actions` parmi:
 >
-> - `Muscle`: you your force to move, overcome or wreck the obstacle in front of you.
-> - `Finesse`: you employ dexterous manipulation or subtle misdirection.
-> - `Move`: you quickly shift to a new position or get out of danger.
-> - `Study`: you scrutinize details and interpret evidence.
-> - `Talk`: you reassure, socialize or influence with kindness, guile, charm or argument.
-> - `Focus`: you concentrate to accomplish a task that requires great strength of mind.
+> * `Forcer`: vous utilisez votre force pour déplacer, dépasser ou détruire l'obstacle face à vous.
+> * `Manoeuvrer`: vous employez une manipulation adroite ou une redirection subtile.
+> * `Bouger`: vous changez rapidement de position ou vous vous éloignez du danger.
+> * `Etudier`: vous rassemblez, examiner et analysez une information.
+> * `Parler`:vous rassurez, socialisez ou influencez avec gentillesses, ruse, charme ou arguments.
+> * `Se concentrer`:  vous vous concentrez pour accomplir une tâche qui requiert une volonté inébranlable.
+>
+> ---
+>  
+> Assignez `3 points d'actions` parmi:
+>
+> * `Force`/ `Agilité` / `Intelligence` / `Charme`
 >
 > ---
 >
-> Assign `3 action dots` in:
+> Assignez `2 points d'actions` parmi:
 >
-> - `Strength` / `Agility` / `Intelligence` / `Charm`
->
-> ---
->
-> Assign `2 action dots` in:
->
-> - `Power` / `Speed` / `Focus`
+> * `Puissance` / `Vitesse` / `Concentration`
 >
 > ---
 >
 > _...etc_
 
-# Mechanics | Charge SRD
+## Talents
 
-In this game the GM and the players tell a story, and afterwards look at the rules to see if something needs to be resolved using the game's mechanics. You don't look at the rules first, you look at the fiction first.
+Les Talents sont des capacités spéciques que votre personnage obtient lorsqu'il atteint certains jalons de l'histoire.
 
-See those mechanics as tools in a box to use as needed. They exist to resolve situations where you don't know the direct answers to a question.
+Un `talent` peut octroyer un nouveau `point d'action` à investir ou un nouveau `talent de contexte` qui lui donne un avantage temporaire lors de circonstances particulières.
 
-## Rolling Dice
+Au début de la partie, les personnages commencent sans avoir de talent. Ils  obtiendront ces capacités spéciales lorsqu'ils atteindront certains jalons de l'histoire.
 
-The game uses six-sided dice. You roll several at once, which we call a dice pool, and read the **single highest result**.
-
-- If the highest die is a `6`, it's a `full success`. Things go well. If you roll more than one `6`, it's a `critical success` and you gain some additional advantage.
-- If the highest die is a `4 or 5`, that's a `partial success`. You do what you were trying to do, but there is a `consequence`.
-- If the highest die is `1-3`, it's a `bad outcome`. Things go poorly. You don't achieve your goal, and suffer a `consequence`.
-
-_If you ever need to roll but you have zero (or negative) dice, roll two dice and take the single lowest result. You can’t roll a critical when you have zero dice._
-
-Most of the game's mechanics revolve around this basic format.
-
-## Action Rolls
-
-When there's a challenge that needs to be overcome, and there's a risk of failure, a player makes an `action roll`.
-
-The number of dice to roll depends on the `action` the character is doing. The list of possible action can be found in the character creation section.
-
-In this game, NPCs don't roll for their actions. NPCs succeed unless the players attempt to stop them, in which case the action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**. The action roll tells us the results, and the consequences of an action at the same time, encouraging players to be active participants in the story.
-
-To make an action roll, we go through the following steps:
-
-#### 1. Player Sets Their Goal
-
-The player states their goal and, which `action` they are using.
-
-#### 2. GM Sets the Position
-
-The GM sets the position of the situation based on what has been established in the narrative.
-
-- In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out.
-- In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
-- In a `desperate` position, the odds are against you. Attempting to go against them might backfire heavily.
-
-By default, an action roll is `risky`. You wouldn’t be rolling if there was no risk involved.
-
-#### 3. GM Sets the Effect Rating
-
-The GM sets the effect rating of the action.
-
-- With a `great` effect, you achieve more than usual.
-- With a `standard` effect, you achieve what we would have expected.
-- With a `limited` effect, you achieve a partial or weak effect.
-
-#### 4. Player Evens the Odds
-
-As the player, you decides if you want to even the odds by adding bonus dice to your pool.
-
-You can normally get two bonus dice for your action roll.
-
-For one bonus die, you can get assistance from a teammate. They consume `1 momentum`, say how they help you, and give you `+1d6`.
-
-For another bonus die, you can either:
-
-- `Push yourself`: Consume `2 momentum` to get `+1d6` or an improved `effect` rating.
-- `Add tension` to the scene, to get `+1d6`.
-
-#### 5. Roll the Dice
-
-Finally, the player rolls the dice, and the group judges the result.
-
-- On a `66` it's a critical success. You achieve your goal with increased `effect`.
-- On a `6` it's a full success. You achieve your goal.
-- On a `4-5` it's a partial success. You achieve your goal, but there's a `consequence`.
-- On a `1-3` it's a bad outcome. Things go badly, and there's a `consequence`.
-
-If the result of the dice is higher than `3`, the PC gains `momentum` from their action except if they pushed themselves.
-
-## Momentum
-
-When a player makes an action roll, that roll has a chance generating `momentum`.
-
-You start every session with `2`, and generate more `momentum` when making successful action rolls.
-
-- On a `4-5`, you gain `+1 momentum`.
-- On a `6`, you gain `+2 momentum`.
-- On a `66`, you gain `+3 momentum`.
-
-PCs consume their `momentum` to boost their actions, assist an ally or resist a `consequence`.
-
-**When momentum is spent for a roll, that roll cannot in turn generate momentum.**
-
-> #### Designer Note
+>#### Note du Designer: Hacker les Talents
 >
-> If you want your game to feel grimmer or bigger than life, change **when momentum is gained** and **how much is gained**
+> La feuille de personnage par défaut de Charge a un `arbre de talent` possédant 13 `talents`. Ceci étant dit, il n'est pas nécessaire de faire de même dans votre jeu.
 >
-> Changing this dial is an easy way to change the whole vibe of a game since most mechanics rely on `momentum`.
+> Prenez en considération que Charge est générique par défault, nous voulions laisser plus de marge pour que le groupe fasse progresser leur personnage à son propre rythme. C'est la raison pour laquelle l'`arbre de talent` est aussi grand.
+>
+> Puisqu'une campagne dure en moyenne environ 6  séances, avoir un `arbre de talent` avec 4 ou même 6 `talents` devrait être plus suffisant.
 
-## Boosting Action Rolls
+>#### Note du Designer: Créer des livrets
+>
+>Les livrets sont des fiches de personnages pré-créées qui représentent souvent un archétype. Ils sont souvent partiellement complétés pour rendre la création de personnage plus fluide pour les joueuses.
+>
+>Limiter les choix est souvent une bonne façon de stimuler la créativité. Et c'est exactement ce qui arrive dans un jeu qui utiliser des livrets. Ils sont également un très bon moyen pour introduire le groupe au type de personnages sur lequel va se concentrer l'histoire.
+>Pour créer un livret pour Charge, vous devez tout d'abord trouver un nom cool. Recherchez quelque chose d'accrocheur, facile à se souvenir et qui convient au thème du jeu. Une fois trouvé, écrivez-le: il s'agit du `concept` de ce livret.
+>
+>Pour les autres détails du personnage, proposez plusieurs options parmi lesquels les joueuses pourront choisir. Par exemple, une liste des `liens` possibles ou les relations que les personnages peuvent avoir.
+>
+> Pour les `actions`, assignez 3 `points d'action` qui reflètent les compétences de ce livret selon vous. Les 4 points restant seront choisis par la joueuse. Si vous avez choisi d'augmenter ou de diminuer le nombre de points par défaut, n'oubliez pas d'ajuster ces nombres en conséquence.
+>
+> La dernière chose à faire dans la création d'un livret et de définir l'`arbre de talents`. Chaque livret peut avoir entre 4 et 6 `talents` distincts qui feront de ce livret une expérience fun et unique.
+>
+> Une bonne façon de commencer est de réfléchir à ce qui fait de ce livret quelque chose de spécial. Réfléchissez aux pouvoirs, capacités ou matos cool qu'il pourrait utiliser.
+> Donnez à chaque `talent` un nom qui le décrit. Un talent peut faire beaucoup de choses, y compris (mais pas limité à):
+> 
+> * `+1d6 quand...`
+> * `+1 position quand...`
+> * `+1 effet quand...`
+> * `Utilisez  (action) au lieu de (action) quand...`
+> * `(Nouvelle liberté narrative) quand...`
 
-If you want, you can add bonus dice to your action roll by using **one** of the following methods.
+# Mécaniques | Charge DRS
 
-### Push Yourself
+Dans ce jeu, le MJ et les joueuses racontent une histoire puis regardent les règles pour voir si quelque chose doit être résolu avec les mécaniques du jeu. Les règles ne sont pas la priorité, l'histoire est la priorité.
 
-When you `push yourself`, you consume `2 momentum` **per push** to gain one of the following bonuses.
+Voyez ces mécaniques comme des outils à utiliser en cas de besoin. Ils existent pour résoudre les situations où vous ne savez pas la réponse directe à une question.
 
-- Add `+1d6` to your dice pool.
-- Gain `+1 effect rating` for your roll.
-- Take action even if you were taken out.
+## Lancer les dés
 
-### Add Tension
+Le jeu utilise des dés à six faces. Vous en lancez plusieurs, ce qu'on appelle une main de dés, et vous regardez le **résultat le plus élevé**.
 
-When you `add tension` to an action roll, you can ask the GM _"What would adding tension look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
+* Si le dé le plus élevé est un `6`, c'est une `réussite complète`. Les choses vont bien. Si vous avez obtenu plusieurs `6`, c'est une `réussite critique` et vous obtenez un avantage supplémentaire.
+* Si le dé le plus élevé est un `4 ou 5`, c'est une `réussite partielle`. Vous effectuez ce que vous essayez de faire mais il y a une `conséquence`.
+* Si le dé le plus élévé est `1 à 3`, c'est un `mauvais résultat`. Les choses vont mal. Vous n'atteignez pas votre objectif et vous subissez une `conséquence`.
 
-If you accept the `consequence`, add `+1d6` to your current dice pool.
+_Si vous avez besoin de faire un jet mais que vous avez zéro (ou moins) de dés, lancez deux dés et prenez le résultat le plus faible. Vous ne pouvez pas obtenir de réussite critique quand vous n'avez aucun dé._
 
-There could be scenarios where adding tension isn't an option. In that case, the GM can simply communicate that to the player so that they look into other ways to even the odds.
+La plupart des mécaniques du jeu tournent autour de ce format de base.
 
-## Team work
+## Jets d'action
 
-The PCs can help one another in different ways to assure that the teams overcome the different challenges that are facing them.
+Quand il y a un obstacle qui doit être surmonté, et qu'il y a un risque d'échec, une joueuse fait un `jet d'action`.
 
-### Assist
+Le nombre de dés dépends de l'`action` que le personnage effectue. La liste des actions possibles se trouve à la rubrique Création de personnage.
 
-When you `assist` a PC, you consume `1 momentum`, to give `+1d6` to their roll. When doing this, you also expose yourself to possible danger.
+Dans ce jeu, les PNJ ne font pas de lancers de dés pour leurs actions. Les PNJ réussissent à moins que les joueuses tentent de les arrêter: dans ce cas, le jet d'action sert à deux choses: **il résout l'action du PJ ainsi que toute action du PNJ impliqué**. Le jet d'action nous donne alors à la fois le résultat et les conséquences d'une action, ce qui encourage les joueuses à être des participantes actives à l'histoire.
 
-### Protect
+Pour effectuer un jet d'action, suivez les étapes suivantes:
 
-When you protect a PC, you step in to confront a consequence they would otherwise face. Describe how you intervene, and suffer the consequence for them.
+#### 1. La joueuse définit son objectif
 
-You can make a `determination roll` to try to reduce or cancel the consequence.
+La joueuse indique son objectif et l'action qu'elle utilise.
 
-### Set up
+#### 2. Le MJ établit la position
 
-When you perform a setup action, you make an `action roll` to have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll.
+Le MJ établit la position de la situation en se basant sur ce que la fiction a décrit jusqu'alors.
 
-You choose the benefit, based on the nature of your setup action.
+* Dans une position `contrôlée`, le risque est limité. Même si les choses se passent mal, il y a un échappatoire.
+* Dans une position `risquée`, la situation est dangereuse. Si vous échouez, il y aura des répercussions.
+* Dans une position `désespérée`, les probabilités sont contre vous. Agir contre elles peut se retourner méchamment contre vous.
 
-## Consequences
+Par défault, un jet d'action est `risqué`. Vous ne feriez pas un jet s'il n'y avait pas un risque.
 
-If you make an action roll and you get a `partial success (4-5)` or a `bad outcome (1-3)`, you suffer a `consequence`.
+#### 3. Le MJ établit le rang de l'effet
 
-The GM chooses one of the following:
+Le MJ établit le rang de l'effet de l'action.
 
-- `Reduced Effect` : reduce the `effect` of the action by one level.
-- `Complication`: tick one segment per `consequence rating` on a new or existing `danger clock`.
-- `Worse Position` : reduce the `position` of the PC by one level for their next action rolls.
-- `Lost Opportunity` : what you tried didn't work, you need to use another `action`.
-- `Worse Condition`: take `1 stress` per `consequence rating`.
+* Avec un `grand` effet, vous accomplissez plus que d'habitude.
+* Avec un effet `standard`, vous atteignez ce que vous espériez.
+* Avec un effet `limité`, vous atteignez un effet partiel ou faible.
 
-The `consequence rating` is determined by looking at the position for the roll.
+#### 4. La joueuse égalise les chances
 
-- A `controlled` position, has a consequence rating of `1`.
-- A `risky` position, has a consequence rating of `2`.
-- A `desperate` position, has a consequence rating of `3`.
+En tant que joueuse, vous décidez si vous voulez égaliser les chances en ajoutant des dés bonus à votre main de dés.
+Vous pouvez normalement ajouter deux dés bonus pour votre jet d'action.
 
-## Determination Roll
+Pour un dé bonus, vous pouvez obtenir l'assistance d'une camarade. Cela lui coûte `1 initiative`, elle décrit comment son personnage vous aide et vous octroie `+1d6`.
 
-If a character suffers a `consequence` that you, as a player, don't like, you can try to resist it.
+Pour un dé bonus supplémentaire, vous pouvez (au choix):
 
-You do so by calling for a `determination roll` to see how well you resist the consequence.
+* `Vous dépasser`: Utilisez `2 initiatives` pour obtenir `+1d6` ou un rang d'`effet` amélioré.
+* `Ajouter de la tension` à la scène pour obtenir `+1d6`.
 
-Build a pool of d6s by adding `+1d6` for each charge of momentum you are willing to consume for the roll.
+#### 5. Lancer les dés
 
-Once you've decided how many charges you want to consume, roll and interpret the results:
+Enfin, la joueuse lance les dés et le groupe évalue le résultat:
 
-- On a `1-3`, the `consequence` still happens.
-- On a `4-5`, the `consequence` is reduced.
-- On a `6`, the `consequence` is avoided.
-- On a `66`, the `consequence` is avoided, and you get +1 position for your next roll.
+* Sur `66` c'est une réussit critique. Vous atteignez votre objectif avec un `effet` accru.
+* Sur `6` c'est une réussite complète. Vous atteignez votre objectif.
+* Sur `4-5` c'est une réussite partielle. Vous atteignez votre objectif mais il y a une `conséquence`.
+* Sur `1-3` c'est un mauvais résultat. Les choses vont mal et il y a une `conséquence`.
 
-## Clocks
+Si le résultat du dé est plus élevé que 3, le PJ gagne une `initiative` sauf s'il s'est dépassé.
 
-Clocks are circles divided in either 4, 6 or 8 segments used to track a task's **progress** or escalating **danger** in a scene. They can also be used on a PC's character sheet to track the long term `projects` that they are working on or the `complications` that they create in the world.
+## Initiative
 
-Generally, the more complex the problem, the more segments the clock should have.
+Quand une joueuse fait un jet d'action, ce jet a la possibilité de générer de l'`initiative`.
 
-When a PC succeeds an action roll, you can use a `progress clock` and:
+Vous commencez chaque séance avec `2`, et générez davantage d'`initiative` en réussissant des jets d'action.
 
-- Tick 1 segment for a `limited effect`.
-- Tick 2 segments for a `standard effect`.
-- Tick 3 segments for a `great effect`.
+* Sur `4-5`, vous gagnez `+1 initiative`.
+* Sur `6`, vous gagnez `+2 initiative`.
+* Sur `66`, vous gagnez `+3 initiative`.
 
-When a PC gets a consequence from an action roll, you can use  `danger clock` and:
+Les PJ utilisent leur `initiative` pour booster leurs actions, aider un allié ou résister à une `conséquence`.
 
-- Tick 3 segments for a `desperate position`.
-- Tick 2 segments for a `risky position`.
-- Tick 1 segment for a `controlled position`.
+**Quand de l'initiative est utilisée pour un jet, ce jet ne peut pas générer de l'initiative.**
 
-When a clock is filled, a narrative element in the story is now resolved. Either the PCs got closer to their goal, or danger has come to fruition and makes the situation more complicated.
+>#### Note du Designer: Curseur de l'initiative
+>
+> Si vous souhaitez que votre jeu soit plus sombre ou plus épique, une façon simple de le faire est changer **quand l'initiative est obtenue** et **combien on en obtient**. Cela s'appelle changer le `curseur de l'initiative`.
+>
+> Changer ce curseur est un bon moyen de changer le ressenti d'un jeu. Puisque `se surpasser` et les `jets de détermination` pour résister aux conséquences reposent uniquement sur l'`initiative`, le `curseur de l'initiative` a un fort impact sur le jeu.
+>
+Si vous augmentez le `curseur d'initiative`, les PJ pourront booster leurs jets plus souvent et il leur sera plus facile de résister aux conséquences. Si vous le baissez, les PJ se reposeront davantage sur leurs `points d'action` pour effectuer leur jet d'action. Les conséquences frapperont également plus fort.
+>
+> Modifiez et testez jusqu'à ce que cela semble adapté à votre jeu. Une chose à garder à l'esprit est que, par défaut, l'`initiative` est obtenue en participant au jeu. Cela encourage les joueuses à prendre des risques. Votre jeu devrait faire de même pour garder le ressenti "Charge".
 
-## Health and Condition
+## Améliorer vos jets d'Actions
 
-When a PC gets hurt as a result of a consequence, they take `stress`. Each stress ticks a segment on the PC's `stress clock ⨁`.
+Si vous le voulez, vous pouvez ajouter un dé de bonus à votre jet d'action en utilisant **une** des méthodes suivantes.
 
-As the stress clock gets filled, you also need to update the PC's `condition` by writing a small descriptive text below the clock.
+### Se surpasser
 
-The character's condition imposes narrative restrictions as to what the character can or cannot do.
+Quand vous vous `surpassez`, vous consommez `2 initiatives` **par surpassement** pour gagner un des bonus suivants.
 
-When the 4 segments of the `stress clock` are filled, the PC is taken out for the scene, and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
+* Ajoutez `+1d6` à votre jet de dés.
+* Gagnez `+1 à l'évaluation des effets` à votre jet
+* Agissez même si vous avez été éliminé.
 
-## Recovery
+### Ajouter de la tension
 
-As time passes, PCs will get better, and their condition will improve.
+Quand vous `ajoutez de la tension` à un jet d'action, vous pouvez demander au MJ _"À quoi ressemblerait l'ajout de tension ici ?"_. Le MJ offre alors une `conséquence`, comme cocher des segments sur une horloge de danger, infliger un stress à votre personnage ou ajouter plus de drame au récit.
 
-If the fiction allows it, once per session clear 1 segment off a PC's `stress clock`. Also update the condition text to represent the character's current `condition`.
+Si vous acceptez la `conséquence`, ajoutez `+1d6` à votre jet de dés actuel.
+
+Il pourrait y avoir des scénarios où l'ajout de tension n'est pas une option. Dans ce cas, le MJ peut simplement le communiquer à la joueuse afin qu'il recherche d'autres moyens d'améliorer ses chances.
+
+## Travail d'équipe
+
+Les PJs peuvent s'entraider de différentes façon pour s'assurer que l' équipe surmonte les différents défis auxquels elle est confrontée.
+
+### Aider
+
+Qaund vous `aidez` un PJ, vous consommez `1 initiative`, pour donner `+1d6` à son jet. Quand vous faites ceci, vous vous exposez également au danger.
+
+### Protéger
+
+Lorsque vous protégez un PJ, vous intervenez pour faire face à une conséquence à laquelle il serait autrement confronté. Décrivez comment vous intervenez, et subissez les conséquences pour eux.
+
+Vous pouvez lancer un `jet de détermination` pour essayer de réduire ou d'annuler les conséquences.
+
+### Préparer
+
+Lorsque vous effectuez une action de préparation vous lancez un  `jet d'action`  pour avoir un effet indirect sur un obstacle. Si votre action a le résultat escompté, tout membre de l'équipe qui poursuit votre manœuvre obtient un niveau `+1 d'effet` ou une  `position améliorée` pour son jet.
+
+Vous choisissez l'avantage en fonction de la nature de votre action de mise en place.
+
+## Conséquences
+
+Si vous faites un jet d'action et que vous obtenez un `succès partiel (4-5)` ou un `mauvais résultat (1-3)`, vous subissez une `conséquence`.
+
+Le MJ choisit l'une des options suivantes :
+
+* `Effet réduit` : réduit `l'effet` de l'action d'un niveau.
+* `Complication` : cochez un segment par `niveau de conséquences` sur une `horloge de danger` nouvelle ou existante.
+* `Position défavorable` : réduit la `position` du PJ d'un niveau pour ses prochains jets d'action.
+* `Occasion manquée` : ce que vous avez essayé n'a pas fonctionné, vous devez utiliser une autre `action`.
+* `condition aggravée` : prenez `1 stress` par `niveau de conséquence`.
+
+Le `niveau de conséquence` est déterminé en regardant la position du jet.
+
+* Une position `contrôlée` a un niveau de conséquence de `1`.
+* Une position `risquée` a un niveau de conséquence de `2`.
+* Une position `désespérée` a un niveau de conséquence de `3`.
+
+## Jet de Détermination
+
+Si un personnage subit une `conséquence` que vous, en tant que joueuse, ne souhaitez pas, vous pouvez essayer d'y résister.
+
+Vous pouvez le faire en demandant un `jet de détermination` pour voir dans quelle mesure vous résistez à cette conséquence.
+
+Construisez une réserve de d6 en ajoutant `+1d6` pour chaque charge d'élan que vous êtes prêt à consommer pour le jet.
+
+Une fois que vous avez décidé du nombre de charges que vous souhaitez consommer, lancez et interprétez les résultats :
+
+* Sur un `1-3`, la `conséquence` se produit toujours.
+* Sur un `4-5`, la `conséquence` est réduite.
+* Sur un `6`, la  `conséquence` est évitée.
+* Sur un `66`, la `conséquence` est évitée et vous obtenez `+1 position` pour votre prochain lancer.
+
+## Horloges
+
+Les horloges sont des cercles divisés en 4, 6 ou 8 segments utilisés pour suivre la **progression** d'une tâche ou l'escalade du **danger** dans une scène. Ils peuvent également être utilisés sur la feuille de personnage d'un PJ pour suivre les `projets` à long terme sur lesquels ils travaillent ou les `complications` qu'ils créent dans le monde.
+
+Généralement, plus le problème est complexe, plus l'horloge doit avoir de segments.
+
+Lorsqu'un PJ réussit un jet d'action, vous pouvez utiliser une `horloge de progression` et :
+
+* Cochez 1 segment pour un `effet limité`.
+* Cochez 2 segments pour un `effet standard`.
+* Cochez 3 segments pour un `grand effet`.
+
+Lorsqu'un PJ obtient une conséquence d'un jet d'action, vous pouvez utiliser une `horloge de danger` et :
+
+* Cochez 3 segments pour une`position désespérée`.
+* Cochez 2 segments pour une `position risquée`.
+* Cochez 1 segment pour une `position contrôlée`.
+
+Lorsqu'une horloge est remplie, un élément narratif de l'histoire est maintenant résolu. Soit les PJ se sont rapprochés de leur objectif, soit le danger s'est concrétisé et complique la situation.
+
+## Santé et Condition
+
+Lorsqu'un PJ se blesse à la suite d'une conséquence, il subit du `stress`. Chaque stress fait cocher un segment sur `l'horloge de stress ⨁` du PJ.
+
+Au fur et à mesure que l'horloge de stress se remplit, vous devez également mettre à jour la `condition` du PJ en écrivant un petit texte descriptif sous l'horloge.
+
+La condition du personnage impose des restrictions narratives sur ce que le personnage peut ou ne peut pas faire.
+
+Lorsque les 4 segments de `l'horloge de stress` sont remplis, le PJ est sorti de la scène et son horloge de stress est effacée. Parce qu'il a été retiré, les scènes suivantes devraient traiter de la manière dont le personnage va se rétablir dans la fiction.
+
+## Récupération
+
+Lorsqu'un PJ est blessé ou stressé à la suite d'une de ses actions, il subit un `stress` et son état s'aggrave. Au fil du temps, il ira mieux et son état s'améliorera.
+
+La seule façon de se remettre du `stress` est dans la fiction. Vous pouvez soit vous reposer, vous allonger ou consulter un médecin. Ce faisant, le MJ examinera la fiction et vous dira combien de `stress` (1-4) vous enlevez sur votre `horloge de stress`.
+
+Au fur et à mesure que votre personnage s'améliore, vous devez également mettre à jour votre `condition` pour représenter l'état actuel de votre personnage.
 
 ## Progression
 
-As a campaign evolves over time, so will the characters.
-So at the end of every session, you can update a character's `details` to represent how they've grow over the course of the session.
+Au fur et à mesure qu'une campagne évolue avec le temps, les personnages évoluent également.
+Ainsi, à la fin de chaque session, vous pouvez mettre à jour les `détails` d'un personnage pour représenter son évolution au cours de la session.
 
-When a big event is concluded in the story, the GM can decide to award the group a new `talent dot`.
+Lorsqu'un grand événement se termine dans l'histoire, le MJ peut décider d'attribuer au groupe un nouveau `point de talent`. C'est ce qu'on appelle atteindre un `jalon`.
 
-Players invest those talent dots to make their characters stronger and more versatile.
+Les joueurs investissent ces points de talent dans leur `arbre de talents` respectif pour rendre leurs personnages plus forts et plus polyvalents.
 
-A talent either gives the PC a new `action dot`, or a `situational talent`.
+Un talent donne soit au PJ un nouveau `point d'action`, soit un `talent de situation`.
 
-A situational talent gives a bonus or a certain narrative liberty during a certain situation.
+Un `talent de situation` donne un bonus ou une certaine liberté narrative lors d'une certaine situation.
 
-- `+1d6 when ______`
-- `+1 position when ______`
-- `+1 effect when ______`
-- `Use [action] instead of [action] when ______`
-- `[New narrative liberty] when ______`
+* `+1d6 quand ______`
+* `+1 position quand ______`
+* `+1 effet when ______`
+* `Utilisez [action] au lieu de [action] quand ______`
+* `[Nouvelle liberté narrative] quand ______`
 
-## Fortune Rolls
+> #### Note du concepteur : Hack de la progression
+>
+> Plus il faut de temps pour qu'un `jalon` se produise, plus il faudra de temps pour que les personnages deviennent plus forts.
+>
+> Ceci est important à garder à l'esprit en fonction du type de courbe de progression que vous souhaitez avoir.
+>
+> Voulez-vous avoir une campagne courte où les personnages deviendront plus forts assez rapidement, ou cherchez-vous une campagne s'étendant sur un an où les personnages évolueront principalement en changeant les `détails` de leur personnage et où les jalons seront plus rares ?
+>
+> Vous pouvez aller aussi bas que donner au personnage du joueuse seulement 2-3 talents pendant toute une campagne, ou les récompenser plus souvent.
+>
+> Il n'y a pas de bonne ou de mauvaise réponse ici. Cela dépend à 100% du type de jeu que vous voulez avoir.
 
-When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a `fortune roll` to see what happens.
+## Jets de Fortune
 
-Add `+1d6` per likeliness level of that thing happening.
+Lorsque l'issue d'une situation n'est pas certaine et que les joueuses ne sont pas impliqués, le MJ fait un `jet de fortune` pour voir ce qui se passe.
 
-- On a **critical success**, great results, and something exceptional happens.
-- On a **full success**, great results.
-- On a **partial success**, mixed results.
-- On a **bad outcome**, bad results.
+Ajoutez `+1d6` par niveau de probabilité que cette chose se produise.
+
+* Sur un **succès critique**, d'excellents résultats et quelque chose d'exceptionnel se produit.
+* Sur un **plein succès**, d'excellents résultats.
+* Sur un **succès partiel**, résultats mitigés.
+* Sur un **mauvais résultat**, de mauvais résultats.
 
 ## Flashbacks
 
-Players can call for a `flashback` scene if they want to declare that their character tried to prepare for a certain situation before it happened.
+Les joueuses peuvent appeler une scène de `flashback` s'ils veulent déclarer que leur personnage a essayé de se préparer à une certaine situation même si elle n'a pas encore été discutée à la table. Cela étant dit, une scène de flashback n'est pas comme un voyage dans le temps et ne peut pas annuler ce qui a déjà été établi dans le récit.
 
-Flashback scenes aren't like time travel, and can't undo what was already established in the narrative.
+Lorsqu'une joueuse demande un `flashback`, le MJ regarde la fiction et fixe un coût en `initiative` (de 0 à 2) que la joueuse doit payer avant d'avancer.
 
-When a player calls for a flashback scene:
+Ensuite, la joueuse raconte une courte scène de ce que son personnage a tenté d'accomplir dans le flashback. En fonction du récit et des actions du personnage, le MJ décide entre l'une des actions suivantes :
 
-- The GM sets a cost in `momentum` between `0-2` for the scene.
-- Depending on the fiction, either
-  - the player gets what they want.
-  - the GM makes a fortune roll to see what happens.
-  - the player makes an action roll to see what happens.
+* Le flashback se produit et les actions du personnage ont un impact sur le récit.
+* Le flashback se produit, mais un `jet d'action` est nécessaire pour déterminer si les actions du personnage ont réussi ou non.
+* Le résultat des actions du personnage est laissé au hasard et déterminé par un `jet de fortune`.
+  
+# Votre Univers | Charge DRS
 
-# The World | Extras
-
-During sessions, the PCs will go on missions to accomplish objectives. They will then come back to their H.Q. to debrief, rest and recover.
-
-At the start of a campaign, or **every time the PCs come back to their H.Q.**, the GM draws **3 `hook cards`** of a standard deck of playing cards.
-
-- The first card tells us about something related to [Theme #1].
-- The second card tells us about something related to [Theme #2].
-- The third tells the GM what the PC's next mission is going to be.
-
-The GM can use those hooks to create narrative threads for the PCs to explore and bring life to the world.
-
-> #### Designer Note
+> #### Note du Designer : Votre Univers
 >
-> Change the themes to match your game's settings.
+> Utilisez cette section du jeu pour expliquer quel est l'univers de votre jeu.
 >
-> - A game about a the crew of a space ship trying to make ends meet could have: **The Ship** / **The Crew** / **The Next Job**.
-> - A game about a thieving crew could have: **The Crew** / **The Other Factions** / **The Next Score**.
-> - A game about super heroes fighting crime in a metropolis could have: **The City** / **The News** / **The Next Crime**
+> Vous pouvez parler de :
+>
+> * L'histoire de votre univers.
+> * Quel genre de personnages les PJ vont jouer.
+> * Les différents types de problèmes auxquels les PC peuvent être confrontés. etc.
+
+# Les Forces dans votre univers | Charge DRS
+
+Les `forces` dans votre univers sont des organisations indépendantes avec leurs propres agendas uniques que le MJ peut utiliser pendant le jeu pour le rendre plus dynamique. Chaque `force` a un `objectif` spécifique qu'elle tentera d'atteindre en utilisant certaines `méthodes`.
+
+Si le MJ pense que cela a du sens, il peut créer une `horloge de progression` pour représenter la `force` qui se rapproche de son `objectif`. Ils marquent ensuite les progrès sur l'horloge lorsqu'ils correspondent au récit - soit en tant que `conséquence`, soit à la suite d'actions de joueuses aidant la `force`.
+
+> #### Note du Designer : Créer les Forces de votre Univers
+>
+> Les jeux "Charge" viennent généralement avec quelques `forces de l'univers`.
+>
+> Une `force` est quelque chose ou quelqu'un avec des objectifs qui cherchent à changer le statu quo de manière significative et intéressante sur le plan narratif.
+>
+> Cela peut être une personne, mais cela peut aussi être une organisation, un pays, une planète, mère nature ou le continuum espace-temps !
+>
+> Pour chaque force que vous créez, définissez quel est son `objectif`. Leur objectif définit l'impact que la force aura sur le monde. Un objectif n'est pas nécessairement bon ou mauvais, c'est simplement ce que la force veut accomplir. Cela peut également être considéré comme "bon" par la puissance elle-même, mais d'autres pourraient avoir un point de vue différent sur le sujet.
+>
+> Enfin, définissez 2-3 `méthodes` que la force va utiliser pour interagir avec le monde dans l'espoir d'atteindre son objectif
+>
+> Voici un exemple de ce à quoi pourrait ressembler une force de votre univers :
+>
+> #### Exemple de Force
+>
+> **Les forces rebelles** veulent **se débarrasser de l'usurpateur qui siège sur le trône en :**
+>
+> * _Trouver de la saleté sur le gouvernement pour dénoncer la corruption._
+> * _Convaincre le vrai roi de reprendre ce qui lui appartient._
+> * _Trouver de l'argent pour engager des mercenaires pour mener une éventuelle guerre._
+>
+> Concevoir des forces de l'univers est un moyen efficace et simple de remplir le monde de factions intéressantes avec lesquelles les joueurs pourront interagir s'ils le souhaitent.
+
+# Suppléments | Suppléments
+
+> #### Notes du concepteur : que sont les suppléments ?
+>
+> Les suppléments sont des mécanismes additionnels que vous pouvez hacker dans vos jeux pour les adapter à un genre ou à un style spécifique.
+>
+> Vous pouvez voir la liste complète des suppléments [ici](/en/srds/fari-rpgs/charge-rpg/what-are-extras) mais ce DRS contient quelques suppléments pré-condensés que vous pouvez utiliser tels quels.
+
+# Suppléments d'Univers | Suppléments
+
+Pendant les sessions, les PJ partiront en mission pour accomplir des objectifs. Ils reviendront ensuite à leur Q.G. pour débriefer, se reposer et récupérer.
+
+Au début d'une campagne, ou **chaque fois que les PJ reviennent à leur Q.G.**, le MJ pioche **3 `cartes d'accroches`** d'un jeu standard de cartes à jouer.
+
+* La première carte nous parle de quelque chose en rapport avec [Thème #1].
+* La deuxième carte nous parle de quelque chose en rapport avec [Thème #2].
+* Le troisième indique au MJ quelle sera la prochaine mission du PJ.
+
+Le MJ peut utiliser ces accroches pour créer des fils narratifs sur lequels les PJ pourront explorer et donner vie au monde.
+
+> #### Note du Designer
+>
+> Modifiez les thèmes pour qu'ils correspondent au cadre de votre jeu.
+>
+> * Un jeu sur l'équipage d'un vaisseau spatial essayant de joindre les deux bouts pourrait avoir : **Le Vaisseau** / **L'Equipe** / **Le Prochain Travail**.
+> * Un jeu sur une équipe de voleurs pourrait avoir : **L'Equipe** / **Les Autres Factions** / **Le prochain Coup**.
+> * Un jeu sur des super-héros combattant le crime dans une métropole pourrait avoir : **La Ville** / **LEs Nouvelles** / **Le Prochain Crime**
 
 <details open>
 	<summary>
-   **1st Card: [Theme #1]**
+   **1ere Carte: [Theme #1]**
 	</summary>
-- **Ace**: [prompt] 
+- **As**: [prompt] 
 - **2**: [prompt] 
 - **3**: [prompt] 
 - **4**: [prompt] 
@@ -434,16 +546,16 @@ The GM can use those hooks to create narrative threads for the PCs to explore an
 - **8**: [prompt] 
 - **9**: [prompt] 
 - **10**: [prompt] 
-- **Jack**: [prompt] 
-- **Queen**: [prompt] 
-- **King**: [prompt] 
+- **Vallet**: [prompt] 
+- **Reine**: [prompt] 
+- **Roi**: [prompt] 
 </details>
 
 <details>
 	<summary>
-   **2nd Card: [Theme #2]**
+   **2eme Carte: [Theme #2]**
 	</summary>
-- **Ace**: [prompt] 
+- **As**: [prompt] 
 - **2**: [prompt] 
 - **3**: [prompt] 
 - **4**: [prompt] 
@@ -453,14 +565,14 @@ The GM can use those hooks to create narrative threads for the PCs to explore an
 - **8**: [prompt] 
 - **9**: [prompt] 
 - **10**: [prompt] 
-- **Jack**: [prompt] 
-- **Queen**: [prompt] 
-- **King**: [prompt] 
+- **Vallet**: [prompt] 
+- **Reine**: [prompt] 
+- **Roi**: [prompt] 
 </details>
 
 <details>
 	<summary>
-   **3rd Card: The Mission**
+   **3eme Carte: La Mission**
 	</summary>
 - **Ace**: [prompt] 
 - **2**: [prompt] 
@@ -472,94 +584,69 @@ The GM can use those hooks to create narrative threads for the PCs to explore an
 - **8**: [prompt] 
 - **9**: [prompt] 
 - **10**: [prompt] 
-- **Jack**: [prompt] 
-- **Queen**: [prompt] 
-- **King**: [prompt] 
+- **Vallet**: [prompt] 
+- **Reine**: [prompt] 
+- **Roi**: [prompt] 
 </details>
 
-Once the 3 cards are drawn, the GM uses the prompts on the first two to explain what happened while the PCs were away. The PCs can then spend time exploring those threads as they see fit.
+Une fois les 3 cartes piochées, le MJ utilise les invites des deux premières pour expliquer ce qui s'est passé pendant l'absence des PJ. Les PJ peuvent alors passer du temps à explorer ces fils comme ils l'entendent.
 
-When the PCs are ready for their next mission, the GM makes a `mission roll`.
+Lorsque les PJ sont prêts pour leur prochaine mission, le MJ lance un `jet de mission`.
 
-To do so, the GM looks at the 3 cards they've drawn, and builds a dice pool of `1d6` for each red card (<span style="color:red">♥ ♦</span>).
+Pour ce faire, le MJ regarde les 3 cartes qu'il a piochées et construit une réserve de dés de `1d6` pour chaque carte rouge (<span style="color:red">♥ ♦</span>).
 
-If there's no red card, roll `2d6`, and select the lowest number.
+S'il n'y a pas de carton rouge, lancez `2d6` et sélectionnez le nombre le plus bas.
 
-The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting their next mission.
+Le résultat de ce jet nous indique quelle sera la `position` initiale dans laquelle les PJ se trouveront au début de leur prochaine mission.
 
-- On a `1-3`, the PCs start in a `desperate` position.
-- On a `4-5`, the PCs start in a `risky` position.
-- On a `6`, the PCs start in a `controlled` position.
-- On a `66`, the PCs start in a `controlled` position, and gain some additional benefit.
+* Sur un `1-3`, les PJ démarrent en position `désespérée`.
+* Sur un `4-5`, les PJ démarrent dans une position `risquée`.
+* Sur un `6`, les PJ démarrent en position `sous contrôle`.
+* Sur un `66`, les PJ commencent dans une position `sous contrôle`, et gagnent quelques avantages supplémentaires.
 
-The GM introduces the mission to the PCs, and they decide how they will approach the situation.
+Le MJ présente la mission aux PJ, et ils décident comment ils vont aborder la situation.
 
-Once they've decided on a strategy, the GM cuts to the first scene of the mission using the result of the mission roll to describe the PCs current position.
+Une fois qu'ils ont décidé d'une stratégie, le MJ passe à la première scène de la mission en utilisant le résultat du jet de mission pour décrire la position actuelle des PJ.
 
-Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
+Une fois la mission terminée, les PJ retournent à leur Q.G., et la boucle recommence.
 
-# World Forces | Charge SRD
+# Suppléments de type "attachements" | Suppléments
 
-> #### Designer Note
->
-> Define a couple of `world forces` for your setting.
->
-> A `force` is something or someone with goals looking to change the status quo in significant and narratively interesting ways.
->
-> This could be a person, but it could also be an organization, a country, a planet, mother nature, or the space-time continuum!
->
-> For each force you create, define what their `goal` is. Their goal defines the impact the force will have on the world. A goal isn't necessarily good or bad— it is merely what the force wants to accomplish. It can also be considered to be "good" by the Force itself, but others might have different view on the subject.
->
-> Lastly, define 2-3 `methods` the force is going to use to interact with the world in the hope of achieving their goal
->
-> Here's an example of what a world force could look like:
->
-> #### Force Example
->
-> **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
->
-> - _Finding dirt on the government to expose corruption._
-> - _Convincing the real king to take back what is theirs._
-> - _Finding money to hire mercenaries to fight an eventual war._
+Les personnages sont définis à l'aide de `détails` pour représenter qui ils sont, à quoi ils ressemblent et à qui ils sont liés. Par défaut, les `détails` n'ont aucune utilisation mécanique dans le jeu, à part fournir des libertés narratives.
 
+Un `attachement` est un `détail` de caractère que vous pouvez choisir de perdre temporairement pour résister à une `conséquence` entrante. Si vous voulez résister à une `conséquence`, mais ne voulez pas faire de `jet de détermination`, vous pouvez décider de briser l'une de vos `attachements` Cela annule purement et simplement la conséquence.
 
-# Attachment | Extras
+Cependant, cela ne peut être fait que lorsque cela a du sens sur le plan narratif, et cet `attachement` particulier ne peut pas être utilisé tant que le temps n'est pas venu de le réparer ou de le réacquérir.
 
-If you want to resist a `consequence`, but don’t want to make a `determination roll`, you can decide to break one of your `attachment`. Doing so cancels the consequence outright.
+Pour re-requérir ou réparer un module, le PJ doit démarrer une `horloge de progression du projet` et la suivre sur sa feuille de personnage. L'horloge démarre à 4 segments, mais peut avoir plus de segments si l'`attachement` est compliqué à réparer, si elle a été fortement endommagé, ou si elle est difficile à réacquérir.
 
-However, this can only be done when it makes sense narratively, and that particular mod cannot be used until time is taken to repair or reacquire it.
+Pour progresser sur le projet, un personnage ne peut effectuer un jet pour réparer un `attachement` "cassé" que lorsqu'il dispose du temps d'arrêt approprié.
 
-To re-require or repair a MOD, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the mod is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
-
-To make progress on the project, a character may only roll to repair a "broken" attachment when they have the appropriate amount of downtime. 
-
-Once the project is completed, the character is permitted to use the attachment in the fiction, and is allowed to block a new consequence by breaking it once again.
+Une fois le projet terminé, le personnage est autorisé à utiliser l'`attachement` dans la fiction, et est autorisé à bloquer une nouvelle conséquence en la brisant à nouveau.
 
 # Licencing
 
-The Charge SRD is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
+Le Document de Référence du Système Charge est publié sous la licence "Creative Commons Attribution" [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
-That means that if you want to make a game using or based by this game, you just need to give us attribution for our work.
+Cela signifie que si vous souhaitez créer un jeu utilisant ou basé sur ce jeu, il vous suffit de nous donner une attribution pour notre travail.
 
-Because Charge is based off Blades in the Dark, you would also need to include attribution to the creators of this game as well.
+Étant donné que Charge est basé sur Blades in the Dark, vous devez également inclure l'attribution aux créateurs de ce jeu.
 
-To do so, copy the text below in your own game and things should be good to go.
+Pour ce faire, copiez le texte ci-dessous dans votre propre jeu et tout devrait bien se passer.
 
-## Attribution
+> Ce travail est basé sur le JDR Charge, produit de Fari RPGs, développé et créé par René-Pier Deshaies-Gélinas, et licencié pour votre utilisation sous la licence "Creative Commons Attribution 4.0" ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+>
+> Ce travail est aussi basé sur Blades in the Dark (publié sur [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/ "https://www.bladesinthedark.com/")), produit de One Seven Design, développé et créé par John Harper, et licencié pour votre utilisation sous la licence "Creative Commons Attribution 3.0 Unported license" ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/ "https://creativecommons.org/licenses/by/3.0/")).
 
-This work is based on Charge RPG, product of Fari RPGs, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+## Propulsé Par Charge
 
-This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
-
-## Powered By Charge
-
-If you want, you can also include the following images in your game to say that it's powered by Charge.
+Si vous le souhaitez, vous pouvez également inclure les images suivantes dans votre jeu pour indiquer qu'il est propulsé par Charge
 
 <div style="display: flex">
 	<img style="background: #fff" src="https://gyazo.com/e6f386391ee4d8a079aa4d10469b15d0.png" width="300px" style="margin-bottom: 1rem"/>
 	<img style="background: #000" src="https://gyazo.com/3f66d3276513deef1cdb7c200c098689.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
 
-# Credits
+# Crédits
 
-This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
+Ce travail est basé sur Blades in the Dark (publié sur [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/ "https://www.bladesinthedark.com/")), produit de One Seven Design, développé et créé par John Harper, et licencié pour votre utilisation sous la licence "Creative Commons Attribution 3.0 Unported license" ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/ "https://creativecommons.org/licenses/by/3.0/")).
