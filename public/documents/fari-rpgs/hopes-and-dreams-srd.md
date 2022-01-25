@@ -79,7 +79,7 @@ We roll dice because we want to be on the edge of our seats. We want to be surpr
 
 ## Safety Tools
 
-Safety at the table is very important, which is why we think that you should establish a couple of **Lines and Veils** before you start playing. 
+Safety at the table is very important, which is why we think that you should establish a couple of **Lines and Veils** before you start playing.
 
 **Lines** are allow everyone in the group to define what topics should never come up in the game. **Veils** ensures that whilst an action or event might take place, it will happen ‘off-screen’: mentioned in passing, but not dwelled on in detail.
 
@@ -112,9 +112,9 @@ The way your character interacts with the world is via their `ACTIONS`. When a P
 - `SWAY`: influence, charm, manipulate.
 - `FOCUS`: concentrate, calculate, mediate.
 
-All characters have actions they excel at, this is called being `SKILLED`. Characters are skilled in 3 `ACTIONS` in total. 
+All characters have actions they excel at, this is called being `SKILLED`. Characters are skilled in 3 `ACTIONS` in total.
 
-To decide which action your character is `SKILLED` at, you first choose a KIT.  
+To decide which action your character is `SKILLED` at, you first choose a KIT.
 
 `KITS` are character presets that come with 2 `SKILLED ACTIONS` and special `ABILITIES` that you can use to make powerful stunts.
 
@@ -122,7 +122,9 @@ Once you’ve chosen a `KIT`, you get to decide what is the last action your cha
 
 ## Hopes
 
-The `HOPE` of a character is used to represent what fuels them to achieve their goals. All characters have a `HOPE TRACK` that gets filled when they succeed risky actions. Players can then spend that `HOPE` to get bonuses when facing new challenges.
+The `HOPE` of a character is used to represent what fuels them to achieve their goals. Characters get `HOPE` when they succeed risky actions. Players can then decide to spend that `HOPE` to get bonuses when facing new challenges. 
+
+The easiest way to track `HOPE` is to use physical tokens like poker chips or beads, but you can also use the `HOPE TRACK` available on the character sheet
 
 ## Dreams
 
@@ -135,13 +137,15 @@ Once you’ve chosen a `DREAM`, one of the players can write it down on their ch
 Some of the game’s mechanics mark boxes on the `DREAM` TRACK to represent the progress that the group is making towards their `DREAM`.
 When the group's `DREAM TRACK` is completed, the GM fast forwards in time and narrates how the story and the world changed thanks to the PCs. Accomplishing a `DREAM` also gives all the PCs a new `ABILITY` that they can choose from their respective `KITS`.
 
-After that, the group finds a new `DREAM`, and the cycle starts over.
+After that, the group finds a new `DREAM`, and a difference character can be the new `HEART OF THE GROUP`. 
+
+Then, the cycle starts over.
 
 ## Harm
 
 When a PC gets hurt or stressed as a result of one of their actions, they take `HARM`. Each character has an `HARM TRACK` with 5 boxes to represent how injured they are.
 
-If at any point your `HARM TRACK` is filled, you are taken out and the rest of the scene continues without you.
+If at any point your `HARM TRACK` is filled, you are taken out and the rest of the scene continues without you. When the scene is over, clear the track and explain how you recover.
 
 The only way to recover from `HARM` is in-fiction. You can either rest, lay low or seek medical attention. When doing so, the GM will look at the fiction and tell you how much (1-5) you recover.
 
@@ -149,7 +153,7 @@ The only way to recover from `HARM` is in-fiction. You can either rest, lay low 
 
 A character’s `ABILITIES` are special talents that are unique to each KIT. They either give a mechanical advantage in certain situations, or allow a new narrative liberty.
 
-Each character starts with 1 `ABILITY`. The group will gain `1 ABILITY` for each `DREAM` they are able to achieve.
+Each character starts with 1 `ABILITY`. Each time the group's `DREAM` is achieved, all characters gain a new `ABILITY`.
 
 # Mechanics
 
@@ -175,30 +179,22 @@ There are two types of `TRACKS`.
 - DANGER TRACKS are used for escalating threats like a group of guards that is about to be alerted by your presence, or the time left until a bomb explodes.
 
 > ### Fibonacci Sequence
-> 
+>
 > The number of boxes for `TRACKS` aren’t arbitrary. They follow the Fibonacci Sequence (1, 1, 2, 3, 5, 8, 13, 21, etc) where each number is the sum of the two preceding ones.
-> 
+>
 > The reason for this is that according to Weber’s Law, the difference we can identify between objects is given by a percentage. If that percentage is too low, differentiating two things becomes harder.
-> 
-> By making each `TRACK` size around 60% bigger than the previous one, deciding each one to use becomes a easier. Doing this speeds up the game and keeps the group focused on what is important; the fiction.
+>
+> By making each `TRACK` size around 60% bigger than the previous one, deciding each one to use becomes easier. Doing this speeds up the game and keeps the group focused on what is important; the fiction.
 
 ## Checks
 
-When a player character tries to do something risky, we make a `CHECK` to determine how it plays out.  If what the PC is trying to accomplish is something we would just expect them to do, there is no need for a `CHECK`. The GM just narrates what happens, and the story moves forward.
+When a player character tries to do something risky, we make a `CHECK` to determine how it plays out. If what the PC is trying to accomplish is something we would just expect them to do, there is no need for a `CHECK`. The GM just narrates what happens, and the story moves forward.
 
 To make a `CHECK`, you assemble a pool of six sided dice to try to beat an opposed pool assembled by the GM.
 
 First, you need to agree with the GM on which of the `12 ACTIONS` is being used.
 
 Once that is done, the GM prepares a `RISK POOL` while the player prepares their `ACTION POOL`.
-
-### Gm’S Risk Pool
-
-To build a `RISK POOL`, the GM looks at the fiction and evaluates the risk tied to the action and runs their decision with the rest of the group to make sure everyone agrees.
-
-- For a risky action, use 1d6.
-- For a desperate action, use 2d6.
-- For a hopeless action, use 3d6.
 
 ### Player's Action Pool
 
@@ -208,8 +204,16 @@ The `ACTION POOL` represents the effort of the PC to overcome a task.
 - If your character is `SKILLED` in the chosen `ACTION`, add `+1d6`.
 - You can also `FILL YOUR HEART WITH HOPE`. Spend `1 HOPE` for an additional `+1d6`.
 
+### GM’S Risk Pool
+
+To build a `RISK POOL`, the GM looks at the fiction and evaluates the risk tied to the action and runs their decision with the rest of the group to make sure everyone agrees.
+
+- For a risky action, use 1d6.
+- For a desperate action, use 2d6.
+- For a hopeless action, use 3d6.
+
 > ### Assist
-> 
+>
 > If you want to `ASSIST` a fellow PC, describe how you do it and give `+1 IMPACT` or `-1 COST` to their final result.
 > By doing this, you also expose yourself to the possible `CONSEQUENCES` that results of their action.
 
@@ -222,9 +226,9 @@ When everyone is ready, roll the dice and compare the single highest result of y
 - If your result is lower, your action didn't work and there's a `CONSEQUENCE`.
 
 > ### Which Risk To Pick
-> 
+>
 > By default, if a player is making an `CHECK`, the situation is risky. In some occasions, you can use a desperate pool but doing it often or going higher than that will make the odds heavily against the players
-> 
+>
 > When in doubt, look at the fiction, but keep this in mind when building your `RISK POOL`.
 
 ## Non-Player Character
@@ -249,7 +253,6 @@ When you get a `PAYOFF`, you get what you want. The player chooses one from the 
 - If there's a `CHALLENGE TRACK` in play, mark boxes matching the `{IMPACT}`.
 - If the fiction allows it, reduce tension of a future action. Remove `-1d6` to the `RISK POOL` for one upcoming `CHECK`.
 
-
 ### Consequences
 
 When there’s a `CONSEQUENCE`, something bad happens. The GM chooses one from the following list:
@@ -266,8 +269,6 @@ Some of the game’s mechanics affect the `{IMPACT}` and the `{COST}` of a roll 
 For example, if you were thinking about marking HARM, look into marking a `DANGER TRACK` instead. If you were planning to mark a `DANGER TRACK` already, introduce new threats in the fiction.
 
 Go with what feels right according to what has already been established.
-
-
 
 # Kits
 
