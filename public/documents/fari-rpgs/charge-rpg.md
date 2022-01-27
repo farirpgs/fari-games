@@ -2752,6 +2752,31 @@ This extra is a direct inspiration of Neon City Overdrive.
 Corrected and enhanced by RP Deshaies and David Haslem.
 
 
+
+# Economy Extra | Extras
+
+**An abstracted form of economic interaction that models a fluctuating market system**
+
+\- By Dylan Greene
+
+This is a genericized version of the Marketplace and Shard system that I designed for No_Stalgia. It’s meant to be an abstracted form of economic interaction that models a fluctuating market system. In No_Stalgia, interacting with the Marketplace is a core gameplay function, which combined with its hacking rules makes for a highly exploitable economy. It may be tempting to include this extra for the sake of being comprehensive, but remember that it should add to whatever you’re designing.
+
+## The Market Clock
+
+When players buy and sell goods on the market, they need to make a market roll. Every market roll starts with 1d6 but the economy ebbs and flows over a day which might add or remove dice to the roll. Players can also spend money to add 1d6 to a roll per money spent. 
+
+- Empty: Equilibrium
+- One segment: Low (+1d6 when buying, -1d6 when selling )
+- Two segments: High (-1d6 when buying, +1d6 when selling)
+- Three segments: Low (+1d6 when buying, -1d6 when selling)
+- Full clock: High (-1d6 when buying, +1d6 when selling)
+
+The market clock automatically ticks forward once per scene and automatically resets after filling up.
+
+## Money
+
+Money is represented in a ten-point scale that’s abstracted for the sake of gameplay. This is very similar to how Blades in the Dark handles money. Design for price points at 1, 2, 4, 6, 8 and 10. A very basic commodity like an average week’s wage can represent 1, while massive expenditures like property can represent 10.
+
 # Making a Compelling Campaign | Preparing the Game
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/7b529142ada0e29c88323c82eec6c3ab.png)](https://pixabay.com/photos/fantasy-landscape-mountains-rock-6328992/)
