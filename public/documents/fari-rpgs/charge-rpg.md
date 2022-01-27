@@ -2822,7 +2822,9 @@ The market clock automatically ticks forward once per scene and automatically re
 
 ## Money
 
-Money is represented in a ten-point scale that’s abstracted for the sake of gameplay. This is very similar to how Blades in the Dark handles money. Design for price points at 1, 2, 4, 6, 8 and 10. A very basic commodity like an average week’s wage can represent 1, while massive expenditures like property can represent 10.
+Money is represented in a ten-point scale that’s abstracted for the sake of gameplay. This is very similar to how Blades in the Dark handles money. Design for price points at 1, 2, 4, 6, 8 and 10. A very basic commodity like an average week’s wage can represent 1, while massive expenditures like property can represent 10. 
+
+It's helpful to conceptualize your pricing tiers by what players will have to do to earn that amount of money. For example, your basic 1 money tier may be a purse of gold pieces in a high fantasy game that would be a simple quest reward. By contrast, making 10 money would require doing lots of favors for a kingdom or acquiring an extremely valuable treasure.
 
 # Making a Compelling Campaign | Preparing the Game
 
