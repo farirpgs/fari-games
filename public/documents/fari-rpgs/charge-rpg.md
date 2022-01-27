@@ -2736,41 +2736,59 @@ This extra is a direct inspiration of Neon City Overdrive.
 
 Corrected and enhanced by RP Deshaies and David Haslem.
 
-# Resource Pool | Extras
+# Resource Pool Extra | Extras
 
-A Charge RPG Extra that builds tension through dwindling resources.
+A Charge RPG meta-extra that helps you build your own **Resource** extra.
 
 \- By Logan Bowyer
 
 ---
 
-This extra replaces **Momentum** with a shared pool of resources that is replenished after each _planned scenario_.
+This meta-extra helps you create a **Resource** extra to supplement **Momentum** and refine your playstyle.
 
 ## Resource Pool Rule
 
-Prior to the start of a _planned scenario_, each player must prepare by acquiring **Resources**. 
+* The first step is to determine what kind of resource fits your genre. Are you playing an Old West game that uses **Grit**? Does your game take place in a wizarding college where **Mana** would be more appropriate?
 
-All players are required to make at least one action roll. Potential actions could include **Bond**, which could represent tapping into a network of contacts, or **Sway** which could represent convincing a benefactor to fund your mission. 
+> It's important to limit the number of **Resource Pools** you create so you don't give your players too much to keep track of.
 
-For each result of 4, 5, or 6, add 1 **Resource** to a _shared_ **Resource Pool**. If you have no action points in a relevant action, roll 1d6 and gain 1 **Resource** on a result of 6. Players are then asked to discuss how they plan to complete the scenario. 
+* Next, determine whether the resource is _Shared_ or _Personal_. Something like **Expedition Funds** might belong to party, while something like your android characters **Battery Power** might be personal. As a general rule, either all players have a personal pool, or none do. Note that not all players have to use the same personal pool.
 
-The GM will listen to their plans, then decide on a number of *fortune dice* to roll. For each result of 4, 5, or 6, add 1 **Resource** to the _shared_ **Resource Pool**.
+> You might also determine whether the resource can be _taken_ or _given_, like siphoning off a tank's **Petrol Reserves**.
 
-Whenever **Resources** are spent on an action roll, your team has a chance to retain a number of them instead of exhausting them. For each result of 5 or 6 on an action roll where **Resources** are spent, retain 1 **Resource** instead of exhausting it.
+* Ask yourself, how will your players get it and how much will they get? Does your cowboy get one point of **Grit** when he takes damage? Maybe your android has a solar panel it uses to recharge. Are there multiple ways to get it, like drinking a **Mana** potion or resting for eight hours?
 
-> _Note: It's best if **Resources** can only be acquired between planned scenarios._
+> Do you want getting it to require a roll, like filing a university funding proposal for **Expedition Funds** using a **Sway** roll? If it does, how much do you want your players to get? A good rule of thumb is to let your players roll for resources with their best actions and reward a single serving of resources on a partial success, a double serving on a full success, and a triple serving on a overwhelming success. If players feel like they don't have enough of a resource or they can't get enough of it they'll start hoarding it and never use it.
 
-Optionally "expire" any number of remaining **Resources** after a _planned scenario_ is concluded.
+* Most importantly, what happens when your players consume it? Maybe your Cowboy can spend 2 points of **Grit** to ignore a consequence for one turn. What if Mana is used to power a special action like **Burn** or **Transmute**? Can your tank's **Petrol Reserves** be put into your flamethrower instead?
 
-> #### Example
->
-> *Strike team BS-9 has been tasked with infiltrating an enemy encampment. After some negotiations with their superior officers (4 **Bond** rolls and 1 **Sway** roll) and a mission planning brief (3 *fortune dice*) they acquire 6 **Resources** in the form of rations, ammo, maps, and carefully laid-out plans.*
->
-> _Approaching the compound goes off without a hitch until a misplaced twig alerts a foot patrol. Alex rolls **Move** to scale the wall quickly while Rebecca spends 1 **Resource** to **assist** by distracting the guards. Alex rolls 3d6 and gets a result of 1, 2, and 6. Because he rolled a 6, the team retains the spent **Resource** instead of exhausting it and they continue their mission._
+> Does your resource replace an established mechanic? Maybe your group doesn't like tracking items and spending **Expedition Funds** lets them have what they need.
 
-## Credits
+* When can your players get it back? Maybe **Expedition Funds** can only be replaced between expeditions. What if some of the treasure you find can be sold and converted to **Expedition Funds**? What's the conversion rate? Can a mage drink more than one mana potion a day or does it give them _mana sickness_?
 
-- _This original concept was brought to you by my unhinged desire to make TTRPG's needlessly gritty with support from the Fari Community._
+> Do you want your players to be able to retain a resource? Maybe rolling a full success on a **Transmute** action doesn't use **Mana**. This is a good idea to help your players stretch their resources further if they can't get them back right away. On the other hand, maybe your players are hoarding a resource. A good solution to that is to let all or part of a **Resource Pool** expire after a certain condition is met.
+
+* Lastly, It's important to clarify if your **Resource** has any special qualifiers. We've already touched on a few ideas, like how **Expedition Funds** might replace item management. What if each point of **Mana** lets you add a d6 to your **Transmute** action dice pool? Should you cap the rolls at 3d6 (3 points of **Mana**?)
+
+> Feeling generous? Fortune dice rolls can be used to give out **Resources** at opportune times. Maybe a mysterious benefactor chose to donate to your upcoming expedition (1 point for every full success on a 3d6 roll.) Or what if instead your android found a spare battery with 4 charges?
+
+Here are a few of the examples we already talked about in greater detail along with a new one:
+
+> #### Grit Example
+> 
+> Each Cowboy has a personal pool of **Grit**. Each time you take damage, gain 1 point of **Grit**. Spend 2 points of **Grit** to ignore the narrative restrictions of a consequence for 1 turn reflecting your tough "shrug it off" demeanor.
+
+> #### Expedition Funds Example
+> 
+> Everyone in the party helps draft a **University Funding Proposal** by rolling **Sway**. For each partial success gain 1 point in a shared resource pool called **Expedition Funds**. For each full success gain 2. For each overwhelming success, gain 3. Spend 1 expedition fund whenever an action would require a specific, notable or unique item. **Expedition Funds** can only be recovered between expeditions.
+
+> #### Mutagen Example
+> 
+> Mad Scientists can **Tinker** during their downtime to create a **Mutagen**. **Mutagens** are tied to a biosignature, and can only affect the creature they are made for. Consuming a **Mutagen** changes your biological makeup permanently, allowing you to move two action dots and rendering subsequent doses fatal. Crafting a **Mutagen** requires an incredibly rare catalyst unique to each individual.
+
+> #### Mana Example
+> 
+> Each Mage gains 4 points of **Mana** after 8 hours of uninterrupted rest. Mana can be used to fuel your **Magic** action. For each point of **Mana** you spend that turn, add a d6 to your **Magic** action dice pool. Rolls are capped at 3d6. Mana potions can be consumed on your turn to restore 2 points of Mana. Consuming more than 1 mana potion between rests inflicts the consequence *Mana Sickness* which causes intense headaches and nausea until you get 8 hours of uninterrupted rest.
 
 > ## Recap
 >
