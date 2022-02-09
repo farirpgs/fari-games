@@ -640,12 +640,12 @@ In order to give proper credit, just copy and paste the text below into the cred
 
 > This work is based on the Push SRD, developed, authored, and edited by Cezar Capacle (https://capacle.itch.io/), and licensed for our use under the Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/).
 
-If you want to, you can use the **Push-powered** logo in your games, available as a separate file with this SRD.
+If you want to, you can use the **Push-powered** logo in your games, available as a [separate file](https://drive.google.com/drive/folders/1-sjEv9VmArLJyZ9qLwTpUkY4I9irwFaR?usp=sharing) with this SRD.
 
 ## Templates
 This game is accompanied by the following templates:
-- Character Sheet
-- Two-page game (includes rules and the Quest Sheet)
+- [Character Sheet](https://drive.google.com/drive/folders/1-sjEv9VmArLJyZ9qLwTpUkY4I9irwFaR?usp=sharing)
+- [Two-page game (includes rules and the Quest Sheet)](https://www.canva.com/design/DAE3ULOPtYk/omPANTMPKKSq97NkJxrbjg/view?utm_content=DAE3ULOPtYk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
 
 For all purposes, the templates are a part of this SRD and follow the same license.
 
