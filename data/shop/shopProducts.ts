@@ -500,6 +500,25 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Cezar Capacle",
+      slug: "cezar-capacle",
+      links: {
+        twitter: "https://twitter.com/capacle",
+        website: "https://capacle.bio.link/",
+      },
+      products: [
+        {
+          name: "Push",
+          slug: "push",
+          description: "A story-first, push-your-luck system for your games",
+          image: "https://gyazo.com/a0b7d5f7d8349a73f0de331f85a78d25.png",
+          links: {},
+          tags: ["srd", "new"],
+          // license:License.CC_BY_4,
+        },
+      ],
+    },
   ],
 };
 
