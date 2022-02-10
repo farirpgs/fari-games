@@ -8,7 +8,7 @@ languages: en, fr
 
 # Introductions | Charge DRS
 
-Le Document de Référence du Système Charge est une version condensée des règles de Charge RPG que vous pouvez utiliser pour créer vos propres jeux **Propulsés par Charge**.
+Le Document de Référence du Système Charge est une version condensée des règles de Charge RPG que vous pouvez utiliser pour créer vos propres jeux **Branchés sur Charge**.
 
 Ce document suit un format que vous pouvez utiliser comme un cadre pour votre jeu, mais propose également des conseils de design afin que vous puissiez le modifier tout en gardant le "ressenti Charge".
 
@@ -16,15 +16,25 @@ Vous pouvez combler les blancs ou l'éradiquer pour en faire quelque chose de co
 
 Nous avons hâte de voir ce que vous bâtirez à partir de cela. Lancez-vous!
 
+## Traductions par
+
+| Name                      | Role       | Discord         | Twitter                              | Itch                                  |
+| ------------------------- | ---------- | --------------- | ------------------------------------ | ------------------------------------- |
+| `Jérôme Pellois`          | traducteur | Ultimate#6863   |                                      |                                       |
+| `KrisDoC`                 | traducteur | Kris#9811       | [Link](https://twitter.com/KrissDoC) | [Link](https://du-de-au-clavier.net/) |
+| `Alexandre L. Lescarbeau` | traducteur | Mefirenz#7200   |                                      |                                       |
+| `Othelarian`              | traducteur | othelarian#5063 |                                      | [Link](https://othelarian.itch.io/)   |
+| `Nugat`                   | traducteur |                 |                                      |                                       |
+
  >#### Note du Designer
 >
 > Un texte dans un encadré (comme celui-ci) vous êtes destiné, chère créatrice de jeu.
 >
 > Les notes du designer contienneront des informations importantes quant au designe ou vous proposeront différents curseurs et options que vous pouvez utiliser pour votre jeu.
 >
-> #### Logos Propulsé par Charge
+> #### Logos Branché sur Charge
 >
-> Utilisez ces logos pour montrer que votre jeu est **Propulsé par Charge**.
+> Utilisez ces logos pour montrer que votre jeu est **Branché sur Charge**.
 >
 > <div style="display: flex">
 > 	<img style="background: #fff" src="https://gyazo.com/e6f386391ee4d8a079aa4d10469b15d0.png" width="300px" style="margin-bottom: 1rem"/>
@@ -638,9 +648,9 @@ Pour ce faire, copiez le texte ci-dessous dans votre propre jeu et tout devrait 
 >
 > Ce travail est aussi basé sur Blades in the Dark (publié sur [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/ "https://www.bladesinthedark.com/")), produit de One Seven Design, développé et créé par John Harper, et licencié pour votre utilisation sous la licence "Creative Commons Attribution 3.0 Unported license" ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/ "https://creativecommons.org/licenses/by/3.0/")).
 
-## Propulsé Par Charge
+## Branché sur Charge
 
-Si vous le souhaitez, vous pouvez également inclure les images suivantes dans votre jeu pour indiquer qu'il est propulsé par Charge
+Si vous le souhaitez, vous pouvez également inclure les images suivantes dans votre jeu pour indiquer qu'il est branché sur Charge
 
 <div style="display: flex">
 	<img style="background: #fff" src="https://gyazo.com/e6f386391ee4d8a079aa4d10469b15d0.png" width="300px" style="margin-bottom: 1rem"/>
