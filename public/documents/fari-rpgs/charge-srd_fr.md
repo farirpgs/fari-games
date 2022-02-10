@@ -18,13 +18,13 @@ Nous avons hâte de voir ce que vous bâtirez à partir de cela. Lancez-vous!
 
 ## Traductions par
 
-| Name                      | Role       | Discord         | Twitter                              | Itch                                  |
-| ------------------------- | ---------- | --------------- | ------------------------------------ | ------------------------------------- |
-| `Jérôme Pellois`          | traducteur | Ultimate#6863   |                                      |                                       |
-| `KrisDoC`                 | traducteur | Kris#9811       | [Link](https://twitter.com/KrissDoC) | [Link](https://du-de-au-clavier.net/) |
-| `Alexandre L. Lescarbeau` | traducteur | Mefirenz#7200   |                                      |                                       |
-| `Othelarian`              | traducteur | othelarian#5063 |                                      | [Link](https://othelarian.itch.io/)   |
-| `Nugat`                   | traducteur |                 |                                      |                                       |
+| Name                      | Discord         | Twitter                              | Itch                                  |
+| ------------------------- | --------------- | ------------------------------------ | ------------------------------------- |
+| `Jérôme Pellois`          | Ultimate#6863   |                                      |                                       |
+| `KrisDoC`                 | Kris#9811       | [Link](https://twitter.com/KrissDoC) | [Link](https://du-de-au-clavier.net/) |
+| `Alexandre L. Lescarbeau` | Mefirenz#7200   |                                      |                                       |
+| `Othelarian`              | othelarian#5063 |                                      | [Link](https://othelarian.itch.io/)   |
+| `Nugat`                   |                 |                                      |                                       |
 
  >#### Note du Designer
 >
