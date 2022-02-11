@@ -37,8 +37,8 @@ Nous avons hâte de voir ce que vous bâtirez à partir de cela. Lancez-vous!
 > Utilisez ces logos pour montrer que votre jeu est **Branché sur Charge**.
 >
 > <div style="display: flex">
-> 	<img style="background: #fff" src="https://gyazo.com/e6f386391ee4d8a079aa4d10469b15d0.png" width="300px" style="margin-bottom: 1rem"/>
-> 	<img style="background: #000" src="https://gyazo.com/3f66d3276513deef1cdb7c200c098689.png" width="300px" style="margin-bottom: 1rem"/>
+> 	<img style="background: #fff" src="https://gyazo.com/beac81193656d7d46109e3f2f3a1cd2e.png" width="300px" style="margin-bottom: 1rem"/>
+> 	<img style="background: #000" src="https://gyazo.com/4886a6198b7d1eb1cf7cd6c4a4b2317f.png" width="300px" style="margin-bottom: 1rem"/>
 > </div>
 
 # Le Jeu | Charge DRS
