@@ -6,9 +6,11 @@ highlightFont: Inter
 ---
 
 <style>
-article h1,article h2,article h3,article h4,article h5{
-  font-weight: normal !important;
-}
+  article h1,article h2,article h3,article h4,article h5{
+    font-weight: normal !important;
+  }
+
+
 </style>
 
 # Introductions
@@ -33,8 +35,6 @@ We can't wait to see what you will build with this. Enjoy!
 > 	<img style="background: #fff" src="https://gyazo.com/6dc6e0216f55f6b91bbfcceec2779e0c.png" width="300px" style="margin-bottom: 1rem"/>
 > 	<img style="background: #000" src="https://gyazo.com/23add4e8b5c643b57a73abd338f37e7a.png" width="300px" style="margin-bottom: 1rem"/>
 > </div>
-
-<iframe frameborder="0" src="https://itch.io/embed/1324990?bg_color=ffffff&amp;fg_color=000000&amp;link_color=006f88&amp;border_color=cccccc" width="552" height="167"><a href="https://fari-rpgs.itch.io/hopes-and-dreams-srd">HOPES &amp; DREAMS - System Reference Document (SRD) by Fari RPGs</a></iframe>
 
 # The Game
 
@@ -99,6 +99,12 @@ To make your character, write down their name, their nickname, and what they loo
 
 The way your character interacts with the world is via their `ACTIONS`. When a PC wants to do something risky, they use one of the 12 `ACTIONS` listed below to try and resolve the situation.
 
+> #### Designer Notes: Hacking The Actions
+> 
+> In HOPES & DREAMS, characters have the following 12 actions: muscle, finesse, move, sneak, shoot, tinker, study, notice, bond, command, sway, focus. An easy way to make this game your own is to change the default action list to something that better fits your theme.
+> 
+> If you use less than 12 actions, you might want to reduce the number of actions characters are skilled in at the start of the game
+
 - `MUSCLE`: wreck, move, force.
 - `FINESSE`: maneuver, misguide, fool.
 - `MOVE`: run, jump, swim, climb.
@@ -120,11 +126,28 @@ To decide which action your character is `SKILLED` at, you first choose a KIT.
 
 Once you’ve chosen a `KIT`, you get to decide what is the last action your character is skilled at.
 
+## Kits
+
+This games includes {N} KITS for the players to choose from. You can either be a: 
+
+> #### Designer Notes: Making Kits
+> 
+> KITS are like HOPES & DREAMS’ playbooks. They show the readers what your game is about, and what kind of characters the players will play as. Use this as a way to convey your game’s theme as much as possible.
+> 
+> To make a KIT, give them a name, define ACTIONS they are skilled at and give them a couple of ABILITIES.
+> 
+> ABILITIES are like the talents of a KIT. They can give new narrative permissions to a character. But can also make them stronger or more resistant by giving a +1 IMPACT or -1 COST bonus to a roll in specific circumstances.
+
 ## Hopes
 
 The `HOPE` of a character is used to represent what fuels them to achieve their goals. Characters get `HOPE` when they succeed risky actions. Players can then decide to spend that `HOPE` to get bonuses when facing new challenges. 
 
 The easiest way to track `HOPE` is to use physical tokens like poker chips or beads, but you can also use the `HOPE TRACK` available on the character sheet
+
+> #### Designer Notes: HACKING HOPES
+> HOPES is what fuels the characters in the story. It helps push the narrative forward so that the PCs can eventually reach their goal, and achieve their DREAMS. 
+> 
+> You should look into renaming this so that it better fits your game’s aesthetic.
 
 ## Dreams
 
@@ -141,6 +164,14 @@ After that, the group finds a new `DREAM`, and a difference character can be the
 
 Then, the cycle starts over.
 
+> #### Designer Notes: HACKING DREAMS
+> 
+> A dream is the group’s short-term goal. It aligns everyone on the path to take. Plus, they have the group’s leader who’s there to make sure the goal is never forgotten. 
+> 
+> Fulfilling the group’s dream is not just important for the story, but it is also important mechanically. 
+> 
+> It is the only way players will see their characters grow stronger, since fulfilling a DREAM rewards a new ABILITY to every member of the group.
+
 ## Harm
 
 When a PC gets hurt or stressed as a result of one of their actions, they take `HARM`. Each character has an `HARM TRACK` with 5 boxes to represent how injured they are.
@@ -148,6 +179,14 @@ When a PC gets hurt or stressed as a result of one of their actions, they take `
 If at any point your `HARM TRACK` is filled, you are taken out and the rest of the scene continues without you. When the scene is over, clear the track and explain how you recover.
 
 The only way to recover from `HARM` is in-fiction. You can either rest, lay low or seek medical attention. When doing so, the GM will look at the fiction and tell you how much (1-5) you recover.
+
+> #### Designer Notes: HACKING HARM
+> 
+> Harm is the main challenge pacing mechanism for the game. The GM can inflict it on a player when they fail, or get a partial success, as they attempt dangerous actions.
+> 
+> If you want to make the characters feel stronger or weaker, you can adjust the length of the harm track. Remember that failing a risky action can mark 1 box of harm, while failing a desperate one could mean marking 2. Take this in consideration and test your changes until you get the proper feeling for how you want the characters to feel in your game. In doubt, we still consider 5 boxes to be a good default value.
+> 
+> To change the way harm work, you could also include more than one harm track, depending on what your game is about. Doing this will let you spread the pace over multiple tracks.
 
 ## Abilities
 
@@ -177,14 +216,6 @@ There are two types of `TRACKS`.
 
 - CHALLENGE TRACKS are used to represent challenges that the group needs to handle, like fighting a group of enemies or entering a well secured compound.
 - DANGER TRACKS are used for escalating threats like a group of guards that is about to be alerted by your presence, or the time left until a bomb explodes.
-
-> ### Fibonacci Sequence
->
-> The number of boxes for `TRACKS` aren’t arbitrary. They follow the Fibonacci Sequence (1, 1, 2, 3, 5, 8, 13, 21, etc) where each number is the sum of the two preceding ones.
->
-> The reason for this is that according to Weber’s Law, the difference we can identify between objects is given by a percentage. If that percentage is too low, differentiating two things becomes harder.
->
-> By making each `TRACK` size around 60% bigger than the previous one, deciding each one to use becomes easier. Doing this speeds up the game and keeps the group focused on what is important; the fiction.
 
 ## Checks
 
@@ -278,8 +309,23 @@ Go with what feels right according to what has already been established.
 
 [...]
 
-# GM Section
+# Before We Start...
 
+Here are a couple of tips and tricks you should read before you start playing the game.
+
+## For GMs
+
+- **Be a fan of the players.** You aren’t there to trap them or see them lose. You are there to help facilitate an interesting story. Be on the edge of your seat when they are challenged, and cheer when they succeed! 
+- **Don’t plan, play.** You don’t need to spend hours planning all the details of each and every session. No plan survives an encounter with the players, so save yourself some time and play to find out what happens instead. 
+- **When in doubt, ask questions.** The players have tons of wonderful ideas if you just listen to them. It’s OK to not know about everything. Ask your players questions and fill the world with their answers. 
+- **This is a game, not a simulation.** Everyone is here to have fun, so try to stay away from hyper-realism. If it looks cool and feels like it could be possible, let the players try. The dice will help guide you towards the rest of the story.
+
+## For Players
+
+- **Let everyone have their moment.** Everyone enjoys it when their character does something cool and the spotlight is on them. So for that reason, try to make sure everyone at the table gets a fair amount of screen time! 
+- **You are a writer, not a spectator.** The GM will help guide the story, but you are as much a part of the writing process as them. Embrace this narrative control and fill out the world with your ideas. 
+- **Take risks.** This isn’t like real life, you’re allowed to play dangerously. The only thing that will come out of you doing so, is a fantastic story. Don't be scared of engaging with the fiction. 
+- **Rise up.** When your character takes actions, they might fail or consequences might arise. But that’s OK, failure and consequences make for a more interesting story. When at first you don't succeed, get back up and try again using a new approach.
 ## Balancing Tracks
 
 `TRACKS` are the core pacing mechanism in the game and understanding how their boxes are marked is crucial in understanding how to balance the challenges and treats in a session.
@@ -297,3 +343,11 @@ Generally speaking, to keep things relatively balanced, `DANGER TRACK`S should h
 For `CHALLENGE TRACKS`, you can easily go up to 5, 8 or even 13 boxes.
 
 This is simply a guideline so you can consider this a good starting point when using `TRACKS`.
+
+## Fibonacci Sequence
+
+The number of boxes for **TRACKS** aren’t arbitrary. They follow the Fibonacci Sequence (1, 1, 2, 3, 5, 8, 13, 21, etc) where each number is the sum of the two preceding ones.
+
+The reason for this is that according to Weber’s Law, the difference we can identify between objects is given by a percentage. If that percentage is too low, differentiating two things becomes harder.
+
+By making each **TRACK** size around 60% bigger than the previous one, deciding each one to use becomes easier. Doing this speeds up the game and keeps the group focused on what is important; the fiction.
