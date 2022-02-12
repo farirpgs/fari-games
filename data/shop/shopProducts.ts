@@ -45,6 +45,20 @@ export const shop: IShop = {
           },
         },
         {
+          name: "HOPES & DREAMS SRD",
+          slug: "hopes-and-dreams-srd",
+          description: "Make your own game ignited by HOPES & DREAMS.",
+          type: ProductTypeEnum.SRD,
+          license: License.CC_BY_4,
+          footer:
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+          tags: ["hopes-and-dreams", "srd", "new"],
+          image: "https://gyazo.com/c143929685716b1ca0ea1edbaefeb0f9.png",
+          links: {
+            itchIo: "https://fari-rpgs.itch.io/hopes-and-dreams-srd",
+          },
+        },
+        {
           name: "Success with Style",
           slug: "success-with-style",
           type: ProductTypeEnum.Blog,
