@@ -467,7 +467,7 @@ export const shop: IShop = {
           type: ProductTypeEnum.SRD,
           description:
             "The SAVE System is a framework for building quick-playing, low-prep, story-focused RPGs.",
-          tags: ["srd", "new"],
+          tags: ["srd"],
           license: License.CC_BY_4,
           image: "https://gyazo.com/f885d1354a3a2950f1ba11ec28ef56a3.png",
           links: {
@@ -519,7 +519,7 @@ export const shop: IShop = {
           links: {
             itchIo: "https://wuderpg.itch.io/wude-the-five-powers",
           },
-          tags: ["srd", "new"],
+          tags: ["srd"],
           // license:License.CC_BY_4,
         },
         {
@@ -553,7 +553,7 @@ export const shop: IShop = {
           links: {
             itchIo: "https://lynxen-rpgs.itch.io/shillings-srd",
           },
-          tags: ["srd", "new"],
+          tags: ["srd"],
           license: License.CC_BY_4,
         },
       ],
