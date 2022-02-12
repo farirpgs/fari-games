@@ -3,6 +3,7 @@ fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&disp
 headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
+languages: en,fr
 ---
 
 # Introductions | Charge SRD
@@ -38,7 +39,7 @@ In this game, you and your friends get together to tell an interactive story abo
 
 Here’s what you’ll need to play:
 
-- Between two and five people. One of them acting as the Game Master.
+- Between two and five friends to play with one acting as the Game Master.
 - Character sheets, one for each player.
 - A bunch of six-sided dice. At least 6 would be ideal.
 - Index cards, sticky notes or similar slips of paper.
@@ -620,7 +621,7 @@ An `attachment` is a character `detail` that you can choose to temporarily lose 
 
 However, this can only be done when it makes sense narratively, and that particular `attachment` cannot be used until time is taken to repair or reacquire it.
 
-To reacquire or repair an `attachment`, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the mod is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
+To reacquire or repair an `attachment`, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the attachment is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
 
 To make progress on the project, a character may only roll to repair a "broken" `attachment` when they have the appropriate amount of downtime.
 

@@ -1,4 +1,9 @@
-import { IShop, IShopProductWithAuthor, License } from "./types/IShopProduct";
+import {
+  IShop,
+  IShopProductWithAuthor,
+  License,
+  ProductTypeEnum,
+} from "./types/IShopProduct";
 
 export const shop: IShop = {
   authors: [
@@ -7,11 +12,13 @@ export const shop: IShop = {
       slug: "fari-rpgs",
       links: {
         twitter: "https://twitter.com/RPDeshaies",
+        website: "https://farirpgs.com",
       },
       products: [
         {
           name: "Charge RPG",
           slug: "charge-rpg",
+          type: ProductTypeEnum.Game,
           description: "Ready to use generic RPG system.",
           license: License.CC_BY_4,
           footer:
@@ -25,6 +32,7 @@ export const shop: IShop = {
         {
           name: "Charge SRD",
           slug: "charge-srd",
+          type: ProductTypeEnum.SRD,
           description:
             "Power your next game with this condensed version of Charge RPG",
           license: License.CC_BY_4,
@@ -40,6 +48,7 @@ export const shop: IShop = {
           name: "HOPES & DREAMS SRD",
           slug: "hopes-and-dreams-srd",
           description: "Make your own game ignited by HOPES & DREAMS",
+          type: ProductTypeEnum.SRD,
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
@@ -47,6 +56,33 @@ export const shop: IShop = {
           image: "https://gyazo.com/174e2d366a13b73bbe556fb39e8e9b97.png",
           links: {
             itchIo: "https://fari-rpgs.itch.io/hopes-and-dreams-srd",
+          },
+        },
+        {
+          name: "Success with Style",
+          slug: "success-with-style",
+          type: ProductTypeEnum.Blog,
+          description:
+            "A searchable supply of ideas; these Fate pointers help you succeed with style!",
+          license: License.CC_BY_4,
+          footer:
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+          tags: [],
+          image: "https://gyazo.com/f7d964a063040abe84ddc9d975378c78.jpeg",
+          links: {
+            itchIo: "https://fari-rpgs.itch.io/",
+          },
+        },
+        {
+          name: "Fate Stunts",
+          slug: "fate-stunts",
+          type: ProductTypeEnum.Resource,
+          description:
+            "A very detailed list of stunts to help you get started with Fate character creation quickly.",
+          tags: [],
+          image: "https://gyazo.com/4868cbe229118ce8a4b7b2e44908d703.jpeg",
+          links: {
+            itchIo: "https://fari-rpgs.itch.io/",
           },
         },
       ],
@@ -61,6 +97,7 @@ export const shop: IShop = {
         {
           name: "Lumen",
           slug: "lumen",
+          type: ProductTypeEnum.SRD,
           description: "RPG system for action packed, power fantasy games.",
           tags: ["lumen", "srd"],
           image: "https://gyazo.com/047b237d11168d35c52912e0f64ae096.png",
@@ -80,6 +117,7 @@ export const shop: IShop = {
         {
           name: "Fate Condensed",
           slug: "fate-condensed",
+          type: ProductTypeEnum.SRD,
           description:
             "The latest version of the Fate System. Compact, stand-alone and streamlined for clarity and ease of reference.",
           license: License.CC_BY_3,
@@ -96,6 +134,7 @@ export const shop: IShop = {
         {
           name: "Fate Accelerated",
           slug: "fate-accelerated",
+          type: ProductTypeEnum.SRD,
           description:
             "If you want to get started quickly, this dialed-down version of Fate Core will get you going in no time.",
           footer:
@@ -111,6 +150,7 @@ export const shop: IShop = {
         {
           name: "Fate Core",
           slug: "fate-core",
+          type: ProductTypeEnum.SRD,
           description:
             "A Complete guide to Fate with rules, examples and tips. A most if your thirst for knowledge was not satisfied with Fate Condensed.",
           footer:
@@ -126,6 +166,7 @@ export const shop: IShop = {
         {
           name: "Fate System Toolkit",
           slug: "fate-system-toolkit",
+          type: ProductTypeEnum.SRD,
           description:
             "This expansion for the Fate Core System contains tons of flexible, hackable and adaptable rules that fits any world you are trying to play in.",
           footer:
@@ -141,6 +182,7 @@ export const shop: IShop = {
         {
           name: "Fate Adversary Toolkit",
           slug: "fate-adversary-toolkit",
+          type: ProductTypeEnum.SRD,
           description:
             "What ever the genre, this book gives you the tools you need to create great obstacles for you stories.",
           footer:
@@ -165,6 +207,7 @@ export const shop: IShop = {
         {
           name: "24XX",
           slug: "24xx",
+          type: ProductTypeEnum.SRD,
           description: "A lo-fi sci-fi RPG SRD.",
           tags: ["24xx", "srd"],
           license: License.CC_BY_4,
@@ -189,6 +232,7 @@ export const shop: IShop = {
         {
           name: "Guided by the Sun",
           slug: "guided-by-the-sun",
+          type: ProductTypeEnum.SRD,
           description:
             "A GM-less, card-based system, where players tell the story of a protagonist undertaking a journey and making friends along the way.",
           tags: ["srd"],
@@ -210,6 +254,7 @@ export const shop: IShop = {
         {
           name: "Resistance Toolbox",
           slug: "resistance-toolbox",
+          type: ProductTypeEnum.SRD,
           description:
             "Make your own games of desperate struggle using the Resistance System, the core rules that power the Spire RPG.",
           tags: ["resistance", "srd"],
@@ -229,6 +274,7 @@ export const shop: IShop = {
         {
           name: "Harmony Drive",
           slug: "harmony-drive",
+          type: ProductTypeEnum.SRD,
           description:
             "Build a campaign-style adventure TTRPG, one that lets players express themselves, work together, and make difficult choices, this is the system for you!",
           license: License.CC_BY_3,
@@ -243,6 +289,7 @@ export const shop: IShop = {
         {
           name: "Carta",
           slug: "carta",
+          type: ProductTypeEnum.SRD,
           description: "A Toolkit For Making Exploration Games.",
           license: License.CC_BY_3,
           footer:
@@ -266,6 +313,7 @@ export const shop: IShop = {
         {
           name: "Second Guess System",
           slug: "second-guess-system",
+          type: ProductTypeEnum.SRD,
           description: "Power your solo role-playing games.",
           tags: ["srd"],
           image: "https://gyazo.com/6586967082cf5b9c58d9023e57efc5d3.jpg",
@@ -285,6 +333,7 @@ export const shop: IShop = {
         {
           name: "Tricube Tales",
           slug: "tricube-tales",
+          type: ProductTypeEnum.SRD,
           description:
             "A rules-light roleplaying system capable of handling a wide variety of genres and settings.",
           tags: ["srd"],
@@ -312,6 +361,7 @@ export const shop: IShop = {
         {
           name: "Trophy SRD",
           slug: "trophy-srd",
+          type: ProductTypeEnum.SRD,
           description:
             "Build your own rules-light, risk-heavy games rooted in the Trophy SRD.",
           tags: ["srd"],
@@ -333,6 +383,7 @@ export const shop: IShop = {
         {
           name: "Motif Toolkit SRD",
           slug: "motif-toolkit-srd",
+          type: ProductTypeEnum.SRD,
           description: "A solo play oracle, an add-on solo RPG system",
           tags: ["srd"],
           license: License.CC_BY_3,
@@ -355,6 +406,7 @@ export const shop: IShop = {
         {
           name: "VEN6 Storytelling System SRD",
           slug: "ven6-storytelling-system-srd",
+          type: ProductTypeEnum.SRD,
           description:
             "Create narrative storytelling roleplaying games with conflict mechanics and a GM option.",
           tags: ["srd"],
@@ -379,6 +431,7 @@ export const shop: IShop = {
         {
           name: "Threads of Lachesis",
           slug: "threads-of-lachesis",
+          type: ProductTypeEnum.SRD,
           description:
             "A guide to create solo games or generators with branched random prompts that the player organizes into a cohesive sequence via a single roll.",
           tags: ["srd", "new"],
@@ -403,6 +456,7 @@ export const shop: IShop = {
         {
           name: "Turbo-Fate",
           slug: "turbo-fate",
+          type: ProductTypeEnum.SRD,
           description:
             "Turbo-Fate ist die deutsche Übersetzung von Fate Accelerated und eine gekürzte Form des beliebten Fate-Core-Rollenspiels.",
           tags: ["srd", "fate"],
@@ -424,6 +478,7 @@ export const shop: IShop = {
         {
           name: "SAVE System",
           slug: "save-the-srd",
+          type: ProductTypeEnum.SRD,
           description:
             "The SAVE System is a framework for building quick-playing, low-prep, story-focused RPGs.",
           tags: ["srd", "new"],
@@ -448,6 +503,7 @@ export const shop: IShop = {
         {
           name: "Bad Time SRD",
           slug: "bad-time-srd",
+          type: ProductTypeEnum.SRD,
           description:
             "Give characters a laughably bad time with the Bad Time Game SRD!",
           tags: ["srd", "new"],
@@ -470,12 +526,67 @@ export const shop: IShop = {
         {
           name: "Five Powers SRD",
           slug: "five-powers-srd",
+          type: ProductTypeEnum.SRD,
           description:
             "The Five Powers SRD harnesses the full potential of the 5 Elements of East-Asian Philosophy so you can create evocative games!",
           image: "https://gyazo.com/0784a27c26e7811eb327e64cf8718028.jpg",
           links: {
             itchIo: "https://wuderpg.itch.io/wude-the-five-powers",
           },
+          tags: ["srd", "new"],
+          // license:License.CC_BY_4,
+        },
+        {
+          name: "Quixotic SRD",
+          slug: "quixotic-srd",
+          type: ProductTypeEnum.SRD,
+          description: "Extravagantly chivalrous",
+          image: "https://gyazo.com/656b801dec8a60dae053d107031de588.png",
+          links: {
+            itchIo: "https://wuderpg.itch.io/quixotic",
+          },
+          tags: ["srd"],
+        },
+      ],
+    },
+    {
+      name: "Lynxen RPGs",
+      slug: "lynxen-rpgs",
+      links: {
+        twitter: "https://twitter.com/CrackersCheese2",
+        website: "https://lynxen-rpgs.itch.io",
+      },
+      products: [
+        {
+          name: "Shillings SRD",
+          slug: "shillings-srd",
+          type: ProductTypeEnum.SRD,
+          description:
+            "Shillings SRD is an SRD where you pay to make other pay",
+          image: "https://gyazo.com/66265315e6946f9e596f03370701d25b.png",
+          links: {
+            itchIo: "https://lynxen-rpgs.itch.io/shillings-srd",
+          },
+          tags: ["srd", "new"],
+          license: License.CC_BY_4,
+        },
+      ],
+    },
+    {
+      name: "Cezar Capacle",
+      slug: "cezar-capacle",
+      links: {
+        twitter: "https://twitter.com/capacle",
+        website: "https://capacle.bio.link/",
+      },
+      products: [
+        {
+          name: "Push",
+          slug: "push",
+          type: ProductTypeEnum.SRD,
+          description: "A story-first, push-your-luck system for your games",
+          image: "https://gyazo.com/a0b7d5f7d8349a73f0de331f85a78d25.png",
+          links: {},
           tags: ["srd", "new"],
           // license:License.CC_BY_4,
         },

@@ -482,11 +482,14 @@ export function Document(props: {
     if (!chapter?.frontMatter?.languages) {
       return null;
     }
-    const languages = chapter?.frontMatter?.languages.split(",");
+    const languages = chapter?.frontMatter?.languages
+      .split(",")
+      .map((l) => l.trim());
 
     const languageLabels: Record<string, string> = {
       en: "English",
       "pt-br": "Português",
+      fr: "Français",
       de: "Deutsch",
     };
 
@@ -502,6 +505,8 @@ export function Document(props: {
             }}
           >
             {languages.map((language, index) => {
+              console.log("label", language);
+
               return (
                 <option key={index} value={language}>
                   {languageLabels[language] ?? language}
