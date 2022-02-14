@@ -123,14 +123,13 @@ export function ProductPage() {
             );
           }}
           renderFooter={() => {
-            if (!product?.footer) {
-              return null;
-            }
             return (
               <>
-                <Box mb=".5rem" whiteSpace="pre-line">
-                  <Typography variant="caption">{product?.footer}</Typography>
-                </Box>
+                {product?.footer && (
+                  <Box mb=".5rem" whiteSpace="pre-line">
+                    <Typography variant="caption">{product?.footer}</Typography>
+                  </Box>
+                )}
                 <Box mb=".5rem" whiteSpace="pre-line">
                   <Button
                     component="a"
