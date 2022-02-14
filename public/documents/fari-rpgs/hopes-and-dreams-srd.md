@@ -351,3 +351,15 @@ The number of boxes for **TRACKS** aren’t arbitrary. They follow the Fibonacci
 The reason for this is that according to Weber’s Law, the difference we can identify between objects is given by a percentage. If that percentage is too low, differentiating two things becomes harder.
 
 By making each **TRACK** size around 60% bigger than the previous one, deciding each one to use becomes easier. Doing this speeds up the game and keeps the group focused on what is important; the fiction.
+
+# Licencing
+
+The HOPES & DREAMS SRD is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
+
+That means that if you want to make a game using or based by this game, you just need to give us attribution for our work.
+
+Because Charge is based off Blades in the Dark, you would also need to include attribution to the creators of this game as well.
+
+To do so, copy the text below in your own game and things should be good to go.
+
+> This work is based on HOPES & DREAMS, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas , and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
