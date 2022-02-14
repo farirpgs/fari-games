@@ -114,7 +114,7 @@ export function ProductDetails(props: {
               })}
             >
               <ReactRouterLink
-                to={AppLinksFactory.makeProductLink(props.product)}
+                to={AppLinksFactory.makeProductBrowseLink(props.product)}
                 className={css({
                   color: productTheme.palette.text.primary,
                   cursor: props.clickable ? "pointer" : "text",
@@ -153,8 +153,9 @@ export function ProductDetails(props: {
                       size="large"
                       variant="contained"
                       component={ReactRouterLink}
-                      to={AppLinksFactory.makeGameLink({
+                      to={AppLinksFactory.makeProductLink({
                         author: props.product.author.slug,
+                        type: props.product.type,
                         game: props.product.slug,
                       })}
                       className={css({
@@ -172,7 +173,7 @@ export function ProductDetails(props: {
         {!isLgDown && (
           <Grid item xs={12} lg={6}>
             <ReactRouterLink
-              to={AppLinksFactory.makeProductLink(props.product)}
+              to={AppLinksFactory.makeProductBrowseLink(props.product)}
               className={css({
                 cursor: "pointer",
                 display: "flex",

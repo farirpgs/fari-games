@@ -18,7 +18,7 @@ import { AppLinksFactory } from "../../domains/links/AppLinksFactory";
 import { ProductLicense } from "../ShopPage/components/ProductLicense";
 import { ProductLinks } from "../ShopPage/components/ProductLinks";
 
-export function GamePage() {
+export function ProductPage() {
   const match = useRouteMatch<{
     author: string;
     game: string;
@@ -150,9 +150,10 @@ export function GamePage() {
           language={language}
           onLanguageChange={(newLanguage) => {
             history.push(
-              AppLinksFactory.makeGameLink({
+              AppLinksFactory.makeProductLink({
                 author: authorSlug,
                 game: gameSlug,
+                type: product?.type,
                 language: newLanguage,
               })
             );
@@ -171,4 +172,4 @@ export function GamePage() {
   );
 }
 
-export default GamePage;
+export default ProductPage;

@@ -20,7 +20,7 @@ import { Navbar } from "./Navbar";
 import { SentryService } from "./services/SentryService";
 import { darkTheme, lightTheme } from "./theme";
 
-const GamePage = React.lazy(() => import("./pages/GamePage/GamePage"));
+const ProductPage = React.lazy(() => import("./pages/ProductPage/ProductPage"));
 const SearchPage = React.lazy(() => import("./pages/SearchPage/SearchPage"));
 const HomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
 const NotFoundPage = React.lazy(
@@ -82,8 +82,8 @@ function App() {
 
                     <Route
                       exact
-                      path="/:language/srds/:author/:game/:chapter?"
-                      component={GamePage}
+                      path="/:language/:type/:author/:game/:chapter?"
+                      component={ProductPage}
                     />
                     <Route
                       exact

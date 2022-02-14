@@ -22,7 +22,7 @@ export function ProductCard(props: { product: IShopProductWithAuthor }) {
       onPointerLeave={() => setHover(false)}
     >
       <ReactRouterLink
-        to={AppLinksFactory.makeProductLink(props.product)}
+        to={AppLinksFactory.makeProductBrowseLink(props.product)}
         className={css({
           cursor: "pointer",
           position: "relative",
@@ -96,7 +96,7 @@ export function ProductCard(props: { product: IShopProductWithAuthor }) {
       </ReactRouterLink>
       <div>
         <ReactRouterLink
-          to={AppLinksFactory.makeProductLink(props.product)}
+          to={AppLinksFactory.makeProductBrowseLink(props.product)}
           className={css({
             textDecoration: "none",
             "&:hover": {

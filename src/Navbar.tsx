@@ -22,6 +22,7 @@ import Typography from "@mui/material/Typography";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import React, { useContext, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { ProductTypeEnum } from "../data/shop/types/IShopProduct";
 import { ReactRouterLink } from "./components/ReactRouterLink/ReactRouterLink";
 import { SettingsContext } from "./contexts/SettingsContext";
 import { track } from "./domains/analytics/track";
@@ -199,8 +200,9 @@ export function Navbar() {
             onClick={() => {
               setMenuOpen(false);
             }}
-            to={AppLinksFactory.makeGameLink({
+            to={AppLinksFactory.makeProductLink({
               author: "fari-rpgs",
+              type: ProductTypeEnum.Game,
               game: "charge-rpg",
             })}
           >
@@ -210,8 +212,9 @@ export function Navbar() {
             onClick={() => {
               setMenuOpen(false);
             }}
-            to={AppLinksFactory.makeGameLink({
+            to={AppLinksFactory.makeProductLink({
               author: "fari-rpgs",
+              type: ProductTypeEnum.SRD,
               game: "charge-srd",
             })}
           >
