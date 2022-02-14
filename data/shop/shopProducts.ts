@@ -58,6 +58,21 @@ export const shop: IShop = {
             itchIo: "https://fari-rpgs.itch.io/hopes-and-dreams-srd",
           },
         },
+
+        {
+          name: "Breathless SRD",
+          slug: "breathless-srd",
+          description: "",
+          type: ProductTypeEnum.SRD,
+          license: License.CC_BY_4,
+          footer:
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+          tags: ["srd", "new"],
+          image: "https://gyazo.com/29ee337601f8d6e6ccc0e10f82a07da1.png",
+          links: {
+            itchIo: "https://fari-rpgs.itch.io/breathless-srd",
+          },
+        },
         {
           name: "Success with Style",
           slug: "success-with-style",
