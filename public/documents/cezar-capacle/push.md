@@ -9,19 +9,22 @@ headingUppercase: true
 # Overview
 
 ## The 5-minute version
+
 Ok, I know a full-fledged book for an SRD may look intimidating, so let's get straight to the point. If you don't have the time or the energy to read through the whole thing, here's a quick start.
 
 ### How to create a Push-powered game
+
 1. Create your **Pitch**, a short paragraph telling about the world, its conflicts and protagonists
 2. List the **Themes** of your game and add a **safety tool**
 3. Create a bunch of **Traits** players will pick from to make their **Characters**
 4. Come up with a **Quest** that includes:
-	1. A **Mission**, the inciting incident that requires immediate action
-	2. A **Matrix**, a table of 36 prompts with moments that could come up during the adventure
-	3. An **Agenda**, a list of 6 goals that express behaviors you want to reward the players for
+   1. A **Mission**, the inciting incident that requires immediate action
+   2. A **Matrix**, a table of 36 prompts with moments that could come up during the adventure
+   3. An **Agenda**, a list of 6 goals that express behaviors you want to reward the players for
 5. Fit it all in two pages and you're done!
 
 ### How to run a Push-powered game
+
 1. Read the **Pitch**, the **Mission**, the **Agenda**, and go over the **Themes** and **safety tools**
 2. Create your **Character** by picking one **Trait** from each category
 3. Roll on the **Matrix** to determine how the adventure starts
@@ -60,14 +63,14 @@ Push-powered games will need:
 - **Stat-free:** There are no stats in the game. Characters, foes, weapons, items, money. Nothing has a number nor a mechanic attached to it. Dice rolls are influenced by luck and risk-taking only, and the dice influence the fiction only. No resources to keep track of.
 - **Emergent narrative:** Push-powered games do not offer a preloaded lore of the world. Instead, the quest-centered design provides players with evocative prompts that can be acted upon. Setting emerges through people, places, items, and events. Through the interaction between characters and situations, players build a world of their own with the framework provided.
 - **Imagination first:** Push does not use grids, rulers or prescriptive definitions of abilities and challenges. Players are encouraged to come up with creative uses of their character's traits and to use their imagination to freely determine how far, how fast, how difficult things are in any given circumstance.
-- **Dice bring drama:** Rolling the dice is *always an option, never an obligation.* When you do so, the system is heavily steered towards partial successes. But even a failure is never a dead end. "Nothing" never happens. Circumstances change after every roll. 
+- **Dice bring drama:** Rolling the dice is _always an option, never an obligation._ When you do so, the system is heavily steered towards partial successes. But even a failure is never a dead end. "Nothing" never happens. Circumstances change after every roll.
 - **Competent protagonists:** characters are the protagonists of the adventure. As such, they're unique and capable of influencing the course of their story. And they don't die unless their player decides so.
 
 ### What is this document?
 
 This is a **System Reference Document**—or **SRD.** It provides the rules and instructions for you to make your own games using the Push system. Together with a step-by-step guide, you'll find commentary on game design choices, behind the curtains information on how the mechanics work, and ideas on how you can customize the system to make it your own.
 
-This book is a little lengthier than one would expect for such a simple game, but that's because I included a full example of a game created using this system, with detailed explanations on each step. My goal was to make it accessible for anyone interested in using it, regardless of their previous game design experience. 
+This book is a little lengthier than one would expect for such a simple game, but that's because I included a full example of a game created using this system, with detailed explanations on each step. My goal was to make it accessible for anyone interested in using it, regardless of their previous game design experience.
 
 # Core mechanic
 
@@ -75,7 +78,7 @@ This book is a little lengthier than one would expect for such a simple game, bu
 
 Push-powered games apply a single mechanic to all types of conflict resolution. Let's see how it works.
 
-Whenever your character attempts something that you consider *dramatically interesting,* roll 1d6. Check your result:
+Whenever your character attempts something that you consider _dramatically interesting,_ roll 1d6. Check your result:
 
 - On a 7 or higher, it's a **MISS.**
 - On a 5 or 6, it's a **STRONG HIT.**
@@ -97,7 +100,7 @@ There are none. The core roll is not affected by skills, talents, abilities, adv
 
 ### Dramatically interesting
 
-The core rule states you should roll *when your character attempts something that **you consider dramatically interesting.*** Note that this is a purposely vague and personal definition. You, the player, decide when to roll. You never *need* to roll, but you may *want* to. It doesn't have to be a risky, high-stakes effort. If you're excited to roll for an action, do it. The dice won't punish you—at least not mechanically. Because of how they work, when you go for the dice, you're inviting drama into the scene.
+The core rule states you should roll \*when your character attempts something that **you consider dramatically interesting.\*** Note that this is a purposely vague and personal definition. You, the player, decide when to roll. You never _need_ to roll, but you may _want_ to. It doesn't have to be a risky, high-stakes effort. If you're excited to roll for an action, do it. The dice won't punish you—at least not mechanically. Because of how they work, when you go for the dice, you're inviting drama into the scene.
 
 On the other hand, if you don't feel invested in the potential surprising consequences of an action, simply don't roll for it. In case you're not sure whether you should or shouldn't roll, check with the other players or with The Oracle.
 
@@ -114,14 +117,14 @@ If you get a 4 or less as a result of your die roll, you get a **Weak Hit.** Tha
 Alternatively, if you want to go for a Strong Hit, you can choose to roll +1d6 and add this second roll to your previous result. Three things to keep in mind:
 
 - If you decide to roll the extra die, you run the risk of getting a 7 or higher, which is a **miss**
-- If you roll the extra die, you ***must*** add it to your result. You can't decide not to add it after you roll it.
-- If you roll the extra die and still get a Weak Hit, you can choose to roll ***another*** extra die and add it to the previous two. You can repeat that as many times as you want until you get a 5 or higher.
+- If you roll the extra die, you **_must_** add it to your result. You can't decide not to add it after you roll it.
+- If you roll the extra die and still get a Weak Hit, you can choose to roll **_another_** extra die and add it to the previous two. You can repeat that as many times as you want until you get a 5 or higher.
 
 ### Miss
 
 If you get a 7 or more as a result of your die roll, you get a **Miss.** That means you get what you don't want from that action. Describe how the complication manifests itself in the situation. If you can, use it to set up what happens next in the scene.
 
-Let me reiterate this: it's "You get what **you don't want"**, and not **"You don't get** what you want".  Whatever your character set out to do, it brought about unwanted consequences. The situation changes somehow. "Nothing happens" is never an option. Something always happens when you roll the dice. If you're trying to decipher weird scriptures, a Miss is not *"you don't understand what it is"* but rather *"you learned something you didn't want to know"* or something like that. You get the point.
+Let me reiterate this: it's "You get what **you don't want"**, and not **"You don't get** what you want". Whatever your character set out to do, it brought about unwanted consequences. The situation changes somehow. "Nothing happens" is never an option. Something always happens when you roll the dice. If you're trying to decipher weird scriptures, a Miss is not _"you don't understand what it is"_ but rather _"you learned something you didn't want to know"_ or something like that. You get the point.
 
 ### Costs and complications
 
@@ -139,6 +142,7 @@ However, coming up with new costs and complications every other roll can be taxi
 If you feel your players would benefit from more guidance to come up with consequences, you could provide a list they could check (or roll 1d6 on) like the one below:
 
 #### Table 01 - Complications
+
 1. A character is negatively affected (hurt, stressed, sick, afraid, sad)
 2. A character is put in danger
 3. A character loses/breaks an item/resource/opportunity
@@ -177,9 +181,9 @@ Here are a few examples:
 - Have I been here before?
 - What do we see?
 
-Oracles are a common technology of solo and cooperative games, but in Push they may also answer one very important question: ***Is it done?***
+Oracles are a common technology of solo and cooperative games, but in Push they may also answer one very important question: **_Is it done?_**
 
-See, since enemies and other challenges don't have HP or any other "life tracker", how do we know when we overcome the challenge? Was a single roll enough to knock the guard out? To crack the safe open? To cross the river balancing on a rope? In other words, the thing you set out to do: ***is it done?*** Or is the challenge still up?
+See, since enemies and other challenges don't have HP or any other "life tracker", how do we know when we overcome the challenge? Was a single roll enough to knock the guard out? To crack the safe open? To cross the river balancing on a rope? In other words, the thing you set out to do: **_is it done?_** Or is the challenge still up?
 
 From all the questions you may ask the Oracle in this game, that's the most important one. This is a very peculiar game design choice, and I'll talk a little bit more about it below.
 
@@ -189,7 +193,7 @@ Before you ask the Oracle, check with the group. Maybe the answer is obvious, an
 
 Remember the old saying: Don't ask questions you don't want to know the answer to. And by that I mean, if one of the possible answers of The Oracle does not interest you, don't roll for it! Just talk it out and decide it. If you don't want vampires in your game, don't ask if there are vampires. If you feel the Big Bad should be dead, don't ask if they are, unless you are open to being surprised by the dice.
 
-And this also applies to the big question, ***"Is it done?".*** If you roll to jump over a chasm and get a Strong Hit, this particular challenge is most likely over, right? Don't need to check the Oracle for it. The inverse is also true. If you hit a dragon for the first time with your dagger, it's probably not dead yet, right? No need to check either.
+And this also applies to the big question, **_"Is it done?"._** If you roll to jump over a chasm and get a Strong Hit, this particular challenge is most likely over, right? Don't need to check the Oracle for it. The inverse is also true. If you hit a dragon for the first time with your dagger, it's probably not dead yet, right? No need to check either.
 
 In terms of game design, the ability to determine when a challenge is over gives the players the narrative authority to decide how much **"screen time"** a scene deserves. Are you still invested in this negotiation with the Dwarven lords? If so, just declare it's not over yet, and keep talking and rolling the dice. If not, just wrap it up and move the story forward. If not sure, ask the Oracle. Are they convinced yet? Roll and find out.
 
@@ -197,7 +201,7 @@ Without numbers telling you when a challenge is over, there's no need to drag ou
 
 ### A Yes or No question
 
-Right, now that you decided that you don't have the answer and you want to ask The Oracle, you need to phrase it as a Yes or No question. To be honest, most of the time, that's already the kind of question you'd normally ask. "Can I...",  "Is she..", "Have we..", Is there..", "Do we...", all of these are straight yes or no questions that form the majority of inquires players usually have.
+Right, now that you decided that you don't have the answer and you want to ask The Oracle, you need to phrase it as a Yes or No question. To be honest, most of the time, that's already the kind of question you'd normally ask. "Can I...", "Is she..", "Have we..", Is there..", "Do we...", all of these are straight yes or no questions that form the majority of inquires players usually have.
 
 If you have an open-ended question (usually the ones starting with How, When, Where, Who, What, and Why), then you need to rephrase it. "Where is the castle?" becomes "Is the castle nearby?". "How are they dressed" becomes "Are they wearing fancy clothes?"
 
@@ -217,7 +221,7 @@ Now, if you get the likely answer and it doesn't favor you, you can try and push
 
 > Let's say you're trying to get into a dinner party without an invitation. You ask the table, "Are there guards outside?", and since you don't have an unequivocal answer, you check the Oracle. You decide that the most likely answer is "Yes". You roll the die and get a 3, so yes, there are guards. That's not good. You choose to push your luck and roll an extra die, maybe you can increase the total result to a 5 or 6 and declare there are actually no guards! You roll and get a 5, so the results combined give you an 8—a misfortune. You talk to the table and determine that not only there are guards, but one of them is an old enemy of yours! Oh no!
 
-You might want to determine what the possible misfortune is *before* you decide to roll the second die, so you know what kind of risk you are taking. And as with the core roll, you can keep rolling extra dice if you want to until you get to a total result of 5 or more.
+You might want to determine what the possible misfortune is _before_ you decide to roll the second die, so you know what kind of risk you are taking. And as with the core roll, you can keep rolling extra dice if you want to until you get to a total result of 5 or more.
 
 Notice that you can only confront the Oracle (roll +1 die) when you get the likely result. If you get the unlikely answer and it does not benefit you, tough luck. You already had the odds in your favor but the dice decided otherwise.
 
@@ -228,6 +232,7 @@ If you're not familiar with Oracles or feel that you need to include more guidan
 If you originally had an open-ended question and had to rephrase it as a yes or no question, you can keep testing your hypothesis if the Oracle gives you a no for an answer.
 
 > Imagine you're asking "What is this tall building we see?" So you check the Oracle:
+>
 > - "Is it a castle?", if not, then
 > - "Is it a fortress?", if not, then
 > - "Is it a temple?", yes!
@@ -236,7 +241,8 @@ I don't recommend going for more than 3 chained questions at once, otherwise you
 
 You can also use chained questions to increase drama in a significant situation too. Instead of making a single high-stakes Oracle check, break it down into smaller questions and chain them together.
 
-> Let's say you come across a treasure chest and you want to know what's in it. Instead of asking, "Is it the Scepter of the Galaxy?", if you feel that would be too *Deus ex machina*, you could divide it into three questions, like so:
+> Let's say you come across a treasure chest and you want to know what's in it. Instead of asking, "Is it the Scepter of the Galaxy?", if you feel that would be too _Deus ex machina_, you could divide it into three questions, like so:
+>
 > - "Is it a magic item?", if so, then
 > - "Is it really rare?", if so, then
 > - "Is it the Scepter of the Galaxy?"
@@ -244,6 +250,7 @@ You can also use chained questions to increase drama in a significant situation 
 This way, if you do get the Scepter, you feel that you deserved it, and didn't abuse the narrative authority you are given. Of course, this resource is to be used for those climatic points of your story, not at every mundane question you might ask.
 
 ### The Quick Oracle
+
 The idea for the Oracle above is to use the same core roll as the one you use for character actions. But if you feel that's too much for your game, you're welcome to use the quick version below.
 
 Whenever you have a question for which the group does not have an unequivocal answer, phrase it as a Yes or No question and then roll 1d6. Check the result:
@@ -251,7 +258,7 @@ Whenever you have a question for which the group does not have an unequivocal an
 - On a 3 or lower, it's a **NO.**
 - On a 4 or higher, it's a **YES.**
 
-This version does not require deciding which is the more likely outcome, and in return does not offer the ability to challenge its result, nor the opportunity of a misfortune. It's much faster, though. 
+This version does not require deciding which is the more likely outcome, and in return does not offer the ability to challenge its result, nor the opportunity of a misfortune. It's much faster, though.
 
 # Creating your game
 
@@ -263,9 +270,9 @@ The majority of the world-building happens during play, so you don't need to wor
 
 For now, all you need is an elevator pitch. A short paragraph that conveys what kind of world that is, what the major conflict is, and how characters take part in it. If you can, show what makes this world unique. Something like that:
 
-*"In a galaxy divided by the Robot Wars, there's little space for joy. You are The Pierrots, a troupe of android comedians devoted to bringing laughter to the outer planets, and constantly entangled in conundrums they never signed up for."*
+_"In a galaxy divided by the Robot Wars, there's little space for joy. You are The Pierrots, a troupe of android comedians devoted to bringing laughter to the outer planets, and constantly entangled in conundrums they never signed up for."_
 
-*"The Narrow City coughs up smoke and crime. You are members of the Eternal Family, the vampire mafia that runs its shady business throughout the centuries. Will you rise to the top of the organization or work to bring it down along with this damned place?"*
+_"The Narrow City coughs up smoke and crime. You are members of the Eternal Family, the vampire mafia that runs its shady business throughout the centuries. Will you rise to the top of the organization or work to bring it down along with this damned place?"_
 
 Even with just a couple of sentences, you can imply factions, historical events, and a major plot point. It doesn't matter if you don't even know what those names mean—that's exactly the point, you're not supposed to. Keep it vague, keep it short. If it fits on a single tweet, you're doing it right.
 
@@ -290,12 +297,11 @@ Your list of themes doesn't need to be comprehensive but should cover the main a
 > - Mild horror
 >
 > I've also included a link to script change and the following orientation:
-> *This is not a game about "killing monsters and taking their stuff". The only enemies are the spawn of Korlax, the wizard. All species you find across the lands of Danoria belong there and are intelligent, even if your limited perspective might not understand their reasons. The characters are heroes with a noble cause, despite their flaws.*
-
+> _This is not a game about "killing monsters and taking their stuff". The only enemies are the spawn of Korlax, the wizard. All species you find across the lands of Danoria belong there and are intelligent, even if your limited perspective might not understand their reasons. The characters are heroes with a noble cause, despite their flaws._
 
 ## The Characters
 
-Characters in Push are unique, competent, adventurous protagonists. They don't have stats, but they do have ***Traits.*** Character creation is just a matter of choosing a number of traits from different categories and you're done!
+Characters in Push are unique, competent, adventurous protagonists. They don't have stats, but they do have **_Traits._** Character creation is just a matter of choosing a number of traits from different categories and you're done!
 
 ### Traits
 
@@ -320,10 +326,11 @@ More important than the quantity, though, is the quality of the traits. Remember
 I'd also include these three instructions for players on picking their traits:
 
 - **Choose. Roll. Create.** Look briefly over the traits available and go with the one that catches your eye. If you can't decide, roll for it. If no option interests you, create your own and share it with the group for validation.
-- **One player by trait.** Characters are unique, so two players shouldn't choose the same trait. If more than one player is interested in the same trait, come up with variations (someone picks the "Storm Tiger", the other creates  "The Flaming Lion", and everyone is happy).
-- **Fill in the gaps.**  Players are invited to share their interpretation of their traits with the group. Make up stories. Create connections between the characters through their traits. Discuss how they see the traits coming up in play.
+- **One player by trait.** Characters are unique, so two players shouldn't choose the same trait. If more than one player is interested in the same trait, come up with variations (someone picks the "Storm Tiger", the other creates "The Flaming Lion", and everyone is happy).
+- **Fill in the gaps.** Players are invited to share their interpretation of their traits with the group. Make up stories. Create connections between the characters through their traits. Discuss how they see the traits coming up in play.
 
 > Relics of Danoria will be a shorter game, so I’ll come up with six traits for each category. Let’s see:
+
 #### Table 02 - Character Traits
 
 | GIFT                  | UPBRINGING            | EXPERIENCE                    |
@@ -377,11 +384,11 @@ Refine it a little bit, throwing in some mysteries and world-building elements, 
 
 > I’ll use the suggested structure to come up with my mission. Let’s say:
 >
-> "**ENTITY** wants to **DESTROY + RESOURCE**, so you must **FIND + ENTITY** otherwise **CHANGE + KNOWLEDGE.**"
+> "A foe wants to **DESTROY + RESOURCE**, so you must **FIND + ENTITY** otherwise **CHANGE + KNOWLEDGE.**"
 >
 > I think I can work with that. Let’s refine it:
 >
-> *"The Brothers of the Beast learned the location of The Serpent Scepter. If they destroy it, the Lizard Folk won’t believe in the return of the Cobra King anymore, and will then join the sinister brotherhood. You must find the king's lost daughter, the only one who can wield the scepter and avoid this disaster."*
+> _"The Brothers of the Beast learned the location of The Serpent Scepter. If they destroy it, the Lizard Folk won’t believe in the return of the Cobra King anymore, and will then join the sinister brotherhood. You must find the king's lost daughter, the only one who can wield the scepter and avoid this disaster."_
 
 ### The Matrix
 
@@ -397,12 +404,12 @@ In practical terms, those prompts can be:
 | FOES   | ENVIRONMENTS | DISCOVERIES |
 | PLACES | SENSATIONS   | CREATURES   |
 
-
-You should create prompts that are evocative enough so players are invested in experiencing it, but that are not too prescriptive as to not leave room for players to interpret and expand upon. A good prompt sits in that sweet spot between vague and precise. And since they are randomly selected, you shouldn’t expect them to come up in any specific order. 
+You should create prompts that are evocative enough so players are invested in experiencing it, but that are not too prescriptive as to not leave room for players to interpret and expand upon. A good prompt sits in that sweet spot between vague and precise. And since they are randomly selected, you shouldn’t expect them to come up in any specific order.
 
 There is no better way of explaining it than showing one, so let’s jump to my example.
 
 > Right, I have a clear vision in my head, so it’s time to fill out my matrix. While I do so, I should keep in mind the mission I just created, the main pitch and themes of my game, as well as the character traits I came up with, so my prompts call back to those elements.
+
 #### Table 04 - The Matrix
 
 | **1**                                      | **2**                                             |
@@ -428,7 +435,7 @@ There is no better way of explaining it than showing one, so let’s jump to my 
 | 5. The prophecy of Sul-Mahat               | 5. An enigmatic carved door                       |
 | 6. A flower, a book, and a duel            | 6. The orb in the trapped ruins of an observatory |
 
-I'm repeating myself, but just to be clear: you don't need to know what any of those prompts mean. They should be compelling and flavorful, but it'll be the players who will bring them to life during their adventure. 
+I'm repeating myself, but just to be clear: you don't need to know what any of those prompts mean. They should be compelling and flavorful, but it'll be the players who will bring them to life during their adventure.
 
 ### The Agenda
 
@@ -438,7 +445,7 @@ The Agenda is a series of smaller achievements you expect your players to chase 
 
 Think of the agenda as your way to reward the players for specific behaviors. If through the traits and the matrix you expressed the themes of your game, through the agenda you reveal its tones and intentions.
 
-The agenda is formed by a list of imperative statements called **Goals**— six of them should suffice. It's the player's job to bring them into the narrative or bend the story to their direction so they get a chance to accomplish them. They're ***group goals***, so if one character manages to complete one, the whole group benefits from it.
+The agenda is formed by a list of imperative statements called **Goals**— six of them should suffice. It's the player's job to bring them into the narrative or bend the story to their direction so they get a chance to accomplish them. They're **_group goals_**, so if one character manages to complete one, the whole group benefits from it.
 
 > Here is the agenda for the quest I'm making:
 >
@@ -469,8 +476,8 @@ After players are familiarized with the game pitch and the quest mission (and ha
 
 Every scene needs a challenge to be overcome, no matter how intimate or epic it is. You may be helping a friend fight their inner demons, or you may be fighting an actual demon. Sometimes a prompt instantly sparks an idea for a challenge, sometimes players have to talk it out. The best way to approach it is by answering the following questions:
 
-*- What do we want here?*
-*- What's standing in our way?*
+_- What do we want here?_
+_- What's standing in our way?_
 
 If players are stuck at finding a challenge, they can pick one (or roll 2d6) on the table below:
 
@@ -485,17 +492,17 @@ If players are stuck at finding a challenge, they can pick one (or roll 2d6) on 
 | 5. CHASE   | 5. THREAT      |
 | 6. DEBATE  | 6. PUZZLE      |
 
-
 Players can mix and match challenges (solving a puzzle during a fight is a personal favorite) and work out how they look together. It might be a good idea to review the agenda for this quest and see if they can frame a challenge that offers the opportunity to achieve one of those goals.
 
 > We quickly decide this will be an endurance challenge. The Pearl Valley reflects the full moon on all surfaces, and such magic brightness makes it impossible for travelers to sleep here, so we have to soldier on throughout the night. Now if we want to answer the two questions:
 >
 > - What do we want here?
 >
->   *Cross the Pearl Valley safely*
+>   _Cross the Pearl Valley safely_
+>
 > - What's standing in our way?
 >
->   *The disorienting glow of the pearly walls*
+>   _The disorienting glow of the pearly walls_
 
 ### 3. Frame the scene
 
@@ -517,9 +524,10 @@ Anything from two to four descriptions should suffice for a scene. Make sure dif
 > We decide to roll for our descriptions. One player gets "weather and nature" so they say it's a cold, windy night, and there's no sign of vegetation, just the shiny rocks above and around us. A second player gets "camera angles" so they describe the scene as seen first from above, like a drone shot, showing how small our party looks while they push against the wind in this gleaming desert valley.
 
 ### 4. Perform your actions
-This is the core step of the loop. It starts with the group asking themselves, *"Ok, what should we do?"* Each player then, one by one, describes how their character helps them overcome the challenge. Not all actions need to be directly geared towards the challenge, though—players are also invited to aid their allies and perform secondary actions at will.
 
-Players must make sure everyone gets a chance to be in the spotlight, inviting each other to the action by asking, *"What do you do?"* They are encouraged to roleplay other people they might encounter as they keep adding to the description of the scene, and interpreting how the world around them reacts to their actions.
+This is the core step of the loop. It starts with the group asking themselves, _"Ok, what should we do?"_ Each player then, one by one, describes how their character helps them overcome the challenge. Not all actions need to be directly geared towards the challenge, though—players are also invited to aid their allies and perform secondary actions at will.
+
+Players must make sure everyone gets a chance to be in the spotlight, inviting each other to the action by asking, _"What do you do?"_ They are encouraged to roleplay other people they might encounter as they keep adding to the description of the scene, and interpreting how the world around them reacts to their actions.
 
 When choosing what to do, players can look at their character traits for inspiration. Traits are a roleplaying guide to inform (but not limit) what characters **could/would/should** do in any given circumstance. It's also a good idea to keep the agenda in mind and look for opportunities to incorporate them into the scene. If a player is not sure their character is able to do something, they can ask the group or the Oracle.
 
@@ -527,11 +535,11 @@ This is the step in which dice rolls are made. Remember it is a player decision 
 
 From the characters' actions, complications and threads to follow will stem. The story will unfold naturally from here. Players can keep performing their actions as long as they're invested in the scene, taking turns being the protagonist when they're in the spotlight, and offering support when the others are.
 
-> We start crossing the valley, so one player declares they're casting a spell to create a shade over their eyes. They want to roll for it and end up getting a complication. The group decides the spell is successful, but it attracts the attention of some creatures that reveal their heads through the cracks in the walls. Great! We have a new threat to deal with. I look at my character sheet and remember I have a "Snow Hawk" as my Charm. I also check the agenda and read "Make a new ally" and I think this might be a good opportunity. So instead of attacking the creatures, I'll send my Snow Hawk as our ambassador to try and get the creatures to our side. 
-
+> We start crossing the valley, so one player declares they're casting a spell to create a shade over their eyes. They want to roll for it and end up getting a complication. The group decides the spell is successful, but it attracts the attention of some creatures that reveal their heads through the cracks in the walls. Great! We have a new threat to deal with. I look at my character sheet and remember I have a "Snow Hawk" as my Charm. I also check the agenda and read "Make a new ally" and I think this might be a good opportunity. So instead of attacking the creatures, I'll send my Snow Hawk as our ambassador to try and get the creatures to our side.
 
 ### 5. Check the Oracle
-Every time they need to ask a question regarding the world, the situation, their powers, or anything else, they may follow the procedures to check the Oracle and get a Yes or No answer. 
+
+Every time they need to ask a question regarding the world, the situation, their powers, or anything else, they may follow the procedures to check the Oracle and get a Yes or No answer.
 
 If they feel the scene is over and the challenge is overcome (or no longer relevant), they can decide so and move on. If they're not sure if it's resolved yet, they should ask the Oracle.
 
@@ -540,14 +548,14 @@ When a scene is done, players **cross that prompt out** from the Matrix.
 > We are not sure if my Snow Hawk can communicate with other creatures, so we ask the Oracle and we get a Yes! Cool, I invite some other players to describe what the hawk sees when it flies up to the creatures. The scene continues with other characters taking their actions and interacting with the world around us. After a while, we believe the scene has nothing more to give, so we decide the challenge is overcome and the scene is over. Now we have a few mountain salamanders following us along the journey. We cross "The depths of the Pearl Valley" out from the Matrix.
 
 ### 6. Start over
+
 Now the loop starts over. If the previous scene offered a clear path on what they should do next, players can even skip the roll on the Matrix (or perhaps just use it for additional flavor). If not, they can go back to step 1 and roll for a new prompt (or pick one that catches their eyes).
 
 > We have no idea what to do next, so we go back to step 1, and we are about to roll on the table again. But one player is willing to interact with other people, so they suggest we pick the "Brothers on the run" prompt instead of rolling. We agree, so we are ready to start framing our next scene.
 
-
 ## The End
 
-Players repeat this loop until they feel it's time to finish the story. The last scene may be their final confrontation to reach their mission's goal, their journey back home, their first step towards a new adventure, or something else completely that no one expected when they first started playing. 
+Players repeat this loop until they feel it's time to finish the story. The last scene may be their final confrontation to reach their mission's goal, their journey back home, their first step towards a new adventure, or something else completely that no one expected when they first started playing.
 
 Whatever it is, it should come from a collective agreement that they're already satisfied with what the story has provided. The quest matrix offers 36 potential scenes, but it's up to the group to decide how many of them they use for a mission. An adventure may last a single session or span over multiple days.
 
@@ -558,6 +566,7 @@ After the mission is complete, players earn their rewards. Since characters have
 The idea is simple: characters should get a number of new traits based on how much of the agenda the group fulfilled. The exact amount is up to you., the game designer, but here's a general idea.
 
 If your agenda has 6 goals, each player is rewarded:
+
 - **1 new trait** if the group achieves 1-2 goals
 - **2 new traits** if the group achieves 3-4 goals
 - **3 new traits** if the group achieves 5-6 goals
@@ -567,10 +576,10 @@ Adjust this number to your taste, or leave it up entirely to the players—they 
 New traits feel more relevant if they derive from the adventure they just finished. What skills did they learn? What artifacts did they find? What new beliefs do they have? The group should take some time updating their character sheets and talking about their new traits. It's also an opportunity to rewrite or tweak any old traits they feel need adjustments.
 
 #### alternative: UPGRADING traits
+
 If you prefer, you can offer an alternative reward. Instead of creating new traits, a player can choose to spend their advancement **upgrading** an existing trait. They come up with an improved version of a trait and share with the group what it is now capable of. They can rewrite the upgraded trait to show its new ability, or draw a little star next to it if that makes them feel good.
 
 > One of the players had a "Crystal Spear" as a trait and chose to upgrade it during advancement, saying "After I got hit by that lightning bolt, now my spear is capable of electrocuting foes. Behold the 'Crystal Electrospear!'"
-
 
 ### New adventure
 
@@ -582,6 +591,7 @@ What happens after they finish their first mission? They may decide that's it, a
 Whatever the case, players are free to use the same characters or come up with new ones. If they choose the latter, they are allowed to use their rewards from the previous adventure for the new character instead.
 
 #### A note on character death
+
 Since Push-powered games do not have trackable resources such as hit points, stress, or conditions, there's no mechanical way to tell when a character should die. In fact, character death should be an option only if the player is invested in this specific storyline. In other words, your character only dies if you say "I think my character should die now".
 
 # Tweaks
@@ -632,9 +642,10 @@ If you feel you need more concrete standards to determine victory or defeat, her
 See, this could work, but it brings a lot of philosophy changes to the table. Dice rolls are now penalizing, so they won't be as much a player choice as before. Now they should always and only roll when there's a potential risk, as most games do. So make sure that's the experience you want to bring to the table before you make this decision.
 
 # License
-**Push** is released under a [Creative Commons — Attribution 4.0 International — CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) license. That means you are free to copy and redistribute the material in any medium or format; remix, transform and build upon the material for any purpose, even commercially, as long as you give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
 
-That being said, you can't use this system to make games that promote bigotry, racism, ableism, sexism, homophobia, fascism, or any other form of prejudiced or oppressive behavior. This is a strict prohibition by the author. 
+**Push** is released under a [Creative Commons — Attribution 4.0 International — CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) license. That means you are free to copy and redistribute the material in any medium or format; remix, transform and build upon the material for any purpose, even commercially, as long as you give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+That being said, you can't use this system to make games that promote bigotry, racism, ableism, sexism, homophobia, fascism, or any other form of prejudiced or oppressive behavior. This is a strict prohibition by the author.
 
 In order to give proper credit, just copy and paste the text below into the credits of your game:
 
@@ -643,9 +654,10 @@ In order to give proper credit, just copy and paste the text below into the cred
 If you want to, you can use the **Push-powered** logo in your games, available as a [separate file](https://drive.google.com/drive/folders/1-sjEv9VmArLJyZ9qLwTpUkY4I9irwFaR?usp=sharing) with this SRD.
 
 ## Templates
+
 This game is accompanied by the following templates:
+
 - [Character Sheet](https://drive.google.com/drive/folders/1-sjEv9VmArLJyZ9qLwTpUkY4I9irwFaR?usp=sharing)
 - [Two-page game (includes rules and the Quest Sheet)](https://www.canva.com/design/DAE3ULOPtYk/omPANTMPKKSq97NkJxrbjg/view?utm_content=DAE3ULOPtYk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
 
 For all purposes, the templates are a part of this SRD and follow the same license.
-
