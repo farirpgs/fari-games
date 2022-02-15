@@ -112,13 +112,13 @@ Explain briefly the setting, and what the story is mainly going to focus on. Tou
 
 ## Your “Catch Your Breath”
 
-The core mechanics centres around characters breathless from overcoming obstacles. It doesn’t mean that your game should revolve around survival, though. Look into when or how characters should “catch their breath”. Can they do it all the times, do they need to rest, or be in a specific location? Think about what is the “cost” of the characters catching their breath, for every mechanic should move the story forward.
+The core mechanics centers around characters breathless from overcoming obstacles. It doesn’t mean that your game should revolve around survival, though. Look into when or how characters should “catch their breath”. Can they do it all the times, do they need to rest, or be in a specific location? Think about what is the “cost” of the characters catching their breath, for every mechanic should move the story forward.
 
 ## Your Loot
 
 The loot checks give a way for players to make an attempt at gaining assets that will make their life easier, and will reduce the rate at which they get tired. Keep in mind that doing this is not 100% risk-free. Your game could use this to handle items, but you could also simulate other types of bonuses using this mechanic.
 
-## Your Classes
+## Your Skills and Classes
 
 To make this game your own, you should customize the skill list to something that better first the aesthetic of your setting. Another way to do this is to provide classes/archetypes for the players to choose from, where each class could have pre-assigned skills or items.
 
