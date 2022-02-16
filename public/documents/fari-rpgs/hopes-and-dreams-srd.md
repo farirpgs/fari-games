@@ -358,6 +358,6 @@ The HOPES & DREAMS SRD is released under Creative Commons Attribution [CC-BY](ht
 
 That means that if you want to make a game using or based by this game, you just need to give us attribution for our work.
 
-To do so, copy the text below in your own game and things should be all good.
+To do so, copy the text below in your game and things should be all good.
 
 > This work is based on HOPES & DREAMS, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)
