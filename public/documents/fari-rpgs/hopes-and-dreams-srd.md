@@ -356,8 +356,8 @@ By making each **TRACK** size around 60% bigger than the previous one, deciding 
 
 The HOPES & DREAMS SRD is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
-That means that if you want to make a game using or based by this game, you just need to give us attribution for our work.
+That means you are free to use the content of this SRD for your own game, provided you give proper credit.
 
-To do so, copy the text below in your game and things should be all good.
+To do so, copy the text below in your game, and things should be good to go.
 
 > This work is based on HOPES & DREAMS, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)
