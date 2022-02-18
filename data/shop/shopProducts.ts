@@ -68,7 +68,7 @@ export const shop: IShop = {
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
           tags: ["srd", "new"],
-          image: "https://gyazo.com/29ee337601f8d6e6ccc0e10f82a07da1.png",
+          image: "https://gyazo.com/3e2f80e15f4baf72db4a632b1dc5364a.png",
           links: {
             itchIo: "https://fari-rpgs.itch.io/breathless-srd",
           },

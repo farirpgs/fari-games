@@ -20,8 +20,12 @@ Characters are talented and proactive. But the path that lies in front of them i
 Use those logos to show that your game is **"A Breathless Game"**
 
 <div style="display: flex">
-    <img style="background: #fff" src="https://gyazo.com/a50618508fe618930513d493a13883d5.png" width="300px" style="margin-bottom: 1rem"/>
-    <img style="background: #000" src="https://gyazo.com/bf5bd05673908bb1187df6d89c3c8c5e.png" width="300px" style="margin-bottom: 1rem"/>
+    <img style="background: #fff" src="https://gyazo.com/e375a657e916237b0c1607f86f6169ae.png" width="300px" style="margin-bottom: 1rem"/>
+    <img style="background: #000" src="https://gyazo.com/8511a88f6e966846688b21a096105b5e.png" width="300px" style="margin-bottom: 1rem"/>
+</div>
+<div style="display: flex">
+    <img style="background: #fff" src="https://gyazo.com/abd95fc855eae0b562bd5380864ed0a8.png" width="300px" style="margin-bottom: 1rem"/>
+    <img style="background: #000" src="https://gyazo.com/3a042892e9a33f7c1f2179a040586ee6.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
 
 # The Game | Breathless SRD
