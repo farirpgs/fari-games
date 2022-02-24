@@ -507,6 +507,24 @@ If the GM feels it makes sense, they can create a `progress clock` to represent 
 >
 > Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with if they so desire.
 
+# Before We Start | Charge SRD
+
+Here are a couple of tips and tricks you should read before you start playing the game.
+
+## For GMs
+
+- **Be a fan of the players.** You aren’t there to trap them or see them lose. You are there to help facilitate an interesting story. Be on the edge of your seat when they are challenged, and cheer when they succeed!
+- **Don’t plan, play.** You don’t need to spend hours planning all the details of each and every session. No plan survives an encounter with the players, so save yourself some time and play to find out what happens instead.
+- **When in doubt, ask questions.** The players have tons of wonderful ideas if you just listen to them. It’s OK to not know about everything. Ask your players questions and fill the world with their answers.
+- **This is a game, not a simulation.** Everyone is here to have fun, so try to stay away from hyper-realism. If it looks cool and feels like it could be possible, let the players try. The dice will help guide you towards the rest of the story.
+
+## For Players
+
+- **Let everyone have their moment.** Everyone enjoys it when their character does something cool and the spotlight is on them. So for that reason, try to make sure everyone at the table gets a fair amount of screen time!
+- **You are a writer, not a spectator.** The GM will help guide the story, but you are as much a part of the writing process as them. Embrace this narrative control and fill out the world with your ideas.
+- **Take risks.** This isn’t like real life, you’re allowed to play dangerously. The only thing that will come out of you doing so, is a fantastic story. Don't be scared of engaging with the fiction.
+- **Rise up.** When your character takes actions, they might fail or consequences might arise. But that’s OK, failure and consequences make for a more interesting story. When at first you don't succeed, get back up and try again using a new approach.
+
 # Extras | Extras
 
 > #### Designer Notes: What are Extras

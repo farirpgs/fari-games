@@ -2830,7 +2830,7 @@ The market clock automatically ticks forward once per scene and automatically re
 
 ## Money
 
-Money is represented in a ten-point scale that’s abstracted for the sake of gameplay. This is very similar to how Blades in the Dark handles money. Design for price points at 1, 2, 4, 6, 8 and 10. A very basic commodity like an average week’s wage can represent 1, while massive expenditures like property can represent 10. 
+Money is represented in a ten-point scale that’s abstracted for the sake of gameplay. This is very similar to how Blades in the Dark handles money. Design for price points at 1, 2, 4, 6, 8 and 10. A very basic commodity like an average week’s wage can represent 1, while massive expenditures like property can represent 10.
 
 It's helpful to conceptualize your pricing tiers by what players will have to do to earn that amount of money. For example, your basic 1 money tier may be a purse of gold pieces in a high fantasy game that would be a simple quest reward. By contrast, making 10 money would require doing lots of favors for a kingdom or acquiring an extremely valuable treasure.
 
@@ -2944,6 +2944,24 @@ To define the group as a `Force`, all the players need to align on what they are
 That's why we defined the `World Forces` before the `Player Force`.
 
 Once the players have a general idea of what their group is about, write a `Force`, a `Goal`, and 2-3 `Methods` that represent them.
+
+# Before We Start | Preparing the Game
+
+Here are a couple of tips and tricks you should read before you start playing the game.
+
+## For GMs
+
+- **Be a fan of the players.** You aren’t there to trap them or see them lose. You are there to help facilitate an interesting story. Be on the edge of your seat when they are challenged, and cheer when they succeed!
+- **Don’t plan, play.** You don’t need to spend hours planning all the details of each and every session. No plan survives an encounter with the players, so save yourself some time and play to find out what happens instead.
+- **When in doubt, ask questions.** The players have tons of wonderful ideas if you just listen to them. It’s OK to not know about everything. Ask your players questions and fill the world with their answers.
+- **This is a game, not a simulation.** Everyone is here to have fun, so try to stay away from hyper-realism. If it looks cool and feels like it could be possible, let the players try. The dice will help guide you towards the rest of the story.
+
+## For Players
+
+- **Let everyone have their moment.** Everyone enjoys it when their character does something cool and the spotlight is on them. So for that reason, try to make sure everyone at the table gets a fair amount of screen time!
+- **You are a writer, not a spectator.** The GM will help guide the story, but you are as much a part of the writing process as them. Embrace this narrative control and fill out the world with your ideas.
+- **Take risks.** This isn’t like real life, you’re allowed to play dangerously. The only thing that will come out of you doing so, is a fantastic story. Don't be scared of engaging with the fiction.
+- **Rise up.** When your character takes actions, they might fail or consequences might arise. But that’s OK, failure and consequences make for a more interesting story. When at first you don't succeed, get back up and try again using a new approach.
 
 # What to Hack | Hacking the Game
 
