@@ -2,11 +2,13 @@ import { css } from "@emotion/css";
 import ComputerIcon from "@mui/icons-material/Computer";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import ForumIcon from "@mui/icons-material/Forum";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import MenuIcon from "@mui/icons-material/Menu";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Collapse from "@mui/material/Collapse";
@@ -243,14 +245,26 @@ export function Navbar() {
                 label: "Community",
                 links: [
                   {
-                    to: { pathname: "https://fari.app/discord" },
+                    to: { pathname: "https://farirpgs.com/discord" },
                     label: "Join the Discord Server",
                     icon: <ForumIcon />,
                     target: "_blank",
                   },
                   {
+                    to: { pathname: "https://farirpgs.com/facebook" },
+                    label: "Like on Facebook",
+                    icon: <FacebookIcon />,
+                    target: "_blank",
+                  },
+                  {
+                    to: { pathname: "https://farirpgs.com/twitter" },
+                    label: "Follow on Twitter",
+                    icon: <TwitterIcon />,
+                    target: "_blank",
+                  },
+                  {
                     to: {
-                      pathname: "https://www.patreon.com/bePatron?u=43408921",
+                      pathname: "https://farirpgs.com/patreon",
                     },
                     label: "Become a Patron",
                     icon: <ThumbUpIcon />,
