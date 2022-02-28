@@ -7,7 +7,7 @@ highlightFont: Barlow Condensed
 
 # Introductions | Breathless SRD
 
-![](https://gyazo.com/5453bf208f87acde35cb091c65a2685b.png)
+![Breathless SRD](https://gyazo.com/0f40d43a7d0f357b04833aa520703564.png)
 
 This is the Breathless SRD. A free and open licensed version of Breathless that contains all the rules and design guidelines for you to make your own Breathless game.
 
@@ -20,12 +20,12 @@ Characters are talented and proactive. But the path that lies in front of them i
 Use those logos to show that your game is **"A Breathless Game"**
 
 <div style="display: flex">
-    <img style="background: #fff" src="https://gyazo.com/e375a657e916237b0c1607f86f6169ae.png" width="300px" style="margin-bottom: 1rem"/>
-    <img style="background: #000" src="https://gyazo.com/8511a88f6e966846688b21a096105b5e.png" width="300px" style="margin-bottom: 1rem"/>
+    <img style="background: #fff" src="https://gyazo.com/2882634a680bdda0cb1510470506b84f.png" width="300px" style="margin-bottom: 1rem"/>
+    <img style="background: #000" src="https://gyazo.com/cea7e3683fa77d9824569bcd607758cb.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
 <div style="display: flex">
-    <img style="background: #fff" src="https://gyazo.com/abd95fc855eae0b562bd5380864ed0a8.png" width="300px" style="margin-bottom: 1rem"/>
-    <img style="background: #000" src="https://gyazo.com/3a042892e9a33f7c1f2179a040586ee6.png" width="300px" style="margin-bottom: 1rem"/>
+    <img style="background: #fff" src="https://gyazo.com/3eb2bccf188b32a5b70caf8a250241bc.png" width="300px" style="margin-bottom: 1rem"/>
+    <img style="background: #000" src="https://gyazo.com/5f09763ca8c9a733ab586a5a749d0714.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
 
 # The Game | Breathless SRD
