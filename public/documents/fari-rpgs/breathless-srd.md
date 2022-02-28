@@ -15,6 +15,8 @@ Breathless games focus on condensed simplicity. The rules, the setting, the roll
 
 Characters are talented and proactive. But the path that lies in front of them is perilous. They will face difficult tasks, try to catch their breath, scavenge what they can find, and try to get through in one piece.
 
+<iframe frameborder="0" src="https://itch.io/embed/1395991?linkback=true&amp;dark=true" width="100%" height="167"><a href="https://fari-rpgs.itch.io/breathless-srd">Breathless - System Reference Document by Fari RPGs</a></iframe>
+
 ## This Game Is Breathless
 
 Use those logos to show that your game is **"A Breathless Game"**
