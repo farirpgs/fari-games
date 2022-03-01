@@ -126,7 +126,7 @@ The loot checks give a way for players to make an attempt at gaining assets that
 
 ## Your Skills and Classes
 
-To make this game your own, you should customize the skill list to something that better first the aesthetic of your setting. Another way to do this is to provide classes/archetypes for the players to choose from, where each class could have pre-assigned skills or items.
+To make this game your own, you should customize the skill list to something that better fit the aesthetic of your setting. Another way to do this is to provide classes/archetypes for the players to choose from, where each class could have pre-assigned skills or items.
 
 ## Your Stunts
 
