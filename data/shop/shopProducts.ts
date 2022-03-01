@@ -11,7 +11,7 @@ export const shop: IShop = {
       name: "Fari RPGs",
       slug: "fari-rpgs",
       links: {
-        twitter: "https://twitter.com/RPDeshaies",
+        twitter: "https://farirpgs.com/twitter",
         website: "https://farirpgs.com",
       },
       products: [
@@ -56,6 +56,21 @@ export const shop: IShop = {
           image: "https://gyazo.com/c143929685716b1ca0ea1edbaefeb0f9.png",
           links: {
             itchIo: "https://fari-rpgs.itch.io/hopes-and-dreams-srd",
+          },
+        },
+
+        {
+          name: "Breathless SRD",
+          slug: "breathless-srd",
+          description: "An SRD for creating Breathless games.",
+          type: ProductTypeEnum.SRD,
+          license: License.CC_BY_4,
+          footer:
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+          tags: ["srd", "new"],
+          image: "https://gyazo.com/a2ed8a91a6c310fefb69289c7e4df310.png",
+          links: {
+            itchIo: "https://fari-rpgs.itch.io/breathless-srd",
           },
         },
         {
