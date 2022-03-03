@@ -79,6 +79,8 @@ When you do a loot check, roll a d20.
 
 Items in your backpack can be used in place of your skills. They start with a die rating, and decrease each time you use them. When an item reaches a d4, it breaks, and cannot be used anymore.
 
+Items in your backpack can be used in place of your skills. They start with a die rating which decreases after each use. When reduced to a d4, the item either breaks, gets lost or fades away from the fiction until it’s made relevant again.
+
 Characters can only carry 3 items and one med kit at once in their backpack.
 
 ## Stunts
