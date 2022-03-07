@@ -72,7 +72,7 @@ export function Navbar() {
                   <Grid container spacing={1} wrap="nowrap" alignItems="center">
                     <Grid item>
                       <img
-                        src="/images/app.png"
+                        src="/images/logo.png"
                         title="Fari Games"
                         className={css({
                           height: "3rem",
@@ -86,7 +86,15 @@ export function Navbar() {
                           fontWeight: theme.typography.fontWeightBold,
                         })}
                       >
-                        Fari | Games
+                        Fari{" "}
+                        <Typography
+                          component="span"
+                          className={css({
+                            fontWeight: theme.typography.fontWeightRegular,
+                          })}
+                        >
+                          Games
+                        </Typography>
                       </Typography>
                     </Grid>
                   </Grid>
