@@ -244,13 +244,13 @@ export function Navbar() {
         </Grid>
         <Grid item>
           <NavLinkCategory
-            label={"Community"}
+            label={"Fari RPGs"}
             onAnyLinkClick={() => {
               setMenuOpen(false);
             }}
             subNav={[
               {
-                label: "Community",
+                label: "Fari RPGs",
                 links: [
                   {
                     to: { pathname: "https://farirpgs.com/discord" },
