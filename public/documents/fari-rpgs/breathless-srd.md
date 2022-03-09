@@ -83,7 +83,7 @@ Characters can only carry 3 items and one med kit at once in their backpack.
 
 ## Stunts
 
-When you pull of a stunt, you use a d12 instead of a skill rating to do a check. Once used, you'll need to "catch your breath" to use it again.
+When you pull off a stunt, you use a d12 instead of a skill rating to do a check. Once used, you'll need to "catch your breath" to use it again.
 
 ## Stress
 
