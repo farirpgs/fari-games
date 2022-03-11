@@ -19,9 +19,11 @@ highlightFont: Oswald
 
 Charge is a **free**, **open**, and **generic** table-top role-playing game.
 
-It is free, and maintained by the Fari community. Which means anyone is welcome to make a contribution to the rules of the game.
+It is free, and maintained by the [Fari Community](https://farirpgs.com/discord). Which means anyone is welcome to make a contribution to the rules of the game.
 
 It is also open licensed. Which means you can use it for free. You can also make (and sell) your own games using Charge as the base framework.
+
+<iframe frameborder="0" src="https://itch.io/embed/1196268?bg_color=ffffff&amp;fg_color=324149&amp;link_color=2d436e&amp;border_color=58676f" width="100%" height="167"><a href="https://fari-rpgs.itch.io/charge-rpg">Charge RPG by Fari RPGs</a></iframe>
 
 ## Charge SRD
 
@@ -35,11 +37,6 @@ If you want to make and publish your own game using Charge, checkout the [Charge
 
 This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
-## Who Is This Game For ?
-
-Now, one of the first things you probably want to know is: **who is this game for?**
-
-> _This game is for people who want to play a generic, narrative table-top RPG adventure about a group of characters struggling to achieve their goals, but pushing themselves to succeed._
 
 ## Contributing
 
@@ -59,21 +56,22 @@ If you contribute to this project in any way, your name will be added in the [cr
 
 While Charge accepts donations, those donations will be re-invested in the game directly by commissioning the creation of official art, paying for the editing, etc.
 
-If you want to contribute to Charge, join [Fari's Discord server](https://fari.app/discord) or check-out the [Charge Community Forums](https://fari-rpgs.itch.io/charge-rpg/community) on Itch.
+If you want to contribute to Charge, join the [Fari Community Discord server](https://farirpgs.com/discord) or check-out the [Charge Community Forums](https://fari-rpgs.itch.io/charge-rpg/community) on Itch.
 
 Now, let's build something incredible, together.
 
 ## Useful Links
 
 - [Licencing Information](/en/srds/fari-rpgs/charge-rpg/licencing)
+- [Charge Itch Page](https://fari-rpgs.itch.io/charge-rpg)
 - [Charge SRD](/en/srds/fari-rpgs/charge-srd)
-- [Fari's Discord server](https://fari.app/discord)
+- [Fari's Discord server](https://farirpgs.com/discord)
 - [Charge Community Forums](https://fari-rpgs.itch.io/charge-rpg/community)
 - [Charge Cheatsheet](/en/srds/fari-rpgs/charge-rpg/in-a-nutshell)
 
 ## Thanks
 
-Wanted to say a quick thank you to my friends who have helped me with this idea from the very beginning.
+Wanted to say a quick thank you to my friends who have helped me make this idea a reality from the very beginning.
 
 <ul class="people">
  <li>Alexandre L. Lescarbeau</li>
