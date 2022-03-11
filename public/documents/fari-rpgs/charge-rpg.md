@@ -229,10 +229,6 @@ A good concept could include things like:
 - a personality trait
 - a unique talent they possess etc.
 
-```
-TODO: Include Examples
-```
-
 ### Appearance
 
 Next is your character's `appearance`.
@@ -240,10 +236,6 @@ Next is your character's `appearance`.
 Use this section to describe what your character looks like. You can talk about their shape, size, what they wear, etc.
 
 This will help everyone at the table when they need to picture your character as they are interacting with them.
-
-```
-TODO: Include Examples
-```
 
 ### Ties
 
@@ -256,10 +248,6 @@ A tie links your character to another player's character, an organization, or ot
 When you write down a tie for your character, try to answer **who is my character linked to** and also **how they are linked to them**.
 
 This will also help establish a bit of a general backstory for your character, without you having to write down 10 pages of notes that might end up staying unused.
-
-```
-TODO: Include Examples
-```
 
 > #### Choosing Details in Play
 >
@@ -765,10 +753,6 @@ If you want, you can also resist a consequence that isn't targeting you directly
 >   - On a `6`, The `consequence` is avoided.
 >   - On a `66`, The `consequence` is avoided, and you get +1 position for your next roll.
 
-```
-TODO: Include Examples
-```
-
 # Flashbacks | Mechanics
 
 The rules don't distinguish between actions performed in the present moment and those performed in the past. When a scene is ongoing, you can invoke a `flashback` to roll for an action in the past that impacts your current situation. Maybe you went to a bar last night and befriended a couple of guards to make them drunk so that they call sick the next day. You then do a `flashback` scene, and make a `Bond` roll to see how that went.
@@ -858,10 +842,6 @@ If for example you want to emphasize the fact that life is hard and resources ar
 > - Gain `+2 momentum` for a `6`.
 > - Gain `+3 momentum` for a `66`.
 
-```
-TODO: Include Examples
-```
-
 # Recovery | Mechanics
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/152570ee1895591ed40e267ac4eb35c1.png)](https://pixabay.com/photos/city-planet-futuristic-earth-5312500/)
@@ -924,10 +904,6 @@ Once the pool(s) are ready, throw the dice and interpret the results.
 > **_There's someone left alive on the ship, and they are still breathing. There are bullets in the gun, but the gun itself is broken and can't be used._**
 
 Don't overthink this. This rule should not get in the way of the game. This mechanic is there to **quickly spice things up** during a scene when there's an unknown element that isn't controlled by the PCs.
-
-```
-TODO: Include Examples
-```
 
 ## Recap
 
@@ -1093,10 +1069,6 @@ As time advances, the characters evolve and become more versatile, but this will
 You can use this opportunity to update their `ties`, `appearance` or even their `concept` if something important happened in the last session.
 
 This is optional, but you can view this as an opportunity to update who your character is after each session and how they evolve over time.
-
-```
-TODO: Include Examples
-```
 
 ### Milestone
 
