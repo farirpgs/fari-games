@@ -878,7 +878,7 @@ We aren't using dice to support this mechanic because we don't believe luck shou
 >
 > Use this to heal and recuperate.
 >
-> - Once per session, if the fiction allows it, clear 1 segment from your `stress clock` and update your `condition`.
+> - When resting, laying low or seeking medical attention, clear between 1-4 segments from your `stress clock` and update your `condition`.
 
 # Fortune Roll| Mechanics
 
@@ -1296,7 +1296,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to heal and recuperate.
 >
-> - Once per session, if the fiction allows it, clear 1 segment from your stress clock.
+> - When resting, laying low or seeking medical attention, clear between 1-4 segments from your `stress clock` and update your `condition`.
 
 ## Team Work
 
