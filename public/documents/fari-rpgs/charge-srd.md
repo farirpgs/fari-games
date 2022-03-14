@@ -376,10 +376,7 @@ Once you've decided how many charges you want to consume, roll and interpret the
 > 
 > Determination rolls act as a mechanism for the players to resist and say "no, I don't think so" when something bad happens to their character.
 > 
-> There are two important things you should look at if you want to hack this mechanic:
-> 
-> - First, how does one resist a consequence. 
-> - Second, what should be the cost of trying to resist a consequence. 
+> There are two important things you should look at if you want to hack this mechanic. First, how does one resist a consequence. Second, what should be the cost of trying to resist a consequence. 
 > 
 > By default, you try to resist by spending momentum to build a determination pool in the hope of reducing or even canceling an incoming consequence. In this case, the cost is paid in `momentum` since you won't be able to spend more later to `push yourself` or `assist` an ally.
 > 
