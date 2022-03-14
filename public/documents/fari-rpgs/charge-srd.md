@@ -383,7 +383,7 @@ Once you've decided how many charges you want to consume, roll and interpret the
 > 
 > By default, you try to resist by spending momentum to build a determination pool in the hope of reducing or even canceling an incoming consequence. In this case, the cost is paid in `momentum` since you won't be able to spend more later to `push yourself` or `assist` an ally.
 > 
-> Perhaps that for your game, characters resist consequences by making a roll based on certain stats. Another option might be for the PCs to sacrifice certain assets, previously defined as `details`, to outright cancel a consequence.
+> Perhaps that for your game, characters resist consequences by making a roll based on certain stats - allowing players to choose if they want to sacrifice momentum for a better roll. Another option might be for the PCs to sacrifice certain assets, previously defined as `details`, to outright cancel a consequence.
 > 
 > The thing to keep in mind is that this mechanic should encourage players to truly take the time to consider if what they are sacrificing is worth the shot.
 
