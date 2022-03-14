@@ -19,7 +19,7 @@ export function MarkdownContent(props: {
           __html: props.style ?? "",
         }}
       />
-      <div
+      <article
         className={css({
           fontFamily: props.textFont,
           wordBreak: "break-word",

@@ -5,7 +5,7 @@ languages: en,pt-br
 <style>
   @font-face {
   font-family: "fate";
-  src: url("/fonts/fate-core-font.ttf");
+  src: url("/fonts/FateCore.ttf");
 }
 fate {
   font-family: fate;

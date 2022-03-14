@@ -12,9 +12,17 @@ export type IShopAuthor = {
   products: Array<IShopProduct>;
 };
 
+export enum ProductTypeEnum {
+  SRD = "SRD",
+  Blog = "Blog",
+  Resource = "Resource",
+  Game = "Game",
+}
+
 export type IShopProduct = {
   name: string;
   slug: string;
+  type: ProductTypeEnum;
   description: string;
   image: string;
   tags: Array<string>;

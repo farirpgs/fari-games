@@ -1,4 +1,7 @@
-import { IShopProductWithAuthor } from "../../../data/shop/types/IShopProduct";
+import {
+  IShopProductWithAuthor,
+  ProductTypeEnum,
+} from "../../../data/shop/types/IShopProduct";
 
 export const AppLinksFactory = {
   makeHomeLink() {
@@ -7,23 +10,32 @@ export const AppLinksFactory = {
   makeBrowseLink() {
     return "/browse";
   },
-  makeAuthorLink(game: IShopProductWithAuthor | undefined) {
-    if (!game) {
+  makeAuthorLink(product: IShopProductWithAuthor | undefined) {
+    if (!product) {
       return "";
     }
-    return `/browse/${game.author.slug}`;
+    return `/browse/${product.author.slug}`;
   },
-  makeProductLink(game: IShopProductWithAuthor | undefined) {
-    if (!game) {
+  makeProductBrowseLink(product: IShopProductWithAuthor | undefined) {
+    if (!product) {
       return "";
     }
-    return `/browse/${game.author.slug}/${game.slug}`;
+    return `/browse/${product.author.slug}/${product.slug}`;
   },
-  makeGameLink(props: { author: string; game: string; language?: string }) {
+  makeProductLink(props: {
+    author: string;
+    type: ProductTypeEnum | undefined;
+    game: string;
+    language?: string;
+  }) {
+    if (!props.type) {
+      return "";
+    }
+    const category = `${props.type.toLowerCase()}s`;
     if (!props.language || props.language === "en") {
-      return `/en/srds/${props.author}/${props.game}`;
+      return `/en/${category}/${props.author}/${props.game}`;
     }
-    return `/${props.language}/srds/${props.author}/${props.game}`;
+    return `/${props.language}/${category}/${props.author}/${props.game}`;
   },
   makeSearchPage(query: string) {
     return `/search?query=${query}`;

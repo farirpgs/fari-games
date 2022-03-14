@@ -1,6 +1,7 @@
 import { css } from "@emotion/css";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
+import Stack from "@mui/material/Stack";
 import {
   responsiveFontSizes,
   ThemeProvider,
@@ -14,6 +15,7 @@ import { Link as ReactRouterLink } from "react-router-dom";
 import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 import { themeOptions } from "../../../theme";
+import { ProductType } from "./ProductType";
 
 export function useThemeFromColor(color: string, mode?: any) {
   const whiteVariants = ["#fff", "#ffffff", "#FFF", "#FFFFFF", "white"];
@@ -73,21 +75,30 @@ export function ProductDetails(props: {
                 display: "flex",
               })}
             >
-              <ReactRouterLink
-                className={css({
-                  color: productTheme.palette.text.secondary,
-                })}
-                to={AppLinksFactory.makeAuthorLink(props.product)}
-              >
-                <Typography
-                  variant="caption"
-                  className={css({
-                    fontSize: "1rem",
-                  })}
-                >
-                  By {props.product.author.name}
-                </Typography>
-              </ReactRouterLink>
+              <Grid container spacing={2} alignItems="center">
+                <Grid item>
+                  <ReactRouterLink
+                    className={css({
+                      color: productTheme.palette.text.secondary,
+                    })}
+                    to={AppLinksFactory.makeAuthorLink(props.product)}
+                  >
+                    <Typography
+                      variant="caption"
+                      className={css({
+                        fontSize: "1rem",
+                      })}
+                    >
+                      By {props.product.author.name}
+                    </Typography>
+                  </ReactRouterLink>
+                </Grid>
+                <Grid item>
+                  <Stack direction="row" spacing={1}>
+                    <ProductType product={props.product} />
+                  </Stack>
+                </Grid>
+              </Grid>
             </div>
             <div
               className={css({
@@ -103,7 +114,7 @@ export function ProductDetails(props: {
               })}
             >
               <ReactRouterLink
-                to={AppLinksFactory.makeProductLink(props.product)}
+                to={AppLinksFactory.makeProductBrowseLink(props.product)}
                 className={css({
                   color: productTheme.palette.text.primary,
                   cursor: props.clickable ? "pointer" : "text",
@@ -142,15 +153,16 @@ export function ProductDetails(props: {
                       size="large"
                       variant="contained"
                       component={ReactRouterLink}
-                      to={AppLinksFactory.makeGameLink({
+                      to={AppLinksFactory.makeProductLink({
                         author: props.product.author.slug,
+                        type: props.product.type,
                         game: props.product.slug,
                       })}
                       className={css({
                         textTransform: "none",
                       })}
                     >
-                      Read the SRD
+                      Read Now
                     </Button>
                   </Grid>
                 </Grid>
@@ -161,7 +173,7 @@ export function ProductDetails(props: {
         {!isLgDown && (
           <Grid item xs={12} lg={6}>
             <ReactRouterLink
-              to={AppLinksFactory.makeProductLink(props.product)}
+              to={AppLinksFactory.makeProductBrowseLink(props.product)}
               className={css({
                 cursor: "pointer",
                 display: "flex",

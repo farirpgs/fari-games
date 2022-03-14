@@ -3,6 +3,7 @@ fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&disp
 headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
+languages: en,fr
 ---
 
 # Introductions | Charge SRD
@@ -38,7 +39,7 @@ In this game, you and your friends get together to tell an interactive story abo
 
 Here’s what you’ll need to play:
 
-- Between two and five people. One of them acting as the Game Master.
+- Between two and five friends to play with one acting as the Game Master.
 - Character sheets, one for each player.
 - A bunch of six-sided dice. At least 6 would be ideal.
 - Index cards, sticky notes or similar slips of paper.
@@ -374,16 +375,13 @@ Once you've decided how many charges you want to consume, roll and interpret the
 
 > #### Designer Note: Hacking Determination Rolls
 > 
-> Determination rolls act as a mechanism for the players to say "no, I don't think so" when something bad happens to their character.
+> Determination rolls act as a mechanism for the players to resist and say "no, I don't think so" when something bad happens to their character.
 > 
-> There are two important things you should look at if you want to hack this mechanic. 
-> 
-> - First, how does one resist a consequence. 
-> - Second, what should be the cost of trying to resist a consequence. 
+> There are two important things you should look at if you want to hack this mechanic. First, how does one resist a consequence. Second, what should be the cost of trying to resist a consequence. 
 > 
 > By default, you try to resist by spending momentum to build a determination pool in the hope of reducing or even canceling an incoming consequence. In this case, the cost is paid in `momentum` since you won't be able to spend more later to `push yourself` or `assist` an ally.
 > 
-> Perhaps that for your game, characters resist consequences by making a roll based on certain stats. Another option might be for the PCs to sacrifice certain assets, previously defined as `details`, to outright cancel a consequence.
+> Perhaps that for your game, characters resist consequences by making a roll based on certain stats - allowing players to choose if they want to sacrifice momentum for a better roll. Another option might be for the PCs to sacrifice certain assets, previously defined as `details`, to outright cancel a consequence.
 > 
 > The thing to keep in mind is that this mechanic should encourage players to truly take the time to consider if what they are sacrificing is worth the shot.
 
@@ -531,6 +529,24 @@ If the GM feels it makes sense, they can create a `progress clock` to represent 
 >
 > Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with if they so desire.
 
+# Before We Start | Charge SRD
+
+Here are a couple of tips and tricks you should read before you start playing the game.
+
+## For GMs
+
+- **Be a fan of the players.** You aren’t there to trap them or see them lose. You are there to help facilitate an interesting story. Be on the edge of your seat when they are challenged, and cheer when they succeed!
+- **Don’t plan, play.** You don’t need to spend hours planning all the details of each and every session. No plan survives an encounter with the players, so save yourself some time and play to find out what happens instead.
+- **When in doubt, ask questions.** The players have tons of wonderful ideas if you just listen to them. It’s OK to not know about everything. Ask your players questions and fill the world with their answers.
+- **This is a game, not a simulation.** Everyone is here to have fun, so try to stay away from hyper-realism. If it looks cool and feels like it could be possible, let the players try. The dice will help guide you towards the rest of the story.
+
+## For Players
+
+- **Let everyone have their moment.** Everyone enjoys it when their character does something cool and the spotlight is on them. So for that reason, try to make sure everyone at the table gets a fair amount of screen time!
+- **You are a writer, not a spectator.** The GM will help guide the story, but you are as much a part of the writing process as them. Embrace this narrative control and fill out the world with your ideas.
+- **Take risks.** This isn’t like real life, you’re allowed to play dangerously. The only thing that will come out of you doing so, is a fantastic story. Don't be scared of engaging with the fiction.
+- **Rise up.** When your character takes actions, they might fail or consequences might arise. But that’s OK, failure and consequences make for a more interesting story. When at first you don't succeed, get back up and try again using a new approach.
+
 # Extras | Extras
 
 > #### Designer Notes: What are Extras
@@ -645,7 +661,7 @@ An `attachment` is a character `detail` that you can choose to temporarily lose 
 
 However, this can only be done when it makes sense narratively, and that particular `attachment` cannot be used until time is taken to repair or reacquire it.
 
-To reacquire or repair an `attachment`, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the mod is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
+To reacquire or repair an `attachment`, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the attachment is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
 
 To make progress on the project, a character may only roll to repair a "broken" `attachment` when they have the appropriate amount of downtime.
 
@@ -655,13 +671,13 @@ Once the project is completed, the character is permitted to use the `attachment
 
 The Charge SRD is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
-That means that if you want to make a game using or based by this game, you just need to give us attribution for our work.
+That means you are free to use the content of this SRD for your own game, provided you give proper credit.
 
-Because Charge is based off Blades in the Dark, you would also need to include attribution to the creators of this game as well.
+Because Charge is based off Blades in the Dark, you would also need to credit the creators of this game as well.
 
-To do so, copy the text below in your own game and things should be good to go.
+To do so, copy the text below in your game, and things should be good to go.
 
-> This work is based on Charge RPG, product of Fari RPGs, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+> This work is based on Charge RPG, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas , and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 >
 > This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 

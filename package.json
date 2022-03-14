@@ -12,7 +12,7 @@
     "validate": "npm run lint && npm run tsc",
     "serve": "vite build && vite preview",
     "lint": "eslint 'src/**' --cache",
-    "preview": "npm run deploy:preview",
+    "preview": "npm run build && npm run deploy:preview",
     "beta": "npm run build && npm run deploy:preview -- --alias beta",
     "alpha": "npm run build && npm run deploy:preview -- --alias alpha",
     "prod": "npm run build && npm run deploy:preview -- --prod",
