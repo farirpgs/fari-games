@@ -374,15 +374,15 @@ Once you've decided how many charges you want to consume, roll and interpret the
 - On a `66`, the `consequence` is avoided, and you get +1 position for your next roll.
 
 > #### Designer Note: Hacking Determination Rolls
-> 
+>
 > Determination rolls act as a mechanism for the players to resist and say "no, I don't think so" when something bad happens to their character.
-> 
-> There are two important things you should look at if you want to hack this mechanic. First, how does one resist a consequence. Second, what should be the cost of trying to resist a consequence. 
-> 
+>
+> There are two important things you should look at if you want to hack this mechanic. First, how does one resist a consequence. Second, what should be the cost of trying to resist a consequence.
+>
 > By default, you try to resist by spending momentum to build a determination pool in the hope of reducing or even canceling an incoming consequence. In this case, the cost is paid in `momentum` since you won't be able to spend more later to `push yourself` or `assist` an ally.
-> 
+>
 > Perhaps that for your game, characters resist consequences by making a roll based on certain stats - allowing players to choose if they want to sacrifice momentum for a better roll. Another option might be for the PCs to sacrifice certain assets, previously defined as `details`, to outright cancel a consequence.
-> 
+>
 > The thing to keep in mind is that this mechanic should encourage players to truly take the time to consider if what they are sacrificing is worth the shot.
 
 ## Clocks
@@ -416,10 +416,18 @@ The character's condition imposes narrative restrictions as to what the characte
 When the 4 segments of the `stress clock` are filled, the PC is taken out for the scene, and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
 
 > #### Designer Note: Hacking Health
-> 
-> Health in Charge is an expendable resource. It has a `clock` that gets ticked when you get stressed, and there's also a linked `detail` to represent the new condition of the PC as the clock .
-> 
-> If you want, you can have other types of expandable resources Things like reputation, money, or even corruption.  
+>
+> Health in Charge is an expendable resource. It has a `clock` that gets ticked when you get stressed, and it is linked to a `detail` that the new condition of the PC as the clock is filled.
+>
+> If you want, you can have other types of expandable resources. Things like reputation, money, or even corruption can be represented using a similar mechanism.
+>
+> When designing new clock-based mechanics, think about how PCs fill them, what happens when a clock is filled and how they can be cleared.
+>
+> For example, you could make it so that a clock only gets filled by certain actions or only when the PCs are at a certain location.
+>
+> Once filled, perhaps the clock changes the character. Granting them a temporary or even permanent bonus. Or perhaps it changes them negatively and impacts their life for the rest of the campaign.
+>
+> This mechanism adds new types of pacing mechanism that are very useful to reinforce the different aspects and themes of your games.
 
 ## Recovery
 
@@ -430,8 +438,6 @@ The only way to recover from `stress` is in-fiction. You can either rest, lay lo
 As your character gets better, you also need to update your `condition` to represent your character's current state.
 
 > #### Designer Note: Hacking Recovery
-> 
-> 
 
 ## Progression
 
