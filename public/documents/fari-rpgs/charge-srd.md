@@ -376,7 +376,7 @@ Once you've decided how many charges you want to consume, roll and interpret the
 > 
 > Determination rolls act as a mechanism for the players to resist and say "no, I don't think so" when something bad happens to their character.
 > 
-> There are two important things you should look at if you want to hack this mechanic. 
+> There are two important things you should look at if you want to hack this mechanic:
 > 
 > - First, how does one resist a consequence. 
 > - Second, what should be the cost of trying to resist a consequence. 
