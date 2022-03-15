@@ -162,6 +162,7 @@ export function ProductPage() {
               author: authorSlug,
               game: gameSlug,
               chapter: chapterId,
+              type: product?.type,
               language: language,
             });
           }}

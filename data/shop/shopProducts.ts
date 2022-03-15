@@ -100,6 +100,16 @@ export const shop: IShop = {
             itchIo: "https://fari-rpgs.itch.io/",
           },
         },
+        {
+          name: "Fari App Wiki",
+          slug: "fari-app-wiki",
+          type: ProductTypeEnum.Resource,
+          description:
+            "A very detailed list of stunts to help you get started with Fate character creation quickly.",
+          tags: [],
+          image: "https://gyazo.com/eecddd3af144225b52ac05f77938a442.png",
+          links: {},
+        },
       ],
     },
     {
