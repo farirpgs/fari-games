@@ -37,7 +37,6 @@ If you want to make and publish your own game using Charge, checkout the [Charge
 
 This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
-
 ## Contributing
 
 One of the core parts of what makes this game unique is that it **belongs to the community**.
@@ -139,7 +138,7 @@ Now, let's go over what you need to play Charge.
 
 To play Charge, you need:
 
-- Copies of the [Charge RPG Character Sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf)
+- Copies of the [Charge RPG Character Sheet](character-sheet)
 - A pile of index cards or small pieces of paper to draw things on.
 - A set of six-sided dice. At least 6 would be ideal.
 - Between two and five friends to play with one acting as the Game Master.
@@ -1110,7 +1109,7 @@ Gaining a new talent will feel like a breath of fresh air. It won't make your ch
 >
 > This will give them an edge in certain situation, without breaking the balance of the game.
 >
-> Here's an adapted [character sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet-with-starting-talent.pdf) to get you started.
+> There's an adapted [character sheet](character-sheet) to get you started.
 
 ### Situational Talents
 
@@ -1168,17 +1167,6 @@ The goal here is to add emphasize that every action elicits a reaction from the 
 # In a Nutshell | Mechanics
 
 This chapter will go over the most important bits of the book in a quick recap so that it's easy to use as a reference.
-
-<details>
-	<summary>
-		[Character Sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf)
-	</summary>
-	<object data="/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf" type="application/pdf" width="100%" height="700px">
-		<embed src="/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf">
-			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf">Download PDF</a>.</p>
-		</embed>
-	</object>
-</details>
 
 ## Character Creation
 
@@ -3190,6 +3178,46 @@ If you want, you can also include the following images in your game to say that 
 	<img style="background: #fff" src="https://gyazo.com/e6f386391ee4d8a079aa4d10469b15d0.png" width="300px" style="margin-bottom: 1rem"/>
 	<img style="background: #000" src="https://gyazo.com/3f66d3276513deef1cdb7c200c098689.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
+
+# Character Sheets
+
+## Fari App
+
+[https://fari.app/characters/new/fari-rpgs/charge-rpg](https://fari.app/characters/new/fari-rpgs/charge-rpg)
+<a href="https://fari.app/characters/new/fari-rpgs/charge-rpg" target="_blank">
+<img src="https://gyazo.com/040653a25b3e0ec897291e883dfadaeb.png"/>
+</a>
+
+## PDFs
+### Charge Character Sheet
+
+<details>
+	<summary>
+		Charge Character Sheet.pdf
+	</summary>
+	<object data="/documents/fari-rpgs/charge-rpg/downloads/charge-character-sheet.pdf" type="application/pdf" width="100%" height="700px">
+		<embed src="/documents/fari-rpgs/charge-rpg/downloads/charge-character-sheet.pdf">
+			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/fari-rpgs/charge-rpg/downloads/charge-character-sheet.pdf">Download PDF</a>.</p>
+		</embed>
+	</object>
+</details>
+
+### Charge Character Sheet With Starting Talent
+
+<details>
+	<summary>
+		Charge Character Sheet (Starting Talent).pdf
+	</summary>
+	<object data="/documents/fari-rpgs/charge-rpg/downloads/charge-character-sheet_starting-talent.pdf" type="application/pdf" width="100%" height="700px">
+		<embed src="/documents/fari-rpgs/charge-rpg/downloads/charge-character-sheet_starting-talent.pdf">
+			<p>This browser does not support PDFs. Please download the PDF to view it: <a href="/documents/fari-rpgs/charge-rpg/downloads/charge-character-sheet_starting-talent.pdf">Download PDF</a>.</p>
+		</embed>
+	</object>
+</details>
+
+## Templates
+
+- [Affinity Publisher](/documents/fari-rpgs/charge-rpg/downloads/charge-character-sheet.aftemplate)
 
 # Glossary
 
