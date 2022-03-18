@@ -160,7 +160,7 @@ Once you’ve chosen a `DREAM`, one of the players can write it down on their ch
 Some of the game’s mechanics mark boxes on the `DREAM` TRACK to represent the progress that the group is making towards their `DREAM`.
 When the group's `DREAM TRACK` is completed, the GM fast forwards in time and narrates how the story and the world changed thanks to the PCs. Accomplishing a `DREAM` also gives all the PCs a new `ABILITY` that they can choose from their respective `KITS`.
 
-After that, the group finds a new `DREAM`, and a difference character can be the new `HEART OF THE GROUP`. 
+After that, the group finds a new `DREAM`, and a different character can be the new `HEART OF THE GROUP`. 
 
 Then, the cycle starts over.
 
