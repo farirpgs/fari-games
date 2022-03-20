@@ -472,14 +472,14 @@ A situational talent gives a bonus or a certain narrative liberty during a certa
 
 ## Fortune Rolls
 
-When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a `fortune roll` to see what happens.
+When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a fortune roll to see what happens. This is kind of like testing for luck.
 
-Add `+1d6` per likeliness level of that thing happening.
+To make a fortune roll, build a dice pool by adding `+1d6` per likeliness level of a thing happening, roll, and interpret the results.
 
-- On a **critical success**, great results, and something exceptional happens.
-- On a **full success**, great results.
-- On a **partial success**, mixed results.
-- On a **bad outcome**, bad results.
+- On a `66`, it’s a critical success. There are great results, and something exceptional happens.
+- On a `6`, it’s a full success. There are great results.
+- On a `4-5`, it’s a partial success. There are mixed results.
+- On a `1-3`, it’s a bad outcome. There are bad results.
 
 ## Flashbacks
 
