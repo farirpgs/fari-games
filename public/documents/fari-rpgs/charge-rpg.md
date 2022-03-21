@@ -906,15 +906,15 @@ Don't overthink this. This rule should not get in the way of the game. This mech
 
 > #### Fortune Roll
 >
-> - Add `+1d6` per likeliness level.
-> - If it's really unlikely, roll `2d6` and pick the lowest result.
+> - Build a dice pool by adding `+1d6` per likeliness level of a thing happening, roll, and interpret the results.
+> - If it's really unlikely, roll `2d6` and take the lowest result.
 >
 > ---
 >
-> - On a **critical success**, great results, and something exceptional happens.
-> - On a **full success**, great results.
-> - On a **partial success**, mixed results.
-> - On a **bad outcome**, bad results.
+> - On a `66`, it’s a critical success. There are great results, and something exceptional happens.
+> - On a `6`, it’s a full success. There are great results.
+> - On a `4-5`, it’s a partial success. There are mixed results.
+> - On a `1-3`, it’s a bad outcome. There are bad results.
 
 # Team Work | Mechanics
 
