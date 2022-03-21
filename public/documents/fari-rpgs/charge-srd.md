@@ -3,6 +3,7 @@ fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&disp
 headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
+headingUppercase: true
 languages: en,fr
 ---
 
@@ -464,9 +465,11 @@ A situational talent gives a bonus or a certain narrative liberty during a certa
 
 ## Fortune Rolls
 
-When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a `fortune roll` to see what happens.
+When the outcome of a situation isn't certain, and the players aren't involved, the GM can disclaim decision making and make a fortune roll to see what happens. Who between those two faction is going to win this battle ? Did the people that lived here leave anything behind ?
 
-Add `+1d6` per likeliness level of that thing happening.
+To make a fortune roll, roll between one and four d6s, and take the highest result. One representing a 50% chance, while four being almost certain.
+
+If the outcome is very unlikely, take 2d6 and take the lowest result.
 
 - On a **critical success**, great results, and something exceptional happens.
 - On a **full success**, great results.
@@ -489,13 +492,17 @@ Afterwards, the player narrates a short scene of what their character attempted 
 
 > #### Designer Note: Your Setting
 >
-> Use this section of the game to explain what is the setting of your game.
+> Use this section to explain the setting of your game.
 >
-> You can talk about:
+> To make your world be as vibrant and compelling as possible, think about what the general story of your game is about and how it should play out.
 >
-> - The history of the world.
-> - What kind of characters the PCs are going to play.
-> - The different types of problems the PCs might face. etc.
+> Establish a history of recent events so that the players have a sense of the setting. They can then start making connections between their character and the world they inhabit. How would they have reacted if they have taken part in those events?
+>
+> Highlight important locations, cities, districts, or whole regions, that the PCs can choose to explore. What would scenes set in those locations look like? What actions would the PCs be taking there?
+>
+> Fill those locations with notable NPCs that the GM can use if needed. These don't have to be complex. A simple list with a name, an occupation, or role, and a couple of adjectives describing their respective personality can go a long way.
+>
+> Do these NPCs belong to different organizations or factions? Continue to the next chapter to see how to define those as World Forces.
 
 # World Forces | Charge SRD
 
