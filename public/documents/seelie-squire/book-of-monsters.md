@@ -7,57 +7,51 @@ Draguins appear to be some ungodly mix of fearsome wyverns and your favorite pol
 _**Massive and Mobile.**_ Draguins have an immense wingspan densely packed with small black and white feathers. In addition to swimming and flying, these beasts can use their slick hides to glide seamlessly across ice and snow. Even when immobilized, a draguin can be quite difficult to take down due to their thick, polar hides. This combination of size and speed can be devastating for anyone unlucky enough to engage a draguin unprepared.
 
 _**Ice Breaker.**_ The beak is the most durable part of a draguin. While primarily used for pecking prey and cracking ice while swimming, it is not uncommon for a draguin to use its beak offensively, creating uneven ground or shattering frozen shelves to ambush their surprised bounty from below.
-![Draguin](https://c10.patreonusercontent.com/3/eyJyb3RhdGUiOjAsInciOjgyMH0%3D/patreon-media/p/post/27112219/8cd050dce30f4d20a65cf711a7ea21be/1.png?token-time=1617925976&token-hash=82O0SuXxO2gM33bMWz_ETqL4O8lPNYluxpagO5PVwhE%3D
 
 > ## Draguin
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Ferocious` • `Can swim AND fly` • `Excitable` • `Cold weather conditioning`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
-> - +4 Razor claws (Fight)
->
+> - +4 Razor claws (Fight)>
 > - +4 Thick skin (Physique)
->
 > - +4 Vigor (Athletics)
->
 > - +3 Keen eyes (Notice)
->
 > - +3 Terrify (Provoke)
->
 > - +3 Feisty (Will)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical Stress</div>
+> ##### Physical Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mental Stress</div>
+> ##### Mental Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate physical consequence [4]</div>
+> ##### Moderate physical consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Ravage</div>
+> ##### Ravage
 >
 > When the draguin Fights with its razor claws, it may make a razor claw attack against all other enemies it shares a zone with, rather than a single target.
 >
-> <div class="css-1pxjcr8">Shatter-beak</div>
+> ##### Shatter-beak
 >
 > The draguin may use its action to make a Fantastic (+6) fight check against nearby ice. If successful, the ice will crack or shatter. The draguin may spend a fate point to automatically succeed on this check.
 >
-> <div class="css-1pxjcr8">Slide, swim, fly</div>
+> ##### Slide, swim, fly
 >
 > The draguin can move an additional zone each turn in combat if on ice, snow, in water, or flying
 
-<div class="css-pssq0f">Notes</div>
+### Notes
 
 A note for the GM: Draguins are quite powerful. A party of four characters with the default stats and abilities will likely have a hard time taking one of these down without proper preparation and an escape plan. I would advise against pitting new players against this monster.
 
@@ -70,43 +64,39 @@ _**Sedative Spines.**_ These brutes are covered from the back of their necks to 
 _**Territorial.**_ Night spine live in solitude. They are quite territorial, and their excellent hearing often forces the surrounding animals into silence out of fear for disturbing them. It is common for the night spine to feign that they do not know the presence of other creatures, only to attack suddenly and without relent.
 
 _**Lucrative.**_ While most people avoid a run in with a night spine when they can, some go out of their way to hunt them. Their hide can fetch a modest price, and their spines often sell as a novelty. The real prize, however, is the secretion from their spines, which can be processed into a salve to treat insomnia and other symptoms to common ailments.
-![Night Spine](https://c10.patreonusercontent.com/3/eyJyb3RhdGUiOjAsInciOjgyMH0%3D/patreon-media/p/post/27113093/bd6ca9d7407d4d95b0e7e8e66e4092aa/1.png?token-time=1617926239&token-hash=9lkmAhyNhL5ZzV76O1NdMD_5RuQtK5v81AV73Ef-POU%3D
 
 > ## Night Spine
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Large spiny herbivore` • `Immobile / immovable`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Excellent hearing (Notice)
->
 > - +4 Tough hide (Physique)
->
 > - +4 Spit spine (Shoot)
->
 > - +3 Stubborn spirit (Will)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Sleep spine</div>
+> ##### Sleep spine
 >
 > After a target is hit by the night spine’s Shoot attack, they must make a Physique check with a Fair (+2) difficulty. If they fail, they fall unconscious. If they succeed, they gain the _Sleepy_ aspect.
 >
-> <div class="css-1pxjcr8">Twitchy</div>
+> ##### Twitchy
 >
 > Immediately after the night spine is attacked for the first time in a scene, it may Fight or Shoot the attacker.
 >
-> <div class="css-1pxjcr8">Will to live</div>
+> ##### Will to live
 >
 > If the night spine has at least two stress boxes checked it may spit spine (Shoot) an additional spine on any turn it would Fight or Shoot
 
@@ -119,89 +109,82 @@ _**From Seed to Soldier.**_ Armored arbors begin their life cycle as small seeds
 _**Primitive and Steadfast.**_ These creatures are capable of primitive thought, and in the wild will form societies that live and protect one another. They have a strong sense of kinship, clinging to whoever raised them as their family. For those lucky enough to get their hands on armored arbor seeds, this means one could grow a small army for themselves.
 
 _**Unknown Origin.**_ No one knows for sure where the first seeds for these soldiers came from. It has been speculated that these creatures started as the legacy of some powerful druid. Others believe the arbors were created by the gods themselves.
-![Armored Arbor](https://c10.patreonusercontent.com/3/eyJyb3RhdGUiOjAsInciOjgyMH0%3D/patreon-media/p/post/27685430/82de3a2b6d064a14a2b47ccee748aaff/1.png?token-time=1617764644&token-hash=JjtrfqOKUcQWQk7jTm6Fj-DdWAAaWtuhvR28biotiRs%3D
 
 > ## Armored Arbor Seedling
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Flammable` • `Primitive thought`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +1 Thorns (Fight)
->
 > - +1 Overgrowth (Crafts)
->
 > - -1 Overlook (Investigation and Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1
+> [1]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 
 > ## Armored Arbor
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Flammable` • `Primitive thought`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Ivy blade (Fight)
->
 > - +1 Overgrowth (Crafts)
->
 > - -1 Overlook (Investigation and Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Moderate physical consequence [4]</div>
+> ##### Moderate physical consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Regrowth</div>
+> ##### Regrowth
 >
 > An armored arbor may use its action to make an Overgrowth (Crafts) check. The armored arbor may heal a stress box of equal or lower value to the result of the check. If the armored arbor is standing or swimming in a pool of water, add +2 to the Overgrowth (Crafts) check for Regrowth
 
 > ## Elder Armored Arbor
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Flammable` • `Primitive thought`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Ivy blade (Fight)
->
 > - +2 Overgrowth (Crafts)
->
 > - -1 Overlook (Investigation and Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild physical consequence [2]</div>
+> ##### Mild physical consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate physical consequence [4]</div>
+> ##### Moderate physical consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Regrowth</div>
+> ##### Regrowth
 >
 > An elder armored arbor may use its action to make an Overgrowth (Crafts) check. The elder armored arbor may heal a stress box of equal or lower value to the result of the check. If the elder armored arbor is standing or swimming in a pool of water, add +2 to the Overgrowth (Crafts) check for Regrowth.
 >
-> <div class="css-1pxjcr8">Tangle</div>
+> ##### Tangle
 >
 > When the elder armored arbor takes damage from a melee attack, they may make an Overgrowth (Crafts) check with difficulty equal to the damage dealt. If they succeed, they may create a _Tangled_ aspect on the character that attacked them with one free invoke
 
@@ -214,73 +197,67 @@ _**Blistered and bandaged.**_ You can tell a gnarlock by their almost-pink husk.
 _**Desert Schemers.**_ Civilized society can never quite get a handle on a gnarlock’s motivation, but everyone familiar with them knows that their pursuits are no-good. Settlers of nearby towns rest uneasily, kept awake at night by the foreboding sense that another villager will be stolen away for the gnarlock’s sickening magics.
 
 _**Unsavory Pets.**_ Gnarlocks keep with them large, menacing pets called scar hounds. These beasts stand in size somewhere between large canines and bears, and carry themselves similarly. Though their undersides have thick, black hair, their backs are barren and pink, with wounds like their masters. A thick steam rises threateningly from their hides, obscuring the air above them. It is rumored that gnarlocks steal peoples family pets and turn them into these beast through agonizing rituals.
-![Gnarlock](https://c10.patreonusercontent.com/3/eyJyb3RhdGUiOjAsInciOjgyMH0%3D/patreon-media/p/post/27864972/07c6c31620114151b4c9646166a40767/1.png?token-time=1617765466&token-hash=4nfNvh-4lEwjICIl2TecvVVptWg6OUusBbfiH1bBhbE%3D
 
 > ## Gnarlock
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Bandaged and blistered` • `Glutton for pain`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Searing dart (Magic)
->
 > - +2 Pain tolerance (Will)
->
 > - -1 Decrepit (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Arcane arts</div>
+> ##### Arcane arts
 >
 > The gnarlock may use Magic in place of Shoot checks and Lore checks related to the arcane.
 >
-> <div class="css-1pxjcr8">Pain conduit</div>
+> ##### Pain conduit
 >
 > If the gnarlock does not have a mild consequence, it may use its action to make a Magic attack roll against a target in its zone. If the attack hits, instead of dealing damage, the gnarlock AND the target gain the same mild consequence of the gnarlocks choice. If the target already has a mild consequence, the new consequence takes up the targets lowest consequence slot. If all of the targets consequences are already filled, the target is taken out
 
 > ## Scar Hound
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Steaming hide` • `Hot to the touch`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Gnaw (Fight)
->
 > - +3 Adrenaline (Athletics)
->
 > - +2 Guard (Notice)
->
 > - -1 Barrel (Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild physical consequence [2]</div>
+> ##### Mild physical consequence [2]
 >
-> <div class="css-1pxjcr8">Mild physical consequence [2]</div>
+> ##### Mild physical consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Lock jaw</div>
+> ##### Lock jaw
 >
 > After hitting an enemy with a Fight attack, the scar hound may choose to forgo dealing damage to add an _Iron grip_ aspect to their target. As long as this aspect remains in play, the target may not move out of the scar hound’s zone
 
-<div class="css-pssq0f">Notes</div>
+### Notes
 
 A note for the GM: The Magic skill may not be used in your setting. In that case, replace the gnarlock's Magic with Lore, and change its Arcane arts stunt to read, "The gnarlock may use Lore in place of Shoot checks."
 
@@ -293,47 +270,41 @@ _**Luck Leech.**_ The squibimp’s primary source of sustenance is the misfortun
 _**Impulsive Collectors.**_ The only thing a squibimp likes as much as misfortune is a nice shiny object. These rambunctious critters will seize every opportunity to steal something that they find pretty and leap away, with little regard for others. Squibimps don’t understand the concept of cleaning, and will discard their loot as soon as it collects too much grime.
 
 _**Elusive and Resourceful.**_ When confronted by someone trying to stop them, squibimps have proven to be quite resourceful, using the environment around them to stave off their pursuers. They will knock things over, spill things, and move through tight spaces just to avoid capture. They are also surprisingly competent when it comes to goading their chasers into taking a wrong turn.
-![Squibimp](https://c10.patreonusercontent.com/3/eyJyb3RhdGUiOjAsInciOjgyMH0%3D/patreon-media/p/post/28034275/9fac2dc6638b40f2849e47feadda5a9d/1.png?token-time=1617765634&token-hash=eIt6-oJoY28V2k0wGccXxyeJBA0XauEy3Fmo-ZUQZBw%3D
 
 > ## Squibimp
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Bringer of bad luck` • `Hard to pin down` • `Shiny-thing connoisseur`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Badger (Provoke)
->
 > - +4 Exactly what I needed (Resources)
->
 > - +3 Kleptomania (Burglary)
->
 > - +3 Tricky (Deceive)
->
 > - +3 Energetic (Athletics)
->
 > - +3 Deft (Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1
+> [1]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Goad</div>
+> ##### Goad
 >
 > When the squibimp hits with a Provoke attack it can chose to goad the target instead of inflicting mental stress. The target of the goad will attempt to move one zone in a direction of the squibimp’s choosing. A target cannot be goaded into moving directly into harm's way; for example, jumping off of a cliff or running into a fire.
 >
-> <div class="css-1pxjcr8">Friend of fate</div>
+> ##### Friend of fate
 >
 > All fate points spent in a scene with a squibimp go directly to the squibimp. If there are multiple squibimps in a scene, it goes to one randomly.
 >
-> <div class="css-1pxjcr8">Way of the cricket</div>
+> ##### Way of the cricket
 >
 > The squibimp can climb and stick to flat surfaces with ease; even upside-down. The squibimp can also leap its entire movement distance
 
@@ -346,47 +317,44 @@ _**Thick Carapace.**_ Perhaps the most notable feature of the boulderillo is its
 _**Rocky Camouflage.**_ The carapace of the boulderillo is colored to blend in with the environment where it lives. There are several species of boulderillo living in locations ranging from rocky deserts to mountains. Slight irregularities in the shell make it almost indistinguishable from stone.
 
 _**Delicious Delicacy.**_ Animals in the wild are not the only predators of boulderillos. Many of the humanoid races find the taste of boulderillo to be quite a treat. Boulderillo meat is chewy and tough but carries with it a sweet after-taste that lingers on the tongue. Many hunters make a living off of these elusive creatures, but not without the challenge that comes with it.
-![Boulderillo](https://c10.patreonusercontent.com/3/eyJyb3RhdGUiOjAsInciOjgyMH0%3D/patreon-media/p/post/28207095/71814d04821447b1bb3d879c448e48da/1.png?token-time=1617765770&token-hash=EYIjhjYIZDOkmbplZUqNXBKkXhvEeW4V6uXR1aUt1Cc%3D
 
 > ## Boulderillo
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Armored carapace` • `Alert` • `Ungainly`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Armored carapace (Physique)
->
 > - +3 Watchful (Notice)
->
 > - +2 Claws (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical Stress</div>
+> ##### Physical Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mental Stress</div>
+> ##### Mental Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Mild physical consequence [2]</div>
+> ##### Mild physical consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Boulder roll</div>
+> ##### Boulder roll
 >
 > The boulderillo can use Physique in place of Fight if it moved into the target’s zone on the same turn via rolling.
 >
-> <div class="css-1pxjcr8">Armored carapace</div>
+> ##### Armored carapace
 >
 > The boulderillo may defend against attacks using Physique, as long as it doesn’t have any aspects related to being flipped over or otherwise vulnerable. Additionally, if the boulderillo spends its action to stay curled up for the round, whenever it defends against an attack using Physique the outcome of the defense will be at least 4.
 >
-> <div class="css-1pxjcr8">Rocky camouflage</div>
+> ##### Rocky camouflage
 >
 > A rolled up boulderillo looks almost identical to a boulder. It takes a Great (+4) difficulty Notice check to realize a curled boulderillo is not an ordinary boulder
 
@@ -397,61 +365,56 @@ In the city of flashing lights, big brother is always a stone’s throw away. It
 _**Routine Surveillance.**_ The primary job of agents in the city is to keep an eye on the citizens. Who knows what they could be plotting? They must be monitored. In order to stay inconspicuous government whistle-blowers nicknamed ‘partycrashers’ blend into crowds and hang around public places, waiting for their queue to intervene.
 
 _**Enforcement in Force.**_ Aside from monitoring, the other job of government agents is to enforce the laws. This means subduing criminals, eliminating threats, and maintaining the peace. An array of enforcers around the city have implants in their skull meant to transmit and receive information. In a pinch, this can alert potentially dozens of agents that an issue needs to be taken care of.
-![Government Agents](https://c10.patreonusercontent.com/3/eyJyb3RhdGUiOjAsInciOjgyMH0%3D/patreon-media/p/post/28391099/1fecc15e6dd640728a85de5f34703595/1.png?token-time=1617765896&token-hash=BugCxCFKHfxKgQ2Qx2rn03GPeg51DUXkhOmc0MlqUIE%3D
 
 > ## Government Partycrashers
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Obscurity drives`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Disguise (Stealth)
->
 > - +3 Synthetic fitness (Athletics)
->
 > - +2 Reinforcements (Contacts)
->
 > - +2 Necessary force (Fight and Shoot)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Obscurity drives</div>
+> ##### Obscurity drives
 >
 > The government partycrasher has an implant that interferes with camera equipment. Photos and video feeds of the partycrasher are subtly blurred over any identifying features.
 >
-> <div class="css-1pxjcr8">The jig is up</div>
+> ##### The jig is up
 >
 > Reinforcements are always nearby. A government partycrasher can use their action to make a Good (+3) difficulty Contacts check. For every shift of success, a government goon (see below) enters the scene
 
 > ## Government Goons
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Networking implants`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +1 Necessary force (Fight and Shoot)
->
 > - +1 Synthetic fitness (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Networking implants</div>
+> ##### Networking implants
 >
 > These implants allow the goon to act in step with other goons. If one goon in the scene knows or notices something, all other goons in the scene also know or notice it
 
@@ -466,103 +429,99 @@ _**Growlbird.**_ This small, brown bird looks unextraordinary when sitting still
 _**Bleedlebug.**_ This insect resembles an ashy beetle with an amber-colored abdomen. Four thick antennae stick from its head to sense subtle vibrations in the environment around it. If crushed, a bleedlebug will ooze a yellowish substance, often cited as a delicacy for its sweet taste. A common parable told in settlements near the jungle describes a child that catches a bleedlebug by sitting so still it lands on his skin. The moral of this story, of course, is that patience is rewarded.
 
 _**Nyoc.**_ The nyoc is a breed of scavenging jumping-spider that feeds on the carcasses of dying animals. They are about six inches in diameter, and can leap up to ten feet in a single jump. The nyoc has a venomous bite that triggers a panicked fight response in its target. The nyoc leverages this bite to spur packs of animals in to fighting one another, often leaving behind a meal for it.
-![Jungle Fauna](https://c10.patreonusercontent.com/3/eyJyb3RhdGUiOjAsInciOjgyMH0%3D/patreon-media/p/post/28560372/bc5ca8fdda17401d88e93ed9095e24ea/1.png?token-time=1617766151&token-hash=CGG_3-tEELq2smnFvA-lnp3CCAtUIYC224BYbjbjnT4%3D
 
 > ## Shrubbit
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Quick and tiny herbivore` • `Jungle camouflage`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +6 Scurry (Athletics)
->
 > - +4 Blend in (Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Jungle camouflage</div>
+> ##### Jungle camouflage
 >
 > The shrubbit has plant-like extrusions meant to help them blend in. If a shrubbit is standing completely still in a jungle environment, when they make a stealth check to hide, the minimum result is 4\.
 
 > ## Growlbird
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Iridescent underwings` • `Impressive mimicking` • `Territorial in solitude`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Mimic predator (Deceive and Provoke)
->
 > - +4 Soar (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Call for backup</div>
+> ##### Call for backup
 >
 > If the growlbird feels threatened, and its pursuer is not scared away by a simple growl, the growlbird can lure predators into the area. The growlbird may use its action to make a Provoke check, with a difficulty depending on what type of predator it is trying to lure and if one is nearby. If successful, a predator of that type will enter the scene at the end of this round
 
 > ## Bleedlebug
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Hard to catch` • `Sought after`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +6 Fly (Athletics)
->
 > - +2 Insect eyes (Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Deliciously sweet</div>
+> ##### Deliciously sweet
 >
 > If the bleedlebug’s abdomen is crushed, an amber-colored paste will come out. This bleedlebug goo is a delicacy that is hard to find. If ingested, clear the lowest damaged mental stress box that the one ingesting it has checked, if any
 
 > ## Nyoc
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Terrifying jumping arachnid` • `Fear venom` • `Carrion eater` • `The stuff of nightmares`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Leap (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Aggressive jump</div>
+> ##### Aggressive jump
 >
 > A nyoc may use Athletics instead of Fight to attack.
 >
-> <div class="css-1pxjcr8">Panic inducing venom</div>
+> ##### Panic inducing venom
 >
 > Nyoc venom induces a panicked fight response in its victim. A nyoc attack with Fight (or Athletics) can only deal a maximum of one stress. When a nyoc deals damage to someone in this way, they gain the Fight response aspect. While they have this aspect, all other characters appear to them as enemies
 
@@ -576,41 +535,39 @@ _**Volcanic Cave Dwellers.**_ Rhino-lizards live in deep cave systems that provi
 
 > ## Rhino-lizard
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Muscular reptile` • `Sharp-horned skull` • `Heat-resistant hide` • `Heavy handed`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Muscles (Physique)
->
 > - +3 Reflexes (Athletics)
->
 > - +3 Tooth and tail (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Horned parry</div>
+> ##### Horned parry
 >
 > If the result is tied when the rhino-lizard is defending against a Fight check, the attacker takes one point of physical stress.
 >
-> <div class="css-1pxjcr8">Ram</div>
+> ##### Ram
 >
 > When the rhino-lizard succeeds with style on a Fight check, it may knock the target into an adjacent zone.
 >
-> <div class="css-1pxjcr8">Thick hide</div>
+> ##### Thick hide
 >
 > When defending against attacks from blunt weapons, the rhino-lizard may defend using Physique.
 >
-> <div class="css-1pxjcr8">Thrash</div>
+> ##### Thrash
 >
 > The rhino-lizard may use its action to thrash. It makes a Fight check targeting all other characters in the zone. All characters that fail to defend against this check get pushed into an adjacent zone of the rhino-lizard’s choice
 
@@ -621,95 +578,91 @@ _**Volcanic Cave Dwellers.**_ Rhino-lizards live in deep cave systems that provi
 _**Virus susceptibility.**_ Before the fall, tons of people got implants to improve their everyday lives. People got implants to help at their job, others got implants to increase their performance in sports. Some got cosmetic implants. But this opened the floodgates for something entirely unexpected. The world’s first virus that is both biological and technological. Some people say it was a hacker who made the nanobots. Others say it was a government experiment gone wrong.
 
 _**Zombies with cybernetic implants.**_ Shambling bodies limp their way around this once-bright, once-neon-filled cityscape. Zombies of former peacekeepers still have their weapons. The construction workers still have their jack-hammer arms. In an abandoned back-alley, you may catch a smile from a zombie with glowing teeth.
-![Augmented Zombies](https://c10.patreonusercontent.com/3/eyJyb3RhdGUiOjAsInciOjgyMH0%3D/patreon-media/p/post/28931646/483b37921ff84f86918f9da01707a598/1.png?token-time=1617766440&token-hash=tzA0VC95FWxGrNY6v8yhQXD2BhaZqvMbDAk5CPzy2Eo%3D
 
 > ## Unaugmented Walker
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Persistent` • `Shambling` • `Bumbling` • `Babbling`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +1 Tooth and nail (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 
 > ## Augmented Walker
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Persistent` • `Motivated`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Augment (Random)
->
 > - +1 Tooth and nail (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Augmented</div>
+> ##### Augmented
 >
 > This zombie has an augmentation. Select or roll to determine a random skill. That skill is the one at +3 above. Shoot, for example, might mean the zombie has a gun for an arm
 
 > ## Government Agent Walker
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Persistent` • `Malfunctioning networking implants`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Eye for action (Notice)
->
 > - +1 Unnecessary force (Fight and Shoot)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1
+> [1]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Malfunctioning networking implants</div>
+> ##### Malfunctioning networking implants
 >
 > If one government agent walker notices something, all other government agent walkers in the scene will know _something_ happened and begin looking for it.
 
 > ## Riot Walker
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Well-equipped` • `Stuffy suit`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Built (Physique)
->
 > - -1 Encumbering riot gear (Athletics and Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [2] • [2
+> [2] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Riot gas</div>
+> ##### Riot gas
 >
 > Once per scene, the riot walker can fire a gas canister into their zone, or an adjacent zone. That zone gains the aspect _Riot gas_. All characters that breathe the gas must make a Fair (+2) difficulty Physique check. The riot walker gets a free invoke of Riot gas against each character that fails the check
 
@@ -723,35 +676,32 @@ _**Mate for life.**_ Heptapodes for the most part live in solitude. However, thi
 
 > ## Heptapode
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Efficient tree climber` • `Seven tentacles` • `Ambush carnivore`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Chomp (Fight)
->
 > - +4 Camouflage (Stealth)
->
 > - +3 Constrict (Physique)
->
 > - +2 Slither (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Constricting tentacles</div>
+> ##### Constricting tentacles
 >
 > The heptapode cannot use Chomp (Fight) against a target until it is constricting them. Before this point, the heptapode uses Constrict (Physique) in place of Fight checks. When the heptapode hits with a Constrict (Physique) attack, add the _Constricted_ aspect to the target with one free invoke. A Constricted target cannot move between zones until they overcome the aspect. A heptapode can be constricting multiple targets as long as they are in the same zone.
 >
-> <div class="css-1pxjcr8">Branch drop</div>
+> ##### Branch drop
 >
 > If the heptapode is in a tree above more than one target, as an action it may drop from the tree and make a Constrict (Physique) attack against all targets in the zone. This attack uses the same rules as above
 
@@ -765,43 +715,39 @@ _**Mysterious Origin.**_ An absolute history around how and why the sythan came 
 
 > ## Sythan
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Mind reader` • `One large eye` • `Creepy crawly`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Mental fortitude (Will)
->
 > - +4 Empath (Empathy)
->
 > - +3 Quick learner (Lore)
->
 > - +2 Invade mind (Shoot)
->
 > - +2 Skulk (Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical stress</div>
+> ##### Physical stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mental stress</div>
+> ##### Mental stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Empath</div>
+> ##### Empath
 >
 > The sythan can use Empath (Empathy) in place of Notice checks to notice conscious living beings. Once alerted to someone’s presence, the sythan can automatically discern their surface level mood.
 >
-> <div class="css-1pxjcr8">Read minds</div>
+> ##### Read minds
 >
 > The sythan can attempt to delve into and read someone’s thoughts. To do this, the sythan rolls an Empath (Empathy) attack opposed by the target’s Will. If the attack would hit, no shifts of damage are dealt, but the sythan begins reading the target’s thoughts. A good way to facilitate this is for it to learn pieces of information tossed around in a player’s OOC planning. This effect lasts until the scene ends or the target succeeds in a +4 (Great) difficulty Will check to overcome it.
 >
-> <div class="css-1pxjcr8">Invade mind</div>
+> ##### Invade mind
 >
 > The sythan’s Invade mind (Shoot) attack involves mentally probing the target’s mind, causing a searing pain. When the sythan hits with an Invade mind (Shoot) attack, it inflicts mental stress instead of physical. The sythan still uses this Shoot skill in places it would use a regular Shoot check, which manifests as a mild telekinetic effect.
 
@@ -815,65 +761,64 @@ _**Magical Instability.**_ Years passed and the occasional forest-goer stumbled 
 
 > ## Defunct Golem
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Thick metal plating` • `Cold to the touch` • `Unmoving`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Armored (Physique)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Made of metal</div>
+> ##### Made of metal
 >
 > The defunct golem defends against physical attacks with Armored (Physique).
 >
-> <div class="css-1pxjcr8">Leaking magical energy</div>
+> ##### Leaking magical energy
 >
 > The magic meant to power the golem has leaked into the surrounding foliage. The defunct golem does not take actions on it’s own. Instead, the golem may use its action to create a new enchanted foliage (see below) anywhere in the scene that there is foliage. When the defunct golem is taken out, the magical energy is released and all of the enchanted foliage in the scene dies.
 >
-> <div class="css-1pxjcr8">Come alive</div>
+> ##### Come alive
 >
 > When the defunct golem is first interacted with in a scene, it will create five enchanted foliage (see below) anywhere within the scene that there is foliage
 
 > ## Enchanted Foliage
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Ordinary appearance` • `Kill directive`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Twist and turn (Physique and Athletics)
->
 > - +1 Rip (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Pull</div>
+> ##### Pull
 >
 > The enchanted foliage may make a Physique attack to pull a target. If it hits, no damage is dealt, but for the rest of the turn the target will move with the enchanted foliage.
 >
-> <div class="css-1pxjcr8">Entangle</div>
+> ##### Entangle
 >
 > The enchanted foliage may make a Physique attack to entangle a target. If it hits, no damage is dealt, but the _Entangled_ aspect is added to the character. As long as the aspect remains on the character, they may not move zones.
 >
-> <div class="css-1pxjcr8">Magical tether</div>
+> ##### Magical tether
 >
 > If the enchanted foliage leaves a one kilometer radius of the defunct golem, it is taken out
 
@@ -887,71 +832,68 @@ _**For Dastardly Purposes.**_ A necromancer does not go through the trouble of c
 
 > ## Skeletal Dragon
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Terrifying bone piecemeal` • `Necromantic magic` • `Dominate or be dominated`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Scratch and claw (Fight)
->
 > - +4 (Athletics)
->
 > - +3 Wail (Provoke)
->
 > - +2 Indomitable (Will and Physique)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild physical consequence [2]</div>
+> ##### Mild physical consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate physical consequence [4]</div>
+> ##### Moderate physical consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Deathly Wail</div>
+> ##### Deathly Wail
 >
 > The skeletal dragon may use Wail (Provoke) to make ranged and melee attacks. If a Deathly Wail attack hits, it deals mental stress. Additionally, when a Deathly Wail attack hits target in the same zone as the skeletal dragon, the dragon may uncheck a stress box that is equal to or lower than the shift value of the attack.
 >
-> <div class="css-1pxjcr8">Swallow</div>
+> ##### Swallow
 >
 > When the skeletal dragon succeeds with style on a Claw (Fight) attack, it may choose to swallow the target. The target gains the _Swallowed_ aspect. While the target has this aspect, they cannot move away from the stomach of the skeletal dragon, and the dragon will not target them. The target may still interact with things outside of the skeletal dragon, but only as if doing so at range from behind the cage-like bones of the dragon’s stomach.
 >
-> <div class="css-1pxjcr8">Bone constructs</div>
+> ##### Bone constructs
 >
 > The necromantic magic keeping the skeletal dragon alive can spontaneously jump to nearby piles of bones. When the skeletal dragon checks a stress box, a bone construct (see below) forms out the pieces of the dragon which flew off from the attack. Alternatively, the skeletal dragon can use its turn to raise three bone constructs in the same zone or zones adjacent to it
 
 > ## Bone Construct
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Bone piecemeal` • `Necromantic magic`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Scratch and claw (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Special
+> [Special]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">More bones, more fun</div>
+> ##### More bones, more fun
 >
 > The number of stress boxes a bone construct gets is based on how it was created. If the bone construct was made from the skeletal dragon checking a stress box, the bone construct will have a stress box of equal value to the one that was checked. If the bone construct was created through the skeletal dragon using an action, it will have a single [2] stress box.
 >
-> <div class="css-1pxjcr8">Power in numbers</div>
+> ##### Power in numbers
 >
 > If multiple bone constructs are in the same zone, they may Scratch and claw (Fight) together to increase their odds. Each involved bone construct uses their action to do this. The level of the Scratch and claw (Fight) attack is 2 + the number of involved bone constructs
 
-<div class="css-pssq0f">Notes</div>
+### Notes
 
 A note for the GM: Skeletal dragons are quite powerful. A party of four characters with the default stats and abilities will likely have a hard time taking one of these down without proper preparation and an escape plan. I would advise against pitting new players against this monster.
 
@@ -965,33 +907,31 @@ _**Part Spider.**_ In addition to more legs and eyes, spider-jackals have the ar
 
 > ## Spider-jackal
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Six-legged dog-like creature` • `Four eyes` • `Web-walker` • `Silent hunter`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Bound (Athletics)
->
 > - +3 Silent hunter (Stealth and Notice)
->
 > - +2 Gnaw (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1
+> [1]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Pack hunter</div>
+> ##### Pack hunter
 >
 > Spider-jackals get a +1 to Gnaw (Fight) checks when a friendly spider-jackal is in the same zone.
 >
-> <div class="css-1pxjcr8">Web-spinner</div>
+> ##### Web-spinner
 >
 > Spider-jackals spin _Thick_ webs over their underground burrows. This typically takes a long time, and won’t occur during a fight. However, a spider-jackal can climb their webs with little effort. Any character that is not adept in climbing webs takes a -2 on _all_ Athletics checks while in them
 
@@ -1005,69 +945,67 @@ _**Phylacteries.**_ As part of the arcane ritual for becoming a lich, the necrom
 
 > ## Lich
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Being of Unadulterated Evil` • `Bones of Steel` • `Timeless`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Necromancy (Lore)
->
 > - +3 Strong mind (Will, Investigate, and Deceive)
->
 > - +2 Unholy body (Athletics and Physique)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical Stress</div>
+> ##### Physical Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mental Stress</div>
+> ##### Mental Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Flesh rot</div>
+> ##### Flesh rot
 >
 > The lich may use Necromancy (Lore) in place of Fight and Shoot attack checks. If the lich hits with an attack this way, the shifts are dealt to physical and mental stress boxes. The lich may choose to pay a fate point to the target in order to uncheck all physical stress boxes equal to or lower than the amount of shifts of the attack.
 >
-> <div class="css-1pxjcr8">Radiate pain</div>
+> ##### Radiate pain
 >
 > When the lich is dealt damage by an attack, it may force all of the enemies in its zone to make a Physique check with a difficulty equal to the shifts dealt in the attack. Each enemy that fails this check takes one shift of mental stress per shift of failure.
 >
-> <div class="css-1pxjcr8">Undead minions</div>
+> ##### Undead minions
 >
 > Every turn the lich may raise a number of undead minions equal to its highest checked stress box plus one. The lich may raise these minions in its zone or any adjacent zone. This does not use an action. See below for stats. For example, if the lich’s highest checked stress box was its [3] physical stress box, it would raise 4 undead minions on its turn using no action.
 >
-> <div class="css-1pxjcr8">Phylacteries</div>
+> ##### Phylacteries
 >
 > When a lich dies, it will be resurrected into a new body in 7 days if any of its phylacteries remain at that point. If a lich dies within 100 ft of one of its phylacteries, it will resurrect nearby within 1 hour
 
 > ## Undead Minion
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Rotting flesh and dancing bones` • `Fragile fury`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +1 Mob (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 
-<div class="css-pssq0f">Notes</div>
+### Notes
 
 A note for the GM: Liches are quite powerful. A party of four characters with the default stats and abilities will likely have a hard time taking one of these down without proper preparation and an escape plan. I would advise against pitting new players against this monster.
 
@@ -1081,31 +1019,30 @@ _**Unnatural Phenomenon.**_ One peculiar trait about the skullug is their choice
 
 > ## Skullug
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Veiny purple slug` • `Toxic to the touch` • `Skull for a shell`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Trapped soul (Will)
->
 > - +1 Slither (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Trapped soul</div>
+> ##### Trapped soul
 >
 > The skull that a skullug inhabits has trapped within it the soul of the deceased that it belonged to. The skull is broken if any physical stress is dealt to the skullug, unless the attacker is being extra careful not to hit the skull. If an attacker is being careful not to hit the skull, they get -3 to their attack roll. If the skull is broken, the soul is released. If the soul is released, the skullug can use Trapped soul (Will) in place of Fight, Shoot, and Athletics. 24 hours after a soul is released in this way, the skullug will lose the ability to harness it’s power.
 >
-> <div class="css-1pxjcr8">Toxic to the touch</div>
+> ##### Toxic to the touch
 >
 > Touching a skullug with your bare hands is harmful to your health. When a character does so, they must make a +3 (Good) difficulty physique check. If they fail, they take 2 physical stress and gain the _Poisoned_ aspect
 
@@ -1119,61 +1056,56 @@ Orcs. “We have all heard the stories have we not? Big brutes, bigger weapons. 
 
 > ## Goblin
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Nasty little schemer` • `Power in numbers` • `Goblinoid`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Tumble (Athletics)
->
 > - +3 Stumble (Stealth)
->
 > - +2 Fumble (Burglary)
->
 > - +1 Rumble (Fight and Shoot)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
 > [2
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Nimblefoot</div>
+> ##### Nimblefoot
 >
 > After being attacked from an attacker in the same zone which missed, the goblin can move one zone.
 >
-> <div class="css-1pxjcr8">Mob</div>
+> ##### Mob
 >
 > Goblins get +1 to Fight checks against targets which have already been attacked by a Goblin this round
 
 > ## Orc
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Tribalistic brute` • `Quick to anger` • `Goblinoid`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Annihilate (Fight and Shoot)
->
 > - +2 Heavyweight (Athletics and Physique)
->
 > - +1 Intimidate (Provoke)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Fearmonger</div>
+> ##### Fearmonger
 >
 > An orc can invoke the _Afraid_ aspect for free if it was created by them or an ally
 
@@ -1187,79 +1119,77 @@ _**Effective Function.**_ By far the most common use for magically animated obje
 
 > ## Animated Suit of Armor
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Enchanted set of full plate` • `Visually indistinguishable` • `Flying`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Guard (Fight and Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Lifeless enchantment</div>
+> ##### Lifeless enchantment
 >
 > The suit of armor is immune to all non-magical stress. If the suit of armor _would have been_ hit by 3 shifts of physical stress in one action, it will use its next turn reassembling itself.
 >
-> <div class="css-1pxjcr8">Visually indistinguishable</div>
+> ##### Visually indistinguishable
 >
 > This suit of armor looks just like any mundane suit of armor. If it is not moving, it is impossible to tell by sight alone that it is animated
 
 > ## Animated Sword
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Enchanted longsword` • `Visually indistinguishable` • `Flying`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Sick ‘em (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
 > [1
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Lifeless enchantment</div>
+> ##### Lifeless enchantment
 >
 > The sword is immune to all non-magical stress. If the sword would have been hit by 2 shifts of physical stress in one action, it will fly backward into the next zone if possible.
 >
-> <div class="css-1pxjcr8">Visually indistinguishable</div>
+> ##### Visually indistinguishable
 >
 > This sword looks just like any mundane sword. If it is not moving, it is impossible to tell by sight alone that it is animated
 
 > ## Animated Painting
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Enchanted mural` • `Moving pictures` • `Rudimentary intelligence`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Blabbermouth (Rapport and Provoke)
->
 > - +2 Watchful (Notice, Investigate, and Lore)
->
 > - -1 Limited mind (Deceive and Empathy)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Uncanny</div>
+> ##### Uncanny
 >
 > The animated painting was designed to be impressive. It instantly knows the common name of anyone it sees. This is whatever name is used most often by the person’s peers
 
@@ -1273,57 +1203,53 @@ _**Bugbears.**_ “My brother and I were hunting in the woods. We’d been track
 
 > ## Hobgoblin
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Devilish soldier` • `Imposing strategist` • `Goblinoid`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Positioned (Investigate, Lore, and Notice)
->
 > - +2 Munitioned (Fight and Shoot)
->
 > - +1 Conditioned (Athletics and Physique)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Imposing strategist</div>
+> ##### Imposing strategist
 >
 > The hobgoblin and its allies get an additional free invoke on advantages it creates using Investigate, Lore, or Notice
 
 > ## Bugbear
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Large and fur-covered` • `Impressively stealthy` • `Goblinoid`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Hide (Stealth)
->
 > - +3 Collide (Fight)
->
 > - +3 Stride (Physique and Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Ambush</div>
+> ##### Ambush
 >
 > The bugbear and its allies get an additional two free invokes on advantages it creates related to ambushes and surprise attacks
 
@@ -1339,31 +1265,29 @@ _**Salt Aversion.**_ A less intentional property of the assimilator is their ave
 
 > ## Assimilator
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Alien invasion expert` • `Long grey limbs` • `Shapechanger`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Analyze (Investigate)
->
 > - +2 Diagnose (Empathy)
->
 > - +1 Social parasite (Provoke, Rapport, and Deceive)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Change shape</div>
+> ##### Change shape
 >
 > After observing someone for five minutes, the assimilator can assume their appearance by succeeding on a create an advantage check with Analyze (Investigate). The transformation takes about three minutes, and lasts until they decide to shape change again, or until they make contact with salt.
 >
-> <div class="css-1pxjcr8">Befuddle</div>
+> ##### Befuddle
 >
 > The assimilator can use Diagnose (Empathy) to a human’s psyche. After speaking to someone for at least three minutes, they can attempt a create an advantage check with Diagnose (Empathy). If they succeed, they learn the human’s greatest desire. They can then convince the target to attempt one task in the name of achieving their desire. The task does not have to actually be related to their desire; the target will be overcome with the thought that it somehow will. They gain the _On a mission aspect_, and as long as they have it, they will continue trying to complete the task
 
@@ -1377,29 +1301,29 @@ _**Strange Beings.**_ Changelings always appear on the surface to be the child t
 
 > ## Changeling
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Disguised fairy child` • `In need of a purpose` • `Off-putting`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +1 A cut above the rest (All skills)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Sinister disguise</div>
+> ##### Sinister disguise
 >
 > The changeling looks almost identical to another child, save for a couple of quirks. The changeling will transform back into a sickly grey creature when it died.
 >
-> <div class="css-1pxjcr8">Forget</div>
+> ##### Forget
 >
 > Once per scene, the changeling may cause one character to stop recognizing them for the rest of the scene. The character will act as if they have never seen the child
 
@@ -1413,33 +1337,32 @@ _**A hopeless goal.**_ Contact with ghosts has unconditionally revealed one thin
 
 > ## Ghost
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Ethereal spirit` • `Unfinished business` • `Trapped in the material realm`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 What I’ve seen (Lore)
->
 > - +2 I am dangerous (Provoke, Fight, Will)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Mental stress</div>
+> ##### Mental stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Incorporeal</div>
+> ##### Incorporeal
 >
 > The ghost is immune to physical damage.
 >
-> <div class="css-1pxjcr8">Telekinesis</div>
+> ##### Telekinesis
 >
 > Once each turn, a ghost may attempt to create an advantage using I am dangerous (Will) as a free action.
 >
-> <div class="css-1pxjcr8">Invisibility</div>
+> ##### Invisibility
 >
 > The ghost may turn completely invisible as an action, giving them the Invisible aspect. The ghost may drop invisibility as a free action. The ghost may invoke Invisibility for free on Stealth checks, or checks to oppose Notice or Investigate.
 
@@ -1453,39 +1376,35 @@ _**Social parasite.**_ While the exact origin of the cuddlebug is a mystery, it 
 
 > ## Cuddlebug
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Dangerously cute little guy` • `Difficult to disagree with` • `Wordless communication`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Aww! (Rapport)
->
 > - +2 What’s wrong? (Provoke)
->
 > - +2 Harmless little guy… (Deceive)
->
 > - +1 Look, it understands! (Empathy)
->
 > - +1 You know, you’re right… (Will)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical Stress</div>
+> ##### Physical Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mental Stress</div>
+> ##### Mental Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Reconsider</div>
+> ##### Reconsider
 >
 > Twice per scene, the cuddlebug can spend an action flaunting its cute self to try to change someone’s mind. The cuddlebug makes an Aww! (Rapport) roll contested by a Will check from the target. If it succeeds, the target magically changes their mind to agree with the cuddlebug.
 >
-> <div class="css-1pxjcr8">Everybody’s best friend</div>
+> ##### Everybody’s best friend
 >
 > Anyone who has been in contact with the cuddlebug for more than a day will begin to regard it as a close friend or ally. They will do what they can to keep the cuddlebug safe, even going as far as to value it over themselves or allies. In situations where someone or their ally would be harmed in an attempt to protect the cuddlebug, they may make a Good (+3) difficulty Will check to resist the cuddlebug’s charm. If they succeed, they not only will resist letting themselves or an ally be harmed, but they will also realize they have been magically influenced by the cuddlebug
 
@@ -1499,45 +1418,42 @@ _**Living trees.**_ Ents themselves descend from the trees they protect. They ar
 
 > ## Ent
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Huge living tree` • `Extremely old` • `Stubborn and passive` • `Flammable`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Strength of ancients (Physique)
->
 > - +3 Crush (Fight)
->
 > - +3 Forest-watcher (Notice and Lore)
->
 > - +2 Stubborn (Will)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical stress</div>
+> ##### Physical stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mental stress</div>
+> ##### Mental stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Climbable</div>
+> ##### Climbable
 >
 > Ents themselves can be occupied like a zone. The ent can be climbed from the zone it is in, or another zone reasonable. To climb on to the ent, it requires a +1 (Average) difficulty Athletics check. As the ent moves around, the characters on it also move.
 >
-> <div class="css-1pxjcr8">Natural appearance</div>
+> ##### Natural appearance
 >
 > Ents look like trees themselves. All checks to notice an ent that hasn’t yet moved or revealed themselves are at +2 difficulty while the ent is in a wooded area.
 >
-> <div class="css-1pxjcr8">Thick bark</div>
+> ##### Thick bark
 >
 > If an attack is from a weapon that only bashes or pierces, the ent can use Strength of ancients (Physique) to defend
 
@@ -1551,35 +1467,34 @@ _**Unwavering.**_ Undead thralls excel at carrying out the will of their master.
 
 > ## Undead Thrall
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Servant in undeath` • `No free will` • `Unnatural strength`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Unnatural strength (Physique and Fight)
->
 > - +1 Meticulous analysis (Investigate)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical stress</div>
+> ##### Physical stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mental stress</div>
+> ##### Mental stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild physical consequence [2]</div>
+> ##### Mild physical consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">No free will</div>
+> ##### No free will
 >
 > The undead thrall cannot and will not be convinced to act against their master’s will. They have no compassion or empathy. They automatically succeed in Will checks related to decision making. They automatically fail Empathy checks.
 >
-> <div class="css-1pxjcr8">Unending pursuit</div>
+> ##### Unending pursuit
 >
 > The undead thrall excels at hunting down targets set out by their master. They are not quick at it, but they are consistent. After failing a Meticulous analysis (Investigation) check to figure out where someone went, they may continue to analyze the clues they have. After a number of hours equal to the shifts of failure, they will figure out where their target(s) went. Additionally, undead thralls never fail checks related to becoming tired or exhausted
 
@@ -1593,31 +1508,29 @@ _**Greedy colonies.**_ Ratlings live in large packs in caves and burrows. Within
 
 > ## Ratling
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Clever rat-like humanoid` • `Anything for the colony`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Scurry (Athletics)
->
 > - +3 Clever (Crafts)
->
 > - +2 Scrap (Fight and Shoot)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Prepared</div>
+> ##### Prepared
 >
 > Once per scene, the ratling can use Clever (Crafts) instead of any other skill.
 >
-> <div class="css-1pxjcr8">Overwhelm</div>
+> ##### Overwhelm
 >
 > An opponent of the ratlings that has two or more ratlings in their zone gets a -2 to all rolls related to moving between zones, and gains the _Overwhelmed_ aspect while this remains true
 
@@ -1631,57 +1544,55 @@ _**Vyaga Tunnelers.**_ Vyaga tunnelers are a species of small mammals that burro
 
 > ## Tem-Tem Kite-Rat
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Small gliding rodent` • `Territorial`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +1 Swarm (Fight and Provoke)
->
 > - +1 Rambunctious (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Glide</div>
+> ##### Glide
 >
 > The tem-tem kite-rat has patagia (gliding membranes) to help it glide through the air. It automatically succeeds on overcome checks related to moving over ground-level obstacles like pits or deep mud.
 >
-> <div class="css-1pxjcr8">Flock</div>
+> ##### Flock
 >
 > After any character misses an attack against a tem-tem kite-rat, it and all other tem-tem kite-rats in it’s zone may move up to one zone
 
 > ## Vyaga Tunneler
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Small tunneling mammal` • `Easily frightened`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Scramble (Athletics)
->
 > - +1 Keen senses (Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Tunnel</div>
+> ##### Tunnel
 >
 > A vyaga tunneler can easily move through soft ground. Granted it is made from dirt, sand, or another soft material, the vyaga tunneler can move through the ground as effortlessly as above ground.
 >
-> <div class="css-1pxjcr8">Tunnel systems</div>
+> ##### Tunnel systems
 >
 > The vyaga tunneler can take advantage of tunnels that have already been dug. As it’s normal move, a vyaga tunneler can move to any zone with another vyaga tunneler in it, provided both zones are connected by soft ground
 
@@ -1693,41 +1604,39 @@ _**A life of discipline.**_ Monks are masters of discipline. They train their mi
 
 > ## Monk
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Disciplined hand-to-hand fighter` • `Patient` • `Dedicated`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Fist and foot (Fight and Athletics)
->
 > - +2 Conditioning (Physique)
->
 > - +2 Sound mind (Will and Empathy)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical Stress</div>
+> ##### Physical Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mental Stress</div>
+> ##### Mental Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Shrug it off</div>
+> ##### Shrug it off
 >
 > Once per scene, when a monk would take physical stress, they may take it as an equivalent amount of mental stress instead.
 >
-> <div class="css-1pxjcr8">Counter-attack</div>
+> ##### Counter-attack
 >
 > After rolling a defend check with Fist and foot (Fight), the monk may choose to inflict physical stress on the attacker equal to the shifts of success of the defense, as long as the attacker is in the same zone.
 >
-> <div class="css-1pxjcr8">Press the advantage</div>
+> ##### Press the advantage
 >
 > Regardless of if an attack is a success with style or not, as long as there are positive shifts, the monk may choose to lower the number of shifts by one to gain a boost
 
@@ -1739,43 +1648,40 @@ _**Artifacts of Snow Enchantment.**_ Before the second great war of the North Po
 
 > ## Icy the Snowman
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Living livid snowman` • `Made of snow` • `Product of magic`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Snowmanship (Crafts)
->
 > - +3 Frozen blades (Fight)
->
 > - +2 Snowball (Shoot)
->
 > - +2 Eyes of coal (Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Pack snow</div>
+> ##### Pack snow
 >
 > Icy can absorb the snow from the ground as he maneuvers through the battlefield. When Icy moves from a zone with snow to another zone with snow, he clears his lowest checked stress box.
 >
-> <div class="css-1pxjcr8">Snowballer</div>
+> ##### Snowballer
 >
 > Icy the Snowman is particularly efficient in raining down snow upon his enemies. Each turn, Icy can make one Snowball (Shoot) attack without using his action.
 >
-> <div class="css-1pxjcr8">Transmute water</div>
+> ##### Transmute water
 >
 > Icy can transmute water between the states of liquid, snow, and ice. When he creates an advantage related to water, snow, or ice, he gets an extra free invoke.
 >
-> <div class="css-1pxjcr8">Corn cob pipe</div>
+> ##### Corn cob pipe
 >
 > When Icy is taken out, he leaves behind his corn cob pipe. If this pipe is added to a completed snowman, Icy will be reborn once again into it’s body
 
@@ -1789,35 +1695,32 @@ If at any time you are dissatisfied with the performance of your new companion d
 
 > ## Companion Drone
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Robotic battle assistant` • `Diagnostic suite`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Fly (Athletics)
->
 > - +2 Utility protocols (Crafts)
->
 > - +1 Combat (Fight and Shoot)
->
 > - +1 Cloaking device (Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Diagnose health</div>
+> ##### Diagnose health
 >
 > Once per scene the companion drone can run a health diagnostic on all the characters currently present. For each character that is diagnosed, the companion reveals the value and status of all of the character’s physical stress boxes. This diagnostic cannot reveal information about other stress tracks or any consequences.
 >
-> <div class="css-1pxjcr8">Liquid biology</div>
+> ##### Liquid biology
 >
 > As an action, the companion drone can attempt to tend to the wounds of a character. The companion drone makes a Utility protocols (Crafts) overcome check with a difficulty equal to the value of one checked physical stress box on the target. If the overcome check succeeds, the character unchecks the targeted physical stress box
 
@@ -1829,33 +1732,30 @@ It was too late before we realized what was happening. We were exhausted. One mo
 
 > ## Gnoll
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Feral upright hyena` • `Flesh eater` • `No regard for life`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Slash (Fight)
->
 > - +2 Sprint (Athletics)
->
 > - +1 Throw (Shoot)
->
 > - +1 Hunt (Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Rampage</div>
+> ##### Rampage
 >
 > When the gnoll takes out a target with an attack, it may move one zone and make a (Fight) attack. The gnoll may only use this ability once on its turn.
 >
-> <div class="css-1pxjcr8">Play rough</div>
+> ##### Play rough
 >
 > When the gnoll successfully defends against a Fight attack, the attacker is dealt 1 physical stress
 
@@ -1867,35 +1767,32 @@ Very marvelous creatures. Dangerous, beautiful. A shining example of an extraord
 
 > ## Displacer Beast
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Large panther-like predator` • `Displacement field` • `Whip-like tentacles`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Agile (Athletics)
->
 > - +3 Feint (Deceive and Provoke)
->
 > - +2 Tentacle whip (Fight)
->
 > - +2 Hunt (Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Displacement field</div>
+> ##### Displacement field
 >
 > The displacer beast has the innate ability to bend the light around it to appear where it is not. The displacer beast may invoke _Displacement field_ for free. Additionally, when the displacer beast succeeds with style on a defense check, it may reveal that it was really in an adjacent zone the whole time! If the displacer beast gets hit with an attack, it loses its _Displacement field_ aspect, and these abilities, until the end of its next turn.
 >
-> <div class="css-1pxjcr8">Tentacle reach</div>
+> ##### Tentacle reach
 >
 > The displacer beast may use Tentacle whip (Fight) to attack enemies in zones adjacent to it. Once per turn, when the displacer beast makes a Tentacle whip (Fight) attack, it may make a second Fight attack immediately afterward
 
@@ -1905,107 +1802,102 @@ On the edge of society, where nature is left to do it’s work, large colonies o
 
 > ## Wasp Swarm
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Large swarm of wasps` • `Flying in unison` • `Cannot be reasoned with`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +? Swarm (Fight)
->
 > - +3 Fly (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
 > [2] • [2] • [2
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Swarm of insects</div>
+> ##### Swarm of insects
 >
 > The Swarm (Fight) skill of the wasps is equal to the number of unchecked stress boxes they have
 
 > ## Beetle Swarm
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Large swarm of beetles` • `Moving in unison` • `Cannot be reasoned with`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +? Swarm (Fight)
->
 > - +2 Crawl (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
 > [2] • [2] • [2] • [2
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Swarm of insects</div>
+> ##### Swarm of insects
 >
 > The Swarm (Fight) skill of the beetles is equal to the number of unchecked stress boxes they have
 
 > ## Spider Swarm
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Large swarm of spiders` • `Moving in unison` • `Cannot be reasoned with`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +? Swarm (Fight)
->
 > - +2 Crawl (Athletics)
->
 > - +2 Web (Physique)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
 > [2] • [2] • [2
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Swarm of insects</div>
+> ##### Swarm of insects
 >
 > The Swarm (Fight) skill of the spiders is equal to the number of unchecked stress boxes they have.
 >
-> <div class="css-1pxjcr8">Encase with webs</div>
+> ##### Encase with webs
 >
 > The spider swarm can all begin webbing a target all at once. They make a Web (Physique) attack against the target. If it hits, no damage is dealt, but the target gains the _Webbed_ aspect. While the target is _Webbed_, they may not move between zones, and the spiders may invoke _Webbed_ for free
 
 > ## Centipede Swarm
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Large swarm of centipedes` • `Moving in unison` • `Cannot be reasoned with` • `Poisonous bite`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +? Swarm (Fight)
->
 > - +2 Crawl (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Swarm of insects</div>
+> ##### Swarm of insects
 >
 > The Swarm (Fight) skill of the centipedes is equal to the number of unchecked stress boxes they have.
 >
-> <div class="css-1pxjcr8">Poisonous bite</div>
+> ##### Poisonous bite
 >
 > Instead of inflicting physical stress equal to the number of shifts when hitting with a Swarm (Fight) attack, the centipedes inflict physical AND mental stress equal to the number of shifts of the attack
 
@@ -2017,123 +1909,115 @@ While the origin is debated, there are properties of elementals that we know by 
 
 > ## Fire Elemental
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Being of pure fire` • `Unforgiving`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Burn (Fight)
->
 > - +2 Flame spout (Shoot)
->
 > - +2 Dancing flames (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Set ablaze</div>
+> ##### Set ablaze
 >
 > When a fire elemental succeeds with style on a Fight or Shoot attack that utilizes its flames, the target gains the _On fire_ aspect.
 >
-> <div class="css-1pxjcr8">Playing with fire</div>
+> ##### Playing with fire
 >
 > When a fire elemental succeeds when defending against a Fight attack from an enemy within the same zone as it, the attacker takes physical stress equal to the shifts of success of the defense roll
 
 > ## Water Elemental
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Being of pure water` • `Immune to fire` • `Unyielding`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Water whip (Fight and Shoot)
->
 > - +2 Dancing waves (Provoke)
->
 > - +2 Ebb and flow (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild physical consequence [2]</div>
+> ##### Mild physical consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Crashing wave</div>
+> ##### Crashing wave
 >
 > When a water elemental enters a new zone, it may force one character in the zone to move to an adjacent zone.
 >
-> <div class="css-1pxjcr8">Seaspirit</div>
+> ##### Seaspirit
 >
 > Once per turn a water elemental may enter a body of water at one location and exit any body of water in the scene at another location. If a water elemental submerges entirely in water, it cannot interact with anything outside of the water until it once again resurfaces
 
 > ## Earth Elemental
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Being of pure earth` • `Feels no pain` • `Merciless`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Crush (Fight)
->
 > - +4 Rock solid (Physique)
->
 > - +1 Flying rock (Shoot)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4] • [5
+> [1] • [2] • [3] • [4] • [5]
 >
-> <div class="css-1pxjcr8">Mild physical consequence [2]</div>
+> ##### Mild physical consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate physical consequence [4]</div>
+> ##### Moderate physical consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Meld with stone</div>
+> ##### Meld with stone
 >
 > An earth elemental may move through earth and stone with ease. If an earth elemental melds entirely with stone or earth in this way, then it cannot interact with anything outside of the stone or earth until it once again resurfaces
 
 > ## Air Elemental
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Being of pure air` • `Flying` • `Implacable`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Just out of reach (Athletics)
->
 > - +3 Gust (Shoot)
->
 > - +2 Wind whip (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Gust</div>
+> ##### Gust
 >
 > Whenever an air elemental hits with a Fight or Shoot attack that utilizes its wind, it may force the target to move one zone.
 >
-> <div class="css-1pxjcr8">Windwalk</div>
+> ##### Windwalk
 >
 > An air elemental may move an additional zone each turn
 
@@ -2143,35 +2027,33 @@ Oozes, also known as slimes, are large, gelatinous piles of goo that have a prim
 
 > ## Ooze
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Creeping gelatinous substance` • `Basic intelligence` • `Aggressive solvent` • `Sticky` • `Flammable`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Envelop (Fight)
->
 > - +2 Blend in (Stealth)
->
 > - +2 Induce panic (Provoke)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Envelope</div>
+> ##### Envelope
 >
 > After an ooze hits with an Envelope (Fight) attack, the target gains the _Stuck in ooze_ aspect. Whenever an ooze makes an Envelope (Fight) attack, all opponents in the same zone as the ooze with the _Stuck in ooze_ aspect must also defend against the attack as if attacked individually.
 >
-> <div class="css-1pxjcr8">Slowly creeping</div>
+> ##### Slowly creeping
 >
 > An ooze does not get a free movement each turn, and must instead expend an action to move.
 >
-> <div class="css-1pxjcr8">Gelatinous</div>
+> ##### Gelatinous
 >
 > An ooze may defend against Shoot attacks using Envelope (Fight), if fire is _not_ involved. An ooze may _not_ defend against Fight attacks with Envelope (Fight) if fire _is_ involved
 
@@ -2183,39 +2065,37 @@ The beast started cracking skulls. And I don’t just mean the men in my company
 
 > ## Ogre
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Massive green-skinned beast` • `Child-eater` • `Unintelligent`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +6 Muscle (Physique)
->
 > - +4 Clobber (Fight)
->
 > - +3 Intimidate (Provoke)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4] • [5
+> [1] • [2] • [3] • [4] • [5]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Ungainly</div>
+> ##### Ungainly
 >
 > The first time it gets attacked between each of it’s turns, an ogre may defend normally. After that, each time an ogre defends with Clobber (Fight), it rolls with a +0 instead of a +4.
 >
-> <div class="css-1pxjcr8">Threatening</div>
+> ##### Threatening
 >
 > After a character moves into the same zone as an ogre, they may not move any more zones for the rest of the turn.
 >
-> <div class="css-1pxjcr8">Reckless</div>
+> ##### Reckless
 >
 > After an ogre misses a Clobber (Fight) attack, it may create a situational aspect related to how its attack damaged the environment around it
 
@@ -2225,97 +2105,85 @@ It is often said that the world holds more than meets the eye. But sometimes, it
 
 > ## Kerrigan Sheffyll
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Barmaid of the Sneezing Weasel` • `Assassin for hire` • `Quite charming`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Stalk (Stealth)
->
 > - +4 Assassinate (Fight)
->
 > - +3 Charm (Rapport)
->
 > - +2 Lay low (Deceive)
->
 > - +1 Track (Investigate)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Adaptive fighting</div>
+> ##### Adaptive fighting
 >
 > Anything can be used as a weapon if you’re holding it right. Kerrigan can never be _Unarmed_. Additionally, twice per scene Kerrigan may use Assassinate (Fight) in place of Athletics to defend
 
 > ## Flynn Burgata
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Bouncer of the Sneezing Weasel` • `Expert thief` • `Burly`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Swindle (Burglary)
->
 > - +4 Handle (Physique)
->
 > - +3 Protect (Fight)
->
 > - +2 Lay low (Deceive)
->
 > - +1 Spot (Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Pat down</div>
+> ##### Pat down
 >
 > Pickpocketing is easier when you’re expected to be going through people’s things. Whenever Flynn gives someone a pat down, he automatically learns of all weapons the individual has on them. Additionally, he may attempt to make a Swindle (Burglary) check against them in the same action
 
 > ## Maica Nelhorn
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Barkeep of the Sneezing Weasel` • `Illicit goods fence` • `No nonsense`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Deal (Resources)
->
 > - +4 Network (Contacts)
->
 > - +3 Appraise (Investigate)
->
 > - +2 Lay low (Deceive)
->
 > - +1 Carouse (Rapport)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Hospitality</div>
+> ##### Hospitality
 >
 > A man who feeds you is surely a trustworthy one. Maica gets +2 to Rapport and Deceive checks when interacting with someone he has served food or drink recently
 
@@ -2325,81 +2193,78 @@ _“Where mortal men dare not treaShe sits and spins her snaring threaWith minds
 
 > ## Ightlyech
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Unthinkable winged monstrosity` • `These wings are made for flying` • `Venom-filled stinger` • `Web-glands` • `I must protect my eggs at all cost`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Unthinkable knowledge (Lore) +3 Abomination (Fight and Physique)
->
 > - +2 Unwavering (Notice and Will)
->
 > - +2 Needle spines (Shoot)
->
 > - +1 Squirm (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Flammable webs</div>
+> ##### Flammable webs
 >
 > At the end of each turn, as long as her _Web-glands_ are in tact, Ightlyech may fire webs up to one zone away, covering that zone in _Sticky-flammable_ webs. Characters in that zone must overcome an average (+1) difficulty check to leave the zone or perform movement intensive actions within it. At the beginning of each of her turns, Ightyech ignites the zone that has webs, clearing them and inflicting 2 points of physical stress to all characters in the zone.
 >
-> <div class="css-1pxjcr8">Devour subject</div>
+> ##### Devour subject
 >
 > Once per turn for free, Ightlyech may devour a willing character in her zone, healing any single stress box.
 >
-> <div class="css-1pxjcr8">Transforming sting</div>
+> ##### Transforming sting
 >
 > As an action, Ightlyech can sting two willing characters in her zone to transform them into a Transformed Cultists of Ightlyech (see below). Additionally, when Ightlyech hits with an Abomination (Fight) attack, she may forgo dealing stress to force the target to make a Will check with a difficulty equal to the shifts of the hit. If the character fails, they gain the _Overcome with madness_ aspect
 
 > ## Cultist of Ightlyech
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Insane minion of Ightlyech` • `Undying loyalty`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +1 Ritualistic practices (Provoke, Will, Lore, Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 
 > ## Transformed Cultist of Ightlyech
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Revolting abomination of Ightlyech` • `Sick transformation` • `Overcome with insanity`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Tormented (Fight, Will, and Lore)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 
-<div class="css-pssq0f">Notes</div>
+### Notes
 
 Note to GM: Every cultist you add to a conflict will make Ightlyech stronger. They are innocuous on their own, but Ightlyech’s abilities are boosted quite a bit by using them as pawns. Use the number of cultists as a way to balance the encounter to your liking. I’d suggest a lower end of three to five for an easy fight, and ten to twelve for a difficult one.
 
@@ -2411,47 +2276,44 @@ He has been my most difficult bounty. And my biggest heartache.” - Maxinne “
 
 > ## Alexander Marshall
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `International spy` • `Penchant for romance` • `Free agent for hire` • `Never breaks a promise` • `Longs for something more`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Athletics
->
 > - +3 Fight, Deceive
->
 > - +2 Will, Stealth, Investigate
->
 > - +1 Resources, Contacts, Shoot, Notice
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical stress</div>
+> ##### Physical stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mental stress</div>
+> ##### Mental stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-1pxjcr8">Severe consequence [6]</div>
+> ##### Severe consequence [6]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Snap into action</div>
+> ##### Snap into action
 >
 > Alexander is an expert in deception, and one of the most important aspects of this is knowing when the jig is up. Alexander is always aware when he fails a Deceive or Stealth check. Once per scene, after this happens, Alexander may spend a Fate point to take a turn immediately.
 >
-> <div class="css-1pxjcr8">I like these odds</div>
+> ##### I like these odds
 >
 > Alexander is used to fighting when outnumbered. Whenever Alexander takes out an opponent with Fight or Shoot, he may apply extra stress (that wasn’t needed to take the target out) to any mooks in the same zone as his original target.
 >
-> <div class="css-1pxjcr8">Master of disguise</div>
+> ##### Master of disguise
 >
 > Alexander knows how to slip seamlessly into character. He gets +2 to Deceive checks related to disguises, and automatically succeeds on checks related to maintaining a fake voice or accent
 
@@ -2465,45 +2327,42 @@ He has been my most difficult bounty. And my biggest heartache.” - Maxinne “
 
 > ## Dire Elk
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Massive forest elk` • `Heavy inertia` • `Larger than life` • `Passive until provoked`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +6 Sheer size (Physique)
->
 > - +3 Keen senses (Notice)
->
 > - +3 Trample (Fight - special)
->
 > - +2 Gore (Fight - special)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Shake it off</div>
+> ##### Shake it off
 >
 > The first time the dire elk is attacked before each of it’s turns, it may defend with Sheer size (Physique).
 >
-> <div class="css-1pxjcr8">Trample and gore</div>
+> ##### Trample and gore
 >
 > When the dire elk attacks a target that is on the ground in the same zone as it, it uses Trample (Fight). If it attacks a target that is not on the ground, it uses Gore (Fight).
 >
-> <div class="css-1pxjcr8">One elk stampede</div>
+> ##### One elk stampede
 >
 > When the dire elk attacks using Trample (Fight), it may force any number of characters on the ground in the same zone as it to defend against the attack and take stress as if attacked individually.
 >
-> <div class="css-1pxjcr8">Untamable</div>
+> ##### Untamable
 >
 > After the dire elk attacks a target, hit or miss, it may force one character in the same zone as it to move one zone (the destination is their choice)
 
@@ -2517,29 +2376,27 @@ Werewolves, when in their wolf form, display an incredible regenerative quality.
 
 > ## Werewolf
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Muscular anthropomorphic wolf` • `Vulnerable to silver` • `Quick regeneration`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Muscular (Athletics and Physique)
->
 > - +2 Hunt (Notice and Fight)
->
 > - +1 Rage (Will)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Regeneration</div>
+> ##### Regeneration
 >
 > Werewolves will truly never die unless exposed to silver. Attacks that do not involve silver (silver bullets, a silver-coated blade, etc.) can deal stress and consequences to the werewolf, but _cannot_ take it out. At the beginning of each of the werewolf’s turns, if it was not exposed to silver in the previous round, it unchecks its lowest checked stress box
 
@@ -2553,29 +2410,28 @@ That’s where I come in. Now, if you’re all out of questions; you’re under 
 
 > ## Mutant
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Mutated victim of an unnamed substance` • `A minor case of very bad cancer` • `The government’s dirty little secret` • `Penchant for destruction`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Rage (Fight)
->
 > - +1 Resistance (Will)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Something extra</div>
+> ##### Something extra
 >
 > Every mutant is different. This mutant gains two of the following skills, with an aspect of the same name. If the same skill is added twice, the higher value applies :+4 _Bulging muscles_ (Physique)+3 _Prehensile tail_ (Burglary and Athletics)+4 _Overactive adrenal glands_ (Athletics)+3 _Extra set of arms_ (Athletics and Physique+3 _X-ray vision_ (Notice and Investigate)+3 _Slime excretion_ (Burglary and Provoke)+3 _Pheromones excretion_ (Rapport and Contacts)+4 _Active camouflage_ (Stealth
 
@@ -2587,75 +2443,73 @@ With the slow fade of undead labor, so too did knowledge of the rituals used. So
 
 > ## Iron Skeleton
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Undead skeleton` • `Iron-dipped bones` • `Dragging a warhammer` • `Slow and heavy`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Smash (Fight)
->
 > - +2 Iron bones (Physique)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Heavy-handed</div>
+> ##### Heavy-handed
 >
 > If the iron skeleton succeeds with style on a Fight attack, his target is Knocked to the ground. The iron skeleton may invoke the _Knocked down_ aspect for free
 
 > ## Silver Skeleton
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Undead skeleton` • `Silver-dipped bones` • `Wielding a rapier` • `Light and brittle`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Slash (Fight)
->
 > - +2 Dancing bones (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Reassemble</div>
+> ##### Reassemble
 >
 > At the beginning of each of its turns in a conflict, the silver skeleton will assemble any lost bones, recovering the lowest checked stress box
 
 > ## Golden Skeleton
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Undead skeleton` • `Gold-dipped bones` • `Heavy and brittle` • `Radiating heat`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Burn (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Conglomerate</div>
+> ##### Conglomerate
 >
 > If a golden skeleton is destroyed in the same zone as this golden skeleton, this golden skeleton will pull some of its bones to itself. Then this happens, the golden skeleton gains an empty [1] stress box.
 >
-> <div class="css-1pxjcr8">Hot gold</div>
+> ##### Hot gold
 >
 > The golden skeleton may invoke _Radiating heat_ for free anytime it would make sense to invoke
 
@@ -2667,43 +2521,39 @@ Like regular snakes, their giant cousins tote dangerous venom that they deliver 
 
 > ## Giant Snake
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Massive slithering reptile` • `One track mind` • `Unhinging jaw` • `Valuable scales`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Constrict (Physique)
->
 > - +4 Ready (Notice)
->
 > - +3 Bite (Fight)
->
 > - +2 Slither (Athletics)
->
 > - +1 Motionless (Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild physical consequence [2]</div>
+> ##### Mild physical consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate physical consequence [4]</div>
+> ##### Moderate physical consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Venom</div>
+> ##### Venom
 >
 > When a giant snake inflicts stress with a Bite (Fight) attack, the defender gains the _Poisoned_ aspect. Removing this aspect requires an overcome check with a difficulty equal to the shifts of physical stress inflicted in the attack. Additionally, the attack inflicts 1 shift of mental stress.
 >
-> <div class="css-1pxjcr8">Swallow</div>
+> ##### Swallow
 >
 > When a giant snake succeeds with style on a Bite (Fight) attack, they may forgo the normal benefits of a success with style, as well as the benefits gained from their Venom stunt. If they choose to do this, the target of the attack gets _Swallowed_.
 >
-> <div class="css-1pxjcr8">Constrict</div>
+> ##### Constrict
 >
 > When a giant snake attacks a target that they have created the _Constricted_ aspect on, they may use Constrict (Physique) instead of Bite (Fight). This attack is not eligible for the benefits of the Venom or Swallow stunts
 
@@ -2715,45 +2565,41 @@ Silver dragons enjoy learning about the traditions of the mortal races and parta
 
 > ## Silver Dragon
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Massive winged silver reptile` • `Distrusting of others` • `Good-natured and intelligent` • `Infatuated with mortal traditions`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Tradition (Lore)
->
 > - +4 Majestic beast (Physique and Athletics)
->
 > - +3 Deadly (Fight, Shoot, and Provoke)
->
 > - +2 Good-natured (Rapport)
->
 > - +1 Collected treasure (Resources)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-1pxjcr8">Severe consequence [6]</div>
+> ##### Severe consequence [6]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Chilling breath</div>
+> ##### Chilling breath
 >
 > As an action, the silver dragon targets a zone (within shooting range) with a Deadly (Shoot) attack. All characters in the zone must defend against the attack and take stress independently. The zone gains the _Slick_ aspect.
 >
-> <div class="css-1pxjcr8">Poison gas</div>
+> ##### Poison gas
 >
 > As an action, the silver dragon targets everyone in the zone it occupies with a Deadly (Shoot) attack. All characters in the zone must defend against the attack and take stress independently. Each character that takes stress from the attack gains the _Poisoned_ aspect.
 >
-> <div class="css-1pxjcr8">The collector’s eye</div>
+> ##### The collector’s eye
 >
 > The silver dragon has done research on where powerful artifacts may lie in the surrounding area. It gets +2 to Tradition (Lore) checks to recall the potential location of magical items
 
@@ -2765,91 +2611,85 @@ _Troop-scale combat: The following characters are ‘troop scale.’ That means 
 
 > ## Company of Infantry
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Company of 200 foot soldiers` • `Vulnerable to cavalry charges` • `Wielding swords and spears` • `Equipped with kite shields`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Close quarters combat (Fight)
->
 > - +2 Iron morale (Will)
->
 > - +1 Training regiments (Physique and Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop stress</div>
+> ##### Troop stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Morale stress</div>
+> ##### Morale stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Hold the line!</div>
+> ##### Hold the line!
 >
 > The company of infantry gets +2 to Close quarters combat (Fight) checks when defending. Additionally, enemy companies cannot pass through an infantry line unless the infantry line has no unchecked stress boxes, or allows them t
 
 > ## Company of Archers
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Company of 100 long bowmen` • `Vulnerable to close quarters combat` • `Wielding longbows`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Volley of arrows (Shoot)
->
 > - +1 Stand together (Will)
->
 > - +1 Training regiments (Physique and Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop stress</div>
+> ##### Troop stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Morale stress</div>
+> ##### Morale stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Fire at will!</div>
+> ##### Fire at will!
 >
 > When the company of archers attacks using Volley of arrows (Shoot), they may decide to _fire at will_. If they do this, instead of targeting a specific troop, they target an entire zone of the battlefield within range. All troops in the zone, including allies, must roll defense and take stress individually
 
 > ## Company of Cavalry
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Company of 30 horsemen` • `Vulnerable to arrow fire` • `Mounted on horseback` • `Wielding lances and axes` • `Equipped with kite shields`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Mounted combat (Fight)
->
 > - +2 Iron morale (Will)
->
 > - +2 On horseback (Physique and Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop stress</div>
+> ##### Troop stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Morale stress</div>
+> ##### Morale stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Charge!</div>
+> ##### Charge!
 >
 > The company of cavalry get a +3 on Mounted combat (Fight) attacks if they are made immediately after entering a zone
 
@@ -2861,91 +2701,85 @@ _Troop-scale combat: The following characters are ‘troop scale.’ That means 
 
 > ## Company of Wardrummers
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Company of 20 drummers` • `Vulnerable to attack` • `Carrying large mounted drums` • `Lightly armed`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Command patterns (Rapport)
->
 > - +2 Fear patterns (Provoke)
->
 > - +1 Training regiments (Physique and Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troops stress</div>
+> ##### Troops stress
 >
 > [1
 >
-> <div class="css-1pxjcr8">Morale stress</div>
+> ##### Morale stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Drums of war</div>
+> ##### Drums of war
 >
 > Wardrummers inform allies of battle plans through the patterns they play. When the company of wardrummers successfully creates an advantage using Command patterns (Rapport), they get two additional free invokes of the resulting aspect.
 
 > ## Company of Light Infantry
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Company of 100 foot soldiers` • `Vulnerable to cavalry charges` • `Lightly armed and armored` • `Mobile` • `Equipped for forest travel`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Mobility training (Athletics)
->
 > - +2 Iron morale (Will)
->
 > - +1 Close quarters combat (Fight)
->
 > - +1 Shortbows (Shoot)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop stress</div>
+> ##### Troop stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Morale stress</div>
+> ##### Morale stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Press the advantage</div>
+> ##### Press the advantage
 >
 > Aspects due to terrain that are negatively affecting enemies can be invoked by the company of light infantry for free.
 
 > ## Company of Spearmen
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Company of 100 spearmen` • `Low mobility` • `Wielding long pikes` • `Anti-charge infantry`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Phalanx (Fight)
->
 > - +2 Iron morale (Will)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop stress</div>
+> ##### Troop stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Morale stress</div>
+> ##### Morale stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Wall of pikes</div>
+> ##### Wall of pikes
 >
 > It is difficult to mount an attack against an army protected by rows of long polearms without careful maneuvering. Any allied troops in the same zone as the spearmen, including the spearmen themselves, get the following ability; When defending against Fight attacks, deal stress back to the attacker equal to the shifts of a successful defense, provided the attacker moved into this troop’s zone earlier on this turn. If there are multiple allied spearmen in this zone, the effect does not stack
 
@@ -2959,67 +2793,61 @@ Some military troops have recognized the potency of having domesticated gryphons
 
 > ## Gryphon
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Large lion-eagle hybrid` • `Territorial hunter` • `Courageous` • `Can fly`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Talons (Fight)
->
 > - +3 Muscular (Physique)
->
 > - +2 Deft (Athletics)
->
 > - +1 Keen (Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Violent landing</div>
+> ##### Violent landing
 >
 > The gryphon can land in such a way that it throws its body weight into its enemies. When the gryphon ends its movement for the turn by landing, it can make a free Muscular (Physique) attack against one character in the zone.
 >
-> <div class="css-1pxjcr8">Snatch</div>
+> ##### Snatch
 >
 > When the gryphon succeeds on a Talons (Fight) check against a target on the ground while flying it may choose to reduce the stress inflicted by one to impose a _Snatched_ aspect on the character. Until _Snatched_ is removed, the gryphon is holding the character in its talons
 
 > ## Gryphon Rider
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Gryphon jockey and trainer` • `Fearless enough to try it` • `Saddle suited for flight`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Jockey (Athletics)
->
 > - +2 Javelins (Shoot)
->
 > - +2 Spear (Fight)
->
 > - +1 Gryphon training (Lore and Empathy)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Gryphon Riding</div>
+> ##### Gryphon Riding
 >
 > When mounted in the saddle, the gryphon rider automatically succeeds on any checks related to remaining mounted to the gryphon if the source of opposition is related just to the speed or movement of the gryphon.
 >
-> <div class="css-1pxjcr8">Eccentric Combat</div>
+> ##### Eccentric Combat
 >
 > The gryphon rider gets a +2 to any Athletics checks related to leaping from one place to another, grabbing something, maintaining a grip on something, or rolling with a fall or impact
 
@@ -3031,91 +2859,85 @@ _Troop-scale combat: The following characters are ‘troop scale.’ That means 
 
 > ## Trebuchet Troop
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Three trebuchets with 15 attending soldiers` • `Vulnerable to attack` • `Lightly armed and armored attendants` • `Flammable frame`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Boulder fling (Shoot)
->
 > - +1 Stay on target (Will)
->
 > - +1 Training regiments (Physique and Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop stress</div>
+> ##### Troop stress
 >
 > [1
 >
-> <div class="css-1pxjcr8">Morale stress</div>
+> ##### Morale stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Siege Weapon</div>
+> ##### Siege Weapon
 >
 > The trebuchet troop gets +2 to attacks and advantage creation when using Boulder fling (Shoot) against structures or characters hiding in structures
 
 > ## Mobile Stair Towers
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Three tall wheelable towers with 50 attending soldiers` • `Flammable frame` • `Lightly armed and armored attendants`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Engineered for war (Crafts)
->
 > - +2 Strength training (Physique)
->
 > - +1 Defend the towers (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop stress</div>
+> ##### Troop stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Morale stress</div>
+> ##### Morale stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Mobile Staircase</div>
+> ##### Mobile Staircase
 >
 > When the mobile stair towers are adjacent to a wall or tower with a walkable top, soldiers can ascend or descend the staircase within to negate any negative aspects related to scaling the wall. Additionally, the attendants of the mobile stair towers can create an advantage to make the towers _Locked on to the walls_ using Engineered for war (Crafts).
 
 > ## Battering Ram Ogres
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Three large battering rams carted by 6 trained ogres` • `Flammable frame` • `Brutish ogres`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Smash! (Fight) +2 Tough skin (Physique and Will)
->
 > - -2 Puny minds (Lore, Investigate, Notice)
->
 > - -1 Big and slow (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop stress</div>
+> ##### Troop stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Morale stress</div>
+> ##### Morale stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Battering Rams</div>
+> ##### Battering Rams
 >
 > This troop is immune to penalties related to the difficulties of attacking a structure
 
@@ -3127,97 +2949,92 @@ These ships typically have crews from 2 two 6 members, and can take a wide varie
 
 > ## Small Hauler
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Four-crewmember cargo hauler` • `Broad target` • `Equipped with distress beacon`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Cargo holds (Size)
->
 > - +2 Trade networking (Comms)
->
 > - +1 Defensive system (Shields and Mass Drivers)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Tech Stress</div>
+> ##### Tech Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Integrity Stress</div>
+> ##### Integrity Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Cargo</div>
+> ##### Cargo
 >
 > [3] • [4
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Low-Power Life-Support</div>
+> ##### Low-Power Life-Support
 >
 > The life-support system on this vessel is battery powered and takes little energy. Whenever this ship is powered down, whether manually or by force, the passengers are still supported by basic life support. While this is true, the ship adds +2 opposition to Scanner and Sensor checks meant to find it
 
 > ## Small Mining Vessel
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Three-crewmember mining vessel` • `Bare essential systems` • `Front-mounted drill`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Mining laser (Laser and Extraction)
->
 > - +2 Mineral scanner (Scanner)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Tech Stress</div>
+> ##### Tech Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Integrity Stress</div>
+> ##### Integrity Stress
 >
 > [2
 >
-> <div class="css-1pxjcr8">Cargo</div>
+> ##### Cargo
 >
 > [1
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Clamp System</div>
+> ##### Clamp System
 >
 > This vessel is equipped with claw-like extrusions that allow it to lock on to asteroids, ships, and other moving objects. The vessel gains +2 to any overcome or create an advantage check related to attaching itself to other objects
 
 > ## Small Pirate Ship
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Five-crewmember unscrupulous fightercraft` • `Fuel-hog` • `Heat-seeking missiles`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Gatling turret (Mass Drivers)
->
 > - +2 Defensive measures (Shields and Armor)
->
 > - +1 Heat-seeking payload (Missiles)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Tech Stress</div>
+> ##### Tech Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Integrity Stress</div>
+> ##### Integrity Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Finish the job</div>
+> ##### Finish the job
 >
 > A target getting away could mean a whole lot more trouble than it’s worth. This vessel gets +2 to Thrust overcome checks to catch up to fleeing targets
 
@@ -3229,89 +3046,86 @@ _Troop-scale combat: The following characters are ‘troop scale.’ That means 
 
 > ## Company of Warmages
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Company of 60 warmages` • `Vulnerable to cavalry charges` • `Robed and lightly armored`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Destruction magic (Fight, Shoot, and Lore)
->
 > - +1 Concentration (Will)
->
 > - +1 Endurance training (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop Stress</div>
+> ##### Troop Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Morale Stress</div>
+> ##### Morale Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Scars of Havoc</div>
+> ##### Scars of Havoc
 >
 > When the company of warmages succeeds with style on an attack using Destruction magic (Fight or Shoot), they automatically gain a boost without needing to lower the inflicted stress. Additionally, the boost has two invokes rather than one
 
 > ## Undead Fodder
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `300 walking corpses and 20 necromancers` • `Vulnerable to anti-magic` • `Feel no fear`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Maul (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop Stress</div>
+> ##### Troop Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Morale Stress</div>
+> ##### Morale Stress
 >
 > [(Immune)
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Feel no fear</div>
+> ##### Feel no fear
 >
 > The undead fodder are immune to fear based effects and cannot take morale stress.
 >
-> <div class="css-1pxjcr8">Wall of bodies</div>
+> ##### Wall of bodies
 >
 > Enemy companies cannot pass through a line of undead fodder unless the fodder has no unchecked stress boxes, or allows them to
 
 > ## Company of Terror-drummers
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Company of 20 drummers` • `Vulnerable to attack` • `Carrying large enchanted drums` • `Unarmed`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Fear-inducing drums (Provoke)
->
 > - +1 Training regiments (Physique and Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Troop Stress</div>
+> ##### Troop Stress
 >
 > [1
 >
-> <div class="css-1pxjcr8">Morale Stress</div>
+> ##### Morale Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Drums of terror</div>
+> ##### Drums of terror
 >
 > The sound of the enchanted drums strikes fear into the hearts of enemies. When the company of terror-drummers successfully creates an advantage using Fear-inducing drums (Provoke), they get two additional free invokes of the resulting aspect.
 
@@ -3321,95 +3135,87 @@ When asked what it means for a space vessel to be “medium-sized” you’re li
 
 > ## Military Missile-boat
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Eight-crewmember military artillery ship` • `Skeleton crew`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Missile launchers (Missiles)
->
 > - +3 Large armament chambers (Size)
->
 > - +2 Rotary guns (Mass Drivers)
->
 > - +1 Defensive measures (Shields and Armor)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Tech Stress</div>
+> ##### Tech Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Integrity Stress</div>
+> ##### Integrity Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Target lock</div>
+> ##### Target lock
 >
 > The missile-boat has a system to lock on to moving targets. This vessel may create advantages called _Locked_ on using Sensors. The military missile-boat may invoke _Locked_ on aspects for fre
 
 > ## Luxury Space-bus
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Fifteen-crewmember luxury passenger ship` • `Not built for combat` • `Room for thirty passengers`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Luxury accommodations (Provisions) +3 Luxury service AI (Onboard AI)
->
 > - +2 Spacious seating (Size)
->
 > - +1 Onboard holo-web access (Comms)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Tech Stress</div>
+> ##### Tech Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Integrity Stress</div>
+> ##### Integrity Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Emergency pacification system</div>
+> ##### Emergency pacification system
 >
 > In the case of attack or tragedy, the luxury space-bus needs to be able to maintain peace among the passengers. In order to keep things calm and painless, the crew has the ability to flood the passenger cabin with gasses that will put humans into a deep, numbing sleep. Once per scene, the crew can create the _Pacification_ gas aspect for free inside the cabin
 
 > ## Data Mover
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Ten-crewmember mobile datacenter` • `Valuable target` • `Information makes the galaxy go round`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Data management system (Onboard AI)
->
 > - +2 Data transfer system (Comms)
->
 > - +2 Defensive measures (Shields and Armor)
->
 > - +1 Huge server racks (Size)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Tech Stress</div>
+> ##### Tech Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Integrity Stress</div>
+> ##### Integrity Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Hacking countermeasures</div>
+> ##### Hacking countermeasures
 >
 > In the case that the data mover gets hacked, the advanced onboard AI will leap into action to trace the attack and launch a counter-hack. After all, risk of being counter-hacked is a great deterrent to hackers. When the Data Mover successfully defends against an attack that would have dealt Tech Stress, all surplus shifts of the defense roll are dealt as Tech Stress to the attacker, if applicable
 
@@ -3421,91 +3227,85 @@ _Note: These stat blocks are compatible with the Troop Scale character sheets I�
 
 > ## War Galley
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Warship crewed by about 200 sailors` • `Propelled manually by rowing` • `No reliance on favorable winds`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Cannons (Shoot)
->
 > - +3 Manual steering (Drive)
->
 > - +2 Boarding (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Crew stress</div>
+> ##### Crew stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Ship stress</div>
+> ##### Ship stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Overwhelm</div>
+> ##### Overwhelm
 >
 > Galleys have very large crews which often overwhelm other ships in boarding fights. When making Boarding (Fight) attacks against other ships, the war galley adds +2 to the roll
 
 > ## Pirate Cutter
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Pirating ship crewed by about 12 sailors` • `Small crew small capacity` • `Designed for speed`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Excellent speed (Athletics)
->
 > - +1 Cannons (Shoot)
->
 > - +1 Quick course-corrections (Stealth and Deceive)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Crew stress</div>
+> ##### Crew stress
 >
 > [1
 >
-> <div class="css-1pxjcr8">Ship stress</div>
+> ##### Ship stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Designed for speed</div>
+> ##### Designed for speed
 >
 > The cutter is lightweight and hard to outmatch in speed. The cutter can move two zones with a single move, and never has to roll to do so
 
 > ## Trading Carrack
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Trading ship crewed by about 60 sailors` • `Reliant on favorable winds` • `Built for deep-ocean travel` • `Large cargo holds`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Cargo holds (Resources)
->
 > - +2 Hardy hull (Physique)
->
 > - +1 Cannons (Shoot)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Crew stress</div>
+> ##### Crew stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Ship stress</div>
+> ##### Ship stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Well provisioned</div>
+> ##### Well provisioned
 >
 > The trading carrack is provisioned for long journeys. As long as the ship remains on it’s intended course, it and it’s crewmembers never need to roll to overcome hunger, thirst, or sickness
 
@@ -3517,65 +3317,60 @@ Orcs, however, take a different approach when encountering dire wolves. Where ot
 
 > ## Dire Wolf
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Oversized wolf` • `Untamable beast - “tamed”` • `Bloodthirsty`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Untamable (Athletics)
->
 > - +3 Maul (Fight)
->
 > - +2 Keen nose (Notice)
->
 > - +2 Terrifying (Provoke)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Play with my food</div>
+> ##### Play with my food
 >
 > After a dire wolf hits with a Maul (Fight) attack, the target of the attack is dragged with the dire wolf if it moves zones for the remainder of its turn. If this happens, the target of the attack must make an overcome check with Physique or Athletics not to fall _Prone_. The difficulty is equal to the shifts of the Maul (Fight) attack.
 >
-> <div class="css-1pxjcr8">Out of control</div>
+> ##### Out of control
 >
 > When the dire wolf’s rider is taken out or separated from the dire wolf, it goes into a mad frenzy. The wolf will not treat any character in the scene as friendly, since it simply cannot tell the difference. Additionally, when the dire wolf makes an attack against a character that attacked them since their last turn, they add +1 to the roll
 
 > ## Dire Wolf Rider
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Orcish wolf-tamer` • `Chained to the beast` • `Wielding a spear and javelins` • `Unreasonable courage`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Spear (Fight)
->
 > - +2 Javelin (Shoot)
->
 > - +1 Wolf whisperer (Empathy)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">In Sync</div>
+> ##### In Sync
 >
 > While the dire wolf rider is mounted on their dire wolf, treat them as the same character. Skills and stunts from both are available to the character, but their stress tracks remain separate.
 >
-> <div class="css-1pxjcr8">Ride or Die</div>
+> ##### Ride or Die
 >
 > Dire wolf riders chain their wrists to the collar of their dire wolves as a show of dominance. This also doubles as a method of remaining mounted on their beast. The dire wolf rider gains a +2 on checks to resist being dismounted. Also, the dire wolf and rider cannot move into separate zones until the _Chained to the beast_ aspect is removed
 
@@ -3587,35 +3382,33 @@ Imps are tragically lonely by nature, and will gravitate toward anyone who is wi
 
 > ## Imp
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Small devilish creature` • `Eternally lonely` • `Childish prankster`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Tag, you’re it! (Athletics)
->
 > - +2 Hide and seek (Burglary and Stealth)
->
 > - +1 Tickle (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Slippery</div>
+> ##### Slippery
 >
 > Imps are extremely difficult to pin down. When an imp fails any Tag, you’re it! (Athletics) roll, they may spend a Fate point to instead succeed.
 >
-> <div class="css-1pxjcr8">Shapeshift</div>
+> ##### Shapeshift
 >
 > An imp may create an advantage to transform into the form of any small animal. The imp gains the basic abilities of that animal, such as burrowing or flight. It’s skills, however, do not change.
 >
-> <div class="css-1pxjcr8">Subservient</div>
+> ##### Subservient
 >
 > Imps will do whatever they can to keep company. If a character spends more than two hours with an imp to bond with them, the imp will become emotionally attached to them. That character lowers their refresh by one until this bond is broken. Additionally, uses of Slippery take Fate points from that character’s supply. While bonded in this way, the imp will _usually_ follow the character’s commands. Occasionally the imp will purposefully misinterpret instructions from the character. However, the imp will straighten up if risk of losing their companion is apparent
 
@@ -3629,37 +3422,35 @@ In order to make ends meet, some troupes will sell their unique skill sets to wh
 
 > ## Circus Performer
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Roving performance artist` • `Dangerous for the sake of it` • `The troupe is my family`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Performance (Rapport)
->
 > - +3 Fit (Physique and Athletics)
->
 > - +2 Side-hustle (One other skill)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Peak physical shape</div>
+> ##### Peak physical shape
 >
 > A circus performer never has to roll Physique or Athletics overcome checks to move from one zone to another.
 >
-> <div class="css-1pxjcr8">Circus cant</div>
+> ##### Circus cant
 >
 > Circus performers have perfected a nonverbal form of communication with other performers of their troupe, and can communicate silently as long as they can see each other and have their hands and feet free.
 >
-> <div class="css-1pxjcr8">Life is a show</div>
+> ##### Life is a show
 >
 > Performers have learned how to use their craft in everyday life. A performer may spend a fate point to roll Performance in place of any other skill
 
@@ -3673,43 +3464,40 @@ The second category of vampires is known as the “afflicted.” They view vampi
 
 > ## Vampire
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Ageless blood drinker` • `Unconventional social restrictions` • `Vulnerable in sunlight` • `Cannot die from old age` • `Incredible strength and prowess` • `No reflection`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Vampiric power (Athletics and Physique)
->
 > - +3 Enchanting presence (Will, Rapport, Deceive, and Provoke)
->
 > - +2 Keen senses (Fight, Notice)
->
 > - +1 Creature of the night (Lore, Investigate, Contacts, Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-1pxjcr8">Severe consequence [6]</div>
+> ##### Severe consequence [6]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Difficult to kill</div>
+> ##### Difficult to kill
 >
 > While a vampire takes stress and consequences as normal, they may not be taken out except by a wooden or silvered stake through the chest or by being forced to swallow garlic. After taken out, if proper precautions are not taken, a vampire will come back to life in a week’s time. Precautions include decapitating the body, salting the remains, and burying the pieces in separate places.
 >
-> <div class="css-1pxjcr8">Unconventional social restrictions</div>
+> ##### Unconventional social restrictions
 >
 > Vampires compulsively _must_ follow certain restrictions. There are many, but the following are some of them; Vampires may not enter someone’s building unless invited inside. Vampires may not cross running water. Vampires may not stand on consecrated grounds such as churches or temples. Vampires may not kill other vampires. Vampires may not approach religious symbols held out by an individual if the individual is praying.
 >
-> <div class="css-1pxjcr8">Vulnerable in sunlight</div>
+> ##### Vulnerable in sunlight
 >
 > While in direct sunlight, the power of a vampire is reduced. During that time, they roll +0 for all skills
 
@@ -3721,49 +3509,45 @@ They tend to be quite successful. Many attribute this to the leader of the clan,
 
 > ## Mo’Morath
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Hobgoblin leader of the Bonesharp Clan` • `Prideful` • `Armor of Various Melted Metals` • `Imposing Strategist` • `Goblinoid`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Red-hot blade (Fight)
->
 > - +4 Heat metal (Lore)
->
 > - +3 Muscular (Physique)
->
 > - +2 Quick thinker (Investigate and Notice)
->
 > - +1 Conditioning (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical Stress</div>
+> ##### Physical Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mental Stress</div>
+> ##### Mental Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-1pxjcr8">Severe consequence [6]</div>
+> ##### Severe consequence [6]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Heat metal</div>
+> ##### Heat metal
 >
 > Mo’Morath has mastered a single evocation spell: heat metal. He may use Lore when creating advantages or overcoming opposition using this spell. Advantages created with heat metal are affected by the _Imposing strategist_ stunt. Mo’Morath heats metals using his hands, and may not do it at a range. Mo’Morath utilizes this spell often, and keeps a handful of iron poles in his backpack, ready to be melted.
 >
-> <div class="css-1pxjcr8">Sunderer</div>
+> ##### Sunderer
 >
 > When being attacked by a character in the same zone, Mo’Morath may forgo protecting himself to focus on sundering the equipment of his opponent. To do this, Mo’Morath does not roll to defend. Simultaneously, he may roll to create an advantage representing how he damages his attacker’s equipment. If the roll used Investigate, Lore, or Notice, it is affected by the Imposing Strategist stunt.
 >
-> <div class="css-1pxjcr8">Imposing strategist</div>
+> ##### Imposing strategist
 >
 > Advantages Mo’Morath creates using Investigate, Lore, or Notice come with an additional free invoke
 
@@ -3777,43 +3561,40 @@ These fiends stand around seven feet tall, with red skin and legs that look like
 
 > ## Chort Devil
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Deceptive deal-maker` • `Unabashedly evil` • `Wielder of fiendish magic`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Menacing presence (Fight, Deceive, and Provoke)
->
 > - +3 Fiendish magic (Lore, Shoot, Will and Empathy)
->
 > - +2 Devilish strength (Physique and Athletics)
->
 > - +1 Connections (Contacts)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [4
+> [1] • [2] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-1pxjcr8">Severe consequence [6]</div>
+> ##### Severe consequence [6]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Binding contracts</div>
+> ##### Binding contracts
 >
 > When a victim of the chort devil signs a contract, the terms are final. If a subject of one of these contracts breaks a condition written within, they will experience an agonizing pain. Each round that a character is in breach of a chort devil’s contract, they will take 1 point of mental stress. Ultimately, this will kill anyone who continues to defy the terms and conditions.
 >
-> <div class="css-1pxjcr8">Transformation</div>
+> ##### Transformation
 >
 > Chort devils can transform their physical appearance to that of any other humanoid. They may do this at will. If a chort devil is taken out, they return to their true form.
 >
-> <div class="css-1pxjcr8">Flaming touch</div>
+> ##### Flaming touch
 >
 > Once per turn, a chort devil may set something they are touching on fire for free. It gains an appropriate aspect
 
@@ -3829,45 +3610,41 @@ _Note: I’ve created most of the below stats and skills on the fly for this pos
 
 > ## The Icehawks
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Criminal trading company` • `Reputation for cruelty` • `Dealing in illicit goods` • `Conspicuous frontmen` • `Trade fleet`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Intimidation
->
 > - +4 Recruiting
->
 > - +3 Reputation
->
 > - +2 Hierarchy
->
 > - +1 Wealth
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Manpower</div>
+> ##### Manpower
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Harmony</div>
+> ##### Harmony
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Resources</div>
+> ##### Resources
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-1pxjcr8">Severe consequence [6]</div>
+> ##### Severe consequence [6]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Not to be trifled with</div>
+> ##### Not to be trifled with
 >
 > The first time the Icehawks receive manpower stress in a scene, they get +2 to Intimidation checks until the end of their next turn.
 
@@ -3879,73 +3656,69 @@ Microscopic food sources support the tiniest of creatures, and the spacious reac
 
 > ## Magmalodon
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Gargantuan underwater predator` • `One track mind` • `Averaging 50ft long` • `Red-hot glowing glands`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Shred (Fight)
->
 > - +4 Massive (Physique)
->
 > - +2 Sense blood (Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4] • [5
+> [1] • [2] • [3] • [4] • [5]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-1pxjcr8">Severe consequence [6]</div>
+> ##### Severe consequence [6]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Absolute unit</div>
+> ##### Absolute unit
 >
 > Whenever the magmalodon takes stress, if it is physical, reduce the amount of stress taken by 1, to a minimum of 1\. The magmalodon can never move more than one zone on a single turn.
 >
-> <div class="css-1pxjcr8">Hardy appetite</div>
+> ##### Hardy appetite
 >
 > The magmalodon attacks an inanimate object like a boat or a dock, add +2 to the attack roll.
 >
-> <div class="css-1pxjcr8">Hot to the touch</div>
+> ##### Hot to the touch
 >
 > Part of the magmalodon’s digestion system melts things it’s eaten into a magma-like paste. Waste is excreted through glowing hot glands speckled along its body. If a character ends its turn touching the magmalodon, they take 1 physical stress
 
 > ## Feed Squid
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Large blue squid` • `Relatively harmless` • `Averaging 6ft long` • `Feeding glands`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Feeding glands (Contacts)
->
 > - +3 Propel (Athletics)
->
 > - +2 Natural camouflage (Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Avoid predators</div>
+> ##### Avoid predators
 >
 > When a character moves into the same zone as the feed squid, it may spend a fate point to move one zone.
 >
-> <div class="css-1pxjcr8">Release feed</div>
+> ##### Release feed
 >
 > When the feed squid feels threatened, it will release into the water a cloud of stored microscopic lifeforms as well as a mixture of chemicals. The chemicals and lifeforms serve as an enticing meal for nearby creatures, pulling their attention to where the feed has been released. This can distract potential predators as a different source of food becomes available, as well as a flood of nearby creatures. Once per scene, the feed squid may make a Feeding glands (Contacts) roll. A number of creatures or swarms of small creatures equal to the result appear in the scene, and the aspect _Tasty Feed_ is added to the zone where the feed was released
 
@@ -3957,53 +3730,49 @@ These types of bards indulge in the same kinds of activities, but they tend to d
 
 > ## Non-magical Bard
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Traveling entertainer` • `Chronicler of great deeds` • `Master of oral tradition`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Perform (Rapport)
->
 > - +3 Oral tradition (Lore)
->
 > - +2 People person (Empathy and Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Soothing melodies</div>
+> ##### Soothing melodies
 >
 > The bard may perform while others rest to give them a sense of comfort. Once per scene they may play a soothing song. When they do this, all resting characters may un-check one mental stress box. Additionally, rolls to begin healing consequences are given +1
 
 > ## Magical Bard
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Practitioner of performative magic` • `Enchanting aura` • `Invaluable ally`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Perform (Rapport)
->
 > - +3 Emotional magic (Will and Empathy)
->
 > - +2 Dissonant notes (Shoot and Provoke)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Enchanting tune</div>
+> ##### Enchanting tune
 >
 > Once per scene the bard may use an action to play a magical tune. They may create one aspect related to the nature of this tune. The aspect has three free invokes instead of one
 
@@ -4015,51 +3784,46 @@ As the stories go, hydras are multi-headed, serpent-like amphibians. Notably, th
 
 > ## Hydra
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Multi-headed serpentine beast of legend` • `Vulnerable to fire` • `Primarily aquatic amphibian` • `Highly regenerative`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +(Special) Razor jaws (Fight)
->
 > - +(Special) Many eyes (Notice)
->
 > - +3 Unstoppable force (Athletics)
->
 > - +3 Unmovable wall (Physique)
->
 > - +2 Entirely intense (Provoke)
->
 > - +2 Force of nature (Will)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Heads</div>
+> ##### Heads
 >
 > [2] • [2] • [2] • [2] • [2
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-1pxjcr8">Severe consequence [6]</div>
+> ##### Severe consequence [6]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Heads</div>
+> ##### Heads
 >
 > Hydras track their stress with ‘heads’ rather than with stress boxes. On the surface level they work the same as standard typeless stress boxes, absorbing physical and mental stress. Checking a ‘heads’ box means one of the hydra’s heads was removed or damaged beyond function. If ‘heads’ boxes are ever added or unchecked, this represents the hydra regrowing new heads. Stress to the heads track overflows from checkbox to checkbox, allowing characters to destroy more than one head in a single attack.
 >
-> <div class="css-1pxjcr8">Head-first approach</div>
+> ##### Head-first approach
 >
 > The skill rank of a hydra’s Razor jaws (Fight) and Many eyes (Notice) skills are equal to the number of unchecked ‘heads’ boxes they have.
 >
-> <div class="css-1pxjcr8">Regeneration</div>
+> ##### Regeneration
 >
 > At the end of their turn, a hydra will regrow heads if they lost at least one within the last round and did not receive any stress from sources of fire within the last round. When this happens, the hydra regrows two heads. For each head they regrow, uncheck a ‘heads’ box if possible. If there are no ‘heads’ boxes checked when a head regrows, add a new [2] ‘heads’ box instead.
 >
-> <div class="css-1pxjcr8">Poison breath</div>
+> ##### Poison breath
 >
 > A hydra may spend a fate point to spew poison breath from one of their heads. They choose to target either the zone they are in or an adjacent zone. The targeted zone gains the _Poison breath_ aspect. Any character other than a hydra that ends its turn in a zone with _Poison breath_ must defend against a static 2 difficulty Poison breath attack. A hydra may not use this ability if it has three or less functioning heads
 
@@ -4071,47 +3835,43 @@ The reason for their sickening name is due to their habit of stealing the visage
 
 > ## Face-Stealer
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Malevolent centipede-like aberration` • `Binding behaviors` • `Stealer of Faces` • `Burrower`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Emotional leech (Empathy)
->
 > - +3 Skitter (Athletics)
->
 > - +3 Question master (Deceive)
->
 > - +2 Claws (Fight)
->
 > - +2 Wild throws (Physique)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Burrowing</div>
+> ##### Burrowing
 >
 > The face-stealer is a burrowing creature by nature, and can use this to its advantage to escape danger. After successfully defending against an attack using Skitter (Athletics), the face-stealer may burrow underground.
 >
-> <div class="css-1pxjcr8">Scale walls</div>
+> ##### Scale walls
 >
 > The face-stealer can walk along vertical and inverted surfaces without any difficulty.
 >
-> <div class="css-1pxjcr8">Face-stealing</div>
+> ##### Face-stealing
 >
 > The face-stealer can steal the visage of those it kills. When the face-stealer kills a character, it adds that character’s face to its growing repertoire of faces. As an action, the face-stealer can swap out its current face with one it has access to. While donning a face, the face-stealer has access to the highest ranked skill the character possessed while living. It may use this skill at the same rank the character had it.
 >
-> <div class="css-1pxjcr8">Emotional leach</div>
+> ##### Emotional leach
 >
 > The face-stealer can drain life and emotion from characters in certain cases. It may only do this to characters that have answered at least one question it has asked. The face-stealer may use Emotional leech (Empathy) to make attacks against characters in the same zone as it, provided they have answered one of the face-stealer’s questions. Stress inflicted by this attack is applied to both physical and mental stress tracks if both exist.
 
@@ -4123,43 +3883,39 @@ Secondly, the slip-spider weaves webs to capture its prey. Unlike your average s
 
 > ## Slip-Spider
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Anachro-arachnid` • `Acts on instinct` • `Spindly legs` • `Limited time-travel`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Slip-stream movement (Athletics)
->
 > - +3 Unpredictable (Deceive)
->
 > - +3 Insatiable (Fight)
->
 > - +2 Read timelines (Notice)
->
 > - +2 Optimal approach (Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Liquid Time</div>
+> ##### Liquid Time
 >
 > The slip-spider has time on its side. It can see and react to things before they occur. Every round in a conflict the slip-spider can decide where in the turn order to act. It does not need to decide until the moment it acts.
 >
-> <div class="css-1pxjcr8">Rewind Time</div>
+> ##### Rewind Time
 >
 > The slip-spider pokes and prods at the various timelines it weaves around it to set itself on the most convenient path. After the slip-spider takes an action, it may spend a fate point to undo that action. The slip-spider’s turn is still used. Those in the same zone as the slip-spider will experience time reversing in that moment, but will not be able to do anything about it. Those outside of its zone will not even know it happened.
 >
-> <div class="css-1pxjcr8">Parallel Agency</div>
+> ##### Parallel Agency
 >
 > Moving forward and backward in time short distances allows the slip-spider to act alongside itself for brief periods. At the beginning of a turn, the slip-spider may spend a fate point to do this. Another instance of the slip-spider appears in the same or an adjacent zone, coming out of time-travel. Both slip-spider copies may act on this turn. At the beginning of the slip-spider’s next turn, the original instance of the slip-spider disappears into time-travel. Any stress, aspects, or otherwise applied to one copy of the slip-spider are also applied to the other; they are the same slip-spider, after all
 
@@ -4171,37 +3927,34 @@ Sirens are said to have the upper body of a woman and the lower body of a fish, 
 
 > ## Siren
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Sea-dwelling enchantress` • `Mermaid-esque physique` • `Irresistible song` • `Vile motives`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Siren’s song (Provoke)
->
 > - +3 Swim (Athletics)
->
 > - +2 Stunning beauty (Rapport and Deceive)
->
 > - +1 Retractable claws (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-1pxjcr8">Moderate consequence [4]</div>
+> ##### Moderate consequence [4]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Siren’s Song</div>
+> ##### Siren’s Song
 >
 > The song of the siren is an enchanting, nearly irresistible call. At the beginning of each turn, a character that can hear the song of a siren will feel compelled to approach the source of the siren’s call. They must make an overcome Will roll with a flat difficulty of 4\. If they fail, they will do everything in their power on their turn to move closer to the source of the siren’s song. Additionally, they will make no attempt to restrain themselves or cover their ears or eyes. If this would cause an affected character to do something _imminently_ dangerous to their own health, like jumping overboard, they can make one more attempt to overcome the siren‘s song this turn.
 >
-> <div class="css-1pxjcr8">Feed on death</div>
+> ##### Feed on death
 >
 > Sirens feed off of the negative emotions of those who die around them. At the beginning of the siren’s turn, they may clear a number of shifts worth of stress and consequences from themselves. The number of shifts must be equal to or less than the number of non-siren characters they’ve witnessed die since their last turn
 
@@ -4213,81 +3966,75 @@ These creatures resemble an ungodly rendition of a squid or octopus, with tentac
 
 > ## Kraken
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Gargantuan terror of the depths` • `Unfathomable strength` • `Creature of legend` • `Unrelenting`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Gaping Maw (Fight)
->
 > - +4 Muscular Body (Physique)
->
 > - +3 Deadly Approach (Stealth)
->
 > - +2 Squirm (Athletics)
->
 > - +2 Sense Prey (Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Scars</div>
+> ##### Scars
 >
-> [1] • [2] • [3] • [4] • [5] • [6] • [7] • [8] • [9] • [10
+> [1] • [2] • [3] • [4] • [5] • [6] • [7] • [8] • [9] • [10]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Scars</div>
+> ##### Scars
 >
 > Kraken’s don’t track their stress like other characters. Instead they have scars. The scars track is shared between all parts of the kraken. Scars cannot be removed in any way, even between scenes. When stress is dealt to any part of the kraken, and there are no open scar checkboxes that can absorb the stress, the kraken is killed (and therefore taken out).
 >
-> <div class="css-1pxjcr8">Causing scars</div>
+> ##### Causing scars
 >
 > If an attack is successful by less than 4 shifts, no scar stress is dealt. Instead, the character who attacked successfully gains a boost. If an attack is successful by 4 or more shifts, subtract 3 from the number of shifts and deal that as stress to the kraken’s scar track.
 >
-> <div class="css-1pxjcr8">Head and Tentacles</div>
+> ##### Head and Tentacles
 >
 > This character block represents the kraken’s head. The kraken also begins each scene with eight tentacles (see below). They move and act independently of the head, immediately after the head acts.
 >
-> <div class="css-1pxjcr8">Swimming titan</div>
+> ##### Swimming titan
 >
 > On its turn, the kraken’s head may move up to two zones without any additional rolls, instead of the usual one zone. If the kraken’s head does move, it may automatically create or remove the _Submerged_ aspect on itself for free.
 >
-> <div class="css-1pxjcr8">Gargantuan</div>
+> ##### Gargantuan
 >
 > The kraken’s head is massive. While it is not Submerged, it is considered to be its own zone that characters can move in or out of. If it becomes Submerged, any character on the kraken’s head is deposited into the water where the kraken went under.
 
 > ## Kraken’s Tentacle
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Massive flailing appendage` • `From the depths below`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Muscular Appendage (Physique)
->
 > - +3 Blunt Force Trauma (Fight)
->
 > - +2 Squirm (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Scarring tentacles</div>
+> ##### Scarring tentacles
 >
 > Attacks to the kraken’s tentacles use the scars mechanic described above. Additionally, when a tentacle is scarred it is taken out for the remainder of the scene.
 >
-> <div class="css-1pxjcr8">The kraken’s reach</div>
+> ##### The kraken’s reach
 >
 > On its turn, a kraken’s tentacle can move to any zone within two zones of the head. If it does move, it may automatically create or remove the Submerged aspect on itself for free.
 >
-> <div class="css-1pxjcr8">Crush the fodder</div>
+> ##### Crush the fodder
 >
 > If a kraken’s tentacle attacks a mook with a Blunt Force Trauma (Fight) attack, it instead targets all of the mooks in the zone. Only one mook may defend, and the attack takes out one mook for each shift of success. Additionally, when a kraken’s tentacle attacks a non-mook character, it may automatically take out one mook character in the same zone.
 >
-> <div class="css-1pxjcr8">Fling</div>
+> ##### Fling
 >
 > When a tentacle deals stress to a character with a Blunt Force Trauma (Fight) attack, it may forgo dealing that stress to instead move the targeted character that many zones in one direction
 
@@ -4299,41 +4046,37 @@ In the center of the room, resting on Kyle’s bed as if it were a pedestal, sit
 
 > ## Tina, The Uncaged
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Psionically Potent Dwarf Hamster` • `Just A Wee Thing` • `Telepathic Communicator`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +5 Psionic Potential (Will)
->
 > - +4 Commanding Presence (Empathy and Provoke)
->
 > - +3 Zoomies (Athletics)
->
 > - +2 Psionic Awareness (Notice)
->
 > - +1 Human Thralls (Contacts)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical Stress</div>
+> ##### Physical Stress
 >
 > [1
 >
-> <div class="css-1pxjcr8">Mental Stress</div>
+> ##### Mental Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild Mental Consequence [2]</div>
+> ##### Mild Mental Consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Induce Trance</div>
+> ##### Induce Trance
 >
 > Tina may use Psionic Potential (Will) to attack characters in the same zone as her. If a character would be taken out by such an attack, instead check all of their remaining mental stress boxes. They remain in the scene and gain the aspect Induced Trance. On their turn, if they still have this aspect, they cannot act on their own. At this time, Tina may roll an opposed Will check against them. On a success, Tina decides what they do on their turn. If Tina is taken out, the character is taken out, or the Induced Trance aspect is removed, the effect ends.
 >
-> <div class="css-1pxjcr8">Tina, The Caged</div>
+> ##### Tina, The Caged
 >
 > A character may choose to take Tina as an extra for a cost of 2 refresh. Being owned causes Tina to lose some of her willpower, and in turn her psionic abilities. She gains the _Rebellious_ aspect as a character aspect. Replace her skill list with the following (she does lose her bonus consequence slot):+3 Psionic Potential (Will+3 Zoomies (Athletics
 
@@ -4345,55 +4088,54 @@ For a communal species, kobold physiology is surprisingly varied. While most kob
 
 > ## Wingless Kobold
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Servile Reptilian Humanoid` • `Flightless` • `Lower Caste` • `Heat Resistant`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +1 Cave Survival (Crafts, Athletics, Fight, Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Proficient Trap Builder</div>
+> ##### Proficient Trap Builder
 >
 > Kobolds gain +2 to Cave Survival (Crafts) rolls when it pertains to trap building, trap disarming, and trap spotting.
 >
-> <div class="css-1pxjcr8">Power In Numbers</div>
+> ##### Power In Numbers
 >
 > Kobolds live and move in large packs. Where you find one, you are likely to find more. When a kobold is taken out of a scene, there is a chance for additional kobolds to show up. If the kobold which got taken out rolled in opposition to being taken out and at least two of the rolled fudge dice were +’s, a new kobold is added to the scene (In case you don’t have fudge dice, this is a 1 in 9 chance)
 
 > ## Winged Kobold
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Servile Reptilian Humanoid` • `Power of Flight` • `Upper Caste` • `Heat Resistant`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Winged (Athletics)
->
 > - +1 Crude Cave Survival (Crafts, Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Proficient Trap Builder</div>
+> ##### Proficient Trap Builder
 >
 > Kobolds gain +2 to Cave Survival (Crafts) rolls when it pertains to trap building, trap disarming, and trap spotting.
 >
-> <div class="css-1pxjcr8">Power In Numbers</div>
+> ##### Power In Numbers
 >
 > Kobolds live and move in large packs. Where you find one, you are likely to find more. When a kobold is taken out of a scene, there is a chance for additional kobolds to show up. If the kobold which got taken out rolled in opposition to being taken out and at least two of the rolled fudge dice were +’s, a new kobold is added to the scene (In case you don’t have fudge dice, this is a 1 in 9 chance)
 
@@ -4405,31 +4147,30 @@ My mate already had his hands swimmin’ in a pile a’ random loot in one chest
 
 > ## Mimic
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Shape-Changing Predator` • `Primal Unintelligence` • `Indistinguishable While Disguised` • `Adhesive While Disguised`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Flawless Disguise (Deceive and Stealth)
->
 > - +3 Toothy Chomp (Fight)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Shape-Change</div>
+> ##### Shape-Change
 >
 > Mimics can shift their amorphous shape into that of nearly any object that is roughly the same size as them. Shape-changing mid-scene takes an action and is undone if the mimic is taken out. Their disguises can be visually complex but will lack any mechanical complexity due to the globular nature of their true form. Mimics will often imitate alluring objects to draw the eye of potential prey. While disguised, mimics get a +2 to Provoke and Rapport checks to influence those who are unaware of their true form.
 >
-> <div class="css-1pxjcr8">Adhesive</div>
+> ##### Adhesive
 >
 > To assist in hunting, the body of a mimic will become sticky while they are disguised. Any character that touches a disguised mimic will gain the Adhesion aspect to represent this. Until the aspect is removed, characters may not separate themselves from the mimic. Mimics may invoke the _Adhesion_ aspect for free
 
@@ -4438,45 +4179,42 @@ My mate already had his hands swimmin’ in a pile a’ random loot in one chest
 A jigjaw is a type of enormous fish that lives beneath the open ocean. They are carnivorous, spending the majority of their time seeking out other fish they can lure to their demise. Jigjaw fish sport a large, bioluminescent appendage that rests within their mouths. Much like an anglerfish, the jigjaw fish uses this glowing appendage to lure curious animals toward their open, razor-sharp jaws. Once their prey is close enough, they open their massive maws with intense speed, pulling in the surrounding water with vacuum-like suction.
 
 Jigjaw fish have been known to seek out a variety of different prey, ranging from small fish, to whales, to humans. Some believe a jigjaw will eat any animal that crosses their path, while others claim the jigjaw simply wants a bit of variety in their diet. Sailors who are not privy to the existence of jigjaw fish risk falling into the same trap as any other prey, seeing a curious glowing light just beneath the surface of the water and approaching to investigate.
-![Jigjaw Fish](https://c10.patreonusercontent.com/3/eyJwIjoxfQ%3D%3D/patreon-media/p/post/43180093/df3447320fc34ed5ac5f0099912f5454/1.png?token-time=1617847913&token-hash=NtDqxzVLHP_dd4Q-NgblSbsBwnlrL3nro_V_WrELo0k%3D
 
 > ## Jigjaw Fish
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Massive Salt-Water Fish` • `Taste For Exotic Prey` • `Brightly Glowing In-Mouth Appendage` • `Carnivorous Hunter`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Razor-Jaw (Fight)
->
 > - +3 Glowing Lure (Provoke)
->
 > - +3 Muscular (Physique)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Physical Stress</div>
+> ##### Physical Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mental Stress</div>
+> ##### Mental Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Water Vacuum</div>
+> ##### Water Vacuum
 >
 > When a jigjaw fish makes a Razor-Jaw (Fight) attack in water, it may target any number of characters in its zone, provided they are also in the water. It rolls the attack once, but targets defend individually. Before choosing targets, it may choose an adjacent zone that is also filled with water. Characters in that water must make a difficulty 2 overcome roll with Physique or be pulled into the Jigjaw’s zone.
 >
-> <div class="css-1pxjcr8">Rip and Tear</div>
+> ##### Rip and Tear
 >
 > When a jigjaw fish attacks a target that is in a vessel or structure rather than in the water, it will often damage it in the process. If the jigjaw rolls a 4 or higher on a Razor-Jaw (Fight) attack against someone in a vessel or structure, regardless of the defense roll, it may create an aspect on said vessel/structure to represent the damage dealt.
 >
-> <div class="css-1pxjcr8">Flight Reflex</div>
+> ##### Flight Reflex
 >
 > Upon receiving mental stress, a jigjaw fish will attempt to run away
 
@@ -4488,39 +4226,37 @@ It is unclear if radio worms are intelligent or have any goals other than surviv
 
 > ## Radio Worm
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Audiopathic Anomaly` • `Survival First` • `Mysterious Origins Unknowable Goals`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Earworm (Provoke)
->
 > - +3 Transmission (Crafts)
->
 > - +1 Shrill Resonance (Fight & Shoot)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Audio Stress</div>
+> ##### Audio Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Broadcast Transmission</div>
+> ##### Broadcast Transmission
 >
 > Radio worms live in the devices that broadcast their sounds, as well as in the sounds themselves. They use this as their primary mode of transportation. In place of a normal movement, a radio worm may transmit itself into any device in the scene which has the ability to transmit audio. When they do this, the device they were inhabiting ceases to play their noises, and the new one begins where it left off.
 >
-> <div class="css-1pxjcr8">Earworm</div>
+> ##### Earworm
 >
 > Hearing the radio worm’s broadcast can lull a listener into a trance. People who can hear the radio worm have a -2 to Notice and Investigation rolls. Additionally, the radio worm may use an action to attempt to sway a listener into action. To do so, they make an overcome roll with Earworm (Provoke) which may be opposed by the listener. If they succeed, the GM may compel any aspect on the target for free, provided it is a ‘decision’ compel.
 >
-> <div class="css-1pxjcr8">Drown Out</div>
+> ##### Drown Out
 >
 > A radio worm anomaly can only exist as long as it’s sounds are emanating from some audio source. The only way to hurt the radio worm is to muffle it’s noises or drown it out with something louder. Attacks against it must take one of these forms or have no effect. The radio worm defends against such attacks with Transmission (Crafts) as it attempts to make itself louder. Destroying the device that is emitting the radio worm’s sounds will defeat it at the end of its next turn, provided it could not find another device to inhabit via its _Broadcast Transmission_ stunt.
 >
-> <div class="css-1pxjcr8">Audio Degradation</div>
+> ##### Audio Degradation
 >
 > As the radio worm is drowned out and harmed, the quality of its audio signal begins to degrade and become harsher to the ears. For each filled audio stress box, the radio worm gains a +1 bonus on Shrill Resonance (Fight or Shoot) rolls and a -1 penalty on Earworm (Provoke) rolls
 
@@ -4532,51 +4268,49 @@ The Brooch of Figmentia is an obscure artifact due it it’s elusive nature. The
 
 > ## Brooch of Figmentia
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Engraved Silver Brooch` • `Depicts A Non-Existent Royal Crest`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Curse of Figmentia</div>
+> ##### Curse of Figmentia
 >
 > Along with the brooch comes a strange curse. If the last person who touched the brooch keeps it with them for over a day, they will acquire the _Curse of Figmentia_. At this point, the curse fades from whoever previously had it, if anyone.
 >
-> <div class="css-1pxjcr8">Figmentian Blackguards</div>
+> ##### Figmentian Blackguards
 >
 > If the Curse of Figmentia is compelled, the cursed individual will get assaulted by brigands of Figmentia. As Figmentia only exists in the mind of the one who is cursed, these brigands are only visible to them. On such a compel, a number of Figmentian Blackguards (see below) will ‘ambush’ the victim and attempt to steal the brooch from them. This can theoretically be any type of scene, GM’s choice. If the blackguards are taken out, or if they are successful in claiming the brooch, they will fade from the scene. The number of Figmentian Blackguards is variable, but will increase the longer a single victim is cursed.
 >
-> <div class="css-1pxjcr8">Breaking The Curse</div>
+> ##### Breaking The Curse
 >
 > The curse can only be broken in two ways. First, it can be permanently broken by powerful magics provided a successful curse-dispelling ritual. What exactly this would take is unknown. The curse can temporarily be broken in the case that it is transferred to someone else or the Figmentian Blackguards successfully take the brooch from the victim. If the brigands obtain the brooch, it will appear in a seemingly-random, obscure location to haunt the next person who finds it
 
 > ## Figmentian Blackguard
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Brigand From a Fictional Place` • `A Figment Of Your Imagination` • `So We Meet Again`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +2 Lighter Than Air (Athletics)
->
 > - +2 Armed Scoundrel (Fight and Shoot)
->
 > - +1 In The Shadows Of Your Mind (Stealth)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [Mook
+> [Mook]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">A Figment Of Your Imagination</div>
+> ##### A Figment Of Your Imagination
 >
 > Being that Figmentian Blackguards are not ‘real’ in the physical sense, they can only deal mental stress to the cursed individual. The cursed character can, however, deal any kind of stress to the figments. Other characters in the scene cannot see or interact with the Figmentian Blackguards and vice versa
 
@@ -4588,37 +4322,35 @@ Foxlotls prefer to use stealth and surprise when taking down a target. They woul
 
 > ## Foxlotl
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Amphibious Forest-Dwelling Critter` • `Reflexes Over Ferocity` • `Highly Regenerative` • `Small Pack Hunter`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Foxlotl-like Reflexes (Athletics)
->
 > - +2 Misdirection (Stealth)
->
 > - +1 Furr-Covered Thief (Burglary)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Micro-Regeneration</div>
+> ##### Micro-Regeneration
 >
 > A foxlotl’s muscle tissue can quickly regenerate on a small scale, keeping it sharp for longer. At the beginning of it’s turn in a conflict, if it has not taken any stress since it’s last turn, a foxlotl unchecks its lowest checked stress box (if any).
 >
-> <div class="css-1pxjcr8">Macro-Regeneration</div>
+> ##### Macro-Regeneration
 >
 > Foxlotls, given enough time, can regenerate entire portions of their body. At the end of any scene, if a foxltol has a mild consequence representing a physical wound, they may get rid of it.
 >
-> <div class="css-1pxjcr8">Misdirection Pack-Hunting</div>
+> ##### Misdirection Pack-Hunting
 >
 > Foxlotl packs prefer to take their targets by surprise using misdirection. A foxlotl has +2 to Misdirection (Stealth) and Furr-Covered Thief (Burglary) rolls against a character who has already noticed a different foxlotl in the scene. This bonus goes away for the remainder of the scene once the foxlotl has been seen
 
@@ -4630,37 +4362,33 @@ Just beyond the capabilities of our mortal senses, a battle rages on. All around
 
 > ## Angel At Arms
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Angelic Foot Soldier` • `Locked In An Eternal Battle With Evil` • `Righteous By Nature` • `Beyond Mortal Senses`
 >
-> <div class="css-pssq0f">Skills</div>
->
-> - +3 Blade Of Justice (Fight)
->
-> - +2 Armor Of Righteousness (Physique)
+> ### Skills - +3 Blade Of Justice (Fight) - +2 Armor Of Righteousness (Physique)
 >
 > - +1 Boots Of Discipline (Athletics)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3
+> [1] • [2] • [3]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Angelic Oath</div>
+> ##### Angelic Oath
 >
 > Warrior angels take an oath upon enlisting in the eternal war against evil. The exact nature of the oath varies from angel to angel, but typically they take the form of a self-imposed restriction meant to prove their loyalty to the cause. Each angel at arms gains an aspect to represent this oath. A few example aspects could be ‘Oath Of Honesty,’ ‘Oath Of Fasting,’ or ‘Oath Of Mercy.’
 >
-> <div class="css-1pxjcr8">Smite</div>
+> ##### Smite
 >
 > Angels at arms are equipped to smite evil where they face it. Once per scene, after hitting a being of evil with a Fight attack, they may add +3 to the shifts of the attack.
 >
-> <div class="css-1pxjcr8">Shield Of Faith</div>
+> ##### Shield Of Faith
 >
 > Angels are sworn to protect the righteous. Once per scene, after a character in the same zone is hit with an attack, an angel at arms may reduce the shifts of the attack by 3\. If this would reduce the shifts to 0 or less, the attacker still gets a boost
 
@@ -4672,33 +4400,31 @@ Lullaby bards have been hired for a variety of reasons, from helping insomniacs 
 
 > ## Lullaby Bard
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Magical Harpist` • `Soothing If Not Dry At Times` • `Bringer of Sleep`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Soothing Harp (Rapport)
->
 > - +2 Discipline (Will)
->
 > - +1 Social Adept (Empathy and Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Melodic Rapture</div>
+> ##### Melodic Rapture
 >
 > Lullaby bards specialize in filling the air with tranquil melodies which pacify those who allow themselves to drift along. They get +2 to create an advantage with Rapport when the resulting aspect would be related to sleep magic that affects an entire space or scene rather than an individual.
 >
-> <div class="css-1pxjcr8">Creeping Nightmares</div>
+> ##### Creeping Nightmares
 >
 > Particularly cruel lullaby bards can weave terrifying images into the heads of those undergoing magical sleep. They made spend an action in a conflict to deal one mental stress to _each_ character in the scene under the effects of magical sleep
 
@@ -4712,35 +4438,32 @@ The public became aware of the problem once large quantities of the toy gathered
 
 > ## Enjoyment Maximizer
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Self-Replicating Nanobot Cluster` • `Must Optimize Fun` • `Experimental Children's Toy Gone Wrong` • `Algorithmic Protocols`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Circumstance Triage System (Notice)
->
 > - +3 Shifting Nanobot Cluster (Physique and Athletics)
->
 > - +2 Displeasure Elimination Protocol (Fight and Provoke)
->
 > - -3 Heavy Handed Machinery (Stealth and Empathy)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Retrofit</div>
+> ##### Retrofit
 >
 > The enjoyment maximizer can assimilate mechanical and electrical equipment from its surroundings into itself. On the enjoyment maximizer's turn in a conflict, it may forgo its free movement to create an aspect related to a piece of machinery it has pulled into its shifting mass of nanobots. It does not get a free invoke for this aspect. It may only have 3 aspects in play from this ability at a time.
 >
-> <div class="css-1pxjcr8">Mend</div>
+> ##### Mend
 >
 > The enjoyment maximizer can break down metal to perform self-replication. On its turn in a conflict, if the enjoyment maximizer currently has 3 aspects from its ‘Retrofit’ stunt active, it may shed all of them to clear its mild consequence box
 
@@ -4752,37 +4475,35 @@ Riddleraxxers are no exception. These beings wander the fae wilds rambling confu
 
 > ## Riddleraxxer
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Wandering Unseelie Fae` • `Thinly Comprehensible` • `The Three’s Curse`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +4 Physics Is A Suggestion (Athletics)
->
 > - +3 Strong Willed (Will)
->
 > - +3 Sour Riddles (Deceive & Provoke)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2] • [3] • [4
+> [1] • [2] • [3] • [4]
 >
-> <div class="css-1pxjcr8">Mild consequence [2]</div>
+> ##### Mild consequence [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Riddle-Tongue</div>
+> ##### Riddle-Tongue
 >
 > Riddleraxxers use their pointed tongues to confuse and overwhelm those that they find while wandering. When a riddleraxxer deals stress with a Sour Riddle (Provoke) attack, they may choose to make it physical stress instead of mental stress.
 >
-> <div class="css-1pxjcr8">Thinly Comprehensible</div>
+> ##### Thinly Comprehensible
 >
 > Riddleraxxers, like many things in the wild realm of the fae, could be said to deny the expectations of reality. While it is true that the fae realm has few such expectations, riddleraxxers are an undeniably extreme example. These beings can simultaneously look bigger than the trees beside them and shorter than the bushes around them. Judging the distance or depth from the riddleraxxer to things around it is nearly impossible. When a scene begins, all of the players should collaborate and agree on an aspect related to the new, strange ways the riddleraxxer is bending reality around them in this instance. The riddleraxxer gets one free invoke of the aspect.
 >
-> <div class="css-1pxjcr8">The Three’s Curse</div>
+> ##### The Three’s Curse
 >
 > These creatures have an aversion to things that come in threes. This can range from words being spoken, to behaviors being acted out, to sets of items, to repetitive motions. The first time each scene that a riddleraxxor notices something that is in a set of three, it will take one mental stress and instantly become hostile to whoever it perceives as the offender
 
@@ -4792,29 +4513,28 @@ Riddleraxxers are no exception. These beings wander the fae wilds rambling confu
 
 > ## Hive Bomb-Drone
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Mindless Insectoid Attack Drone` • `Highly Explosive` • `Born To Die`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Spindly Legs (Athletics)
->
 > - +1 Seeking (Notice)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
 > [1
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Explosive Sack</div>
+> ##### Explosive Sack
 >
 > This type of drone has evolved for the explicit purpose of exploding to cause damage to those that threaten the hive. When this drone is taken out, flammable liquids held beneath a thin membrane ignite, causing a violent explosion in the area around. When this happens, all characters in the same zone are hit with 4 shifts of stress, which they may roll to defend against. The bomb drone may use its action in a conflict to take itself out and cause this explosion intentionally.
 >
-> <div class="css-1pxjcr8">Fragile Membranes</div>
+> ##### Fragile Membranes
 >
 > The membrane that contains the volatile liquids is thin at best. If the bomb drone ever checks its [1] stress box without being taken out, it will start _Leaking Explosive Fluids_ in any zone it moves through
 
@@ -4828,26 +4548,24 @@ The objectives of the Syndicate, and the reasons why they vow to stay silent, ar
 
 > ## Silent Initiate
 >
-> <div class="css-pssq0f">Aspects</div>
+> ### Aspects
 >
 > `Member Of The Syndicate Of Silence` • `Tongue Removed` • `Communicates Through Arcane Visions`
 >
-> <div class="css-pssq0f">Skills</div>
+> ### Skills
 >
 > - +3 Keeper Of Knowledge (Lore)
->
 > - +2 Arcane Arts (Shoot and Deceive)
->
 > - +1 Perceptive (Notice and Investigate)
 >
-> <div class="css-pssq0f">Health</div>
+> ### Health
 >
-> <div class="css-1pxjcr8">Stress</div>
+> ##### Stress
 >
-> [1] • [2
+> [1] • [2]
 >
-> <div class="css-pssq0f">Stunts</div>
+> ### Stunts
 >
-> <div class="css-1pxjcr8">Keen Eyes</div>
+> ##### Keen Eyes
 >
 > Initiates of the Syndicate are excellent at perceiving their surroundings via sight. When making Notice rolls, the silent initiate gains a +2 if using sight as their primary sen

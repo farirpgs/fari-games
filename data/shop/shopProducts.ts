@@ -617,6 +617,24 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Seelie Squire",
+      slug: "seelie-squire",
+      links: {},
+      products: [
+        {
+          name: "Seelie Squire's Book of Monsters",
+          slug: "book-of-monsters",
+          type: ProductTypeEnum.Resource,
+          description:
+            "Brought to you by Seelie Squire, this is ultimate resource if you are looking for the closest thing to a Fate Compendium",
+          image: "https://gyazo.com/c5fc22597907d925b3fd66243c4b8965.png",
+          links: {},
+          tags: [],
+          // license:License.CC_BY_4,
+        },
+      ],
+    },
   ],
 };
 
