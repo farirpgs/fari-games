@@ -1,5 +1,7 @@
 # Seelie Squire's Book of Creatures
 
+Brought to you by Seelie Squire, this is ultimate resource if you are looking for the closest thing to a Fate Compendium.
+
 # Draguin
 
 Draguins appear to be some ungodly mix of fearsome wyverns and your favorite polar-weather flightless birds. They are carnivorous ambush predators, hunting alone or in groups of two to four.
