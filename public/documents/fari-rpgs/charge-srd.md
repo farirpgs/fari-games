@@ -89,7 +89,7 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 Characters are defined by descriptive traits called `details`. Each character usually has between 2-5 of them to highlight who they are, and what is important about them. Those details aren’t just information to give the character color, but should be the aspects of the character that we pay attention to in the story. They are also used as a guide to know the different narrative liberties that a character has in the fiction.
 
-When creating a new character, write down their:
+When creating a new character, write on your character sheet their:
 
 - `Concept`: an elevator-pitch version of who the character is.
 - `Appearance`: what the character looks like, what they wear, etc.
@@ -167,7 +167,7 @@ At the start of the game, a single action cannot have more than `2 action dots`.
 
 Talents are specific abilities your character gains when they reach certain milestones in the story.
 
-A `talent` either gives them new a `action dot` to invest, or a new `situational talent` which give them a temporary boost in specific circumstances.
+A `talent` either gives a new `action dot` to invest in a character's `actions`, or a new `situational talent` which gives a temporary boost to their character in specific circumstances.
 
 At the start of the game, characters begin with zero talents. They will gain those special abilities when they achieve certain milestones in the story.
 
@@ -442,22 +442,15 @@ As your character gets better, you also need to update your `condition` to repre
 
 ## Progression
 
-As the story progresses over time, so will the characters.
-So at the end of every session, you can update a character's `details` to represent how they've grow over the course of the session.
+As the story progresses over time, so do the player characters.
 
-When a big event is concluded in the story, the GM can decide to award the group a new `talent dot`. This is called reaching a `milestone`.
+At the end of every session, players can update their character's `details` to represent how they've grown over the course of the session.
 
-Players invest those talent dots in their respective `talent tree` to make their characters stronger and more versatile.
+When a big event is concluded in the story, the GM can decide to award the group a `milestone`. Players invest those milestones in their respective `talent tree` to make their characters stronger and more versatile.
 
-A talent either gives the PC a new `action dot`, or a `situational talent`.
+A `talent` either gives a new `action dot` to invest in a character's `actions`, or a new `situational talent` which gives a temporary boost to their character in specific circumstances.
 
-A situational talent gives a bonus or a certain narrative liberty during a certain situation.
-
-- `+1d6 when ______`
-- `+1 position when ______`
-- `+1 effect when ______`
-- `Use [action] instead of [action] when ______`
-- `[New narrative liberty] when ______`
+When a player gets a `situational talent`, they need to decide on a specific situation that activates the talent. The player chooses what they think works best for their character and note their decisions by filling in the blanks on their character sheet. For inspiration look at what has already been established in the world, and pick something that makes your character shine.
 
 > #### Designer Note: Hacking Progression
 >
