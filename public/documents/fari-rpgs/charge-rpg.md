@@ -382,11 +382,11 @@ Here are a couple examples of conditions:
 
 `Talents` are a way to make the characters progress over the course of a campaign.
 
-Over time, characters gain new `talent dots` which make their `talent line` advance.
+Over time, characters gain new `talent dots` which make their talent tree advance.
 
 ![](https://gyazo.com/6cab207e891b02249a7f96c66694010a.png)
 
-Every dot in the talent line gives you either a new `action dot`, or a `situational bonus`.
+Every dot in the talent tree gives you either a new `action dot`, or a `situational bonus`.
 
 A situational bonus represents a boost in `effect`, `position` or `dice pool`, and triggers only in a certain situation.
 
@@ -1069,23 +1069,15 @@ This is optional, but you can view this as an opportunity to update who your cha
 
 ### Milestone
 
-A `milestone` happens **at the end of a big event** in the story. This will _usually_ happen every 3-5 sessions.
+A `milestone` happens **at the end of a big event** in the story. This will _usually_ happen every 3-5 sessions. Players invest those milestones in their respective `talent tree` to make their characters stronger and more versatile.
+
+A `talent` either gives a new `action dot` to invest in a character's `actions`, or a new `situational talent` which gives a temporary boost to their character in specific circumstances.
+
+When a player gets a `situational talent`, they need to decide on a specific situation that activates the talent. The player chooses what they think works best for their character and note their decisions by filling in the blanks on their character sheet. For inspiration look at what has already been established in the world, and pick something that makes your character shine.
 
 The GM will probably feel when it's time for a milestone, but as a player you can always remind the GM "_Hey, this looked like an important event in the story, would this be a milestone?_".
 
 Just go with what feels right and adapt if necessary.
-
-When the group reaches a milestone, every character gets a new `talent` on their character sheet.
-
-A talent either gives the PC a new `action dot`, or a `situational talent`.
-
-A situational talent gives a bonus or a certain narrative liberty during a certain situation.
-
-- `+1d6 when ______`
-- `+1 position when ______`
-- `+1 effect when ______`
-- `Use [action] instead of [action] when ______`
-- `[New narrative liberty] when ______`
 
 Gaining a new talent will feel like a breath of fresh air. It won't make your characters overpowered or god-like, but it will make them more flexible, or more specialized.
 
@@ -3189,6 +3181,7 @@ If you want, you can also include the following images in your game to say that 
 </a>
 
 ## PDFs
+
 ### Charge Character Sheet
 
 <details>
