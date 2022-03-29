@@ -661,7 +661,7 @@ Once the mission is over, the PCs go back to their H.Q., and the loop starts ane
 
 Characters are defined using `details` to represent who they are, what they are like and who they are linked to. By default, `details` don't have any mechanical uses in the game apart from providing narrative liberties.
 
-An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`. If you want to resist a `consequence`, but don’t want to make a `determination roll`, you can decide to break one of your `attachment`. Doing so cancels the consequence outright.
+An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`. If you want to resist a `consequence`, but don’t want to make a `determination roll`, you can decide to break one of your `attachments`. Doing so cancels the consequence outright.
 
 However, this can only be done when it makes sense narratively, and that particular `attachment` cannot be used until time is taken to repair or reacquire it.
 
