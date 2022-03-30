@@ -2784,6 +2784,54 @@ Money is represented in a ten-point scale that’s abstracted for the sake of ga
 
 It's helpful to conceptualize your pricing tiers by what players will have to do to earn that amount of money. For example, your basic 1 money tier may be a purse of gold pieces in a high fantasy game that would be a simple quest reward. By contrast, making 10 money would require doing lots of favors for a kingdom or acquiring an extremely valuable treasure.
 
+# Narrative Gear Extra | Extras
+
+A Charge RPG Extra to make the gear you have matter
+
+\- By Groov
+
+---
+
+Narrative Gear is an extra that lets a character use their equipment to get a bonus die when making an `action roll`, or avoid the worst of a `consequence`.
+
+## Gear Rule
+
+Gear is a mechanic that lets you bring a number of pieces of equipment into a scene to have a mechanical and narrative impact.
+
+When you leave your home base or equipment stash, you decide your `loadout` and have a number of significant items based on which you choose. If you want a `normal loadout`, you can declare up to 4 items; with a `heavy loadout`, you have up to 8, though characters with a heavy load are slower and stand out in a crowd.
+
+Declaring Gear
+
+You don't decide what items are in your `loadout` before you leave. Instead, you `declare` you have an item on the fly as long as it makes narrative sense based on your `details`. When you do so, you may also spend 1 `momentum` and choose for that item to be `assisting gear` or `defensive gear` to gain the mechanical benefit listed below. Once declared, write down the gear on your character sheet. You still have the item, if it isn't lost or consumed, but it gives no more mechanical benefit.
+
+You may still push yourself or be assisted when you `declare` gear.
+
+`Assisting gear` may include a particularly nasty knife, a local map, or anything else that might help in a specific situation. When you declare you have `assisting gear`, you either make an `action roll` with `+1d6`, or choose to increase your `effect rating`.
+
+`Defensive gear` represents defensive preparation the character may have done, such as wearing reinforced armor or carrying a shield. When you declare you have `defensive gear` you reduce `stress` taken by the number of `loadout` “slots” you’re willing to use for this item. You may only get this benefit once if you have a `normal loadout`, or twice if you have a `heavy loadout`.
+
+> #### Example
+>
+> _Jaden's character Oza, a goblin thief, is looking to scale a wall into a noble's estate. To help get over, they declare they have a grappling hook, spending 1 charge of momentum and adding +1d6 to their action roll. Jaden marks that they have a grappling hook on their sheet, so if they need it in the future, they can pull it out again (though they won't get the +1d6 bonus). After landing on the other side of the wall, Oza finds themselves face to face with a patiently waiting mercenary, who stabs them in the chest. Instead of taking two stress, Jaden declares that Oza was wearing a reinforced plate just in case, marking off another momentum and two more gear slots on their loadout._
+
+> ## GM Notes
+>
+> If your game has more of a focus on equipment, you may want to allow the mechanical benefit when you declare an item to be free, but keep in mind this will make characters a good deal more powerful. Alternatively, you can decrease the `loadout` to 3 and 6 respectively, giving the players a tough decision to make when they want their gear in the spotlight.
+>
+> As GM, don't forget you can always reflavor mechanics for your game. Maybe instead of gear, this represents remaining magic or battery power.
+
+## Credits
+
+- This system is adapted from Blades in the Dark by Groov for use with Charge RPG
+
+> ## Recap
+>
+> - Pick a `normal loadout` (4 slots) or a `heavy loadout` (8 slots)
+> - `Declare` gear, and spend 1 `momentum` for `assisting gear` or `defensive gear`
+> - `Assisting gear` adds `+1d6` or improved `effect rating` on an `action roll`
+> - `Defensive gear` prevents `stress equal` to the slots of gear used. You can only do this once with a `normal loadout`, or twice with a `heavy loadout`
+> - **Gear always provides narrative freedom**
+
 # Making a Compelling Campaign | Preparing the Game
 
 [![Image by KELLEPICS from pixabay.com](https://gyazo.com/7b529142ada0e29c88323c82eec6c3ab.png)](https://pixabay.com/photos/fantasy-landscape-mountains-rock-6328992/)
