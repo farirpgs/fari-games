@@ -2,11 +2,13 @@ import { css } from "@emotion/css";
 import ComputerIcon from "@mui/icons-material/Computer";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import ForumIcon from "@mui/icons-material/Forum";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import MenuIcon from "@mui/icons-material/Menu";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Collapse from "@mui/material/Collapse";
@@ -22,6 +24,7 @@ import Typography from "@mui/material/Typography";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import React, { useContext, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { ProductTypeEnum } from "../data/shop/types/IShopProduct";
 import { ReactRouterLink } from "./components/ReactRouterLink/ReactRouterLink";
 import { SettingsContext } from "./contexts/SettingsContext";
 import { track } from "./domains/analytics/track";
@@ -69,7 +72,7 @@ export function Navbar() {
                   <Grid container spacing={1} wrap="nowrap" alignItems="center">
                     <Grid item>
                       <img
-                        src="/images/app.png"
+                        src="/images/logo.png"
                         title="Fari Games"
                         className={css({
                           height: "3rem",
@@ -83,7 +86,15 @@ export function Navbar() {
                           fontWeight: theme.typography.fontWeightBold,
                         })}
                       >
-                        Fari | Games
+                        Fari{" "}
+                        <Typography
+                          component="span"
+                          className={css({
+                            fontWeight: theme.typography.fontWeightRegular,
+                          })}
+                        >
+                          Games
+                        </Typography>
                       </Typography>
                     </Grid>
                   </Grid>
@@ -199,8 +210,9 @@ export function Navbar() {
             onClick={() => {
               setMenuOpen(false);
             }}
-            to={AppLinksFactory.makeGameLink({
+            to={AppLinksFactory.makeProductLink({
               author: "fari-rpgs",
+              type: ProductTypeEnum.Game,
               game: "charge-rpg",
             })}
           >
@@ -210,8 +222,9 @@ export function Navbar() {
             onClick={() => {
               setMenuOpen(false);
             }}
-            to={AppLinksFactory.makeGameLink({
+            to={AppLinksFactory.makeProductLink({
               author: "fari-rpgs",
+              type: ProductTypeEnum.SRD,
               game: "charge-srd",
             })}
           >
@@ -231,23 +244,35 @@ export function Navbar() {
         </Grid>
         <Grid item>
           <NavLinkCategory
-            label={"Community"}
+            label={"Fari RPGs"}
             onAnyLinkClick={() => {
               setMenuOpen(false);
             }}
             subNav={[
               {
-                label: "Community",
+                label: "Fari RPGs",
                 links: [
                   {
-                    to: { pathname: "https://fari.app/discord" },
+                    to: { pathname: "https://farirpgs.com/discord" },
                     label: "Join the Discord Server",
                     icon: <ForumIcon />,
                     target: "_blank",
                   },
                   {
+                    to: { pathname: "https://farirpgs.com/facebook" },
+                    label: "Like on Facebook",
+                    icon: <FacebookIcon />,
+                    target: "_blank",
+                  },
+                  {
+                    to: { pathname: "https://farirpgs.com/twitter" },
+                    label: "Follow on Twitter",
+                    icon: <TwitterIcon />,
+                    target: "_blank",
+                  },
+                  {
                     to: {
-                      pathname: "https://www.patreon.com/bePatron?u=43408921",
+                      pathname: "https://farirpgs.com/patreon",
                     },
                     label: "Become a Patron",
                     icon: <ThumbUpIcon />,

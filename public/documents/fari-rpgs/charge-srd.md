@@ -3,6 +3,8 @@ fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&disp
 headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
+headingUppercase: true
+languages: en,fr
 ---
 
 # Introductions | Charge SRD
@@ -38,7 +40,7 @@ In this game, you and your friends get together to tell an interactive story abo
 
 Here’s what you’ll need to play:
 
-- Between two and five people. One of them acting as the Game Master.
+- Between two and five friends to play with one acting as the Game Master.
 - Character sheets, one for each player.
 - A bunch of six-sided dice. At least 6 would be ideal.
 - Index cards, sticky notes or similar slips of paper.
@@ -87,7 +89,7 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 Characters are defined by descriptive traits called `details`. Each character usually has between 2-5 of them to highlight who they are, and what is important about them. Those details aren’t just information to give the character color, but should be the aspects of the character that we pay attention to in the story. They are also used as a guide to know the different narrative liberties that a character has in the fiction.
 
-When creating a new character, write down their:
+When creating a new character, write on your character sheet their:
 
 - `Concept`: an elevator-pitch version of who the character is.
 - `Appearance`: what the character looks like, what they wear, etc.
@@ -165,7 +167,7 @@ At the start of the game, a single action cannot have more than `2 action dots`.
 
 Talents are specific abilities your character gains when they reach certain milestones in the story.
 
-A `talent` either gives them new a `action dot` to invest, or a new `situational talent` which give them a temporary boost in specific circumstances.
+A `talent` either gives a new `action dot` to invest in a character's `actions`, or a new `situational talent` which gives a temporary boost to their character in specific circumstances.
 
 At the start of the game, characters begin with zero talents. They will gain those special abilities when they achieve certain milestones in the story.
 
@@ -372,6 +374,18 @@ Once you've decided how many charges you want to consume, roll and interpret the
 - On a `6`, the `consequence` is avoided.
 - On a `66`, the `consequence` is avoided, and you get +1 position for your next roll.
 
+> #### Designer Note: Hacking Determination Rolls
+>
+> Determination rolls act as a mechanism for the players to resist and say "no, I don't think so" when something bad happens to their character.
+>
+> There are two important things you should look at if you want to hack this mechanic. First, how does one resist a consequence. Second, what should be the cost of trying to resist a consequence.
+>
+> By default, you try to resist by spending momentum to build a determination pool in the hope of reducing or even canceling an incoming consequence. In this case, the cost is paid in `momentum` since you won't be able to spend more later to `push yourself` or `assist` an ally.
+>
+> Perhaps that for your game, characters resist consequences by making a roll based on certain stats - allowing players to choose if they want to sacrifice momentum for a better roll. Another option might be for the PCs to sacrifice certain assets, previously defined as `details`, to outright cancel a consequence.
+>
+> The thing to keep in mind is that this mechanic should encourage players to truly take the time to consider if what they are sacrificing is worth the shot.
+
 ## Clocks
 
 Clocks are circles divided in either 4, 6 or 8 segments used to track a task's **progress** or escalating **danger** in a scene. They can also be used on a PC's character sheet to track the long term `projects` that they are working on or the `complications` that they create in the world.
@@ -402,6 +416,20 @@ The character's condition imposes narrative restrictions as to what the characte
 
 When the 4 segments of the `stress clock` are filled, the PC is taken out for the scene, and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
 
+> #### Designer Note: Hacking Health
+>
+> Health in Charge is an expendable resource. It has a `clock` that gets ticked when you get stressed, and it is linked to a `detail` that the new condition of the PC as the clock is filled.
+>
+> If you want, you can have other types of expandable resources. Things like reputation, money, or even corruption can be represented using a similar mechanism.
+>
+> When designing new clock-based mechanics, think about how PCs fill them, what happens when a clock is filled and how they can be cleared.
+>
+> For example, you could make it so that a clock only gets filled by certain actions or only when the PCs are at a certain location.
+>
+> Once filled, perhaps the clock changes the character. Granting them a temporary or even permanent bonus. Or perhaps it changes them negatively and impacts their life for the rest of the campaign.
+>
+> This mechanism adds new types of pacing mechanism that are very useful to reinforce the different aspects and themes of your games.
+
 ## Recovery
 
 When a PC gets hurt or stressed as a result of one of their actions, they take `stress` and their condition worsen. As time passes, they will get better, and their condition will improve.
@@ -410,24 +438,19 @@ The only way to recover from `stress` is in-fiction. You can either rest, lay lo
 
 As your character gets better, you also need to update your `condition` to represent your character's current state.
 
+> #### Designer Note: Hacking Recovery
+
 ## Progression
 
-As the story progresses over time, so will the characters.
-So at the end of every session, you can update a character's `details` to represent how they've grow over the course of the session.
+As the story progresses over time, so do the player characters.
 
-When a big event is concluded in the story, the GM can decide to award the group a new `talent dot`. This is called reaching a `milestone`.
+At the end of every session, players can update their character's `details` to represent how they've grown over the course of the session.
 
-Players invest those talent dots in their respective `talent tree` to make their characters stronger and more versatile.
+When a big event is concluded in the story, the GM can decide to award the group a `milestone`. Players invest those milestones in their respective `talent tree` to make their characters stronger and more versatile.
 
-A talent either gives the PC a new `action dot`, or a `situational talent`.
+A `talent` either gives a new `action dot` to invest in a character's `actions`, or a new `situational talent` which gives a temporary boost to their character in specific circumstances.
 
-A situational talent gives a bonus or a certain narrative liberty during a certain situation.
-
-- `+1d6 when ______`
-- `+1 position when ______`
-- `+1 effect when ______`
-- `Use [action] instead of [action] when ______`
-- `[New narrative liberty] when ______`
+When a player gets a `situational talent`, they need to decide on a specific situation that activates the talent. The player chooses what they think works best for their character and note their decisions by filling in the blanks on their character sheet. For inspiration look at what has already been established in the world, and pick something that makes your character shine.
 
 > #### Designer Note: Hacking Progression
 >
@@ -443,14 +466,14 @@ A situational talent gives a bonus or a certain narrative liberty during a certa
 
 ## Fortune Rolls
 
-When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a `fortune roll` to see what happens.
+When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a fortune roll to see what happens. This is kind of like testing for luck.
 
-Add `+1d6` per likeliness level of that thing happening.
+To make a fortune roll, build a dice pool by adding `+1d6` per likeliness level of a thing happening, roll, and interpret the results.
 
-- On a **critical success**, great results, and something exceptional happens.
-- On a **full success**, great results.
-- On a **partial success**, mixed results.
-- On a **bad outcome**, bad results.
+- On a `66`, it’s a critical success. There are great results, and something exceptional happens.
+- On a `6`, it’s a full success. There are great results.
+- On a `4-5`, it’s a partial success. There are mixed results.
+- On a `1-3`, it’s a bad outcome. There are bad results.
 
 ## Flashbacks
 
@@ -468,13 +491,17 @@ Afterwards, the player narrates a short scene of what their character attempted 
 
 > #### Designer Note: Your Setting
 >
-> Use this section of the game to explain what is the setting of your game.
+> Use this section to explain the setting of your game.
 >
-> You can talk about:
+> To make your world be as vibrant and compelling as possible, think about what the general story of your game is about and how it should play out.
 >
-> - The history of the world.
-> - What kind of characters the PCs are going to play.
-> - The different types of problems the PCs might face. etc.
+> Establish a history of recent events so that the players have a sense of the setting. They can then start making connections between their character and the world they inhabit. How would they have reacted if they have taken part in those events?
+>
+> Highlight important locations, cities, districts, or whole regions, that the PCs can choose to explore. What would scenes set in those locations look like? What actions would the PCs be taking there?
+>
+> Fill those locations with notable NPCs that the GM can use if needed. These don't have to be complex. A simple list with a name, an occupation, or role, and a couple of adjectives describing their respective personality can go a long way.
+>
+> Do these NPCs belong to different organizations or factions? Continue to the next chapter to see how to define those as World Forces.
 
 # World Forces | Charge SRD
 
@@ -505,6 +532,24 @@ If the GM feels it makes sense, they can create a `progress clock` to represent 
 > - _Finding money to hire mercenaries to fight the war that is to come._
 >
 > Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with if they so desire.
+
+# Before We Start | Charge SRD
+
+Here are a couple of tips and tricks you should read before you start playing the game.
+
+## For the GM
+
+- **Be a fan of the players.** You aren’t there to trap them or see them lose. You are there to help facilitate an interesting story. Be on the edge of your seat when they are challenged, and cheer when they succeed!
+- **Don’t plan, play.** You don’t need to spend hours planning all the details of each and every session. No plan survives an encounter with the players, so save yourself some time and play to find out what happens instead.
+- **When in doubt, ask questions.** The players have tons of wonderful ideas if you just listen to them. It’s OK to not know about everything. Ask your players questions and fill the world with their answers.
+- **This is a game, not a simulation.** Everyone is here to have fun, so try to stay away from hyper-realism. If it looks cool and feels like it could be possible, let the players try. The dice will help guide you towards the rest of the story.
+
+## For The Players
+
+- **Let everyone have their moment.** Everyone enjoys it when their character does something cool and the spotlight is on them. So for that reason, try to make sure everyone at the table gets a fair amount of screen time!
+- **You are a writer, not a spectator.** The GM will help guide the story, but you are as much a part of the writing process as them. Embrace this narrative control and fill out the world with your ideas.
+- **Take risks.** This isn’t like real life, you’re allowed to play dangerously. The only thing that will come out of you doing so, is a fantastic story. Don't be scared of engaging with the fiction.
+- **Rise up.** When your character takes actions, they might fail or consequences might arise. But that’s OK, failure and consequences make for a more interesting story. When at first you don't succeed, get back up and try again using a new approach.
 
 # Extras | Extras
 
@@ -616,11 +661,11 @@ Once the mission is over, the PCs go back to their H.Q., and the loop starts ane
 
 Characters are defined using `details` to represent who they are, what they are like and who they are linked to. By default, `details` don't have any mechanical uses in the game apart from providing narrative liberties.
 
-An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`. If you want to resist a `consequence`, but don’t want to make a `determination roll`, you can decide to break one of your `attachment`. Doing so cancels the consequence outright.
+An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`. If you want to resist a `consequence`, but don’t want to make a `determination roll`, you can decide to break one of your `attachments`. Doing so cancels the consequence outright.
 
 However, this can only be done when it makes sense narratively, and that particular `attachment` cannot be used until time is taken to repair or reacquire it.
 
-To reacquire or repair an `attachment`, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the mod is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
+To reacquire or repair an `attachment`, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the attachment is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
 
 To make progress on the project, a character may only roll to repair a "broken" `attachment` when they have the appropriate amount of downtime.
 
@@ -630,13 +675,13 @@ Once the project is completed, the character is permitted to use the `attachment
 
 The Charge SRD is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
-That means that if you want to make a game using or based by this game, you just need to give us attribution for our work.
+That means you are free to use the content of this SRD for your own game, provided you give proper credit.
 
-Because Charge is based off Blades in the Dark, you would also need to include attribution to the creators of this game as well.
+Because Charge is based off Blades in the Dark, you would also need to credit the creators of this game as well.
 
-To do so, copy the text below in your own game and things should be good to go.
+To do so, copy the text below in your game, and things should be good to go.
 
-> This work is based on Charge RPG, product of Fari RPGs, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+> This work is based on Charge RPG, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas , and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 >
 > This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 

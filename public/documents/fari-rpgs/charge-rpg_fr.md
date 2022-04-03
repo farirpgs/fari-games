@@ -141,7 +141,7 @@ Now, let's go over what you need to play Charge.
 
 To play Charge, you need:
 
-- Copies of the [Charge RPG Character Sheet](/documents/fari-rpgs/charge-rpg/downloads/character-sheet.pdf)
+- Copies of the [Charge RPG Character Sheet](/character-sheets)
 - A pile of index cards or small pieces of paper to draw things on.
 - A set of six-sided dice. At least 6 would be ideal.
 - A bunch of awesome people to play with. Usually 2 to 5 people should do the trick. More than that could prove to be difficult.
@@ -2707,15 +2707,15 @@ Thank you, and go power your storytelling!
 
 Charge RPG is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
-That means that if you want to make a game using or based by this game, you just need to give us attribution for our work.
+That means you are free to use the content of this SRD for your own game, provided you give proper credit.
 
-Because Charge is based off Blades in the Dark, you would also need to include attribution to the creators of this game as well.
+Because Charge is based off Blades in the Dark, you would also need to credit the creators of this game as well.
 
-To do so, copy the text below in your own game and things should be good to go.
+To do so, copy the text below in your game, and things should be good to go.
 
 ## Attribution
 
-This work is based on Charge RPG, product of Fari RPGs, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+This work is based on Charge RPG, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)
 
 This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 

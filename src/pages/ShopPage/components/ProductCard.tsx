@@ -8,6 +8,7 @@ import { Link as ReactRouterLink } from "react-router-dom";
 import { IShopProductWithAuthor } from "../../../../data/shop/types/IShopProduct";
 import { AppLinksFactory } from "../../../domains/links/AppLinksFactory";
 import { ProductLicense } from "./ProductLicense";
+import { ProductType } from "./ProductType";
 
 export function ProductCard(props: { product: IShopProductWithAuthor }) {
   const theme = useTheme();
@@ -21,7 +22,7 @@ export function ProductCard(props: { product: IShopProductWithAuthor }) {
       onPointerLeave={() => setHover(false)}
     >
       <ReactRouterLink
-        to={AppLinksFactory.makeProductLink(props.product)}
+        to={AppLinksFactory.makeProductBrowseLink(props.product)}
         className={css({
           cursor: "pointer",
           position: "relative",
@@ -71,6 +72,19 @@ export function ProductCard(props: { product: IShopProductWithAuthor }) {
             className={css({
               position: "absolute",
               bottom: ".75rem",
+              left: ".5rem",
+            })}
+          >
+            <Stack direction="row" spacing={1}>
+              <ProductType product={props.product} />
+            </Stack>
+          </div>
+        </Fade>
+        <Fade in={hover}>
+          <div
+            className={css({
+              position: "absolute",
+              bottom: ".75rem",
               right: ".5rem",
             })}
           >
@@ -82,7 +96,7 @@ export function ProductCard(props: { product: IShopProductWithAuthor }) {
       </ReactRouterLink>
       <div>
         <ReactRouterLink
-          to={AppLinksFactory.makeProductLink(props.product)}
+          to={AppLinksFactory.makeProductBrowseLink(props.product)}
           className={css({
             textDecoration: "none",
             "&:hover": {
