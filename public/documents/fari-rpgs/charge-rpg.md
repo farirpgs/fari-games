@@ -138,7 +138,7 @@ Now, let's go over what you need to play Charge.
 
 To play Charge, you need:
 
-- Copies of the [Charge RPG Character Sheet](character-sheet)
+- Copies of the [Charge RPG Character Sheet](character-sheets)
 - A pile of index cards or small pieces of paper to draw things on.
 - A set of six-sided dice. At least 6 would be ideal.
 - Between two and five friends to play with one acting as the Game Master.
