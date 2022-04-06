@@ -635,6 +635,45 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Jordan R Trocchiano",
+      slug: "zonefighterj",
+      links: {},
+      products: [
+        {
+          name: "3-D",
+          slug: "3d",
+          type: ProductTypeEnum.SRD,
+          description:
+            "A game system designed for situations and stories with mounting pressure and immediate consequences of failure or coming up short",
+          image: "https://gyazo.com/9532afacaaaf409536e0d3be1520f59f.png",
+          links: {},
+          tags: ["srd"],
+        },
+      ],
+    },
+    {
+      name: "Penflower Ink",
+      slug: "penflower-ink",
+      links: {
+        website: "https://www.penflower-ink.com/",
+        twitter: "https://twitter.com/tomfummo",
+      },
+      products: [
+        {
+          name: "Four Points SRD",
+          slug: "four-points-srd",
+          type: ProductTypeEnum.SRD,
+          description:
+            "Build an RPG focused on player agency, characters, narrative and customisation, where you decide when to succeed and when to test your luck.",
+          image: "https://gyazo.com/346c57939218fbbfdd6d2ce04ce2cc5c.jpg",
+          links: {
+            itchIo: "https://penflower-ink.itch.io/four-points-rpg-system-srd",
+          },
+          tags: ["srd", "new"],
+        },
+      ],
+    },
   ],
 };
 
