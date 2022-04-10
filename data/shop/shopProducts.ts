@@ -674,6 +674,25 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Rat Wave Game House",
+      slug: "rat-wave-game-house",
+      links: {},
+      products: [
+        {
+          name: "Fight Card System",
+          slug: "fight-card-system",
+          type: ProductTypeEnum.SRD,
+          description:
+            "A system/design guide for resolving fights via a two player trick taking game.",
+          image: "https://gyazo.com/a31577b08f1ca18420dc99af5bd01866.jpeg",
+          links: {
+            itchIo: "https://ratwavegamehouse.itch.io/the-fight-card-system",
+          },
+          tags: ["srd", "new"],
+        },
+      ],
+    },
   ],
 };
 
