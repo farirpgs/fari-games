@@ -19,7 +19,8 @@ export const shop: IShop = {
           name: "Charge RPG",
           slug: "charge-rpg",
           type: ProductTypeEnum.Game,
-          description: "Ready to use generic RPG system.",
+          description:
+            "A generic and fiction first RPG system to power your action packed adventures.",
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
@@ -34,7 +35,7 @@ export const shop: IShop = {
           slug: "charge-srd",
           type: ProductTypeEnum.SRD,
           description:
-            "Power your next game with this condensed version of Charge RPG",
+            "An SRD to make action packed RPGs with forward momentum.",
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
@@ -48,7 +49,8 @@ export const shop: IShop = {
           name: "Dash",
           slug: "dash",
           type: ProductTypeEnum.SRD,
-          description: "A Charge Condensed Game.",
+          description:
+            "A print friendly & condensed version of the Charge RPG system.",
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
