@@ -45,6 +45,20 @@ export const shop: IShop = {
           },
         },
         {
+          name: "Dash",
+          slug: "dash",
+          type: ProductTypeEnum.SRD,
+          description: "A Charge Condensed Game.",
+          license: License.CC_BY_4,
+          footer:
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+          tags: ["charge-rpg", "srd", "new"],
+          image: "https://gyazo.com/c94071f2daeaaaa1ccbdd99a3a8074cf.png",
+          links: {
+            itchIo: "https://fari-rpgs.itch.io/dash",
+          },
+        },
+        {
           name: "HOPES & DREAMS SRD",
           slug: "hopes-and-dreams-srd",
           description: "Make your own game ignited by HOPES & DREAMS.",
