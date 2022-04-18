@@ -62,7 +62,7 @@ The GM can disclaim decision-making by testing for luck. To do so, pick a die ra
 
 ## Catch Your Breath
 
-To reset all your skills to their original rating, you can ask to “catch your breath”. This is a brief break in tension. It can be done at anytime, even during combat.
+To reset all your skills to their original rating, you can ask to “catch your breath”. This is a brief break in tension. It can be done at any time, even during combat.
 When a character catches their breath, the GM looks at the scene and introduces a new complication to the group.
 
 ## Loot Checks
@@ -71,8 +71,8 @@ When the fiction allows it, you can make a loot check to scavenge for tools, wea
 When you do a loot check, roll a d20.
 
 - On a 1, something bad happens.
-- On a 16-17, you find a d6 item.
-- On a 18-19, you find a d8 item.
+- On a 15-16, you find a d6 item.
+- On a 17-18, you find a d8 item.
 - On a 19-20, you find a d10 item —or— a med kit.
 
 ## Backpack
@@ -130,7 +130,7 @@ To make this game your own, you should customize the skill list to something tha
 
 ## Your Stunts
 
-The default Stunt mechanic is a tool players can use to look “awesome” once per session. Use this to mimic characters using cool powers or doing something extremely lucky.
+The default Stunt mechanic is a tool players can use to look “awesome” once per "catch your breath". Use this to mimic characters using cool powers or doing something extremely lucky.
 
 ## Your Stress
 
