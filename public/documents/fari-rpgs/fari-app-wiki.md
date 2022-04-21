@@ -1,72 +1,58 @@
 
 # Introduction
 
-Fari might seem like a simple application at first, but there a lot of more advanced features that you can leverage to boost your Fate online sessions to the next level.
+Fari App might seem like a simple application at first, but there a lot of more advanced features that you can leverage to boost your Fate online sessions to the next level.
 
-This Wiki will go over the basic feature as well as the more advanced use cases step by step to give you the ability to use Fari at its full potential.
+This Wiki will go over the basic feature as well as the more advanced use cases step by step to give you the ability to use Fari App at its full potential.
 
-> Have an idea and want to contribute to this wiki ? Come chat with us on [Discord](https://discord.com/invite/vMAJFjUraA).
+> Have an idea and want to contribute to this wiki ? Come chat with us on [Discord](https://farirpgs.com/discord).
 
 # Playing
 
 When playing in real life, you go to you friend's house, sit at their table and just get started immediately.
 
-Playing your favorite TTRPG with Fari isn't more complicated than that, though there are still a couple of things you should know before getting started.
+Playing your favorite TTRPG with Fari App isn't more complicated than that, though there are still a couple of things you should know before getting started.
 
 ## Online VS Offline
 
-To start a new game session, Fari offers you the following two options:
+To start a new game session, Fari App offers you the following two options:
 
 - Playing Online
 - Playing Offline
 
 ### Online
 
-When you click on the `Play Online` button on the home page, Fari will create a temporary space for you that we call a `Session` where you are the host and owner.
+When you click on the **Play Online** button located on the home page, Fari App creates a temporary space for you that we call a **session**. You are the host of this session.
 
-When a session is started, Fari gives you access to a `Session Link` that you can send to your friends so that they can join your `Session`.
+When a session starts, Fari App gives you access to a unique **session link** that you can send to your friends so that they join your **session**.
 
-![Copying a Game Link](https://gyazo.com/9e8faf0a0e3a1c25e5119bc1034f186d.png)
+![Copying a Game Link](https://gyazo.com/6f24a6ff0c1c865009c2bf5b507313d6.png)
 
-After you sent your players the session link, they can enter their name and join the game, and every modification that you do to the Session, Scene, or Character will be synced with all the players.
+After you've sent your players the link, they can enter their name and join the game. From there, every modification done to the session, the scene, or the characters will be synced with all the players.
 
-![Joining a Game](https://gyazo.com/c3c4a71bfc268c8739a016a07756f122.png)
+![Joining a Game](https://gyazo.com/0678c54a46ef73b411a3c22fc94214c4.png)
 
-> #### How does Fari sync my data with my players ?
+> #### How does Fari App sync my data with my players ?
 >
-> Fari relies on something called `peer to peer communication` using the `WebRTC` protocol.
+> Fari App relies on a service provided by an external provider called [Liveblocks](https://liveblocks.io/) to sync data between players. The folks at Liveblocks have been extremely generous in offering us access to their platform. Go check them out.
 
 ### Offline
 
-The Offline mode is useful if everyone is physically in the same room but the GM still wants to use Fari to manage their Scenes.
+The pffline mode is useful if everyone is physically in the same room but the GM still wants to use Fari App to manage their scenes and character sheets.
 
-When playing in Offline mode, Fari won't connect to its server and won't generate the session link cited above.
-
-This mode is also useful if for some reason, some of your players can't connect to your Online game session and you want to share your screen with them. See more about connection issues below.
-
-> #### Issues When Joining a Game
->
-> Some users might experience issues when trying to join an Online game session.
->
-> If that is the case for you or one of your player, you should look into why this is happening here.
->
-> [Connection Issues | Fari Wiki](/fari-wiki/connection-issues)
+***Note: When playing in offline mode, the app won't connect to its server and won't generate the session link cited above.***
 
 ## Player: Choose your Character
 
-When a player joins an Online game session, they don't have a character assigned to them yet.
+When a player joins an online game session, they won't have a character assigned to them yet.
 
 Kind of like in real life, the player needs to pull their character sheet out of their bag and put it on the table.
 
-To do that, a player simply has to click on the `Assign Character Sheet` button beside the player's name on the left of the screen.
+To do that, a player simply has to click on the **Assign Character Sheet** button beside the player's name on the left of the screen.
 
-![Assign A Character Sheet](https://gyazo.com/e3c035bb1997f71dc35bae11d0792363.gif)
+![Assign A Character Sheet](https://gyazo.com/2d7717765aa9ad04aebf3c7ba5e11408.gif)
 
-You then have the ability to do three things:
-
-- `Select` an existing character from the list.
-- Create a `New` Character.
-- `Import` a character based off a template your GM might have given you.
+From there, you can select a character from your binder or import one that your GM might have sent to you in advance.
 
 Once that is done, you are ready to play!
 
@@ -74,37 +60,25 @@ Once that is done, you are ready to play!
 
 Sometimes, it's easier if the GM does the heavy lifting of preparing the game material.
 
-For that reason, when a GM clicks on the `Assign Character Sheet` button, they will be prompted to either assign an existing character sheet or assign a duplicate of a character sheet.
+For that reason, the GM can also assign character sheets to their players.
 
-This can be useful if the GM prepared character templates in advance for the players
+***Tip: The "duplicate" button in the binder can be quite useful here if you have made a template and want to create one sheet for each player based on that template!***
 
-![Assign Original VS Assign Duplicate Character Sheets](https://gyazo.com/be49f9201d04386f9734c17f4c099a18.png)
 
 ## GM: Managing Game Scenes
 
 ### New Scenes
 
-When you start either an Online or Offline game, Fari creates a `New Empty Scene`.
+When you start both an online or offline game, you have the ability to create a new scene, or load one that you might have prepared in advance.
 
-From there, you can get started and start playing right away, but as you play, your players will move forward in the story and you will want to get a new scene going.
+***Tip: For more on scenes, checkout the [Managing Scenes](managing-scenes) chapter.***
 
-If so, you can create a `New Empty Scene` again by pressing the `New Scene` button.
-
-![GM Controls](https://gyazo.com/32f320a4c24b5f341c8b13ce290bf768.png)
+![Creating or Loading a Scene](https://gyazo.com/7535c2499c31c3dd9bbcadd8d59b0dc5.png)
 
 ### Saving
 
-During a game session, there is a very high probably that you will have to cancel the session early, but you probably don't want to lose your current scene and all the index cards you've added so far.
+Before leaving a game session, don't forget to save your scene if you haven't done so already to make sure that your current scene and all the index cards you've created for it are stored for next time.
 
-No worries, simply click the `Save Scene` button and Fari will save your scene so that you can load it in another game session.
-
-### Loading Scenes
-
-Whether you had to leave your last game session early or you've prepared scenes in advance for tonight's game, Fari lets you load scenes on the fly during your session so that you are always on top of your game.
-
-Use the `...` menu on the right and either click `Load Scene` or `Clone And Load Scene`
-
-![Loading a Scene](https://gyazo.com/5f093ab4cdf5783d1f61818d1120251f.png)
 
 ## Offline Access
 
@@ -112,29 +86,19 @@ Fari is kind of like a desktop application that runs in your browser.
 
 It doesn't have any servers or databases to store your data. You are 100% in control of your data because it lives inside your browser's local storage on your computer.
 
-But when you are playing an online game, Fari acts as a gateway so that you can see other people's data. Things like the current scene in play or players' character sheets.
+But when you are playing an online game, Fari acts as a gateway so that you can see other people's data.
 
-So, Fari is like a **virtual table** that lets you share temporarily data with others. When you leave that table and close your browser's tab, you take with you your character sheet and put it in your **backpack**.
+Fari is like a **virtual table** that lets you temporarily share with others. When you leave that table and close your browser's tab, you take with you your character sheet and put it in your **backpack**.
 
-Because of that, it's not directly possible to see other people's data without sitting at the **table**.
+Because of that, it's not possible to see other people's data without sitting at the **table**.
 
-But, Fari has a mechanism in place that lets you see data that doesn't belong to you using what we call the `Stored Toggle`.
+Fari does have a mechanism in place that lets you see data that doesn't belong to you using what we call the **Stored Toggle**.
 
-When opening a character sheet inside an online game and clicking on the `Stored Toggle`, Fari will act has your personal assistant and keep an up to date copy of that character sheet in your **backpack** so that you can consult it later without sitting at the **table**.
+When opening a character sheet inside an online game and clicking on the **Stored Toggle**, Fari will act has your personal assistant and keep an up to date copy of that character sheet in your **backpack** so that you can consult it later without sitting at the **table**.
 
-> A word of caution, if modify a character sheet that you aren't the true owner of and join an online game later, Fari might override those changes if the owner also modified the sheet on their end.
+***Note: A word of caution, if you modify a character sheet that you aren't the true owner of and join an online game later, Fari might override those changes if the owner also modified the sheet on their end.***
 
 ![Stored Toggle](https://gyazo.com/ea063d783e6d026ee077d4d94e5f6c91.png)
-
-> #### Load VS Clone and Load
->
-> Everytime you create something in Fari, Fari creates a unique identifier and attaches it to what you created.
->
-> When you `Load a Scene`, you are truly loading _this_ scene. Which means that if you click `Save` during your game session, you will modify the scene you loaded.
->
-> When you `Clone and Load` a scene, Fari will clone that scene and assign it a new unique identifier. So modifications done during the game session will be done on the copy of the scene and not the original.
->
-> This can be useful if for example you want to have a "Scene Template" that you want to use or something along those lines.
 
 # Managing Scenes
 
@@ -158,9 +122,9 @@ Fari Scenes are organized exactly like that. Each scene is a board which you can
 
 ## Public and Private Index Cards
 
-Each scene support two types of index cards: `Public` and `Private`.
+Each scene support two types of index cards: **Public** and **Private**.
 
-`Public` cards are things you want everyone at your table to see. While the `Private` cards are only going to be visible to the game master!
+**Public** cards are things you want everyone at your table to see. While the **Private** cards are only going to be visible to the game master!
 
 As the GM, you can use the private index cards to keep some aces up your sleeves or introduces some bad guys or interesting aspects during play.
 
@@ -170,7 +134,7 @@ When you create a private index card, it is possible to move it out of this sect
 
 The opposite is also totally possible.
 
-If you want to do this, simply click on the `Mark Public/Private` button at the top right corner of the index card.
+If you want to do this, simply click on the **Mark Public/Private** button at the top right corner of the index card.
 
 ![Mark Public/Private](https://gyazo.com/d121694e8673e28e573e24ca4deee667.png)
 
@@ -184,7 +148,7 @@ Each scene has also a basic note field that you can use if you want to save some
 
 Like said previously, Index Cards are built using the character sheet building blocks.
 
-To help you quickly add index cards during play, Fari as multiple pre mades templates for Fate, Blades in the Dark. You can also use the `Card Collection` feature to make your own templates to pull in during a gane.
+To help you quickly add index cards during play, Fari as multiple pre mades templates for Fate, Blades in the Dark. You can also use the **Card Collection** feature to make your own templates to pull in during a gane.
 
 ![Quick Templates Buttons](https://gyazo.com/fa537106c33dd715830bb325c28a3eea.png)
 ![Quick Templates](https://gyazo.com/e03c3b97e16b425c2c5ea26cdcacd452.png)
@@ -193,29 +157,29 @@ To help you quickly add index cards during play, Fari as multiple pre mades temp
 
 Scenes can become pretty messy over time. That why Fari offers 3 index card sorting functions
 
-- `None`: Index Cards can be freely re-organized by the GM. Using this options lets the GM define how index cards are organized
-- `Group First`: Index Cards can contain sub cards, this sorting function will keep those group cards at the top, followed by cards without sub cards
-- `Pinned First`: Cards can also be `Pinned`. Using this sort function will keep the pinned cards first followed by unpinned cards.
+- **None**: Index Cards can be freely re-organized by the GM. Using this options lets the GM define how index cards are organized
+- **Group First**: Index Cards can contain sub cards, this sorting function will keep those group cards at the top, followed by cards without sub cards
+- **Pinned First**: Cards can also be **Pinned**. Using this sort function will keep the pinned cards first followed by unpinned cards.
 
 ![Sorting Index Cards](https://gyazo.com/d05d64413bba2dcc4c787998351366c8.png)
 
 ## Collapsing or Expanding Index Cards
 
-Since scenes can become quite big and cluttered as you play, another useful features for organizing your index cards is the `Collapse/Expand` feature.
+Since scenes can become quite big and cluttered as you play, another useful features for organizing your index cards is the **Collapse/Expand** feature.
 
-Using either the top level `Collapse All / Expand All` button or by clicking on the `Collapse/Expand` arrow on an index card, you can minimize the space index cards take by hiding all the content of the card except for the title.
+Using either the top level **Collapse All / Expand All** button or by clicking on the **Collapse/Expand** arrow on an index card, you can minimize the space index cards take by hiding all the content of the card except for the title.
 
 ![Collapse All / Expand All](https://gyazo.com/262f04773e08db223b9caa863a8fa177.png)
 ![Collapse / Expand Arrow](https://gyazo.com/a81824f73a959da4c72008de7cc64d0b.png)
 
 ## Index Card Content
 
-Each index card contains by default two text field: a `Title` field and a `Content/Notes` field.
+Each index card contains by default two text field: a **Title** field and a **Content/Notes** field.
 
 Both fields can be used to add content to help describe what that card is about.
 
-The title field as a label attached to it that by default says `Index Card`.
-The content field also as a label, but this one says `Notes` by default.
+The title field as a label attached to it that by default says **Index Card**.
+The content field also as a label, but this one says **Notes** by default.
 
 Both of those labels can be changed to your liking.
 
@@ -277,7 +241,7 @@ Afterwards, sky is the limit. You can use this to add more detail or more dynami
 
 #### Advanced Mode
 
-Like with the character sheet, you can toggle the index card's `Advanced Mode` to show the blocks' advanced options
+Like with the character sheet, you can toggle the index card's **Advanced Mode** to show the blocks' advanced options
 
 ![Index Card Advanced Mode](https://gyazo.com/59caaea61dce0fe88661b9adc89f914b.gif)
 
@@ -295,25 +259,25 @@ Fari's character sheets are extremely flexible and basically limitless, so here 
 
 ## Customizing your Character Sheets
 
-When you create a new character, Fari will load the `Fate Condensed` template by default, if you want to customize your sheet yourself or load a different template, simply toggle the `Advanced Mode`.
+When you create a new character, Fari will load the **Fate Condensed** template by default, if you want to customize your sheet yourself or load a different template, simply toggle the **Advanced Mode**.
 
 ![Toggle The Advanced Mode](https://gyazo.com/39c3eea686057a9e18168bb5725251e2.gif)
 
 ## Name & Group
 
-You can give your character a `Name` and assign them a `Group`. Groups are a basic organization feature where characters with the same group will be _grouped_ together when you open the Character Drawer.
+You can give your character a **Name** and assign them a **Group**. Groups are a basic organization feature where characters with the same group will be _grouped_ together when you open the Character Drawer.
 
-You can view the `Group` field as a "Campaign" field if you want.
+You can view the **Group** field as a "Campaign" field if you want.
 
 ## Pages
 
-When the `Advanced Mode` is turned on, you can customize how your sheet is organized.
+When the **Advanced Mode** is turned on, you can customize how your sheet is organized.
 
-The Character Sheet is seperated into multiple `Pages/Tabs` where each page can have its own set of sections and building blocks.
+The Character Sheet is seperated into multiple **Pages/Tabs** where each page can have its own set of sections and building blocks.
 
 ### Adding a Page
 
-To add a page, click on the `+` icon on the right and click on the Page name to rename it as you wish
+To add a page, click on the **+** icon on the right and click on the Page name to rename it as you wish
 
 ![Addding a Page](https://gyazo.com/e180cb0f68661380ed9da33ef3285459.gif)
 
@@ -341,7 +305,7 @@ Sections let you group your building blocks of a similar kind together.
 
 ### Adding a new Section
 
-At the bottom of a each existing section, you can find a button labeled as `Add Section` which will let you add a section below the on you are looking at.
+At the bottom of a each existing section, you can find a button labeled as **Add Section** which will let you add a section below the on you are looking at.
 
 Once added, you can change its name simply by clicking on it and typing what you want.
 
@@ -349,7 +313,7 @@ Once added, you can change its name simply by clicking on it and typing what you
 
 ### Making Sections Visible inside the Character Card
 
-On the right side of your section's name, you will see an Eye button representing the `Visible on Card` action.
+On the right side of your section's name, you will see an Eye button representing the **Visible on Card** action.
 
 Clicking on it will make your entire section visible inside the Character Card.
 
@@ -361,13 +325,13 @@ You can use this functionality to make some sections of your characters sheets e
 
 ### Moving a Section
 
-Besides the Visible on Card button, there's the `Move Section` button. Clicking on this one will give you the ability to move your section up or down, on the other side of your sheet or on a completely different page.
+Besides the Visible on Card button, there's the **Move Section** button. Clicking on this one will give you the ability to move your section up or down, on the other side of your sheet or on a completely different page.
 
 ![Moving a Section](https://gyazo.com/e07f911ede7dbfa3b7d20a52a3724d7e.gif)
 
 ### Duplicating a Section
 
-Same as with pages, you can duplicate a section so that the creation of similar section is easier to do. Simple click on the `Duplicate Section` button when the advanced mode is enabled.
+Same as with pages, you can duplicate a section so that the creation of similar section is easier to do. Simple click on the **Duplicate Section** button when the advanced mode is enabled.
 
 ![Duplicating a Section](https://gyazo.com/05f2035d7d1757f993915645e51f3f2e.gif)
 
@@ -391,7 +355,7 @@ Fari currently supports 9 different types of blocks
 
 ### Adding a new Block
 
-To add a new block, simply scroll at the bottom of a section and look for the `Add Block` button.
+To add a new block, simply scroll at the bottom of a section and look for the **Add Block** button.
 
 From there, choose the type of block you want to add and this block will be appended at the bottom of your section.
 
@@ -401,7 +365,7 @@ From there, choose the type of block you want to add and this block will be appe
 
 This block can be used to keep text based information. Things like notes or character aspects and things of the sort.
 
-- `Add Toggle`: This control will append a toggle right beside your block's label. It can be useful to track when a power is used or if an aspect of your character is corrupted, etc.
+- **Add Toggle**: This control will append a toggle right beside your block's label. It can be useful to track when a power is used or if an aspect of your character is corrupted, etc.
 
 ![Text Block](https://gyazo.com/f3a229e8245c4b04db68b8f97ef27df0.png)
 
@@ -409,7 +373,7 @@ This block can be used to keep text based information. Things like notes or char
 
 Numeric blocks are useful if you are looking for something similar to a Text block, but made to handle numbers instead.
 
-- `Add Toggle`: This control will append a toggle right beside your block's label.
+- **Add Toggle**: This control will append a toggle right beside your block's label.
 
 ![Numeric Block](https://gyazo.com/77eedbbf4768e0b42949bc9946a3e1eb.png)
 
@@ -423,11 +387,11 @@ This skill then is linked to a set of dice commands as well as a dice result mod
 
 Once configured, clicking on the dice button will enable the Dice floating action button at the bottom left corner on the screen.
 
-Once enabled, clicking on the `Roll` label will let you roll that specific skill right away.
+Once enabled, clicking on the **Roll** label will let you roll that specific skill right away.
 
-- `Add Toggle`: This control will append a toggle right beside your block's label.
-- `Set Dice`: Clicking on this control will display the dice menu so that you can select the set of dice commands that skill should roll.
-- `Hide Modifier`: Skills don't always have to have a modifier that should be added to the result. For that reason, this control will hide the modifier input to keep the character sheet tidy and clean.
+- **Add Toggle**: This control will append a toggle right beside your block's label.
+- **Set Dice**: Clicking on this control will display the dice menu so that you can select the set of dice commands that skill should roll.
+- **Hide Modifier**: Skills don't always have to have a modifier that should be added to the result. For that reason, this control will hide the modifier input to keep the character sheet tidy and clean.
 
 ![Skill Block](https://gyazo.com/e48b414263349f33c6cf67e7cd5b701b.png)
 
@@ -438,9 +402,9 @@ Similar the the skill block, Dice Pools will let you create some sort of skill t
 Once configured, when a players clicks on the pool button, all the dice commands inside that block will be added to the pool.
 Clicking on it again will remove the dice commands from the pool.
 
-When the pool is complete, the player simply needs to click on the `Roll Pool` floating action button at the bottom left corner of the screen.
+When the pool is complete, the player simply needs to click on the **Roll Pool** floating action button at the bottom left corner of the screen.
 
-- `Set Dice`: Clicking on this control will display the dice menu so that you can select the set of dice that the pool should contain
+- **Set Dice**: Clicking on this control will display the dice menu so that you can select the set of dice that the pool should contain
 
 ![Dice Pool Block](https://gyazo.com/48b3744e6a3011076ba308cf51b35b68.png)
 
@@ -448,8 +412,8 @@ When the pool is complete, the player simply needs to click on the `Roll Pool` f
 
 This kind of block is useful if you are looking to track any sort of point based value. Use it to track your Fate Points, health points, gold pieces, etc.
 
-- `Set as Main Counter`: This control lets you select a **single** point counter as the main one. The main point counter is going to be the one that is displayed in the Players section when you are playing a game session.
-- `With Max`: Use this value if you want to have a max value attached to your point counter.
+- **Set as Main Counter**: This control lets you select a **single** point counter as the main one. The main point counter is going to be the one that is displayed in the Players section when you are playing a game session.
+- **With Max**: Use this value if you want to have a max value attached to your point counter.
 
 ![Point Counter Block](https://gyazo.com/b520f5e1d36a3de7f11bcf401721accd.png)
 
@@ -459,8 +423,8 @@ This kind of block is useful if you are looking to track any sort of point based
 
 Slot trackers let you add a block where you can have a bunch of checkboxes that will help you track things. You can use that to track your stress in Fate or trauma in Blades in the Dark.
 
-- `Add/Remove Box`: Those buttons will let you add or remove a box to your slot tracker.
-- `Box Labels`: Slot tracker block contains boxes, each one of those boxes can be checked or unchecked. You can also customize the label attached to a box. When left empty, the label will simply be hidden when the advanced mode is turned off. You can use that to attach a specific meaning to each box.
+- **Add/Remove Box**: Those buttons will let you add or remove a box to your slot tracker.
+- **Box Labels**: Slot tracker block contains boxes, each one of those boxes can be checked or unchecked. You can also customize the label attached to a box. When left empty, the label will simply be hidden when the advanced mode is turned off. You can use that to attach a specific meaning to each box.
 
 ![Slot Tracker Block](https://gyazo.com/45123ed0af8ae1772788b34278300c80.png)
 
@@ -474,7 +438,7 @@ Image block lets you add a link to an image or gif hosted somewhere on the web s
 
 The Separator Block is useful to split complex sections so that they are easier to look and things a better organized.
 
-- `Add Label`: Use this option to add a label to the separator block.
+- **Add Label**: Use this option to add a label to the separator block.
 
 ![Separator Block](https://gyazo.com/57e2b7a87d282fd5fb3353a04cf5d0f2.png)
 
@@ -482,7 +446,7 @@ The Separator Block is useful to split complex sections so that they are easier 
 
 If you have a wiki, or want to have references to external resources inside your character sheets; you can use the Link block to link to achieve this.
 
-- `Show Display Name`: Use this option to add a display name to your link instead of displaying the link itself.
+- **Show Display Name**: Use this option to add a display name to your link instead of displaying the link itself.
 
 ![Link Block](https://gyazo.com/c942e54dd69a1f9481a9821a435e5ea0.png)
 
@@ -490,17 +454,17 @@ If you have a wiki, or want to have references to external resources inside your
 
 Blocks are all based around the same idea, for that reason all types of blocks have a similar set of actions you can use to help you create a nice character sheet.
 
-- `Move`: Using the drag icon, you can move your blocks _inside the section_ by simply dragging and dropping them where you you
-- `Duplicate`: This action will let you duplicate and append right below a block of the type type with the same values
-- `Remove`: This action will remove the block from the section
-- `Help Text`: Each block can have some help text attached to it. It can useful when you want to provide some useful information to the user of the sheet about what a certain block is about or how its used in the game.
+- **Move**: Using the drag icon, you can move your blocks _inside the section_ by simply dragging and dropping them where you you
+- **Duplicate**: This action will let you duplicate and append right below a block of the type type with the same values
+- **Remove**: This action will remove the block from the section
+- **Help Text**: Each block can have some help text attached to it. It can useful when you want to provide some useful information to the user of the sheet about what a certain block is about or how its used in the game.
   - When left empty, the help text will disappear when the advanced mode is toggled off.
 
 ![Generic Block Controls](https://gyazo.com/45af086acdaf7542f343e361a1d078d0.png)
 
 ## Printing
 
-You can create a PDF and/or print a character sheet using `Print` option.
+You can create a PDF and/or print a character sheet using **Print** option.
 
 ![Print](https://gyazo.com/6b2579f967b21f16aca3d3d0e3af05f5.png)
 
@@ -520,7 +484,7 @@ Not every NPC needs to be a full-on character sheet, but the benefit of using ch
 
 Well, Fari supports doing that for index cards as well!
 
-By using the following syntax `[skill: modifier]` inside an Index Card description, Fari will automatically add a link at the bottom of the index card so that you can easily roll `4dF` a skill modifier.
+By using the following syntax **[skill: modifier]** inside an Index Card description, Fari will automatically add a link at the bottom of the index card so that you can easily roll **4dF** a skill modifier.
 
 ![Index Card Skill Modifier](https://gyazo.com/04ddec1356bf3b25022341f40d6f3a25.gif)
 
@@ -570,8 +534,8 @@ Looking for a template but it's not available ?
 Are you interested in contributing to Fari ? Here is what you can do
 
 1. [Create a template](https://fari.app/fari-wiki/managing-characters)
-2. Export it from the `Characters` menu using the Share button
-3. Send it to `RPDeshaies#4116` [on Discord](https://discord.com/invite/vMAJFjUraA)
+2. Export it from the **Characters** menu using the Share button
+3. Send it to **RPDeshaies#4116** [on Discord](https://discord.com/invite/vMAJFjUraA)
 
 And that's about it!
 
