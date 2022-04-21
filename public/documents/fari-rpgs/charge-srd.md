@@ -57,13 +57,13 @@ This game includes references and expressions of the following themes: [...]
 
 ## Game Master & Players
 
-One person in the group needs to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that live in it (those that aren't directly played by the rest of the table). We call those characters "non-player characters", or `NPCs`.
+One person in the group needs to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that aren't directly played by the rest of the table. We call those characters "non-player characters", or `NPCs`.
 
 The rest of the group are `Players`. The players create a character that experiences compelling stories inside this world. We call those player characters, or `PCs`.
 
 While the GM is usually the main person in charge of the way the world changes over time, everyone at the table is in charge of the story.
 
-Everyone at the table contributes to make the story successful, and captivating.
+Everybody contributes to make the story successful, and captivating.
 
 ## Game Structure
 
