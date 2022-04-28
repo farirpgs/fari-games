@@ -1,4 +1,3 @@
-
 # Introduction
 
 Fari App might seem like a simple application at first, but there a lot of more advanced features that you can leverage to boost your Fate online sessions to the next level.
@@ -40,7 +39,7 @@ After you've sent your players the link, they can enter their name and join the 
 
 The pffline mode is useful if everyone is physically in the same room but the GM still wants to use Fari App to manage their scenes and character sheets.
 
-***Note: When playing in offline mode, the app won't connect to its server and won't generate the session link cited above.***
+**_Note: When playing in offline mode, the app won't connect to its server and won't generate the session link cited above._**
 
 ## Player: Choose your Character
 
@@ -62,8 +61,7 @@ Sometimes, it's easier if the GM does the heavy lifting of preparing the game ma
 
 For that reason, the GM can also assign character sheets to their players.
 
-***Tip: The "duplicate" button in the binder can be quite useful here if you have made a template and want to create one sheet for each player based on that template!***
-
+**_Tip: The "duplicate" button in the binder can be quite useful here if you have made a template and want to create one sheet for each player based on that template!_**
 
 ## GM: Managing Game Scenes
 
@@ -71,14 +69,13 @@ For that reason, the GM can also assign character sheets to their players.
 
 When you start both an online or offline game, you have the ability to create a new scene, or load one that you might have prepared in advance.
 
-***Tip: For more on scenes, checkout the [Managing Scenes](managing-scenes) chapter.***
+**_Tip: For more on scenes, checkout the [Managing Scenes](managing-scenes) chapter._**
 
 ![Creating or Loading a Scene](https://gyazo.com/7535c2499c31c3dd9bbcadd8d59b0dc5.png)
 
 ### Saving
 
 Before leaving a game session, don't forget to save your scene if you haven't done so already to make sure that your current scene and all the index cards you've created for it are stored for next time.
-
 
 ## Offline Access
 
@@ -96,7 +93,7 @@ Fari does have a mechanism in place that lets you see data that doesn't belong t
 
 When opening a character sheet inside an online game and clicking on the **Stored Toggle**, Fari will act has your personal assistant and keep an up to date copy of that character sheet in your **backpack** so that you can consult it later without sitting at the **table**.
 
-***Note: A word of caution, if you modify a character sheet that you aren't the true owner of and join an online game later, Fari might override those changes if the owner also modified the sheet on their end.***
+**_Note: A word of caution, if you modify a character sheet that you aren't the true owner of and join an online game later, Fari might override those changes if the owner also modified the sheet on their end._**
 
 ![Stored Toggle](https://gyazo.com/ea063d783e6d026ee077d4d94e5f6c91.png)
 
@@ -476,18 +473,6 @@ Here's an example from the community of what it could look like:
 
 ![PDF Character Sheet](https://gyazo.com/5fe1178cc5cf8b615077cd75df439929.png)
 
-# Tips and Tricks
-
-## Index Card Roll Modifiers
-
-Not every NPC needs to be a full-on character sheet, but the benefit of using character sheets in Fari is that you can easily click on a skill to roll 4dF + a skill modifier.
-
-Well, Fari supports doing that for index cards as well!
-
-By using the following syntax **[skill: modifier]** inside an Index Card description, Fari will automatically add a link at the bottom of the index card so that you can easily roll **4dF** a skill modifier.
-
-![Index Card Skill Modifier](https://gyazo.com/04ddec1356bf3b25022341f40d6f3a25.gif)
-
 # Fari in the Wild
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C_rHMMuYoo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -574,31 +559,3 @@ The About page is not translated using the translations keys like the rest of th
 If you want to translate the app, you should also provide a translated version of the About page in markdown format.
 
 To do so, you can [download the English About page](https://raw.githubusercontent.com/fariapp/fari/master/lib/routes/About/page/About.en.md) and translate its content in the language of your choice.
-
-# Connection issues
-
-It is possible that, depending on your internet service provider configuration, you might not be able to use Fari's online functionalities.
-
-If you have any issues, don't hesitate to reach out [here](https://farirpgs.com/#contact).
-
-## Solution
-
-There are multiple solutions that Fari could use to fix this issue but they all come at a price, literally.
-
-We could spin our own TURN server. Compared to the normal peer-to-peer scenario where users transfer their data between each other without any middleman, TURN servers are responsible for transferring all the data from one user to the other, which makes them very expensive to run. (min 400$ per year)
-
-We could also use a real-time database like Google Firebase, but this could also end up being expensive (~1$ per GB transferred per month with a minimum of 10GB, so more than 100$ per year)
-
-All of that said, we also need to consider the developer time / maintenance cost of maintaining those infrastructures.
-
-## Other options
-
-If someone in the community thinks there are other alternatives, I'm all ears.
-
-For now, what I can say is that if you discover that yourself or friends can't connect to one another, you should look into using Fari's Offline Mode (for the GM) and share your screen with the rest of your friends.
-
-http://fari.app/play-offline
-
-## One last thing
-
-It really saddens me to not be able to do more for this, but because Fari is free, and I'm mostly working alone on this, the money and the time investment required to be able to make Fari's online functionalities more reliable for everyone is too big.
