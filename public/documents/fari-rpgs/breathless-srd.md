@@ -5,6 +5,25 @@ textFont: Lato
 highlightFont: Barlow Condensed
 ---
 
+<style>
+    @import url("https://fonts.cdnfonts.com/css/cheddar-gothic-stencil");
+    .fari-games-document h1 {
+        font-family: "Cheddar Gothic Stencil", sans-serif !important;
+        /* background: #000; */
+        /* color: #fff !important; */
+        padding: 1rem;
+    }
+    .fari-games-document h2 {
+        font-family: "Cheddar Gothic Stencil", sans-serif !important;
+        background: #000; 
+         color: #fff !important;
+        padding: 1rem;
+    }
+    .fari-games-document h2 .anchor {
+        color: #fff !important;
+    }
+</style>
+
 # Introductions | Breathless SRD
 
 ![Breathless SRD](https://gyazo.com/0f40d43a7d0f357b04833aa520703564.png)
@@ -17,7 +36,7 @@ Characters are talented and proactive. But the path that lies in front of them i
 
 <iframe frameborder="0" src="https://itch.io/embed/1395991?linkback=true&amp;dark=true" width="100%" height="167"><a href="https://fari-rpgs.itch.io/breathless-srd">Breathless - System Reference Document by Fari RPGs</a></iframe>
 
-## This Game Is Breathless
+### This Game Is Breathless
 
 Use those logos to show that your game is **"A Breathless Game"**
 
