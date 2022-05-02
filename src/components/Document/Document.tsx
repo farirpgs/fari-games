@@ -491,6 +491,7 @@ export function Document(props: {
       en: "English",
       "pt-br": "Português",
       fr: "Français",
+      es: "Español",
       de: "Deutsch",
     };
 
