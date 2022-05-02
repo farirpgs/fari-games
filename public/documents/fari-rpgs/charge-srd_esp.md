@@ -57,9 +57,9 @@ Este juego incluye referencias y expresiones acerca de los siguientes temas: [..
 
 ## Director del Juego y Jugadores
 
-Una persona en el grupo necesita jugar como el `Director del Juego` o `DJ`. El DJ es responsable del mundo y los personajes que habitan allí (esos que no son jugados directamente por el resto de personas en la mesa). Llamamos a estos personajes “personajes no jugadores” o “PNJ”.
+Una persona en el grupo necesita jugar como el `Director del Juego` o `DJ`. El DJ es responsable del mundo y los personajes que habitan allí (esos que no son jugados directamente por el resto de personas en la mesa). Llamamos a estos personajes `personajes no jugadores` o `PNJ`.
 
-El resto de personas en la mesa son “Jugadores”. Estas personas crean un personaje que experimenta historias convincentes dentro del mundo de ficción. Llamamos a estos “personaje jugador” o “PJ” 
+El resto de personas en la mesa son `Jugadores`. Estas personas crean un personaje que experimenta historias convincentes dentro del mundo de ficción. Llamamos a estos `personaje jugador` o `PJ` 
 
 Aunque el DJ suele ser el encargado principal  de gestionar que el mundo cambie de alguna manera con el tiempo, todas las personas en la mesa están a cargo de la historia.
 
@@ -69,7 +69,7 @@ Todas las personas en la mesa contribuyen para hacer que la historia que se cuen
 
 Para jugar este juego te reúnes con otras personas, ya sea en la vida real o en línea para crear colaborativamente entre todas una historia fascinante. 
 
-Cada “sesión” es por sí misma una experiencia única y está compuesta de múltiples “escenas” relacionadas entre ellas, como en una película. Cada escena se desarrolla en un diálogo de ida y vuelta entre el DJ y los PJ. El DJ describe cómo es la escena, los jugadores le cuentan al DJ qué hacen sus personajes y, finalmente, el DJ hace que el mundo reaccione a las acciones de estos dependiendo del resultado de la tirada de dados.
+Cada `sesión` es por sí misma una experiencia única y está compuesta de múltiples `escenas` relacionadas entre ellas, como en una película. Cada escena se desarrolla en un diálogo de ida y vuelta entre el DJ y los PJ. El DJ describe cómo es la escena, los jugadores le cuentan al DJ qué hacen sus personajes y, finalmente, el DJ hace que el mundo reaccione a las acciones de estos dependiendo del resultado de la tirada de dados.
 
 Se tiran los dados porque se busca tener la sensación de estar al filo de la butaca. Buscamos que la historia nos sorprenda hacia donde sea que nos tenga que llevar.
 
@@ -87,7 +87,7 @@ Si como persona no te sientes segura en una mesa de juego, es totalmente entendi
 
 ## Detalles
 
-Los personajes son definidos mediante rasgos descriptivos llamados “detalles”. Cada personaje normalmente tiene entre 2 y 5 de estos para remarcar quiénes son y qué es importante acerca de ellos. Estos detalles no son solamente información para darle profundidad al personaje, sino que debería ser los aspectos a los que se presta atención dentro de la historia. También, son utilizados como una guía para reconocer las libertades narrativas diferentes que un personaje tiene dentro la ficción.
+Los personajes son definidos mediante rasgos descriptivos llamados `detalles`. Cada personaje normalmente tiene entre 2 y 5 de estos para remarcar quiénes son y qué es importante acerca de ellos. Estos detalles no son solamente información para darle profundidad al personaje, sino que debería ser los aspectos a los que se presta atención dentro de la historia. También, son utilizados como una guía para reconocer las libertades narrativas diferentes que un personaje tiene dentro la ficción.
 
 Cuando cree un personaje nuevo, escriba en su hoja de personaje lo siguiente:
 
