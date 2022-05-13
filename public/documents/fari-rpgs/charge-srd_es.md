@@ -32,6 +32,12 @@ Nos morimos de ganas por saber qué desarrollará usted con esto. ¡Disfrútelo!
 > 	<img style="background: #000" src="https://gyazo.com/3f66d3276513deef1cdb7c200c098689.png" width="300px" style="margin-bottom: 1rem"/>
 > </div>
 
+> #### Nota acerca del traductor al español
+> 
+> | Name                      | Discord               | Twitter                                                 | Itch                                  |
+> | ------------------------- | --------------------- | ------------------------------------------------------- | ------------------------------------- |
+> | `Mario A. Tejada Loría`   | laesquinadelrol#1953  | [@laesquinadelrol](https://twitter.com/laesquinadelrol) |                                       |
+
 # El Juego | Charge SRD
 
 En este juego, usted y otras personas se reúnen para contar una historia compartida acerca de un grupo de personajes ficticios que enfrentan y tratan de superar obstáculos. Ustedes decidirán cómo los personajes resuelven esos retos y cómo el mundo reacciona a lo que hagan los personajes.
