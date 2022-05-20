@@ -198,8 +198,8 @@ At the start of the game, characters begin with zero talents. They will gain tho
 > Give each `talent` a name and describe what they do. A talent can do many things including, but not limited to:
 >
 > - `+1d6 when ______`
-> - `+1 position when ______`
-> - `+1 effect when ______`
+> - `Lower the risk when ______`
+> - `Increase the effect when ______`
 > - `Use [action] instead of [action] when ______`
 > - `[New narrative liberty] when ______`
 
@@ -235,15 +235,15 @@ To make an action roll, we go through the following steps:
 
 The player states their goal and, which `action` they are using.
 
-#### 2. GM Sets the Position
+#### 2. GM Sets the Risk
 
-The GM sets the position of the situation based on what has been established in the narrative.
+The GM sets the `risk` of the action based on what has been established in the narrative.
 
-- In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out.
-- In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
-- In a `desperate` position, the odds are against you. Attempting to go against them might backfire heavily.
+- When the risk is `low`, things are under control. Even if things go wrong, there is a way out.
+- When the risk is `moderate`, the situation is dangerous. If you fail, there will be repercussions.
+- When the risk is `high`, the odds are against you. Attempting to go against them might backfire heavily.
 
-By default, an action roll is `risky`. You wouldn’t be rolling if there was no risk involved.
+By default, an action roll has a `moderate` risk. You wouldn’t be rolling if there was no risk involved.
 
 #### 3. GM Sets the Effect Rating
 
@@ -337,7 +337,7 @@ You can make a `determination roll` to try to reduce or cancel the consequence.
 
 ### Set up
 
-When you perform a setup action, you make an `action roll` to have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` level or `improved position` for their roll.
+When you perform a setup action, you make an `action roll` to have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver either gets an `improved effect` or a `reduced risk` for their roll.
 
 You choose the benefit, based on the nature of your setup action.
 
@@ -349,15 +349,15 @@ The GM chooses one of the following:
 
 - `Reduced Effect` : reduce the `effect` of the action by one level.
 - `Complication`: tick one segment per `consequence rating` on a new or existing `danger clock`.
-- `Worse Position` : reduce the `position` of the PC by one level for their next action rolls.
+- `Worse position`: increase the _risk_ of future related action rolls by one level.
 - `Lost Opportunity` : what you tried didn't work, you need to use another `action`.
 - `Worse Condition`: take `1 stress` per `consequence rating`.
 
-The `consequence rating` is determined by looking at the position for the roll.
+The `consequence rating` is determined by looking at the `risk` for the roll.
 
-- A `controlled` position, has a consequence rating of `1`.
-- A `risky` position, has a consequence rating of `2`.
-- A `desperate` position, has a consequence rating of `3`.
+- A `low` risk has a consequence rating of `1`.
+- A `moderate` risk has a consequence rating of `2`.
+- A `high` risk has a consequence rating of `3`.
 
 ## Determination Roll
 
@@ -372,7 +372,7 @@ Once you've decided how many charges you want to consume, roll and interpret the
 - On a `1-3`, the `consequence` still happens.
 - On a `4-5`, the `consequence` is reduced.
 - On a `6`, the `consequence` is avoided.
-- On a `66`, the `consequence` is avoided, and you get +1 position for your next roll.
+- On a `66`, the `consequence` is avoided, and the `risk` of your next roll is lowered.
 
 > #### Designer Note: Hacking Determination Rolls
 >
@@ -400,9 +400,9 @@ When a PC succeeds an action roll, you can use a `progress clock` and:
 
 When a PC gets a consequence from an action roll, you can use `danger clock` and:
 
-- Tick 3 segments for a `desperate position`.
-- Tick 2 segments for a `risky position`.
-- Tick 1 segment for a `controlled position`.
+- Tick 3 segments for a `high risk`.
+- Tick 2 segments for a `moderate risk`.
+- Tick 1 segment for a `low risk`.
 
 When a clock is filled, a narrative element in the story is now resolved. Either the PCs got closer to their goal, or danger has come to fruition and makes the situation more complicated.
 
@@ -644,12 +644,12 @@ To do so, the GM looks at the 3 cards they've drawn, and builds a dice pool of `
 
 If there's no red card, roll `2d6`, and select the lowest number.
 
-The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting their next mission.
+The result of this roll tells us what is going to be the initial `risk` the PCs will find themselves in when starting their next mission.
 
-- On a `1-3`, the PCs start in a `desperate` position.
-- On a `4-5`, the PCs start in a `risky` position.
-- On a `6`, the PCs start in a `controlled` position.
-- On a `66`, the PCs start in a `controlled` position, and gain some additional benefit.
+- On a `1-3`, the PCs start in a `high` risk position.
+- On a `4-5`, the PCs start in a `moderate` risk position.
+- On a `6`, the PCs start in a `low` risk position.
+- On a `66`, the PCs start in a `low` risk position, and gain some additional benefit.
 
 The GM introduces the mission to the PCs, and they decide how they will approach the situation.
 
