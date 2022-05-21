@@ -883,7 +883,7 @@ We aren't using dice to support this mechanic because we don't believe luck shou
 
 **_The future is in constant flux._**
 
-The fortune roll is a tool that the GM can use to disclaim decision making in a situation the where PCs aren’t directly involved in. It can also be used by the players when no other roll applies to the situation at hand. The result of the roll helps guide the outcome as to where the story goes next, but doesn't feature `momentum` nor `consequences`.
+The fortune roll is a tool that the GM can use to disclaim decision making in a situation the PCs aren’t directly involved in. It can also be used by the players when no other roll applies to the situation at hand. The result of the roll helps guide the outcome as to where the story goes next, but doesn't feature `momentum` nor `consequences`.
 
 > **_You are looking in the wreckage of a ship; is anybody left alive? You find a pistol on the ground; are there still bullets in it? Two factions are at war; who will win the final battle?_**
 
