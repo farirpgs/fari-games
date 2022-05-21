@@ -903,7 +903,7 @@ Once the pool(s) are ready, throw the dice and interpret the results.
 
 > **_There's someone left alive on the ship, and they are still breathing. There are bullets in the gun, but the gun itself is broken and can't be used._**
 
-Don't overthink this as this rule should not get in the way of the game. This mechanic is there to **quickly spice things up** during a scene when there's an unknown element that and we want to see how it plays out..
+Don't overthink this as this rule should not get in the way of the game. This mechanic is there to **quickly spice things up** during a scene when there's an unknown element and we want to see how it plays out.
 
 ## Recap
 
