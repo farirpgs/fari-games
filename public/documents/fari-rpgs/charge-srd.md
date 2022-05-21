@@ -466,7 +466,7 @@ When a player gets a `situational talent`, they need to decide on a specific sit
 
 ## Fortune Rolls
 
-The fortune roll is a tool that the GM can use to disclaim decision making in a situation where the PCs aren’t directly involved in. It can also be used by the players when no other roll applies to the situation at hand. The result of the roll helps guide the outcome as to where the story goes next, but doesn't feature momentum nor consequences.
+The fortune roll is a tool that the GM can use to disclaim decision making in a situation the PCs aren’t directly involved in. It can also be used by the players when no other roll applies to the situation at hand. The result of the roll helps guide the outcome as to where the story goes next, but doesn't feature momentum nor consequences.
 
 To make a fortune roll, build a dice pool by using a specific action or by adding `+1d6` per likeliness level of a thing happening. Roll, and interpret the results.
 
