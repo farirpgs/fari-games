@@ -539,7 +539,7 @@ The player can decide if they want to even the odds by adding bonus dice to thei
 
 You can normally get two bonus dice for your action roll.
 
-For one bonus die, you can get assistance from a teammate. They consume `1 momentum`, say how they help you, and give you `+1d6`.
+For one bonus die, you can get assistance from a teammate. They consume `1 momentum`, say how they help you, and give you an extra `1d6`.
 
 For another bonus die, you can use **one** of the following methods
 
@@ -547,21 +547,21 @@ For another bonus die, you can use **one** of the following methods
 
 When you `push yourself`, you consume `2 momentum` **per push** to gain one of the following bonuses.
 
-- Add `+1d6` to your dice pool.
-- Gain `+1 effect rating` for your roll.
+- Add an extra `1d6` to your dice pool.
+- Increase the `effect` of your roll.
 - Take action even if you were taken out.
 
 ### Add Tension
 
 When you `add tension` to an action roll, you can ask the GM _"What would adding tension look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
-If you accept the `consequence`, add `+1d6` to your current dice pool.
+If you accept the `consequence`, add an extra `1d6` to your current dice pool.
 
 There could be scenarios where adding tension isn't an option. In that case, the GM can simply communicate that to the player so that they look into other ways to even the odds.
 
 ## Assist
 
-When you `assist` a PC, you consume `1 momentum`, to give `+1d6` to their roll. When doing this, you also expose yourself to possible danger.
+When you `assist` a PC, you consume `1 momentum`, to give an extra `1d6` to their roll. When doing this, you also expose yourself to possible danger.
 
 You can also even the odds by using **either** of the following methods.
 
@@ -578,8 +578,8 @@ So now, let's go over all of this again to recap what happens when you make an a
 > 1. Pick an Action and find out how many dice you need to roll (the `action rating`)
 > 1. Determine the `position` (`1 controlled` ► `2 risky` ► `3 desperate`)
 > 1. Determine the `effect rating` (`3 great` ► `2 standard` ► `1 limited`)
-> 1. Add `+1d6` if: you `push yourself` (`2 momentum`) -or- if you `add tension` to the scene.
-> 1. Add `+1d6` if you have `assistance` (they consume `1 momentum`)
+> 1. Add `1d6` if: you `push yourself` (`2 momentum`) -or- if you `add tension` to the scene.
+> 1. Add `1d6` if you have `assistance` (they consume `1 momentum`)
 > 1. Roll and wish for the best!
 >
 > ---
@@ -591,7 +591,7 @@ So now, let's go over all of this again to recap what happens when you make an a
 
 > #### Example
 >
-> _Xavier's character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it's a **risky position** since the guard might not be alone, but the outcome would be of **great effect** because the guard isn't on high alert. Xavier doesn't want to leave everything up to chance, and decides to even the odds. He declares that his character will **push themselves** to get an additional `+1d6` by diving in the water to get closer before taking the guard out. Xavier rolls his dice pool and... gets a `5`, partial success! The GM then says that Xavier's character takes out the guard, but ticks 2 segments on an "Alert Clock" because of the noise Xavier's character made pulling the guard in the water._
+> _Xavier's character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it's a **risky position** since the guard might not be alone, but the outcome would be of **great effect** because the guard isn't on high alert. Xavier doesn't want to leave everything up to chance, and decides to even the odds. He declares that his character will **push themselves** to get an additional `1d6` by diving in the water to get closer before taking the guard out. Xavier rolls his dice pool and... gets a `5`, partial success! The GM then says that Xavier's character takes out the guard, but ticks 2 segments on an "Alert Clock" because of the noise Xavier's character made pulling the guard in the water._
 
 # Consequences| Mechanics
 
@@ -727,7 +727,7 @@ If a character suffers a `consequence` that you, as a player, don't like, you ca
 
 You do so by calling for a `determination roll` to see how well you resist the consequence.
 
-You make that roll by burning momentum. Build a pool of d6s by adding `+1d6` per charge of momentum.
+You make that roll by burning momentum. Build a pool of d6s by adding `1d6` per charge of momentum.
 
 Once you've decided how many charges you want to consume, roll and interpret the results:
 
@@ -744,7 +744,7 @@ If you want, you can also resist a consequence that isn't targeting you directly
 
 > #### Determination Roll
 >
-> - Roll `+1d6` per consumed charges of momentum.
+> - Roll a pool of d6s by adding `1d6` for each charge of momentum you are willing to consume for the roll.
 >   - On a `1-3`, The `consequence` still happens.
 >   - On a `4-5`, The `consequence` is reduced.
 >   - On a `6`, The `consequence` is avoided.
@@ -806,9 +806,9 @@ The reason why each character starts with only `2 momentum` at the beginning of 
 
 **By default**, you gain momentum as a result of a successful action roll.
 
-- If you rolled a `4-5`, you gain `+1 momentum`.
-- If you rolled a `6`, you gain `+2 momentum`.
-- If you rolled a `66`, you gain `+3 momentum`.
+- If you rolled a `4-5`, you gain `1 momentum`.
+- If you rolled a `6`, you gain `2 momentum`.
+- If you rolled a `66`, you gain `3 momentum`.
 
 **Also, when momentum is spent for a roll, that roll cannot in turn generate momentum.**
 
@@ -835,9 +835,9 @@ If for example you want to emphasize the fact that life is hard and resources ar
 >
 > #### Default Momentum Dial
 >
-> - Gain `+1 momentum` for a `4-5`.
-> - Gain `+2 momentum` for a `6`.
-> - Gain `+3 momentum` for a `66`.
+> - Gain `1 momentum` for a `4-5`.
+> - Gain `2 momentum` for a `6`.
+> - Gain `3 momentum` for a `66`.
 
 # Recovery | Mechanics
 
@@ -889,7 +889,7 @@ Not everything is about the proficiencies of the PCs. There are situations where
 
 To make a fortune roll, you need to assess the chances of a thing actually happening.
 
-Is that thing likely or unlikely to happen? For each "likeliness" level, add `+1d6` to the dice pool.
+Is that thing likely or unlikely to happen? For each "likeliness" level, add `1d6` to the dice pool.
 
 - If there's a 50% chance of success, roll `1d6`. If it's more than that, add more dice to the pool.
 - If it's really unlikely, roll `2d6` and pick the lowest result.
@@ -906,7 +906,7 @@ Don't overthink this. This rule should not get in the way of the game. This mech
 
 > #### Fortune Roll
 >
-> - Build a dice pool by adding `+1d6` per likeliness level of a thing happening, roll, and interpret the results.
+> - Build a dice pool by adding `1d6` per likeliness level of a thing happening, roll, and interpret the results.
 > - If it's really unlikely, roll `2d6` and take the lowest result.
 >
 > ---
@@ -928,7 +928,7 @@ There are multiple ways player characters can help each other in Charge. They co
 
 When you `assist`, you help another player who's making an action roll. Describe what your character does to help. When doing this, you also expose yourself to possible danger.
 
-> **Consume `1 momentum`, and give them an additional `+1d6` for their roll.**
+> **Consume `1 momentum`, and give them an additional `1d6` for their roll.**
 >
 > ---
 >
@@ -948,7 +948,7 @@ You can make a `determination roll` to try to reduce or cancel the consequence.
 
 ## Set up
 
-When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `+1 effect` rating or an `improved position` for their roll.
+When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `improved effect` rating or an `improved position` for their roll.
 
 You choose the benefit, based on the nature of your setup action.
 
@@ -1206,9 +1206,9 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > #### Default Momentum Dial
 >
-> - Gain `+1 momentum` for a `4-5`.
-> - Gain `+2 momentum` for a `6`.
-> - Gain `+3 momentum` for a `66`.
+> - Gain `1 momentum` for a `4-5`.
+> - Gain `2 momentum` for a `6`.
+> - Gain `3 momentum` for a `66`.
 >
 > #### Using Momentum
 >
@@ -1224,9 +1224,9 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > The number of stress inflicted depends on the action's `position`:
 >
-> - `Controlled`: `+1 stress`
-> - `Risky`: `+2 stress`
-> - `Desperate`: `+3 stress`
+> - `Controlled`: `1 stress`
+> - `Risky`: `2 stress`
+> - `Desperate`: `3 stress`
 >
 > Each stress ticks a segment on a PC's stress clock. When you mark stress, you also need to add/update your `condition`.
 >
@@ -1264,7 +1264,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to resist a consequence, or incoming `stress`.
 >
-> - Roll `+1d6` per consumed charges of momentum.
+> - Build a pool of d6s by adding `1d6` for each charge of momentum you are willing to consume for the roll.
 >   - On a `1-3`, The `consequence` still happens.
 >   - On a `4-5`, The `consequence` is reduced.
 >   - On a `6`, The `consequence` is avoided.
@@ -1282,7 +1282,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to help a fellow PC accomplish their action.
 >
-> - Consume `1 momentum` and add `+1d6` to their roll.
+> - Consume `1 momentum` and add `1d6` to their roll.
 > - This also exposes the helper to any potential consequences resulting from the roll.
 >
 > ### Protect
@@ -1310,9 +1310,9 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - The opportunity is lost and the PC must try a new approach.
 > - The `position` worsens.
 > - The PC takes `stress`:
->   - `+1 stress` for a `controlled` position
->   - `+2 stress` for a `risky` position
->   - `+3 stress` for a `desperate` position
+>   - `1 stress` for a `controlled` position
+>   - `2 stress` for a `risky` position
+>   - `3 stress` for a `desperate` position
 >
 > ### Progression
 >
@@ -1453,7 +1453,7 @@ After a conflict between multiple parties is resolved, or when the general tensi
 - On a `6`, you create `1 asset`.
 - On a `66`, you create `2 assets`.
 
-Take note of this asset on your character sheet, and use it when the time is right to get a `+1d6` or `increased effect` on an action roll.
+Take note of this asset on your character sheet, and use it when the time is right to get an extra `1d6` or `increased effect` on an action roll.
 
 > #### Loot Roll
 >
@@ -1469,7 +1469,7 @@ It's always amazing when a player loses themselves in their character, or has an
 
 To make those moments shine even more, the GM can reward that player with an `asset`.
 
-This is how the GM says: this was amazing, here's `+1d6` or `increased effect` for a future roll.
+This is how the GM says: this was amazing, here's `1d6` or `increased effect` for a future roll.
 
 # Solo Extra | Extras
 
