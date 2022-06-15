@@ -54,9 +54,9 @@ This game includes references and expressions of the following themes: [...]
 
 ## Game Master & Players
 
-One person in the group needs to act as the `Game Master`, or `GM`. The GM is responsible for the world and the characters that live in it (those that aren't directly played by the rest of the table). We call those characters "non-player characters", or `NPCs`.
+One person in the group needs to act as the `game master`, or `GM`. The GM is responsible for the world and the characters that live in it (those that aren't directly played by the rest of the table). We call those characters "non-player characters", or `NPCs`.
 
-The rest of the group are `Players`. The players create a character that experiences compelling stories inside this world. We call those player characters, or `PCs`.
+The rest of the group are `players`. The players create a character that experiences compelling stories inside this world. We call those player characters, or `PCs`.
 
 While the GM is usually the main person in charge of the way the world changes over time, everyone at the table is in charge of the story.
 
@@ -86,11 +86,11 @@ If you don't feel safe at a table, it is totally OK to quit and find another gro
 
 # Character Creation
 
-To make your character, write down their name, their nickname, and what they look like on your character sheet.
+To make your character, write down their name, their nickname, and what they look like on your character sheet. 
 
 ## Actions
 
-The way your character interacts with the world is via their `ACTIONS`. When a PC wants to do something risky, they use one of the 12 `ACTIONS` listed below to try and resolve the situation.
+The way your character interacts with the world is via their actions. When a PC wants to do something risky, they use **one of the 12 *actions*** listed below to try and resolve the situation.
 
 > #### Designer Notes: Hacking The Actions
 > 
@@ -98,62 +98,62 @@ The way your character interacts with the world is via their `ACTIONS`. When a P
 > 
 > If you use less than 12 actions, you might want to reduce the number of actions characters are skilled in at the start of the game
 
-- `MUSCLE`: wreck, move, force.
-- `FINESSE`: maneuver, misguide, fool.
-- `MOVE`: run, jump, swim, climb.
-- `SNEAK`: hide, skulk, lurk.
-- `SHOOT`: track, throw, shoot.
-- `TINKER`: build, repair, hijack.
-- `STUDY`: gather information, analyze, scrutinize.
-- `NOTICE`: perceive, observe, anticipate.
-- `BOND`: reassure, socialize, connect.
-- `COMMAND`: lead, order, intimidate.
-- `SWAY`: influence, charm, manipulate.
-- `FOCUS`: concentrate, calculate, mediate.
+- `Muscle`: wreck, move, force.
+- `Finesse`: maneuver, misguide, fool.
+- `Move`: run, jump, swim, climb.
+- `Sneak`: hide, skulk, lurk.
+- `Shoot`: track, throw, shoot.
+- `Tinker`: build, repair, hijack.
+- `Study`: gather information, analyze, scrutinize.
+- `Notice`: perceive, observe, anticipate.
+- `Bond`: reassure, socialize, connect.
+- `Command`: lead, order, intimidate.
+- `Sway`: influence, charm, manipulate.
+- `Focus`: concentrate, calculate, mediate.
 
-All characters have actions they excel at, this is called being `SKILLED`. Characters are skilled in 3 `ACTIONS` in total.
+All characters have actions they excel at, this is called being *skilled*. **Characters are skilled in three actions total**.
 
-To decide which action your character is `SKILLED` at, you first choose a KIT.
+To decide which action your character is skilled in, you first **choose a *kit***.
 
-`KITS` are character presets that come with 2 `SKILLED ACTIONS` and special `ABILITIES` that you can use to make powerful stunts.
+Kits are character presets that come with **two *skilled actions*** and special *abilities* that you can use to make powerful stunts.
 
-Once you’ve chosen a `KIT`, you get to decide what is the last action your character is skilled at.
+Once you’ve chosen a kit, you get to decide what is the last action your character is skilled at.
 
 ## Kits
 
-This games includes {N} KITS for the players to choose from. You can either be a: 
+There are {N} kits for the players to choose from.
 
 > #### Designer Notes: Making Kits
 > 
-> KITS are like HOPES & DREAMS’ playbooks. They show the readers what your game is about, and what kind of characters the players will play as. Use this as a way to convey your game’s theme as much as possible.
+> Kits are like HOPES & DREAMS’ playbooks. They show the readers what your game is about, and what kind of characters the players will play as. Use this as a way to convey your game’s theme as much as possible.
 > 
-> To make a KIT, give them a name, define ACTIONS they are skilled at and give them a couple of ABILITIES.
+> To make a kit, give them a name, define actions they are skilled at and give them a couple of abilities.
 > 
-> ABILITIES are like the talents of a KIT. They can give new narrative permissions to a character. But can also make them stronger or more resistant by giving a +1 IMPACT or -1 COST bonus to a roll in specific circumstances.
+> Abilities are like the talents of a kit. They can give new narrative permissions to a character. But can also make them stronger or more resistant by giving a +1 impact or -1 cost bonus to a roll in specific circumstances.
 
 ## Hopes
 
-The `HOPE` of a character is used to represent what fuels them to achieve their goals. Characters get `HOPE` when they succeed risky actions. Players can then decide to spend that `HOPE` to get bonuses when facing new challenges. 
+The *hope* of a character is used to represent what fuels them to achieve their goals. Characters **gain hope** when they **succeed risky actions**. Players can then decide to spend that hope to get bonuses when facing new challenges. 
 
-The easiest way to track `HOPE` is to use physical tokens like poker chips or beads, but you can also use the `HOPE TRACK` available on the character sheet
+The easiest way to track hope is to use physical tokens like poker chips or beads, but you can also use the hope track available on the character sheet
 
 > #### Designer Notes: HACKING HOPES
-> HOPES is what fuels the characters in the story. It helps push the narrative forward so that the PCs can eventually reach their goal, and achieve their DREAMS. 
+> Hope is what fuels the characters in the story. It helps push the narrative forward so that the PCs can eventually reach their goal, and achieve their `dreams`. 
 > 
 > You should look into renaming this so that it better fits your game’s aesthetic.
 
 ## Dreams
 
-Once everyone has a general idea of what kind of character they are going to play, you all need to decide on what is the main short-term goal of the group. In this game, we call this the group’s `DREAM`.
+Once everyone has a general idea of what kind of character they are going to play, you all need to decide on what is the main short-term goal of the group. We call this the group’s **dream**.
 
-The `DREAM` is what drives the characters forward in the story. This isn’t something that is given to them, it’s something that drives them and ignites their hearts.
+The dream is what drives the characters forward in the story. This isn’t something that is given to them, it’s something that drives them and ignites their hearts.
 
-Once you’ve chosen a `DREAM`, one of the players can write it down on their character sheet for safe keeping. That character is called the HEART OF THE GROUP. They aren’t the leader, but they are responsible for keeping the group’s `DREAM` alive.
+Once you’ve chosen a dream, one of the players can write it down on their character sheet for safe keeping. That character is called the ***heart of the group***. They aren’t the leader, but they are responsible for **keeping the group’s dream alive**.
 
-Some of the game’s mechanics mark boxes on the `DREAM` TRACK to represent the progress that the group is making towards their `DREAM`.
-When the group's `DREAM TRACK` is completed, the GM fast forwards in time and narrates how the story and the world changed thanks to the PCs. Accomplishing a `DREAM` also gives all the PCs a new `ABILITY` that they can choose from their respective `KITS`.
+Some of the game’s mechanics mark boxes on the dream TRACK to represent the progress that the group is making towards their dream.
+When the group's dream track is completed, the GM fast forwards in time and narrates how the story and the world changed thanks to the PCs. Accomplishing a dream also gives all the PCs a new ability that they can select from their respective ***kits***.
 
-After that, the group finds a new `DREAM`, and a different character can be the new `HEART OF THE GROUP`. 
+After that, the group finds a new dream, and a different character can be elected to be the new heart of the group. 
 
 Then, the cycle starts over.
 
@@ -163,15 +163,13 @@ Then, the cycle starts over.
 > 
 > Fulfilling the group’s dream is not just important for the story, but it is also important mechanically. 
 > 
-> It is the only way players will see their characters grow stronger, since fulfilling a DREAM rewards a new ABILITY to every member of the group.
+> It is the only way players will see their characters grow stronger, since fulfilling a dream rewards a new ability to every member of the group.
 
 ## Harm
 
-When a PC gets hurt or stressed as a result of one of their actions, they take `HARM`. Each character has an `HARM TRACK` with 5 boxes to represent how injured they are.
+When a PC gets hurt or stressed as a result of one of their actions, they take ***harm***. Each character has an harm track with 5 boxes to represent how injured they are.
 
-If at any point your `HARM TRACK` is filled, you are taken out and the rest of the scene continues without you. When the scene is over, clear the track and explain how you recover.
-
-The only way to recover from `HARM` is in-fiction. You can either rest, lay low or seek medical attention. When doing so, the GM will look at the fiction and tell you how much (1-5) you recover.
+If at any point your character's harm track is filled, you are taken out, and the rest of the scene continues without you. When the scene is over, clear the track and explain how you recover. The only way to **recover** from harm is **in-fiction**. You can either rest, lay low or seek medical attention. When doing so, the GM will look at the fiction and tell you how much (1-5) harm you recover.
 
 > #### Designer Notes: HACKING HARM
 > 
@@ -183,9 +181,9 @@ The only way to recover from `HARM` is in-fiction. You can either rest, lay low 
 
 ## Abilities
 
-A character’s `ABILITIES` are special talents that are unique to each KIT. They either give a mechanical advantage in certain situations, or allow a new narrative liberty.
+A character’s ***abilities*** are special talents that are unique to each KIT. They either give a mechanical advantage in certain situations, or allow a new **narrative liberty**.
 
-Each character starts with 1 `ABILITY`. Each time the group's `DREAM` is achieved, all characters gain a new `ABILITY`.
+Each character starts with 1 ability, and gain a new one every time the **group’s dream is achieved**.
 
 # Mechanics
 
@@ -193,44 +191,44 @@ Each character starts with 1 `ABILITY`. Each time the group's `DREAM` is achieve
 
 During scenes, the PCs might encounter risky situations that they will try to resolve. Some might be handled quickly, while others may require more effort.
 
-Simple tasks are called `TESTS` and are resolved with a single dice `CHECK`. The GM explains the risk, dice are rolled, results are interpreted and we move on.
+Simple tasks are called **tests** and are resolved with a **single check**. The GM explains the risk, dice are rolled, results are interpreted and we move on with the story.
 
-Complex tasks are called `CHALLENGES` and require multiple `CHECKS` before they are resolved. After the GM has explained what the `CHALLENGES` is, the group is going to do numerous dice rolls until the challenge is complete.
+Complex tasks are called challenges. Once the GM has explained what the challenge is about, the group does numerous checks until it is complete.
 
-To track the progress of a `CHALLENGE`, we create a TRACK of boxes which the PCs fill as they work towards resolving that obstacle.
+To track the progress of a challenge, we create a TRACK of boxes which the PCs fill as they work towards resolving the obstacle.
 
 ## Tracks
 
-In this game, enemies don’t have hit points, abilities or powers. They are merely viewed as obstacles that need to be overcome. To represent those obstacles, we use `TRACKS`.
+In this game, enemies don’t have hit points, abilities or powers. They are merely viewed as obstacles that need to be overcome. To represent those obstacles, we use `tracks`.
 
-A `TRACK` is a row with 3, 5, 8 or 13 boxes that you mark from left to right. Every time you check off a box, the track is one step closer to being resolved.
+A `track` is a row with 3, 5, 8 or 13 boxes that you mark from left to right. Every time you check off a box, the track is one step closer to being resolved.
 
-There are two types of `TRACKS`.
+There are two types of `tracks`.
 
 - CHALLENGE TRACKS are used to represent challenges that the group needs to handle, like fighting a group of enemies or entering a well secured compound.
 - DANGER TRACKS are used for escalating threats like a group of guards that is about to be alerted by your presence, or the time left until a bomb explodes.
 
 ## Checks
 
-When a player character tries to do something risky, we make a `CHECK` to determine how it plays out. If what the PC is trying to accomplish is something we would just expect them to do, there is no need for a `CHECK`. The GM just narrates what happens, and the story moves forward.
+When a player character tries to do something risky, we make a `check` to determine how it plays out. If what the PC is trying to accomplish is something we would just expect them to do, there is no need for a `check`. The GM just narrates what happens, and the story moves forward.
 
-To make a `CHECK`, you assemble a pool of six sided dice to try to beat an opposed pool assembled by the GM.
+To make a `check`, you assemble a pool of six sided dice to try to beat an opposed pool assembled by the GM.
 
-First, you need to agree with the GM on which of the `12 ACTIONS` is being used.
+First, you need to agree with the GM on which of the `12 actions` is being used.
 
-Once that is done, the GM prepares a `RISK POOL` while the player prepares their `ACTION POOL`.
+Once that is done, the GM prepares a `risk pool` while the player prepares their `action pool`.
 
 ### Player's Action Pool
 
-The `ACTION POOL` represents the effort of the PC to overcome a task.
+The `action pool` represents the effort of the PC to overcome a task.
 
 - You start with `1d6`.
-- If your character is `SKILLED` in the chosen `ACTION`, add `+1d6`.
-- You can also `FILL YOUR HEART WITH HOPE`. Spend `1 HOPE` for an additional `+1d6`.
+- If your character is `skilled` in the chosen `action`, add `1d6`.
+- You can also `fill your heart with hope`. Spend `1 hope` for an additional `1d6`.
 
 ### GM’S Risk Pool
 
-To build a `RISK POOL`, the GM looks at the fiction and evaluates the risk tied to the action and runs their decision with the rest of the group to make sure everyone agrees.
+To build a `risk pool`, the GM looks at the fiction and evaluates the risk tied to the action and runs their decision with the rest of the group to make sure everyone is in agreement.
 
 - For a risky action, use 1d6.
 - For a desperate action, use 2d6.
@@ -238,22 +236,22 @@ To build a `RISK POOL`, the GM looks at the fiction and evaluates the risk tied 
 
 > ### Assist
 >
-> If you want to `ASSIST` a fellow PC, describe how you do it and give `+1 IMPACT` or `-1 COST` to their final result.
-> By doing this, you also expose yourself to the possible `CONSEQUENCES` that results of their action.
+> If you want to `assist` a fellow PC, describe how you do it and give `+1 impact` or `-1 cost` to their final result.
+> By doing this, you also expose yourself to the possible `consequences` that results of their action.
 
 ### Interpreting The Result
 
-When everyone is ready, roll the dice and compare the single highest result of your `ACTION POOL` against the result of the GM’s `RISK POOL`.
+When everyone is ready, roll the dice and compare the single highest result of your `ACTION POOL` against the result of the GM’s `risk pool`.
 
-- If your result is higher, you get a `PAYOFF` and `+1 HOPE` if you didn't spend any for this action.
-- On a tie, you get a `PAYOFF` for your action, but there's a `CONSEQUENCE`.
-- If your result is lower, your action didn't work and there's a `CONSEQUENCE`.
+- If your result is higher, you get a `payoff` and `1 hope` if you didn't spend any for this action.
+- On a tie, you get a `payoff` for your action, but there's a `consequence`.
+- If your result is lower, your action didn't work and there's a `consequence`.
 
 > ### Which Risk To Pick
 >
-> By default, if a player is making an `CHECK`, the situation is risky. In some occasions, you can use a desperate pool but doing it often or going higher than that will make the odds heavily against the players
+> By default, if a player is making an `check`, the situation is risky. In some occasions, you can use a desperate pool but doing it often or going higher than that will make the odds heavily against the players
 >
-> When in doubt, look at the fiction, but keep this in mind when building your `RISK POOL`.
+> When in doubt, look at the fiction, but keep this in mind when building your `risk pool`.
 
 ## Non-Player Character
 
@@ -263,34 +261,34 @@ The result tells us about the impact and the cost of an action at the same time,
 
 ## Payoffs & Consequences
 
-After a `CHECK`, we use the number of dice from each pool as a rating to determine the outcome of the action.
+After a `check`, we use the number of dice from each pool as a rating to determine the outcome of the action.
 
-The size of your `ACTION POOL` is called the `{IMPACT}`, and is used to determine the effect of a successful action.
+The size of your `action pool` is called the `impact`, and is used to determine the effect of a successful action.
 
-The size of the `RISK POOL` is called the `{COST}`, and is used to determine the strength of a consequence prompted by an action.
+The size of the `risk pool` is called the `cost`, and is used to determine the strength of a consequence prompted by an action.
 
 ### Payoffs
 
-When you get a `PAYOFF`, you get what you want. The player chooses one from the following list:
+When you get a `payoff`, you get what you want. The player chooses one from the following list:
 
-- For a simple `CHECK`, you get what you want.
-- If there's a `CHALLENGE TRACK` in play, mark boxes matching the `{IMPACT}`.
-- If the fiction allows it, reduce tension of a future action. Remove `-1d6` to the `RISK POOL` for one upcoming `CHECK`.
+- For a simple `check`, you get what you want.
+- If there's a `challenge track` in play, mark boxes matching the `impact`.
+- If the fiction allows it, reduce tension of a future action. Remove `1d6` to the `risk pool` for one upcoming `check`.
 
 ### Consequences
 
-When there’s a `CONSEQUENCE`, something bad happens. The GM chooses one from the following list:
+When there’s a `consequence`, something bad happens. The GM chooses one from the following list:
 
 - Introduce something new and dangerous in the fiction.
-- If there's a `DANGER TRACK` in play, mark boxes matching the `{COST}`.
-- Inflict `HARM` matching the `{COST}`.
-- If the fiction allows it, increase tension of a future action. Add `+1d6` to the `RISK POOL` for one upcoming `CHECK`.
+- If there's a `danger track` in play, mark boxes matching the `cost`.
+- Inflict `harm` matching the `cost`.
+- If the fiction allows it, increase tension of a future action. Add `1d6` to the `risk pool` for one upcoming `check`.
 
 ### Zero Cost & Reduced Consequences
 
-Some of the game’s mechanics affect the `{IMPACT}` and the `{COST}` of a roll either positively or negatively. Which means there will be occasions where an action can have a `{COST}` of zero. When that happens, look at the fiction and use a `REDUCED CONSEQUENCE`.
+Some of the game’s mechanics affect the `impact` and the `cost` of a roll either positively or negatively. Which means there will be occasions where an action can have a `cost` of zero. When that happens, look at the fiction and use a `reduced consequence`.
 
-For example, if you were thinking about marking HARM, look into marking a `DANGER TRACK` instead. If you were planning to mark a `DANGER TRACK` already, introduce new threats in the fiction.
+For example, if you were thinking about marking HARM, look into marking a `danger track` instead. If you were planning to mark a `danger track` already, introduce new threats in the fiction.
 
 Go with what feels right according to what has already been established.
 
@@ -321,25 +319,25 @@ Here are a couple of tips and tricks you should read before you start playing th
 - **Rise up.** When your character takes actions, they might fail or consequences might arise. But that’s OK, failure and consequences make for a more interesting story. When at first you don't succeed, get back up and try again using a new approach.
 ## Balancing Tracks
 
-`TRACKS` are the core pacing mechanism in the game and understanding how their boxes are marked is crucial in understanding how to balance the challenges and treats in a session.
+`tracks` are the core pacing mechanism in the game and understanding how their boxes are marked is crucial in understanding how to balance the challenges and treats in a session.
 
-Players will generally want to make `CHECKS` when they are `SKILLED`. That means that the `{IMPACT}` of their roll will often be between 2 or 3.
+Players will generally want to make `checks` when they are `skilled`. That means that the `impact` of their roll will often be between 2 or 3.
 
-On the other end, the GM will often have a `RISK POOL` with a `{COST}` of 1, sometimes 2 and rarely 3.
+On the other end, the GM will often have a `risk pool` with a `cost` of 1, sometimes 2 and rarely 3.
 
-This discrepancy in favor of the player in there for statistical reasons. Though it means that the size of `CHALLENGE TRACKS` and `DANGER TRACKS` should be adjusted accordingly.
+This discrepancy in favor of the player in there for statistical reasons. Though it means that the size of `challenge tracks` and `danger tracks` should be adjusted accordingly.
 
-Making a `DANGER TRACK` with 8 segments will take a very long time to fill, while a CHALLENGE TRACK with only 3 segments will quickly be resolved by the players.
+Making a `danger track` with 8 segments will take a very long time to fill, while a CHALLENGE TRACK with only 3 segments will quickly be resolved by the players.
 
-Generally speaking, to keep things relatively balanced, `DANGER TRACK`S should have between 3, 5 or 8 boxes.
+Generally speaking, to keep things relatively balanced, `danger track's` should have between 3, 5 or 8 boxes.
 
-For `CHALLENGE TRACKS`, you can easily go up to 5, 8 or even 13 boxes.
+For `challenge tracks`, you can easily go up to 5, 8 or even 13 boxes.
 
 This is simply a guideline so you can consider this a good starting point when using `TRACKS`.
 
 ## Fibonacci Sequence
 
-The number of boxes for **TRACKS** aren’t arbitrary. They follow the Fibonacci Sequence (1, 1, 2, 3, 5, 8, 13, 21, etc) where each number is the sum of the two preceding ones.
+The number of boxes for tracks aren’t arbitrary. They follow the Fibonacci Sequence (1, 1, 2, 3, 5, 8, 13, 21, etc) where each number is the sum of the two preceding ones.
 
 The reason for this is that according to Weber’s Law, the difference we can identify between objects is given by a percentage. If that percentage is too low, differentiating two things becomes harder.
 
