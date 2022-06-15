@@ -22,6 +22,7 @@ It can be used as a Charge cheat sheet for your table, but it's also a great ste
 
 <iframe frameborder="0" src="https://itch.io/embed/1444306" width="100%" height="167"><a href="https://fari-rpgs.itch.io/dash">Dash - A Charge Condensed Game by Fari RPGs</a></iframe>
 
+
 # The Game
 
 ## BEFORE WE START
@@ -48,6 +49,8 @@ _If you end up with zero or less dice to roll, roll 2 dice and keep the lowest._
 - On a **6**, it's a **full success**. You achieve your goal.
 - On a **4-5**, it's a **partial success**. You achieve your goal, but there's a _consequence_.
 - On a **1-3**, it's a **bad outcome**. Things go badly, and there's a _consequence_.
+
+The GM can also disclaim decision-making by making a _fortune roll_. Roll a number of d6s based on the odds of a thing happening, and interpret the results.
 
 ## MOMENTUM
 
@@ -76,7 +79,7 @@ If you make an action roll, and you get a partial success (4-5) or a bad outcome
 - On a **1-3,** the _consequence_ still happens.
 - On a **4-5**, the _consequence_ is reduced.
 - On a **6**, the _consequence_ is avoided.
-- On a **66**, the _consequence_ is avoided, and you get a better _position_ for your next roll.
+- On a **66**, the _consequence_ is avoided, and you get a better *position* for your next roll.
 
 ## YOUR CHARACTER
 
@@ -126,8 +129,6 @@ When a PC gets a _complication_ as a result of their _action_, tick a _danger cl
 
 **FLASHBACKS**: Call for a scene that has happened in the past to affect what hasn’t been established in the fiction yet. The GM sets a cost in _momentum_, between 0-2, and asks for _action rolls_ if necessary.
 
-**FORTUNE ROLL**: To disclaim decision making, you can make a _fortune roll_. The result of the roll helps guide the outcome as to where the story goes next, but doesn't feature _momentum_ nor _consequences_. Roll a number of d6s based on a specific _action_ or the odds of a thing happening, and interpret the results.
-
 # License
 
 Both Dash and Charge are released under Creative Commons Attribution CC-BY.
@@ -139,5 +140,5 @@ Because Charge is based off Blades in the Dark, you would also need to include a
 To do so, copy the text below in your own game and things should be good to go.
 
 > _This work is based on Charge RPG, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)_
->
+> 
 > _This work is also based on Blades in the Dark (found at http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/)._
