@@ -255,16 +255,16 @@ The GM sets the effect rating of the action.
 
 #### 4. Player Evens the Odds
 
-As the player, you decides if you want to even the odds by adding bonus dice to your pool.
+As the player, you decide if you want to even the odds by adding bonus dice to your pool.
 
 You can normally get two bonus dice for your action roll.
 
-For one bonus die, you can get assistance from a teammate. They consume `1 momentum`, say how they help you, and give you `+1d6`.
+For one bonus die, you can get assistance from a teammate. They consume `1 momentum`, say how they help you, and give you an extra `1d6`.
 
 For another bonus die, you can either:
 
-- `Push yourself`: Consume `2 momentum` to get `+1d6` or an improved `effect` rating.
-- `Add tension` to the scene, to get `+1d6`.
+- `Push yourself`: Consume `2 momentum` per push to add another `1d6` to your pool or get improved `effect` on your action.
+- `Add tension` to the scene, to get an extra `1d6`.
 
 #### 5. Roll the Dice
 
@@ -283,9 +283,9 @@ When a player makes an action roll, that roll has a chance generating `momentum`
 
 You start every session with `2`, and generate more `momentum` when making successful action rolls.
 
-- On a `4-5`, you gain `+1 momentum`.
-- On a `6`, you gain `+2 momentum`.
-- On a `66`, you gain `+3 momentum`.
+- On a `4-5`, you gain `1 momentum`.
+- On a `6`, you gain `2 momentum`.
+- On a `66`, you gain `3 momentum`.
 
 PCs consume their `momentum` to boost their actions, assist an ally or resist a `consequence`.
 
@@ -309,15 +309,15 @@ If you want, you can add bonus dice to your action roll by using **one** of the 
 
 When you `push yourself`, you consume `2 momentum` **per push** to gain one of the following bonuses.
 
-- Add `+1d6` to your dice pool.
-- Gain `+1 effect rating` for your roll.
+- Add an extra `1d6` to your dice pool.
+- Increase the `effect` of your roll.
 - Take action even if you were taken out.
 
 ### Add Tension
 
 When you `add tension` to an action roll, you can ask the GM _"What would adding tension look like here?"_. The GM then offers a `consequence`, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
 
-If you accept the `consequence`, add `+1d6` to your current dice pool.
+If you accept the `consequence`, add an extra `1d6` to your current dice pool.
 
 There could be scenarios where adding tension isn't an option. In that case, the GM can simply communicate that to the player so that they look into other ways to even the odds.
 
@@ -327,7 +327,7 @@ The PCs can help one another in different ways to assure that the teams overcome
 
 ### Assist
 
-When you `assist` a PC, you consume `1 momentum`, to give `+1d6` to their roll. When doing this, you also expose yourself to possible danger.
+When you `assist` a PC, you consume `1 momentum`, to give an extra `1d6` to their roll. When doing this, you also expose yourself to possible danger.
 
 ### Protect
 
@@ -365,7 +365,7 @@ If a character suffers a `consequence` that you, as a player, don't like, you ca
 
 You do so by calling for a `determination roll` to see how well you resist the consequence.
 
-Build a pool of d6s by adding `+1d6` for each charge of momentum you are willing to consume for the roll.
+Build a pool of d6s by adding `1d6` for each charge of momentum you are willing to consume for the roll.
 
 Once you've decided how many charges you want to consume, roll and interpret the results:
 
@@ -466,9 +466,9 @@ When a player gets a `situational talent`, they need to decide on a specific sit
 
 ## Fortune Rolls
 
-When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a fortune roll to see what happens. This is kind of like testing for luck.
+The fortune roll is a tool that the GM can use to disclaim decision making in a situation the PCs aren’t directly involved in. It can also be used by the players when no other roll applies to the situation at hand. The result of the roll helps guide the outcome as to where the story goes next, but doesn't feature momentum nor consequences.
 
-To make a fortune roll, build a dice pool by adding `+1d6` per likeliness level of a thing happening, roll, and interpret the results.
+To make a fortune roll, build a dice pool by using a specific action or by adding `1d6` per likeliness level of a thing happening. Roll, and interpret the results.
 
 - On a `66`, it’s a critical success. There are great results, and something exceptional happens.
 - On a `6`, it’s a full success. There are great results.
