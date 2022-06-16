@@ -181,7 +181,7 @@ Want to release your own Gasp to the community ?
 Here's the format you need to use, then just send me the markdown text at https://farirpgs.com/#contact
 
 ```md
-# Title
+# {Title} | Gasps (Extras)
 
 {title} is a Gasp designed by {author} of {design studio} used in {game} that {description}.
 
@@ -217,3 +217,41 @@ The GM gets the final say on this, so work with them to make sure your fact work
 > ### Designer Notes
 >
 > This simple mechanic gives players a lot of control over the story, and will encourage them to roll less often, since declaring a truth is easier than using a skill. In order to prevent players from becoming too reliant on this, they can only use it once per "catch your breath". In your game, you might want to rely on another meta-currency or require the players to be in certain situations before they can declare a new truth. The GM can always decide to throw bigger problems at the scene if they feel the new truth is too big, so this usually balance things out fine.
+
+# Crafting | Gasps (Extras)
+
+Crafting is a Gasp designed by Liv Merryman of Liv’s Game Corner, used in The Last of Us that simulates the post-apocalyptic scavenging (using Breathless loot checks) and crafting of gear that appears in the video games of the same name. This Gasp is generalized for adaptation into whatever context you desire for your system.
+
+<iframe src="https://itch.io/embed/1556993" width="100%" height="167" frameborder="0"><a href="https://livsgamecorner.itch.io/the-last-of-us%22%3EThe Last of Us by livsgamecorner</a></iframe>
+
+## Rule
+
+Once you have some scavenging materials (which you can gain via Breathless’s base rules for Loot Checks), you can craft useful materials you’ll need to survive. Based on how well players do on loot checks, they’ll be able to collect anywhere from ⅓ of a material to a full material. They’ll need full materials to craft items.
+
+Players can carry up to three crafted items at once, as they will count as items in your Backpack. In appropriate situations, they can be used in place of your skills in order to make checks. They each get a die rating, which reduces over time just like skill checks. Once they reach the d4 tier, the item breaks, is lost, or otherwise disappears from use or the story.
+
+Aside from the listed items, you may figure out other things you can craft with the stuff you find scavenging. Decide between players and GM what the rating of the item is, as well as its function. Improvisation is encouraged!
+
+## Designer Notes
+
+> As the system designer, you’ll need to decide what scavenging materials work best for your system. In The Last of Us, there are 6: Alcohol, Adhesive, Blade, Cloth, Explosive, and Shroud. I don’t recommend more than 6, as you’ll keep track of the amounts of scavenging materials you have on your character sheet.
+>
+> Below are some crafted item examples from The Last of Us, as well as their uses. You’ll have to decide what the use of each item is in the context of gameplay, as well as a reasonable starting dice rating for that item.
+>
+> **DIY Medkit**
+>
+> - Materials: 1 Alcohol, 1 ClothThis removes 2 Stress from 1 Survivor’s Stress meter. Starting rating of d10.
+>
+> **Shiv**
+>
+> - Materials: 1 Adhesive, 1 Blade
+> - This can be used to kill an Infected or another enemy without being noticed. Can also be used to pick locks. Starting rating of d8.
+>
+> **Nail Bomb**
+>
+> - Materials: 1 Blade, 1 Explosive
+> - A can of blades that can damage a group of enemies. Rating of d10, decays to d4 immediately.
+
+## Attribution
+
+This game uses mechanics based on the Crafting Gasp, designed by Liv Merryman of Liv’s Game Corner.
