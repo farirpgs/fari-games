@@ -337,9 +337,9 @@ A _flashback_ can be triggered anywhere, anytime as long as it is declared and o
 
 To determine to which extent did the player's Flashback is accurate, the GM rolls a D12:
 
-On a 1-2, the Flashback is highly inaccurate and the GM can use the new information provided to introduce a complication.
-On a 3-4, the Flashback is fairly accurate but the GM can introduce a complication (if desired).
-On a 5+, the Flashback is 100% accurate and the higher the result, the better it helps in the current scene.
+- On a 1-2, the Flashback is highly inaccurate and the GM can use the new information provided to introduce a complication.
+- On a 3-4, the Flashback is fairly accurate but the GM can introduce a complication (if desired).
+- On a 5+, the Flashback is 100% accurate and the higher the result, the better it helps in the current scene.
 
 > ### Designer Notes
 >
