@@ -191,7 +191,7 @@ Here's the format you need to use, then just send me the markdown text at https:
 
 {rule text}
 
-> ## Designer Notes
+> ### Designer Notes
 >
 > {notes}
 
@@ -232,8 +232,8 @@ Players can carry up to three crafted items at once, as they will count as items
 
 Aside from the listed items, you may figure out other things you can craft with the stuff you find scavenging. Decide between players and GM what the rating of the item is, as well as its function. Improvisation is encouraged!
 
-## Designer Notes
-
+> ### Designer Notes
+>
 > As the system designer, you’ll need to decide what scavenging materials work best for your system. In The Last of Us, there are 6: Alcohol, Adhesive, Blade, Cloth, Explosive, and Shroud. I don’t recommend more than 6, as you’ll keep track of the amounts of scavenging materials you have on your character sheet.
 >
 > Below are some crafted item examples from The Last of Us, as well as their uses. You’ll have to decide what the use of each item is in the context of gameplay, as well as a reasonable starting dice rating for that item.
@@ -255,3 +255,37 @@ Aside from the listed items, you may figure out other things you can craft with 
 ## Attribution
 
 This game uses mechanics based on the Crafting Gasp, designed by Liv Merryman of Liv’s Game Corner.
+
+# Adventure Frame | Gasps (Extras)
+
+Adventure Frame is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in [Renegades](https://fari-rpgs.itch.io/renegades) that easily allows the creation of adventure modules for Breathless games.
+
+<iframe frameborder="0" width="100%" src="https://itch.io/embed/1558885?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c9c9c9" width="552" height="167"><a href="https://fari-rpgs.itch.io/renegades">Renegades by Fari RPGs</a></iframe>
+
+## Rule
+
+The Adventure Frame format divides the plot into many events that the player characters (PCs) will need to resolve in order to move forward with the story. This format gives you just enough flavor to get started while keeping things flexible for when players will do something unexpected.
+
+When bad rolls appear, or when you need to raise tension, introduce new complications, but if none directly matches the fiction, take a random one and adapt it to the story. There is no wrong way to play this, so if the players don’t follow the events to the letter, find a new way to stitch things back together later.
+
+### The Premise
+
+_{Premise short description.}_
+
+### 1. {Event Name}
+
+_{Event short description.}_
+
+**Goal:** {2-3 goals for the players to accomplish.}
+
+**Scene:** {3-5 descriptors for the GM to get a sense of the scene.}
+
+**Complications:** {2-3 complications for the GM to use in case something bad happens}
+
+> ### Designer Notes
+>
+> Adventure Frames have been designed especially for Breathless games. Since no plot survives an encounter with the players, Adventure Frames focus on goals, scene descriptors, and complications. This leaves a lot of space for the GM to change the story on the fly, and just glue things back together when necessary.
+
+## Attribution
+
+This game uses mechanics based off the Adventure Frame Gasp, designed by René-Pier Deshaies-Gélinas of Fari RPGs.
