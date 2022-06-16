@@ -353,7 +353,7 @@ This game uses mechanics based off the Flashback Gasp, designed by Patrick Dubuc
 
 # Transformation | Gasps (Extras)
 
-Transformation is a Gasp designed by Nick Potter of Sustain a Spell used in Let's Be Magical! that models empowering transformations for magical girl, super sentai, or other similar character types.
+Transformation is a Gasp designed by Nick Potter of Sustain a Spell used in _Let's Be Magical!_ that models empowering transformations for magical girl, super sentai, or other similar character types.
 
 <iframe frameborder="0" src="https://itch.io/embed/1571203?linkback=true&amp;bg_color=FFC1E5&amp;border_color=eafdff" width="100%" height="167"><a href="https://sustain-a-spell.itch.io/lets-be-magical">Let's Be Magical! by Sustain a Spell</a></iframe>
 
@@ -365,7 +365,8 @@ When you transform, you are filled with power and confidence. All of your skills
 >
 > This mechanic is intended to provide a mechanical representation of the battle transformations seen in anime or sentai — it can be magical girls, Power Rangers, Super Saiyans, or any other sort of powerup meant for battle.
 >
-> It obviously provides a power boost, and can help the players tackle harder obstacles and challenges, but it comes with the downside of possible Stress and limiting Catch Your Breath opportunities. >
+> It obviously provides a power boost, and can help the players tackle harder obstacles and challenges, but it comes with the downside of possible Stress and limiting Catch Your Breath opportunities.
+>
 > You can feel free to alter it as you wish, introducing threats that can only be taken while transformed, or removing the drawback entirely to just add a bit of a power fantasy to the game.
 
 ## Attribution
