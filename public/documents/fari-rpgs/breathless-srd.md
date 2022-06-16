@@ -9,22 +9,26 @@ highlightFont: Barlow Condensed
     @import url("https://fonts.cdnfonts.com/css/cheddar-gothic-stencil");
     .fari-games-document h1 {
         font-family: "Cheddar Gothic Stencil", sans-serif !important;
-        /* background: #000; */
-        /* color: #fff !important; */
-        padding: 1rem;
+        font-size: 4rem;
     }
     .fari-games-document h2 {
         font-family: "Cheddar Gothic Stencil", sans-serif !important;
         background: #000; 
-         color: #fff !important;
+        color: #fff !important;
         padding: 1rem;
+    }
+    .fari-games-document h3 {
+        font-family: "Cheddar Gothic Stencil", sans-serif !important;
+    }
+    .fari-games-document blockquote {
+        border-color: #000;
     }
     .fari-games-document h2 .anchor {
         color: #fff !important;
     }
 </style>
 
-# Introductions | Breathless SRD
+# Introduction | Breathless SRD
 
 ![Breathless SRD](https://gyazo.com/0f40d43a7d0f357b04833aa520703564.png)
 
@@ -34,20 +38,9 @@ Breathless games focus on condensed simplicity. The rules, the setting, the roll
 
 Characters are talented and proactive. But the path that lies in front of them is perilous. They will face difficult tasks, try to catch their breath, scavenge what they can find, and try to get through in one piece.
 
+To download the **"This Game Is Breathless"** logos, [click here](https://fari-rpgs.itch.io/breathless-srd)
+
 <iframe frameborder="0" src="https://itch.io/embed/1395991?linkback=true&amp;dark=true" width="100%" height="167"><a href="https://fari-rpgs.itch.io/breathless-srd">Breathless - System Reference Document by Fari RPGs</a></iframe>
-
-### This Game Is Breathless
-
-Use those logos to show that your game is **"A Breathless Game"**
-
-<div style="display: flex">
-    <img style="background: #fff" src="https://gyazo.com/2882634a680bdda0cb1510470506b84f.png" width="300px" style="margin-bottom: 1rem"/>
-    <img style="background: #000" src="https://gyazo.com/cea7e3683fa77d9824569bcd607758cb.png" width="300px" style="margin-bottom: 1rem"/>
-</div>
-<div style="display: flex">
-    <img style="background: #fff" src="https://gyazo.com/3eb2bccf188b32a5b70caf8a250241bc.png" width="300px" style="margin-bottom: 1rem"/>
-    <img style="background: #000" src="https://gyazo.com/5f09763ca8c9a733ab586a5a749d0714.png" width="300px" style="margin-bottom: 1rem"/>
-</div>
 
 # The Game | Breathless SRD
 
@@ -168,3 +161,49 @@ That means you are free to use the content of this SRD for your own game, provid
 To do so, copy the text below in your game, and things should be good to go.
 
 > This work is based on Breathless, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas , and licensed for our use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)
+
+# What are Gasps | Gasps (Extras)
+
+Gasps additional mechanics and rules that you can add in your Breathless games to mimic certain types of gameplay or to tailor the game to a specific themes.
+
+The Gasps hosted here were developed by numerous members of the Fari Community. You will then find information about their respective authors and links to their games, so go support those amazing creators!
+
+## Releasing a Gasp
+
+Want to release your own Gasp to the community ?
+
+Here's the format you need to use, then just send me the markdown text at https://farirpgs.com/#contact
+
+```md
+# Title
+
+{title} is a Gasp designed by {author} of {design studio} used in {game} that {description}.
+
+{itch widget}
+
+## Rule
+
+{rule text}
+
+> ## Designer Notes
+>
+> {notes}
+```
+
+# Declare a Truth | Gasps (Extras)
+
+## Introduction
+
+Declare a Truth is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in [Renegades](https://fari-rpgs.itch.io/renegades) that allows player more control over the narrative, but like most things Breathless, it might come at a cost.
+
+<iframe frameborder="0" width="100%" src="https://itch.io/embed/1558885?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c9c9c9" width="552" height="167"><a href="https://fari-rpgs.itch.io/renegades">Renegades by Fari RPGs</a></iframe>
+
+## Rule
+
+When the situation is dire, or if you are looking for a way out, you can declare a new truth about the world. If your fact is a small truth, it just happens, but for big truths the GM adds a “but...” afterwards.
+
+The GM gets the final say on this, so work with them to make sure your fact works well with what has already been established. Once used, you'll need to "catch your breath" to declare a new truth.
+
+> ### Designer Notes
+>
+> This simple mechanic gives players a lot of control over the story, and will encourage them to roll less often, since declaring a truth is easier than using a skill. In order to prevent players from becoming too reliant on this, they can only use it once per "catch your breath". In your game, you might want to rely on another meta-currency or require the players to be in certain situations before they can declare a new truth. The GM can always decide to throw bigger problems at the scene if they feel the new truth is too big, so this usually balance things out fine.
