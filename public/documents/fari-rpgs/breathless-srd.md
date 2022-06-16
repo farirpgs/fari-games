@@ -206,7 +206,7 @@ This game uses mechanics based off the {name} Gasp, designed by {author} of {des
 
 Declare a Truth is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in [Renegades](https://fari-rpgs.itch.io/renegades) that allows player more control over the narrative, but like most things Breathless, it might come at a cost.
 
-<iframe frameborder="0" width="100%" src="https://itch.io/embed/1558885?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c9c9c9" width="552" height="167"><a href="https://fari-rpgs.itch.io/renegades">Renegades by Fari RPGs</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/1558885?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c9c9c9" width="100" height="167"><a href="https://fari-rpgs.itch.io/renegades">Renegades by Fari RPGs</a></iframe>
 
 ## Rule
 
@@ -350,3 +350,24 @@ On a 5+, the Flashback is 100% accurate and the higher the result, the better it
 ## Attribution
 
 This game uses mechanics based off the Flashback Gasp, designed by Patrick Dubuc of Tiki Games.
+
+# Transformation | Gasps (Extras)
+
+Transformation is a Gasp designed by Nick Potter of Sustain a Spell used in Let's Be Magical! that models empowering transformations for magical girl, super sentai, or other similar character types.
+
+<iframe frameborder="0" src="https://itch.io/embed/1571203?linkback=true&amp;bg_color=FFC1E5&amp;border_color=eafdff" width="100%" height="167"><a href="https://sustain-a-spell.itch.io/lets-be-magical">Let's Be Magical! by Sustain a Spell</a></iframe>
+
+## Rule
+
+When you transform, you are filled with power and confidence. All of your skills increase by one level while transformed, and lower one level when your transformation ends. If any of your skills are at a d4 by the time you end your transformation or if you Catch Your Breath while transformed, you take one point of stress.
+
+> ### Designer Notes
+>
+> This mechanic is intended to provide a mechanical representation of the battle transformations seen in anime or sentai — it can be magical girls, Power Rangers, Super Saiyans, or any other sort of powerup meant for battle.
+>
+> It obviously provides a power boost, and can help the players tackle harder obstacles and challenges, but it comes with the downside of possible Stress and limiting Catch Your Breath opportunities. >
+> You can feel free to alter it as you wish, introducing threats that can only be taken while transformed, or removing the drawback entirely to just add a bit of a power fantasy to the game.
+
+## Attribution
+
+This game uses mechanics based off the Transformation Gasp, designed by Nick Potter of Sustain a Spell.
