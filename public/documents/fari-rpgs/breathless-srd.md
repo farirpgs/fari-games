@@ -372,3 +372,45 @@ When you transform, you are filled with power and confidence. All of your skills
 ## Attribution
 
 This game uses mechanics based off the Transformation Gasp, designed by Nick Potter of Sustain a Spell.
+
+# Talents | Gasps (Extras)
+
+Talents is a Gasp designed by Groov of Groov Games used in Critterforce 5 that emphasizes unique character mechanics and advancement. This Gasp makes characters just a little bit stronger by giving them small passive effects, or a larger once-a-session ability.
+
+<iframe src="https://itch.io/embed/1535524" width="100%" height="167" frameborder="0"><a href="https://groovasaur.itch.io/critterforce-5">Critterforce 5 by Groov</a></iframe>
+
+## Rule
+
+Once at character creation and after story milestones, players may choose or create their own Talent to represent a slight edge the character has. Each Talent may be used once a session unless it says otherwise. Most will use one of the following templates:
+
+**When you use your stunt, you can do something nearly superhuman or supernatural.**
+
+_"When I use my stunt, I can summon a lightning storm."_
+
+_"When I use my stunt, I can reveal that an NPC was me all along!"_
+
+**You gain a +2 bonus on a narrow use of an action. You can use this after a roll.**
+
+_"I get a +2 bonus when using Bash to strike while hidden."_
+
+_"I get a +2 bonus when using Talk to gather information"_
+
+**You gain a specific narrative freedom. These are usually passive and ongoing.**
+
+_"I always know when someone is lying to me"_
+
+_"If there's ever a question of who acts first, it's me."_
+
+**You gain a game specific bonus. Depending on the game, some of these may be passive and ongoing, while others are usable once as usual.**
+
+_"I can hold an extra item in my backpack."_
+
+_"I can avoid the consequences of one roll when assisting someone else."_
+
+> ### Designer Notes
+>
+> Talents, Masteries, Upgrades, or whatever you decide to call them will vary a lot from game to game, and there will always be players wanting to come up with their own. In your game, include 5 or 10 so your players understand the bounds of this Gasp in your game.
+
+## Attribution
+
+This game uses mechanics based off the Talents Gasp, designed by Groov of Groov Games.
