@@ -164,7 +164,7 @@ To do so, copy the text below in your game, and things should be good to go.
 
 # What are Gasps | Gasps (Extras)
 
-Gasps additional mechanics and rules that you can add in your Breathless games to mimic certain types of gameplay or to tailor the game to a specific themes.
+Gasps are additional mechanics and rules that you can add in your Breathless games to mimic certain types of gameplay or to tailor the game to a specific themes.
 
 The Gasps hosted here were developed by numerous members of the Fari Community. You will then find information about their respective authors and links to their games, so go support those amazing creators!
 
