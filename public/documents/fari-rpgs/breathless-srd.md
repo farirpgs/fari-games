@@ -9,22 +9,26 @@ highlightFont: Barlow Condensed
     @import url("https://fonts.cdnfonts.com/css/cheddar-gothic-stencil");
     .fari-games-document h1 {
         font-family: "Cheddar Gothic Stencil", sans-serif !important;
-        /* background: #000; */
-        /* color: #fff !important; */
-        padding: 1rem;
+        font-size: 4rem;
     }
     .fari-games-document h2 {
         font-family: "Cheddar Gothic Stencil", sans-serif !important;
         background: #000; 
-         color: #fff !important;
+        color: #fff !important;
         padding: 1rem;
+    }
+    .fari-games-document h3 {
+        font-family: "Cheddar Gothic Stencil", sans-serif !important;
+    }
+    .fari-games-document blockquote {
+        border-color: #000;
     }
     .fari-games-document h2 .anchor {
         color: #fff !important;
     }
 </style>
 
-# Introductions | Breathless SRD
+# Introduction | Breathless SRD
 
 ![Breathless SRD](https://gyazo.com/0f40d43a7d0f357b04833aa520703564.png)
 
@@ -34,20 +38,9 @@ Breathless games focus on condensed simplicity. The rules, the setting, the roll
 
 Characters are talented and proactive. But the path that lies in front of them is perilous. They will face difficult tasks, try to catch their breath, scavenge what they can find, and try to get through in one piece.
 
+To download the **"This Game Is Breathless"** logos, [click here](https://fari-rpgs.itch.io/breathless-srd)
+
 <iframe frameborder="0" src="https://itch.io/embed/1395991?linkback=true&amp;dark=true" width="100%" height="167"><a href="https://fari-rpgs.itch.io/breathless-srd">Breathless - System Reference Document by Fari RPGs</a></iframe>
-
-### This Game Is Breathless
-
-Use those logos to show that your game is **"A Breathless Game"**
-
-<div style="display: flex">
-    <img style="background: #fff" src="https://gyazo.com/2882634a680bdda0cb1510470506b84f.png" width="300px" style="margin-bottom: 1rem"/>
-    <img style="background: #000" src="https://gyazo.com/cea7e3683fa77d9824569bcd607758cb.png" width="300px" style="margin-bottom: 1rem"/>
-</div>
-<div style="display: flex">
-    <img style="background: #fff" src="https://gyazo.com/3eb2bccf188b32a5b70caf8a250241bc.png" width="300px" style="margin-bottom: 1rem"/>
-    <img style="background: #000" src="https://gyazo.com/5f09763ca8c9a733ab586a5a749d0714.png" width="300px" style="margin-bottom: 1rem"/>
-</div>
 
 # The Game | Breathless SRD
 
@@ -168,3 +161,256 @@ That means you are free to use the content of this SRD for your own game, provid
 To do so, copy the text below in your game, and things should be good to go.
 
 > This work is based on Breathless, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas , and licensed for our use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)
+
+# What are Gasps | Gasps (Extras)
+
+Gasps are additional mechanics and rules that you can add in your Breathless games to mimic certain types of gameplay or to tailor the game to a specific themes.
+
+The Gasps hosted here were developed by numerous members of the Fari Community. You will then find information about their respective authors and links to their games, so go support those amazing creators!
+
+## Licensing
+
+All Gasps listed here have been open licensed, and all creators who have submitted those additional mechanics have done so knowing that the original Breathless CC-BY license encompasses the legal rights to their work. This means that creators using a Gasp aren't legally required to include an additional license, apart from the original Breathless attribution text, in their game.
+
+That being said, each Gasp includes a small license blurb that designers are **_highly encouraged to include in their game_** to give proper attribution to the original Gasp creators.
+
+## Releasing a Gasp
+
+Want to release your own Gasp to the community ?
+
+Here's the format you need to use, then just send me the markdown text at https://farirpgs.com/#contact
+
+```md
+# {Title} | Gasps (Extras)
+
+{title} is a Gasp designed by {author} of {design studio} used in {game} that {description}.
+
+{itch widget}
+
+## Rule
+
+{rule text}
+
+> ### Designer Notes
+>
+> {notes}
+
+## Attribution
+
+This game uses mechanics based off the {name} Gasp, designed by {author} of {design studio}.
+```
+
+# Declare a Truth | Gasps (Extras)
+
+## Introduction
+
+Declare a Truth is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in [Renegades](https://fari-rpgs.itch.io/renegades) that allows player more control over the narrative, but like most things Breathless, it might come at a cost.
+
+<iframe frameborder="0" src="https://itch.io/embed/1558885?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c9c9c9" width="100%" height="167"><a href="https://fari-rpgs.itch.io/renegades">Renegades by Fari RPGs</a></iframe>
+
+## Rule
+
+When the situation is dire, or if you are looking for a way out, you can declare a new truth about the world. If your fact is a small truth, it just happens, but for big truths the GM adds a “but...” afterwards.
+
+The GM gets the final say on this, so work with them to make sure your fact works well with what has already been established. Once used, you'll need to "catch your breath" to declare a new truth.
+
+> ### Designer Notes
+>
+> This simple mechanic gives players a lot of control over the story, and will encourage them to roll less often, since declaring a truth is easier than using a skill. In order to prevent players from becoming too reliant on this, they can only use it once per "catch your breath". In your game, you might want to rely on another meta-currency or require the players to be in certain situations before they can declare a new truth. The GM can always decide to throw bigger problems at the scene if they feel the new truth is too big, so this usually balance things out fine.
+
+# Crafting | Gasps (Extras)
+
+Crafting is a Gasp designed by Liv Merryman of Liv’s Game Corner, used in _The Last of Us_ to simulate the post-apocalyptic scavenging (using Breathless loot checks) and crafting of gear that appears in the video games of the same name. This Gasp is generalized for adaptation into whatever context you desire for your system.
+
+<iframe src="https://itch.io/embed/1556993" width="100%" height="167" frameborder="0"><a href="https://livsgamecorner.itch.io/the-last-of-us%22%3EThe Last of Us by livsgamecorner</a></iframe>
+
+## Rule
+
+Once you have some scavenging materials (which you can gain via Breathless’s base rules for Loot Checks), you can craft useful materials you’ll need to survive. Based on how well players do on loot checks, they’ll be able to collect anywhere from ⅓ of a material to a full material. They’ll need full materials to craft items.
+
+Players can carry up to three crafted items at once, as they will count as items in your Backpack. In appropriate situations, they can be used in place of your skills in order to make checks. They each get a die rating, which reduces over time just like skill checks. Once they reach the d4 tier, the item breaks, is lost, or otherwise disappears from use or the story.
+
+Aside from the listed items, you may figure out other things you can craft with the stuff you find scavenging. Decide between players and GM what the rating of the item is, as well as its function. Improvisation is encouraged!
+
+> ## Designer Notes
+>
+> As the system designer, you’ll need to decide what scavenging materials work best for your system. In _The Last of Us_, there are 6: Alcohol, Adhesive, Blade, Cloth, Explosive, and Shroud. I don’t recommend more than 6, as you’ll keep track of the amounts of scavenging materials you have on your character sheet.
+>
+> Below are some crafted item examples from _The Last of Us_, as well as their uses. You’ll have to decide what the use of each item is in the context of gameplay, as well as a reasonable starting dice rating for that item.
+>
+> **DIY Medkit**
+>
+> - Materials: 1 Alcohol, 1 Cloth
+> - This removes 2 Stress from 1 Survivor’s Stress meter. Starting rating of d10.
+>
+> **Shiv**
+>
+> - Materials: 1 Adhesive, 1 Blade
+> - This can be used to kill an Infected or another enemy without being noticed. Can also be used to pick locks. Starting rating of d8.
+>
+> **Nail Bomb**
+>
+> - Materials: 1 Blade, 1 Explosive
+> - A can of blades that can damage a group of enemies. Rating of d10, decays to d4 immediately.
+
+## Attribution
+
+This game uses mechanics based on the Crafting Gasp, designed by Liv Merryman of Liv’s Game Corner.
+
+# Adventure Frame | Gasps (Extras)
+
+Adventure Frame is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in [Renegades](https://fari-rpgs.itch.io/renegades) that easily allows the creation of adventure modules for Breathless games.
+
+<iframe frameborder="0" width="100%" src="https://itch.io/embed/1558885?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c9c9c9" width="552" height="167"><a href="https://fari-rpgs.itch.io/renegades">Renegades by Fari RPGs</a></iframe>
+
+## Rule
+
+The Adventure Frame format divides the plot into many events that the player characters (PCs) will need to resolve in order to move forward with the story. This format gives you just enough flavor to get started while keeping things flexible for when players will do something unexpected.
+
+When bad rolls appear, or when you need to raise tension, introduce new complications, but if none directly matches the fiction, take a random one and adapt it to the story. There is no wrong way to play this, so if the players don’t follow the events to the letter, find a new way to stitch things back together later.
+
+### The Premise
+
+_{Premise short description.}_
+
+### 1. {Event Name}
+
+_{Event short description.}_
+
+**Goal:** {2-3 goals for the players to accomplish.}
+
+**Scene:** {3-5 descriptors for the GM to get a sense of the scene.}
+
+**Complications:** {2-3 complications for the GM to use in case something bad happens}
+
+> ### Designer Notes
+>
+> Adventure Frames have been designed especially for Breathless games. Since no plot survives an encounter with the players, Adventure Frames focus on goals, scene descriptors, and complications. This leaves a lot of space for the GM to change the story on the fly, and just glue things back together when necessary.
+
+## Attribution
+
+This game uses mechanics based off the Adventure Frame Gasp, designed by René-Pier Deshaies-Gélinas of Fari RPGs.
+
+# Survivor Points | Gasps (Extras)
+
+Survivor Points is a Gasp designed by Andrew Boyd of Pandion Games that allows characters to become better suited and potentially survive longer in harsh environments.
+
+<iframe src="https://itch.io/embed/1518935" width="100%" height="167" frameborder="0"><a href="https://pandiongames.itch.io/substratum">SUBSTRATUM by Pandion Games</a></iframe>
+
+## Rule
+
+This advancement system is written to be used with Breathless by Fari RPGs and any game game based on Breathless. While many Breathless games are purposefully difficult, Survivor Points allows your characters to become better suited and potentially survive longer in their new found environment.
+
+### Earning Survivor Points
+
+Earn one Survivor Point for each Stress you end the session with. Survivor Points can accumulate.
+
+### Spending Survivor Points (SP)
+
+Survivor Points can be spent in two ways: Before the Session and During the Session.
+
+### Before the Session
+
+- Skill Advancement (once per session) - Spend 1 SP to increase a Skill by 1 rating up to a max of d10. Each additional Skill Advancement costs an additional 1SP.
+- Item Improvement - Spend 1 SP to increase an Item you hold by 1 rating (max of d10).
+- Stress Reduction - Spend 1 SP to remove 2 Stress.
+
+### During the Session
+
+- Stress Reduction - Spend 1 point to remove 1 Stress.
+- Avoid Consequences - When you roll or take an action that would incur a consequence, spend 1SP and avoid it instead.
+- Adrenaline - Spend 1SP to fully recharge 1 Skill without a consequence.
+
+## Attribution
+
+This game uses mechanics based off the Survivor Points Gasp, designed by Andrew Boyd of Pandion Games.
+
+# Flashback | Gasps (Extras)
+
+Flashback is a Gasp designed by Patrick Dubuc of Tiki Games used in Crank It Up! that allows the player to recount a situation that took place in the past that has the potential to change the current scene.
+
+(Crank It Up! is not released yet!)
+
+## Rule
+
+A _flashback_ can be triggered anywhere, anytime as long as it is declared and only one _flashback_ is allowed per player/per session. It allows a player to add a new information that becomes true and now exists in the game world. The GM must now take this new information into account.
+
+To determine to which extent did the player's Flashback is accurate, the GM rolls a D12:
+
+- On a 1-2, the Flashback is highly inaccurate and the GM can use the new information provided to introduce a complication.
+- On a 3-4, the Flashback is fairly accurate but the GM can introduce a complication (if desired).
+- On a 5+, the Flashback is 100% accurate and the higher the result, the better it helps in the current scene.
+
+> ### Designer Notes
+>
+> This simple mechanic is similar in purpose as Declare A Truth but with a more random outcome. It gives players some limited control over the story as it unfolds. Letting a Flashback occur only once per player/per gaming session is a way to prevent players from relying solely on the fact that they "can change the story". If, as a gamemaster you think that once per gaming session is too harsh, you can choose to raise the number of times that the Gasp can be used per gaming session OR allow it to recharge when "Catching Your Breath".
+>
+> Example: In a playtest, my son used his cellphone to contact a powerful ally. Without wishing to railroad him, I decided that he was not going to answer the phone. He used his Flashback to recall that that ally had also a pager for emergencies and that he always answer messages on his pager, no matter what ... So in the end, he was able to reach his ally and ask for a favor.
+
+## Attribution
+
+This game uses mechanics based off the Flashback Gasp, designed by Patrick Dubuc of Tiki Games.
+
+# Transformation | Gasps (Extras)
+
+Transformation is a Gasp designed by Nick Potter of Sustain a Spell used in _Let's Be Magical!_ that models empowering transformations for magical girl, super sentai, or other similar character types.
+
+<iframe frameborder="0" src="https://itch.io/embed/1571203?linkback=true&amp;bg_color=FFC1E5&amp;border_color=eafdff" width="100%" height="167"><a href="https://sustain-a-spell.itch.io/lets-be-magical">Let's Be Magical! by Sustain a Spell</a></iframe>
+
+## Rule
+
+When you transform, you are filled with power and confidence. All of your skills increase by one level while transformed, and lower one level when your transformation ends. If any of your skills are at a d4 by the time you end your transformation or if you Catch Your Breath while transformed, you take one point of stress.
+
+> ### Designer Notes
+>
+> This mechanic is intended to provide a mechanical representation of the battle transformations seen in anime or sentai — it can be magical girls, Power Rangers, Super Saiyans, or any other sort of powerup meant for battle.
+>
+> It obviously provides a power boost, and can help the players tackle harder obstacles and challenges, but it comes with the downside of possible Stress and limiting Catch Your Breath opportunities.
+>
+> You can feel free to alter it as you wish, introducing threats that can only be taken while transformed, or removing the drawback entirely to just add a bit of a power fantasy to the game.
+
+## Attribution
+
+This game uses mechanics based off the Transformation Gasp, designed by Nick Potter of Sustain a Spell.
+
+# Talents | Gasps (Extras)
+
+Talents is a Gasp designed by Groov of Groov Games used in Critterforce 5 that emphasizes unique character mechanics and advancement. This Gasp makes characters just a little bit stronger by giving them small passive effects, or a larger once-a-session ability.
+
+<iframe src="https://itch.io/embed/1535524" width="100%" height="167" frameborder="0"><a href="https://groovasaur.itch.io/critterforce-5">Critterforce 5 by Groov</a></iframe>
+
+## Rule
+
+Once at character creation and after story milestones, players may choose or create their own Talent to represent a slight edge the character has. Each Talent may be used once a session unless it says otherwise. Most will use one of the following templates:
+
+**When you use your stunt, you can do something nearly superhuman or supernatural.**
+
+_"When I use my stunt, I can summon a lightning storm."_
+
+_"When I use my stunt, I can reveal that an NPC was me all along!"_
+
+**You gain a +2 bonus on a narrow use of an action. You can use this after a roll.**
+
+_"I get a +2 bonus when using Bash to strike while hidden."_
+
+_"I get a +2 bonus when using Talk to gather information"_
+
+**You gain a specific narrative freedom. These are usually passive and ongoing.**
+
+_"I always know when someone is lying to me"_
+
+_"If there's ever a question of who acts first, it's me."_
+
+**You gain a game specific bonus. Depending on the game, some of these may be passive and ongoing, while others are usable once as usual.**
+
+_"I can hold an extra item in my backpack."_
+
+_"I can avoid the consequences of one roll when assisting someone else."_
+
+> ### Designer Notes
+>
+> Talents, Masteries, Upgrades, or whatever you decide to call them will vary a lot from game to game, and there will always be players wanting to come up with their own. In your game, include 5 or 10 so your players understand the bounds of this Gasp in your game.
+
+## Attribution
+
+This game uses mechanics based off the Talents Gasp, designed by Groov of Groov Games.
