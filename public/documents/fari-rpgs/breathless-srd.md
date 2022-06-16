@@ -168,6 +168,12 @@ Gasps additional mechanics and rules that you can add in your Breathless games t
 
 The Gasps hosted here were developed by numerous members of the Fari Community. You will then find information about their respective authors and links to their games, so go support those amazing creators!
 
+## Licensing
+
+All Gasps listed here have been open licensed, and all creators who have submitted those additional mechanics have done so knowing that the original Breathless CC-BY license encompasses the legal rights to their work. This means that creators using a Gasp aren't legally required to include an additional license, apart from the original Breathless attribution text, in their game.
+
+That being said, each Gasp includes a small license blurb that designers are **_highly encouraged to include in their game_** to give proper attribution to the original Gasp creators.
+
 ## Releasing a Gasp
 
 Want to release your own Gasp to the community ?
@@ -188,6 +194,10 @@ Here's the format you need to use, then just send me the markdown text at https:
 > ## Designer Notes
 >
 > {notes}
+
+## Attribution
+
+This game uses mechanics based off the {name} Gasp, designed by {author} of {design studio}.
 ```
 
 # Declare a Truth | Gasps (Extras)
