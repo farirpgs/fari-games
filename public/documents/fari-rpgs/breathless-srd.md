@@ -240,7 +240,8 @@ Aside from the listed items, you may figure out other things you can craft with 
 >
 > **DIY Medkit**
 >
-> - Materials: 1 Alcohol, 1 ClothThis removes 2 Stress from 1 Survivor’s Stress meter. Starting rating of d10.
+> - Materials: 1 Alcohol, 1 Cloth
+> - This removes 2 Stress from 1 Survivor’s Stress meter. Starting rating of d10.
 >
 > **Shiv**
 >
