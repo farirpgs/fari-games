@@ -289,3 +289,37 @@ _{Event short description.}_
 ## Attribution
 
 This game uses mechanics based off the Adventure Frame Gasp, designed by René-Pier Deshaies-Gélinas of Fari RPGs.
+
+# Survivor Points | Gasps (Extras)
+
+Survivor Points is a Gasp designed by Andrew Boyd of Pandion Games that allows characters to become better suited and potentially survive longer in harsh environments.
+
+<iframe src="https://itch.io/embed/1518935" width="100%" height="167" frameborder="0"><a href="https://pandiongames.itch.io/substratum">SUBSTRATUM by Pandion Games</a></iframe>
+
+## Rule
+
+This advancement system is written to be used with Breathless by Fari RPGs and any game game based on Breathless. While many Breathless games are purposefully difficult, Survivor Points allows your characters to become better suited and potentially survive longer in their new found environment.
+
+### Earning Survivor Points
+
+Earn one Survivor Point for each Stress you end the session with. Survivor Points can accumulate.
+
+### Spending Survivor Points (SP)
+
+Survivor Points can be spent in two ways: Before the Session and During the Session.
+
+### Before the Session
+
+- Skill Advancement (once per session) - Spend 1 SP to increase a Skill by 1 rating up to a max of d10. Each additional Skill Advancement costs an additional 1SP.
+- Item Improvement - Spend 1 SP to increase an Item you hold by 1 rating (max of d10).
+- Stress Reduction - Spend 1 SP to remove 2 Stress.
+
+### During the Session
+
+- Stress Reduction - Spend 1 point to remove 1 Stress.
+- Avoid Consequences - When you roll or take an action that would incur a consequence, spend 1SP and avoid it instead.
+- Adrenaline - Spend 1SP to fully recharge 1 Skill without a consequence.
+
+## Attribution
+
+This game uses mechanics based off the Survivor Points Gasp, designed by Andrew Boyd of Pandion Games.
