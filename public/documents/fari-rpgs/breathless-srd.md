@@ -324,3 +324,25 @@ Survivor Points can be spent in two ways: Before the Session and During the Sess
 ## Attribution
 
 This game uses mechanics based off the Survivor Points Gasp, designed by Andrew Boyd of Pandion Games.
+
+# Flashback | Gasps (Extras)
+
+Flashback is a Gasp designed by Patrick Dubuc of Tiki Games used in Crank It Up! that allows the player to recount a situation that took place in the past that has the potential to change the current scene.
+
+(Crank It Up! is not released yet!)
+
+## Rule
+
+A _flashback_ can be triggered anywhere, anytime as long as it is declared and only one _flashback_ is allowed per player/per session. It allows a player to add a new information that becomes true and now exists in the game world. The GM must now take this new information into account.
+
+To determine to which extent did the player's Flashback is accurate, the GM rolls a D12:
+
+On a 1-2, the Flashback is highly inaccurate and the GM can use the new information provided to introduce a complication.
+On a 3-4, the Flashback is fairly accurate but the GM can introduce a complication (if desired).
+On a 5+, the Flashback is 100% accurate and the higher the result, the better it helps in the current scene.
+
+> ### Designer Notes
+>
+> This simple mechanic is similar in purpose as Declare A Truth but with a more random outcome. It gives players some limited control over the story as it unfolds. Letting a Flashback occur only once per player/per gaming session is a way to prevent players from relying solely on the fact that they "can change the story". If, as a gamemaster you think that once per gaming session is too harsh, you can choose to raise the number of times that the Gasp can be used per gaming session OR allow it to recharge when "Catching Your Breath".
+>
+> Example: In a playtest, my son used his cellphone to contact a powerful ally. Without wishing to railroad him, I decided that he was not going to answer the phone. He used his Flashback to recall that that ally had also a pager for emergencies and that he always answer messages on his pager, no matter what ... So in the end, he was able to reach his ally and ask for a favor.
