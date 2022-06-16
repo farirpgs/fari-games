@@ -346,3 +346,7 @@ On a 5+, the Flashback is 100% accurate and the higher the result, the better it
 > This simple mechanic is similar in purpose as Declare A Truth but with a more random outcome. It gives players some limited control over the story as it unfolds. Letting a Flashback occur only once per player/per gaming session is a way to prevent players from relying solely on the fact that they "can change the story". If, as a gamemaster you think that once per gaming session is too harsh, you can choose to raise the number of times that the Gasp can be used per gaming session OR allow it to recharge when "Catching Your Breath".
 >
 > Example: In a playtest, my son used his cellphone to contact a powerful ally. Without wishing to railroad him, I decided that he was not going to answer the phone. He used his Flashback to recall that that ally had also a pager for emergencies and that he always answer messages on his pager, no matter what ... So in the end, he was able to reach his ally and ask for a favor.
+
+## Attribution
+
+This game uses mechanics based off the Flashback Gasp, designed by Patrick Dubuc of Tiki Games.
