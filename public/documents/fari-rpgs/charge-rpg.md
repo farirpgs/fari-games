@@ -881,13 +881,11 @@ We aren't using dice to support this mechanic because we don't believe luck shou
 
 **_The future is in constant flux._**
 
-Not everything is about the proficiencies of the PCs. There are situations where something is simply up to chance. In those situations, the GM can call for a `fortune roll`.
+The fortune roll is a tool that the GM can use to disclaim decision making in a situation the PCs aren’t directly involved in. It can also be used by the players when no other roll applies to the situation at hand. The result of the roll helps guide the outcome as to where the story goes next, but doesn't feature `momentum` nor `consequences`.
 
 > **_You are looking in the wreckage of a ship; is anybody left alive? You find a pistol on the ground; are there still bullets in it? Two factions are at war; who will win the final battle?_**
 
-To make a fortune roll, you need to assess the chances of a thing actually happening.
-
-Is that thing likely or unlikely to happen? For each "likeliness" level, add `1d6` to the dice pool.
+To make a fortune roll, build a dice pool by using a specific action or by adding `1d6` per likeliness level of a thing happening.
 
 - If there's a 50% chance of success, roll `1d6`. If it's more than that, add more dice to the pool.
 - If it's really unlikely, roll `2d6` and pick the lowest result.
@@ -896,15 +894,20 @@ If two forces are opposing one another, roll two opposing pools and take the bes
 
 Once the pool(s) are ready, throw the dice and interpret the results.
 
+- On a `66`, it’s a critical success. There are great results, and something exceptional happens.
+- On a `6`, it’s a full success. There are great results.
+- On a `4-5`, it’s a partial success. There are mixed results.
+- On a `1-3`, it’s a bad outcome. There are bad results.
+
 > **_There's someone left alive on the ship, and they are still breathing. There are bullets in the gun, but the gun itself is broken and can't be used._**
 
-Don't overthink this. This rule should not get in the way of the game. This mechanic is there to **quickly spice things up** during a scene when there's an unknown element that isn't controlled by the PCs.
+Don't overthink this as this rule should not get in the way of the game. This mechanic is there to **quickly spice things up** during a scene when there's an unknown element and we want to see how it plays out.
 
 ## Recap
 
 > #### Fortune Roll
 >
-> - Build a dice pool by adding `1d6` per likeliness level of a thing happening, roll, and interpret the results.
+> - Build a dice pool by using a specific action or by adding `1d6` per likeliness level of a thing happening, roll, and interpret the results.
 > - If it's really unlikely, roll `2d6` and take the lowest result.
 >
 > ---
@@ -1340,11 +1343,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - A new `situational talent`. A bonus that applies for an `action` in a certain `situation` (fill in the blank: \_\_\_\_).
 >
 > ### Fortune Roll
+
+> #### Fortune Roll
 >
-> Use this to find out what happens when the PCs aren't involved.
->
-> - Add `1d6` per likeliness level.
-> - Roll `2d6` and pick the worst if it's really unlikely.
+> - Build a dice pool by using a specific action or by adding `+1d6` per likeliness level of a thing happening, roll, and interpret the results.
+> - If it's really unlikely, roll `2d6` and take the lowest result.
 >
 > | Result | Name               | Explanation                                       |
 > | ------ | ------------------ | ------------------------------------------------- |

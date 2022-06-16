@@ -466,9 +466,9 @@ When a player gets a `situational talent`, they need to decide on a specific sit
 
 ## Fortune Rolls
 
-When the outcome of a situation isn't certain, and the players aren't involved, the GM makes a fortune roll to see what happens. This is kind of like testing for luck.
+The fortune roll is a tool that the GM can use to disclaim decision making in a situation the PCs aren’t directly involved in. It can also be used by the players when no other roll applies to the situation at hand. The result of the roll helps guide the outcome as to where the story goes next, but doesn't feature momentum nor consequences.
 
-To make a fortune roll, build a dice pool by adding `1d6` per likeliness level of a thing happening, roll, and interpret the results.
+To make a fortune roll, build a dice pool by using a specific action or by adding `1d6` per likeliness level of a thing happening. Roll, and interpret the results.
 
 - On a `66`, it’s a critical success. There are great results, and something exceptional happens.
 - On a `6`, it’s a full success. There are great results.

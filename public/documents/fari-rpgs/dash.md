@@ -49,8 +49,6 @@ _If you end up with zero or less dice to roll, roll 2 dice and keep the lowest._
 - On a **4-5**, it's a **partial success**. You achieve your goal, but there's a _consequence_.
 - On a **1-3**, it's a **bad outcome**. Things go badly, and there's a _consequence_.
 
-The GM can also disclaim decision-making by making a _fortune roll_. Roll a number of d6s based on the odds of a thing happening, and interpret the results.
-
 ## MOMENTUM
 
 When a player makes an _action roll_, that roll can generate _momentum_. You start every session with 2, and generate more when you make successful rolls. You use _momentum_ to get various bonuses or resist incoming _consequences_.
@@ -78,7 +76,7 @@ If you make an action roll, and you get a partial success (4-5) or a bad outcome
 - On a **1-3,** the _consequence_ still happens.
 - On a **4-5**, the _consequence_ is reduced.
 - On a **6**, the _consequence_ is avoided.
-- On a **66**, the _consequence_ is avoided, and the *risk* of your next roll is lowered.
+- On a **66**, the _consequence_ is avoided, and the _risk_ of your next roll is lowered.
 
 ## YOUR CHARACTER
 
@@ -127,6 +125,8 @@ When a PC gets a _complication_ as a result of their _action_, tick a _danger cl
 **PROTECT**: Step in to confront a _consequence_ that an ally would otherwise face. Describe how you intervene, and suffer the _consequence_ for them. You can try to reduce or cancel the _consequence_ with a _determination roll_.
 
 **FLASHBACKS**: Call for a scene that has happened in the past to affect what hasn’t been established in the fiction yet. The GM sets a cost in _momentum_, between 0-2, and asks for _action rolls_ if necessary.
+
+**FORTUNE ROLL**: To disclaim decision making, you can make a _fortune roll_. The result of the roll helps guide the outcome as to where the story goes next, but doesn't feature _momentum_ nor _consequences_. Roll a number of d6s based on a specific _action_ or the odds of a thing happening, and interpret the results.
 
 # License
 
