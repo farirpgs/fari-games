@@ -220,7 +220,7 @@ The GM gets the final say on this, so work with them to make sure your fact work
 
 # Crafting | Gasps (Extras)
 
-Crafting is a Gasp designed by Liv Merryman of Liv’s Game Corner, used in The Last of Us that simulates the post-apocalyptic scavenging (using Breathless loot checks) and crafting of gear that appears in the video games of the same name. This Gasp is generalized for adaptation into whatever context you desire for your system.
+Crafting is a Gasp designed by Liv Merryman of Liv’s Game Corner, used in _The Last of Us_ to simulate the post-apocalyptic scavenging (using Breathless loot checks) and crafting of gear that appears in the video games of the same name. This Gasp is generalized for adaptation into whatever context you desire for your system.
 
 <iframe src="https://itch.io/embed/1556993" width="100%" height="167" frameborder="0"><a href="https://livsgamecorner.itch.io/the-last-of-us%22%3EThe Last of Us by livsgamecorner</a></iframe>
 
@@ -232,15 +232,16 @@ Players can carry up to three crafted items at once, as they will count as items
 
 Aside from the listed items, you may figure out other things you can craft with the stuff you find scavenging. Decide between players and GM what the rating of the item is, as well as its function. Improvisation is encouraged!
 
-> ### Designer Notes
+> ## Designer Notes
 >
-> As the system designer, you’ll need to decide what scavenging materials work best for your system. In The Last of Us, there are 6: Alcohol, Adhesive, Blade, Cloth, Explosive, and Shroud. I don’t recommend more than 6, as you’ll keep track of the amounts of scavenging materials you have on your character sheet.
+> As the system designer, you’ll need to decide what scavenging materials work best for your system. In _The Last of Us_, there are 6: Alcohol, Adhesive, Blade, Cloth, Explosive, and Shroud. I don’t recommend more than 6, as you’ll keep track of the amounts of scavenging materials you have on your character sheet.
 >
-> Below are some crafted item examples from The Last of Us, as well as their uses. You’ll have to decide what the use of each item is in the context of gameplay, as well as a reasonable starting dice rating for that item.
+> Below are some crafted item examples from _The Last of Us_, as well as their uses. You’ll have to decide what the use of each item is in the context of gameplay, as well as a reasonable starting dice rating for that item.
 >
 > **DIY Medkit**
 >
-> - Materials: 1 Alcohol, 1 ClothThis removes 2 Stress from 1 Survivor’s Stress meter. Starting rating of d10.
+> - Materials: 1 Alcohol, 1 Cloth
+> - This removes 2 Stress from 1 Survivor’s Stress meter. Starting rating of d10.
 >
 > **Shiv**
 >
