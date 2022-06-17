@@ -646,10 +646,10 @@ If there's no red card, roll `2d6`, and select the lowest number.
 
 The result of this roll tells us what is going to be the initial `risk` the PCs will find themselves in when starting their next mission.
 
-- On a `1-3`, the PCs start in a `high` risk position.
-- On a `4-5`, the PCs start in a `moderate` risk position.
-- On a `6`, the PCs start in a `low` risk position.
-- On a `66`, the PCs start in a `low` risk position, and gain some additional benefit.
+- On a `1-3`, the PCs start in a `high risk` position.
+- On a `4-5`, the PCs start in a `moderate risk` position.
+- On a `6`, the PCs start in a `low risk` position.
+- On a `66`, the PCs start in a `low risk` position, and gain some additional benefit.
 
 The GM introduces the mission to the PCs, and they decide how they will approach the situation.
 
