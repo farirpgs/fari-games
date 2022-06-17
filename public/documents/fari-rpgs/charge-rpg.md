@@ -499,7 +499,7 @@ The risk isn't the only thing that helps resolve the end result of a roll. Even 
 
 In Charge, there are 3 possible effect ratings: `great`, `standard`, and `limited`. In most common scenarios, if you are rolling to overcome something, you are probably looking at generating a `standard` effect. The GM is responsible for telling you this information.
 
-If a heavy door is blocking your way, you could use `Finesse` to pick the lock. This might generate a `standard effect`, since it will take some time to do, but it's the `risk is low`. You could also try to use `Tinker` and wreck the door open with an explosive. This may create a `great effect`, but might be a `high risk` situation as it could create a lot of unwanted attention.
+If a heavy door is blocking your way, you could use `Finesse` to pick the lock. This might generate a `standard effect`, since it will take some time to do, but the roll would be `low risk`. You could also try to use `Tinker` and wreck the door open with an explosive. This may create a `great effect`, but might be a `high risk` situation as it could create a lot of unwanted attention.
 
 The effect rating helps determine what success looks like.
 
