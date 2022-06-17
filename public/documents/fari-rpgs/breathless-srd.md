@@ -414,3 +414,35 @@ _"I can avoid the consequences of one roll when assisting someone else."_
 ## Attribution
 
 This game uses mechanics based off the Talents Gasp, designed by Groov of Groov Games.
+
+# Investigation Checks | Gasps (Extras)
+
+Investigation Checks is a Gasp designed by David Haslem ([therabidbanana](https://therabidbanana.itch.io/)) to allow games with investigative focus to present players with opportunities to gather clues, and then roll to determine if their theory is sound. It is used in Task Force JADE.
+
+<iframe frameborder="0" src="https://itch.io/embed/1563019" width="100%" height="167"><a href="https://therabidbanana.itch.io/task-force-jade">Task Force JADE by therabidbanana</a></iframe>
+
+## Rule
+
+When players encounter an opportunity to gather evidence that might help them understand what they are investigating, they may make an investigation check. This check works like a loot check and yields clues. These clues can be rolled to build a theory that might help solve a case or deal with a threat. 
+
+### Investigation Check
+
+When you do an investigation check, roll a d20.
+
+- On a 1, something bad happens.
+- On a 2-14, you find a d4 clue.
+- On a 15-16, you find a d6 clue.
+- On a 17-18, you find a d8 clue.
+- On a 19-20, you find a d10 clue.
+
+### Using Clues
+
+When players are ready to make a theory from the clues they have gathered and resolve their case, they make a statement about the situation and how they plan to solve the problem and make a pool of dice from clues that support this statement. Take the highest value on the following table:
+
+- On a 1-2, your statement is fundamentally flawed and leads you to danger - the GM decides an appropriate complication.
+- On a 3-4, your statement is mostly right, but there is a twist - the GM decides what the twist might be.
+- On a 5+, your statement is right on - you get a benefit from understanding the problem completely.
+
+## Attribution
+
+This game uses mechanics based off the Investigation Check Gasp, designed by David Haslem.
