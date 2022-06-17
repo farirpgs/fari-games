@@ -479,7 +479,7 @@ The action rating is used to define the initial dice pool of the roll.
 
 The GM sets the `risk` of the action based on what has been established in the narrative.
 
-The risk is either, low, moderate or high.
+The risk is either, `low`, `moderate` or `high`.
 
 - When the risk is `low`, things are under control. Even if things go wrong, there is a way out.
 - When the risk is `moderate`, the situation is dangerous. If you fail, there will be repercussions.
