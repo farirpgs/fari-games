@@ -1120,7 +1120,7 @@ We want character creation to be as streamlined as possible. Take the time to un
 
 Later in the campaign, when a milestone occurs, then you can think of new ways to make them truly unique using `talents`.
 
-> _Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**Recuded Risk when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
+> _Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**Reduced Risk when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
 >
 > _In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**Recuded Risk when I'm Shooting monsters in the forest**" or something along those lines. Yann agrees, saying "My character lived in the forest all their life, and would probably be intimidated by big cities. I like it; let's go with this for now!"_
 
