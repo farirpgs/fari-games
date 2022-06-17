@@ -651,7 +651,7 @@ This represents shifting circumstance. What you tried didn't work, and now there
 >
 > _You were tailing someone, but they saw you and disappeared. You were fighting a robot, but they adapted, and are now able to anticipate your every move._
 
-### Worse Position
+### Escalated Risk
 
 This consequence represents losing control of the situation. The action carries you into a riskier situation.
 
