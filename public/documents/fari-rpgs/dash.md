@@ -65,7 +65,7 @@ If you make an action roll, and you get a partial success (4-5) or a bad outcome
 
 - **Reduced Effect** : reduce the _effect_ of the action by one level.
 - **Complication**: tick 1-3 segments on a new or existing _danger clock_, based on the _risk_.
-- **Worse position**: increase the _risk_ of future related action rolls by one level.
+- **Escalated Risk**: increase the _risk_ of future related action rolls by one level.
 - **Lost Opportunity** : what you tried didn't work, you need to use another _action_.
 - **Worse Condition**: take 1-3 _stress_, based on the _risk_.
 
