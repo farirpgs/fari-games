@@ -495,7 +495,7 @@ The risk helps determine what failure looks like.
 
 ## 3. GM Sets the Effect Rating
 
-The risk isn't the only thing that helps resolve the end result of a roll. Even in a high risk situation, succeeding on a roll might still have a great `effect` on the narrative.
+The risk isn't the only thing that helps resolve the end result of a roll. Even in a `high risk` situation, succeeding on a roll might still have a great `effect` on the narrative.
 
 In Charge, there are 3 possible effect ratings: `great`, `standard`, and `limited`. In most common scenarios, if you are rolling to overcome something, you are probably looking at generating a `standard` effect. The GM is responsible for telling you this information.
 
