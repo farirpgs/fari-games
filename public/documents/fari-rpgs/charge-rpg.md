@@ -338,7 +338,7 @@ Some actions may overlap with others. This is by design. As your campaign progre
 
 Make this game your own.
 
-As a player, you get to choose which action you roll by simply saying what your character does. Choosing one approach versus another might influence the risk or effect of your action. The GM should tell you those details before you roll.
+As a player, you get to choose which action you roll by simply saying what your character does. Choosing one approach versus another might influence the `risk` or `effect` of your action. The GM should tell you those details before you roll.
 
 ## Momentum
 
