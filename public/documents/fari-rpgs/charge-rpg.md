@@ -489,7 +489,7 @@ By default, an action roll has a `moderate` risk. You wouldn’t be rolling if t
 
 The GM uses the narrative context to determine which risk to pick.
 
-The action being used is another thing that might affect the risk of a roll — you are trying to convince a merchant who's in a bad mood, using `Sway` might be pretty `high risk`. `Bond` on the other hand could put you in a more `low risk` position, considering the situation.
+The action being used is another thing that might affect the `risk` of a roll — you are trying to convince a merchant who's in a bad mood, using `Sway` might be pretty `high risk`. `Bond` on the other hand could put you in a more `low risk` position, considering the situation.
 
 The risk helps determine what failure looks like.
 
