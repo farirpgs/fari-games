@@ -4,7 +4,6 @@ headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
 headingUppercase: true
-languages: en,fr
 ---
 
 # Introductions
@@ -24,11 +23,11 @@ It can be used as a Charge cheat sheet for your table, but it's also a great ste
 
 # The Game
 
-## BEFORE WE START
+## Before We Start
 
 Define lines that should not be crossed. Pause or rewind the game if something uncomfortable happens during a session. Always make sure everyone is comfortable with the direction of the story.
 
-## PLAYING THE GAME
+## Playing The Game
 
 One person is the game master (GM), the rest are players.
 
@@ -36,7 +35,7 @@ One person is the game master (GM), the rest are players.
 
 **Player**: Narrate what your character does. Make _action rolls_ when things are risky. Give everyone a time to shine. Fill the world with your ideas. Take risks, and rise up from failures.
 
-## ACTION ROLLS
+## Action Rolls
 
 When there's a challenge that needs to be overcome, and there's a risk of failure, make an _action roll_. This resolves the action of the PC as well as any GM characters that are involved
 
@@ -49,7 +48,7 @@ _If you end up with zero or less dice to roll, roll 2 dice and keep the lowest._
 - On a **4-5**, it's a **partial success**. You achieve your goal, but there's a _consequence_.
 - On a **1-3**, it's a **bad outcome**. Things go badly, and there's a _consequence_.
 
-## MOMENTUM
+## Momentum
 
 When a player makes an _action roll_, that roll can generate _momentum_. You start every session with 2, and generate more when you make successful rolls. You use _momentum_ to get various bonuses or resist incoming _consequences_.
 
@@ -59,7 +58,7 @@ When a player makes an _action roll_, that roll can generate _momentum_. You sta
 
 _When momentum is spent for a roll, that roll cannot in turn generate momentum._
 
-## CONSEQUENCES
+## Consequences
 
 If you make an action roll, and you get a partial success (4-5) or a bad outcome (1-3), you suffer a consequence.
 
@@ -78,7 +77,7 @@ If you make an action roll, and you get a partial success (4-5) or a bad outcome
 - On a **6**, the _consequence_ is avoided.
 - On a **66**, the _consequence_ is avoided, and the _risk_ of your next roll is lowered.
 
-## YOUR CHARACTER
+## Your Character
 
 When creating a new character, write down their _details_:
 
@@ -99,7 +98,7 @@ _At character creation, actions cannot have more than 2 dots._
 
 **PROGRESSION**: After a big story event, every PC gets a new _talent_. This either gets you a new _action dot_, or a _situational talent_. For the latter, decide on a specific situation that activates the talent’s bonus and fill the blanks on your sheet.
 
-## CHALLENGES AND DANGER
+## Challenges and Danger
 
 When the PCs face a complex obstacle, like enemies putting up stiff resistance, or when you want to inject the tension of impending danger, don't leave it to a single action roll: draw a _clock_.
 
@@ -109,14 +108,15 @@ When a PC tries to overcome an obstacle with an _action roll,_ tick a _progress 
 
 When a PC gets a _complication_ as a result of their _action_, tick a _danger clock_ 1 segment for a _low risk_, 2 segments for a _moderate risk_, or 3 segments for a _high risk_.
 
-## SPECIAL ACTIONS
+## Special Actions
 
 **PUSH YOURSELF**: Consume 2 _momentum_ per push and gain one of the following.
 
 - Add 1d6 to your _action roll_.
 - Increase the _effect_ of your action.
 - Take action even if you were _taken out_.
-- **ASSIST**: Consume 1 _momentum_ to add 1d6 to an ally’s roll. Doing this also exposes your character to the same risks.
+
+**ASSIST**: Consume 1 _momentum_ to add 1d6 to an ally’s roll. Doing this also exposes your character to the same risks.
 
 **ADD TENSION**: Ask the GM to add a _consequence_ to the scene. If you accept it, add 1d6 to your _action roll_.
 
