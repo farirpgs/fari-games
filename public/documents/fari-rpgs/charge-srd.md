@@ -349,7 +349,7 @@ The GM chooses one of the following:
 
 - `Reduced Effect` : reduce the `effect` of the action by one level.
 - `Complication`: tick one segment per `consequence rating` on a new or existing `danger clock`.
-- `Worse position`: increase the _risk_ of future related action rolls by one level.
+- `Escalated Risk`: increase the _risk_ of future related action rolls by one level.
 - `Lost Opportunity` : what you tried didn't work, you need to use another `action`.
 - `Worse Condition`: take `1 stress` per `consequence rating`.
 
