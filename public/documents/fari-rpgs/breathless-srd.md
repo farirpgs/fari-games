@@ -248,7 +248,7 @@ Players can carry up to three crafted items at once, as they will count as items
 
 Aside from the listed items, you may figure out other things you can craft with the stuff you find scavenging. Decide between players and GM what the rating of the item is, as well as its function. Improvisation is encouraged!
 
-> ## Designer Notes
+> ### Designer Notes
 >
 > As the system designer, you’ll need to decide what scavenging materials work best for your system. In _The Last of Us_, there are 6: Alcohol, Adhesive, Blade, Cloth, Explosive, and Shroud. I don’t recommend more than 6, as you’ll keep track of the amounts of scavenging materials you have on your character sheet.
 >
@@ -274,8 +274,6 @@ Aside from the listed items, you may figure out other things you can craft with 
 This game uses mechanics based on the Crafting Gasp, designed by Liv Merryman of Liv’s Game Corner.
 
 # Declare a Truth | Gasps (Extras)
-
-## Introduction
 
 Declare a Truth is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in [Renegades](https://fari-rpgs.itch.io/renegades) that allows player more control over the narrative, but like most things Breathless, it might come at a cost.
 
