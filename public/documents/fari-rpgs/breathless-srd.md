@@ -423,7 +423,7 @@ Investigation Checks is a Gasp designed by David Haslem ([therabidbanana](https:
 
 ## Rule
 
-When players encounter an opportunity to gather evidence that might help them understand what they are investigating, they may make an investigation check. This check works like a loot check and yields clues. These clues can be rolled to build a theory that might help solve a case or deal with a threat. 
+When players encounter an opportunity to gather evidence that might help them understand what they are investigating, they may make an investigation check. This check works like a loot check and yields clues. These clues can be rolled to build a theory that might help solve a case or deal with a threat.
 
 ### Investigation Check
 
@@ -446,3 +446,71 @@ When players are ready to make a theory from the clues they have gathered and re
 ## Attribution
 
 This game uses mechanics based off the Investigation Check Gasp, designed by David Haslem.
+
+Thanks for the help on this Gasp submission. I think I got the Markdown correct?
+
+# Locker | Gasps (Extras)
+
+Locker is a Gasp designed by Ryan Lucas of https://theyoungking45.itch.io/%7D used in Ore that provides a form of advancement by emphasizing scavenging rolls.
+
+<iframe frameborder="0" src="https://itch.io/embed/1556594?linkback=true&amp;border_width=2&amp;bg_color=000000&amp;fg_color=a8f1f5&amp;link_color=fb922b&amp;border_color=1f181b" width="100%" height="169"><a href="https://theyoungking45.itch.io/ore%22%3EOre by Ryan</a></iframe>
+
+## Rule
+
+Characters have additional gear storage that they alone have access to. Though the setting dictates where and what form this takes, this rule refers to additional storage as the “Locker” to differentiate from a Character’s “Backpack.”
+
+The Locker allows Characters to bring scavenged equipment back after a successful (or at least survived) adventure. Each Locker has 3 slots for items. Before an adventure, Characters may freely decide what is stored in their Locker and what comes along in their Backpack.
+
+> ### Designer Notes
+>
+> The Locker does a few things for the themes and focus of your game: It enables a sort of Character “advancement” that doesn’t rely on experience or boosting Skills - you instead “level up” via gear. It also emphasizes scavenge rolls and loot in general. Lockers presuppose a “home base” and work best when sessions are more “mission focused” with some kind of downtime in between.
+>
+> Whether the other Characters can recover the contents of a deceased/vanished comrade’s Locker is at your discretion. It may require some challenge (such as recovering the victim’s eye for use on a retinal scanner!)
+
+## Attribution
+
+This game uses mechanics based off the Locker Gasp, designed by Ryan Lucas.
+
+# Nomadic Oracles | Gasps (Extras)
+
+The Nomadic Oracles is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in Nomadic that easily adds solo capabilities to Breathless games.
+
+<iframe frameborder="0" src="https://itch.io/embed/1522413?bg_color=001a2d&amp;fg_color=ffffff&amp;link_color=58C9E9&amp;border_color=333333" width="100%" height="167"><a href="https://fari-rpgs.itch.io/nomadic">Nomadic - Explore, Document, Survive by Fari RPGs (René-Pier)</a></iframe>
+
+## Rule
+
+If your character’s action isn’t directly involved in your question, use the _Question Oracle_ to get your answer.
+
+If your character is directly performing an action and the outcome is in doubt, use the _Risk Oracle_ to know how it goes.
+
+### Question Oracle
+
+If you have a question about the world, use the _Question Oracle_ to get your answer.
+Roll 2d6, sum the two numbers, and interpret the results.
+
+- On a 2-3, the answer is no, and…
+- On a 4-6, the answer is no.
+- On a 7, the answer is yes, but…
+- On a 8-10, the answer is yes.
+- On a 11-12, the answer is yes, and…
+
+### Risk Oracle
+
+If your Nomad wants to attempt something dangerous, use the _Risk Oracle_ to assess how risky it is before doing it.
+Roll 2d6, sum the two numbers, and interpret the results.
+
+- On a 2-4, the situation is **not risky at all**. You simply do it.
+- On a 5-9, the situation is **risky**. Make a _Check_ to see how it goes.
+- On a 10-12, the situation is **perilous**. Make a _Check_ to see how it goes.
+
+> ### Designer Notes
+>
+> This combo of Oracles resolve two different problems when playing solo.
+>
+> The Question Oracle is there to give you the answers about the world that a GM would normally give if you were playing with one. Is it raining today? Is this alien creatures looking friendly towards me? The oracle is there to confirm the ficiton and guide your actions.
+>
+> The Risk Oracle is there to tell you if you need to roll to accomplish a risky action or not. For some actions, you will simply do it, without the need of any dice roll. Other times, the action will be risky or even perilous, and when that happens, not only will you have to roll, but the risk level of the situation affects the strength of the consequence that might arise from your action.
+
+## Attribution
+
+This game uses mechanics based off the Nomadic Oracles Gasp, designed by René-Pier Deshaies-Gélinas of Fari RPGs.
