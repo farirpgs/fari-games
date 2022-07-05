@@ -200,23 +200,39 @@ Here's the format you need to use, then just send me the markdown text at https:
 This game uses mechanics based off the {name} Gasp, designed by {author} of {design studio}.
 ```
 
-# Declare a Truth | Gasps (Extras)
+# Adventure Frame | Gasps (Extras)
 
-## Introduction
+Adventure Frame is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in [Renegades](https://fari-rpgs.itch.io/renegades) that easily allows the creation of adventure modules for Breathless games.
 
-Declare a Truth is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in [Renegades](https://fari-rpgs.itch.io/renegades) that allows player more control over the narrative, but like most things Breathless, it might come at a cost.
-
-<iframe frameborder="0" src="https://itch.io/embed/1558885?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c9c9c9" width="100%" height="167"><a href="https://fari-rpgs.itch.io/renegades">Renegades by Fari RPGs</a></iframe>
+<iframe frameborder="0" width="100%" src="https://itch.io/embed/1558885?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c9c9c9" width="552" height="167"><a href="https://fari-rpgs.itch.io/renegades">Renegades by Fari RPGs</a></iframe>
 
 ## Rule
 
-When the situation is dire, or if you are looking for a way out, you can declare a new truth about the world. If your fact is a small truth, it just happens, but for big truths the GM adds a “but...” afterwards.
+The Adventure Frame format divides the plot into many events that the player characters (PCs) will need to resolve in order to move forward with the story. This format gives you just enough flavor to get started while keeping things flexible for when players will do something unexpected.
 
-The GM gets the final say on this, so work with them to make sure your fact works well with what has already been established. Once used, you'll need to "catch your breath" to declare a new truth.
+When bad rolls appear, or when you need to raise tension, introduce new complications, but if none directly matches the fiction, take a random one and adapt it to the story. There is no wrong way to play this, so if the players don’t follow the events to the letter, find a new way to stitch things back together later.
+
+### The Premise
+
+_{Premise short description.}_
+
+### 1. {Event Name}
+
+_{Event short description.}_
+
+**Goal:** {2-3 goals for the players to accomplish.}
+
+**Scene:** {3-5 descriptors for the GM to get a sense of the scene.}
+
+**Complications:** {2-3 complications for the GM to use in case something bad happens}
 
 > ### Designer Notes
 >
-> This simple mechanic gives players a lot of control over the story, and will encourage them to roll less often, since declaring a truth is easier than using a skill. In order to prevent players from becoming too reliant on this, they can only use it once per "catch your breath". In your game, you might want to rely on another meta-currency or require the players to be in certain situations before they can declare a new truth. The GM can always decide to throw bigger problems at the scene if they feel the new truth is too big, so this usually balance things out fine.
+> Adventure Frames have been designed especially for Breathless games. Since no plot survives an encounter with the players, Adventure Frames focus on goals, scene descriptors, and complications. This leaves a lot of space for the GM to change the story on the fly, and just glue things back together when necessary.
+
+## Attribution
+
+This game uses mechanics based off the Adventure Frame Gasp, designed by René-Pier Deshaies-Gélinas of Fari RPGs.
 
 # Crafting | Gasps (Extras)
 
@@ -257,73 +273,23 @@ Aside from the listed items, you may figure out other things you can craft with 
 
 This game uses mechanics based on the Crafting Gasp, designed by Liv Merryman of Liv’s Game Corner.
 
-# Adventure Frame | Gasps (Extras)
+# Declare a Truth | Gasps (Extras)
 
-Adventure Frame is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in [Renegades](https://fari-rpgs.itch.io/renegades) that easily allows the creation of adventure modules for Breathless games.
+## Introduction
 
-<iframe frameborder="0" width="100%" src="https://itch.io/embed/1558885?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c9c9c9" width="552" height="167"><a href="https://fari-rpgs.itch.io/renegades">Renegades by Fari RPGs</a></iframe>
+Declare a Truth is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in [Renegades](https://fari-rpgs.itch.io/renegades) that allows player more control over the narrative, but like most things Breathless, it might come at a cost.
+
+<iframe frameborder="0" src="https://itch.io/embed/1558885?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c9c9c9" width="100%" height="167"><a href="https://fari-rpgs.itch.io/renegades">Renegades by Fari RPGs</a></iframe>
 
 ## Rule
 
-The Adventure Frame format divides the plot into many events that the player characters (PCs) will need to resolve in order to move forward with the story. This format gives you just enough flavor to get started while keeping things flexible for when players will do something unexpected.
+When the situation is dire, or if you are looking for a way out, you can declare a new truth about the world. If your fact is a small truth, it just happens, but for big truths the GM adds a “but...” afterwards.
 
-When bad rolls appear, or when you need to raise tension, introduce new complications, but if none directly matches the fiction, take a random one and adapt it to the story. There is no wrong way to play this, so if the players don’t follow the events to the letter, find a new way to stitch things back together later.
-
-### The Premise
-
-_{Premise short description.}_
-
-### 1. {Event Name}
-
-_{Event short description.}_
-
-**Goal:** {2-3 goals for the players to accomplish.}
-
-**Scene:** {3-5 descriptors for the GM to get a sense of the scene.}
-
-**Complications:** {2-3 complications for the GM to use in case something bad happens}
+The GM gets the final say on this, so work with them to make sure your fact works well with what has already been established. Once used, you'll need to "catch your breath" to declare a new truth.
 
 > ### Designer Notes
 >
-> Adventure Frames have been designed especially for Breathless games. Since no plot survives an encounter with the players, Adventure Frames focus on goals, scene descriptors, and complications. This leaves a lot of space for the GM to change the story on the fly, and just glue things back together when necessary.
-
-## Attribution
-
-This game uses mechanics based off the Adventure Frame Gasp, designed by René-Pier Deshaies-Gélinas of Fari RPGs.
-
-# Survivor Points | Gasps (Extras)
-
-Survivor Points is a Gasp designed by Andrew Boyd of Pandion Games that allows characters to become better suited and potentially survive longer in harsh environments.
-
-<iframe src="https://itch.io/embed/1518935" width="100%" height="167" frameborder="0"><a href="https://pandiongames.itch.io/substratum">SUBSTRATUM by Pandion Games</a></iframe>
-
-## Rule
-
-This advancement system is written to be used with Breathless by Fari RPGs and any game game based on Breathless. While many Breathless games are purposefully difficult, Survivor Points allows your characters to become better suited and potentially survive longer in their new found environment.
-
-### Earning Survivor Points
-
-Earn one Survivor Point for each Stress you end the session with. Survivor Points can accumulate.
-
-### Spending Survivor Points (SP)
-
-Survivor Points can be spent in two ways: Before the Session and During the Session.
-
-### Before the Session
-
-- Skill Advancement (once per session) - Spend 1 SP to increase a Skill by 1 rating up to a max of d10. Each additional Skill Advancement costs an additional 1SP.
-- Item Improvement - Spend 1 SP to increase an Item you hold by 1 rating (max of d10).
-- Stress Reduction - Spend 1 SP to remove 2 Stress.
-
-### During the Session
-
-- Stress Reduction - Spend 1 point to remove 1 Stress.
-- Avoid Consequences - When you roll or take an action that would incur a consequence, spend 1SP and avoid it instead.
-- Adrenaline - Spend 1SP to fully recharge 1 Skill without a consequence.
-
-## Attribution
-
-This game uses mechanics based off the Survivor Points Gasp, designed by Andrew Boyd of Pandion Games.
+> This simple mechanic gives players a lot of control over the story, and will encourage them to roll less often, since declaring a truth is easier than using a skill. In order to prevent players from becoming too reliant on this, they can only use it once per "catch your breath". In your game, you might want to rely on another meta-currency or require the players to be in certain situations before they can declare a new truth. The GM can always decide to throw bigger problems at the scene if they feel the new truth is too big, so this usually balance things out fine.
 
 # Flashback | Gasps (Extras)
 
@@ -350,70 +316,6 @@ To determine to which extent did the player's Flashback is accurate, the GM roll
 ## Attribution
 
 This game uses mechanics based off the Flashback Gasp, designed by Patrick Dubuc of Tiki Games.
-
-# Transformation | Gasps (Extras)
-
-Transformation is a Gasp designed by Nick Potter of Sustain a Spell used in _Let's Be Magical!_ that models empowering transformations for magical girl, super sentai, or other similar character types.
-
-<iframe frameborder="0" src="https://itch.io/embed/1571203?linkback=true&amp;bg_color=FFC1E5&amp;border_color=eafdff" width="100%" height="167"><a href="https://sustain-a-spell.itch.io/lets-be-magical">Let's Be Magical! by Sustain a Spell</a></iframe>
-
-## Rule
-
-When you transform, you are filled with power and confidence. All of your skills increase by one level while transformed, and lower one level when your transformation ends. If any of your skills are at a d4 by the time you end your transformation or if you Catch Your Breath while transformed, you take one point of stress.
-
-> ### Designer Notes
->
-> This mechanic is intended to provide a mechanical representation of the battle transformations seen in anime or sentai — it can be magical girls, Power Rangers, Super Saiyans, or any other sort of powerup meant for battle.
->
-> It obviously provides a power boost, and can help the players tackle harder obstacles and challenges, but it comes with the downside of possible Stress and limiting Catch Your Breath opportunities.
->
-> You can feel free to alter it as you wish, introducing threats that can only be taken while transformed, or removing the drawback entirely to just add a bit of a power fantasy to the game.
-
-## Attribution
-
-This game uses mechanics based off the Transformation Gasp, designed by Nick Potter of Sustain a Spell.
-
-# Talents | Gasps (Extras)
-
-Talents is a Gasp designed by Groov of Groov Games used in Critterforce 5 that emphasizes unique character mechanics and advancement. This Gasp makes characters just a little bit stronger by giving them small passive effects, or a larger once-a-session ability.
-
-<iframe src="https://itch.io/embed/1535524" width="100%" height="167" frameborder="0"><a href="https://groovasaur.itch.io/critterforce-5">Critterforce 5 by Groov</a></iframe>
-
-## Rule
-
-Once at character creation and after story milestones, players may choose or create their own Talent to represent a slight edge the character has. Each Talent may be used once a session unless it says otherwise. Most will use one of the following templates:
-
-**When you use your stunt, you can do something nearly superhuman or supernatural.**
-
-_"When I use my stunt, I can summon a lightning storm."_
-
-_"When I use my stunt, I can reveal that an NPC was me all along!"_
-
-**You gain a +2 bonus on a narrow use of an action. You can use this after a roll.**
-
-_"I get a +2 bonus when using Bash to strike while hidden."_
-
-_"I get a +2 bonus when using Talk to gather information"_
-
-**You gain a specific narrative freedom. These are usually passive and ongoing.**
-
-_"I always know when someone is lying to me"_
-
-_"If there's ever a question of who acts first, it's me."_
-
-**You gain a game specific bonus. Depending on the game, some of these may be passive and ongoing, while others are usable once as usual.**
-
-_"I can hold an extra item in my backpack."_
-
-_"I can avoid the consequences of one roll when assisting someone else."_
-
-> ### Designer Notes
->
-> Talents, Masteries, Upgrades, or whatever you decide to call them will vary a lot from game to game, and there will always be players wanting to come up with their own. In your game, include 5 or 10 so your players understand the bounds of this Gasp in your game.
-
-## Attribution
-
-This game uses mechanics based off the Talents Gasp, designed by Groov of Groov Games.
 
 # Investigation Checks | Gasps (Extras)
 
@@ -514,3 +416,101 @@ Roll 2d6, sum the two numbers, and interpret the results.
 ## Attribution
 
 This game uses mechanics based off the Nomadic Oracles Gasp, designed by René-Pier Deshaies-Gélinas of Fari RPGs.
+
+# Survivor Points | Gasps (Extras)
+
+Survivor Points is a Gasp designed by Andrew Boyd of Pandion Games that allows characters to become better suited and potentially survive longer in harsh environments.
+
+<iframe src="https://itch.io/embed/1518935" width="100%" height="167" frameborder="0"><a href="https://pandiongames.itch.io/substratum">SUBSTRATUM by Pandion Games</a></iframe>
+
+## Rule
+
+This advancement system is written to be used with Breathless by Fari RPGs and any game game based on Breathless. While many Breathless games are purposefully difficult, Survivor Points allows your characters to become better suited and potentially survive longer in their new found environment.
+
+### Earning Survivor Points
+
+Earn one Survivor Point for each Stress you end the session with. Survivor Points can accumulate.
+
+### Spending Survivor Points (SP)
+
+Survivor Points can be spent in two ways: Before the Session and During the Session.
+
+### Before the Session
+
+- Skill Advancement (once per session) - Spend 1 SP to increase a Skill by 1 rating up to a max of d10. Each additional Skill Advancement costs an additional 1SP.
+- Item Improvement - Spend 1 SP to increase an Item you hold by 1 rating (max of d10).
+- Stress Reduction - Spend 1 SP to remove 2 Stress.
+
+### During the Session
+
+- Stress Reduction - Spend 1 point to remove 1 Stress.
+- Avoid Consequences - When you roll or take an action that would incur a consequence, spend 1SP and avoid it instead.
+- Adrenaline - Spend 1SP to fully recharge 1 Skill without a consequence.
+
+## Attribution
+
+This game uses mechanics based off the Survivor Points Gasp, designed by Andrew Boyd of Pandion Games.
+
+# Talents | Gasps (Extras)
+
+Talents is a Gasp designed by Groov of Groov Games used in Critterforce 5 that emphasizes unique character mechanics and advancement. This Gasp makes characters just a little bit stronger by giving them small passive effects, or a larger once-a-session ability.
+
+<iframe src="https://itch.io/embed/1535524" width="100%" height="167" frameborder="0"><a href="https://groovasaur.itch.io/critterforce-5">Critterforce 5 by Groov</a></iframe>
+
+## Rule
+
+Once at character creation and after story milestones, players may choose or create their own Talent to represent a slight edge the character has. Each Talent may be used once a session unless it says otherwise. Most will use one of the following templates:
+
+**When you use your stunt, you can do something nearly superhuman or supernatural.**
+
+_"When I use my stunt, I can summon a lightning storm."_
+
+_"When I use my stunt, I can reveal that an NPC was me all along!"_
+
+**You gain a +2 bonus on a narrow use of an action. You can use this after a roll.**
+
+_"I get a +2 bonus when using Bash to strike while hidden."_
+
+_"I get a +2 bonus when using Talk to gather information"_
+
+**You gain a specific narrative freedom. These are usually passive and ongoing.**
+
+_"I always know when someone is lying to me"_
+
+_"If there's ever a question of who acts first, it's me."_
+
+**You gain a game specific bonus. Depending on the game, some of these may be passive and ongoing, while others are usable once as usual.**
+
+_"I can hold an extra item in my backpack."_
+
+_"I can avoid the consequences of one roll when assisting someone else."_
+
+> ### Designer Notes
+>
+> Talents, Masteries, Upgrades, or whatever you decide to call them will vary a lot from game to game, and there will always be players wanting to come up with their own. In your game, include 5 or 10 so your players understand the bounds of this Gasp in your game.
+
+## Attribution
+
+This game uses mechanics based off the Talents Gasp, designed by Groov of Groov Games.
+
+# Transformation | Gasps (Extras)
+
+Transformation is a Gasp designed by Nick Potter of Sustain a Spell used in _Let's Be Magical!_ that models empowering transformations for magical girl, super sentai, or other similar character types.
+
+<iframe frameborder="0" src="https://itch.io/embed/1571203?linkback=true&amp;bg_color=FFC1E5&amp;border_color=eafdff" width="100%" height="167"><a href="https://sustain-a-spell.itch.io/lets-be-magical">Let's Be Magical! by Sustain a Spell</a></iframe>
+
+## Rule
+
+When you transform, you are filled with power and confidence. All of your skills increase by one level while transformed, and lower one level when your transformation ends. If any of your skills are at a d4 by the time you end your transformation or if you Catch Your Breath while transformed, you take one point of stress.
+
+> ### Designer Notes
+>
+> This mechanic is intended to provide a mechanical representation of the battle transformations seen in anime or sentai — it can be magical girls, Power Rangers, Super Saiyans, or any other sort of powerup meant for battle.
+>
+> It obviously provides a power boost, and can help the players tackle harder obstacles and challenges, but it comes with the downside of possible Stress and limiting Catch Your Breath opportunities.
+>
+> You can feel free to alter it as you wish, introducing threats that can only be taken while transformed, or removing the drawback entirely to just add a bit of a power fantasy to the game.
+
+## Attribution
+
+This game uses mechanics based off the Transformation Gasp, designed by Nick Potter of Sustain a Spell.
