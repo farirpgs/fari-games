@@ -176,7 +176,7 @@ That being said, each Gasp includes a small license blurb that designers are **_
 
 ## Releasing a Gasp
 
-Want to release your own Gasp to the community ?
+Want to release your own Gasp to the community?
 
 Here's the format you need to use, then just send me the markdown text at https://farirpgs.com/#contact
 
@@ -371,13 +371,22 @@ The Locker allows Characters to bring scavenged equipment back after a successfu
 
 This game uses mechanics based off the Locker Gasp, designed by Ryan Lucas.
 
-# Nomadic Oracles | Gasps (Extras)
+# Nomadic Engine | Gasps (Extras)
 
-The Nomadic Oracles is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in Nomadic that easily adds solo capabilities to Breathless games.
+The Nomadic Engine is a Gasp designed by René-Pier Deshaies-Gélinas of Fari RPGs used in Nomadic that easily adds solo capabilities to Breathless games.
 
 <iframe frameborder="0" src="https://itch.io/embed/1522413?bg_color=001a2d&amp;fg_color=ffffff&amp;link_color=58C9E9&amp;border_color=333333" width="100%" height="167"><a href="https://fari-rpgs.itch.io/nomadic">Nomadic - Explore, Document, Survive by Fari RPGs (René-Pier)</a></iframe>
 
 ## Rule
+
+### The Game
+
+As you play the game, go through the following steps:
+
+1. [...]
+1. [...]
+1. [...]
+1. [...]
 
 If your character’s action isn’t directly involved in your question, use the _Question Oracle_ to get your answer.
 
@@ -388,32 +397,111 @@ If your character is directly performing an action and the outcome is in doubt, 
 If you have a question about the world, use the _Question Oracle_ to get your answer.
 Roll 2d6, sum the two numbers, and interpret the results.
 
-- On a 2-3, the answer is no, and…
-- On a 4-6, the answer is no.
-- On a 7, the answer is yes, but…
-- On a 8-10, the answer is yes.
-- On a 11-12, the answer is yes, and…
+- On a **2-3**, the answer is **no, and…**
+- On a **4-6**, the answer is **no**.
+- On a **7**, the answer is **yes, but…**
+- On a **8-10**, the answer is **yes**.
+- On a **11-12**, the answer is **yes, and…**
 
 ### Risk Oracle
 
 If your Nomad wants to attempt something dangerous, use the _Risk Oracle_ to assess how risky it is before doing it.
 Roll 2d6, sum the two numbers, and interpret the results.
 
-- On a 2-4, the situation is **not risky at all**. You simply do it.
-- On a 5-9, the situation is **risky**. Make a _Check_ to see how it goes.
-- On a 10-12, the situation is **perilous**. Make a _Check_ to see how it goes.
+- On a **2-4**, the situation is **not risky at all**. You simply do it.
+- On a **5-9**, the situation is **risky**. Make a _Check_ to see how it goes.
+- On a **10-12**, the situation is **perilous**. Make a _Check_ to see how it goes.
 
-> ### Designer Notes
+### Check
+
+When you use the Risk Oracle and the situation is risky or perilous, you make a check to see how it plays out.
+Pick the skill that best matches what you are trying to accomplish, roll the die that matches its rating, and interpret the results.
+
+- On a **1-2**, you **fail**, and something wrong happens. Mark one box on a resource track of your choice. Two boxes if the situation was _perilous_.
+- On a **3-4**, you **succeed, but at a cost**. Mark one box on a resource track of your choice. Two boxes if the situation was _perilous_.
+- On a **5+**, you **succeed**. The higher the result, the better the effect.
+
+Reduces the rating of the skill you used by **one level**. Skills go from d12 » d10 » d8 » d6 » d4, and cannot go lower than a d4.
+
+### Resource Tracks
+
+You have 4 resources tracks. When a complication arises, either as a result of you "focusing” or from a check, you mark boxes on one of the tracks. Look at the fiction to decide which track to mark. You can also pick a random one and link it with the fiction later.
+
+### Make A Choice
+
+If you need to mark a box, and all your resource tracks are filled, you will have to make a choice.
+
+**Abandon**: You can’t go on, and must abandon the mission. As a result, you will die in the coming hours/days. The cause of your death is directly related to the last resource track you marked. Make a last log entry to describe what happened, and beam it. The game is now over.
+
+**Push Forward**: The alternative is that you push forward. You knew this wasn’t going to be easy, and you aren’t about to give up. Leave the current system, fast forwards weeks/months in time, and clear all your resource tracks. You are now in a new system. Make a new log entry, and find a new planet to explore.
+
+### Resource Checks
+
+Resources are an abstract value that represents what you scavenge as you explore the cosmos. When you leave a planet, roll a d20 to know how much resource you scavenged.
+
+- On a **1-10**, you find **1 resource**.
+- On a **11-14**, you find **2 resources**.
+- On a **15-16**, you find **3 resources**.
+- On a **17-18**, you find **5 resources**.
+- On a **19-20**, you find **8 resources**.
+
+At anytime, you can consume as many resources as you want to clear the same amount of boxes on any resource track.
+
+When you do this, you take the time to heal yourself, and repair your equipment so that you can continue the mission.
+
+### Determination
+
+Your skill aren’t all you have to survive the harshess of space. You can also rely on your sheer determination to push forward and to make the mission a success.
+
+When you use your determination, you use a d12 instead of a skill rating to do a check.
+
+Once used, you'll need to "focus" to use it again.
+
+### Focus
+
+When you focus, you quickly take the time to assess the situation, calculate all the variables, and recenter yourself for what’s to come.
+
+You can do this at any time to get a brief break.
+
+As a result, all your skills reset to their initial rating.
+
+Focusing also introduces a new complication to the story. When that happens, mark one box on a resource track.
+
+If all your resource tracks are filled, you need to make a choice. Will you abandon the mission or will you push forward into the unknown?
+
+## Designer Notes
+
+> ### Your Steps
+>
+> The steps of the game define the core game play loop of your game. What will the players do? What is there for them to describe or explore? What will they see? When will they use the oracles? When will they log their journal entry? When will they scavenge their resources ?
+>
+> ### The Oracles
 >
 > This combo of Oracles resolve two different problems when playing solo.
 >
-> The Question Oracle is there to give you the answers about the world that a GM would normally give if you were playing with one. Is it raining today? Is this alien creatures looking friendly towards me? The oracle is there to confirm the ficiton and guide your actions.
+> The Question Oracle is there to give you the answers about the world that a GM would normally give if you were playing with one. Is it raining today? Is this alien creatures looking friendly towards me? The oracle is there to confirm the fiction and guide your actions.
 >
 > The Risk Oracle is there to tell you if you need to roll to accomplish a risky action or not. For some actions, you will simply do it, without the need of any dice roll. Other times, the action will be risky or even perilous, and when that happens, not only will you have to roll, but the risk level of the situation affects the strength of the consequence that might arise from your action.
+>
+> ### Your Checks
+>
+> The way checks work in Nomadic is the same as Breathless, but it's also tied with the Risk Oracle. The result of the Risk Oracle tells us how many boxes we need to mark on the resource track when a consequence arises. Are there more risk degrees in your game? How are they called? What makes the character's journey risky?
+>
+> ### Your Resource Tracks
+>
+> The resources represent the different things that the character needs to take care off as they explore the world. In Nomadic, there is body/mind/gear/ship. This is something that is very theme specific, so change it to better fit the aesthetic of your game. What would the character need to take care of? What could complications potentially affect?
+>
+> ### Your Choices
+>
+> Making a choice is something that happens when a character has all their resource tracks filled, and they need to mark a box, but they can't. This forces them to either abandon the mission or push forward into the unknown. What are the meaningful choices in your game ? How do they relate to the story?
+>
+> ### Your Resources
+>
+> The resources in Nomadic are abstract values that represent the different things that the character scavenges in their voyage. They use them to clear boxes on their resource tracks. Resources make things better, and make it possible for Nomads to continue their adventure just a bit further. What are the things that make things better for the characters that they can find? How do they allow them to pursue their journey a bit further?
 
 ## Attribution
 
-This game uses mechanics based off the Nomadic Oracles Gasp, designed by René-Pier Deshaies-Gélinas of Fari RPGs.
+This game uses mechanics based off the Nomadic Engine Gasp, designed by René-Pier Deshaies-Gélinas of Fari RPGs.
 
 # Survivor Points | Gasps (Extras)
 
