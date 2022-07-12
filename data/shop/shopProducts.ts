@@ -722,7 +722,9 @@ export const shop: IShop = {
           description:
             "Build any kind of characters you can imagine, and allow for meaningful choices to impact the unfolding of thrilling adventures.",
           image: "https://gyazo.com/fa1ea25d2e44a6911ccfe849be8a2a51.png",
-          links: {},
+          links: {
+            itchIo: "https://craighatler.itch.io/personae-rpg",
+          },
           tags: ["srd"],
           type: ProductTypeEnum.SRD,
         },
