@@ -19,7 +19,8 @@ export const shop: IShop = {
           name: "Charge RPG",
           slug: "charge-rpg",
           type: ProductTypeEnum.Game,
-          description: "Ready to use generic RPG system.",
+          description:
+            "A generic and fiction first RPG system to power your action packed adventures.",
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
@@ -34,7 +35,7 @@ export const shop: IShop = {
           slug: "charge-srd",
           type: ProductTypeEnum.SRD,
           description:
-            "Power your next game with this condensed version of Charge RPG",
+            "An SRD to make action packed RPGs with forward momentum.",
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
@@ -42,6 +43,21 @@ export const shop: IShop = {
           image: "https://gyazo.com/a6eabc2383f01fa9e30be8c1d64596f2.png",
           links: {
             itchIo: "https://fari-rpgs.itch.io/charge-srd",
+          },
+        },
+        {
+          name: "Dash",
+          slug: "dash",
+          type: ProductTypeEnum.SRD,
+          description:
+            "A print friendly & condensed version of the Charge RPG system.",
+          license: License.CC_BY_4,
+          footer:
+            "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+          tags: ["charge-rpg", "srd", "new"],
+          image: "https://gyazo.com/c94071f2daeaaaa1ccbdd99a3a8074cf.png",
+          links: {
+            itchIo: "https://fari-rpgs.itch.io/dash",
           },
         },
         {
@@ -632,6 +648,85 @@ export const shop: IShop = {
           links: {},
           tags: [],
           // license:License.CC_BY_4,
+        },
+      ],
+    },
+    {
+      name: "Jordan R Trocchiano",
+      slug: "zonefighterj",
+      links: {},
+      products: [
+        {
+          name: "3-D",
+          slug: "3d",
+          type: ProductTypeEnum.SRD,
+          description:
+            "A game system designed for situations and stories with mounting pressure and immediate consequences of failure or coming up short",
+          image: "https://gyazo.com/9532afacaaaf409536e0d3be1520f59f.png",
+          links: {},
+          tags: ["srd"],
+        },
+      ],
+    },
+    {
+      name: "Penflower Ink",
+      slug: "penflower-ink",
+      links: {
+        website: "https://www.penflower-ink.com/",
+        twitter: "https://twitter.com/tomfummo",
+      },
+      products: [
+        {
+          name: "Four Points SRD",
+          slug: "four-points-srd",
+          type: ProductTypeEnum.SRD,
+          description:
+            "Build an RPG focused on player agency, characters, narrative and customisation, where you decide when to succeed and when to test your luck.",
+          image: "https://gyazo.com/346c57939218fbbfdd6d2ce04ce2cc5c.jpg",
+          links: {
+            itchIo: "https://penflower-ink.itch.io/four-points-rpg-system-srd",
+          },
+          tags: ["srd", "new"],
+        },
+      ],
+    },
+    {
+      name: "Rat Wave Game House",
+      slug: "rat-wave-game-house",
+      links: {},
+      products: [
+        {
+          name: "Fight Card System",
+          slug: "fight-card-system",
+          type: ProductTypeEnum.SRD,
+          description:
+            "A system/design guide for resolving fights via a two player trick taking game.",
+          image: "https://gyazo.com/a31577b08f1ca18420dc99af5bd01866.jpeg",
+          links: {
+            itchIo: "https://ratwavegamehouse.itch.io/the-fight-card-system",
+          },
+          tags: ["srd", "new"],
+        },
+      ],
+    },
+    {
+      name: "Craig Hatler",
+      slug: "craig-hatler",
+      links: {
+        twitter: "https://twitter.com/tezrak",
+      },
+      products: [
+        {
+          name: "Personae SRD",
+          slug: "personae-srd",
+          description:
+            "Build any kind of characters you can imagine, and allow for meaningful choices to impact the unfolding of thrilling adventures.",
+          image: "https://gyazo.com/fa1ea25d2e44a6911ccfe849be8a2a51.png",
+          links: {
+            itchIo: "https://craighatler.itch.io/personae-rpg",
+          },
+          tags: ["srd"],
+          type: ProductTypeEnum.SRD,
         },
       ],
     },

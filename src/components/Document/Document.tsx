@@ -350,7 +350,7 @@ export function Document(props: {
         selected={selected}
         to={props.makeChapterLink(renderProps.item.path)}
         className={css({
-          color: "inherit",
+          color: theme.palette.text.primary,
           textDecoration: "none",
           backgroundColor: "inherit",
           borderLeft: selected
@@ -361,6 +361,7 @@ export function Document(props: {
         <Typography
           noWrap
           className={css({
+            // color: theme.palette.text.primary,
             paddingLeft: renderProps.paddingLeft,
             fontWeight: selected
               ? theme.typography.fontWeightBold
@@ -490,6 +491,7 @@ export function Document(props: {
       en: "English",
       "pt-br": "Português",
       fr: "Français",
+      es: "Español",
       de: "Deutsch",
     };
 
@@ -611,14 +613,16 @@ export function Document(props: {
         <div className={css({ position: "relative" })}>
           {renderSmallPreviousNextNavigation()}
           {renderTime()}
-          <MarkdownContent
-            headingFont={chapter?.frontMatter?.headingFont}
-            textFont={chapter?.frontMatter?.textFont}
-            highlightFont={chapter?.frontMatter?.highlightFont}
-            headingUppercase={chapter?.frontMatter?.headingUppercase}
-            style={chapter?.style}
-            html={chapter?.html}
-          />
+          <Box className="fari-games-document">
+            <MarkdownContent
+              headingFont={chapter?.frontMatter?.headingFont}
+              textFont={chapter?.frontMatter?.textFont}
+              highlightFont={chapter?.frontMatter?.highlightFont}
+              headingUppercase={chapter?.frontMatter?.headingUppercase}
+              style={chapter?.style}
+              html={chapter?.html}
+            />
+          </Box>
           <Box mt="1rem" />
           <Divider />
           <Box mb="1rem" />

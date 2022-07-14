@@ -3,7 +3,7 @@ fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&disp
 headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
-languages: en, fr
+languages: en,fr,es
 ---
 
 # Introductions | Charge DRS
