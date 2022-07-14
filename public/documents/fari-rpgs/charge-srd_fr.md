@@ -26,7 +26,7 @@ Nous avons hâte de voir ce que vous bâtirez à partir de cela. Lancez-vous!
 | `Othelarian`              | othelarian#5063 |                                      | [Link](https://othelarian.itch.io/)   |
 | `Nugat`                   |                 |                                      |                                       |
 
- >#### Note du Designer
+ >#### Note du Concepteur
 >
 > Un texte dans un encadré (comme celui-ci) vous êtes destiné, chère créatrice de jeu.
 >
@@ -60,7 +60,7 @@ Nous prenons un moment pour être transparent quant aux thèmes présents dans c
 
 Ce jeu inclut des références et des exemples des thèmes suivants: [...]
 
-> #### Note du Designer: Avertissement de Contenu
+> #### Note du Concepteur : Avertissement de Contenu
 >
 > Prenez le temps de lister les thèmes présents dans votre jeu dans la rubrique ci-dessus. Être transparente vous permettra d'assurer une expérience de jeu sûre pour chaque participant à la table.
 
@@ -98,13 +98,13 @@ Si vous n'êtes pas à l'aide, il est tout à fait OK de partir et de trouver un
 
 Les personnages sont définis par des traits descriptifs appelés `détails`. Chaque personnage a généralement entre 2 à 5 détails pour souligner qui il est et ce qui est important pour lui. Ces détails ne sont pas de simples informations pour donner une couleur au personnage mais doivent être des aspects du personnage auxquels on attache une importance durant l'histoire. Ils sont également utilisés comme guides pour déterminer les libertés narratives que le personnage possède dans la fiction.
 
-Quand vous créez un nouveau eprsonnage, écrivez :
+Quand vous créez un nouveau eprsonnage, écrivez sur votre fiche de personnage :
 
 * son `Concept`: un résumé en quelques mots de qui est le personnage.
 * son `Apparence`: à quoi ressemble le personnage, ce qu'il porte, etc.
 * ses `Liens`: 1 à 3 relations que le personnage possède avec certaines personnes ou organisations dans le monde.
 
-> #### Notes du Designer: Hacker les Détails
+> #### Notes du Concepteur : Hacker les Détails
 >
 > Une des manière de customiser facilement Charge est de changer les `détails` par défaut des personnages.
 > C'est une façon efficace de souligner ce qui est important narrativement dans votre contexte de jeu.
@@ -135,7 +135,7 @@ Lors de la création de personnage, assignez `7 points d'actions` parmi la liste
 
 Au début du jeu, une action ne peut pas avoir plus de `2 points d'action`.
 
->#### Note du Designer: Hacker les Actions
+>#### Note du Concepteur : Hacker les Actions
 >
 >Les mots sont importants: vous devriez songer à changer la liste par défaut des actions afin de mieux coller à l'esthétique de votre jeu.
 >
@@ -176,11 +176,11 @@ Au début du jeu, une action ne peut pas avoir plus de `2 points d'action`.
 
 Les Talents sont des capacités spéciques que votre personnage obtient lorsqu'il atteint certains jalons de l'histoire.
 
-Un `talent` peut octroyer un nouveau `point d'action` à investir ou un nouveau `talent de contexte` qui lui donne un avantage temporaire lors de circonstances particulières.
+Un `talent` peut octroyer un nouveau `point d'action` à investir dans les `actions` du personnage ou un nouveau `talent de contexte` qui lui donne un avantage temporaire à leur personnage lors de circonstances particulières.
 
-Au début de la partie, les personnages commencent sans avoir de talent. Ils  obtiendront ces capacités spéciales lorsqu'ils atteindront certains jalons de l'histoire.
+Au début de la partie, les personnages commencent sans avoir de talent. Ils obtiendront ces capacités spéciales lorsqu'ils atteindront certains jalons de l'histoire.
 
->#### Note du Designer: Hacker les Talents
+>#### Note du Concepteur : Hacker les Talents
 >
 > La feuille de personnage par défaut de Charge a un `arbre de talent` possédant 13 `talents`. Ceci étant dit, il n'est pas nécessaire de faire de même dans votre jeu.
 >
@@ -188,7 +188,7 @@ Au début de la partie, les personnages commencent sans avoir de talent. Ils  ob
 >
 > Puisqu'une campagne dure en moyenne environ 6  séances, avoir un `arbre de talent` avec 4 ou même 6 `talents` devrait être plus suffisant.
 
->#### Note du Designer: Créer des livrets
+>#### Note du Concepteur : Créer des livrets
 >
 >Les livrets sont des fiches de personnages pré-créées qui représentent souvent un archétype. Ils sont souvent partiellement complétés pour rendre la création de personnage plus fluide pour les joueuses.
 >
@@ -380,6 +380,18 @@ Une fois que vous avez décidé du nombre de charges que vous souhaitez consomme
 * Sur un `6`, la  `conséquence` est évitée.
 * Sur un `66`, la `conséquence` est évitée et vous obtenez `+1 position` pour votre prochain lancer.
 
+> #### Note du Concepteur : Hacker les Jets de Détermination
+>
+> Les Jets de Détermination agissent comme un mécanisme permettant aux joueurs de résister et de dire "non, je ne pense pas" quand quelque chose de mal arrive à leur personnage.
+>
+> Il y a deux choses importantes que vous devriez regarder si vous voulez hacker ce mécanisme. Premièrement, comment résister à une conséquence. Deuxièmement, quel devrait être le coût d'essayer de résister à une conséquence.
+>
+> Par défaut, vous essayez de résister en dépensant de l'initiative pour constituer un pool de détermination dans l'espoir de réduire voire d'annuler une conséquence entrante. Dans ce cas, le coût est payé en `initiative` puisque vous ne pourrez pas dépenser plus plus tard pour vous `pousser` ou `aider` un allié.
+>
+> Peut-être que pour votre jeu, les personnages résistent aux conséquences en faisant un jet basé sur certaines statistiques - permettant aux joueurs de choisir s'ils veulent sacrifier l'initiative pour un meilleur jet. Une autre option pourrait être que les PJ sacrifient certains actifs, précédemment définis comme des `détails`, pour annuler purement et simplement une conséquence.
+>
+> La chose à garder à l'esprit est que ce mécanisme devrait encourager les joueurs à vraiment prendre le temps de se demander si ce qu'ils sacrifient en vaut la peine.
+
 ## Horloges
 
 Les horloges sont des cercles divisés en 4, 6 ou 8 segments utilisés pour suivre la **progression** d'une tâche ou l'escalade du **danger** dans une scène. Ils peuvent également être utilisés sur la feuille de personnage d'un PJ pour suivre les `projets` à long terme sur lesquels ils travaillent ou les `complications` qu'ils créent dans le monde.
@@ -410,6 +422,20 @@ La condition du personnage impose des restrictions narratives sur ce que le pers
 
 Lorsque les 4 segments de `l'horloge de stress` sont remplis, le PJ est sorti de la scène et son horloge de stress est effacée. Parce qu'il a été retiré, les scènes suivantes devraient traiter de la manière dont le personnage va se rétablir dans la fiction.
 
+> #### Note du Concepteur : Hacker la Santé
+>
+> La Santé dans Charge est une ressource non renouvelable. Il a une `horloge` qui est cochée lorsque vous êtes stressé, et elle est liée à un `détail` du nouvel état du PJ au fur et à mesure que l'horloge est remplie.
+>
+> Si vous le souhaitez, vous pouvez disposer d'autres types de ressources extensibles. Des choses comme la réputation, l'argent ou même la corruption peuvent être représentées à l'aide d'un mécanisme similaire.
+>
+> Lors de la conception de nouveaux mécanismes basés sur l'horloge, pensez à la façon dont les PJ les remplissent, à ce qui se passe lorsqu'une horloge est remplie et à la manière dont ils peuvent être effacés.
+>
+> Par exemple, vous pouvez faire en sorte qu'une horloge ne soit remplie que par certaines actions ou uniquement lorsque les PJ se trouvent à un certain endroit.
+>
+> Une fois remplie, peut-être que l'horloge change de caractère. Leur octroyer un bonus temporaire voire permanent. Ou peut-être que cela les change négativement et a un impact sur leur vie pour le reste de la campagne.
+>
+> Ce mécanisme ajoute de nouveaux types de mécanismes de rythme qui sont très utiles pour renforcer les différents aspects et thèmes de vos jeux.
+
 ## Récupération
 
 Lorsqu'un PJ est blessé ou stressé à la suite d'une de ses actions, il subit un `stress` et son état s'aggrave. Au fil du temps, il ira mieux et son état s'améliorera.
@@ -418,26 +444,21 @@ La seule façon de se remettre du `stress` est dans la fiction. Vous pouvez soit
 
 Au fur et à mesure que votre personnage s'améliore, vous devez également mettre à jour votre `condition` pour représenter l'état actuel de votre personnage.
 
+> #### Note du Concepteur : Hacker la Récupération
+
 ## Progression
 
-Au fur et à mesure qu'une campagne évolue avec le temps, les personnages évoluent également.
-Ainsi, à la fin de chaque session, vous pouvez mettre à jour les `détails` d'un personnage pour représenter son évolution au cours de la session.
+Au fur et à mesure qu'une histoire évolue avec le temps, les personnages joueurs évoluent également.
 
-Lorsqu'un grand événement se termine dans l'histoire, le MJ peut décider d'attribuer au groupe un nouveau `point de talent`. C'est ce qu'on appelle atteindre un `jalon`.
+A la fin de chaque session, les joueurs peuvent mettre à jour les `détails` de leur personnage pour représenter leur évolution au cours de la session.
 
-Les joueurs investissent ces points de talent dans leur `arbre de talents` respectif pour rendre leurs personnages plus forts et plus polyvalents.
+Lorsqu'un grand événement se termine dans l'histoire, le MJ peut décider d'attribuer au groupe un `jalon`. Les joueurs investissent ces jalons dans leur `arbre de talents` respectif pour rendre leurs personnages plus forts et plus polyvalents.
 
-Un talent donne soit au PJ un nouveau `point d'action`, soit un `talent de situation`.
+Un `talent` donne soit un nouveau `point d'action` à investir dans les `actions` d'un personnage, ou soit un nouveau `talent de situation` qui donne un bonus temporaire à leur personnage dans certaine situation.
 
-Un `talent de situation` donne un bonus ou une certaine liberté narrative lors d'une certaine situation.
+Lorsqu'un joueur obtient un `talent de situation`, il doit décider d'une situation spécifique qui active le talent. Le joueur choisit ce qui, selon lui, convient le mieux à son personnage et note ses décisions en remplissant les blancs sur sa feuille de personnage. Pour vous inspirer, regardez ce qui a déjà été établi dans le monde et choisissez quelque chose qui fait briller votre personnage.
 
-* `+1d6 quand ______`
-* `+1 position quand ______`
-* `+1 effet when ______`
-* `Utilisez [action] au lieu de [action] quand ______`
-* `[Nouvelle liberté narrative] quand ______`
-
-> #### Note du concepteur : Hack de la progression
+> #### Note du Concepteur : Hack de la progression
 >
 > Plus il faut de temps pour qu'un `jalon` se produise, plus il faudra de temps pour que les personnages deviennent plus forts.
 >
@@ -451,14 +472,14 @@ Un `talent de situation` donne un bonus ou une certaine liberté narrative lors 
 
 ## Jets de Fortune
 
-Lorsque l'issue d'une situation n'est pas certaine et que les joueuses ne sont pas impliqués, le MJ fait un `jet de fortune` pour voir ce qui se passe.
+Lorsque l'issue d'une situation n'est pas certaine et que les joueuses ne sont pas impliquées, le MJ fait un jet de fortune pour voir ce qui se passe. C'est un peu comme un test de chance.
 
-Ajoutez `+1d6` par niveau de probabilité que cette chose se produise.
+Pour faire un jet de fortune, Construisez une réserve de dés en ajoutant `+1d6` par niveau de probabilité qu'une chose se produise, lancer les dés et interpréter les résultats.
 
-* Sur un **succès critique**, d'excellents résultats et quelque chose d'exceptionnel se produit.
-* Sur un **plein succès**, d'excellents résultats.
-* Sur un **succès partiel**, résultats mitigés.
-* Sur un **mauvais résultat**, de mauvais résultats.
+* Sur un `66`, c'est un succès critique. Il y a d'excellentes conséquences et quelque chose d'exceptionnel se produit.
+* Sur un `6`, c'est un plein succès. Il y a d'excellentes coséquences.
+* Sur un `4-5`, c'est un succès partiel, Il y a des conséquences mitigées.
+* Sur un `1-3`, c'est un mauvais résultat. Il y a de mauvaises conséquences.
 
 ## Flashbacks
 
@@ -474,15 +495,19 @@ Ensuite, la joueuse raconte une courte scène de ce que son personnage a tenté 
   
 # Votre Univers | Charge DRS
 
-> #### Note du Designer : Votre Univers
+> #### Note du Concepteur : Votre Univers
 >
-> Utilisez cette section du jeu pour expliquer quel est l'univers de votre jeu.
+> Utilisez cette section pour expliquer l'univers de votre jeu.
 >
-> Vous pouvez parler de :
+> Pour rendre votre monde aussi dynamique et captivant que possible, réfléchissez à l'histoire générale de votre jeu et à la manière dont elle devrait se dérouler.
 >
-> * L'histoire de votre univers.
-> * Quel genre de personnages les PJ vont jouer.
-> * Les différents types de problèmes auxquels les PC peuvent être confrontés. etc.
+> Establish a history of recent events so that the players have a sense of the setting. They can then start making connections between their character and the world they inhabit. How would they have reacted if they have taken part in those events?
+>
+> Établissez un historique des événements récents afin que les joueurs aient une idée du cadre. Ils peuvent alors commencer à établir des liens entre leur personnage et le monde qu'ils habitent. Comment auraient-ils réagi s'ils avaient participé à ces événements ?
+>
+> Remplissez ces emplacements avec des PNJ notables que le MJ peut utiliser si nécessaire. Ceux-ci ne doivent pas être complexes. Une simple liste avec un nom, une profession ou un rôle, et quelques adjectifs décrivant leur personnalité respective peuvent aller très loin.
+>
+> Ces PNJ appartiennent-ils à différentes organisations ou factions ? Passez au chapitre suivant pour voir comment les définir en tant que forces dans votre univers.
 
 # Les Forces dans votre univers | Charge DRS
 
@@ -490,7 +515,7 @@ Les `forces` dans votre univers sont des organisations indépendantes avec leurs
 
 Si le MJ pense que cela a du sens, il peut créer une `horloge de progression` pour représenter la `force` qui se rapproche de son `objectif`. Ils marquent ensuite les progrès sur l'horloge lorsqu'ils correspondent au récit - soit en tant que `conséquence`, soit à la suite d'actions de joueuses aidant la `force`.
 
-> #### Note du Designer : Créer les Forces de votre Univers
+> #### Note du Concepteur : Créer les Forces de votre Univers
 >
 > Les jeux "Charge" viennent généralement avec quelques `forces de l'univers`.
 >
@@ -514,9 +539,27 @@ Si le MJ pense que cela a du sens, il peut créer une `horloge de progression` p
 >
 > Concevoir des forces de l'univers est un moyen efficace et simple de remplir le monde de factions intéressantes avec lesquelles les joueurs pourront interagir s'ils le souhaitent.
 
+# Avant de commencer | Charge DRS
+
+Voici quelques trucs et astuces que vous devriez lire avant de commencer à jouer.
+
+## Pour les MJ
+
+- **Soyez fan des Joueuses.** Vous n'êtes pas là pour les piéger ou les voir perdre. Vous êtes là pour aider à faciliter une histoire intéressante. Soyez sur le bord de votre siège lorsqu'ils sont mis au défi et encouragez-les lorsqu'ils réussissent !
+- **Ne planifiez pas, jouez.** Vous n'avez pas besoin de passer des heures à planifier tous les détails de chaque session. Aucun plan ne survit à une rencontre avec les joueurs, alors gagnez du temps et jouez pour découvrir ce qui se passe à la place.
+- **En cas de doute, posez des questions.** Les joueurs ont des tonnes d'idées merveilleuses si vous les écoutez simplement. C'est normal de ne pas tout savoir. Posez des questions à vos joueurs et remplissez le monde de leurs réponses.
+- **Ceci est un jeu, pas une simulation.** Tout le monde est là pour s'amuser, alors essayez de rester à l'écart de l'hyperréalisme. Si cela a l'air cool et que cela pourrait être possible, laissez les joueurs essayer. Les dés vous guideront vers la suite de l'histoire.
+
+## Pour les Joueurs
+
+- **Que chacun ait son moment..** Tout le monde aime quand son personnage fait quelque chose de cool et que les projecteurs sont braqués sur lui. Donc, pour cette raison, essayez de vous assurer que tout le monde à la table passe suffisamment de temps devant l'écran !
+- **Vous êtes un écrivain, pas un spectateur.** Le MJ aidera à guider l'histoire, mais vous faites autant partie du processus d'écriture que lui. Embrassez ce contrôle narratif et remplissez le monde avec vos idées.
+- **Prenez des risques.** Ce n'est pas comme dans la vraie vie, vous avez le droit de jouer dangereusement. La seule chose qui en ressortira, c'est une histoire fantastique. N'ayez pas peur de vous engager dans la fiction.
+- **Soulevez-vous.** Lorsque votre personnage entreprend des actions, elles peuvent échouer ou des conséquences peuvent survenir. Mais ce n'est pas grave, l'échec et les conséquences rendent l'histoire plus intéressante. Si vous ne réussissez pas au début, relevez-vous et réessayez en utilisant une nouvelle approche.
+
 # Suppléments | Suppléments
 
-> #### Notes du concepteur : que sont les suppléments ?
+> #### Notes du Concepteur : Que sont les suppléments ?
 >
 > Les suppléments sont des mécanismes additionnels que vous pouvez hacker dans vos jeux pour les adapter à un genre ou à un style spécifique.
 >
@@ -534,7 +577,7 @@ Au début d'une campagne, ou **chaque fois que les PJ reviennent à leur Q.G.**,
 
 Le MJ peut utiliser ces accroches pour créer des fils narratifs sur lequels les PJ pourront explorer et donner vie au monde.
 
-> #### Note du Designer
+> #### Note du Concepteur
 >
 > Modifiez les thèmes pour qu'ils correspondent au cadre de votre jeu.
 >
@@ -624,7 +667,7 @@ Une fois la mission terminée, les PJ retournent à leur Q.G., et la boucle reco
 
 Les personnages sont définis à l'aide de `détails` pour représenter qui ils sont, à quoi ils ressemblent et à qui ils sont liés. Par défaut, les `détails` n'ont aucune utilisation mécanique dans le jeu, à part fournir des libertés narratives.
 
-Un `attachement` est un `détail` de caractère que vous pouvez choisir de perdre temporairement pour résister à une `conséquence` entrante. Si vous voulez résister à une `conséquence`, mais ne voulez pas faire de `jet de détermination`, vous pouvez décider de briser l'une de vos `attachements` Cela annule purement et simplement la conséquence.
+Un `attachement` est un `détail` de caractère que vous pouvez choisir de perdre temporairement pour résister à une `conséquence` entrante. Si vous voulez résister à une `conséquence`, mais ne voulez pas faire de `jet de détermination`, vous pouvez décider de briser l'une de vos `attachements`. Cela annule purement et simplement la conséquence.
 
 Cependant, cela ne peut être fait que lorsque cela a du sens sur le plan narratif, et cet `attachement` particulier ne peut pas être utilisé tant que le temps n'est pas venu de le réparer ou de le réacquérir.
 
@@ -638,13 +681,13 @@ Une fois le projet terminé, le personnage est autorisé à utiliser l'`attachem
 
 Le Document de Référence du Système Charge est publié sous la licence "Creative Commons Attribution" [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
-Cela signifie que si vous souhaitez créer un jeu utilisant ou basé sur ce jeu, il vous suffit de nous donner une attribution pour notre travail.
+Cela signifie que vous êtes libre d'utiliser le contenu de ce DRS pour votre jeu, à condition de donner l'attribution de ce DRS
 
 Étant donné que Charge est basé sur Blades in the Dark, vous devez également inclure l'attribution aux créateurs de ce jeu.
 
-Pour ce faire, copiez le texte ci-dessous dans votre propre jeu et tout devrait bien se passer.
+Pour ce faire, copiez le texte ci-dessous dans votre jeu et tout devrait bien aller.
 
-> Ce travail est basé sur le JDR Charge, produit de Fari RPGs, développé et créé par René-Pier Deshaies-Gélinas, et licencié pour votre utilisation sous la licence "Creative Commons Attribution 4.0" ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+> Ce travail est basé sur le JDR Charge, produit de Fari RPGs (https://farirpgs.com/), développé et créé par René-Pier Deshaies-Gélinas, et licencié pour votre utilisation sous la licence "Creative Commons Attribution 4.0" ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 >
 > Ce travail est aussi basé sur Blades in the Dark (publié sur [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/ "https://www.bladesinthedark.com/")), produit de One Seven Design, développé et créé par John Harper, et licencié pour votre utilisation sous la licence "Creative Commons Attribution 3.0 Unported license" ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/ "https://creativecommons.org/licenses/by/3.0/")).
 
