@@ -119,7 +119,8 @@ When a PC gets a _complication_ as a result of their _action_, tick a _danger cl
 - Add 1d6 to your _action roll_.
 - Increase the _effect_ of your action.
 - Take action even if you were _taken out_.
-- **ASSIST**: Consume 1 _momentum_ to add 1d6 to an ally’s roll. Doing this also exposes your character to the same risks.
+
+**ASSIST**: Consume 1 _momentum_ to add 1d6 to an ally’s roll. Doing this also exposes your character to the same risks.
 
 **ADD TENSION**: Ask the GM to add a _consequence_ to the scene. If you accept it, add 1d6 to your _action roll_.
 
