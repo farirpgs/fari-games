@@ -236,8 +236,8 @@ We call the **size of the player’s pool the impact**, and use it to determine 
 When a player gets a **_payoff_** as a result of their action, they choose one from the following:
 
 - For a simple _check_, you get what you want.
-- If there's a _challenge track_ in play, mark boxes matching the _impact_.
-- If there’s a _danger track_ in play and the fiction allows it, clear boxes matching the _impact_.
+- If there's a _challenge track_ in play, mark boxes matching the _impact_ to work towards resolving that challenge.
+- If there’s a _danger track_ in play and the fiction allows it, clear boxes matching the _impact_ to deescalate danger.
 
 ### Cost & Consequences
 
@@ -247,7 +247,9 @@ When a roll creates a consequence, the GM chooses one from the following:
 
 - Introduce something new and dangerous in the fiction.
 - Inflict _harm_ matching the cost.
-- If there's a _danger track_ in play and the fiction allows it, mark boxes matching the _cost_.
+- If there's a _danger track_ in play and the fiction allows it, mark boxes matching the _cost_ to escalate danger.
+
+When the cost of an action is zero or lower, either because of players assisting one another or because of special abilities, introduce a new complication in the scene
 
 ## Tracks
 
@@ -286,32 +288,6 @@ Here are a couple of tips and tricks you should read before you start playing th
 - **You are a writer, not a spectator.** The GM will help guide the story, but you are as much a part of the writing process as them. Embrace this narrative control and fill out the world with your ideas.
 - **Take risks.** This isn’t like real life, you’re allowed to play dangerously. The only thing that will come out of you doing so, is a fantastic story. Don't be scared of engaging with the fiction.
 - **Rise up.** When your character takes actions, they might fail or consequences might arise. But that’s OK, failure and consequences make for a more interesting story. When at first you don't succeed, get back up and try again using a new approach.
-
-## Balancing Tracks
-
-`TRACKS` are the core pacing mechanism in the game and understanding how their boxes are marked is crucial in understanding how to balance the challenges and treats in a session.
-
-Players will generally want to make `CHECKS` when they are `SKILLED`. That means that the `{IMPACT}` of their roll will often be between 2 or 3.
-
-On the other end, the GM will often have a `RISK POOL` with a `{COST}` of 1, sometimes 2 and rarely 3.
-
-This discrepancy in favor of the player in there for statistical reasons. Though it means that the size of `CHALLENGE TRACKS` and `DANGER TRACKS` should be adjusted accordingly.
-
-Making a `DANGER TRACK` with 8 segments will take a very long time to fill, while a CHALLENGE TRACK with only 3 segments will quickly be resolved by the players.
-
-Generally speaking, to keep things relatively balanced, `DANGER TRACK`S should have between 3, 5 or 8 boxes.
-
-For `CHALLENGE TRACKS`, you can easily go up to 5, 8 or even 13 boxes.
-
-This is simply a guideline so you can consider this a good starting point when using `TRACKS`.
-
-## Fibonacci Sequence
-
-The number of boxes for **TRACKS** aren’t arbitrary. They follow the Fibonacci Sequence (1, 1, 2, 3, 5, 8, 13, 21, etc) where each number is the sum of the two preceding ones.
-
-The reason for this is that according to Weber’s Law, the difference we can identify between objects is given by a percentage. If that percentage is too low, differentiating two things becomes harder.
-
-By making each **TRACK** size around 60% bigger than the previous one, deciding each one to use becomes easier. Doing this speeds up the game and keeps the group focused on what is important; the fiction.
 
 # Licencing
 
