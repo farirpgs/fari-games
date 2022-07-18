@@ -3,6 +3,7 @@ fonts: https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&disp
 headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
+headingUppercase: true
 ---
 
 <style>
@@ -338,7 +339,7 @@ Some actions may overlap with others. This is by design. As your campaign progre
 
 Make this game your own.
 
-As a player, you get to choose which action you roll by simply saying what your character does. Choosing one approach versus another might influence the position or effect of your action. The GM should tell you those details before you roll.
+As a player, you get to choose which action you roll by simply saying what your character does. Choosing one approach versus another might influence the `risk` or `effect` of your action. The GM should tell you those details before you roll.
 
 ## Momentum
 
@@ -388,7 +389,7 @@ Over time, characters gain new `talent dots` which make their talent tree advanc
 
 Every dot in the talent tree gives you either a new `action dot`, or a `situational bonus`.
 
-A situational bonus represents a boost in `effect`, `position` or `dice pool`, and triggers only in a certain situation.
+A situational bonus often represents a boost in `effect`, an increased `dice pool` or a reduction of the `risk`, but it only triggers in a certain situation.
 
 You don't need to worry about talents right now, especially if you just started your campaign.
 
@@ -475,31 +476,31 @@ The action rating is used to define the initial dice pool of the roll.
 >
 > On a `6`, the PC wins and gets what they wanted. On a `4 or 5`, both the PC and the NPC have an effect on the result. On a > `1-3`, the NPC wins and the outcome results in a consequence for the PC.
 
-## 2. GM Sets the Position
+## 2. GM Sets the Risk
 
-The GM needs to set the `position` of the roll, based on the risks involved from failure.
+The GM sets the `risk` of the action based on what has been established in the narrative.
 
-A situation is either in a `controlled`, `risky`, or `desperate` position.
+The risk is either, `low`, `moderate` or `high`.
 
-- In a `controlled` position, the risk is limited. Even if things go wrong, there is a way out.
-- In a `risky` position, the situation is dangerous. If you fail, there will be repercussions.
-- In a `desperate` position, the odds are against you. Attempting to go against them might backfire heavily.
+- When the risk is `low`, things are under control. Even if things go wrong, there is a way out.
+- When the risk is `moderate`, the situation is dangerous. If you fail, there will be repercussions.
+- When the risk is `high`, the odds are against you. Attempting to go against them might backfire heavily.
 
-By default, if you roll to overcome something, you are probably in a `risky` position. You wouldn’t be rolling if there was no risk involved.
+By default, an action roll has a `moderate` risk. You wouldn’t be rolling if there was no risk involved.
 
-The GM uses the narrative context to determine which position to pick.
+The GM uses the narrative context to determine which risk to pick.
 
-Another thing that might affect the position is the `action` being used. If a merchant you are trying to convince is in a bad mood, using `Sway` might be pretty `desperate`. `Bond` on the other hand could put you in a more `controlled` position.
+The action being used is another thing that might affect the `risk` of a roll — you are trying to convince a merchant who's in a bad mood, using `Sway` might be pretty `high risk`. `Bond` on the other hand could put you in a more `low risk` position, considering the situation.
 
-The position helps determine what failure looks like.
+The risk helps determine what failure looks like.
 
 ## 3. GM Sets the Effect Rating
 
-The position isn't the only thing that helps resolve the end result of a roll. Even in a desperate position, succeeding on a roll might still have a great `effect` on the narrative.
+The risk isn't the only thing that helps resolve the end result of a roll. Even in a `high risk` situation, succeeding on a roll might still have a great `effect` on the narrative.
 
 In Charge, there are 3 possible effect ratings: `great`, `standard`, and `limited`. In most common scenarios, if you are rolling to overcome something, you are probably looking at generating a `standard` effect. The GM is responsible for telling you this information.
 
-If a heavy door is blocking your way, you could use `Finesse` to pick the lock. This might generate a `standard effect`, since it will take some time to do, but it's a more `controlled position`. You could also try to use `Tinker` and wreck the door open with an explosive. This may create a `great effect`, but might be a pretty `desperate` position, since it could create a lot of unwanted attention.
+If a heavy door is blocking your way, you could use `Finesse` to pick the lock. This might generate a `standard effect`, since it will take some time to do, but the roll would be `low risk`. You could also try to use `Tinker` and wreck the door open with an explosive. This may create a `great effect`, but might be a `high risk` situation as it could create a lot of unwanted attention.
 
 The effect rating helps determine what success looks like.
 
@@ -511,21 +512,21 @@ The effect rating helps determine what success looks like.
 >
 > Obviously, doing nothing is boring. That's why you can boost that `no-effect` to a `limited effect` if you Push Yourself using charges of momentum. More on that in [Even the Odds](#even-the-odds).
 
-> #### The Impact of Effect & Position
+> #### The Impact of Effect & Risk
 >
-> The `effect` and `position` help us understand what happens in the narrative, but they also have a mechanical impact on the game.
+> The `effect` and `risk` help us understand what happens in the narrative, but they also have a mechanical impact on the game.
 >
 > To know what impact they have, numerical ratings are attached to them.
 >
-> | Position     | Effect     | Rating |
-> | ------------ | ---------- | ------ |
-> | `Desperate`  | `Great`    | 3      |
-> | `Risky`      | `Standard` | 2      |
-> | `Controlled` | `Limited`  | 1      |
+> | Risk       | Effect     | Rating |
+> | ---------- | ---------- | ------ |
+> | `High`     | `Great`    | 3      |
+> | `Moderate` | `Standard` | 2      |
+> | `Low`      | `Limited`  | 1      |
 >
 > When a roll succeeds, you use the `effect rating` to see how many segments you tick on progress clocks, how much information the character gets out of an investigation, etc.
 >
-> When a roll creates a consequence, you use the `position rating` to see how many segments you tick on danger clocks, how much stress a character gets when they are harmed, etc.
+> When a roll creates a consequence, you use the `risk rating` to see how many segments you tick on danger clocks, how much stress a character gets when they are harmed, etc.
 >
 > While the GM usually sets the initial ratings, the entire table should participate in the discussion to make sure all aspects of the fiction are taken into consideration before an action roll is made.
 >
@@ -576,7 +577,7 @@ So now, let's go over all of this again to recap what happens when you make an a
 > #### Action Roll
 >
 > 1. Pick an Action and find out how many dice you need to roll (the `action rating`)
-> 1. Determine the `position` (`1 controlled` ► `2 risky` ► `3 desperate`)
+> 1. Determine the `risk` (`1 low` ► `2 moderate` ► `3 high`)
 > 1. Determine the `effect rating` (`3 great` ► `2 standard` ► `1 limited`)
 > 1. Add `1d6` if: you `push yourself` (`2 momentum`) -or- if you `add tension` to the scene.
 > 1. Add `1d6` if you have `assistance` (they consume `1 momentum`)
@@ -591,7 +592,7 @@ So now, let's go over all of this again to recap what happens when you make an a
 
 > #### Example
 >
-> _Xavier's character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it's a **risky position** since the guard might not be alone, but the outcome would be of **great effect** because the guard isn't on high alert. Xavier doesn't want to leave everything up to chance, and decides to even the odds. He declares that his character will **push themselves** to get an additional `1d6` by diving in the water to get closer before taking the guard out. Xavier rolls his dice pool and... gets a `5`, partial success! The GM then says that Xavier's character takes out the guard, but ticks 2 segments on an "Alert Clock" because of the noise Xavier's character made pulling the guard in the water._
+> _Xavier's character wants to take out a guard without him noticing anything. He decides to use **Sneak**. The GM looks at the situation and assesses that it is of **moderate risk** since the guard might not be alone, but the outcome would be of **great effect** because the guard isn't on high alert. Xavier doesn't want to leave everything up to chance, and decides to even the odds. He declares that his character will **push themselves** to get an additional `1d6` by diving in the water to get closer before taking the guard out. Xavier rolls his dice pool and... gets a `5`, partial success! The GM then says that Xavier's character takes out the guard, but ticks 2 segments on an "Alert Clock" because of the noise Xavier's character made pulling the guard in the water._
 
 # Consequences| Mechanics
 
@@ -605,17 +606,17 @@ Consequences are a tool the GM can use to spice up the story. The GM uses the fi
 
 ## Consequence Rating
 
-When a consequence is inflicted on a player's character, the `position` of the action roll tells us how bad that consequence is.
+When a consequence is inflicted on a player's character, the `risk` of the action roll tells us how bad that consequence is.
 
-So a consequence that comes from a `desperate` action roll is _usually_ worse than a consequence from a `controlled` one.
+So a consequence that comes from a `high risk` action roll is _usually_ worse than a consequence from a `low risk` one.
 
 We call this the `consequence rating`. Some types of consequences use this rating directly to tie the consequence with some of the game's mechanics.
 
-| Position     | Consequence Rating |
-| ------------ | ------------------ |
-| `Desperate`  | 3                  |
-| `Risky`      | 2                  |
-| `Controlled` | 1                  |
+| Risk            | Consequence Rating |
+| --------------- | ------------------ |
+| `High Risk`     | 3                  |
+| `Moderate Risk` | 2                  |
+| `Low Risk`      | 1                  |
 
 ## Types of Consequences
 
@@ -651,15 +652,15 @@ This represents shifting circumstance. What you tried didn't work, and now there
 >
 > _You were tailing someone, but they saw you and disappeared. You were fighting a robot, but they adapted, and are now able to anticipate your every move._
 
-### Worse Position
+### Escalated Risk
 
-This consequence represents losing control of the situation. The action carries you into a more dangerous `position`.
+This consequence represents losing control of the situation. The action carries you into a riskier situation.
 
-Perhaps you make the leap across to the next rooftop, only to end up dangling by your fingertips. You haven't failed, but you haven't succeeded yet, either. You can try again, re-rolling at the new, worse position.
+Perhaps you make the leap across to the next rooftop, only to end up dangling by your fingertips. You haven't failed, but you haven't succeeded either. You can try again, re-rolling at the new higher risk.
 
 This is a good consequence to choose to show escalating action. A situation might go from **controlled**, to **risky**, to **desperate** as the action plays out and the PC gets deeper and deeper into trouble.
 
-> **Reduce the `position rating` by one level for future rolls related to that action.**
+> **Increases the `risk` by one level for future rolls related to that action.**
 >
 > ---
 >
@@ -713,7 +714,7 @@ Even with safety mechanics in place, accidents happen. That is why you should al
 >
 > - **Reduced Effect** : reduce the `effect` of the action by one level.
 > - **Complication**: tick one segment per `consequence rating` on a new or existing `danger clock`.
-> - **Worse Position** : reduce the `position` of the PC by one level for their next action rolls.
+> - **Worse position**: increase the `risk` of future related action rolls by one level.
 > - **Lost Opportunity** : what you tried didn't work, you need to use another `action`.
 > - **Worse Condition**: take `1 stress` per `consequence rating`.
 
@@ -731,12 +732,10 @@ You make that roll by burning momentum. Build a pool of d6s by adding `1d6` per 
 
 Once you've decided how many charges you want to consume, roll and interpret the results:
 
-| Result | Name               | Explanation                                                               |
-| ------ | ------------------ | ------------------------------------------------------------------------- |
-| `1-3`  | `Bad outcome`      | The `consequence` still happens.                                          |
-| `4-5`  | `Partial Success`  | The `consequence` is reduced.                                             |
-| `6`    | `Full Success`     | The `consequence` is avoided.                                             |
-| `66`   | `Critical Success` | The `consequence` is avoided, and you get +1 position for your next roll. |
+- On a `1-3`, the `consequence` still happens.
+- On a `4-5`, the `consequence` is reduced.
+- On a `6`, the `consequence` is avoided.
+- On a `66`, the `consequence` is avoided, and the `risk` of your next roll is lowered.
 
 If you want, you can also resist a consequence that isn't targeting you directly . If you want to do so, see [**Team Work&nbsp;»&nbsp;Protect**](team-work#protect).
 
@@ -745,10 +744,10 @@ If you want, you can also resist a consequence that isn't targeting you directly
 > #### Determination Roll
 >
 > - Roll a pool of d6s by adding `1d6` for each charge of momentum you are willing to consume for the roll.
->   - On a `1-3`, The `consequence` still happens.
->   - On a `4-5`, The `consequence` is reduced.
->   - On a `6`, The `consequence` is avoided.
->   - On a `66`, The `consequence` is avoided, and you get +1 position for your next roll.
+>   - On a `1-3`, the `consequence` still happens.
+>   - On a `4-5`, the `consequence` is reduced.
+>   - On a `6`, the `consequence` is avoided.
+>   - On a `66`, the `consequence` is avoided, and the `risk` of your next roll is lowered.
 
 # Flashbacks | Mechanics
 
@@ -951,11 +950,11 @@ You can make a `determination roll` to try to reduce or cancel the consequence.
 
 ## Set up
 
-When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets `improved effect` rating or an `improved position` for their roll.
+When you perform a setup action, you make an `action roll` to have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver either gets an `improved effect` or a `reduced risk` for their roll.
 
 You choose the benefit, based on the nature of your setup action.
 
-> **Make an action roll to improve the effect rating or position of a future action roll.**
+> **Make an action roll to improve the effect rating or reduce the risk of a future action roll.**
 >
 > ---
 >
@@ -983,7 +982,7 @@ Generally, the more complex the problem, the more segments the clock should have
 
 A complex obstacle is a 4-segment clock. A more complicated obstacle is a 6-segment clock. A daunting obstacle is an 8-segment clock.
 
-Segments of clocks are ticked after an action roll. The **effect and position rating** help decide how many segments should get ticked as a result of the roll.
+Segments of clocks are ticked after an action roll. The **effect and risk ratings** help decide how many segments should get ticked as a result of the roll.
 
 Clocks should always be about the obstacle that needs to be overcome, and not be about the "how". The action of the character already takes care of explaining the "how".
 
@@ -1009,9 +1008,9 @@ Here are a couple examples of how clocks could be used to represent some situati
 >
 > When a PC gets a consequence from an action roll, you can use `danger clock` and:
 >
-> - Tick 3 segments for a `desperate position`.
-> - Tick 2 segments for a `risky position`.
-> - Tick 1 segment for a `controlled position`.
+> - Tick 3 segments for a `high risk` action.
+> - Tick 2 segments for a `moderate risk` action.
+> - Tick 1 segment for a `low risk` action.
 >
 > ---
 >
@@ -1019,7 +1018,7 @@ Here are a couple examples of how clocks could be used to represent some situati
 
 > ### Opposing Clocks
 >
-> These represent the progress of two opposing parties to get to their goal. The `effect` and `position` ratings can both be used to tick one or the other clock.
+> These represent the progress of two opposing parties to get to their goal. The `effect` and `risk` ratings can both be used to tick one or the other clock.
 >
 > ---
 >
@@ -1046,9 +1045,9 @@ Here are a couple examples of how clocks could be used to represent some situati
 >
 > When a PC gets a consequence from an action roll, you can use `danger clock` and:
 >
-> - Tick 3 segments for a `desperate position`.
-> - Tick 2 segments for a `risky position`.
-> - Tick 1 segment for a `controlled position`.
+> - Tick 3 segments for a `high risk` action.
+> - Tick 2 segments for a `moderate risk` action.
+> - Tick 1 segment for a `low risk` action.
 
 # Progression | Mechanics
 
@@ -1122,9 +1121,9 @@ We want character creation to be as streamlined as possible. Take the time to un
 
 Later in the campaign, when a milestone occurs, then you can think of new ways to make them truly unique using `talents`.
 
-> _Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
+> _Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**Reduced Risk when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
 >
-> _In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agrees, saying "My character lived in the forest all their life, and would probably be intimidated by big cities. I like it; let's go with this for now!"_
+> _In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**Recuded Risk when I'm Shooting monsters in the forest**" or something along those lines. Yann agrees, saying "My character lived in the forest all their life, and would probably be intimidated by big cities. I like it; let's go with this for now!"_
 
 # Projects and Complications | Mechanics
 
@@ -1136,7 +1135,7 @@ Those clocks represent long-term projects or ever-evolving danger that the chara
 
 Perhaps your character is piling up money to be able to afford something good for their family, or perhaps they are trying to figure out a way to reverse the damaged caused by a dangerous new disease that's plaguing the city.
 
-In any case, once per session, if the narrative allows it, a character can make an action roll to work on those long-term agendas. The player works with the GM to describe what action they are taking to advance their agenda and figure out the `effect` and `position` of the roll.
+In any case, once per session, if the narrative allows it, a character can make an action roll to work on those long-term agendas. The player works with the GM to describe what action they are taking to advance their agenda and figure out the `effect` and `risk` of the roll.
 
 These projects are tracked using `progress clocks` on the character sheet. The `effect` rating of the roll determines how much the project progresses when the character is working on it.
 
@@ -1225,11 +1224,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > On a failed action roll, GM can inflict `stress` on a PC.
 >
-> The number of stress inflicted depends on the action's `position`:
+> The number of stress inflicted depends on the action's `risk`:
 >
-> - `Controlled`: `1 stress`
-> - `Risky`: `2 stress`
-> - `Desperate`: `3 stress`
+> - `Low Risk`: `1 stress`
+> - `Moderate Risk`: `2 stress`
+> - `High Risk`: `3 stress`
 >
 > Each stress ticks a segment on a PC's stress clock. When you mark stress, you also need to add/update your `condition`.
 >
@@ -1246,7 +1245,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > Use this when someone, or something, is in your way.
 >
 > 1. Pick an `action` and find how many dice you need to roll.
-> 1. Determine the `position` (`1 controlled` ► `2 risky` ► `3 desperate`)
+> 1. Determine the `risk` (`1 low` ► `2 moderate` ► `3 high`)
 > 1. Determine the `effect rating` (`3 great` ► `2 standard` ► `1 limited`)
 > 1. Choose one:
 >    - Add `+1d6` if you `push yourself` (`2 momentum`)
@@ -1271,7 +1270,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >   - On a `1-3`, The `consequence` still happens.
 >   - On a `4-5`, The `consequence` is reduced.
 >   - On a `6`, The `consequence` is avoided.
->   - On a `66`, The `consequence` is avoided, and you get +1 `position` for your next roll.
+>   - On a `66`, the `consequence` is avoided, and the `risk` of your next roll is lowered.
 >
 > ### Recovery
 >
@@ -1298,7 +1297,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > Use this to improve your chances at overcoming an obstacle.
 >
-> - Roll to improve the `effect` rating or the `position` of subsequent action rolls made by your team.
+> - Roll to improve the `effect` rating or reduce the `risk` of subsequent action rolls made by your team.
 
 ## Misc
 
@@ -1311,11 +1310,11 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - The `effect` of the roll is reduced.
 > - A narrative `complication` occurs (you can track this on the character sheet).
 > - The opportunity is lost and the PC must try a new approach.
-> - The `position` worsens.
+> - The `risk` increases.
 > - The PC takes `stress`:
->   - `1 stress` for a `controlled` position
->   - `2 stress` for a `risky` position
->   - `3 stress` for a `desperate` position
+>   - `1 stress` for a `low risk` action
+>   - `2 stress` for a `moderate risk` action
+>   - `3 stress` for a `high risk` action
 >
 > ### Progression
 >
@@ -1377,9 +1376,9 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > When a PC suffers a consequence from an action roll, you can tick segments of a `danger Clock`:
 >
-> - Tick 3 segment for a `desperate position`.
-> - Tick 2 segment for a `risky position`.
-> - Tick 1 segment for a `controlled position`.
+> - Tick 3 segment for a `high risk`.
+> - Tick 2 segment for a `moderate risk`.
+> - Tick 1 segment for a `low risk`.
 
 # What are Extras | Extras
 
@@ -1678,16 +1677,16 @@ To do so, the GM looks at the 3 cards they've drawn, and builds a dice pool of `
 
 If there's no red card, roll `2d6`, and select the lowest number.
 
-The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting their next mission.
+The result of this roll tells us what is going to be the initial `risk` the PCs will find themselves in when starting their next mission.
 
-- On a `1-3`, the PCs start in a `desperate` position.
-- On a `4-5`, the PCs start in a `risky` position.
-- On a `6`, the PCs start in a `controlled` position.
-- On a `66`, the PCs start in a `controlled` position, and gain some additional benefit.
+- On a `1-3`, the PCs start in a `high risk` situation.
+- On a `4-5`, the PCs start in a `moderate risk` situation.
+- On a `6`, the PCs start in a `low risk` situation.
+- On a `66`, the PCs start in a `low risk` situation, and gain some additional benefit.
 
 The GM introduces the mission to the PCs, and they decide how they will approach the situation.
 
-Once they've decided on a strategy, the GM cuts to the first scene of the mission using the result of the mission roll to describe the PCs current position.
+Once they've decided on a strategy, the GM cuts to the first scene of the mission using the result of the mission roll to describe the PCs current risk level.
 
 Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
 
@@ -1703,7 +1702,7 @@ Once the mission is over, the PCs go back to their H.Q., and the loop starts ane
 >
 > _The GM then gradually reveals those narrative hooks to the players as they interact with their ship._
 >
-> _When the PCs are ready to start their next mission, the GM rolls `2d6` (one for each red card). They get a `4`, so the mission will start with a `risky` position._
+> _When the PCs are ready to start their next mission, the GM rolls `2d6` (one for each red card). They get a `4`, so the mission will start with a `moderate risk` situation._
 >
 > _The GM then thinks about a way to make the bounty on the pirates more complicated. They decide that when the PCs arrive, there will already be another crew of scoundrels there trying to catch the bounty as well._
 
@@ -1713,12 +1712,12 @@ Once the mission is over, the PCs go back to their H.Q., and the loop starts ane
 >
 > Each card gives a new story prompt to the GM to make the world feel more alive.
 >
-> To determine how the PC's next mission is going to start, roll `1d6` for each red card that was drawn. The result of this roll tells us what is going to be the initial `position` the PCs will find themselves in when starting their next mission.
+> To determine how the PC's next mission is going to start, roll `1d6` for each red card that was drawn. The result of this roll tells us what is going to be the initial `risk` level the PCs will find themselves in when starting their next mission.
 >
-> - On a `1-3`, the PCs start in a `desperate` position.
-> - On a `4-5`, the PCs start in a `risky` position.
-> - On a `6`, the PCs start in a `controlled` position.
-> - On a `66`, the PCs start in a `controlled` position, and gain some additional benefit.
+> - On a `1-3`, the PCs start in a `high risk` situation.
+> - On a `4-5`, the PCs start in a `moderate risk` situation.
+> - On a `6`, the PCs start in a `low risk` situation.
+> - On a `66`, the PCs start in a `low risk` situation, and gain some additional benefit.
 
 # Quick Charge Extra | Extras
 

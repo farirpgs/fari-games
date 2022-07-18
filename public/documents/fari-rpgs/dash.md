@@ -4,7 +4,6 @@ headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
 headingUppercase: true
-languages: en,fr
 ---
 
 # Introductions
@@ -24,11 +23,11 @@ It can be used as a Charge cheat sheet for your table, but it's also a great ste
 
 # The Game
 
-## BEFORE WE START
+## Before We Start
 
 Define lines that should not be crossed. Pause or rewind the game if something uncomfortable happens during a session. Always make sure everyone is comfortable with the direction of the story.
 
-## PLAYING THE GAME
+## Playing The Game
 
 One person is the game master (GM), the rest are players.
 
@@ -36,11 +35,11 @@ One person is the game master (GM), the rest are players.
 
 **Player**: Narrate what your character does. Make _action rolls_ when things are risky. Give everyone a time to shine. Fill the world with your ideas. Take risks, and rise up from failures.
 
-## ACTION ROLLS
+## Action Rolls
 
 When there's a challenge that needs to be overcome, and there's a risk of failure, make an _action roll_. This resolves the action of the PC as well as any GM characters that are involved
 
-GM, telegraph the _position_ of the roll (controlled, risky, desperate) and the _effect_ (limited, standard, great). Pick an _action_, roll 1d6 per action dot, and read the **single highest result**.
+GM, telegraph the _risk_ of the roll (low, moderate, high) and the _effect_ (limited, standard, great). Pick an _action_, roll 1d6 per action dot, and read the **single highest result**.
 
 _If you end up with zero or less dice to roll, roll 2 dice and keep the lowest._
 
@@ -49,7 +48,7 @@ _If you end up with zero or less dice to roll, roll 2 dice and keep the lowest._
 - On a **4-5**, it's a **partial success**. You achieve your goal, but there's a _consequence_.
 - On a **1-3**, it's a **bad outcome**. Things go badly, and there's a _consequence_.
 
-## MOMENTUM
+## Momentum
 
 When a player makes an _action roll_, that roll can generate _momentum_. You start every session with 2, and generate more when you make successful rolls. You use _momentum_ to get various bonuses or resist incoming _consequences_.
 
@@ -59,15 +58,15 @@ When a player makes an _action roll_, that roll can generate _momentum_. You sta
 
 _When momentum is spent for a roll, that roll cannot in turn generate momentum._
 
-## CONSEQUENCES
+## Consequences
 
 If you make an action roll, and you get a partial success (4-5) or a bad outcome (1-3), you suffer a consequence.
 
 - **Reduced Effect** : reduce the _effect_ of the action by one level.
-- **Complication**: tick 1-3 segments on a new or existing _danger clock_, based on the _position_.
-- **Worse Position** : reduce the _position_ of the PC by one level for their next _action rolls_.
+- **Complication**: tick 1-3 segments on a new or existing _danger clock_, based on the _risk_.
+- **Escalated Risk**: increase the _risk_ of future related action rolls by one level.
 - **Lost Opportunity** : what you tried didn't work, you need to use another _action_.
-- **Worse Condition**: take 1-3 _stress_, based on the _position_.
+- **Worse Condition**: take 1-3 _stress_, based on the _risk_.
 
 **STRESS**: When your character takes _stress_, tick segments on your _stress clock_. Update your character’s _condition_ beside the clock. If you fill the clock, clear it, and you are taken out for the scene. To recover _stress_, rest, lay low or seek medical attention. The GM will look at the fiction and tell you how much _stress_ (1-4) you clear.
 
@@ -76,9 +75,9 @@ If you make an action roll, and you get a partial success (4-5) or a bad outcome
 - On a **1-3,** the _consequence_ still happens.
 - On a **4-5**, the _consequence_ is reduced.
 - On a **6**, the _consequence_ is avoided.
-- On a **66**, the _consequence_ is avoided, and you get a better _position_ for your next roll.
+- On a **66**, the _consequence_ is avoided, and the _risk_ of your next roll is lowered.
 
-## YOUR CHARACTER
+## Your Character
 
 When creating a new character, write down their _details_:
 
@@ -99,7 +98,7 @@ _At character creation, actions cannot have more than 2 dots._
 
 **PROGRESSION**: After a big story event, every PC gets a new _talent_. This either gets you a new _action dot_, or a _situational talent_. For the latter, decide on a specific situation that activates the talent’s bonus and fill the blanks on your sheet.
 
-## CHALLENGES AND DANGER
+## Challenges and Danger
 
 When the PCs face a complex obstacle, like enemies putting up stiff resistance, or when you want to inject the tension of impending danger, don't leave it to a single action roll: draw a _clock_.
 
@@ -107,20 +106,21 @@ _Clocks_ are circles divided in 4, 6 or 8 segments. Generally, the more complex 
 
 When a PC tries to overcome an obstacle with an _action roll,_ tick a _progress clock_ with 1 segment for a _limited effect_, 2 segments for a _standard effect_, or 3 segments for a _great effect_.
 
-When a PC gets a _complication_ as a result of their _action_, tick a _danger clock_ 1 segment for a _controlled position_, 2 segments for a _risky position_, or 3 segments for a _desperate position_.
+When a PC gets a _complication_ as a result of their _action_, tick a _danger clock_ 1 segment for a _low risk_, 2 segments for a _moderate risk_, or 3 segments for a _high risk_.
 
-## SPECIAL ACTIONS
+## Special Actions
 
 **PUSH YOURSELF**: Consume 2 _momentum_ per push and gain one of the following.
 
 - Add 1d6 to your _action roll_.
 - Increase the _effect_ of your action.
 - Take action even if you were _taken out_.
-- **ASSIST**: Consume 1 _momentum_ to add 1d6 to an ally’s roll. Doing this also exposes your character to the same risks.
+
+**ASSIST**: Consume 1 _momentum_ to add 1d6 to an ally’s roll. Doing this also exposes your character to the same risks.
 
 **ADD TENSION**: Ask the GM to add a _consequence_ to the scene. If you accept it, add 1d6 to your _action roll_.
 
-**SET UP**: Make an _action roll_ to improve the _effect_ or* position* for people following through with your _action_.
+**SET UP**: Make an _action roll_ to improve the _effect_ or _risk_ for people following through with your _action_.
 
 **PROTECT**: Step in to confront a _consequence_ that an ally would otherwise face. Describe how you intervene, and suffer the _consequence_ for them. You can try to reduce or cancel the _consequence_ with a _determination roll_.
 
