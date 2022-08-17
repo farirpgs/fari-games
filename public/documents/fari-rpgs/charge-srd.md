@@ -430,7 +430,7 @@ When the 4 segments of the _stress clock_ are filled, the PC is **taken out for 
 
 ## Recovery
 
-When a PC gets hurt or stressed as a result of one of their actions, they take _stress_ and their condition worsen. Though, as time passes, they will get better, and their condition will improve.
+When a PC takes stress, their condition worsen. Though, as time passes, they will get better, and their condition will improve.
 
 The only way to recover from _stress_ is **in-fiction**. You can either **rest, lay low or seek medical attention**. When doing so, the GM will look at the fiction and tell you how much _stress_ (1-4) you clear on your _stress clock_.
 
