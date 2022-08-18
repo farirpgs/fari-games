@@ -348,10 +348,10 @@ If you make an action roll and you get a partial success (4-5) or a bad outcome 
 The GM chooses one of the following:
 
 - **Reduced Effect**: reduce the _effect_ of the action by one level.
-- **Complication:** tick one segment per _consequence_ rating on a new or existing _danger clock_.
+- **Complication:** tick segments matching the per _consequence_ rating on a new or existing _danger clock_.
 - **Escalated Risk**: increase the _risk_ of future related action rolls by one level.
 - **Lost Opportunity** : what you tried didn't work, you need to use another _action_.
-- **Worse Condition**: take 1 _stress_ per _consequence rating_.
+- **Worse Condition**: take _stress_ matching the _consequence rating_.
 
 The _consequence rating_ is determined by looking at the _risk_ for the roll.
 
