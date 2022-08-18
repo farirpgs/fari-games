@@ -1,6 +1,7 @@
 ---
 fonts: https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap
 headingFont: Crimson Text
+languages: en,es
 ---
 
 # Credits
@@ -311,7 +312,7 @@ Always try to think of perks in terms of overcoming challenges. Players only rol
 
 If a player has no karma, the GM may offer them a complication instead.
 
-###  **Related Knowledge**
+### **Related Knowledge**
 
 Perks generally imply lesser knowledge in any related field. For example, a “car mechanic” would also have some degree of general mechanical knowledge—they might not know much about aircraft, for example, but they’d still have a far better chance of fixing one than someone with no mechanical skills. Similarly, someone with a “swordmaster” perk could apply their martial expertise to other combat situations, a “surgeon” perk also implies general medical training, and so on.
 
@@ -339,7 +340,7 @@ The GM can also offer players karma in exchange for a complication. Should the p
 
 Of course, complications can also be based on the situation, or perhaps even archetypes or perks. But when possible, try to tie them to a character’s quirks.
 
-# **Genre Rules** 
+# **Genre Rules**
 
 ## **Cybernetics**
 
