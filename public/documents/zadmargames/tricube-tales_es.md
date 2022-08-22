@@ -40,7 +40,7 @@ https://creativecommons.org/licenses/by/3.0/deed.es\_ES
 
 Únicamente estás obligado a atribuir la autoría e indicar si has creado un producto derivado. Solo tienes que incluir la frase _Basado en Tricube Tales de Richard Woolcock_ en los créditos de tu producto, pero si te apetece incluir un enlace a Tricube Tales en DriveThruRPG, ¡sería todo un detalle!
 
-## El Logotipo De Tricube Tales
+## El logotipo de Tricube Tales
 
 Si quieres, también puedes utilizar el logotipo de Tricube Tales que aparece a continuación. No dudes en cambiar el tamaño, el color y el estilo para adaptarlo a tu portada.
 
@@ -58,21 +58,21 @@ No obstante, también decidí ofrecer una versión para impresión a demanda [*N
 
 — **_Richard Woolcock, noviembre de 2019._**
 
-# Ducción
+# Introducción
 
-## Acerca De Este Juego
+## Acerca de este juego
 
 Tricube Tales es un juego de rol de mesa minimalista y narrativo. Está pensado para adaptarse a diversos géneros y ambientaciones, y no necesita mucha preparación ni notas detalladas.
 
 En este libro se da por supuesto que el lector ya conoce los juegos de rol de mesa, pero las reglas son bastante claras y deberían ser fáciles de explicar incluso a los jugadores principiantes o más pequeños.
 
-## Primeros Pasos
+## Primeros pasos
 
 Una persona asume el papel de director o directora de juego (DJ) y crea el mundo y controla a los personajes no jugadores (PNJ). Cada una de las demás personas controla a un personaje jugador (PJ) y narra las acciones de su protagonista mientras crean la historia e interactúan con el mundo donde juegan.
 
 Cada jugador necesitará tres dados de seis caras (3d6) y tres fichas de Resolución y tres fichas de Karm". El DJ necesitará unas cuantas fichas de Esfuerzo para los desafíos, pero no hace tiradas de dados.
 
-## Resumen Del Sistema
+## Resumen del sistema
 
 Los jugadores tiran entre 1 y 3 dados (dependiendo del arquetipo de su personaje) contra una dificultad de entre 4 y 6 que deben superar con el resultado de al menos un dado.
 
@@ -84,7 +84,7 @@ Antes de empezar a jugar, es importante definir la ambientación. La historia pu
 
 Cuando se utiliza material de otro juego de rol, es mejor copiar el sabor de la ambientación que las mecánicas del juego. Las ambientaciones válidas para cualquier reglamento son ideales para Tricube Tales, ya que no traen consigo ningún bagaje de reglas.
 
-## Ejemplo De Partida
+## Ejemplo de partida
 
 _Una astuta maga explora una antigua cripta..._
 
@@ -134,7 +134,7 @@ Los defectos representan impedimentos, desventajas y rasgos negativos de persona
 
 **Ejemplos:** Arrogante, miope, malhumorada, pata de palo, despiadada, feo, vengativa.
 
-## Karma Y Resolucion
+## Karma y Resolucion
 
 El Karma representa la buena fortuna y la providencia, mientras que la Resolución representa la tenacidad, el ánimo, la salud y la determinación.
 
@@ -156,7 +156,7 @@ Cada dos avances, puedes elegir aumentar tu Karma o tu Resolución en 1 ficha (h
 
 # Reglas
 
-## Desafios
+## Desafíos
 
 Durante el juego puede ser necesario superar diversos desafíos, cada uno de las cuales tendrá una dificultad de 4, 5 o 6 (fácil, normal o difícil, respectivamente). La mayoría de los desafíos tendrán dificultad 5, pero el DJ puede decidir que algunos son más fáciles o difíciles.
 
@@ -166,7 +166,7 @@ Si los jugadores sacan un 1 en todos sus dados, el resultado es un fallo crític
 
 Algunos desafíos solo pueden superarse haciendo un gran esfuerzo. Esto se representa mediante las fichas de esfuerzo: cada dado que iguale o supere la dificultad elimina una ficha, y el desafío se supera cuando se han eliminado todas las fichas. Normalmente los personajes pueden colaborar entre ellos para superar el desafío, para lo cual será necesario hacer varias tiradas, aunque fallar cualquiera de estas tiradas tendrá consecuencias.
 
-## Exito Y Fallo
+## Exito y fallo
 
 Los desafíos pueden tener cuatro resultados: _éxito excepcional_, _éxito normal_, _fallo normal_ o _fallo crítico_.
 
@@ -178,11 +178,11 @@ Sin embargo, fallar siempre debe tener un precio; si no fuera así, no haría fa
 
 Un fallo crítico siempre es el peor resultado posible, por muy hábil que sea el personaje, y frecuentemente representa un golpe de mala suerte. Si el personaje pierde una ficha de resolución en un fallo normal, con un fallo crítico pierde dos.
 
-## Narrar El Resultado
+## Narrar el resultado
 
 No te limites a anunciar que el personaje ha fallado: describe las consecuencias del fallo e intenta explicar _lo que sucede_ en vez de _lo que no sucede_. En lugar de decir que el personaje "ha tenido un fallo crítico al forzar la cerradura", describe cómo la punta de la ganzúa se parte dentro de la cerradura. No digas simplemente que el personaje "falla al intentar esquivar el ataque": describe cómo su contrincante se abalanza sobre él o ella y le asesta un tremendo puñetazo en la mandíbula.
 
-## Derrota Y Aflicciones
+## Derrota y aflicciones
 
 Los personajes son derrotados cuando se quedan sin fichas de resolución y el vencedor (un jugador o el DJ) decide el destino de su víctima.
 
@@ -192,11 +192,11 @@ Las aflicciones son descritas por el vencedor y se tratan como defectos temporal
 
 La muerte es una decisión narrativa. Mientras que un jugador puede decidir matar a su enemigo en combate imponiéndole una aflicción fatal, el DJ siempre debe avisar a los jugadores cuando el resultado de un desafío pueda ser la muerte.
 
-## Recuperacion
+## Recuperación
 
 Algunas aflicciones (por ejemplo, "huir atemorizado") se eliminan automáticamente al finalizar una escena, pero otras pueden durar horas, días o más tiempo, a discreción del DJ. Un PJ con una ventaja apropiada puede gastar Karma para curar una aflicción (por ejemplo, para curarse una herida con "regeneración"), pero las aflicciones _permanentes_ reducen el Karma _permanentemente_ (a menos que se conviertan en defectos usando los avances del personaje).
 
-## Desafios Con Oposicion
+## Desafíos con oposición
 
 En la mayoría de los desafíos los PJ colaboran entre ellos para enfrentarse a amenazas externas, pero en ocasiones puede pasar que dos PJ se enfrenten _uno con otro_. Cuando esto sucede, ambos jugadores hacen su tirada como siempre, pero el resultado más alto de la tirada de su oponente se convierte en la dificultad de _su propio desafío_ (es decir, que gana quien saque un resultado más alto).
 
@@ -204,7 +204,7 @@ En caso de empate, el jugador que haya igualado la dificultad con más dados obt
 
 Si ambos jugadores sacan un fallo crítico, cada uno de ellos sufre una consecuencia terrible.
 
-## Confrontaciones Entre Pnj
+## Confrontaciones entre PNJ
 
 También puede haber situaciones en las que dos PNJ se enfrentan entre sí en lugar de con los PJ. Normalmente, el DJ decide el resultado, pero si se prefiere que este sea impredecible, puede pedir a los jugadores que tiren los dados por los PNJ.
 
@@ -212,19 +212,19 @@ También puede haber situaciones en las que dos PNJ se enfrentan entre sí en lu
 
 El combate y otros conflictos pueden resolverse fácilmente como desafíos normales, pero si prefieres representar un intercambio de ataques que se suceden turno por turno, puedes usar estas reglas.
 
-## Pnj Como Desafios
+## Tratar a los PNJ como desafios
 
 El DJ asigna a los enemigos una dificultad de entre 4 y 6 en función de su poder en relación con el PJ. La dificultad de la mayoría de los enemigos debería ser 5.
 
 Cada enemigo tiene, además, una o más fichas de esfuerzo que representan su resolución. Si se trata de un grupo de enemigos similares, como una horda de trasgos, trátalos como un solo desafío, pero con fichas de esfuerzo extra.
 
-## Resolucion Del Combate
+## Resolucion del combate
 
 El orden de los turnos debe ajustarse todo lo posible a la narración, y los jugadores hacen todas las tiradas: tiran para atacar cuando es su turno, y para defenderse cuando es el turno del enemigo.
 
 Por norma general, los jugadores solo deben hacer una tirada de defensa en cada turno. Si se enfrentan a varios enemigos, pídeles que hagan una tirada contra el atacante más peligroso.
 
-## Ejemplo De Combate
+## Ejemplo de combate
 
 Un fuerte sacerdote guerrero enano y una ágil montaraz elfa se topan con un grupo de trasgoides cuando exploraban unas ruinas.
 
@@ -266,7 +266,7 @@ Una _ágil montaraz elfa_ tira 3d6 para moverse silenciosamente por el bosque, 2
 
 Un _astuto mago_ tira 3d6 para lanzar una bola de fuego, 2d6 para escalar por una cuerda y 1d6 para asestar un mandoble con un espadón durante un combate.
 
-## Estilos De Combate
+## Estilos de combate
 
 El estilo de combate preferido de un personaje (es decir, cuerpo a cuerpo, a distancia o mental) normalmente depende de su cualidad. Sin embargo, puede elegirse otro si el estilo encaja mejor con el concepto del personaje. Por un ejemplo, un ágil ladrón podría preferir las armas de combate cuerpo a cuerpo, mientras que es más probable que un astuto pistolero use armas a distancia.
 
@@ -274,7 +274,7 @@ El estilo de combate preferido del personaje debe elegirse en el momento de crea
 
 **Nota:** El combate mental incluye ataques mágicos, persuasión, intimidación, etc.
 
-## El Contexto Importa
+## El contexto es importante
 
 Los personajes astutos normalmente tiran 3d6 en desafíos sociales, pero esto no significa que siempre sean los mejores en ellos.
 
@@ -284,7 +284,7 @@ Un ágil galanteador normalmente tira 2d6, pero cortejar a una joven dama es par
 
 Sin embargo, el mismo galanteador tiraría 1d6 para persuadir a un marido despechado de que le deje en paz, mientras que la astuta vieja bruja tiraría 3d6 para convencer a una jovencita de que pruebe su rueca o muerda una jugosa manzana roja.
 
-## Beneficios De Las Ventajas
+## Beneficios de las ventajas
 
 Los personajes que tengan una ventaja relevante pueden pedir al DJ información o pistas sobre una situación concreta, recibir un beneficio temporal (como una herramienta especial o ayuda de un PNJ), superar obstáculos que en condiciones normales serían imposibles para otras personas (como usar sus alas para llegar volando a una azotea), y así sucesivamente.
 
@@ -294,7 +294,7 @@ Si un jugador quiere usar su ventaja para influir en la historia de forma signif
 
 Las fichas de Karma también pueden gastarse para reducir la dificultad de un desafío en uno; esta decisión se toma después de tirar y se debe narrar cómo se utiliza esa ventaja en beneficio propio. No puede gastarse más de una ficha de Karma de este modo en cada desafío.
 
-## Una Explicacion Detallada
+## Una explicación más detallada
 
 Si quieres hacer algo que una persona normal no podría ni siquiera intentar, pero que tu ventaja debería permitirte hacer automáticamente, debes gastar una ficha de Karma. Un ejemplo sería utilizar "Nigromancia" para conjurar e interrogar al espíritu de la víctima de un asesinato, o "Intuición detectivesca" para extraer conclusiones detalladas de la escena de un crimen.
 
@@ -306,29 +306,29 @@ Si el desafío normalmente es posible para todos, puedes describir cómo el usar
 
 Si solo usas una ventaja para añadir sabor una escena (por ejemplo, empleando tu magia para superar un desafío que los demás personajes pueden superar con la misma facilidad gracias a sus habilidades) no es necesario gastar Karma. Un ejemplo sería lanzar un rayo de fuego a un enemigo mientras otro personaje le dispara una flecha; la diferencia es puramente narrativa.
 
-## Otro Punto De Vista
+## Otro punto de vista
 
 Intenta pensar siempre en las ventajas en términos de superar desafíos. Los jugadores solo tiran si es importante para la historia, pero si pueden usar una ventaja para tener éxito automáticamente sin tirar, cuesta Karma. Del mismo modo, reducir la dificultad de un desafío cuesta Karma, pero si la ventaja no aporta ningún otro beneficio, entonces no cuesta Karma.
 
 Si un jugador no tiene Karma, el DJ puede ofrecerle que acepte una complicación en su lugar.
 
-## Conocimientos Asociados
+## Conocimientos asociados
 
 Por regla general, una ventaja lleva asociados algunos conocimientos sobre un campo relacionado. Por ejemplo, un "Mecánico de coches" también debería tener un cierto grado de conocimientos de mecánica en general; quizá no sepa mucho de aviones, por ejemplo, pero aun así tendría muchas más probabilidades de arreglar uno que otra persona que no tenga ni idea de mecánica. Siguiendo con este razonamiento, alguien con la ventaja "Maestro de espadas" podría aplicar su pericia marcial en otras situaciones de combate, la ventaja "Cirujano" implica una formación médica general, etc.
 
-## Ayudar A Los Aliados
+## Ayudar a los aliados
 
 Los jugadores también pueden usar sus ventajas para ayudar a sus amigos y aliados. Por ejemplo, un "Sanador divino" puede gastar Karma para librar de una aflicción consistente en una herida a un amigo, mientras que un "Valeroso comandante" puede gastar Karma para inspirar a un compañero, reduciendo la dificultad de un desafío en el que deba superar sus temores.
 
 Ayudar a alguien no cambia el límite habitual de una ficha de Karma por desafío; si gastas Karma para ayudar a un aliado, este no puede gastar también su propio Karma para reducir aún más la dificultad.
 
-## Combinar Ventajas
+## Combinar ventajas
 
 Aunque no es posible gastar más de una ficha de Karma por desafío, un PJ puede usar varias ventajas a la vez: el éxito y el fracaso son relativos a las competencias del personaje, por lo que el DJ debería tener en cuenta todas las ventajas que sean aplicables.
 
 Asimismo, igual que el impacto de una ventaja depende de la exactitud con la que está definida, contar con varias ventajas relevantes también debería tener más impacto que contar con una sola.
 
-## Consecuencias De Los Defectos
+## Consecuencias de los defectos
 
 Los jugadores deben declarar su intención de usar un defecto antes de tirar los dados en un desafío. Deben describir las acciones de su personaje de un modo que incorpore el defecto y luego aumentar la dificultad del desafío en 1 (lo que puede elevarla por encima de 6).
 
@@ -340,39 +340,39 @@ El DJ también puede ofrecer Karma a los jugadores a cambio de una complicación
 
 Por supuesto, las complicaciones pueden basarse también en la situación o incluso en arquetipos o ventajas. No obstante, intenta vincularlas a los defectos del personaje siempre que sea posible.
 
-## Implantes Ciberneticos
+# Implantes cibernéticos
 
 Al igual que el equipo ordinario, los implantes cibernéticos pueden tratarse como un simple detalle de fondo o como una ventaja, dependiendo del impacto que quieras que tengan en el juego. Una persona con numerosas mejoras cibernéticas también puede elegir un defecto apropiado que refleje los problemas físicos y psicológicos asociados a sus diferentes implantes.
 
-## Miedo Y Locura
+# Miedo y locura
 
 El miedo, un elemento habitual de las historias de terror, debe tratarse como cualquier otro desafío: los personajes astutos tiran 3d6, mientras que los demás personajes tiran 2d6. Si una persona no tiene ninguna experiencia o exposición anterior a la causa de ese temor concreto (a juzgar por su concepto y sus ventajas), el número de dados que tira se reduce en uno. Fallar en un desafío de miedo tiene como resultado la pérdida de una ficha de resolución; si el personaje pierde todas sus fichas de resolución, normalmente huye de la escena o adquiere algún tipo de trastorno mental apropiado.
 
-## Monstruos Y Mazmorras
+# Monstruos y mazmorras
 
 Si el juego va de explorar mazmorras o aniquilar a montones de monstruos, es posible que quieras asignar cualidades y niveles a tus PNJ.
 
-###Cualidades
+### Cualidades
 
 Los enemigos pueden tener una o más cualidades: "ágil", "fuerte" y "astuto" aumentan la dificultad de los desafíos que se tiren en su contra y que usen esas cualidades; por el contrario, "torpe", "débil" o "estúpido" reducen la dificultad. Disparar a un goblin "ágil y débil" tiene dificultad 6, por ejemplo, mientras
 
 que golpearle en un combate cuerpo a cuerpo tiene dificultad 4.
 
-###Niveles
+### Niveles
 
 Los PJ comienzan con el nivel 1 y aumentan de nivel cada cuatro avances (es decir, en los avances número 4, 8, 12, 16 y 20) hasta el nivel máximo, que es 6. Los PNJ también tienen un nivel, que elige el DJ.
 
 Cuando te enfrentes a alguien o algo de nivel superior, aumenta la dificultad de los desafíos en 1 (incluso si así aumenta por encima de 6). Contra un enemigo de nivel inferior, redúcela en 1. Si el oponente es superior en 3 niveles o más, utiliza la regla de ambientación "Niveles de poder" (ver más adelante).
 
-###Derrotar Monstruos
+### Derrotar monstruos
 
 Por regla general, para derrotar a la mayoría de los monstruos se necesita eliminar un número de fichas de esfuerzo igual a su nivel. Para derrotar a un monstruo "jefe" se necesita el doble de ese número, y este a su vez puede tener un nivel más que su parentela de menor categoría; estos temibles enemigos pueden representar a los antagonistas principales o al "malo principal" del final de una aventura, por lo que el DJ debería usarlos solo de vez en cuando.
 
-###Ornamentos
+### Ornamentos
 
 El DJ también debe tomar decisiones apelando al sentido común. Es improbable que una flecha ordinaria cause ningún daño a un gólem de hierro por muy hábil que sea el arquero, mientras que una antorcha probablemente prenda fuego y destruya a un espantapájaros animado con un solo golpe. Del mismo modo, los tipos de ataque que un enemigo puede hacer dependen de su equipo y de sus capacidades implícitas: un goblin armado con un garrote solo puede atacar cuerpo a cuerpo, pero si tiene una lanza puede decidir arrojarla y, por supuesto, los chamanes goblin pueden lanzar ataques mentales empleando su magia.
 
-###Ejemplos De Monstruos
+### Ejemplos de monstruos
 
 **Oso:** Nivel 2. Fuerte.
 
@@ -406,7 +406,7 @@ El DJ también debe tomar decisiones apelando al sentido común. Es improbable q
 
 **Zombi:** Nivel 1. Torpe y estúpido.
 
-## Magia Y Poderes Psiquicos
+# Magia y poderes psíquicos
 
 Muchas ambientaciones de fantasía, terror o incluso de ciencia-ficción describen personajes con poderes sobrenaturales, como telequinesis, alquimia, poderes psíquicos, etc. Estos dones arcanos pueden representarse fácilmente como ventajas.
 
@@ -414,7 +414,7 @@ Un personaje con una ventaja de esta clase puede hacer todo lo que una persona a
 
 Siempre hay que pensar en la magia en términos de resultados. No importa si el psíquico desintegra la puerta o simplemente hace que salte el pestillo: si el objetivo es cruzar la puerta, ha tenido éxito. Pero no olvides que la magia es ante todo una herramienta narrativa que no cambia la mecánica del juego. Si el DJ pide superar un desafío ágil para abrir una cerradura, el mago debe resolverla como un desafío ágil, aunque utilice su magia para cruzar la puerta de otro modo.
 
-## Limitaciones Magicas
+## Limitaciones mágicas
 
 Si una ventaja mágica tiene un alcance excesivamente amplio, el DJ debería pedir al jugador que elija una limitación. Aquí tienes algunos ejemplos:
 
@@ -432,7 +432,7 @@ Si una ventaja mágica tiene un alcance excesivamente amplio, el DJ debería ped
 
 **Visible:** Tienes que hacer gestos y pronunciar encantamientos para lanzar tus hechizos, por lo que resulta muy evidente que estás usando la magia.
 
-## Listas De Hechizos
+## Listas de hechizos
 
 En algunas ambientaciones, los hechiceros aprenden listas fijas de hechizos ya definidos. Esta circunstancia puede simularse fácilmente en Tricube Tales estableciendo algunos requisitos para quienes elijan una ventaja arcana.
 
@@ -444,11 +444,11 @@ Puedes crear hechizos más potentes añadiendo limitaciones adicionales. Esto de
 
 Durante el juego es posible aprender nuevos hechizos, a discreción del DJ: es posible que tu mago los aprenda leyendo viejos pergaminos o grimorios, o que el DJ otorgue a los hechiceros un nuevo hechizo en cada avance.
 
-## Monturas Y Esbirros
+# Monturas y esbirros
 
 Los caballeros a menudo cabalgan a la batalla a lomos de sus fieles corceles, mientras que los nigromantes más temibles invocan esbirros no muertos para que combatan por ellos. Por regla general, estos ayudantes pueden abstraerse del mismo modo que el equipo: puede considerárseles un mero elemento decorativo, describiendo sus acciones como parte de la tirada, o tratarlos como una ventaja si se quiere que aporten un beneficio mecánico.
 
-## Especies No Humanas
+# Especies no humanas
 
 Las ambientaciones de fantasía a menudo incluyen especies no humanas, como elfos y enanos, igual que las de ciencia-ficción suelen tener especies alienígenas. También hay muchas ambientaciones de terror que incluyen criaturas sobrenaturales, como vampiros y hombres-lobo.
 
@@ -458,7 +458,7 @@ Otra opción consiste en tratar la especie como una ventaja (es posible que un e
 
 Si el DJ quiere que la especie de los personajes tenga más influencia en el juego, puede tratarse como una opción aparte que se elige durante la creación del personaje. En este caso, la raza podría ser (desde el punto de vista de la mecánica del juego) tanto una ventaja como una desventaja dependiendo de las necesidades de la historia.
 
-## Niveles De Poder
+# Niveles de poder
 
 En un mundo de fantasía, un semidiós puede vencer sin dificultad a un ser humano normal. Del mismo modo, un vampiro o un hombre-lobo en una ambientación de terror derrotarían fácilmente a un simple mortal, un piloto de robots gigantes tendría mayor potencia de fuego que la infantería de a pie y un superhéroe cósmico borraría del mapa a un superhéroe callejero.
 
@@ -466,19 +466,19 @@ En la mayoría de los casos, estas situaciones pueden manejarse interpretando el
 
 En otros casos, un enemigo podría no suponer ninguna amenaza. En este caso, no hace falta tirar, sino que basta con narrar el resultado.
 
-## Asedios Y Batallas
+# Asedios y batallas
 
 A veces, los combates se libran entre ejércitos en lugar de individuos, y cada bando cuenta con su propia reserva de fichas. El PJ al mando utiliza desafíos astutos para controlar sus fuerzas y eliminar todas las fichas del bando oponente; el DJ asigna una dificultad para atacar o defender en función del poder relativo y las ventajas tácticas de los dos ejércitos.
 
 Los PJ pueden marcar la diferencia en estos conflictos, pero corren un gran riesgo. Los héroes pueden eliminar las fichas del ejército contrario, pero si fallan su tirada en sus desafíos defensivos, pierden sus propias fichas de resolución.
 
-## Contiendas Indirectas
+# Contiendas indirectas
 
 Este método también puede emplearse en otras situaciones, como una contienda jurídica entre dos empresas, disputas territoriales entre bandas o gremios, una guerra cibernética entre estados-nación u organizaciones tecnológicas, etc.
 
 Como siempre, los PJ pueden contribuir al resultado con sus esfuerzos, pero se expondrán a graves riesgos.
 
-## Superheroes
+# Superhéroes
 
 Una solución rápida y fácil para crear superhéroes es basar su concepto en su personalidad ordinaria y tratar sus superpoderes como ventajas. De esta forma, puedes tener un ágil periodista con la ventaja "Poderes arácnidos" o un astuto inventor asquerosamente rico con la ventaja "Armadura tecnológica".
 
@@ -486,7 +486,7 @@ Como de costumbre, el DJ debe otorgar más impacto a las ventajas definidas con 
 
 Si has decidido basar tu juego en una película o cómic concretos, puedes simplificar las cosas dejando que los jugadores basen su concepto, ventaja y desventaja en un superhéroe en particular. Si el jugador quiere intentar algo que el superhéroe puede hacer en las películas o los cómics, dicha acción sería parte de las capacidades de su arquetipo y podría reforzarse convirtiéndola en una ventaja. Si el personaje en cuestión tiene algún fallo o manía digno de mención, también puede utilizarse como defecto.
 
-## Limitaciones De Los Poderes
+## Limitaciones de los poderes
 
 Como sucede con la magia, si un superpoder es demasiado amplio, debería aplicársele una limitación. Aquí tienes algunos ejemplos:
 
@@ -504,7 +504,7 @@ Como sucede con la magia, si un superpoder es demasiado amplio, debería aplicá
 
 **Incontrolable:** No controlas tus poderes plenamente. Cuando intentas gastar Karma en esta ventaja, el DJ puede introducir una complicación en su lugar.
 
-## Aflicciones Sobrenaturales
+# Aflicciones sobrenaturales
 
 Cuando alguien es derrotado, gana una aflicción. Si un PJ es derrotado por el mordisco o las garras infecciosas de una criatura sobrenatural, el DJ puede otorgar una aflicción apropiada, como "Licantropía", "Virus zombi" o "Vampirismo".
 
@@ -512,25 +512,25 @@ Al contrario que los defectos, que son activados por el jugador, el DJ decide cu
 
 Las aflicciones no otorgan ningún beneficio, pero el jugador puede elegir posteriormente ventajas sobrenaturales, como "Fuerza preternatural" o "Garras afiladas". Si el PJ elige una ventaja amplia que abarca un conjunto de habilidades, también deberá elegir una limitación (como sucede con las limitaciones mágicas); por ejemplo, la ventaja "Hombre-lobo" no serviría de nada si el personaje no se transforma antes de empezar a usarla.
 
-## Eliminar Aflicciones
+## Eliminar aflicciones
 
 Si una aflicción no es permanente, el DJ puede ofrecer algún modo de eliminarla como parte de la historia: puede que acabar con el vampiro que le mordió cure al personaje o que exista un tratamiento para el virus zombi. También es posible eliminar las aflicciones permanentes, pero esto conlleva una pérdida permanente de Karma.
 
 Otra posibilidad sería permitir soluciones más drásticas, como convertir la aflicción "Virus zombi" en la desventaja "Pierna amputada" (con el coste habitual de un avance).
 
-## Declive Gradual
+## Declive gradual
 
 Algunas aflicciones no aportan ningún beneficio. Aunque muchas novelas y series de televisión representan a algunas criaturas sobrenaturales como seres conscientes, otras los retratan como bestias feroces movidas por la furia, el instinto y el hambre.
 
 Estas aflicciones pueden adoptar la forma de un declive gradual: las víctimas del mordisco de un zombi pueden sobrevivir durante horas o incluso días antes de sucumbir finalmente. El DJ podría incluso usar futuras aflicciones para representar la transformación gradual del personaje.
 
-## Vehiculos
+# Vehículos
 
 Lo mismo da si eres un capitán pirata como un conductor de tanques, un comandante de astronave, un motorista fantasma o pilotas un robot gigante: todos los vehículos pueden tratarse de manera parecida.
 
 El método más sencillo es tratarlos como equipamiento ordinario o como ventajas si son especialmente potentes. Sin embargo, si los vehículos son un elemento importante de la ambientación, pueden construirse como personajes.
 
-## Vehiculos Como Personajes
+## Definir a los vehículos como personajes
 
 Los vehículos importantes comienzan con un concepto (pero no una cualidad), una ventaja y una desventaja. No tienen Karma, pero comienzan con tres fichas de resolución y pueden avanzar a discreción del DJ.
 
