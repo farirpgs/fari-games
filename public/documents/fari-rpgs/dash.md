@@ -39,7 +39,7 @@ One person is the game master (GM), the rest are players.
 
 When there's a challenge that needs to be overcome, and there's a risk of failure, make an _action roll_. This resolves the action of the PC as well as any GM characters that are involved
 
-GM, telegraph the _risk_ of the roll (low, moderate, high) and the _effect_ (limited, standard, great). Pick an _action_, roll 1d6 per action dot, and read the **single highest result**.
+GM, telegraph the _risk_ of the roll (low, moderate, high) and the _effect_ (limited, standard, great). Pick an _action_, roll 1d6 for each action dot, and read the **single highest result**.
 
 _If you end up with zero or less dice to roll, roll 2 dice and keep the lowest._
 
@@ -138,6 +138,6 @@ Because Charge is based off Blades in the Dark, you would also need to include a
 
 To do so, copy the text below in your own game and things should be good to go.
 
-> _This work is based on Charge RPG, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)_
+> _This work is based on Charge, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)_
 >
 > _This work is also based on Blades in the Dark (found at http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/)._
