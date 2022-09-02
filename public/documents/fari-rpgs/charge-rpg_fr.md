@@ -492,7 +492,7 @@ The action rating is used to define the initial dice pool of the roll.
 
 ## 2. GM Sets the Position
 
-The GM needs to set the `position` of the roll, based on the risks involved from failure. 
+The GM needs to set the `position` of the roll, based on the risks involved from failure.
 
 A situation is either in a `controlled`, `risky`, or `desperate` position.
 
@@ -582,7 +582,7 @@ You can also even the odds by using **either** of the following methods.
 
 > #### Use an Asset
 >
-> Assets are an optional rule available in [Extras&nbsp;»&nbsp;Asset Extra](asset-extra) which gives an additional way to even the odds. 
+> Assets are an optional rule available in [Extras&nbsp;»&nbsp;Asset Extra](asset-extra) which gives an additional way to even the odds.
 
 ## Recap
 
@@ -1066,7 +1066,7 @@ Here are a couple examples of how clocks could be used to represent some situati
 > - Tick 2 segments for a `standard effect`.
 > - Tick 3 segments for a `great effect`.
 >
-> When a PC gets a consequence from an action roll, you can use  `danger clock` and:
+> When a PC gets a consequence from an action roll, you can use `danger clock` and:
 >
 > - Tick 3 segments for a `desperate position`.
 > - Tick 2 segments for a `risky position`.
@@ -1078,8 +1078,7 @@ Here are a couple examples of how clocks could be used to represent some situati
 
 **_That's something I'll never forget._**
 
-
-Even at the start of the story, characters in Charge are talented and proactive. 
+Even at the start of the story, characters in Charge are talented and proactive.
 
 After all, they are the protagonists of our story. If they fail at a task, it's _probably_ more because of unplanned circumstances than because of their lack of skills.
 
@@ -1153,13 +1152,13 @@ To keep the flow of the game balanced, the GM will have a veto on what situation
 
 The fact that writing up situational talents takes a bit of work is the reason why you don't get any talent dot by default at character creation.
 
-We want character creation to be as streamlined as possible. Take the time to understand and discover who your character is first. 
+We want character creation to be as streamlined as possible. Take the time to understand and discover who your character is first.
 
 Later in the campaign, when a milestone occurs, then you can think of new ways to make them truly unique using `talents`.
 
->_Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
+> _Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
 >
->_In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agrees, saying "My character lived in the forest all their life, and would probably be intimidated by big cities. I like it; let's go with this for now!"_
+> _In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agrees, saying "My character lived in the forest all their life, and would probably be intimidated by big cities. I like it; let's go with this for now!"_
 
 # Projects and Complications | Mechanics
 
@@ -1173,7 +1172,7 @@ Perhaps your character is piling up money to be able to afford something good fo
 
 In any case, once per session, if the narrative allows it, a character can make an action roll to work on those long-term agendas. The player works with the GM to describe what action they are taking to advance their agenda and figure out the `effect` and `position` of the roll.
 
- These projects are tracked using `progress clocks` on the character sheet. The `effect` rating of the roll determines how much the project progresses when the character is working on it.
+These projects are tracked using `progress clocks` on the character sheet. The `effect` rating of the roll determines how much the project progresses when the character is working on it.
 
 Upon the completion of a project, the PC gets what they were working for. The resolution of said project creates a new narrative thread explained by the GM. This thread is something the group can decide to pursue or not.
 
@@ -1187,9 +1186,9 @@ Those complications aren't bound to the scene. Instead, they are tied to the cha
 
 Upon the completion of a complication's danger clock, the GM reveals a new dangerous situation to the group to represent what comes as a result of their actions.
 
-Depending on the context, this new complication could be **imposed or exposed** to the group. 
+Depending on the context, this new complication could be **imposed or exposed** to the group.
 
-- **When it is imposed**, the characters need to resolve it as soon as possible. The story cannot continue without this being taken care of first. 
+- **When it is imposed**, the characters need to resolve it as soon as possible. The story cannot continue without this being taken care of first.
 - **When it is exposed**, the GM can foretell that the life of the group will be a bit more complicated because of a certain situation that comes from a result of that complication.
 
 The goal here is to add emphasize that every action elicits a reaction from the world, even if it isn't immediate.
@@ -1251,9 +1250,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - Every time you make an `action roll`, you have a chance to gain `momentum`.
 > - You start every session with `2 momentum`.
 >
->
 > **When momentum is spent for a roll, that roll cannot in turn generate momentum.**
->
 >
 > #### Default Momentum Dial
 >
@@ -1263,14 +1260,12 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > #### Using Momentum
 >
-> | Cost         | Result                                              |
-> | ------------ | --------------------------------------------------- |
-> | `2 momentum` | `Push yourself` and add `+1d6` to your action roll. |
-> | `1 momentum` | `Assist` an ally, add `+1d6` to their action roll.  |
+> | Cost           | Result                                              |
+> | -------------- | --------------------------------------------------- |
+> | `2 momentum`   | `Push yourself` and add `+1d6` to your action roll. |
+> | `1 momentum`   | `Assist` an ally, add `+1d6` to their action roll.  |
 > | `0-2 momentum` | Do a `flashback` scene.                             |
->
 
->
 > ### Stress
 >
 > On a failed action roll, GM can inflict `stress` on a PC.
@@ -1304,9 +1299,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > 1. Add `+1d6` if you have `assistance` (they consume `1 momentum`)
 > 1. Roll and wish for the best!
 >
->
-> *If you don't have any action dots and can't `push yourself`, `add tension`, or `request assistance`, roll `2d6` and take the lowest result.*
->
+> _If you don't have any action dots and can't `push yourself`, `add tension`, or `request assistance`, roll `2d6` and take the lowest result._
 >
 > | Result | Name               | Explanation                                                       |
 > | ------ | ------------------ | ----------------------------------------------------------------- |
@@ -1372,6 +1365,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > ### Progression
 >
 > Use this to make characters evolve and get stronger over time.
+>
 > #### Session
 >
 > - Happens every session.
@@ -1381,6 +1375,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > - Happens every 3-5 sessions, usually after a big event.
 > - Gain `+1 Talent Dot`
+>
 > ### Talents
 >
 > Talents make your character stronger and more versatile over time.
@@ -2081,8 +2076,6 @@ Critical successes on spells raise the effect by one level for every additionnal
 >
 > _But, since this is a powerful effect, it also has a powerful drawback : Using the spiritual being is taxing on both body and mind, and any uses of the being tick one segment of the character's condition clocck. Furthermore, as soon as the character is taken out, the being breaks free of the spell and turns hostile to the party._
 
-
-
 # Scars Extra | Extras
 
 This extra introduces new a type of `detail` that permanently changes your character when the stress clock fills up.
@@ -2099,15 +2092,14 @@ Games that could benefit from these rules are primarily those going for a gritti
 
 This extra adds a few concepts to the basis of Charge RPG, namely;
 
- - `scars` -- A new type of character `detail` that indicates a permanent change to your character, either physically or mentally.
- - `bowing out` -- The act of leaving your friends to deal with a conflict to avoid more severe consequences to yourself.
- - being `hardened` -- The beneficial aspects of having a `scar` detail; allows you to take more stress in some circumstances.
+- `scars` -- A new type of character `detail` that indicates a permanent change to your character, either physically or mentally.
+- `bowing out` -- The act of leaving your friends to deal with a conflict to avoid more severe consequences to yourself.
+- being `hardened` -- The beneficial aspects of having a `scar` detail; allows you to take more stress in some circumstances.
 
 ---
 
 > ## Scars disclaimer
 
->
 > _The topics of this Extra have a complicated relationship to both real life and tropes in popular media. Therefore when you use these rules, keep that in mind that pop culture generally hasn't treated disabilities kindly but that we, collectively, have an awesome chance to change that. These rules are not meant to make your character broken or unplayable, they are meant to create a permanent record on your character sheet and how you portray your character of the adventures you have been on. But always; be mindful and listen to what other people you share the table with have to say about it, and always respect those that want you to stay away from certain conditions or disabilities._
 >
 > _These rules give you a chance to embrace the changes to your characters and show how it doesn't make them less competent even if they have their struggles due to the scars they have. The purpose of this isn't to cause a death spiral but to make the world have an impression on the character similar to how the characters make an impression on the world._
@@ -2120,11 +2112,11 @@ An incapacitated character can not take more `scars` but further harm to the bod
 
 > ### Overlapping scars
 >
-> _In some cases `scars` end up overlapping in what it affects, such as losing your left arm after leaving your left hand, and in those cases, it is perfectly acceptable to merge those `scars` into a single scar. If a `scar` doesn't change anything about your character it has no use on the character sheet either._  
+> _In some cases `scars` end up overlapping in what it affects, such as losing your left arm after leaving your left hand, and in those cases, it is perfectly acceptable to merge those `scars` into a single scar. If a `scar` doesn't change anything about your character it has no use on the character sheet either._
 
 Remember to also update your looks if necessary as you add `scars`.
 
-> ### Optional dial setting: Bleeding out ###
+> ### Optional dial setting: Bleeding out
 >
 > _For some games, a fresh `scar` should require some kind of `action` from another character to get the scared character back in the game. This can be being "talked down from the ledge", "staunch the bleeding", or "taking care of the burns". This rule, in particular, can be a bit too much for some groups, so make extra sure to include this with consent, as with all rules dealing with bodily or mental harm._
 
@@ -2252,7 +2244,7 @@ The difficulty can be **easy**, **medium** or **hard**.
 
 ### Advancing a Goal
 
-A `goal` has an associated clock with 8 segments (see options later for more ideas on this point).  When a character makes progress towards one of their `goals` it's time to tick segments, depending on the `goal`'s difficulty:
+A `goal` has an associated clock with 8 segments (see options later for more ideas on this point). When a character makes progress towards one of their `goals` it's time to tick segments, depending on the `goal`'s difficulty:
 
 | Difficulty | Number of segments ticked |
 | ---------- | ------------------------- |
@@ -2280,10 +2272,10 @@ Instead of automatically ticking a number of segments when a `goal` progresses, 
 
 As Charge is a narrative game at its heart, to determine the dice pool follow this guideline:
 
-* Did the character take a risk just to advance their `goal`?
-* Did working on the `goal` impact the character (condition related, etc)?
+- Did the character take a risk just to advance their `goal`?
+- Did working on the `goal` impact the character (condition related, etc)?
 
-If it's complicated, here a fast and simple rule: *use 2 dice*.
+If it's complicated, here a fast and simple rule: _use 2 dice_.
 
 The number of segments ticked depends on the result and the difficulty.
 
@@ -2298,8 +2290,8 @@ The number of segments ticked depends on the result and the difficulty.
 
 Another option is to roll to resolve the `goal`. The 2 ideas behind rolling to resolve are:
 
-* Add a way to create more narrative around the `goal`'s resolution
-* Authorize a player to test their luck and try to finish a `goal` earlier
+- Add a way to create more narrative around the `goal`'s resolution
+- Authorize a player to test their luck and try to finish a `goal` earlier
 
 The roll is similar to an Action Roll, with the number of dice rolled related to the `goal` clock's status:
 
@@ -2715,7 +2707,7 @@ To do so, copy the text below in your game, and things should be good to go.
 
 ## Attribution
 
-This work is based on Charge RPG, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)
+This work is based on Charge, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)
 
 This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 

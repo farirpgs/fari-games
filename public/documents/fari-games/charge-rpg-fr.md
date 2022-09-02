@@ -1066,7 +1066,7 @@ Here are a couple examples of how clocks could be used to represent some situati
 > - Tick 2 segments for a `standard effect`.
 > - Tick 3 segments for a `great effect`.
 >
-> When a PC gets a consequence from an action roll, you can use  `danger clock` and:
+> When a PC gets a consequence from an action roll, you can use `danger clock` and:
 >
 > - Tick 3 segments for a `desperate position`.
 > - Tick 2 segments for a `risky position`.
@@ -1156,9 +1156,9 @@ We want character creation to be as streamlined as possible. Take the time to un
 
 Later in the campaign, when a milestone occurs, then you can think of new ways to make them truly unique using `talents`.
 
->_Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
+> _Yann's character is a monster hunter. Consequently, he's pretty good at **Studying** and **Muscle** in general. Yann also just got a new **talent dot** and would like to excel at tracking monsters specifically. Because monsters aren't encountered that frequently in the game, he asks the GM if his talent could be "**+1 Position when I'm Shooting monsters**". The GM agrees. Now, Yann's character should be feared by most creatures roaming the lands._
 >
->_In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agrees, saying "My character lived in the forest all their life, and would probably be intimidated by big cities. I like it; let's go with this for now!"_
+> _In another session, the GM realizes that Yann's talent is perhaps too generic, and could be tuned a little. He then asks if it could be rewritten as something like "**+1 Position when I'm Shooting monsters in the forest**" or something along those lines. Yann agrees, saying "My character lived in the forest all their life, and would probably be intimidated by big cities. I like it; let's go with this for now!"_
 
 # Projects and Complications | Mechanics
 
@@ -1172,7 +1172,7 @@ Perhaps your character is piling up money to be able to afford something good fo
 
 In any case, once per session, if the narrative allows it, a character can make an action roll to work on those long-term agendas. The player works with the GM to describe what action they are taking to advance their agenda and figure out the `effect` and `position` of the roll.
 
- These projects are tracked using `progress clocks` on the character sheet. The `effect` rating of the roll determines how much the project progresses when the character is working on it.
+These projects are tracked using `progress clocks` on the character sheet. The `effect` rating of the roll determines how much the project progresses when the character is working on it.
 
 Upon the completion of a project, the PC gets what they were working for. The resolution of said project creates a new narrative thread explained by the GM. This thread is something the group can decide to pursue or not.
 
@@ -1250,9 +1250,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > - Every time you make an `action roll`, you have a chance to gain `momentum`.
 > - You start every session with `2 momentum`.
 >
->
 > **When momentum is spent for a roll, that roll cannot in turn generate momentum.**
->
 >
 > #### Default Momentum Dial
 >
@@ -1262,14 +1260,12 @@ This chapter will go over the most important bits of the book in a quick recap s
 >
 > #### Using Momentum
 >
-> | Cost         | Result                                              |
-> | ------------ | --------------------------------------------------- |
-> | `2 momentum` | `Push yourself` and add `+1d6` to your action roll. |
-> | `1 momentum` | `Assist` an ally, add `+1d6` to their action roll.  |
+> | Cost           | Result                                              |
+> | -------------- | --------------------------------------------------- |
+> | `2 momentum`   | `Push yourself` and add `+1d6` to your action roll. |
+> | `1 momentum`   | `Assist` an ally, add `+1d6` to their action roll.  |
 > | `0-2 momentum` | Do a `flashback` scene.                             |
->
 
->
 > ### Stress
 >
 > On a failed action roll, GM can inflict `stress` on a PC.
@@ -1303,9 +1299,7 @@ This chapter will go over the most important bits of the book in a quick recap s
 > 1. Add `+1d6` if you have `assistance` (they consume `1 momentum`)
 > 1. Roll and wish for the best!
 >
->
-> *If you don't have any action dots and can't `push yourself`, `add tension`, or `request assistance`, roll `2d6` and take the lowest result.*
->
+> _If you don't have any action dots and can't `push yourself`, `add tension`, or `request assistance`, roll `2d6` and take the lowest result._
 >
 > | Result | Name               | Explanation                                                       |
 > | ------ | ------------------ | ----------------------------------------------------------------- |
@@ -2463,7 +2457,7 @@ To do so, copy the text below in your own game and things should be good to go.
 
 ## Attribution
 
-This work is based on Charge RPG, product of Fari RPGs, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+This work is based on Charge, product of Fari RPGs, developed and authored by René-Pier Deshaies-Gélinas, and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 
 This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
