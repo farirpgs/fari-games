@@ -233,7 +233,7 @@ To make an action roll, we go through the following steps:
 
 #### 1. Player Sets Their Goal
 
-The player states their goal and, which action they are using.
+First, the player states their goal, and which action they are using. Then, they gather a number of d6s equal to the chosen action's dot rating to build their dice pool.
 
 #### 2. GM Sets the Risk
 
@@ -679,7 +679,7 @@ Because Charge is based off Blades in the Dark, you would also need to credit th
 
 To do so, copy the text below in your game, and things should be good to go.
 
-> This work is based on Charge RPG, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas , and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+> This work is based on Charge, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas , and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 >
 > This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
