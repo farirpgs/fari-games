@@ -26,9 +26,17 @@ It is also open licensed. Which means you can use it for free. You can also make
 
 <iframe frameborder="0" src="https://itch.io/embed/1196268?bg_color=ffffff&amp;fg_color=324149&amp;link_color=2d436e&amp;border_color=58676f" width="100%" height="167"><a href="https://fari-rpgs.itch.io/charge-rpg">Charge RPG by Fari RPGs</a></iframe>
 
+## Dash
+
+To get started as quickly as possible with Charge, checkout it's condensed version: **Dash**, available for free on [itch.io](https://fari-rpgs.itch.io/dash) and on [Fari Games](/en/srds/fari-games/dash).
+
+<a href="[**/en/srds/fari-games/charge-srd**](https://fari-rpgs.itch.io/dash)">
+ <img width="320px" src="https://gyazo.com/cdbc3cd92f83c1838cb4eb943b3cf452.png">
+</a>
+
 ## Charge SRD
 
-If you want to make and publish your own game using Charge, checkout the [Charge SRD](/en/srds/fari-rpgs/charge-srd) to get started.
+For more details on how to design games using Charge, checkout the Charge SRD also available on [itch.io](https://fari-rpgs.itch.io/charge-srd), and on [Fari Games](/en/srds/fari-rpgs/charge-srd).
 
 <a href="/en/srds/fari-rpgs/charge-srd">
 	<img width="320px" src="https://gyazo.com/7a7d4cecbf087f5d66cb1b16d30271ad.png">

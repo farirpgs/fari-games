@@ -36,9 +36,10 @@ export function Navbar() {
   const settingsManager = useContext(SettingsContext);
   const [menuOpen, setMenuOpen] = useState(false);
   const shouldRenderMobileMenu = useMediaQuery(theme.breakpoints.down("md"));
-  const maxWidth: Breakpoint | undefined = location.pathname.includes("/srds")
-    ? "xl"
-    : undefined;
+  const maxWidth: Breakpoint | undefined =
+    location.pathname.includes("/srds") || location.pathname.includes("/games")
+      ? "xl"
+      : undefined;
 
   return (
     <Box
@@ -216,8 +217,10 @@ export function Navbar() {
               game: "charge-rpg",
             })}
           >
-            Charge RPG
+            Charge
           </NavLink>
+        </Grid>
+        <Grid item>
           <NavLink
             onClick={() => {
               setMenuOpen(false);
@@ -225,13 +228,27 @@ export function Navbar() {
             to={AppLinksFactory.makeProductLink({
               author: "fari-rpgs",
               type: ProductTypeEnum.SRD,
-              game: "charge-srd",
+              game: "dash",
             })}
           >
-            Charge SRD
+            Dash
           </NavLink>
         </Grid>
         <Grid item>
+          <NavLink
+            onClick={() => {
+              setMenuOpen(false);
+            }}
+            to={AppLinksFactory.makeProductLink({
+              author: "fari-rpgs",
+              type: ProductTypeEnum.SRD,
+              game: "breathless-srd",
+            })}
+          >
+            Breathless
+          </NavLink>
+        </Grid>
+        {/* <Grid item>
           <NavLink
             onClick={() => {
               setMenuOpen(false);
@@ -241,7 +258,8 @@ export function Navbar() {
           >
             Fari App
           </NavLink>
-        </Grid>
+        </Grid> */}
+
         <Grid item>
           <NavLinkCategory
             label={"Fari RPGs"}
