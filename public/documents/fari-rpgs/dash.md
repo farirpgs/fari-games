@@ -12,7 +12,7 @@ Dash is a condensed version of Charge that fits on a half fold brochure. With th
 
 It can be used as a Charge cheat sheet for your table, but it's also a great stepping stone if you want to design your own Powered by Charge game.
 
-## Features
+## FEATURES
 
 - All the core rules of Charge, condensed in a half fold brochure format.
 - A streamlined action list ready for pickup and play.
@@ -23,11 +23,11 @@ It can be used as a Charge cheat sheet for your table, but it's also a great ste
 
 # The Game
 
-## Before We Start
+## BEFORE WE START
 
 Define lines that should not be crossed. Pause or rewind the game if something uncomfortable happens during a session. Always make sure everyone is comfortable with the direction of the story.
 
-## Playing The Game
+## PLAYING THE GAME
 
 One person is the game master (GM), the rest are players.
 
@@ -35,7 +35,7 @@ One person is the game master (GM), the rest are players.
 
 **Player**: Narrate what your character does. Make _action rolls_ when things are risky. Give everyone a time to shine. Fill the world with your ideas. Take risks, and rise up from failures.
 
-## Action Rolls
+## ACTION ROLLS
 
 When there's a challenge that needs to be overcome, and there's a risk of failure, make an _action roll_. This resolves the action of the PC as well as any GM characters that are involved
 
@@ -48,7 +48,7 @@ _If you end up with zero or less dice to roll, roll 2 dice and keep the lowest._
 - On a **4-5**, it's a **partial success**. You achieve your goal, but there's a _consequence_.
 - On a **1-3**, it's a **bad outcome**. Things go badly, and there's a _consequence_.
 
-## Momentum
+## MOMENTUM
 
 When a player makes an _action roll_, that roll can generate _momentum_. You start every session with 2, and generate more when you make successful rolls. You use _momentum_ to get various bonuses or resist incoming _consequences_.
 
@@ -58,7 +58,7 @@ When a player makes an _action roll_, that roll can generate _momentum_. You sta
 
 _When momentum is spent for a roll, that roll cannot in turn generate momentum._
 
-## Consequences
+## CONSEQUENCES
 
 If you make an action roll, and you get a partial success (4-5) or a bad outcome (1-3), you suffer a consequence.
 
@@ -77,7 +77,7 @@ If you make an action roll, and you get a partial success (4-5) or a bad outcome
 - On a **6**, the _consequence_ is avoided.
 - On a **66**, the _consequence_ is avoided, and the _risk_ of your next roll is lowered.
 
-## Your Character
+## YOUR CHARACTER
 
 When creating a new character, write down their _details_:
 
@@ -98,7 +98,7 @@ _At character creation, actions cannot have more than 2 dots._
 
 **PROGRESSION**: After a big story event, every PC gets a new _talent_. This either gets you a new _action dot_, or a _situational talent_. For the latter, decide on a specific situation that activates the talent’s bonus and fill the blanks on your sheet.
 
-## Challenges and Danger
+## CHALLENGES AND DANGER
 
 When the PCs face a complex obstacle, like enemies putting up stiff resistance, or when you want to inject the tension of impending danger, don't leave it to a single action roll: draw a _clock_.
 
@@ -108,7 +108,7 @@ When a PC tries to overcome an obstacle with an _action roll,_ tick a _progress 
 
 When a PC gets a _complication_ as a result of their _action_, tick a _danger clock_ 1 segment for a _low risk_, 2 segments for a _moderate risk_, or 3 segments for a _high risk_.
 
-## Special Actions
+## SPECIAL ACTIONS
 
 **PUSH YOURSELF**: Consume 2 _momentum_ per push and gain one of the following.
 
@@ -132,6 +132,76 @@ When a PC gets a _complication_ as a result of their _action_, tick a _danger cl
 - On a **6**, it’s a **full success**. There are great results.
 - On a **4-5**, it’s a **partial success**. There are mixed results.
 - On a **1-3**, it’s a **bad outcome**. There are bad results.
+
+# Designer Notes
+
+This next section goes over how to customize and adapt the mechanics found in this game to help you design your own game Powered by Charge.
+
+## YOUR GAME
+
+This is your game, so you can create, update, remove all the text and mechanics found in this document in any way you want. You just need to give us attribution for our work (see the Attribution Text section).
+
+## CONTENT WARNING
+
+Take the time to include a content warning section that includes the themes present in your game. Being transparent will go a long way to ensure a safe playing experience for everyone at the table.
+
+## YOUR SETTING
+
+Explain the setting of your game, and what the story is mainly going to focus on. Touch on the sort of challenges the PCs will encounter, the factions that inhabit the world, and the places the player character might visit.
+
+## YOUR MOMENTUM
+
+Dash is a game that revolves around initiative, and momentum is the reason for this. It is what drives the players forward. Momentum is awarded when the player characters take risks, and is consumed to give bonuses in return. For your game, think about the triggers that will generate it, and the different ways it can be spent.
+
+## YOUR CONSEQUENCES
+
+More often than not, action rolls will succeed, but with a consequence. The types of consequences available for the GM to use in your game will help shape the kinds of adventures that the players will experience. Dash games are about moving forward. Considering this, think about the types of things that can go wrong for the player characters, and define them as consequences. The default list of this document works as a good starting point, but you should change it to better match your game’s aesthetic.
+
+## YOUR STRESS
+
+Stress is the default health pacing mechanism of the game. If you want characters to feel stronger or weaker, adjust how big is the stress track, what kind of triggers can fill it, what happens when it is filled, and how it can be cleared, etc. Be as generous or harsh as you see fit. You can also rename it to something else, or use multiple tracks to handle different types of consequences.
+
+## YOUR DETERMINATION
+
+Characters in Dash are proactive, and take matters into their own hands. But, when things don’t go according to plan, they burn their momentum as a way to get the narrative control back. You can change the cost of using a determination roll, or reevaluate the result distribution as a way to reinforce the themes present in your game. Don’t forget that when a player character thinks about using their determination, they are considering using their precious momentum now, even though it might complicate things later.
+
+## YOUR DETAILS
+
+A character is usually defined using details. Details are aspects that are true about a character. Those aspects give them narrative liberties in the fiction. Think about the important aspects of your game, and include them as character details. Things like backgrounds, relationships, equipments, etc. Once defined as details, player characters can just use or call to them without having to roll for anything for they are true.
+
+## YOUR ACTIONS
+
+To interact with the world, characters use their actions. To make this game your own, you should customize the action list to something that better fit the aesthetic of your setting. Look at the kind of things you think player characters will do the most. If you aim to have a smaller action list, each action should cover more ground, and the opposite is true if you want to have a broader list of actions. To decide of the amount of initial action dots players can assign at character creation, divide the number of actions you have by half, and add 1 to it.
+
+## YOUR TALENTS
+
+In Dash, characters talents are meant to be filled by the players when they reach an important milestone in the story. To help with analysis paralysis, consider designing a list of situational talents for the players to pick from when they gain a new talent dot. To design situational talents, try to frame them in a format that looks like “Get X bonus when Y situation happens”.
+
+## YOUR PLAYBOOKS
+
+Instead of having each player decide of their details, skilled actions and talents, you can provide playbooks for the players to choose from. Doing this helps the players get a clear idea of the kind of characters they can play, and also enables them to get to play your game as quickly as possible. To design a playbook, give them a name, pre-fill their details, assign action dots, and design a unique talent tree for them. Each playbook then acts as a fun and unique archetype.
+
+## YOUR PROGRESSION
+
+By default, progression happens when the GM considers that the story has reached an important milestone. Depending on the kind of pace you want your game to add, consider tying additional mechanics to the progression system. Maybe progression happens every time a mission is successful, or perhaps a clock is tied to the way progression works. Your choice.
+
+## YOUR PUSH
+
+Players can burn their momentum to push their characters to their limits, and gain mechanical bonuses in return. For your game, think about the cost of pushing yourself, and the various types of bonuses you can gain from it.
+
+## YOUR EXTRA MECHANICS
+
+Dash comes with a set of mechanics that handles numerous aspects of gameplay. Dont hesitate to get rid of the stuff that doesn’t apply to your game, then add mechanics that you think will reinforce your world. Add only what is necessary, and try to tie it with the core dice mechanic to keep things homogeneous.
+
+## YOUR ROLLING TABLES
+
+Consider adding rolling tables for the things you consider important in your world. Rolling tables help in two-way. First, they help put a focus on what is significant in the game. Second, they help facilitate sessions for when the players are in doubt about where the story should go next. You could include tables for things like items, locations, allies, enemies, complications, missions, etc.
+
+## OTHER GUIDELINES
+
+Start with the setting. Try to find inspiration from things you love. Something like a movie, a TV series or a book. Once you’ve found a piece a media that gets the inspiration flowing, mix it with a second one to create a unique combo. From there, work on adding things from your imagination to create something nobody has ever seen before.
+Think about the core gameplay loop that the players will experience when playing the game. Every mechanical aspect of your game should reinforce this loop, and the setting. If it doesn’t, take a moment to see if the mechanic is required at all, or find a way to tie it back to the game in a rewarding way. Remember, less is more.
+This SRD is written very briefly to give you a lot of design room. Rephrase or expand as you see fit to make this game your own.
 
 # License
 
