@@ -128,6 +128,11 @@ When a PC gets a _complication_ as a result of their _action_, tick a _danger cl
 
 **FORTUNE ROLL**: To disclaim decision making, you can make a _fortune roll_. The result of the roll helps guide the outcome as to where the story goes next, but doesn't feature _momentum_ nor _consequences_. Roll a number of d6s based on a specific _action_ or the odds of a thing happening, and interpret the results.
 
+- On a **66**, it’s a **critical success**. There are great results, and something exceptional happens.
+- On a **6**, it’s a **full success**. There are great results.
+- On a **4-5**, it’s a **partial success**. There are mixed results.
+- On a **1-3**, it’s a **bad outcome**. There are bad results.
+
 # License
 
 Both Dash and Charge are released under Creative Commons Attribution CC-BY.
