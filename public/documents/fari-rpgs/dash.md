@@ -135,11 +135,11 @@ When a PC gets a _complication_ as a result of their _action_, tick a _danger cl
 
 # Designer Notes
 
-This next section goes over how to customize and adapt the mechanics found in this game to help you design your own game Powered by Charge.
+This next section goes over how to customize and adapt the mechanics found in this document to help you design your own game Powered by Charge.
 
 ## Your Game
 
-This is your game, so you can create, update, remove all the text and mechanics found in this document in any way you want. You just need to give us attribution for our work (see the Attribution Text section).
+This is your project, so you can create, update, remove all the text and mechanics found in this document in any way you want. You just need to give us attribution for our work (see the Attribution Text section).
 
 ## Content Warning
 
