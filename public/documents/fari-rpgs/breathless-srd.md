@@ -347,8 +347,6 @@ When players are ready to make a theory from the clues they have gathered and re
 
 This game uses mechanics based off the Investigation Check Gasp, designed by David Haslem.
 
-Thanks for the help on this Gasp submission. I think I got the Markdown correct?
-
 # Locker | Gasps (Extras)
 
 Locker is a Gasp designed by Ryan Lucas of https://theyoungking45.itch.io/%7D used in Ore that provides a form of advancement by emphasizing scavenging rolls.
