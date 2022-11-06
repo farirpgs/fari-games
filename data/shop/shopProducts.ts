@@ -730,6 +730,27 @@ export const shop: IShop = {
         },
       ],
     },
+    {
+      name: "Groov",
+      slug: "groov",
+      links: {
+        twitter: "https://twitter.com/FriendGroov",
+      },
+      products: [
+        {
+          name: "BAAGS",
+          slug: "baags",
+          description:
+            "A featherweight tag-based system built for kids and newcomers to run story games, easily modifiable to add depth.",
+          image: "https://gyazo.com/6e4cbb4c874f4a5ab076ef3fbfcf6b76.png",
+          links: {
+            itchIo: "https://groovasaur.itch.io/bags",
+          },
+          tags: ["srd"],
+          type: ProductTypeEnum.SRD,
+        },
+      ],
+    },
   ],
 };
 
