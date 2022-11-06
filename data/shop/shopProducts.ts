@@ -738,8 +738,8 @@ export const shop: IShop = {
       },
       products: [
         {
-          name: "BAAGS",
-          slug: "baags",
+          name: "BAGS",
+          slug: "bags",
           description:
             "A featherweight tag-based system built for kids and newcomers to run story games, easily modifiable to add depth.",
           image: "https://gyazo.com/6e4cbb4c874f4a5ab076ef3fbfcf6b76.png",
