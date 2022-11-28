@@ -99,19 +99,15 @@ Start a discussion with the players to determine the **risk**, and **hindrances*
 
 Everyone rolls their own dice pool, and compares their highest single die to the opposing highest single die.
 
-The size of the player’s pool is called the **impact**, while the size of the GM’s pool is called the **cost**.
-
 - **If the player beats the GM**: It’s a success. Gain 1 hope if you didn’t spend any.
 - **If the player ties with the GM**: It’s a success, but there’s a consequence to your action.
 - **If the GM beats the player**: It’s a failure, and there’s a consequence to your action.
 
+We call the final size of the player’s and GM’s pools the **impact** and the **cost**, respectively. Those can be modified by other factors, but they start as the initial number of dice rolled by each party.
+
 ## Help Out
 
-When you help out, say how you want to **help**, and add a **1d6** to the pool of the player who’s making the roll.
-
-When assisting another character, you share the same **risks** as them.
-
-This means that both characters could end up with **hindrances**, or things could go wrong for the whole group.
+When you **help out**, say how you want to help, and add a **1d6** to the pool of the player who’s making the roll. When assisting another character, you share the same **risks** as them. This means both characters could end up with **hindrances**, or narrative consequences.
 
 ## Hopes
 
@@ -125,19 +121,19 @@ If you fail or tie on a check, the GM can decide that you get a **hindrance**. A
 
 ## Challenges
 
-When the GM needs to track the effort against an obstacle, they introduce a new challenge track.
+GM, when you need to track the effort against an obstacle, introduce a **challenge track**.
 
-To add a track, the GM explains what it is about, gives it a name, and **draw a row with 3, 5, 8 or 13 boxes** on an index card.
+Explain what it is about, gives it a name, and draw a row with **3, 5, 8 or 13 boxes** on an index card. The bigger the challenge, the bigger the track.
 
-The bigger the challenge, the bigger the track. When PCs tie or succeed a check related to a challenge, they can mark boxes on the challenge **matching the impact of their roll**.
+When PCs tie or succeed a check related to a challenge, they can mark boxes on the challenge **matching the number of dice the player rolled**. We call this the **impact** of the roll.
 
-When all the boxes of the challenge are filled, it is resolved. The GM, and the players then work together to decide what that means in the story.
+When all the boxes are filled, the challenge is resolved. Work all together to decide what that means in the story.
 
 ## Countdowns
 
-When the GM wants to force the PCs to act quickly before things get worse, they introduce a countdown track.
+GM, when you want to force the PCs to act quickly before things get worse, introduce a **countdown track** with **3, 5, 8 or 13 boxes**.
 
-When PCs tie or fail a check related to a countdown, the GM can mark boxes on the countdown **matching the cost of their roll**.
+When PCs tie or fail a check related to a countdown, mark boxes on the countdown **matching the number of dice the GM rolled**. We call this the cost of the roll.
 
 When all the boxes of the countdown are filled, something horrible happens, and the situation gets worse for everyone.
 
