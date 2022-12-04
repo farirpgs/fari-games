@@ -291,7 +291,7 @@ The GM gets the final say on this, so work with them to make sure your fact work
 
 # Flashback | Gasps (Extras)
 
-Flashback is a Gasp designed by Patrick Dubuc of Tiki Games used in Crank It Up! that allows the player to recount a situation that took place in the past that has the potential to change the current scene.
+Flashback is a Gasp designed by Patrick Dubuc of Big Bite Games used in Crank It Up! that allows the player to recount a situation that took place in the past that has the potential to change the current scene.
 
 (Crank It Up! is not released yet!)
 
@@ -313,7 +313,7 @@ To determine to which extent did the player's Flashback is accurate, the GM roll
 
 ## Attribution
 
-This game uses mechanics based off the Flashback Gasp, designed by Patrick Dubuc of Tiki Games.
+This game uses mechanics based off the Flashback Gasp, designed by Patrick Dubuc of Big Bite Games.
 
 # Investigation Checks | Gasps (Extras)
 
