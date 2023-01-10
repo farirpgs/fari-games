@@ -233,23 +233,25 @@ E.g.
 - **This Won't Hold Me**: When you hit an object in the hope of breaking it, get -1 cost.
 - **In and Out**: When entering a restricted area alone, get +1 impact on a check.
 
-## Other Guidelines
+## The Pilot Episode
 
-Start with the setting. Try to find inspiration from things you love. Something like a movie, a TV series or a book.
+One highlight of Hopes & Dreams is its **pilot episode**. The world of your game is a living and breathing thing. Since it will grow and change as your players influence it, it is helpful to establish what your world is like and what events have occurred prior to the players entering it. To design your game’s pilot episode, write down questions you want the group to answer together:
 
-Once you’ve found a piece a media that gets the inspiration flowing, mix it with a second one to create a unique combo. From there, work on adding things from your imagination to create something nobody has ever seen before.
+> Who are they? Why do they stick together? What was their last adventure? Where’s their HQ? What’s the last thing their enemies did? What has happened in the world recently? What’s new with this particular faction?
 
-Think about the core gameplay loop that the players will experience when playing the game.
+Provide 3 to 6 suggestions for each question, and make it so that the players answer those questions as part of the first session of the game.
 
-Every mechanical aspect of your game should reinforce this loop, and the setting. If it doesn’t, take a moment to see if the mechanic is required at all, or find a way to tie it back to the game in a rewarding way.
+> **What bonds us together is**
+>
+> the cause — death — the family — our friends — vengeance
 
-Remember, less is more.
-
-This SRD is written very briefly to give you a lot of design room. Rephrase or expand as you see fit to make this game your own.
+> **We have a rule, we...**
+>
+> we don’t hurt people — don’t kill people — protect our crew — protect the city — there are no rules
 
 ## Extra Mechanics
 
-Hopes & Dreams comes with a set of mechanics that handles numerous aspects of gameplay. Don’t hesitate to get rid of the stuff that doesn’t apply to your game, then add mechanics that you think will reinforce your world. Add only what is necessary, and try to tie it with the core dice mechanic to keep things homogeneous.
+Don’t hesitate to get rid of the stuff that doesn’t apply to your game, then add mechanics that you think will reinforce your world. Add only what is necessary, and try to tie it with the core dice mechanic to keep things homogeneous.
 
 # License & Logos
 
