@@ -421,28 +421,28 @@ The Grove System would not exist without the designers, writers, editors and bac
 
 **Lead Designer**
 
-Andrew Boyd - @PandionGames
+* Andrew Boyd - @PandionGames
 
 **Writers**
 
-Armanda Haller - @armandah17
-Misha Panarin - @panarin_misha
-Dana Pena - @danapenav
-Sasha "stargazersasha" Winter - @stargazersasha
-Matt Kimmel - @orpheuspress
-Matt Shipps - @orpheuspress
-Michael Low - @LuckLegends
-Philippa Mort - @MortPhilippa
+* Armanda Haller - @armandah17
+* Misha Panarin - @panarin_misha
+* Dana Pena - @danapenav
+* Sasha "stargazersasha" Winter - @stargazersasha
+* Matt Kimmel - @orpheuspress
+* Matt Shipps - @orpheuspress
+* Michael Low - @LuckLegends
+* Philippa Mort - @MortPhilippa
 
 **Editing**
 
-Michael Low - @LuckLegends
+* Michael Low - @LuckLegends
 
 **Design Consultants**
 
-Michael Low - @LuckLegends
-Orpheus Press - @orpheuspress
-Armanda Haller - @armandah17
-René-Pier Deshaies - @RPDeshaies
+* Michael Low - @LuckLegends
+* Orpheus Press - @orpheuspress
+* Armanda Haller - @armandah17
+* René-Pier Deshaies - @RPDeshaies
 
 **PANDION GAMES**
