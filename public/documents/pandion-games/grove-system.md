@@ -420,9 +420,11 @@ Or so you hoped. There’s rustling and giggling at night. The next morning, Ran
 The Grove System would not exist without the designers, writers, editors and backers who made Banda’s Grove a reality. Thanks to everyone who provided their feedback, design consultancy, and stayed up late in the night with me discussing the finer details of token economies, and collaborative storytelling.
 
 **Lead Designer**
+
 Andrew Boyd - @PandionGames
 
 **Writers**
+
 Armanda Haller - @armandah17
 Misha Panarin - @panarin_misha
 Dana Pena - @danapenav
@@ -433,9 +435,11 @@ Michael Low - @LuckLegends
 Philippa Mort - @MortPhilippa
 
 **Editing**
+
 Michael Low - @LuckLegends
 
 **Design Consultants**
+
 Michael Low - @LuckLegends
 Orpheus Press - @orpheuspress
 Armanda Haller - @armandah17
