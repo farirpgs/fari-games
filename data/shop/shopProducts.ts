@@ -490,7 +490,7 @@ export const shop: IShop = {
           slug: "grove-system",
           type: ProductTypeEnum.SRD,
           description:
-            "Create games that can be played anywhere with anything you have on hand - as a group or with an audience.",
+            "The system for discovering, building, and adventuring collaboratively. Give players the power to build worlds and communities - together.",
           tags: ["srd", "featured"],
           license: License.CC_BY_4,
           links: {
