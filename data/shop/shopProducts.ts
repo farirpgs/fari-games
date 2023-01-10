@@ -39,7 +39,7 @@ export const shop: IShop = {
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
-          tags: ["charge-rpg", "srd", "new"],
+          tags: ["charge-rpg", "srd"],
           image: "https://gyazo.com/a6eabc2383f01fa9e30be8c1d64596f2.png",
           links: {
             itchIo: "https://fari-rpgs.itch.io/charge-srd",
@@ -54,7 +54,7 @@ export const shop: IShop = {
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
-          tags: ["charge-rpg", "srd", "new"],
+          tags: ["charge-rpg", "srd", "featured"],
           image: "https://gyazo.com/c94071f2daeaaaa1ccbdd99a3a8074cf.png",
           links: {
             itchIo: "https://fari-rpgs.itch.io/dash",
@@ -68,7 +68,7 @@ export const shop: IShop = {
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
-          tags: ["hopes-and-dreams", "srd", "new"],
+          tags: ["hopes-and-dreams", "srd", "featured"],
           image: "https://gyazo.com/c45ccf538f7b0960f637759c44caad57.png",
           // image: "https://gyazo.com/350641ff9a20c8dddd01e28ddb9b6446.gif",
           links: {
@@ -84,7 +84,7 @@ export const shop: IShop = {
           license: License.CC_BY_4,
           footer:
             "Text by Fari RPGs under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
-          tags: ["srd", "new"],
+          tags: ["srd", "featured"],
           image: "https://gyazo.com/a2ed8a91a6c310fefb69289c7e4df310.png",
           links: {
             itchIo: "https://fari-rpgs.itch.io/breathless-srd",
@@ -476,12 +476,41 @@ export const shop: IShop = {
           type: ProductTypeEnum.SRD,
           description:
             "A guide to create solo games or generators with branched random prompts that the player organizes into a cohesive sequence via a single roll.",
-          tags: ["srd", "new"],
+          tags: ["srd"],
           license: License.CC_BY_4,
           links: {
             itchIo: "https://pandiongames.itch.io/threadsoflachesis",
           },
           image: "https://gyazo.com/f0297d02ee6a46009767e524b12855dc.png",
+          footer:
+            "Text by Pandion Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+        },
+        {
+          name: "Grove System",
+          slug: "grove-system",
+          type: ProductTypeEnum.SRD,
+          description:
+            "Create games that can be played anywhere with anything you have on hand - as a group or with an audience.",
+          tags: ["srd", "featured"],
+          license: License.CC_BY_4,
+          links: {
+            itchIo: "https://pandiongames.itch.io/grovesystem",
+          },
+          image: "https://i.imgur.com/KvEkpz8.jpeg",
+          footer:
+            "Text by Pandion Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
+        },
+        {
+          name: "Storyteller Creator’s Guide",
+          slug: "storyteller-creators-guide",
+          type: ProductTypeEnum.CreatorsGuide,
+          description:
+            "Create games that can be played anywhere with anything you have on hand - as a group or with an audience.",
+          tags: ["creators-guide", "featured"],
+          image: "https://i.imgur.com/xuBnzV7.png",
+          links: {
+            itchIo: "https://pandiongames.itch.io/storyteller-creators-guide",
+          },
           footer:
             "Text by Pandion Games under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
         },
@@ -548,7 +577,7 @@ export const shop: IShop = {
           type: ProductTypeEnum.SRD,
           description:
             "Give characters a laughably bad time with the Bad Time Game SRD!",
-          tags: ["srd", "new"],
+          tags: ["srd", "featured"],
           license: License.CC_BY_4,
           links: {
             itchIo: "https://urania-games.itch.io/bad-time-game-srd",
@@ -629,7 +658,7 @@ export const shop: IShop = {
           description: "A story-first, push-your-luck system for your games",
           image: "https://gyazo.com/a0b7d5f7d8349a73f0de331f85a78d25.png",
           links: {},
-          tags: ["srd", "new"],
+          tags: ["srd", "featured"],
           // license:License.CC_BY_4,
         },
       ],
@@ -687,7 +716,7 @@ export const shop: IShop = {
           links: {
             itchIo: "https://penflower-ink.itch.io/four-points-rpg-system-srd",
           },
-          tags: ["srd", "new"],
+          tags: ["srd"],
         },
       ],
     },
@@ -706,7 +735,7 @@ export const shop: IShop = {
           links: {
             itchIo: "https://ratwavegamehouse.itch.io/the-fight-card-system",
           },
-          tags: ["srd", "new"],
+          tags: ["srd"],
         },
       ],
     },
@@ -742,7 +771,7 @@ export const shop: IShop = {
           name: "BAGS",
           slug: "bags",
           description:
-            "A featherweight tag-based system built for kids and newcomers to run story games, easily modifiable to add depth.",
+            "A featherweight tag-based system built for kids and featured comers to run story games, easily modifiable to add depth.",
           image: "https://gyazo.com/6e4cbb4c874f4a5ab076ef3fbfcf6b76.png",
           links: {
             itchIo: "https://groovasaur.itch.io/bags",

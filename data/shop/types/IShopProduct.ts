@@ -14,6 +14,7 @@ export type IShopAuthor = {
 
 export enum ProductTypeEnum {
   SRD = "SRD",
+  CreatorsGuide = "Creator's Guide",
   Blog = "Blog",
   Resource = "Resource",
   Game = "Game",

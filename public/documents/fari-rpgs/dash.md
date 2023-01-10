@@ -4,6 +4,7 @@ headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
 headingUppercase: true
+languages: en,fr
 ---
 
 # Introductions

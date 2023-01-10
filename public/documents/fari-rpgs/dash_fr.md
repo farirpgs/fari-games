@@ -4,6 +4,7 @@ headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
 headingUppercase: true
+languages: en,fr
 ---
 
 # Introduction
@@ -24,7 +25,7 @@ On peut l'utiliser comme un aide-mémoire pour Charge, mais c'est aussi un tremp
 ## Traduction par
 
 | Name         | Discord        | Twitter                                      | Itch                              |
-|:-------------|:---------------|:---------------------------------------------|:----------------------------------|
+| :----------- | :------------- | :------------------------------------------- | :-------------------------------- |
 | `Bruno Bord` | brunobord#8075 | [@brunobord](https://twitter.com/brunobord/) | [Link](https://brunobord.itch.io) |
 
 # Le jeu
@@ -49,10 +50,10 @@ En tant que MJ, indiquez le _risque_ lié au jet (faible, modéré, haut) et _l'
 
 _Si vous vous retrouvez avec aucun dé à lancer, jetez 2 dés et gardez le plus bas._
 
-- Sur **66**, c'est une **réussite critique**. Vous atteignez votre objectif avec un *effet* amplifié.
+- Sur **66**, c'est une **réussite critique**. Vous atteignez votre objectif avec un _effet_ amplifié.
 - Sur **6**, c'est une **réussite complete**. Vous atteignez votre objectif.
 - Sur **4-5**, c'est un **réussite partielle**. Vous atteignez votre objectif, mais il y a une _conséquence_.
-- Sur **1-3**, c'est un **mauvais résultat**. Les choses vont mal, et il y a une *conséquence*.
+- Sur **1-3**, c'est un **mauvais résultat**. Les choses vont mal, et il y a une _conséquence_.
 
 ## Impulsion
 

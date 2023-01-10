@@ -30,7 +30,7 @@ export function ShopPage() {
   };
   const theme = useTheme();
   const isSmall = useMediaQuery(theme.breakpoints.down("md"));
-  const featuredGames = useGames("new");
+  const featuredGames = useGames("featured");
 
   return (
     <Fade in>
