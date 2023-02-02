@@ -7,7 +7,7 @@ Game text set in Times New Roman. Personae logo text set in Footlight MT Light.
 Drama masks image credit to Lorc (https://lorcblog.blogspot.com/), courtesy of game-icons.net (https://game-icons.net/1x1/lorc/drama-masks.html).
 Version 2 (v2) up-to-date as of Feb 1, 2023.
 
-## Introduction And Objective
+# Introduction And Objective
 
 The objective of Personae is to facilitate rewarding, enjoyable roleplaying game experiences. Personae provides a rules system for resolving conflicts within the confines of a shared, collaborative interactive fictional environment consisting of one or more players and the chorus, referred to hereafter as “the fiction”.
 
@@ -20,7 +20,7 @@ The objective of Personae is to facilitate rewarding, enjoyable roleplaying game
 - Other players, as well as the chorus, might offer suggestions as to how an identity might act, behave, perform or function within the fiction, but every player has principle authorial agency over their main character’s details, thoughts, behaviors and actions by default. Any influence over a player or chorus’s identities that come from the chorus or other players may only impact the fiction if the controlling player has given consent; the controlling player has “final veto power”.
 - Unless otherwise specified, the pronouns of identities, characters, players or the chorus are they/them by default.
 
-## Before We Start
+# Before We Start
 
 _Credit to Fari RPGs - Breathless RPG SRD - https://fari.games/en/srds/fari-rpgs/breathless-srd_
 
@@ -34,7 +34,7 @@ Here are two toolsets that may be of benefit to you in helping to establish and 
 
 One person is the chorus, the rest are players.
 
-##### The Chorus
+#### The Chorus
 
 - Narrates what chorus-controlled characters (CCs) do;
 - Guides the story and presents challenges to the group;
@@ -43,7 +43,7 @@ One person is the chorus, the rest are players.
 
 The chorus is a fan of the whole group, and are players as well!
 
-##### The Players
+#### The Players
 
 - Narrate what player-controlled characters (PCs) and identities do;
 - Issue or answer challenges when things are risky;
@@ -52,15 +52,15 @@ The chorus is a fan of the whole group, and are players as well!
 
 Unless it's stated otherwise, which it almost 100% isn't, everything below exists in the game's mechanics by default. When in doubt, it's a default.
 
-## The Measure Of An Identity
+# The Measure Of An Identity
 
 Personae identities, whether they be characters or otherwise, are comprised of attributes and traits.
 
-### Attributes
+## Attributes
 
 Every identity has **attributes**, an array of innate descriptive qualities. Attributes are an identity’s point of origin: they provide modifiers to skill rolls, and determine the maximum number of a trait that each attribute is associated with. Abbreviation functions as reference to attribute value, e.g. POW for Power. Each attribute is assigned a numerical value, expressed as whole numbers. By default they are never less than one(1), with the exception of hindrance priority attributes which can be zero(0). The maximum value of an attribute is imposed by the order of importance.
 
-### Attributes Explained
+## Attributes Explained
 
 - By default, all Personae identities have six(6) attributes.
 
@@ -78,7 +78,7 @@ Every identity has **attributes**, an array of innate descriptive qualities. Att
 
   - Stature - STA
 
-#### Competence
+### Competence
 
 _Competence_ represents keeping your head in the midst of uncertainty. It's a combination of an identity's force of personality, their presence of mind, social awareness or "street smarts".
 
@@ -88,7 +88,7 @@ The greater your Competence is, the more capable you are at performing different
 - Competence is a good attribute to add to skills rolled in interaction challenges that involve social situations.
 - The Counter skill is automatically unlocked for all characters when play begins, modified by their CMP.
 
-#### Prowess
+### Prowess
 
 Whereas Competence deals more with the big picture, _Prowess_ is all about details and particulars, formulating a plan and seeing it into action. Prowess is the measure of a character’s capacity for organization, their receptiveness to rigor and formal training, turning broad fields of capability into well-honed assets that get results.
 
@@ -99,7 +99,7 @@ Whereas Competence opens the door to a skill by unlocking it, Prowess improves t
 - The Prepare skill is automatically unlocked for all characters when play begins, modified by their PRO.
 - Prowess is a good attribute to add to skills rolled in challenges that involve discipline and rigor.
 
-#### Cunning
+### Cunning
 
 _Cunning_ represents the quickness of a character’s wits—their perceptiveness, ingenuity, hand-eye coordination, agility (particularly of the mind), ability to improvise, and poise/positioning.
 
@@ -107,7 +107,7 @@ _Cunning_ represents the quickness of a character’s wits—their perceptivenes
 - The Discern skill is automatically unlocked for all characters when play begins, modified by their CNG.
 - Cunning is a good attribute to add to skill rolls in challenges that involve maneuverability, awareness, and acting on instinct rather than rational thought.
 
-#### Power
+### Power
 
 _Power_ represents exerting force of will. There are many words synonymous with this, such as determination, resolve, drive and conviction, but they all refer to the same principle: ensuring that your desire takes shape when confronted with the desires of others who may stand in your way, and refusing to allow those conflicting desires to take shape as well. For characters who practice the supernatural, it is the avenue by which they tap into the source of their craft to manipulate reality, breaking the theories and laws dictated by science.
 
@@ -116,7 +116,7 @@ _Power_ represents exerting force of will. There are many words synonymous with 
 - If the supernatural exists in the fiction, all characters have the capability to manipulate it in one way or another. Not all characters produce the more drastic types of effects covered by powers, however, and may use those points to upgrade enhancements instead.
 - Power adds to skills that are necessary for using powers (that call for you to issue a power challenge), and otherwise is a good attribute to add to skills rolled in challenges that involve rebuffing challenges intended to sway the character’s mind.
 
-#### Knowledge
+### Knowledge
 
 _Knowledge_ represents a character's aptitude for academic interests and craft. This includes what the character knows about any given topic (such as history, alchemy, medicine), or how to make things with craftsmanship (such as weapons, sailing ships or furniture). The character turns what he knows into languages, areas of expertise, or resources that represent material wealth.
 
@@ -124,7 +124,7 @@ _Knowledge_ represents a character's aptitude for academic interests and craft. 
 - The Deduce skill is automatically unlocked for all characters when play begins, modified by their KNO.
 - Knowledge is a good attribute to add to skills rolled in challenges involving knowing, learning, or acting on information already known.
 
-#### Stature
+### Stature
 
 _Stature_ represents the character’s physical body. Stamina and raw might both fall into this category. Stature reflects how much punishment a character can take, expressed as the character's vitality.
 
@@ -133,13 +133,13 @@ _Stature_ represents the character’s physical body. Stamina and raw might both
 - The Defend skill is automatically unlocked for all characters when play begins, modified by their STA.
 - Stature is a good attribute to add to skills rolled in challenges that involve , brute force, endurance, or hardiness.
 
-### Traits
+## Traits
 
 It's not enough that characters are strong, smart or wily—if that strength, intelligence or cleverness can't be put to use, then they can't ever accomplish anything worth telling stories about. Traits are the means by which identities interact with the fiction, turning their hopes and dreams into reality. Characters with compelling stories don't exist without a vehicle for achieving the goals and desires that they cherish the most.
 
 By default, Personae identities have five different types of traits: skills, enhancements, powers, talents, and vitality.
 
-#### Skills
+### Skills
 
 Skills represent the time, training, and devotion that a character invests into becoming better at performing actions. Skills are the <u>foundational basis</u> for performing actions.
 
@@ -166,7 +166,7 @@ Supernatural practice is included in these types of actions, initiating effects 
 
 _Ex. Your potential is 1, your skill rating max is 3_
 
-#### Enhancements
+### Enhancements
 
 Enhancements (Es) take a character from ordinary to extraordinary, constantly testing the boundary between possible and impossible. Es make a character better at their other traits in a variety of different ways, such as superior training or the more subtle influence of the supernatural. Es can also improve or modify the effects of a character's powers. The exact benefit that each of a character's Es provide are agreed upon and defined through player-chorus consensus, in keeping with commonly agreed-upon internal consistency and sense of the fiction.
 
@@ -201,7 +201,7 @@ This is not an exhaustive list. Es don't have to have a mechanically quantifiabl
 - Exceptional (X): Es identified as Exceptional are those that represent such a significant degree of investment in the enhancement they're applied to that no circumstance, fictional or otherwise, can ever deprive the identity possessing it of its benefit. Applying the Exceptional identifier to an enhancement requires investing more than one creation point or development point by default (see “Creation Points” and “Advancement”, respectively).
 - Es must have the superior identifier first before they can be exceptional—a total expenditure of 3 creation or development points.
 
-#### Powers
+### Powers
 
 Commanding bolts of lightning to strike from the sky, running faster than an arrow in flight, gazing upon distant vistas through a polished mirror—all of these, and too many more to count, are what we call powers: the direct application of the supernatural. Practitioners who use powers initiate drastic changes to reality, breaking the rules of science to make the impossible possible. The maximum number of powers a character begins play with is equal to their POW, and power is the default attribute that gets added when either issuing or answering power challenges.
 
@@ -218,7 +218,7 @@ The possible applications of a character's powers are limited only by the player
 - Independent (T): Independent powers are the same as Maintain powers, however they remain in effect regardless of the action of the character who initiated the power—the power is brought into effect, and remains in effect until the end of the nonviolent or violent encounter.
 - Special (S): Powers whose durations do not fall into one of the three above duration categories have a Special duration. A power with Special duration has its duration specifics detailed in the power's description, e.g. a power that is activated as a violent encounter begins without needing to use an action to activate it.
 
-#### Talents
+### Talents
 
 _Talents_ are similar to skills but differ in an important respect: whereas talents also represent things that a character is good at, it's through skills that the character thrives in a world of conflict. A character might be good at baking or playing the tuba, but unless you're in a baking contest, or a battle of the bands, your capability with either of these things is categorized as talent rather than skill, mechanically speaking. This doesn't mean, however, that talents have no mechanical impact on a character. On the contrary: talents either represent languages the character knows, subject areas the character has expertise in, or sources of material wealth for the character. At creation, the maximum number of talents a character begins play with is equal to their KNO.
 
@@ -245,29 +245,29 @@ Cost rating 10+: Unique
 
 The cost ratings of items represent a combination of the value of an item as well as its availability. (An item's legality, for instance, can affect its cost category; a pack of cigarettes might be considered of common cost in one country of your game's setting, for example, but in another country, where tobacco is a religious taboo, it might be considered of rare cost). Circumstances throughout the course of a story might result in one or more characters being granted a temporary increase in their resource cap (finding a cache of jewels and coins, a boon from a king or wealthy lord, the theft of antiquities from an ancient history museum). This temporary boost should be correlated to a specific number of scenes before being expended.
 
-#### Vitality
+### Vitality
 
 _Vitality_ represents the degree to which an identity is able to issue or answer challenges, to affect the direction of the story with their goals and desires. It is most immediately relevant in violent encounters, but the effects of a decrease in vitality may be experienced beyond one encounter and into others. This is dependent, as are many things, on sense within the fiction: for a character, for example, this might represent health, whereas if the identity is a locked door, and you are operating under the principle that “anything can be an identity”, the vitality of the door is how many hits it can take before being rendered no longer an obstacle.
 
 An identity is negated—approaches inoperative status, either either temporarily or permanently—as it sustains too many hits during violent encounters, progressing through a series of four shock levels, each one more precarious than the last. By default, a character can sustain a number of hits, marking them against their vitality, equal to 1 + STA, before sustaining shock level 1. A character's vitality, shock levels, how an identity sustains hits to vitality, identity negation, and other related matters are further explained in "Violent Encounters".
 
-## Creating Personae Characters
+# Creating Personae Characters
 
 All characters are identities, but not all identities are characters. Characters are identical to identities from a game mechanics perspective, with the only exceptions being (1) that they are subject to the attribute order of importance, (2) how they begin play through the creation process, and (3) that they have the potential stat. Identities that are not characters may be introduced or controlled by either players or the chorus, as guided by group consensus and sense within the fiction.
 
-### Character Concept
+## Character Concept
 
 Before play begins, the group should decide on the cast of characters that the players will portray. This should be a dialogue where the entire group, both players and the chorus, are involved. Once this is decided, and before characters are expressed in statistical terms through creation, then each player should start by defining their main character's concept. Concept includes, but isn’t limited to, the character’s physical description, personality, morality, allegiance, motives, and background. Once this is established, it helps both the chorus and players to distill this information into a few keywords that sum up the concept: “Post Civil War Entrepreneur”, “Desert Elf Singing Warrior”, and “Merchant, Privateer, Scoundrel” are good examples of this. Once each player has decided upon their character's concept, then the characters' stats can be established for the beginning of play.
 
-#### Creation Points
+### Creation Points
 
 Creation points are the source of the characters' attribute values when play begins. At creation, you have a pool of creation points, determined by the party's starting potential, that you will allocate to your character's attributes in keeping with order of importance. As the story progresses, the characters' growth will be further quantified through advancement, where each player will receive development points to increase their characters' attributes with.
 
-#### At Creation
+### At Creation
 
 At creation, attributes are given a value of zero (0) or greater by the allotment of creation points to each attribute. The resulting attribute value determines the maximum number of traits (vitality, powers, skills, enhancements and talents) that the character will begin play with.
 
-| Attribute  | Maximum # Of           |
+| Attribute  | Maximum Of             |
 | ---------- | ---------------------- |
 | Competence | Unlocked skills        |
 | Prowess    | Prowess pool (PRO × 3) |
@@ -276,14 +276,14 @@ At creation, attributes are given a value of zero (0) or greater by the allotmen
 | Knowledge  | Talents                |
 | Stature    | Vitality (1 + STA)     |
 
-#### During Play
+### During Play
 
 Once play begins, attributes are added to the result of skill rolls when a challenge must be resolved. Every skill will have a default attribute that is added, but depending on the type of skill being rolled, one attribute may be more appropriate to add to the die roll than another.
 
 - Attributes can be increased once play begins through advancement, receiving development points;
 - Development points are similar to creation points used in identity creation, only they may be spent either to increase attributes or acquire new traits. This is explained in greater detail under "advancement" below.
 
-#### Character Creation Process
+### Character Creation Process
 
 By default, PCs start with ten(10) <u>creation points</u>, a <u>potential</u> of 1 (sum of attribute values ÷ 10), and a <u>potential threshold</u> of 3 (potential +2).
 
@@ -301,7 +301,7 @@ For example, a group decides that their characters will begin play with thirty(3
 
 **Attribute Maximums:** Attribute values of priority _x_ cannot exceed attribute values of priority _x_-1 by more than the character’s Potential, e.g. a character with Potential 3 cannot have 1st-priority attributes whose value exceeds any 2nd-priority attributes by more than 3. If there’s a difference, take the least of the two.
 
-#### Potential
+### Potential
 
 A character's potential reflects a threshold for a character as it journeys through life. Potential acts both as a yardstick that measures the number of a character’s experiences against other characters and identities, as well as a bar that the character cannot surpass without further advancement. This bar represents the upper limit for some of the character’s traits, increasing as the character progresses through events in the fiction. Just like the character's attributes, potential is a whole number, only it cannot be less than one. Potential is directly proportional to the character’s attributes; it is equal to the sum of the values of their attributes divided by five, ignoring the remainder.
 
@@ -328,7 +328,7 @@ By expressing traits in active voice, it helps to clarify the goal(s) of a chall
 **Using Power to Upgrade Enhancements:** Given the fiction and a character’s concept, their player might decide that it won't use powers in the course of play. However, neither player nor character should ever be penalized for staying true to the character's concept. If the player feels it's still important for their character to have a POW greater than one(1), to help adjust Steel rolls when answering power challenges, for example, or to represent an item that's exceptional by supernatural means, that concern is valid. A player may instead use creation points assigned to their character's power attribute to upgrade the character's enhancements, or to represent the powers that have been imbued into an item that's exceptional by supernatural means.
 _A player whose character has a POW of 3 decides that their character will not have powers—their character grew up in a society where no one has ever known how to tap into the supernatural. The player may use the three points they would have normally used to acquire powers in creation to instead upgrade enhancements, or to decide that the character is benefiting from an item that's exceptional by supernatural means._
 
-##### Vitality, Shock, Inoperative/Negated:
+#### Vitality, Shock, Inoperative/Negated:
 
 - A character can <u>sustain a number of hits</u> equal to their vitality (1 + STA) before sustaining shock level 1
 - Each shock level <u>imposes a penalty of _x_ dice</u> on all challenges issued or answered, where _x_ is equal to the level
@@ -338,7 +338,7 @@ _A player whose character has a POW of 3 decides that their character will not h
 
 **Determine Starting Gear:** Characters begin play with whatever gear that their character owns, as agreed upon between player and chorus, the table consensus, and what makes sense within the fiction. Characters begin play with gear that makes sense for them to be able to use their skills.
 
-#### Gear And Equipment
+### Gear And Equipment
 
 All characters have the basic tools they need on hand: Do you have a Strike skill? You have a weapon to strike with. Have a Pick Lock skill? You have lockpicks. In their adventures, characters will come across items that help even more so than their average counterparts.
 
@@ -363,13 +363,13 @@ CRAFT: Advanced tech, extraordinary craftsmanship. For every such property the p
 
 SUPERNATURAL MEANS: Magical, physics-bending, unexplained. For every such property the player must assign a power during creation, upgrade an existing E, or spend one or more development points earned from advancement to unlock the powers that the item offers. This represents the character investing a portion of their capacity for the supernatural into the item in order to take advantage of its benefits.
 
-## Playing A Personae Game
+# Playing A Personae Game
 
 Once everyone’s made characters, it's time to begin play! Keep in mind that, along the way, although things such as attack challenges and extended challenges have specific names to identify them, more often than not once you start to get the hang of the game, the processes and terminology will be understood. It might go without saying, for example, who the actor and reactor are in a given challenge once the group has gotten a good grasp of the process for resolving a challenge.
 
 While all roleplaying games don't involve the use of dice, this one does. Fear not, however. The only dice you'll need are ten-sided, labeled 1 to 10. Keep plenty on hand—you'll never know how many you'll need, depending on what you and your chorus decide upon, but it's the only type of dice you'll ever need at the table. Whenever dice are referred to in this system, such as the rating for a skill, “roll x dice”), the system is asking you to roll ten-sided dice (shaped like decahedrons, for those of you ).
 
-### The Challenge
+## The Challenge
 
 Whenever two or more identities wind up at cross purposes to each other, then it's time for one or more of them—regardless of who is controlling them—to issue a challenge. Both identities involved in a challenge
 
@@ -392,7 +392,7 @@ Here's a more detailed process for resolving a challenge:
 3. Both actor and reactor compare their final result totals. If the actor has the greater total outcome, then the actor succeeds the challenge; if the reactor has the greater total outcome, then the reactor successfully answers the challenge (the actor fails the challenge).
 4. In the event of a tie, both actor and reactor look to their next-highest die, and factor in additions as explained above the same way they did for the highest die, and compare again. If, by some chance, there is another tie, continue this process for the third-highest die, and so on. If all dice tie over the course of this process, then the one who succeeds on ties is the one who still has dice to compare, whereas the one fails is the one who has no dice left. (For example, if the actor has 3 dice in a skill, and the reactor has 2 dice in the skill they are reacting with, then the actor succeeds the challenge on ties if the result of the highest and 2nd-highest dice are a tie.)
 
-### Critical Success
+## Critical Success
 
 When you roll an unadjusted 10 on one die, it’s good. When you roll an unadjusted 10 on more than one die, it’s critical! Every unmodified 10 rolled beyond the first is a critical (may be abbreviated as crit for a shorthand). Criticals add up: keep track of every one you generate, because you can expend them for something special such as a bonus on a skill roll, additional injury inflicted with an attack, an automatic success, or something cool that everyone agrees on. Criticals can be given to other players or to chorus-controlled identities as it makes sense within the fiction.
 
@@ -409,7 +409,7 @@ Criticals can be given to other PCs (or other player-controlled identities) or C
 
 Additionally, it should be decided as to whether or not identities under the chorus's control can generate or retain criticals for the chorus as well. If it is decided that the chorus’s characters can generate and retain criticals, then a similar conversation should be had about how to handle criticals just as it was done for player-controlled identities. One possible avenue for chorus-controlled identity criticals is to have them all saved in a pool regardless of which identity generates them, in order to help with resource management.
 
-#### Assisting In A Challenge
+### Assisting In A Challenge
 
 Often times, two or more identities will want to aid each other in the successful resolution of a challenge. When this is the case, first the identities who wish to assist another must be involved in the same type of challenge—the skills being employed by all identities involved must be at least similar, if not the same. The number of identities who can assist in the challenge should be agreed upon by the group, depending on the nature of the skill being rolled.
 
@@ -419,25 +419,25 @@ Often times, two or more identities will want to aid each other in the successfu
 
 Once those particulars are addressed, the identity performing the primary action must first be determined; this is usually the identity with the highest rating in a skill. The primary actor must be determined before any dice are rolled. Once the primary actor has been determined, then the other identities assisting in the challenge must perform some type of action with the skill that they are assisting with. The only identity to make the actual challenge is the primary actor—those identities who are assisting each grant the primary actor a bonus of one(1) die to the primary actor's skill roll.
 
-### Goals
+## Goals
 
 No matter what the nature of a challenge, the goals—desired outcomes—of the identity issuing a challenge should always be declared and made plain, not only to the opponent but everyone involved in the encounter as well. “I'm issuing an attack challenge to the cultist: if I succeed the challenge, then I will have struck him successfully with my sword, resulting in them sustaining a hit.” It also helps to extrapolate from the goal of a single challenge and declare what your overall goal is, especially in the case of more than one challenge in a series such as combat: “If I wound him successfully, then I am going to try and talk him down by threatening to bring him to his knees with my blade! If I talk him down from fighting, then I will place him under arrest, binding him, so that I can bring him to justice for his crimes against the king!” Declaring goals and intentions along with declaring actions help to clarify the direction of one or more challenges, to keep all the players mindful of the consequences of their actions. Goals should be, at the very least, discussed before a challenge is issued, and before a scene or encounter escalates.
 
 Another part of discussing the objectives of a challenge should take place after the outcome of a challenge is decided—the identity issuing a challenge should (a) ask whether or not the challenge is over, which in most cases will be apparent, and (b) if not, declare whether or not it wishes to extend the challenge.
 
-## Moderating A Personae Game
+# Moderating A Personae Game
 
 In a Personae game, the chorus takes the lead at the table for making sure that the game runs smoothly, that all the players act respectfully towards each other and towards the chorus, for resolving rules disputes, for setting the scene and describing what the players' characters experience through their senses. The role of the chorus is also to work with the players to negotiate for their characters' trait details. The chorus is the final arbiter of disputes—discussion of disputes is acceptable and encouraged, but once the chorus has made a decision on a matter, then further discussion or argument should take place away from the game, so as to not slow the game down or spoil the fun for everybody.
 The following are areas which the chorus will come across in the course of moderating a Personae game, which he should develop an opinion on and, if necessary, discuss with the group so as to come to an agreement on them through consensus.
 
-### Fiction First
+## Fiction First
 
 _This section condensed and paraphrased from, and inspired by, The Book of Hanz (found at https://bookofhanz.com/), a product of Amazing Rando Design, developed, authored, and edited by Robert Hanz, John Adamus, and Randy Oest and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/)._
 
 “Sense within the fiction” is a term that is used frequently throughout the Personae system. Personae is intended to be complete, mature and robust, but it is unable to cover every possible edge case or specific case for every group that plays a Personae game anywhere, ever. The rules are intended to be a baseline, and may have to be clarified, supplemented or expanded on an as-needed basis. However, such clarification, supplementation or expansion should be in service to the fiction. That is a matter of gameplay philosophy, but it is the predominant philosophy of Personae. Simply because the rules allow for something to happen shouldn’t mean that it breaks the internal consistency, the “verisimilitude” of the communal narrative space shared by the players and chorus.
 There are lot of decisions to be made by a group in a Personae game, not only about the fiction but about how mechanical questions are addressed. It might behoove the group to come up with a “game creation” document to help keep track of decisions made by consensus.
 
-### Talk Amongst Yourselves
+## Talk Amongst Yourselves
 
 [Credit to Apocalypse World and many other Powered by the Apocalypse games for inspiration by way of “the conversation”. Meguey Baker, Vincent Baker. apocalypse-world.com]
 
@@ -449,21 +449,21 @@ The conversation at the table might shift from 1st person to 3rd person point of
 
 This goes for how the game’s mechanics are triggered in order to facilitate play progression is concerned as well. One player may feel a challenge is being issued; another player may not feel issuing a challenge is necessary. The whole group should discuss, and the chorus should look to establish consensus as quickly and efficiently as possible to everyone’s satisfaction.
 
-### The Chorus Is A Player Too
+## The Chorus Is A Player Too
 
 The chorus is a facilitator, and might be more knowledgeable about how Personae works than others at the table, but that doesn’t instill the chorus with any special authority that might make the other players in a group subordinate. The chorus is a player too—they simply have an extra set of responsibilities and tools at their disposal to help express and represent the world that the players are interacting with the fiction through. The chorus isn’t a “master”, isn’t an autocrat that must be blindly obeyed simply because they’re wearing the chorus hat. That kind of mentality doesn’t belong in a Personae game.
 
-### Nothing Is Broken, Nothing Is Fixed
+## Nothing Is Broken, Nothing Is Fixed
 
 There are a very few things that are absolutely necessary in order to be playing a Personae game: attributes, traits, identities and challenges are very likely the “kernel” of a Personae game. That being said, chorus shouldn’t feel that this rules document is a straitjacket, but a guide. It might make sense for a player- or chorus-controlled identity to have different attributes than what is standard. It might make sense for a whole new type of trait to be introduced, and how that trait connects to an attribute.
 
 Since anything can be an identity, it might not make sense for a very abstract identity to have the same attributes a character has. In fact, a group may decide to subdivide identities, or give them more specific descriptors such as game identities, scene identities, object identities and so on. The ultimate determination of what “the rules” are, and whether the players or chorus are “following the rules” is the players and chorus within any given group.
 
-### Extended Conflict
+## Extended Conflict
 
 Challenges typically take place between two identities, one the actor and the other the reactor. There will be times, however, where a single challenge will not adequately resolve a conflict between two opposing points of view. A point in a debate is made, but it does not convince the opponent sufficiently; a sword wounds a murderer, but the murderer refuses to back down. In cases such as these, both actor and reactor should make their objectives clear to determine whether or not the conflict must be extended—whether or not multiple challenges, resolved in succession, must be initiated in order to resolve the conflict at large. The overall conflict, discussed between players or chorus, should direct the ultimate resolution, based on what's at stake and what the ultimate goals of both actor(s) and reactor(s) are. Whether or not the “meta-resolution” is achieved, for either side of the conflict, should be reassessed periodically throughout the extended conflict, until one side achieves the kinds of results they want and the losing side backs down.
 
-#### Nonviolent Encounters
+### Nonviolent Encounters
 
 Extended conflicts can be applied to situations where there is no fighting. A stealthy trek through a city at midnight, a lengthy debate, or a chase sequence—all of these are considered nonviolent encounters. While some groups may choose to create a system similar to a character's vitality and shock in order to handle extended nonviolent challenges, they can be resolved just as easily with a series of separate challenges, or one initial challenge followed by a series of additional challenges. Group consensus is always the best way to decide on what method of resolving nonviolent extended challenges will work best with the group.
 
@@ -477,7 +477,7 @@ When it comes to asking questions, however, in order to determine whether an ide
   - As a result, the group may decide that more talents should be invested in a narrower degree of expertise in order to satisfy the question being asked. An identity might have an expertise in science, and an additional talent invested in astrophysics for example. The expertise in science wouldn’t have the answers to a question about Hawking radiation, but the additional astrophysics talent would.
 - Method 2, Subject Area as Identity: If method #1 is unsatisfactory for a group, a subject area can be modeled as an identity, since anything in a Personae game can be an identity. It doesn’t have to have the same attributes as other identities: in fact, a “science” identity can have attributes or traits related to increasingly complex or intricate concentrations, such as astronomy, medicine, etc. How the identity is crafted should be decided upon by the group, and make sense within the fiction.
 
-###### Obstacles
+##### Obstacles
 
 Characters will not always enter into challenges with each other. A locked door is just as much of a challenge as a big, hulking ogre with a wicked looking axe. In the case of these “static” type of obstacles that wind up occasionally in the way of a character (inanimate elements that are incapable of dependent or independent action, and impede a character's progress in some way), there is a dilemma. The system of opposed rolling is not as concerned with locks, or barred doors, or walls that have to be jumped over—it is more concerned with resolving the outcome of conflicts that involve an active investment of thought and deed from two opposing sides, not just one. A barred door might stand in the way of heroes chasing down the evil wizard, but the conflict is with the wizard, not the barred door. The thirty-foot wall might surround the tyrant's fortress, but it's the tyrant that's more of a problem for the rebels, not the wall. It is the responsibility of the game group to come to a consensus on how these types of “unopposed challenges” affect the overall direction and drive of the story, and ultimately how they are resolved.
 
@@ -517,7 +517,7 @@ _Ex. A foppish noble wishes to jump from a 2nd story window without hurting hims
 
 This gives player-controlled identities objects to issue challenges to, so that they can be negated (rendered inoperative). This opens up the possibility of nonviolent encounters affecting vitality and shock—the vitality of a locked door might be the quality of the lock, and the burglar might inflict hits against the door’s vitality representative of bypassing its security measures. Sense within the fiction will be the primary driver of how to make the game mechanics align with the environment being simulated by identities in this case.
 
-#### Violent Encounters
+### Violent Encounters
 
 As has been mentioned above, the Personae system thrives on the belief that the rules only need to be as intricate and detailed as you need or want them to be. This especially applies to combat—conflict that involves violence, whether it be physical, mental or social, as it makes sense within the fiction. The challenge can be applied to a wide variety of situations, both combat and non-combat related. There's nothing saying that war, for example, can be a backdrop for storytelling—it has been done before—but the focus should be on using the mechanics to provide a common unit of exchange both players and chorus are happy with when it comes to resolving conflict, and doesn’t have to be not on the blow-by-blow detail of thousands of soldiers killing each other (and more importantly, resolving the entire exchange with hours upon hours of dice-rolling).
 
@@ -537,13 +537,13 @@ Regardless of the method used to set down the order of who acts when, the identi
 
 - Compound turns
   - Move + action + one or more additional actions
-    - _x_ # Of Actions → _X_ # Of Challenges
+    - _x_ Of Actions → _X_ Of Challenges
   - Combination of follow-up and subsequent challenges
 
 “What can you do with more actions?” Having more actions makes you more effective at accomplishing your goals, more versatile—better able to respond to shifting circumstances. Having more actions lets you affect more than one opponent, affect the same opponent multiple times, "hand out" more benefits to allies, better control the encounter space, better react to/adjust to changes to the encounter space.
 "How do you get more actions?" Enhancements and Powers.
 
-###### Follow-Up Challenges
+##### Follow-Up Challenges
 
 - Rely on momentum, success stacked on success—follow-up is only possible if identity succeeds initial challenge issued
 - Require less overall effort on the part of the character—should be afforded by Es or powers first before additional actions
@@ -554,7 +554,7 @@ Regardless of the method used to set down the order of who acts when, the identi
   - depending on how many dice are available
   - how many follow-ups are afforded by the terms of enhancements or powers
 
-###### Subsequent Challenges
+##### Subsequent Challenges
 
 - More taxing, require more wherewithal and coordination of effort
 - Es and powers should afford follow-up challenges first before subsequent challenges, and upgrade to allow each action/subsequent challenge to involve a different skill if desired
@@ -679,7 +679,7 @@ All identities freely unlock six skills, three of which are reactive—expressin
   - It is up to player-chorus consensus to decide on the exact mechanical benefit from armor:
     - for example, one possible benefit that above-average armor might provide is to allow the wearer to ignore the results of dice that the attacker has rolled in an attack challenge (this would take place after any rerolls have been resolved)
 
-### Advancement
+## Advancement
 
 Throughout play, players will earn development points, which they can use either to increase the attributes of or acquire new traits for the identities they control. These development points gained through advancement reward the players for expressing their characters' concepts in a meaningful way, accomplishing goals that are either personal or group-oriented, and for the overall progression of a good collaborative story at the end of a session.
 
@@ -699,7 +699,7 @@ If you choose to acquire a new trait for your character, one point invested will
 - acquire a new talent
 - Increase vitality by one, allowing them to sustain one more hit in a violent encounter before suffering shock
 
-#### Upgrades
+### Upgrades
 
 Rather than acquire new traits, a character can upgrade a trait instead. Rather than acquire a new power, for example, the player can increase the potency or utility of one of their character's existing powers. Upgrading traits, rather than acquiring a new trait that performs a similar effect, not only cuts down on a player's bookkeeping and helps to speed up play, it helps to better focus the character rather than have the character spread thin. (Of course, there's always those characters who enjoy being a jack-of-all-trades type, so the system is capable of catering to either end of the spectrum when it comes to acquiring new traits. Always remember to stay true to your character's overall theme or concept when considering advancement).
 
@@ -707,7 +707,7 @@ Rather than acquire new traits, a character can upgrade a trait instead. Rather 
 
 **Enhancements as Exceptional:** If you wish to define one of your enhancements as exceptional, you must also at the same time define it as superior—effectively worth three creation or development points depending on when its purchased.
 
-#### Framework Of Advancement
+### Framework Of Advancement
 
 Players should work with the chorus in building into a power or enhancement an advancement framework, or at the very least envision what such a framework might look like even if it’s not specified as a whole from the outset. Rather than making a newly-acquired power or enhancement excessively powerful, there should be room for the power or enhancement to be upgraded with additional development points gained through advancement.
 
@@ -721,17 +721,17 @@ _Ex. advancement progression with a skill: Reroll (3rd die, 2nd result) → rero
 
 **Talents:** Expertise talents could be upgraded to allow for more than one use per session, to provide more than one bonus die when a skill is rolled, or increase the character's resource cap by more than one.
 
-### Space And Time
+## Space And Time
 
 While the world (or universe, or multiverse) within the fiction may have very specific rules for the passage of time (which are very similar to the passage of time outside the fiction), not every moment of time outside the fiction translates to a moment within the fiction. Long sea voyages may be hand-waved: “it's three weeks later, and you arrive in port”, for example. Such concessions are often made for the sake of efficiency—not everyone wants to roleplay out every single day on such a voyage, unless it has some direct impact on the progression of the story. Just as such concessions are made for the long-term passage of time, they should also be made for smaller-scale time increments as well.
 
 In the Personae system, mechanically speaking, time is specified in three different ways: days, scenes, and sessions.
 
-#### Day
+### Day
 
 A day is a period of time that may or may not map directly to the fiction. Regardless of the particular way in which a day passes, a day acts not only just as a way to record the passage of time in the fiction, but acts as another unit of time "currency" the same way a scene does. The descriptive text of powers or enhancements can refer to the day as a limiting factor, such as "once per day".
 
-#### Scene
+### Scene
 
 A scene is a fraction of time that takes place during a game session, an organizational unit typically defined by time within the fiction (days, hours, etc.) and location. Just like a novel is divided into chapters, or a play into acts and scenes, a typical session in an ongoing storyline should consist of several scenes. A scene can last any amount of time, which should not be predetermined (not all scenes will last for one hour, or thirty minutes, or any other specific amount of time). The content of a scene can vary from scene to scene—sometimes it's just receiving information from a venerable sage, but can also involve a thrilling swordfight or a chase.
 
@@ -742,44 +742,44 @@ While the former type of scene is common and sometimes very necessary, the best 
 
 The exact details of a scene should be agreed upon by the group, but be balanced at the same time: allow roleplay to dictate what happens in a scene, not something pre-determined or pre-written, don't cut the players short in what they want to accomplish in a scene, but at the same time don't let a scene languish—periodically ask the players what they are trying to accomplish, and what their overall objective is when beginning a scene. Most of this will happen organically as time goes on, but it's good practice to be mindful of these things as gameplay takes place.
 
-#### Session
+### Session
 
 A session of the game can last anywhere from two hours or more, but generally encompasses all of the scenes that take place in the course of one "real-world" meeting of the game group. Traits may refer to game sessions in the explanations of their benefits to a character.
 
-#### Encounter
+### Encounter
 
 An encounter is a scene that involves conflict. Goals frame the rising action of an encounter.
 **Nonviolent Encounters:** Encounters typically start with words, and are referred to as nonviolent encounters because in a nonviolent encounter, there is a chance that the encounter will not come to weapon blows or offensive powers.
 **Violent Encounters:** Violent encounters ensue when words begin to fail, and identities begin staking their lives by bringing harm upon others to accomplish their desires.
 
-#### Time And Encounters
+### Time And Encounters
 
 The best stories involve a tightly-structured plot, and the best plots emerge from the strongest conflicts. Without conflict, there is no plot, and without plot there is no story (at least, not one worth engaging in). It's very easy to have characters walk around the world, carrying on conversations with people they meet, and in general doing nothing in particular. It's when ideas and practices begin to clash against each other: the best form of government, belief in the gods or the supernatural, secrets about the history of the world that conflict arises, and that conflict—and its resolution—drives the best stories.
 
-#### Escalation
+### Escalation
 
 When a scene becomes an encounter, the scene is said to have escalated. The order of escalation is as follows:
 scene → nonviolent encounter → violent encounter
 
-#### Resolution
+### Resolution
 
 As discussed above, a violent encounter is resolved as an extended challenge, where all identities involved in the challenge are put into an order of action by rolling to determine the action order. The violent encounter could be resolved in as little as two or three rounds, or as many as ten or twelve rounds. The resolution of the conflict should be kept in mind by both players and chorus as the violent encounter unfolds, and the chorus should periodically ask if the goals of the player-controlled characters have been achieved. (This might occasionally involve discussing “out-of-character”, "out-of-game", or “player” knowledge, rather than “in-character" or "in-game" knowledge, but in cases where the death of characters isn't the immediate goal, this should be made plain by all parties involved.)
 
-#### Encounter Time Vs “Game” Time
+### Encounter Time Vs “Game” Time
 
 The amount of "game" time (the way time is tracked within the fiction) that passes in the resolution of an encounter should be a consensus of both the players and the chorus, especially in the case a violent encounter. Rounds in a violent encounter are little more than a way to make sure that everyone gets a turn in combat, and that such turns aren't all taken at the same time; they are at best only an abstract way to determine the passage of time. If one game group wants to say that one round equals ten seconds, that's fine; it doesn't mean that every game group has to do this as well. In fact, if a group wants to determine the passage of “game” time after a violent encounter is resolved (“this combat took about twenty minutes”, for example), that's okay too.
 
-### Distance And Location
+## Distance And Location
 
 The impact of space and its dimensions increases as you progress from scene, to nonviolent encounter to violent encounter. The distance covered by an arrow in flight, the range of a lightning bolt conjured by a mage, or how long it takes for the scout to scurry stealthily back to the allied camp become increasingly more important as conflict intensifies.
 
 While it's a point that has been amply expressed across the body of these rules, it applies here as well: just as time is a matter that should be agreed upon by the game group, so should space be one as well. If one group prefers a closely-structured, tactical framework for determining distance and location (such as a large-scale grid and miniatures), then they are welcome to implement such things in their game. For groups that prefer to focus on the narrative resolution of a violent encounter, and aren't so worried about the particulars of distance and location, then the group can use relative terms such as “close”, “near”, “far” and “out of range”. The system provides an abstract way to resolve conflict in both nonviolent and violent encounters, and it's at the game group's discretion to define or not define these things to their desired level of distinction.
 
-### Supporting Characters
+## Supporting Characters
 
 All the characters that the main characters encounter throughout the course of a story, whose actions are controlled by the chorus, are referred to as supporting characters (non-player characters, or NPCs, in traditional role-playing game parlance). Most supporting characters will only require stats if they will have an impact on the progression of the story, interacting with the main characters in such a way that establishes, escalates, and resolves conflict.
 
-#### Companions
+### Companions
 
 Main characters will often have sidekicks, cohorts, familiars, and loyal followers. Companions are a special type of player-controlled identity (see below). The maximum number of companions a character is able to have should be decided upon by group-chorus consensus.
 
@@ -797,11 +797,11 @@ Companion Development: A companion character goes through creation the same way 
 
 You must spend your own development points to increase the attributes of your companion characters. You may upgrade the companion enhancement in order to increase the companion from a minion, to a minor, to a major ally, in that order, each requiring their own development point expenditure.
 
-#### Allies
+### Allies
 
 Allies are supporting characters that aid main characters in the pursuit of their goals, controlled by the chorus unless they are companions.
 
-#### Adversaries
+### Adversaries
 
 Adversaries are chorus-controlled identities that have goals of their own, oftentimes running in opposition to the main characters' goals. Whether the supporting character is an ally or an adversary, each follows a three-level progression of overall "toughness", relative to the main characters:
 
