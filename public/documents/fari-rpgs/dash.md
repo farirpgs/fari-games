@@ -168,7 +168,7 @@ Characters in Dash are proactive, and take matters into their own hands. But, wh
 
 ## Your Details
 
-A character is usually defined using details. Details are aspects that are true about a character. Those aspects give them narrative liberties in the fiction. Think about the important aspects of your game, and include them as character details. Things like backgrounds, relationships, equipments, etc. Once defined as details, player characters can just use or call to them without having to roll for anything for they are true.
+A character is usually defined using details. Details are aspects that are true about a character. Those aspects give them narrative liberties in the fiction. Think about the important aspects of your game, and include them as character details. Things like backgrounds, relationships, equipment, etc. Once defined as details, player characters can just use or call to them without having to roll for anything for they are true.
 
 ## Your Actions
 
@@ -196,7 +196,7 @@ Dash comes with a set of mechanics that handles numerous aspects of gameplay. Do
 
 ## Your Rolling Tables
 
-Consider adding rolling tables for the things you consider important in your world. Rolling tables help in two-way. First, they help put a focus on what is significant in the game. Second, they help facilitate sessions for when the players are in doubt about where the story should go next. You could include tables for things like items, locations, allies, enemies, complications, missions, etc.
+Consider adding rolling tables for the things you consider important in your world. Rolling tables help in two way. First, they help put a focus on what is significant in the game. Second, they help facilitate sessions for when the players are in doubt about where the story should go next. You could include tables for things like items, locations, allies, enemies, complications, missions, etc.
 
 ## Other Guidelines
 
