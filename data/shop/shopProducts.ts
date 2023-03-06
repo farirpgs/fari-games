@@ -409,7 +409,7 @@ export const shop: IShop = {
           tags: ["srd"],
           license: License.CC_BY_4,
           links: {},
-          image: "https://gyazo.com/30ebb7b8d6fbd922b36a904c95c89ed3.png",
+          image: "https://gyazo.com/0f7c581db1050aa20927fc94e3cda371.png",
           footer:
             "Text by Jesse Ross under a Creative Commons Attribution 4.0 license (CC BY 4.0)",
         },
