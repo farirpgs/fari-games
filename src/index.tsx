@@ -77,32 +77,94 @@ function App() {
                 >
                   {renderRedirects()}
                   <Switch>
-                    <Route exact path="/" component={HomePage} />
-                    <Route exact path="/search" component={SearchPage} />
+                    <Route
+                      exact
+                      path="/"
+                      render={() => {
+                        location.href = "https://fari.community";
+                        return null;
+                      }}
+                    />
+                    <Route
+                      exact
+                      path="/search"
+                      render={(props) => {
+                        const params = new URLSearchParams(location.search);
+                        const defaultSearchQuery = params.get("query") || "";
+                        location.href = `https://fari.community/browse?search=${defaultSearchQuery}`;
+                        return null;
+                      }}
+                    />
 
                     <Route
                       exact
                       path="/:language/:type/:author/:game/:chapter?"
-                      component={ProductPage}
+                      render={(props) => {
+                        let creator = props.match.params.author;
+                        let project = props.match.params.game;
+                        const page = props.match.params.chapter;
+
+                        if (creator === "donbisdorf") {
+                          creator = "don-bisdorf";
+                        }
+                        if (creator === "evilhat") {
+                          creator = "evil-hat";
+                        }
+                        if (creator === "gilarpgs") {
+                          creator = "gila-rpgs";
+                        }
+                        if (creator === "jasontocci") {
+                          creator = "jason-tocci";
+                        }
+                        if (creator === "peachgardengames") {
+                          creator = "peach-garden-games";
+                        }
+                        if (creator === "wuderpg") {
+                          creator = "wude-rpg";
+                        }
+                        if (creator === "zadmargames") {
+                          creator = "zadmar-games";
+                        }
+                        if (creator === "zonefighterj") {
+                          creator = "zone-fighter-j";
+                        }
+
+                        if (project === "breathless-srd") {
+                          project = "breathless";
+                        }
+                        if (project === "hopes-and-dreams-srd") {
+                          project = "hopes-and-dreams";
+                        }
+
+                        if (page) {
+                          location.href = `https://fari.community/creators/${creator}/projects/${project}/${page}`;
+                        } else {
+                          location.href = `https://fari.community/creators/${creator}/projects/${project}`;
+                        }
+                        return null;
+                      }}
                     />
                     <Route
                       exact
                       path={"/browse/:authorSlug/"}
-                      render={() => {
-                        return <ShopAuthorPage />;
+                      render={(props) => {
+                        location.href = `https://fari.community/creators/${props.match.params.authorSlug}`;
+                        return null;
                       }}
                     />
                     <Route
                       exact
                       path={"/browse/:authorSlug/:productSlug"}
-                      render={() => {
-                        return <ShopAuthorProductPage />;
+                      render={(props) => {
+                        location.href = `https://fari.community/creators/${props.match.params.authorSlug}/projects/${props.match.params.productSlug}`;
+                        return null;
                       }}
                     />
                     <Route
                       path="*"
                       render={() => {
-                        return <NotFoundPage />;
+                        location.href = "https://fari.community";
+                        return null;
                       }}
                     />
                   </Switch>
