@@ -49,7 +49,7 @@ jobs:
   deploy-preview:
     needs: [build]
     runs-on: ubuntu-latest
-    if: github.event.repository.fork == false && github.ref != 'refs/heads/main'
+    if: github.repository_owner == 'fariapp'
     environment:
       name: Preview
       url: https://${{github.run_id}}--fari-games.netlify.app
@@ -83,7 +83,7 @@ jobs:
   deploy-production:
     needs: [build]
     runs-on: ubuntu-latest
-    if: github.event.repository.fork == false && github.ref == 'refs/heads/main'
+    if: github.repository_owner == 'fariapp'
     environment:
       name: Production
       url: https://fari.app
