@@ -4,7 +4,7 @@ headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
 headingUppercase: true
-languages: en,fr,es
+languages: en,fr,es,it
 ---
 
 # Introducción | Charge SRD

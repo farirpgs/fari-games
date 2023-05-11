@@ -4,14 +4,12 @@ headingFont: Oswald
 textFont: inherit
 highlightFont: Oswald
 headingUppercase: true
-languages: en,fr,es
+languages: en,fr,es, it
 ---
 
 # Introduzione | Charge SRD
 
 Il Charge SRD è una versione condensata delle regole di Charge RPG che puoi usare per creare il tuo gioco **Powered by Charge**.
-
-This document follows a certain format that you can use as a base framework for your game, but also offers design advice so that you can hack it while still keeping the "Charge feeling".
 
 Questo documento segue un preciso formato che potrai usare come framework di base per il tuo gioco, ma offre anche consigli di design in modo che il tu possa modificarlo pur mantenendo un "feeling alla Charge".
 
@@ -25,7 +23,7 @@ Siamo ansiosi di vedere cosa costruirai con questo documento. Divertiti!
 >
 > Le note di design conterranno informazioni rilevanti od offriranno opzioni differenti che potrai usare per il tuo gioco.
 >
-> #### Loghi di Powered By Charge
+> #### Loghi di Powered by Charge
 >
 > Usa questi loghi per mostrare che il tuo gioco è **Powered by Charge** ⚡
 >
@@ -36,7 +34,7 @@ Siamo ansiosi di vedere cosa costruirai con questo documento. Divertiti!
 
 # Il gioco | Charge SRD
 
-In questo gioco, tu e i tuoi amici vi riunirete per accontare una storia interattiva su un gruppo di personaggi fittizzi che affrontano, o provano a superare, ostacoli. Tu deciderai come i personaggi risolvono quelle sfide e come il mondo reagirà a quelle azioni.
+In questo gioco, tu e i tuoi amici vi riunirete per raccontare una storia interattiva su un gruppo di personaggi fittizi che affrontano, o provano a superare, ostacoli. Tu deciderai come i personaggi risolvono quelle sfide e come il mondo reagirà a quelle azioni.
 
 ## Cosa serve per giocare
 
@@ -57,643 +55,643 @@ Questo gioco include riferimenti ed espressioni ai seguenti temi: [...]
 >
 > Prenditi del tempo per stilare la lista dei temi presenti nel tuo gioco nella sezione sopra. Essere trasparenti contribuirà notevolmente a garantire un'esperienza di gioco sicura per tutti al tavolo.
 
-## Game Master & Players
+## Game Master e giocatori
 
-One person in the group needs to act as the **Game Master**, or **GM**. The GM is responsible for the world and the characters that live in it (those that aren't directly played by the rest of the table). We call those characters "non-player characters", or **NPCs**.
+Una persona del gruppo deve agire come **Game Master** o **GM**. Il GM è responsabile del mondo e dei personaggi che lo abitano (quelli che non sono interpretati direttamente dal resto del tavolo). Chiamiamo questi personaggi "personaggi non giocanti" o **PNG**.
 
-The rest of the group are **Players**. The players create a character that experiences compelling stories inside this world. We call those player characters, or **PCs**.
+Il resto del gruppo sono **Giocatori**. I giocatori creano un personaggio che sperimenta storie avvincenti all'interno di questo mondo. Chiamiamo quei personaggi giocanti, o **PG**.
 
-While the GM is usually the main person in charge of the way the world changes over time, everyone at the table is in charge of the story.
+Mentre il GM è di solito la persona principalmente responsabile del modo in cui il mondo cambia nel tempo, tutti al tavolo sono responsabili della storia.
 
-Everyone at the table contributes to make the story successful, and captivating.
+Tutti al tavolo contribuiscono a rendere la storia avvincente e accattivante.
 
-## Game Structure
+## Struttura del gioco
 
-To play this game, you meet-up with other people either in real life or online to collaborate on creating an interesting story together.
+Per giocare a questo gioco, incontri altre persone nella vita reale o online per collaborare alla creazione di una storia interessante insieme.
 
-Each **session** is its own unique experience and is made of multiple **scenes** stitched together, like in a movie. Each scene plays out as a bunch of back-and-forth between the GM and the players. The GM describes what the scene is like, the players tell the GM what their characters do, and the GM makes the world react to those actions depending on the outcomes of dice rolls.
+Ogni **sessione** è un'esperienza unica ed è composta da più **scene** unite insieme, come in un film. Ogni scena si svolge come una serie di scambi tra il GM e i giocatori. Il GM descrive com'è la scena, i giocatori dicono al GM cosa fanno i loro personaggi e il GM fa reagire il mondo a quelle azioni a seconda dei risultati dei tiri di dado.
 
-We roll dice because we want to be on the edge of our seats. We want to be surprised by where the story takes us next.
+Tiriamo i dadi perché vogliamo stare con il fiato sospeso. Vogliamo essere sorpresi da dove ci porterà la storia.
 
-## Safety Tools
+## Strumenti di sicurezza
 
-If at any point during the game creation process, or when playing a scene, something doesn't click with someone at the table, the game needs to be paused and things need to be aligned and discussed so that **everyone is on the same page**.
+Se in qualsiasi momento durante il processo di creazione del gioco, o durante la riproduzione di una scena, qualcosa non funziona con qualcuno al tavolo, il gioco deve essere messo in pausa e le cose devono essere allineate e discusse in modo che **tutti siano d'accordo**.
 
-One way the GM can help make the table safer for everyone is by using safety tools like the [**X-Card**](https://docs.google.com/document/d/1SB0jsx34bWHZWbnNIVVuMjhDkrdFGo1_hSC2BWPlI3A/edit) by John Stavropoulos, or Beau's [**Script Change RPG Toolbox**](https://briebeau.itch.io/script-change).
+Un modo in cui il GM può contribuire a rendere il tavolo più sicuro per tutti è utilizzare strumenti di sicurezza come la [**X-Card**](https://docs.google.com/document/d/1SB0jsx34bWHZWbnNIVVuMjhDkrdFGo1_hSC2BWPlI3A/edit) di John Stavropoulos , o [**Script Change RPG Toolbox**](https://briebeau.itch.io/script-change) di Beau.
 
-This is super important, and should not be taken lightly. Everyone at the table should feel safe and comfortable.
+Questo è estremamente importante e non dovrebbe essere preso alla leggera. Tutti al tavolo dovrebbero sentirsi al sicuro e a proprio agio.
 
-If you don't feel safe at a table, it is totally OK to quit and find another group of people to play with. Don't feel bad, and more importantly, respect yourself.
+Se non ti senti al sicuro a un tavolo, va benissimo smettere e trovare un altro gruppo di persone con cui giocare. Non sentirti male e, cosa più importante, rispetta te stesso.
 
-# Character Creation | Charge SRD
+# Creazione del personaggio | Charge SRD
 
-## Details
+## Dettagli
 
-Characters are defined by descriptive traits called **_details_**. Each character usually has between 2-5 of them to highlight who they are, and what is important about them. Those details aren’t just information to give the character color, but should be the aspects of the character that we pay attention to in the story. They are also used as a guide to **know the different narrative liberties** that a character has in the fiction.
+I personaggi sono definiti da tratti descrittivi chiamati **_dettagli_**. Ogni personaggio di solito ne ha tra 2 e 5 per evidenziare chi sono e cosa li distingue. Quei dettagli non sono solo informazioni per dare colore al personaggio, ma dovrebbero essere gli aspetti del personaggio a cui prestiamo attenzione nella storia. Sono anche usati come guida per **conoscere le diverse libertà narrative** che un personaggio ha nella finzione.
 
-When creating a new character, write on your character sheet their:
+Quando crei un nuovo personaggio, scrivi sulla tua scheda del personaggio i suoi:
 
-- **_Concept_**: an elevator-pitch version of who the character is.
-- **_Appearance_**: what the character looks like, what they wear, etc.
-- **_Ties_**: 1-3 relations that the character has with certain people or organizations in the world.
+- **_Concetto_**: una breve descrizione di chi è il personaggio.
+- **_Aspetto_**: come appare il personaggio, cosa indossa, ecc.
+- **_Legami_**: 1-3 relazioni che il personaggio ha con determinate persone o organizzazioni nel mondo.
 
-> #### Designer Note: Hacking the Details
+> #### Note di design: hackerare i dettagli
 >
-> An easy way to customize Charge is by changing the default _details_ of the characters.
-> They are a simple yet effective way to reinforce what is narratively important in your setting.
+> Un modo semplice per personalizzare Charge è modificare i _dettagli_ predefiniti dei personaggi.
+> Sono un modo semplice ma efficace per rafforzare ciò che è narrativamente importante nel tuo ambiente.
 >
-> Are the PCs parts of noble houses? Or are they magically imbued with certain types of powers?
-> Define _details_ around those concepts to support important aspects of the game.
+> I pg fanno parte di case nobiliari? O sono magicamente intrisi di certi tipi di poteri?
+> Definisci i _dettagli_ attorno a questi concetti per supportare aspetti importanti del gioco.
 >
-> You can aim to have around 2-5 details.
+> Puoi mirare ad avere circa 2-5 dettagli.
 
-## Actions
+## Azioni
 
-When a PC needs to overcome an obstacle and there is a risk, they use one of their _actions_.
+Quando un PG deve superare un ostacolo e c'è un rischio, usa una delle sue _azioni_.
 
-**At character creation, assign 7 action dots** among the following action list:
+**Alla creazione del personaggio, assegna 7 pallini azione** tra i seguenti elenchi di azioni:
 
-- **Muscle**: you use your force to move, overcome or wreck the obstacle in front of you.
-- **Move**: you quickly shift to a new position or get out of danger.
-- **Finesse**: you employ dexterous manipulation or subtle misdirection.
-- **Sneak**: you traverse skillfully and quietly.
-- **Shoot**: you carefully track and shoot at a target.
-- **Tinker**: you understand, create, or repair complex mechanisms or organisms.
-- **Study**: you gather, scrutinize and analyze information.
-- **Notice**: you observe the situation and anticipate outcomes.
-- **Bond**: you reassure and socialize with friends and contacts.
-- **Command**: you compel swift obedience with skills and respect.
-- **Focus**: you concentrate to accomplish a task that requires great strength of mind.
-- **Sway**: you influence with guile, charm, or argument.
+- **Muscoli**: usi la tua forza per spostare, superare o distruggere l'ostacolo davanti a te.
+- **Muoversi**: ti sposti rapidamente in una nuova posizione o esci dal pericolo.
+- **Finezza**: si ricorre a un'abile manipolazione o a un sottile depistaggio.
+- **Furtività**: attraversi abilmente e silenziosamente.
+- **Sparare**: segui attentamente e spari a un bersaglio.
+- **Armeggiare**: comprendi, crei o ripari meccanismi o organismi complessi.
+- **Studiare**: raccogli, esamini e analizzi le informazioni.
+- **Notare**: osservi la situazione e prevedi i risultati.
+- **Legare**: rassicuri e socializzi con amici e contatti.
+- **Comandare**: imponi una rapida obbedienza con abilità e rispetto.
+- **Concentrarsi**: ti concentri per portare a termine un compito che richiede una grande forza d'animo.
+- **Influenzare**: influenzi con l'astuzia, il fascino o la discussione.
 
-At the start of the game, a single action cannot have more than **2 action dots**.
+All'inizio del gioco, una singola azione non può avere più di **2 pallini azione**.
 
-> #### Designer Note: Hacking the Actions
+> #### Note di design: hackerare le azioni
 >
-> Words are important so you should look at changing the default action list to better fits your game's aesthetic.
+> Le parole sono importanti, quindi dovresti cambiare l'elenco delle azioni predefinito per adattarlo meglio all'estetica del tuo gioco.
 >
-> First, look at what you think characters will do the most in your game. Are they going to fight a lot or are they going to play a political game? Depending on what you are aiming for, adapt the action list to reflect your intentions.
+> Innanzitutto, guarda cosa pensi che i personaggi faranno di più nel tuo gioco. Combatteranno molto o giocheranno a un gioco politico? A seconda di ciò a cui miri, adatta l'elenco delle azioni in modo che rifletta le tue intenzioni.
 >
-> If you use less than 12 actions, you might want to look at reducing the initial action dots PCs get at the start of a the game. A good ratio is something like **{number of actions} / 2 + 1**.
+> Se usi meno di 12 azioni, potresti voler ridurre i punti di azione iniziali che i PG ottengono all'inizio del gioco. Un buon rapporto è qualcosa come **{numero di azioni} /2 + 1**.
 >
-> Here are a couple of generic examples you can use as is or as an inspiration for your game:
->
-> ---
->
-> Assign 4 action dots in:
->
-> - Muscle: you your force to move, overcome or wreck the obstacle in front of you.
-> - Finesse: you employ dexterous manipulation or subtle misdirection.
-> - Move: you quickly shift to a new position or get out of danger.
-> - Study: you scrutinize details and interpret evidence.
-> - Talk: you reassure, socialize or influence with kindness, guile, charm or argument.
-> - Focus: you concentrate to accomplish a task that requires great strength of mind.
+> Ecco un paio di esempi generici che puoi utilizzare così come sono o come ispirazione per il tuo gioco:
 >
 > ---
 >
-> Assign 3 action dots in:
+> Assegna 4 punti azione in:
 >
-> - Strength / Agility / Intelligence / Charm
+> - Muscoli: usi la tua forza per spostare, superare o distruggere l'ostacolo davanti a te.
+> - Finezza: impieghi una manipolazione abile o un sottile errore di direzione.
+> - Muoversi: ti sposti rapidamente in una nuova posizione o esci dal pericolo.
+> - Studiare: esamini i dettagli e interpreti le prove.
+> - Parlare: rassicuri, socializzi o influenzi con gentilezza, astuzia, fascino o discussione.
+> - Concentrarsi: ti concentri per portare a termine un compito che richiede una grande forza d'animo.
 >
 > ---
 >
-> Assign 2 action dots in:
+> Assegna 3 punti azione in:
 >
-> - Power / Speed / Focus
+> - Forza / Agilità / Intelligenza / Fascino
+>
+> ---
+>
+> Assegna 2 punti azione in:
+>
+> - Energia / Velocità / Focus
 >
 > ---
 >
 > _...etc_
 
-## Talents
+## Talenti
 
-Talents are specific **abilities** your character gains when they **reach certain milestones in the story**.
+I talenti sono **abilità** specifiche che il tuo personaggio acquisisce quando **raggiunge determinati traguardi nella storia**.
 
-A talent either gives a new _action dot_ to invest in a character's actions, or a new _situational talent_ which gives a temporary boost to their character in specific circumstances.
+Un talento fornisce un nuovo _punto azione_ da investire nelle azioni di un personaggio, o un nuovo _talento situazionale_ che dà una spinta temporanea al proprio personaggio in circostanze specifiche.
 
-At the start of the game, **characters begin with zero talents**. They will gain those special abilities when they achieve certain milestones in the story.
+All'inizio del gioco, **i personaggi iniziano con zero talenti**. Otterranno quelle abilità speciali quando raggiungeranno determinati traguardi nella storia.
 
-> #### Designer Note: Hacking Talents
+> #### Nota del designer: hackerare i Talenti
 >
-> The default character sheet in Charge has a _talent tree_ containing 13 _talents_. That being said, we don't necessarily think you should do the same for your game.
+> La scheda del personaggio predefinita in Charge ha un _albero dei talenti_ contenente 13 _talenti_. Detto questo, non pensiamo necessariamente che dovresti fare lo stesso per il tuo gioco.
 >
-> Taking into consideration that Charge is generic by default, we wanted to offer more leeway for the group to make their characters progress at their own pace. That's the reason the _talent tree_ is that big.
+> Considerando che Charge è generico per impostazione predefinita, volevamo offrire più margine di manovra al gruppo per far progredire i propri personaggi al proprio ritmo. Ecco perché l'_albero dei talenti_ è così grande.
 >
-> Since the average campaign lasts for around 6 sessions, having a _talent tree_ with 4 or even 6 _talents_ should be more than enough.
+> Poiché la campagna media dura circa 6 sessioni, avere un _albero dei talenti_ con 4 o anche 6 _talenti_ dovrebbe essere più che sufficiente.
 
-> #### Designer Note: Making Playbooks
+> #### Note di design: creare libretti
 >
-> Playbooks are character sheet presets that often represent a certain archetype. They are partially filled to make character creation smoother for the players.
+> I libretti sono preimpostazioni della scheda del personaggio che spesso rappresentano un certo archetipo. Sono parzialmente riempiti per rendere la creazione del personaggio più agevole per i giocatori.
 >
-> Limiting choices is often a good way to kickstart creativity, and that's exactly what happens with a game that uses playbooks. They are also a great way to introduce the group to the kind of characters the story is going to be focused on.
+> Limitare le scelte è spesso un buon modo per dare il via alla creatività, ed è esattamente ciò che accade con un gioco che utilizza libretti. Sono anche un ottimo modo per presentare al gruppo il tipo di personaggi su cui si concentrerà la storia.
 >
-> To make a playbook in Charge, you first need to find a cool name. Look for something catchy that will be easy to remember, and fits the theme of the game. Once you've found one, write it down as the _concept_ of that playbook.
+> Per creare un libretto in Charge, devi prima trovare un nome interessante. Cerca qualcosa di accattivante che sia facile da ricordare e che si adatti al tema del gioco. Una volta che ne hai trovato uno, scrivilo come _concetto_ di quel libretto.
 >
-> For the other _details_ of the character, offer multiple options for the players to choose from. For example, a list of possible _ties_ or relations the characters might have.
+> Per gli altri _dettagli_ del personaggio, offri ai giocatori più opzioni tra cui scegliere. Ad esempio, un elenco di possibili _legami_ o relazioni che i personaggi potrebbero avere.
 >
-> For the _actions_, assign 3 starting _action dots_ in what you think this playbook is skilled at. The remaining 4 are left for the player to assign. If you decided to use increase or reduce the default number of actions, you should adjust those numbers accordingly.
+> Per le _azioni_, assegna 3 _punti azione_ iniziali in ciò in cui pensi che questo libretto sia abile. I restanti 4 sono lasciati da assegnare al giocatore. Se hai deciso di utilizzare l'aumento o la riduzione del numero predefinito di azioni, dovresti modificare tali numeri di conseguenza.
 >
-> The last thing you need to make a playbook is to define its _talent tree_. Each playbook can have between 4 or 6 distinct _talents_ which makes playing this playbook a fun, and unique experience.
+> L'ultima cosa di cui hai bisogno per creare un libretto è definire il suo albero dei talenti. Ogni libretto può avere tra 4 o 6 talenti distinti, il che rende giocare a questo libretto un'esperienza divertente e unica.
 >
-> A good way to get started with this is to think about what makes the playbook you are designing special. Think about its powers, abilities or the cool gear they might be using.
+> Un buon modo per iniziare è pensare a cosa rende speciale il libretto che stai progettando. Pensa ai suoi poteri, abilità o alle fantastiche attrezzature che potrebbero usare.
 >
-> Give each _talent_ a name and describe what they do. A talent can do many things including, but not limited to:
+> Assegna un nome a ogni _talento_ e descrivi cosa fa. Un talento può fare molte cose tra cui, ma non solo:
 >
-> - +1d6 when **\_\_**
-> - Lower the risk when **\_\_**
-> - Increase the effect when **\_\_**
-> - Use [action] instead of [action] when **\_\_**
-> - [New narrative liberty] when **\_\_**
+> - +1d6 quando **\_\_**
+> - Riduci il rischio quando **\_\_**
+> - Aumenta l'effetto quando **\_\_**
+> - Usa [azione] invece di [azione] quando **\_\_**
+> - [Nuova libertà narrativa] Quando **\_\_**
 
-# Mechanics | Charge SRD
+# Meccaniche | Charge SRD
 
-In this game the GM and the players tell a story, and afterwards look at the rules to see if something needs to be resolved using the game's mechanics. You don't look at the rules first, **you look at the fiction first**.
+In questo gioco il GM ei giocatori raccontano una storia, e poi guardano le regole per vedere se qualcosa deve essere risolto usando le meccaniche del gioco. Non guardi prima le regole, **guardi prima la finzione**.
 
-See those mechanics as tools in a box to use as needed. They exist to resolve situations where you don't know the direct answers to a question.
+Vedi quelle meccaniche come attrezzi in una scatola da usare secondo necessità. Esistono per risolvere situazioni in cui non si conoscono le risposte dirette a una domanda.
 
-## Rolling Dice
+## Tirare i dadi
 
-The game uses six-sided dice. You roll several at once, which we call a dice pool, and read the **single highest result**.
+Il gioco utilizza dadi a sei facce. Ne lanci diversi in una volta, che noi chiamiamo riserva di dadi, e leggi il **singolo risultato più alto**.
 
-- If the highest die is a **6**, it's a **full success**. Things go well. If you roll more than one 6, it's a critical success and you gain some additional advantage.
-- If the highest die is a **4 or 5**, that's a **partial success**. You do what you were trying to do, but there is a consequence.
-- If the highest die is **1-3**, it's a **bad outcome**. Things go poorly. You don't achieve your goal, and suffer a consequence.
+- Se il dado più alto è un **6**, è un **pieno successo**. Le cose vanno bene. Se ottieni più di un 6, è un successo critico e ottieni qualche vantaggio aggiuntivo.
+- Se il dado più alto è **4 o 5**, si tratta di un **successo parziale**. Fai quello che stavi cercando di fare, ma c'è una conseguenza.
+- Se il dado più alto è **1-3**, è un **esito negativo**. Le cose vanno male. Non raggiungi il tuo obiettivo e ne subisci le conseguenze.
 
-_If you ever need to roll but you have zero (or negative) dice, roll two dice and take the single lowest result. You can’t roll a critical when you have zero dice._
+_Se hai bisogno di tirare ma hai zero dadi (o negativi), tira due dadi e prendi il singolo risultato più basso. Non puoi tirare un critico quando hai zero dadi._
 
-Most of the game's mechanics revolve around this basic format.
+La maggior parte delle meccaniche del gioco ruota attorno a questo formato di base.
 
-## Action Rolls
+## Tiri d'azione
 
-When there's a challenge that needs to be overcome, and there's a risk of failure, **a player makes an action roll**.
+Quando c'è una sfida da superare e c'è il rischio di fallire, **un giocatore effettua un tiro d'azione**.
 
-The number of dice to roll depends on the action the character is doing. The list of possible _action_ can be found in the character creation section.
+Il numero di dadi da tirare dipende dall'azione che il personaggio sta compiendo. L'elenco delle possibili _azioni_ può essere trovato nella sezione sulla creazione del personaggio.
 
-In this game, NPCs don't roll for their actions. NPCs succeed unless the players attempt to stop them, in which case the action roll does double-duty: **it resolves the action of the PC as well as any NPCs that are involved**. The action roll tells us the results, and the consequences of an action at the same time, encouraging players to be active participants in the story.
+In questo gioco, i PNG non tirano per le loro azioni. I PNG hanno successo a meno che i giocatori non tentino di fermarli, nel qual caso il tiro azione ha una doppia funzione: **risolve l'azione del PG e di tutti i PNG coinvolti**. Il tiro d'azione ci dice allo stesso tempo i risultati e le conseguenze di un'azione, incoraggiando i giocatori a partecipare attivamente alla storia.
 
-To make an action roll, we go through the following steps:
+Per effettuare un tiro d'azione, eseguiamo i seguenti passaggi:
 
-#### 1. Player Sets Their Goal
+#### 1. Il giocatore fissa il proprio obiettivo
 
-First, the player states their goal, and which action they are using. Then, they gather a number of d6s equal to the chosen action's dot rating to build their dice pool.
+Innanzitutto, il giocatore dichiara il proprio obiettivo e quale azione sta utilizzando. Quindi, raccolgono un numero di d6 pari al punteggio in punti dell'azione scelta per costruire la loro riserva di dadi.
 
-#### 2. GM Sets the Risk
+#### 2. GM definisce il rischio
 
-The GM sets the risk of the action based on what has been established in the narrative.
+Il GM stabilisce il rischio dell'azione in base a quanto stabilito nella narrazione.
 
-- When the risk is **low**, things are under control. Even if things go wrong, there is a way out.
-- When the risk is **moderate**, the situation is dangerous. If you fail, there will be repercussions.
-- When the risk is **high**, the odds are against you. Attempting to go against them might backfire heavily.
+- Quando il rischio è **basso**, le cose sono sotto controllo. Anche se le cose vanno male, c'è una via d'uscita.
+- Quando il rischio è **moderato**, la situazione è pericolosa. Se fallisci, ci saranno ripercussioni.
+- Quando il rischio è **alto**, le probabilità sono contro di te. Il tentativo di andare contro di loro potrebbe ritorcersi pesantemente contro.
 
-**By default**, an action roll has a **moderate risk**. You wouldn’t be rolling if there was no risk involved.
+**Di default**, un tiro d'azione ha un **rischio moderato**. Non staresti rotolando se non ci fossero rischi.
 
-#### 3. GM Sets the Effect Rating
+#### 3. GM definisce la valutazione dell'effetto
 
-The GM sets the effect rating of the action.
+Il GM stabilisce la valutazione dell'effetto dell'azione.
 
-- With a **great** effect, you achieve more than usual.
-- With a **standard** effect, you achieve what we would have expected.
-- With a **limited** effect, you achieve a partial or weak effect.
+- Con un effetto **fantastico**, ottieni più del solito.
+- Con un effetto **standard**, ottieni ciò che ci saremmo aspettati.
+- Con un effetto **limitato**, ottieni un effetto parziale o debole.
 
-#### 4. Player Evens the Odds
+#### 4. Il giocatore pareggia le probabilità
 
-As the player, you decide if you want to even the odds by adding **bonus dice** to your pool.
+Come giocatore, decidi se vuoi pareggiare le probabilità aggiungendo **dadi bonus** alla tua riserva.
 
-You can normally get two bonus dice for your action roll.
+Normalmente puoi ottenere due dadi bonus per il tuo tiro d'azione.
 
-For one bonus die, you can get **assistance** from a teammate. They consume 1 _momentum_, say how they help you, and give you an extra 1d6.
+Per un dado bonus, puoi ottenere **assistenza** da un compagno di squadra. Consumano 1 _slancio_, dicono come ti aiutano e ti danno 1d6 extra.
 
-For another bonus die, you can either:
+Per un altro dado bonus, puoi:
 
-- **Push yourself**: Consume 2 _momentum_ per push to add an extra 1d6 to your pool or get improved effect on your action.
-- **Add tension to the scene**: Work with the GM to think of a new complication to throw at the scene to get an extra 1d6.
+- **Spingerti al limite**: consuma 2 di _slancio_ per spinta per aggiungere 1d6 extra alla tua riserva o ottenere un effetto migliore sulla tua azione.
+- **Aggiungere tensione alla scena**: lavora con il GM per pensare a una nuova complicazione da aggiungere alla scena per ottenere 1d6 extra.
 
-#### 5. Roll the Dice
+#### 5. Tira i dadi
 
-Finally, the player rolls the dice, and the group interprets the result.
+Infine, il giocatore lancia i dadi e il gruppo interpreta il risultato.
 
-- On a **66**, it's a **critical success**. You achieve your goal with increased effect.
-- On a **6**, it's a **full success**. You achieve your goal.
-- On a **4-5**, it's a **partial success**. You achieve your goal, but there's a consequence.
-- On a **1-3**, it's a **bad outcome**. Things go badly, and there's a consequence.
+- Con un **66**, è un **successo critico**. Raggiungi il tuo obiettivo con maggiore efficacia.
+- Con un **6**, è un **pieno successo**. Raggiungi il tuo obiettivo.
+- Con **4-5**, è un **successo parziale**. Raggiungi il tuo obiettivo, ma c'è una conseguenza.
+- Con **1-3**, è un **brutto risultato**. Le cose vanno male, e c'è una conseguenza.
 
-If the result of the dice is higher than 3, the PC gains _momentum_ from their action except if momentum was used for their action.
+Se il risultato dei dadi è maggiore di 3, il PG guadagna _slancio_ dalla sua azione, tranne se lo slancio è stato usato per la sua azione.
 
-## Momentum
+## Slancio
 
-When a player makes an action roll, that roll has a chance generating momentum.
+Quando un giocatore effettua un tiro d'azione, quel tiro ha la possibilità di generare slancio.
 
-**You start every session with 2**, and generate more momentum when making successful action rolls.
+**Inizi ogni sessione con 2** e generi più slancio quando effettui tiri azione riusciti.
 
-- On a **4-5**, you **gain 1** momentum.
-- On a **6**, you **gain 2** momentum.
-- On a **66**, you **gain 3** momentum.
+- Con **4-5**, **guadagni 1** di slancio.
+- Con **6**, **guadagni 2** di slancio.
+- Con **66**, **guadagni 3** di slancio.
 
-PCs consume their momentum to boost their actions, assist an ally or resist a consequence.
+I PG consumano il loro slancio per potenziare le loro azioni, assistere un alleato o resistere a una conseguenza.
 
-**_When momentum is spent for a roll, that roll cannot in turn generate momentum._**
+**_Quando lo slancio viene speso per un tiro, quel tiro non può a sua volta generare slancio._**
 
-> #### Designer Note: Momentum Dial
+> #### Note di design: tarare lo slancio
 >
-> If you want your game to feel grimmer or bigger than life, a simple way to do this is by changing **when momentum is gained** and **how much is gained**. This is called changing the _momentum dial_.
+> Se vuoi che il tuo gioco sembri più cupo o più grande della vita, un modo semplice per farlo è cambiare **quando si guadagna slancio** e **quanto si guadagna**. Questo si chiama cambiare _tarare lo slancio_.
 >
-> Changing this dial is an easy way to change the whole vibe of a game. Since pushing yourself and making _determination rolls_ to resist _consequences_ rely on momentum only, the _momentum dial_ has a big impact on the game.
+> Tarare è un modo semplice per cambiare l'intera atmosfera di un gioco. Dal momento che spingere te stesso e fare _tiri risolutezza_ per resistere alle _conseguenze_ affidati solo allo slancio, _tarare lo slancio_ ha un grande impatto sul gioco.
 >
-> If you turn up the _momentum dial_, PCs will be able to boost their rolls more often and will have an easier time resisting _consequences_. Turn it down, and PCs will instead need to rely more on their initial _action dots_ to make their action roll. _Consequences_ on the other end will hit way harder with a dial turned down.
+> Se si alza la manopola dello _slancio_, i PG saranno in grado di aumentare i loro tiri più spesso e avranno più facilità a resistere alle _conseguenze_. Se la si abbassa, invece, i PG dovranno affidarsi maggiormente ai loro _punti azione_ iniziali per effettuare i loro tiri azione. Le _conseguenze_, d'altra parte, colpiranno molto più duramente con un quadrante abbassato.
 >
-> Tune it and test this until it feels right for your game. One thing to keep in consideration is that by default momentum is gained for participating in the game. We do this to make the players more interested in taking risks. Your game should try to do the same to keep that "Charge" feeling.
+> Tara e prova finché non ti sembra giusto per il tuo gioco. Una cosa da tenere in considerazione è che di default si guadagna slancio partecipando al gioco. Lo facciamo per rendere i giocatori più interessati a correre dei rischi. Il tuo gioco dovrebbe provare a fare lo stesso per mantenere quella sensazione di "Carica".
 
-## Boosting Action Rolls
+## Aumentare i tiri d'azione
 
-If you want, you can add bonus dice to your action roll by using **one of the following methods**.
+Se vuoi, puoi aggiungere dadi bonus alil tuo tiro d'azione usando **uno dei seguenti metodi**.
 
-### Push Yourself
+### Spingersi al limite
 
-When you push yourself, you **consume 2 momentum per push** to gain one of the following bonuses.
+Quando ti spingi al limite, **consumi 2 di slancio per spinta** per ottenere uno dei seguenti bonus.
 
-- Add an extra 1d6 to your dice pool.
-- Increase the _effect_ of your roll.
-- Take action even if you were _taken out_.
+- Aggiungi 1d6 extra alla tua riserva di dadi.
+- Aumenta l'_effetto_ del tuo tiro.
+- Agisci anche se sei stato _portato fuori_.
 
-### Add Tension
+### Aggiungi tensione
 
-When you add tension to an action roll, you can ask the GM _"What would adding tension look like here?"_. **The GM then offers a _consequence_**, like ticking segments on a danger clock, inflicting stress on your character, or adding more drama to the narrative.
+Quando aggiungi tensione a un tiro d'azione, puoi chiedere al GM _"Come sarebbe l'aggiunta di tensione qui?"_. **Il GM offre quindi una _conseguenza_**, come segnare le sezioni su un orologio del pericolo, infliggere stress al tuo personaggio o aggiungere più drammaticità alla narrazione.
 
-If you accept the _consequence_, **add an extra 1d6** to your current dice pool.
+Se accetti la _conseguenza_, **aggiungi 1d6** extra alla tua attuale riserva di dadi.
 
-There could be scenarios where adding tension isn't an option. In that case, the GM can simply communicate that to the player so that they look into other ways to even the odds.
+Potrebbero esserci scenari in cui aggiungere tensione non è un'opzione. In tal caso, il GM può semplicemente comunicarlo al giocatore in modo che cerchi altri modi per pareggiare le probabilità.
 
-## Team work
+## Lavoro di squadra
 
-The PCs can help one another in different ways to assure that the teams overcome the different challenges that are facing them.
+I PG possono aiutarsi l'un l'altro in diversi modi per assicurare che le squadre superino le diverse sfide che devono affrontare.
 
-### Assist
+### Aiutare
 
-When you **assist a PC**, you consume 1 _momentum_, to give an **extra 1d6** to their roll. When doing this, you also expose yourself to possible danger.
+Quando **aiuti un PG**, consumi 1 di _slancio_, per dare **1d6** extra al suo tiro. Quando lo fai, ti esponi anche a possibili pericoli.
 
-### Protect
+### Proteggere
 
-When you **protect a PC**, you step in to confront a _consequence_ they would otherwise face. Describe how you intervene, and **suffer the consequence for them**.
+Quando **proteggi un PC**, intervieni per affrontare una _conseguenza_ che altrimenti dovrebbe affrontare. Descrivi come intervieni e **subisci le conseguenze per loro**.
 
-You can make a _determination roll_ to try to reduce or cancel the _consequence_.
+Puoi effettuare un _tiro risolutezza_ per provare a ridurre o annullare la _conseguenza_.
 
-### Set up
+### Preparazione
 
-When you perform a **setup action**, you make an _action roll_ to have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver either **gets an improved effect or a reduced risk for their roll**.
+Quando esegui un'**azione di preparazione**, effettui un _tiro azione_ per avere un effetto indiretto su un ostacolo. Se la tua azione ha il risultato previsto, qualsiasi membro della squadra che segue la tua manovra **ottiene un effetto migliore o un rischio ridotto per il proprio tiro **.
 
-You choose the benefit, based on the nature of your setup action.
+Scegli il vantaggio, in base alla natura della tua azione di configurazione.
 
-## Consequences
+## Conseguenze
 
-If you make an action roll and you get a partial success (4-5) or a bad outcome (1-3), you **suffer a consequence**.
+Se effettui un tiro d'azione e ottieni un successo parziale (4-5) o un esito negativo (1-3), **subisci una conseguenza**.
 
-The GM chooses one of the following:
+Il GM sceglie una delle seguenti opzioni:
 
-- **Reduced Effect**: reduce the _effect_ of the action by one level.
-- **Complication:** tick segments matching the per _consequence_ rating on a new or existing _danger clock_.
-- **Escalated Risk**: increase the _risk_ of future related action rolls by one level.
-- **Lost Opportunity** : what you tried didn't work, you need to use another _action_.
-- **Worse Condition**: take _stress_ matching the _consequence rating_.
+- **Effetto ridotto**: riduce l'_effetto_ dell'azione di un livello.
+- **Complicazione:** spunta le sezioni che corrispondono alla valutazione per le _conseguenze_ su un _orologio di pericolo_ nuovo o esistente.
+- **Rischio intensificato**: aumenta di un livello il _rischio_ di futuri tiri di azioni correlate.
+- **Opportunità persa**: quello che hai provato non ha funzionato, devi usare un'altra _azione_.
+- **Condizione peggiore**: prendi _stress_ corrispondente alla _valutazione di conseguenza_.
 
-The _consequence rating_ is determined by looking at the _risk_ for the roll.
+La _valutazione delle conseguenze_ è determinata osservando il _rischio_ per il tiro.
 
-- A **low risk** has a consequence rating of 1.
-- A **moderate risk** has a consequence rating of 2.
-- A **high risk** has a consequence rating of 3.
+- Un **rischio basso** ha un punteggio di conseguenza pari a 1.
+- Un **rischio moderato** ha una valutazione di conseguenza di 2.
+- Un **alto rischio** ha un punteggio di conseguenza pari a 3.
 
-## Determination Roll
+## Tiro risolutezza
 
-If a character suffers a consequence that you, as a player, don't like, you can **try to resist** it.
+Se un personaggio subisce una conseguenza che a te, come giocatore, non piace, puoi **provare a resistergli**.
 
-To do so, **call for a determination roll**, and this will tell us how well your character you resists the consequence.
+Per farlo, **chiedi un tiro risolutezza**, e questo ci dirà quanto bene il tuo personaggio resiste alle conseguenze.
 
-Build a pool of d6s by adding 1d6 for each charge of _momentum_ you are willing to consume for the roll.
+Costruisci una riserva di d6 aggiungendo 1d6 per ogni carica di _slancio_ che sei disposto a consumare per il tiro.
 
-Once you've decided how many charges you want to consume, roll and interpret the results:
+Dopo aver deciso quante cariche vuoi consumare, tira e interpreta i risultati:
 
-- On a **1-3**, the consequence **still happens**.
-- On a **4-5**, the consequence is **reduced**.
-- On a **6**, the consequence is **avoided**.
-- On a **66**, the consequence is **avoided**, and the **risk of your next roll is lowered**.
+- Con **1-3**, la conseguenza **succede ancora**.
+- Su **4-5**, la conseguenza è **ridotta**.
+- Con **6**, la conseguenza è **evitata**.
+- Con un **66**, la conseguenza è **evitata**, e il **rischio del tuo prossimo lancio è ridotto**.
 
-> #### Designer Note: Hacking Determination Rolls
+> #### Note di design: hackerare il tiro risolutezza
 >
-> Determination rolls act as a mechanism for the players to resist and say "no, I don't think so" when something bad happens to their character.
+> I tiri risolutezza fungono da meccanismo per i giocatori per resistere e dire "no, non credo" quando succede qualcosa di brutto al loro personaggio.
 >
-> There are two important things you should look at if you want to hack this mechanic. First, how does one resist a consequence. Second, what should be the cost of trying to resist a consequence.
+> Ci sono due cose importanti che dovresti considerare se vuoi hackerare questa meccanica. Primo, come resistere a una conseguenza. In secondo luogo, quale dovrebbe essere il costo per cercare di resistere a una conseguenza.
 >
-> By default, you try to resist by spending momentum to build a determination pool in the hope of reducing or even canceling an incoming consequence. In this case, the cost is paid in _momentum_ since you won't be able to spend more later to _push yourself_ or _assist_ an ally.
+> Di default, cerchi di resistere spendendo slancio per costruire una riserva risolutezza nella speranza di ridurre o addirittura annullare una conseguenza in arrivo. In questo caso, il costo viene pagato in _slancio_ poiché non potrai spendere di più in seguito per _spingerti_ o _assistere_ un alleato.
 >
-> Perhaps that for your game, characters resist consequences by making a roll based on certain stats - allowing players to choose if they want to sacrifice momentum for a better roll. Another option might be for the PCs to sacrifice certain assets, previously defined as _details_, to outright cancel a consequence.
+> Forse per il tuo gioco, i personaggi resistono alle conseguenze effettuando un tiro basato su determinate statistiche, consentendo ai giocatori di scegliere se vogliono sacrificare lo slancio per un tiro migliore. Un'altra opzione potrebbe essere che i PG sacrifichino determinate risorse, precedentemente definite come _dettagli_, per annullare completamente una conseguenza.
 >
-> The thing to keep in mind is that this mechanic should encourage players to truly take the time to consider if what they are sacrificing is worth the shot.
+> La cosa da tenere a mente è che questa meccanica dovrebbe incoraggiare i giocatori a prendersi davvero il tempo per considerare se vale la pena tentare ciò che stanno sacrificando.
 
-## Clocks
+## Orologi
 
-Clocks are circles divided in either 4, 6 or 8 segments used to track a task's **progress** or escalating **danger** in a scene. They can also be used on a PC's character sheet to track the long term projects that they are working on or the complications that follows them in their adventure.
+Gli orologi sono cerchi divisi in 4, 6 o 8 sezioni utilizzate per tenere traccia dell'**avanzamento** di un'attività o dell'escalation del **pericolo** in una scena. Possono anche essere usati sulla scheda del personaggio di un PG per tenere traccia dei progetti a lungo termine su cui stanno lavorando o delle complicazioni che li seguono nella loro avventura.
 
-Generally, the more complex the problem, the more segments the clock has.
+In generale, più complesso è il problema, più sezioni ha l'orologio.
 
-When a PC succeeds an action roll, you can **use a progress clock** and:
+Quando un PG supera un tiro d'azione, puoi **usare un orologio di avanzamento** e:
 
-- Tick **1** segment for an action with a **limited effect**.
-- Tick **2** segments for an action with a **standard effect**.
-- Tick **3** segments for an action with a **great effect**.
+- Segna **1** sezione per un'azione con un **effetto limitato**.
+- Segna **2** sezioni per un'azione con un **effetto standard**.
+- Segna **3** sezioni per un'azione con un **grande effetto**.
 
-When a PC gets a consequence from an action roll, you can **use danger clock** and:
+Quando un PG ottiene una conseguenza da un tiro d'azione, puoi **usare l'orologio del pericolo** e:
 
-- Tick **3** segments when the risk of the action is **high**.
-- Tick **2** segments when the risk of the action is **moderate**.
-- Tick **1** segment when the risk of the action is **low**.
+- Segna **3** sezioni quando il rischio dell'azione è **alto**.
+- Segna **2** sezioni quando il rischio dell'azione è **moderato**.
+- Segna **1** sezione quando il rischio dell'azione è **basso**.
 
-When a clock is filled, a narrative element in the story is now resolved. Either the PCs got closer to their goal, or danger has come to fruition and makes the situation more complicated.
+Quando un orologio è pieno, un elemento narrativo nella storia è ora risolto. O i pg si sono avvicinati al loro obiettivo, oppure il pericolo si è concretizzato e rende la situazione più complicata.
 
-## Health and Condition
+## Salute e condizione
 
-When a PC **gets hurt** as a result of a _consequence_, **they take stress**. Each stress **ticks a segment on the PC's stress clock ⨁**.
+Quando un PG **si fa male**a causa di una _conseguenza_, **sottopone a stress**. Ogni stress **segna un sezione sull'orologio dello stress del PG ⨁**.
 
-As the stress clock gets filled, you also need to **update the PC's _condition_** by writing a small descriptive text below the clock. The character's condition imposes narrative restrictions as to what the character can or cannot do.
+Man mano che l'orologio dello stress si riempie, devi anche **aggiornare la _condizione_** del PC scrivendo un piccolo testo descrittivo sotto l'orologio. La condizione del personaggio impone restrizioni narrative su ciò che il personaggio può o non può fare.
 
-When the 4 segments of the _stress clock_ are filled, the PC is **taken out for the scene**, and their stress clock is cleared. Because they were taken out, the next scenes should handle how the character's recovery is going to happen in the fiction.
+Quando le 4 sezioni dello l'_orologio di stress_ sono pieni, il PG viene **portato fuori per la scena* *e il suo orologio di stress viene azzerato. Poiché sono state tolte, le scene successive dovrebbero gestire il modo in cui avverrà la guarigione del personaggio nella finzione.
 
-> #### Designer Note: Hacking Health
+> #### Note di design: hackerare la salute
 >
-> Health in Charge is an expendable resource. It has a _clock_ that gets ticked when you get stressed, and it is linked to a _detail_ that the new condition of the PC as the clock is filled.
+> La Salute in Charge è una risorsa sacrificabile. Ha un _orologio_ che viene ticchettato quando sei stressato, ed è collegato a un _dettaglio_ che indica la nuova condizione del PC quando l'orologio è pieno.
 >
-> If you want, you can have other types of expandable resources. Things like reputation, money, or even corruption can be represented using a similar mechanism.
+> Se vuoi, puoi avere altri tipi di risorse espandibili. Cose come reputazione, denaro o persino corruzione possono essere rappresentate utilizzando un meccanismo simile.
 >
-> When designing new clock-based mechanics, think about how PCs fill them, what happens when a clock is filled and how they can be cleared.
+> Quando progetti nuove meccaniche basate sull'orologio, pensa a come i PG le riempiono, cosa succede quando un orologio è pieno e come possono essere cancellate.
 >
-> For example, you could make it so that a clock only gets filled by certain actions or only when the PCs are at a certain location.
+> Ad esempio, potresti fare in modo che un orologio venga riempito solo da determinate azioni o solo quando i PF si trovano in un determinato luogo.
 >
-> Once filled, perhaps the clock changes the character. Granting them a temporary or even permanent bonus. Or perhaps it changes them negatively and impacts their life for the rest of the campaign.
->
-> This mechanism adds new types of pacing mechanism that are very useful to reinforce the different aspects and themes of your games.
+> Una volta riempito, forse l'orologio cambia carattere. Concedendo loro un bonus temporaneo o addirittura permanente. O forse li cambia negativamente e influisce sulla loro vita per il resto della campagna.
+> 
+> Questo meccanismo aggiunge nuovi tipi di meccanismi di stimolazione che sono molto utili per rafforzare i diversi aspetti e temi dei tuoi giochi.
 
-## Recovery
+## Recupero
 
-When a PC takes stress, their condition worsen. Though, as time passes, they will get better, and their condition will improve.
+Quando un PG è stressato, le sue condizioni peggiorano. Tuttavia, con il passare del tempo, miglioreranno e le loro condizioni miglioreranno.
 
-The only way to recover from _stress_ is **in-fiction**. You can either **rest, lay low or seek medical attention**. When doing so, the GM will look at the fiction and tell you how much _stress_ (1-4) you clear on your _stress clock_.
+L'unico modo per riprendersi dallo _stress_ è **nella finzione**. Puoi **riposare, sdraiarti o consultare un medico**. Nel farlo, il GM guarderà la finzione e ti dirà quanto _stress_ (1-4) hai cancellato sul tuo _orologio di stress_.
 
-As your character gets better, you also need to update your _condition_ to represent your character's current state.
+Man mano che il tuo personaggio migliora, devi anche aggiornare la tua _condizione_ per rappresentare lo stato attuale del tuo personaggio.
 
 <!-- > #### Designer Note: Hacking Recovery -->
 
-## Progression
+## Progressione
 
-As the story progresses over time, so do the player characters.
+Man mano che la storia avanza nel tempo, anche i personaggi dei giocatori fanno lo stesso.
 
-At the end of every session, players can update their character's `details` to represent how they've grown over the course of the session.
+Alla fine di ogni sessione, i giocatori possono aggiornare i "dettagli" del loro personaggio per rappresentare come sono cresciuti nel corso della sessione.
 
-When a big event is concluded in the story, the GM can decide to award the group a `milestone`. Players invest those milestones in their respective `talent tree` to make their characters stronger and more versatile.
+Quando un grande evento si conclude nella storia, il GM può decidere di assegnare al gruppo una `pietra miliare`. I giocatori investono queste pietre miliari nel loro rispettivo `albero dei talenti` per rendere i loro personaggi più forti e versatili.
 
-A `talent` either gives a new `action dot` to invest in a character's `actions`, or a new `situational talent` which gives a temporary boost to their character in specific circumstances.
+Un `talento` fornisce un nuovo `punto azione` da investire nelle `azioni` di un personaggio, o un nuovo `talento situazionale` che dà una spinta temporanea al suo personaggio in circostanze specifiche.
 
-When a player gets a `situational talent`, they need to decide on a specific situation that activates the talent. The player chooses what they think works best for their character and note their decisions by filling in the blanks on their character sheet. For inspiration look at what has already been established in the world, and pick something that makes your character shine.
+Quando un giocatore ottiene un `talento situazionale`, deve decidere su una situazione specifica che attiva il talento. Il giocatore sceglie ciò che ritiene funzioni meglio per il proprio personaggio e annota le proprie decisioni riempiendo gli spazi vuoti sulla scheda del personaggio. Per ispirazione guarda ciò che è già stato stabilito nel mondo e scegli qualcosa che faccia brillare il tuo personaggio.
 
-> #### Designer Note: Hacking Progression
+> #### Note di design: hackerare la progressione
 >
-> The longer it takes for a `milestone` to happen, the longer it will take for characters to become stronger.
+> Più tempo ci vuole per raggiungere una `pietra miliare`, più tempo ci vorrà perché i personaggi diventino più forti.
 >
-> This is important to keep in mind depending on what kind of progression curve you want to have.
+> Questo è importante da tenere a mente a seconda del tipo di curva di progressione che si desidera avere.
 >
-> Do you want to have a short campaign where characters will grow stronger pretty quickly, or are you looking for a year-spanning one where the characters will mostly evolve by changing their character `details` and where milestones will be more scarce?
+> Vuoi avere una campagna breve in cui i personaggi diventino più forti abbastanza rapidamente, o stai cercando una campagna annuale in cui i personaggi si evolveranno principalmente cambiando i `dettagli` del loro personaggio e dove le pietre miliari saranno più scarse?
 >
-> You could go as low as giving the player character only 2-3 Talents during an entire campaign, or reward them more often.
+> Potresti arrivare a dare al personaggio del giocatore solo 2-3 talenti durante un'intera campagna o premiarlo più spesso.
 >
-> There isn't a right or wrong answer here. It depends 100% on what kind of game you want to have.
+> Non c'è una risposta giusta o sbagliata qui. Dipende al 100% dal tipo di gioco che vuoi avere.
 
-## Fortune Rolls
+## Tiri della fortuna
 
-The fortune roll is a tool that the GM can use to **disclaim decision making** in a situation the PCs aren’t directly involved in. It can also be used by the players when no other roll applies to the situation at hand. The result of the roll helps guide the outcome as to where the story goes next, but **doesn't feature momentum nor consequences**.
+Il tiro della fortuna è uno strumento che il GM può usare per **rifiutare il processo decisionale** in una situazione in cui i PG non sono direttamente coinvolti. Può anche essere usato dai giocatori quando nessun altro tiro si applica alla situazione in questione. Il risultato del tiro aiuta a guidare il risultato su dove va la storia, ma **non presenta slancio né conseguenze**.
 
-To make a fortune roll, build a dice pool by using a specific action or by **adding 1d6 per likeliness level of a thing happening**. Roll, and interpret the results.
+Per fare un tiro fortuna, costruisci una riserva di dadi usando un'azione specifica o **aggiungendo 1d6 per livello di probabilità che qualcosa accada**. Tira e interpreta i risultati.
 
-- On a **66**, it’s a **critical success**. There are great results, and something exceptional happens.
-- On a **6**, it’s a **full success**. There are great results.
-- On a **4-5**, it’s a **partial success**. There are mixed results.
-- On a **1-3**, it’s a **bad outcome**. There are bad results.
+- Con un **66**, è un **successo critico**. Ci sono grandi risultati e succede qualcosa di eccezionale.
+- Con un **6**, è un **pieno successo**. Ci sono ottimi risultati.
+- Con **4-5**, è un **successo parziale**. Ci sono risultati contrastanti.
+- Con **1-3**, è un **brutto risultato**. Ci sono cattivi risultati.
 
-## Flashbacks
+## Flashback
 
-Players can **call for a flashback scene** if they want to declare that their character tried to prepare for a certain situation even though it hasn't been discussed at the table yet. That being said, a flashback scene isn’t like time travel and **can't undo what was already established in the narrative**.
+I giocatori possono **richiedere una scena di flashback**se vogliono dichiarare che il loro personaggio ha provato a prepararsi per una certa situazione anche se non è stata ancora discussa al tavolo. Detto questo, una scena di flashback non è come un viaggio nel tempo e **non può annullare ciò che era già stabilito nella narrazione**.
 
-When a player calls for a flashback, the GM looks at the fiction and sets a cost in _momentum_ (from 0 to 2) that the player needs to pay before moving forward.
+Quando un giocatore richiede un flashback, il GM guarda la finzione e stabilisce un costo in _slancio_ (da 0 a 2) che il giocatore deve pagare prima di andare avanti.
 
-Afterwards, the player narrates a short scene of what their character attempted to accomplish in the flashback. Depending on the narrative and the character's actions, the GM decides between one of the following:
+Successivamente, il giocatore racconta una breve scena di ciò che il suo personaggio ha tentato di realizzare nel flashback. A seconda della narrazione e delle azioni del personaggio, il GM decide tra una delle seguenti opzioni:
 
-- **No roll is required**, the character's actions have a direct impact on the narrative.
-- **An action roll is required** to determine if the character's actions in the flashback were successful or not.
-- **A fortune roll is required**, as the success of the character's actions in the flashback were more a matter of luck than talent.
+- **Non è richiesto alcun tiro**, le azioni del personaggio hanno un impatto diretto sulla narrazione.
+- **È richiesto un tiro d'azione** per determinare se le azioni del personaggio nel flashback hanno avuto successo o meno.
+- **È richiesto un tiro fortuna**, poiché il successo delle azioni del personaggio nel flashback era più una questione di fortuna che di talento.
 
-# The Setting | Charge SRD
+# L'ambientazione | Charge SRD
 
-> #### Designer Note: Your Setting
+> #### Note di design: La tua ambientazione
 >
-> Use this section to explain the setting of your game.
+> Usa questa sezione per spiegare l'ambientazione del tuo gioco.
 >
-> To make your world be as vibrant and compelling as possible, think about what the general story of your game is about and how it should play out.
+> Per rendere il tuo mondo il più vibrante e avvincente possibile, pensa a qual è la storia generale del tuo gioco e come dovrebbe svolgersi.
 >
-> Establish a history of recent events so that the players have a sense of the setting. They can then start making connections between their character and the world they inhabit. How would they have reacted if they have taken part in those events?
+> Stabilisci una cronologia degli eventi recenti in modo che i giocatori abbiano un'idea dell'ambientazione. Possono quindi iniziare a stabilire connessioni tra il loro carattere e il mondo in cui abitano. Come avrebbero reagito se avessero preso parte a quegli eventi?
 >
-> Highlight important locations, cities, districts, or whole regions, that the PCs can choose to explore. What would scenes set in those locations look like? What actions would the PCs be taking there?
+> Evidenzia luoghi, città, distretti o intere regioni importanti che i PG possono scegliere di esplorare. Come sarebbero le scene ambientate in quei luoghi? Quali azioni avrebbero intrapreso i PG lì?
 >
-> Fill those locations with notable NPCs that the GM can use if needed. These don't have to be complex. A simple list with a name, an occupation, or role, and a couple of adjectives describing their respective personality can go a long way.
+> Riempi quelle posizioni con PNG degni di nota che il GM può utilizzare se necessario. Questi non devono essere complessi. Un semplice elenco con un nome, un'occupazione o un ruolo e un paio di aggettivi che descrivono la rispettiva personalità può fare molto.
 >
-> Do these NPCs belong to different organizations or factions? Continue to the next chapter to see how to define those as World Forces.
+> Questi PNG appartengono a diverse organizzazioni o fazioni? Continua al prossimo capitolo per vedere come definirli come Forze del Mondo.
 
-# World Forces | Charge SRD
+# Forze del mondo | Charge SRD
 
-World _forces_ are independent organizations with their own unique agendas that the GM might use during the game to make it feel more vibrant. **Each _force_ has a specific _goal_** that it will try to achieve by using certain _methods_.
+Le _forze_ del mondo sono organizzazioni indipendenti con propri obiettivi che il GM potrebbe utilizzare durante il gioco per renderlo più vivace. **Ogni _forza_ ha un _obiettivo_** specifico che cercherà di raggiungere utilizzando determinati _metodi_.
 
-If the GM feels it makes sense, they can create a _progress clock_ to represent the _force_ getting closer to their _goal_. They then mark progress on the clock when it fits the narrative - either as a _consequence_ or as a result of player actions helping the _force_.
+Se il GM ritiene che abbia senso, può creare un _orologio del progresso_ per rappresentare la _forza_ che si avvicina al proprio _obiettivo_. Quindi segnano i progressi sull'orologio quando si adattano alla narrazione, sia come _conseguenza_ che come risultato delle azioni del giocatore che aiutano la _forza_.
 
-> #### Designer Note: Making World Forces
+> #### Note di design: Creare le forze del mondo
 >
-> Charge games usually come with a couple of _world forces_.
+> I giochi in Charge di solito iniziano con un paio di _forze del mondo_.
 >
-> A _force_ is something or someone with goals looking to change the status quo in significant and narratively interesting ways.
+> Una _forza_ è qualcosa o qualcuno con obiettivi che cercano di cambiare lo status quo in modi significativi e narrativamente interessanti.
 >
-> This could be a person, but it could also be an organization, a country, a planet, mother nature, or the space-time continuum!
+> Potrebbe essere una persona, ma potrebbe anche essere un'organizzazione, un paese, un pianeta, madre natura o il continuum spazio-temporale!
 >
-> For each force you create, define what their _goal_ is. Their goal defines the impact the force will have on the world. A goal isn't necessarily good or bad— it is merely what the force wants to accomplish. It can also be considered to be "good" by the Force itself, but others might have different view on the subject.
+> Per ogni forza che crei, definisci qual è il loro _obiettivo_. Il loro obiettivo definisce l'impatto che la forza avrà sul mondo. Un obiettivo non è necessariamente buono o cattivo: è semplicemente ciò che la forza vuole realizzare. Può anche essere considerato "buono" dalla Forza stessa, ma altri potrebbero avere opinioni diverse sull'argomento.
 >
-> Lastly, define 2-3 _methods_ the force is going to use to interact with the world in the hope of achieving their goal
+> Infine, definisci 2-3 _metodi_ che la forza utilizzerà per interagire con il mondo nella speranza di raggiungere il proprio obiettivo.
 >
-> Here's an example of what a world force could look like:
+> Ecco un esempio di come potrebbe apparire una forza del mondo:
 >
-> #### Force Example
+> #### Esempio di Forza
 >
-> **The Rebel Forces** want to **get rid of the usurper that sits on the throne by:**
+> **Le forze ribelli** vogliono **sbarazzarsi dell'usurpatore che siede sul trono:**
 >
-> - _Finding dirt on the noble houses to expose corruption._
-> - _Convincing the real king to take back what is theirs._
-> - _Finding money to hire mercenaries to fight the war that is to come._
+> - _Scovare sporcizia nelle case nobili per esporre la corruzione._
+> - _Convincere il vero re a riprendersi ciò che è suo._
+> - _Trovare soldi per assumere mercenari per combattere la guerra che verrà._
 >
-> Designing world forces is an efficient and simple way to fill the world with interesting factions that the players will be able to interact with if they so desire.
+> Progettare le forze del mondo è un modo efficiente e semplice per riempire il mondo di fazioni interessanti con cui i giocatori potranno interagire se lo desiderano.
 
-# Before We Start | Charge SRD
+# Prima di iniziare | Charge SRD
 
-Here are a couple of tips and tricks you should read before you start playing the game.
+Ecco un paio di suggerimenti e trucchi che dovresti leggere prima di iniziare a giocare.
 
-## For the GM
+## Per il GM
 
-- **Be a fan of the players.** You aren’t there to trap them or see them lose. You are there to help facilitate an interesting story. Be on the edge of your seat when they are challenged, and cheer when they succeed!
-- **Don’t plan, play.** You don’t need to spend hours planning all the details of each and every session. No plan survives an encounter with the players, so save yourself some time and play to find out what happens instead.
-- **When in doubt, ask questions.** The players have tons of wonderful ideas if you just listen to them. It’s OK to not know about everything. Ask your players questions and fill the world with their answers.
-- **This is a game, not a simulation.** Everyone is here to have fun, so try to stay away from hyper-realism. If it looks cool and feels like it could be possible, let the players try. The dice will help guide you towards the rest of the story.
+- **Sii un fan dei giocatori.** Non sei lì per intrappolarli o vederli perdere. Sei lì per aiutare a facilitare una storia interessante. Mantieni il tuo posto quando vengono sfidati e tifa quando ci riescono!
+- **Non pianificare, gioca.** Non è necessario passare ore a pianificare tutti i dettagli di ogni singola sessione. Nessun piano sopravvive a un incontro con i giocatori, quindi risparmia un po' di tempo e gioca per scoprire cosa succede invece.
+- **In caso di dubbio, fai domande.** I giocatori hanno un sacco di idee meravigliose se solo li ascolti. Va bene non sapere tutto. Fai domande ai tuoi giocatori e riempi il mondo con le loro risposte.
+- **Questo è un gioco, non una simulazione.** Tutti sono qui per divertirsi, quindi cerca di stare lontano dall'iperrealismo. Se sembra interessante e sembra possibile, lascia che i giocatori provino. I dadi ti guideranno verso il resto della storia.
 
-## For The Players
+## Per i Giocatori
 
-- **Let everyone have their moment.** Everyone enjoys it when their character does something cool and the spotlight is on them. So for that reason, try to make sure everyone at the table gets a fair amount of screen time!
-- **You are a writer, not a spectator.** The GM will help guide the story, but you are as much a part of the writing process as them. Embrace this narrative control and fill out the world with your ideas.
-- **Take risks.** This isn’t like real life, you’re allowed to play dangerously. The only thing that will come out of you doing so, is a fantastic story. Don't be scared of engaging with the fiction.
-- **Rise up.** When your character takes actions, they might fail or consequences might arise. But that’s OK, failure and consequences make for a more interesting story. When at first you don't succeed, get back up and try again using a new approach.
+- **Lascia che tutti abbiano il loro momento.** Tutti si divertono quando il loro personaggio fa qualcosa di interessante e i riflettori sono puntati su di loro. Quindi, per questo motivo, cerca di assicurarti che tutti al tavolo abbiano una discreta quantità di tempo davanti allo schermo!
+- **Sei uno scrittore, non uno spettatore.** Il GM aiuterà a guidare la storia, ma tu sei parte del processo di scrittura tanto quanto loro. Abbraccia questo controllo narrativo e riempi il mondo con le tue idee.
+- **Corri dei rischi.** Questa non è come la vita reale, ti è permesso giocare pericolosamente. L'unica cosa che uscirà da te così facendo è una storia fantastica. Non aver paura di interagire con la finzione.
+- **Alzati.** Quando il tuo personaggio intraprende delle azioni, queste potrebbero fallire o potrebbero verificarsi delle conseguenze. Ma va bene, il fallimento e le conseguenze rendono la storia più interessante. Quando all'inizio non ci riesci, rialzati e riprova usando un nuovo approccio.
 
-# Extras | Extras
+# Extra | Extra
 
-> #### Designer Notes: What are Extras
+> #### Note di design: Cosa sono gli Extra
 >
-> Extras are additional mechanics that you hack into your games to tailor it to a specific genre or style.
+> Gli extra sono meccaniche aggiuntive che puoi modificare nei tuoi giochi per adattarli a un genere o uno stile specifico.
 >
-> You can see the full list of extras [here](/en/srds/fari-rpgs/charge-rpg/what-are-extras) but this SRD contains a couple of pre-condensed extras that you can use as is.
+> Puoi vedere l'elenco completo degli extra [qui](/en/srds/fari-rpgs/charge-rpg/what-are-extras) ma questo SRD contiene un paio di extra pre-condensati che puoi usare così come sono.
 
-# World Extra | Extras
+# Mondo | Extra
 
-During sessions, the PCs will go on missions to accomplish objectives. They will then come back to their H.Q. to debrief, rest and recover.
+Durante le sessioni, i PG andranno in missione per raggiungere gli obiettivi. Torneranno quindi al loro quartier generale. fare il debriefing, riposare e recuperare.
 
-At the start of the game, or **every time the PCs come back to their H.Q.**, the GM draws **3 `hook cards`** of a standard deck of playing cards.
+All'inizio del gioco, o **ogni volta che i PG tornano al loro quartier generale**, il GM pesca **3 "carte uncinate"** da un normale mazzo di carte da gioco.
 
-- The first card tells us about something related to [Theme #1].
-- The second card tells us about something related to [Theme #2].
-- The third tells the GM what the PC's next mission is going to be.
+- La prima carta ci parla di qualcosa relativo al [Tema #1].
+- La seconda carta ci parla di qualcosa relativo al [Tema #2].
+- La terza dice al GM quale sarà la prossima missione del PG.
 
-The GM can use those hooks to create narrative threads for the PCs to explore and bring life to the world.
+Il GM può usare questi agganci per creare fili narrativi che i PG possano esplorare e portare vita nel mondo.
 
-> #### Designer Note
+> #### Note di design
 >
-> Change the themes to match your game's settings.
+> Cambia i temi in modo che corrispondano alle ambientazioni del tuo gioco.
 >
-> - A game about a the crew of a space ship trying to make ends meet could have: **The Ship** / **The Crew** / **The Next Job**.
-> - A game about a thieving crew could have: **The Crew** / **The Other Factions** / **The Next Score**.
-> - A game about super heroes fighting crime in a metropolis could have: **The City** / **The News** / **The Next Crime**
+> - Un gioco sull'equipaggio di una nave spaziale che cerca di sbarcare il lunario potrebbe avere: **La nave**/**L 'equipaggio**/**Il prossimo lavoro**.
+> - Un gioco su una banda di ladri potrebbe avere: **La squadra**/**Le altre fazioni**/**Il prossimo colpo**.
+> - Un gioco sui supereroi che combattono il crimine in una metropoli potrebbe avere: **La città**/**Le notizie**/**Il prossimo crimine**
 
 <details open>
 	<summary>
-   **1st Card: [Theme #1]**
+   **1a carta: [Tema #1]**
 	</summary>
-- **Ace**: [prompt] 
-- **2**: [prompt] 
-- **3**: [prompt] 
-- **4**: [prompt] 
-- **5**: [prompt] 
-- **6**: [prompt] 
-- **7**: [prompt] 
-- **8**: [prompt] 
-- **9**: [prompt] 
-- **10**: [prompt] 
-- **Jack**: [prompt] 
-- **Queen**: [prompt] 
-- **King**: [prompt] 
+- **Asso**: [spunto]
+- **2**: [spunto]
+- **3**: [spunto]
+- **4**: [spunto]
+- **5**: [spunto]
+- **6**: [spunto]
+- **7**: [spunto]
+- **8**: [spunto]
+- **9**: [spunto]
+- **10**: [spunto]
+- **Jack**: [spunto]
+- **Regina**: [spunto]
+- **Re**: [domanda]
 </details>
 
 <details>
 	<summary>
-   **2nd Card: [Theme #2]**
+   **2a carta: [Tema #2]**
 	</summary>
-- **Ace**: [prompt] 
-- **2**: [prompt] 
-- **3**: [prompt] 
-- **4**: [prompt] 
-- **5**: [prompt] 
-- **6**: [prompt] 
-- **7**: [prompt] 
-- **8**: [prompt] 
-- **9**: [prompt] 
-- **10**: [prompt] 
-- **Jack**: [prompt] 
-- **Queen**: [prompt] 
-- **King**: [prompt] 
+- **Asso**: [spunto]
+- **2**: [spunto]
+- **3**: [spunto]
+- **4**: [spunto]
+- **5**: [spunto]
+- **6**: [spunto]
+- **7**: [spunto]
+- **8**: [spunto]
+- **9**: [spunto]
+- **10**: [spunto]
+- **Jack**: [spunto]
+- **Regina**: [spunto]
+- **Re**: [domanda]
 </details>
 
 <details>
 	<summary>
-   **3rd Card: The Mission**
+   **terza carta: la missione**
 	</summary>
-- **Ace**: [prompt] 
-- **2**: [prompt] 
-- **3**: [prompt] 
-- **4**: [prompt] 
-- **5**: [prompt] 
-- **6**: [prompt] 
-- **7**: [prompt] 
-- **8**: [prompt] 
-- **9**: [prompt] 
-- **10**: [prompt] 
-- **Jack**: [prompt] 
-- **Queen**: [prompt] 
-- **King**: [prompt] 
+- **Asso**: [spunto]
+- **2**: [spunto]
+- **3**: [spunto]
+- **4**: [spunto]
+- **5**: [spunto]
+- **6**: [spunto]
+- **7**: [spunto]
+- **8**: [spunto]
+- **9**: [spunto]
+- **10**: [spunto]
+- **Jack**: [spunto]
+- **Regina**: [spunto]
+- **Re**: [domanda]
 </details>
 
-Once the 3 cards are drawn, the GM uses the prompts on the first two to explain what happened while the PCs were away. The PCs can then spend time exploring those threads as they see fit.
+Una volta pescate le 3 carte, il GM usa i suggerimenti delle prime due per spiegare cosa è successo mentre i PG erano assenti. I PG possono quindi dedicare del tempo all'esplorazione di quei thread come meglio credono.
 
-When the PCs are ready for their next mission, the GM makes a `mission roll`.
+Quando i PG sono pronti per la loro prossima missione, il GM fa un `tiro per la missione`.
 
-To do so, the GM looks at the 3 cards they've drawn, and builds a dice pool of `1d6` for each red card (<span style="color:red">♥ ♦</span>).
+Per fare ciò, il GM guarda le 3 carte che ha pescato e costruisce una riserva di dadi di `1d6` per ogni carta rossa (<span style="color:red">♥ ♦</span>).
 
-If there's no red card, roll `2d6`, and select the lowest number.
+Se non ci sono cartellini rossi, tira `2d6` e seleziona il numero più basso.
 
-The result of this roll tells us what is going to be the initial `risk` the PCs will find themselves in when starting their next mission.
+Il risultato di questo tiro ci dice quale sarà il "rischio" iniziale in cui si troveranno i pg quando inizieranno la loro prossima missione.
 
-- On a `1-3`, the PCs start in a `high risk` position.
-- On a `4-5`, the PCs start in a `moderate risk` position.
-- On a `6`, the PCs start in a `low risk` position.
-- On a `66`, the PCs start in a `low risk` position, and gain some additional benefit.
+- Con `1-3`, i PG iniziano in una posizione di `alto rischio`.
+- Su `4-5`, i pg iniziano in una posizione di `rischio moderato`.
+- Con un `6`, i PG iniziano in una posizione di `basso rischio`.
+- Con un `66`, i PG iniziano in una posizione di `basso rischio` e ottengono qualche vantaggio aggiuntivo.
 
-The GM introduces the mission to the PCs, and they decide how they will approach the situation.
+Il GM presenta la missione ai PG, e loro decidono come affrontare la situazione.
 
-Once they've decided on a strategy, the GM cuts to the first scene of the mission using the result of the mission roll to describe the PCs current position.
+Una volta che hanno deciso una strategia, il GM passa alla prima scena della missione usando il risultato del tiro di missione per descrivere la posizione attuale dei PG.
 
-Once the mission is over, the PCs go back to their H.Q., and the loop starts anew.
+Una volta terminata la missione, i pg tornano al loro quartier generale e il ciclo ricomincia.
 
-# Attachment Extra | Extras
+# Allegato | Extra
 
-Characters are defined using `details` to represent who they are, what they are like and who they are linked to. By default, `details` don't have any mechanical uses in the game apart from providing narrative liberties.
+I personaggi sono definiti usando `dettagli` per rappresentare chi sono, come sono e a chi sono legati. Di default, i `dettagli` non hanno alcun uso meccanico nel gioco oltre a fornire libertà narrative.
 
-An `attachment` is a character `detail` that you can choose to temporarily lose to resist an incoming `consequence`. If you want to resist a `consequence`, but don’t want to make a `determination roll`, you can decide to break one of your `attachments`. Doing so cancels the consequence outright.
+Un `allegato` è un `dettaglio` del personaggio che puoi scegliere di perdere temporaneamente per resistere a una `conseguenza` in arrivo. Se vuoi resistere a una `conseguenza`, ma non vuoi fare un `tiro risolutezza`, puoi decidere di rompere uno dei tuoi `allegati`. In questo modo si annulla completamente la conseguenza.
 
-However, this can only be done when it makes sense narratively, and that particular `attachment` cannot be used until time is taken to repair or reacquire it.
+Tuttavia, questo può essere fatto solo quando ha senso dal punto di vista narrativo e quel particolare `allegato` non può essere utilizzato fino a quando non ci vorrà del tempo per ripararlo o riacquistarlo.
 
-To reacquire or repair an `attachment`, the PC needs to start a `project progress clock` and track it on their character sheet. The clock starts at 4 segments, but may have more segments if the attachment is complicated to repair, if it was heavily damaged, or if it is difficult to reacquire.
+Per riacquisire o riparare un `allegato`, il PG deve avviare un "orologio di avanzamento del progetto" e tenerne traccia sulla scheda del personaggio. L'orologio parte da 4 sezioni, ma può avere più sezioni se l'accessorio è complicato da riparare, se è stato gravemente danneggiato o se è difficile da riacquistare.
 
-To make progress on the project, a character may only roll to repair a "broken" `attachment` when they have the appropriate amount of downtime.
+Per fare progressi nel progetto, un personaggio può tirare per riparare un "accessorio" "rotto" solo quando ha il tempo di inattività appropriato.
 
-Once the project is completed, the character is permitted to use the `attachment` in the fiction, and is allowed to block a new `consequence` by breaking it once again.
+Una volta che il progetto è completato, il personaggio può usare l'`allegato` nella finzione, ed è autorizzato a bloccare una nuova `conseguenza` rompendola ancora una volta.
 
-# Licencing
+# Licenza
 
-The Charge SRD is released under Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
+Il Charge SRD è rilasciato sotto Creative Commons Attribution [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
-That means you are free to use the content of this SRD for your own game, provided you give proper credit.
+Ciò significa che sei libero di utilizzare il contenuto di questo dominio di risorse condivise per il tuo gioco, a condizione che tu dia il giusto merito.
 
-Because Charge is based off Blades in the Dark, you would also need to credit the creators of this game as well.
+Poiché Charge è basato su Blades in the Dark, dovresti anche accreditare i creatori di questo gioco.
 
-To do so, copy the text below in your game, and things should be good to go.
+Per fare ciò, copia il testo qui sotto nel tuo gioco e le cose dovrebbero andare bene.
 
-> This work is based on Charge, product of Fari RPGs (https://farirpgs.com/), developed and authored by René-Pier Deshaies-Gélinas , and licensed for our use under the Creative Commons Attribution 4.0 License ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
+> Questa opera è basata su Charge, prodotto di Fari RPGs (https://farirpgs.com/), sviluppato e scritto da René-Pier Deshaies-Gélinas e concesso in licenza per il nostro uso con la licenza Creative Commons Attribution 4.0 ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))
 >
-> This work is also based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
+> Anche questa opera è basata su Blades in the Dark (disponibile su [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), prodotto di One Seven Design, sviluppato e scritto da John Harper, e concesso in licenza per il nostro utilizzo ai sensi della licenza Creative Commons Attribution 3.0 Unported ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
 
-## Powered By Charge
+## Powered by Charge
 
-If you want, you can also include the following images in your game to say that it's powered by Charge.
+Se vuoi, puoi anche includere le seguenti immagini nel tuo gioco per dire che è Powered by Charge.
 
 <div style="display: flex">
 	<img style="background: #fff" src="https://gyazo.com/e6f386391ee4d8a079aa4d10469b15d0.png" width="300px" style="margin-bottom: 1rem"/>
 	<img style="background: #000" src="https://gyazo.com/3f66d3276513deef1cdb7c200c098689.png" width="300px" style="margin-bottom: 1rem"/>
 </div>
 
-# Credits
+# Crediti
 
-This work is based on Blades in the Dark (found at [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
+Questa opera è basata su Blades in the Dark (disponibile su [http://www.bladesinthedark.com/](https://www.bladesinthedark.com/)), prodotto di One Seven Design, sviluppato e scritto da John Harper e concesso in licenza per il nostro utilizzo ai sensi della licenza Creative Commons Attribution 3.0 Unported ([http://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)).
