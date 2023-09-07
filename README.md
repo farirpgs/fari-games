@@ -1,18 +1,5 @@
 # Fari Games
 
-Home of the https://fari.games website
+Home to the old fari.games website, now redirecting to fari.community.
 
-# Getting Started
-
-Install Node `^16.2.0` (to match engine property in `package.json`)
-
-1. Then `npm install`
-2. and run `npm start` to start the site
-
-## Special Thanks
-
-<a href="https://www.netlify.com">
-  <img width="100px" src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
-</a>
-
-- [Netlify](https://netlify.com/) for hosting Fari Games.
+For more information, go to https://github.com/farirpgs/fari-community
