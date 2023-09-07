@@ -8,15 +8,15 @@ import React, { Suspense, useContext } from "react";
 import ReactDom from "react-dom";
 import { HelmetProvider } from "react-helmet-async";
 import {
-  BrowserRouter as Router,
   Redirect,
   Route,
+  BrowserRouter as Router,
   Switch,
 } from "react-router-dom";
+import { Navbar } from "./Navbar";
 import { ErrorBoundary } from "./components/ErrorBoundary/ErrorBoundary";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { SettingsContext, useSettings } from "./contexts/SettingsContext";
-import { Navbar } from "./Navbar";
 import { SentryService } from "./services/SentryService";
 import { darkTheme, lightTheme } from "./theme";
 
@@ -103,7 +103,7 @@ function App() {
                         let creator = props.match.params.author;
                         let project = props.match.params.game;
                         const page = props.match.params.chapter;
-
+                        // https://fari.games/en/srds/fari-games/charge-rpg
                         if (creator === "donbisdorf") {
                           creator = "don-bisdorf";
                         }
@@ -131,6 +131,9 @@ function App() {
 
                         if (project === "breathless-srd") {
                           project = "breathless";
+                        }
+                        if (project === "charge-rpg") {
+                          project = "charge";
                         }
                         if (project === "hopes-and-dreams-srd") {
                           project = "hopes-and-dreams";
